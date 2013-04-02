@@ -1,0 +1,65 @@
+#!/bin/bash
+
+################################################################################
+# BEGIN
+################################################################################
+
+source functions
+
+################################################################################
+# GLOBALS
+################################################################################
+
+ABSetDefault AB_SYSTEM_INSTALL_DIR                    /usr/local/pkg
+ABSetDefault AB_SYSTEM_DATA_DIR                       /usr/local/data
+
+################################################################################
+# DEPENDENCIES
+################################################################################
+
+#ABSetDefault AB_PACKAGE_VIM_DEPENDS                 PKG_DEPENDS
+
+#ABSetDefault AB_PACKAGE_PKG_DEPENDS_INSTALL_ENABLE              no
+#ABSetDefault AB_PACKAGE_PKG_DEPENDS_INSTALL_FORCE               no
+#ABSetDefault AB_PACKAGE_PKG_DEPENDS_INSTALL_NAME                pkgdependsname
+#ABSetDefault AB_PACKAGE_PKG_DEPENDS_INSTALL_DIR                 $AB_SYSTEM_INSTALL_DIR/$AB_PACKAGE_PKG_DEPENDS_INSTALL_NAME
+#ABSetDefault AB_PACKAGE_PKG_DEPENDS_INCLUDE_DIR                 $AB_PACKAGE_PKG_DEPENDS_INSTALL_DIR/include
+#ABSetDefault AB_PACKAGE_PKG_DEPENDS_LIB_DIR                     $AB_PACKAGE_PKG_DEPENDS_INSTALL_DIR/lib
+
+#ABSetCompileFlags $AB_PACKAGE_VIM_DEPENDS
+
+################################################################################
+# CONFIGURATION
+################################################################################
+
+ABSetDefault AB_PACKAGE_VIM_NAME                      vim
+ABSetDefault AB_PACKAGE_VIM_VERSION                   7.0-2
+ABSetDefault AB_PACKAGE_VIM_DESC                      'A text editor'
+ABSetDefault AB_PACKAGE_VIM_SOURCES                   'vim-7.0-fixes-7.patch vim-7.0-mandir-1.patch vim-7.0.tar.bz2'
+
+ABSetDefault AB_PACKAGE_VIM_INSTALL_NAME              ${AB_PACKAGE_VIM_NAME}-${AB_PACKAGE_VIM_VERSION}
+
+ABSetDefault AB_PACKAGE_VIM_INSTALL_DIR               $AB_SYSTEM_INSTALL_DIR/$AB_PACKAGE_VIM_INSTALL_NAME
+ABSetDefault AB_PACKAGE_VIM_INCLUDE_DIR               $AB_PACKAGE_VIM_INSTALL_DIR/include
+ABSetDefault AB_PACKAGE_VIM_LIB_DIR                   $AB_PACKAGE_VIM_INSTALL_DIR/lib
+
+ABSetDefault AB_PACKAGE_VIM_CONFIGURE_PREFIX          $AB_PACKAGE_VIM_INSTALL_DIR
+ABSetDefault AB_PACKAGE_VIM_CONFIGURE_WITH_EDITOR     /usr/bin/nano
+
+AB_PACKAGE_NAME=$AB_PACKAGE_VIM_NAME
+AB_PACKAGE_VERSION=$AB_PACKAGE_VIM_VERSION
+AB_PACKAGE_DESC=$AB_PACKAGE_VIM_DESC
+AB_PACKAGE_SOURCES=$AB_PACKAGE_VIM_SOURCES
+
+AB_PACKAGE_INSTALL_NAME=$AB_PACKAGE_VIM_INSTALL_NAME
+
+AB_PACKAGE_INSTALL_DIR=$AB_PACKAGE_VIM_INSTALL_DIR
+AB_PACKAGE_INCLUDE_DIR=$AB_PACKAGE_VIM_INCLUDE_DIR
+AB_PACKAGE_LIB_DIR=$AB_PACKAGE_VIM_LIB_DIR
+
+AB_PACKAGE_CONFIGURE_PREFIX=$AB_PACKAGE_VIM_CONFIGURE_PREFIX
+AB_PACKAGE_CONFIGURE_WITH_EDITOR=$AB_PACKAGE_VIM_CONFIGURE_WITH_EDITOR
+
+################################################################################
+# END
+################################################################################

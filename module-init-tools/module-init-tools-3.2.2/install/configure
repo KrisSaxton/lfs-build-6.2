@@ -1,0 +1,62 @@
+#!/bin/bash
+
+################################################################################
+# BEGIN
+################################################################################
+
+source functions
+
+################################################################################
+# GLOBALS
+################################################################################
+
+ABSetDefault AB_SYSTEM_INSTALL_DIR                              /
+
+################################################################################
+# DEPENDENCIES
+################################################################################
+
+ABSetDefault AB_PACKAGE_MODULE_INIT_TOOLS_DEPENDS                 PKG_DEPENDS
+
+ABSetDefault AB_PACKAGE_PKG_DEPENDS_INSTALL_ENABLE              no
+ABSetDefault AB_PACKAGE_PKG_DEPENDS_INSTALL_FORCE               no
+ABSetDefault AB_PACKAGE_PKG_DEPENDS_INSTALL_NAME                pkgdependsname
+ABSetDefault AB_PACKAGE_PKG_DEPENDS_INSTALL_DIR                 $AB_SYSTEM_INSTALL_DIR/$AB_PACKAGE_PKG_DEPENDS_INSTALL_NAME
+ABSetDefault AB_PACKAGE_PKG_DEPENDS_INCLUDE_DIR                 $AB_PACKAGE_PKG_DEPENDS_INSTALL_DIR/include
+ABSetDefault AB_PACKAGE_PKG_DEPENDS_LIB_DIR                     $AB_PACKAGE_PKG_DEPENDS_INSTALL_DIR/lib
+
+#ABSetCompileFlags $AB_PACKAGE_MODULE_INIT_TOOLS_DEPENDS
+
+################################################################################
+# CONFIGURATION
+################################################################################
+
+ABSetDefault AB_PACKAGE_MODULE_INIT_TOOLS_NAME                      module-init-tools
+ABSetDefault AB_PACKAGE_MODULE_INIT_TOOLS_VERSION                   3.2.2
+ABSetDefault AB_PACKAGE_MODULE_INIT_TOOLS_DESC                      'programs for handling kernel modules'
+
+ABSetDefault AB_PACKAGE_MODULE_INIT_TOOLS_INSTALL_NAME              ${AB_PACKAGE_MODULE_INIT_TOOLS_NAME}-${AB_PACKAGE_MODULE_INIT_TOOLS_VERSION}
+
+ABSetDefault AB_PACKAGE_MODULE_INIT_TOOLS_INSTALL_DIR               $AB_SYSTEM_INSTALL_DIR
+ABSetDefault AB_PACKAGE_MODULE_INIT_TOOLS_INCLUDE_DIR               $AB_PACKAGE_MODULE_INIT_TOOLS_INSTALL_DIR/include
+ABSetDefault AB_PACKAGE_MODULE_INIT_TOOLS_LIB_DIR                   $AB_PACKAGE_MODULE_INIT_TOOLS_INSTALL_DIR/lib
+
+ABSetDefault AB_PACKAGE_MODULE_INIT_TOOLS_CONFIGURE_PREFIX          $AB_PACKAGE_MODULE_INIT_TOOLS_INSTALL_DIR
+ABSetDefault AB_PACKAGE_MODULE_INIT_TOOLS_CONFIGURE_WITH_EDITOR     /usr/bin/nano
+
+AB_PACKAGE_NAME=$AB_PACKAGE_MODULE_INIT_TOOLS_NAME
+AB_PACKAGE_VERSION=$AB_PACKAGE_MODULE_INIT_TOOLS_VERSION
+AB_PACKAGE_DESC=$AB_PACKAGE_MODULE_INIT_TOOLS_DESC
+
+AB_PACKAGE_INSTALL_NAME=$AB_PACKAGE_MODULE_INIT_TOOLS_INSTALL_NAME
+
+AB_PACKAGE_INSTALL_DIR=$AB_PACKAGE_MODULE_INIT_TOOLS_INSTALL_DIR
+AB_PACKAGE_INCLUDE_DIR=$AB_PACKAGE_MODULE_INIT_TOOLS_INCLUDE_DIR
+AB_PACKAGE_LIB_DIR=$AB_PACKAGE_MODULE_INIT_TOOLS_LIB_DIR
+
+AB_PACKAGE_CONFIGURE_PREFIX=$AB_PACKAGE_MODULE_INIT_TOOLS_CONFIGURE_PREFIX
+AB_PACKAGE_CONFIGURE_WITH_EDITOR=$AB_PACKAGE_MODULE_INIT_TOOLS_CONFIGURE_WITH_EDITOR
+
+################################################################################
+# END
+################################################################################

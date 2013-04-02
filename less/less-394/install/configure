@@ -1,0 +1,53 @@
+#!/bin/bash
+
+################################################################################
+# BEGIN
+################################################################################
+
+source functions
+
+################################################################################
+# GLOBALS
+################################################################################
+
+ABSetDefault AB_SYSTEM_INSTALL_DIR                              /usr
+
+################################################################################
+# DEPENDENCIES
+################################################################################
+
+#ABSetDefault AB_PACKAGE_LESS_DEPENDS                           ''
+#ABSetCompileFlags $AB_PACKAGE_LESS_DEPENDS
+
+################################################################################
+# CONFIGURATION
+################################################################################
+
+ABSetDefault AB_PACKAGE_LESS_NAME                      less
+ABSetDefault AB_PACKAGE_LESS_VERSION                   394
+ABSetDefault AB_PACKAGE_LESS_DESC                      'A text file viewer'
+
+ABSetDefault AB_PACKAGE_LESS_INSTALL_NAME              ${AB_PACKAGE_LESS_NAME}-${AB_PACKAGE_LESS_VERSION}
+
+ABSetDefault AB_PACKAGE_LESS_INSTALL_DIR               $AB_SYSTEM_INSTALL_DIR
+ABSetDefault AB_PACKAGE_LESS_INCLUDE_DIR               $AB_PACKAGE_LESS_INSTALL_DIR/include
+ABSetDefault AB_PACKAGE_LESS_LIB_DIR                   $AB_PACKAGE_LESS_INSTALL_DIR/lib
+
+ABSetDefault AB_PACKAGE_LESS_CONFIGURE_PREFIX          $AB_PACKAGE_LESS_INSTALL_DIR
+
+AB_PACKAGE_NAME=$AB_PACKAGE_LESS_NAME
+AB_PACKAGE_VERSION=$AB_PACKAGE_LESS_VERSION
+AB_PACKAGE_DESC=$AB_PACKAGE_LESS_DESC
+
+AB_PACKAGE_INSTALL_NAME=$AB_PACKAGE_LESS_INSTALL_NAME
+
+AB_PACKAGE_INSTALL_DIR=$AB_PACKAGE_LESS_INSTALL_DIR
+AB_PACKAGE_INCLUDE_DIR=$AB_PACKAGE_LESS_INCLUDE_DIR
+AB_PACKAGE_LIB_DIR=$AB_PACKAGE_LESS_LIB_DIR
+
+AB_PACKAGE_CONFIGURE_PREFIX=$AB_PACKAGE_LESS_CONFIGURE_PREFIX
+AB_PACKAGE_CONFIGURE_WITH_EDITOR=$AB_PACKAGE_LESS_CONFIGURE_WITH_EDITOR
+
+################################################################################
+# END
+################################################################################

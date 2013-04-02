@@ -1,0 +1,61 @@
+#!/bin/bash
+# Place in this file any commands you would like to be run
+# after the package has been installed
+
+# Setup a default grub menu.lst if none if found
+if [ ! -e /boot/grub/menu.lst ]; then
+cat > /boot/grub/menu.lst << EOF
+# Default to first menu entry
+default 0
+
+# Output to both VGA and serial
+serial --unit=0 --speed=57600 --word=8 --parity=no --stop=1
+terminal --timeout=5 serial console
+
+# Allow 5 seconds before booting default
+timeout=5
+
+# Use prettier colors
+color green/black light-green/black
+
+# Begin kernel entries
+title GNU/Linux (AB_PACKAGE_NAME-AB_PACKAGE_VERSION)
+root (hd0,0)
+kernel --no-mem-option /boot/AB_PACKAGE_NAME-AB_PACKAGE_VERSION root=/dev/hda1 console=tty0 console=ttyS0,57600n8
+EOF
+fi
+
+# Place the following file(s) containing the additional path for this
+# application into the directory that will be parsed by shell when
+# setting the PATH variable.
+LDCONFDIR=/etc/ld.so.conf.d
+PROFILEPATH=/etc/profile.d/env/path
+MYPKGROOT=AB_PACKAGE_INSTALL_DIR
+
+if [ ! -d $PROFILEPATH ]; then
+  mkdir -p $PROFILEPATH
+fi
+
+
+for i in bin sbin; do
+  if [ -d $MYPKGROOT/$i ]; then
+    echo "Path $MYPKGROOT/$i not found, adding..."
+    echo "$MYPKGROOT/$i" \
+    > $PROFILEPATH/AB_PACKAGE_NAME-AB_PACKAGE_VERSION.$i
+  fi
+done
+
+# Do something similar for ld-linux.so
+
+if [ ! -d $LDCONFDIR ]; then
+  mkdir -p $LDCONFDIR
+fi
+
+for i in lib libexec; do
+  if [ -d $MYPKGROOT/$i ]; then
+    echo "Library path $MYPKGROOT/$i not found, adding..."
+    echo "$MYPKGROOT/$i" \
+    > $LDCONFDIR/AB_PACKAGE_NAME-AB_PACKAGE_VERSION.$i
+    ldconfig
+  fi
+done

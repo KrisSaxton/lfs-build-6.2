@@ -1,0 +1,3 @@
+usage:
+  configure [--shared] [--prefix=PREFIX]  [--exec_prefix=EXPREFIX]
+     [--libdir=LIBDIR] [--includedir=INCLUDEDIR]

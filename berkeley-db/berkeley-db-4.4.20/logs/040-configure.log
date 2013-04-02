@@ -1,0 +1,260 @@
+checking build system type... i686-pc-linux-gnu
+checking host system type... i686-pc-linux-gnu
+checking if building in the top-level or dist directories... no
+checking if --disable-cryptography option specified... no
+checking if --disable-hash option specified... no
+checking if --disable-queue option specified... no
+checking if --disable-replication option specified... no
+checking if --disable-statistics option specified... no
+checking if --disable-verify option specified... no
+checking if --enable-compat185 option specified... yes
+checking if --enable-cxx option specified... yes
+checking if --enable-debug option specified... no
+checking if --enable-debug_rop option specified... no
+checking if --enable-debug_wop option specified... no
+checking if --enable-diagnostic option specified... no
+checking if --enable-dump185 option specified... no
+checking if --enable-java option specified... no
+checking if --enable-mingw option specified... no
+checking if --enable-o_direct option specified... no
+checking if --enable-posixmutexes option specified... no
+checking if --enable-pthread_self option specified... no
+checking if --enable-rpc option specified... no
+checking if --enable-smallbuild option specified... no
+checking if --enable-tcl option specified... no
+checking if --enable-test option specified... no
+checking if --enable-uimutexes option specified... no
+checking if --enable-umrw option specified... no
+checking if --with-mutex=MUTEX option specified... no
+checking if --with-tcl=DIR option specified... no
+checking if --with-uniquename=NAME option specified... no
+checking for ar... ar
+checking for chmod... chmod
+checking for cp... cp
+checking for ln... ln
+checking for mkdir... mkdir
+checking for ranlib... ranlib
+checking for ranlib... /usr/bin/ranlib
+checking for rm... rm
+checking for sh... sh
+checking for sh... /bin/sh
+checking for true... true
+checking for strip... strip
+checking for strip... /usr/bin/strip
+checking for a BSD-compatible install... /usr/bin/install -c
+checking for cc... cc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether cc accepts -g... yes
+checking for cc option to accept ANSI C... none needed
+checking for an ANSI C-conforming const... yes
+checking for g++... g++
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking how to run the C++ preprocessor... g++ -E
+checking whether C++ supports the ISO C++ standard includes... yes
+checking whether we are using gcc version 2.96... no
+checking whether g++ requires -fhandle-exceptions... no
+checking for a sed that does not truncate output... /bin/sed
+checking for egrep... grep -E
+checking for ld used by cc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for /usr/bin/ld option to reload object files... -r
+checking for BSD-compatible nm... /usr/bin/nm -B
+checking whether ln -s works... yes
+checking how to recognise dependent libraries... pass_all
+checking how to run the C preprocessor... cc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking dlfcn.h usability... yes
+checking dlfcn.h presence... yes
+checking for dlfcn.h... yes
+checking how to run the C++ preprocessor... g++ -E
+checking for g77... no
+checking for f77... no
+checking for xlf... no
+checking for frt... no
+checking for pgf77... no
+checking for fort77... no
+checking for fl32... no
+checking for af77... no
+checking for f90... no
+checking for xlf90... no
+checking for pgf90... no
+checking for epcf90... no
+checking for f95... no
+checking for fort... no
+checking for xlf95... no
+checking for ifc... no
+checking for efc... no
+checking for pgf95... no
+checking for lf95... no
+checking for gfortran... no
+checking whether we are using the GNU Fortran 77 compiler... no
+checking whether  accepts -g... no
+checking the maximum length of command line arguments... 32768
+checking command to parse /usr/bin/nm -B output from cc object... ok
+checking for objdir... .libs
+checking for ar... ar
+checking for ranlib... ranlib
+checking for strip... strip
+checking if cc static flag  works... yes
+checking if cc supports -fno-rtti -fno-exceptions... no
+checking for cc option to produce PIC... -fPIC
+checking if cc PIC flag -fPIC works... yes
+checking if cc supports -c -o file.o... yes
+checking whether the cc linker (/usr/bin/ld) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+configure: creating libtool
+appending configuration tag "CXX" to libtool
+checking for ld used by g++... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking whether the g++ linker (/usr/bin/ld) supports shared libraries... yes
+checking for g++ option to produce PIC... -fPIC
+checking if g++ PIC flag -fPIC works... yes
+checking if g++ supports -c -o file.o... yes
+checking whether the g++ linker (/usr/bin/ld) supports shared libraries... yes
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+appending configuration tag "F77" to libtool
+checking SOSUFFIX from libtool... .so
+checking MODSUFFIX from libtool... .so
+checking JMODSUFFIX from libtool... .so
+checking whether stat file-mode macros are broken... no
+checking whether time.h and sys/time.h may both be included... yes
+checking for dirent.h that defines DIR... yes
+checking for library containing opendir... none required
+checking sys/select.h usability... yes
+checking sys/select.h presence... yes
+checking for sys/select.h... yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking sys/fcntl.h usability... yes
+checking sys/fcntl.h presence... yes
+checking for sys/fcntl.h... yes
+checking for struct stat.st_blksize... yes
+checking for inttypes.h... (cached) yes
+checking for stdint.h... (cached) yes
+checking stddef.h usability... yes
+checking stddef.h presence... yes
+checking for stddef.h... yes
+checking for unistd.h... (cached) yes
+checking for off_t... yes
+checking for size_t... yes
+checking for char... yes
+checking size of char... 1
+checking for unsigned char... yes
+checking size of unsigned char... 1
+checking for short... yes
+checking size of short... 2
+checking for unsigned short... yes
+checking size of unsigned short... 2
+checking for int... yes
+checking size of int... 4
+checking for unsigned int... yes
+checking size of unsigned int... 4
+checking for long... yes
+checking size of long... 4
+checking for unsigned long... yes
+checking size of unsigned long... 4
+checking for long long... yes
+checking size of long long... 8
+checking for unsigned long long... yes
+checking size of unsigned long long... 8
+checking for size_t... (cached) yes
+checking size of size_t... 4
+checking for char *... yes
+checking size of char *... 4
+checking for u_char... yes
+checking for u_short... yes
+checking for u_int... yes
+checking for u_long... yes
+checking for u_int8_t... yes
+checking for u_int16_t... yes
+checking for int16_t... yes
+checking for u_int32_t... yes
+checking for int32_t... yes
+checking for u_int64_t... yes
+checking for int64_t... yes
+checking for ssize_t... yes
+checking for uintmax_t... yes
+checking for uintptr_t... yes
+checking for ANSI C exit success/failure values... yes
+checking for library containing fdatasync... none required
+checking for library containing sched_yield... none required
+checking for main in -lpthread... yes
+checking for main in -lm... yes
+checking for main in -lsocket... no
+checking for main in -lnsl... yes
+checking for mutexes... POSIX/pthreads/library
+checking for getcwd... yes
+checking for getopt... yes
+checking for memcmp... yes
+checking for memcpy... yes
+checking for memmove... yes
+checking for raise... yes
+checking for strcasecmp... yes
+checking for strdup... yes
+checking for strerror... yes
+checking for strtol... yes
+checking for strtoul... yes
+checking for _fstati64... no
+checking for clock_gettime... no
+checking for directio... no
+checking for fchmod... yes
+checking for fcntl... yes
+checking for fdatasync... yes
+checking for ftruncate... yes
+checking for getrusage... yes
+checking for gettimeofday... yes
+checking for getuid... yes
+checking for pstat_getdynamic... no
+checking for rand... yes
+checking for sched_yield... yes
+checking for select... yes
+checking for snprintf... yes
+checking for srand... yes
+checking for sysconf... yes
+checking for vsnprintf... yes
+checking for yield... no
+checking for pread... yes
+checking for pwrite... yes
+checking for fcntl/F_SETFD... yes
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... 64
+checking for _LARGE_FILES value needed for large files... no
+checking for mlock... yes
+checking for munlock... yes
+checking for mmap... yes
+checking for munmap... yes
+checking for shmget... yes
+checking for 64-bit integral type support for sequences... yes
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating db_cxx.h
+config.status: creating db_int.h
+config.status: creating include.tcl
+config.status: creating db.h
+config.status: creating db_185.h
+config.status: creating db185_int.h
+config.status: creating db_config.h

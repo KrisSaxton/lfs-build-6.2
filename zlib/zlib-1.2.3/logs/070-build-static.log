@@ -1,0 +1,28 @@
+rm -f *.o *~ example minigzip \
+   libz.* foo.gz so_locations \
+   _match.s maketree contrib/infback9/*.o
+Checking for gcc...
+Building static library libz.a version 1.2.3 with gcc.
+Checking for unistd.h... Yes.
+Checking whether to use vs[n]printf() or s[n]printf()... using vs[n]printf()
+Checking for vsnprintf() in stdio.h... Yes.
+Checking for return value of vsnprintf()... Yes.
+Checking for errno.h... Yes.
+Checking for mmap support... Yes.
+gcc -O3 -DUSE_MMAP   -c -o example.o example.c
+gcc -O3 -DUSE_MMAP   -c -o adler32.o adler32.c
+gcc -O3 -DUSE_MMAP   -c -o compress.o compress.c
+gcc -O3 -DUSE_MMAP   -c -o crc32.o crc32.c
+gcc -O3 -DUSE_MMAP   -c -o gzio.o gzio.c
+gcc -O3 -DUSE_MMAP   -c -o uncompr.o uncompr.c
+gcc -O3 -DUSE_MMAP   -c -o deflate.o deflate.c
+gcc -O3 -DUSE_MMAP   -c -o trees.o trees.c
+gcc -O3 -DUSE_MMAP   -c -o zutil.o zutil.c
+gcc -O3 -DUSE_MMAP   -c -o inflate.o inflate.c
+gcc -O3 -DUSE_MMAP   -c -o infback.o infback.c
+gcc -O3 -DUSE_MMAP   -c -o inftrees.o inftrees.c
+gcc -O3 -DUSE_MMAP   -c -o inffast.o inffast.c
+ar rc libz.a adler32.o compress.o crc32.o gzio.o uncompr.o deflate.o trees.o zutil.o inflate.o infback.o inftrees.o inffast.o 
+gcc -O3 -DUSE_MMAP -o example example.o -L. libz.a
+gcc -O3 -DUSE_MMAP   -c -o minigzip.o minigzip.c
+gcc -O3 -DUSE_MMAP -o minigzip minigzip.o -L. libz.a

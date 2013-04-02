@@ -1,0 +1,12 @@
+#!/bin/bash
+
+source configure
+
+pushd ../unpack/*
+
+{
+cp -av ../../files/$AB_PACKAGE_LINUX_CONFIG_FILE .config
+#make silentoldconfig
+} | tee ../../logs/030-copy-config.log
+
+popd

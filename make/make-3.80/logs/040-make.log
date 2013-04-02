@@ -1,0 +1,143 @@
+make  all-recursive
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80'
+Making all in glob
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/glob'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/glob'
+Making all in config
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/config'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/config'
+Making all in po
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/po'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/po'
+Making all in doc
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/doc'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/doc'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80'
+if gcc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT ar.o -MD -MP -MF ".deps/ar.Tpo" \
+  -c -o ar.o `test -f 'ar.c' || echo './'`ar.c; \
+then mv ".deps/ar.Tpo" ".deps/ar.Po"; \
+else rm -f ".deps/ar.Tpo"; exit 1; \
+fi
+if gcc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT arscan.o -MD -MP -MF ".deps/arscan.Tpo" \
+  -c -o arscan.o `test -f 'arscan.c' || echo './'`arscan.c; \
+then mv ".deps/arscan.Tpo" ".deps/arscan.Po"; \
+else rm -f ".deps/arscan.Tpo"; exit 1; \
+fi
+if gcc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT commands.o -MD -MP -MF ".deps/commands.Tpo" \
+  -c -o commands.o `test -f 'commands.c' || echo './'`commands.c; \
+then mv ".deps/commands.Tpo" ".deps/commands.Po"; \
+else rm -f ".deps/commands.Tpo"; exit 1; \
+fi
+if gcc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT default.o -MD -MP -MF ".deps/default.Tpo" \
+  -c -o default.o `test -f 'default.c' || echo './'`default.c; \
+then mv ".deps/default.Tpo" ".deps/default.Po"; \
+else rm -f ".deps/default.Tpo"; exit 1; \
+fi
+if gcc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT dir.o -MD -MP -MF ".deps/dir.Tpo" \
+  -c -o dir.o `test -f 'dir.c' || echo './'`dir.c; \
+then mv ".deps/dir.Tpo" ".deps/dir.Po"; \
+else rm -f ".deps/dir.Tpo"; exit 1; \
+fi
+if gcc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT expand.o -MD -MP -MF ".deps/expand.Tpo" \
+  -c -o expand.o `test -f 'expand.c' || echo './'`expand.c; \
+then mv ".deps/expand.Tpo" ".deps/expand.Po"; \
+else rm -f ".deps/expand.Tpo"; exit 1; \
+fi
+if gcc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT file.o -MD -MP -MF ".deps/file.Tpo" \
+  -c -o file.o `test -f 'file.c' || echo './'`file.c; \
+then mv ".deps/file.Tpo" ".deps/file.Po"; \
+else rm -f ".deps/file.Tpo"; exit 1; \
+fi
+if gcc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT function.o -MD -MP -MF ".deps/function.Tpo" \
+  -c -o function.o `test -f 'function.c' || echo './'`function.c; \
+then mv ".deps/function.Tpo" ".deps/function.Po"; \
+else rm -f ".deps/function.Tpo"; exit 1; \
+fi
+if gcc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT getopt.o -MD -MP -MF ".deps/getopt.Tpo" \
+  -c -o getopt.o `test -f 'getopt.c' || echo './'`getopt.c; \
+then mv ".deps/getopt.Tpo" ".deps/getopt.Po"; \
+else rm -f ".deps/getopt.Tpo"; exit 1; \
+fi
+if gcc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT getopt1.o -MD -MP -MF ".deps/getopt1.Tpo" \
+  -c -o getopt1.o `test -f 'getopt1.c' || echo './'`getopt1.c; \
+then mv ".deps/getopt1.Tpo" ".deps/getopt1.Po"; \
+else rm -f ".deps/getopt1.Tpo"; exit 1; \
+fi
+if gcc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT implicit.o -MD -MP -MF ".deps/implicit.Tpo" \
+  -c -o implicit.o `test -f 'implicit.c' || echo './'`implicit.c; \
+then mv ".deps/implicit.Tpo" ".deps/implicit.Po"; \
+else rm -f ".deps/implicit.Tpo"; exit 1; \
+fi
+if gcc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT job.o -MD -MP -MF ".deps/job.Tpo" \
+  -c -o job.o `test -f 'job.c' || echo './'`job.c; \
+then mv ".deps/job.Tpo" ".deps/job.Po"; \
+else rm -f ".deps/job.Tpo"; exit 1; \
+fi
+if gcc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT main.o -MD -MP -MF ".deps/main.Tpo" \
+  -c -o main.o `test -f 'main.c' || echo './'`main.c; \
+then mv ".deps/main.Tpo" ".deps/main.Po"; \
+else rm -f ".deps/main.Tpo"; exit 1; \
+fi
+if gcc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT misc.o -MD -MP -MF ".deps/misc.Tpo" \
+  -c -o misc.o `test -f 'misc.c' || echo './'`misc.c; \
+then mv ".deps/misc.Tpo" ".deps/misc.Po"; \
+else rm -f ".deps/misc.Tpo"; exit 1; \
+fi
+if gcc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT read.o -MD -MP -MF ".deps/read.Tpo" \
+  -c -o read.o `test -f 'read.c' || echo './'`read.c; \
+then mv ".deps/read.Tpo" ".deps/read.Po"; \
+else rm -f ".deps/read.Tpo"; exit 1; \
+fi
+if gcc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT remake.o -MD -MP -MF ".deps/remake.Tpo" \
+  -c -o remake.o `test -f 'remake.c' || echo './'`remake.c; \
+then mv ".deps/remake.Tpo" ".deps/remake.Po"; \
+else rm -f ".deps/remake.Tpo"; exit 1; \
+fi
+if gcc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT remote-stub.o -MD -MP -MF ".deps/remote-stub.Tpo" \
+  -c -o remote-stub.o `test -f 'remote-stub.c' || echo './'`remote-stub.c; \
+then mv ".deps/remote-stub.Tpo" ".deps/remote-stub.Po"; \
+else rm -f ".deps/remote-stub.Tpo"; exit 1; \
+fi
+if gcc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT rule.o -MD -MP -MF ".deps/rule.Tpo" \
+  -c -o rule.o `test -f 'rule.c' || echo './'`rule.c; \
+then mv ".deps/rule.Tpo" ".deps/rule.Po"; \
+else rm -f ".deps/rule.Tpo"; exit 1; \
+fi
+if gcc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT signame.o -MD -MP -MF ".deps/signame.Tpo" \
+  -c -o signame.o `test -f 'signame.c' || echo './'`signame.c; \
+then mv ".deps/signame.Tpo" ".deps/signame.Po"; \
+else rm -f ".deps/signame.Tpo"; exit 1; \
+fi
+if gcc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT variable.o -MD -MP -MF ".deps/variable.Tpo" \
+  -c -o variable.o `test -f 'variable.c' || echo './'`variable.c; \
+then mv ".deps/variable.Tpo" ".deps/variable.Po"; \
+else rm -f ".deps/variable.Tpo"; exit 1; \
+fi
+if gcc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT version.o -MD -MP -MF ".deps/version.Tpo" \
+  -c -o version.o `test -f 'version.c' || echo './'`version.c; \
+then mv ".deps/version.Tpo" ".deps/version.Po"; \
+else rm -f ".deps/version.Tpo"; exit 1; \
+fi
+if gcc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT vpath.o -MD -MP -MF ".deps/vpath.Tpo" \
+  -c -o vpath.o `test -f 'vpath.c' || echo './'`vpath.c; \
+then mv ".deps/vpath.Tpo" ".deps/vpath.Po"; \
+else rm -f ".deps/vpath.Tpo"; exit 1; \
+fi
+if gcc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT hash.o -MD -MP -MF ".deps/hash.Tpo" \
+  -c -o hash.o `test -f 'hash.c' || echo './'`hash.c; \
+then mv ".deps/hash.Tpo" ".deps/hash.Po"; \
+else rm -f ".deps/hash.Tpo"; exit 1; \
+fi
+gcc  -g -O2   -o make  ar.o arscan.o commands.o default.o dir.o expand.o file.o function.o getopt.o getopt1.o implicit.o job.o main.o misc.o read.o remake.o remote-stub.o rule.o signame.o variable.o version.o vpath.o hash.o    -lrt 
+if gcc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I. -I. -I.    -DTEST -g -O2 -MT loadavg-loadavg.o -MD -MP -MF ".deps/loadavg-loadavg.Tpo" \
+  -c -o loadavg-loadavg.o `test -f 'loadavg.c' || echo './'`loadavg.c; \
+then mv ".deps/loadavg-loadavg.Tpo" ".deps/loadavg-loadavg.Po"; \
+else rm -f ".deps/loadavg-loadavg.Tpo"; exit 1; \
+fi
+gcc  -g -O2   -o loadavg  loadavg-loadavg.o  -lrt 
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80'

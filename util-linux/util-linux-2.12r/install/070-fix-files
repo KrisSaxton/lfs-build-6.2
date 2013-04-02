@@ -1,0 +1,18 @@
+#!/bin/bash
+
+source configure
+
+pushd ../pkg/debian
+
+{
+rm -vrf usr/share/misc
+rm -vrf usr/share/locale
+
+rm usr/sbin/rootflags   && ln -v usr/sbin/rdev  usr/sbin/rootflags
+rm usr/sbin/vidmode     && ln -v usr/sbin/rdev  usr/sbin/vidmode
+rm usr/sbin/ramsize     && ln -v usr/sbin/rdev  usr/sbin/ramsize
+rm sbin/swapoff         && ln -v sbin/swapon    sbin/swapoff
+
+} | tee ../../logs/070-fix-files.log
+
+popd

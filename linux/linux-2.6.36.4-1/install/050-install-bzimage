@@ -1,0 +1,15 @@
+#!/bin/bash
+
+source configure
+
+pushd ../unpack/*
+
+{
+DESTDIR=../../pkg/debian
+mkdir -vp $DESTDIR/boot
+
+cp -v arch/i386/boot/bzImage   $DESTDIR/boot/linux-$AB_PACKAGE_VERSION
+cp -v System.map               $DESTDIR/boot/System.map-$AB_PACKAGE_VERSION
+} | ABLog
+
+popd

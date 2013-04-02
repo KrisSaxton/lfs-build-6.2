@@ -1,0 +1,65 @@
+#!/bin/bash
+
+################################################################################
+# BEGIN
+################################################################################
+
+source functions
+
+################################################################################
+# GLOBALS
+################################################################################
+
+ABSetDefault AB_SYSTEM_INSTALL_DIR                              /usr
+ABSetDefault AB_SYSTEM_DATA_DIR                   /usr/local/data
+
+################################################################################
+# DEPENDENCIES
+################################################################################
+
+ABSetDefault AB_PACKAGE_COREUTILS_DEPENDS                 PKG_DEPENDS
+
+ABSetDefault AB_PACKAGE_PKG_DEPENDS_INSTALL_ENABLE              no
+ABSetDefault AB_PACKAGE_PKG_DEPENDS_INSTALL_FORCE               no
+ABSetDefault AB_PACKAGE_PKG_DEPENDS_INSTALL_NAME                pkgdependsname
+ABSetDefault AB_PACKAGE_PKG_DEPENDS_INSTALL_DIR                 $AB_SYSTEM_INSTALL_DIR/$AB_PACKAGE_PKG_DEPENDS_INSTALL_NAME
+ABSetDefault AB_PACKAGE_PKG_DEPENDS_INCLUDE_DIR                 $AB_PACKAGE_PKG_DEPENDS_INSTALL_DIR/include
+ABSetDefault AB_PACKAGE_PKG_DEPENDS_LIB_DIR                     $AB_PACKAGE_PKG_DEPENDS_INSTALL_DIR/lib
+
+#ABSetCompileFlags $AB_PACKAGE_COREUTILS_DEPENDS
+
+################################################################################
+# CONFIGURATION
+################################################################################
+
+ABSetDefault AB_PACKAGE_COREUTILS_NAME                      coreutils
+ABSetDefault AB_PACKAGE_COREUTILS_VERSION                   5.96-1
+ABSetDefault AB_PACKAGE_COREUTILS_DESC                      'Package for showing and setting basic system characteristics'
+ABSetDefault AB_PACKAGE_COREUTILS_SOURCES               'coreutils-5.96-i18n-1.patch coreutils-5.96-suppress_uptime_kill_su-1.patch coreutils-5.96-uname-1.patch coreutils-5.96.tar.bz2'
+
+ABSetDefault AB_PACKAGE_COREUTILS_INSTALL_NAME              ${AB_PACKAGE_COREUTILS_NAME}-${AB_PACKAGE_COREUTILS_VERSION}
+
+ABSetDefault AB_PACKAGE_COREUTILS_INSTALL_DIR               $AB_SYSTEM_INSTALL_DIR
+ABSetDefault AB_PACKAGE_COREUTILS_INCLUDE_DIR               $AB_PACKAGE_COREUTILS_INSTALL_DIR/include
+ABSetDefault AB_PACKAGE_COREUTILS_LIB_DIR                   $AB_PACKAGE_COREUTILS_INSTALL_DIR/lib
+
+ABSetDefault AB_PACKAGE_COREUTILS_CONFIGURE_PREFIX          $AB_PACKAGE_COREUTILS_INSTALL_DIR
+ABSetDefault AB_PACKAGE_COREUTILS_CONFIGURE_WITH_EDITOR     /usr/bin/nano
+
+AB_PACKAGE_NAME=$AB_PACKAGE_COREUTILS_NAME
+AB_PACKAGE_VERSION=$AB_PACKAGE_COREUTILS_VERSION
+AB_PACKAGE_DESC=$AB_PACKAGE_COREUTILS_DESC
+AB_PACKAGE_SOURCES=$AB_PACKAGE_COREUTILS_SOURCES
+
+AB_PACKAGE_INSTALL_NAME=$AB_PACKAGE_COREUTILS_INSTALL_NAME
+
+AB_PACKAGE_INSTALL_DIR=$AB_PACKAGE_COREUTILS_INSTALL_DIR
+AB_PACKAGE_INCLUDE_DIR=$AB_PACKAGE_COREUTILS_INCLUDE_DIR
+AB_PACKAGE_LIB_DIR=$AB_PACKAGE_COREUTILS_LIB_DIR
+
+AB_PACKAGE_CONFIGURE_PREFIX=$AB_PACKAGE_COREUTILS_CONFIGURE_PREFIX
+AB_PACKAGE_CONFIGURE_WITH_EDITOR=$AB_PACKAGE_COREUTILS_CONFIGURE_WITH_EDITOR
+
+################################################################################
+# END
+################################################################################

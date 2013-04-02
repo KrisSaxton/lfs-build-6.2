@@ -1,0 +1,11 @@
+#!/bin/bash
+
+source configure
+
+pushd ../unpack/*
+
+sed -i 's@Sending processes@& started by init@g' src/init.c \
+    | tee -a ../../logs/020-patch.log
+
+popd
+

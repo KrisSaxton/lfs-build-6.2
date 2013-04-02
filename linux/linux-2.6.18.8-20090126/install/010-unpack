@@ -1,0 +1,5 @@
+#!/bin/bash
+
+source configure
+
+tar jxvf ../source/linux-2.6.18.8.tar.bz2 -C ../unpack | tee ../logs/010-unpack.log

@@ -1,0 +1,241 @@
+Making install in intl
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/intl'
+if { test "texinfo" = "gettext-runtime" || test "texinfo" = "gettext-tools"; } \
+   && test 'no' = yes; then \
+  /bin/sh .././mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/lib /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/include; \
+  /usr/bin/install -c -m 644 libintl.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/include/libintl.h; \
+  @LIBTOOL@ --mode=install \
+    /usr/bin/install -c -m 644 libintl.a /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/lib/libintl.a; \
+  if test "@RELOCATABLE@" = yes; then \
+    dependencies=`sed -n -e 's,^dependency_libs=\(.*\),\1,p' < /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/lib/libintl.la | sed -e "s,^',," -e "s,'\$,,"`; \
+    if test -n "$dependencies"; then \
+      rm -f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/lib/libintl.la; \
+    fi; \
+  fi; \
+else \
+  : ; \
+fi
+if test "texinfo" = "gettext-tools" \
+   && test 'no' = no; then \
+  /bin/sh .././mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/lib; \
+  @LIBTOOL@ --mode=install \
+    /usr/bin/install -c -m 644 libgnuintl.a /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/lib/libgnuintl.a; \
+  rm -f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/lib/preloadable_libintl.so; \
+  /usr/bin/install -c -m 644 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/lib/libgnuintl.so /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/lib/preloadable_libintl.so; \
+  @LIBTOOL@ --mode=uninstall \
+    rm -f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/lib/libgnuintl.a; \
+else \
+  : ; \
+fi
+if test 'no' = yes; then \
+  test yes != no || /bin/sh .././mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/lib; \
+  temp=/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/lib/t-charset.alias; \
+  dest=/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/lib/charset.alias; \
+  if test -f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/lib/charset.alias; then \
+    orig=/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/lib/charset.alias; \
+    sed -f ref-add.sed $orig > $temp; \
+    /usr/bin/install -c -m 644 $temp $dest; \
+    rm -f $temp; \
+  else \
+    if test yes = no; then \
+      orig=charset.alias; \
+      sed -f ref-add.sed $orig > $temp; \
+      /usr/bin/install -c -m 644 $temp $dest; \
+      rm -f $temp; \
+    fi; \
+  fi; \
+  /bin/sh .././mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/share/locale; \
+  test -f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/share/locale/locale.alias \
+    && orig=/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/share/locale/locale.alias \
+    || orig=./locale.alias; \
+  temp=/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/share/locale/t-locale.alias; \
+  dest=/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/share/locale/locale.alias; \
+  sed -f ref-add.sed $orig > $temp; \
+  /usr/bin/install -c -m 644 $temp $dest; \
+  rm -f $temp; \
+else \
+  : ; \
+fi
+if test "texinfo" = "gettext-tools"; then \
+  /bin/sh .././mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/share/gettext/intl; \
+  /usr/bin/install -c -m 644 VERSION /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/share/gettext/intl/VERSION; \
+  /usr/bin/install -c -m 644 ChangeLog.inst /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/share/gettext/intl/ChangeLog; \
+  dists="COPYING.LIB-2.0 COPYING.LIB-2.1 Makefile.in config.charset locale.alias ref-add.sin ref-del.sin gmo.h gettextP.h hash-string.h loadinfo.h plural-exp.h eval-plural.h localcharset.h relocatable.h xsize.h printf-args.h printf-args.c printf-parse.h wprintf-parse.h printf-parse.c vasnprintf.h vasnwprintf.h vasnprintf.c os2compat.h libgnuintl.h.in bindtextdom.c dcgettext.c dgettext.c gettext.c finddomain.c loadmsgcat.c localealias.c textdomain.c l10nflist.c explodename.c dcigettext.c dcngettext.c dngettext.c ngettext.c plural.y plural-exp.c localcharset.c relocatable.c localename.c log.c printf.c osdep.c os2compat.c intl-compat.c"; \
+  for file in $dists; do \
+    /usr/bin/install -c -m 644 ./$file \
+		    /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/share/gettext/intl/$file; \
+  done; \
+  chmod a+x /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/share/gettext/intl/config.charset; \
+  dists="plural.c"; \
+  for file in $dists; do \
+    if test -f $file; then dir=.; else dir=.; fi; \
+    /usr/bin/install -c -m 644 $dir/$file \
+		    /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/share/gettext/intl/$file; \
+  done; \
+  dists="xopen-msg.sed linux-msg.sed po2tbl.sed.in cat-compat.c COPYING.LIB-2 gettext.h libgettext.h plural-eval.c libgnuintl.h"; \
+  for file in $dists; do \
+    rm -f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/share/gettext/intl/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/intl'
+Making install in m4
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/m4'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/m4'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/m4'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/m4'
+Making install in lib
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/lib'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/lib'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/lib'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/lib'
+Making install in info
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/info'
+make  install-am
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/info'
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/info'
+test -z "/usr/bin" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/bin"
+  /usr/bin/install -c 'ginfo' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/bin/info'
+  /usr/bin/install -c 'infokey' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/bin/infokey'
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/info'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/info'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/info'
+Making install in makeinfo
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/makeinfo'
+Making install in tests
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/makeinfo/tests'
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/makeinfo/tests'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/makeinfo/tests'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/makeinfo/tests'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/makeinfo'
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/makeinfo'
+test -z "/usr/bin" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/bin"
+  /usr/bin/install -c 'makeinfo' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/bin/makeinfo'
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/makeinfo'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/makeinfo'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/makeinfo'
+Making install in po
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/po'
+/bin/sh .././mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/share
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/share
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/share/locale/cs/LC_MESSAGES
+installing cs.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/share/locale/cs/LC_MESSAGES/texinfo.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/share/locale/da/LC_MESSAGES
+installing da.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/share/locale/da/LC_MESSAGES/texinfo.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/share/locale/de/LC_MESSAGES
+installing de.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/share/locale/de/LC_MESSAGES/texinfo.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/share/locale/de_AT/LC_MESSAGES
+installing de_AT.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/share/locale/de_AT/LC_MESSAGES/texinfo.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/share/locale/eo/LC_MESSAGES
+installing eo.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/share/locale/eo/LC_MESSAGES/texinfo.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/share/locale/fr/LC_MESSAGES
+installing fr.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/share/locale/fr/LC_MESSAGES/texinfo.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/share/locale/he/LC_MESSAGES
+installing he.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/share/locale/he/LC_MESSAGES/texinfo.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/share/locale/hr/LC_MESSAGES
+installing hr.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/share/locale/hr/LC_MESSAGES/texinfo.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/share/locale/ja/LC_MESSAGES
+installing ja.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/share/locale/ja/LC_MESSAGES/texinfo.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/share/locale/nl/LC_MESSAGES
+installing nl.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/share/locale/nl/LC_MESSAGES/texinfo.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/share/locale/nb/LC_MESSAGES
+installing nb.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/share/locale/nb/LC_MESSAGES/texinfo.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/share/locale/no/LC_MESSAGES
+installing no.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/share/locale/no/LC_MESSAGES/texinfo.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/share/locale/pl/LC_MESSAGES
+installing pl.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/share/locale/pl/LC_MESSAGES/texinfo.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/share/locale/ro/LC_MESSAGES
+installing ro.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/share/locale/ro/LC_MESSAGES/texinfo.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/share/locale/ru/LC_MESSAGES
+installing ru.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/share/locale/ru/LC_MESSAGES/texinfo.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/share/locale/sv/LC_MESSAGES
+installing sv.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/share/locale/sv/LC_MESSAGES/texinfo.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/share/locale/tr/LC_MESSAGES
+installing tr.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/share/locale/tr/LC_MESSAGES/texinfo.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/share/locale/zh_CN/LC_MESSAGES
+installing zh_CN.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/share/locale/zh_CN/LC_MESSAGES/texinfo.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/share/locale/zh_TW/LC_MESSAGES
+installing zh_TW.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/share/locale/zh_TW/LC_MESSAGES/texinfo.mo
+if test "texinfo" = "gettext-tools"; then \
+  /bin/sh .././mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /usr/bin/install -c -m 644 ./$file \
+		    /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/po'
+Making install in util
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/util'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/util'
+test -z "/usr/bin" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/bin"
+  /usr/bin/install -c 'ginstall-info' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/bin/install-info'
+  /usr/bin/install -c 'texindex' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/bin/texindex'
+test -z "/usr/bin" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/bin"
+ /usr/bin/install -c 'texi2dvi' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/bin/texi2dvi'
+ /usr/bin/install -c 'texi2pdf' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/bin/texi2pdf'
+test -z "/usr/share/texinfo" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/share/texinfo"
+ /usr/bin/install -c -m 644 'texinfo.dtd' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/share/texinfo/texinfo.dtd'
+ /usr/bin/install -c -m 644 'texinfo.xsl' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/share/texinfo/texinfo.xsl'
+test -z "/usr/share/texinfo" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/share/texinfo"
+ /usr/bin/install -c -m 644 'texinfo.cat' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/share/texinfo/texinfo.cat'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/util'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/util'
+Making install in doc
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/doc'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/doc'
+make[2]: Nothing to be done for `install-exec-am'.
+
+WARNING: If your texmf tree does not already contain
+         up-to-date versions, you must install
+             texinfo.tex and txi-??.tex manually,
+         perhaps in TEXMF/tex/texinfo/,
+         where TEXMF is a root of your TeX tree.
+         See doc/README for some considerations.
+         You can run make TEXMF=/your/texmf install-tex to do this.
+
+         You may also need to install epsf.tex and (if you
+         use pdftex) pdfcolor.tex in TEXMF/tex/generic/dvips
+         and TEXMF/pdftex/plain/misc/pdfcolor.tex respectively,
+         if your TeX installation did not include them.
+test -z "/usr/share/info" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/share/info"
+ /usr/bin/install -c -m 644 './texinfo' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/share/info/texinfo'
+ /usr/bin/install -c -m 644 './texinfo-1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/share/info/texinfo-1'
+ /usr/bin/install -c -m 644 './texinfo-2' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/share/info/texinfo-2'
+ /usr/bin/install -c -m 644 './texinfo-3' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/share/info/texinfo-3'
+ /usr/bin/install -c -m 644 './info-stnd.info' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/share/info/info-stnd.info'
+ /usr/bin/install -c -m 644 './info.info' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/share/info/info.info'
+ install-info --info-dir='/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/share/info' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/share/info/texinfo'
+ install-info --info-dir='/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/share/info' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/share/info/info-stnd.info'
+ install-info --info-dir='/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/share/info' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/share/info/info.info'
+test -z "/usr/share/man/man1" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/share/man/man1"
+ /usr/bin/install -c -m 644 './info.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/share/man/man1/info.1'
+ /usr/bin/install -c -m 644 './infokey.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/share/man/man1/infokey.1'
+ /usr/bin/install -c -m 644 './install-info.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/share/man/man1/install-info.1'
+ /usr/bin/install -c -m 644 './makeinfo.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/share/man/man1/makeinfo.1'
+ /usr/bin/install -c -m 644 './texindex.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/share/man/man1/texindex.1'
+ /usr/bin/install -c -m 644 './texi2dvi.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/share/man/man1/texi2dvi.1'
+test -z "/usr/share/man/man5" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/share/man/man5"
+ /usr/bin/install -c -m 644 './info.5' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/share/man/man5/info.5'
+ /usr/bin/install -c -m 644 './texinfo.5' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/../../pkg/debian/usr/share/man/man5/texinfo.5'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/doc'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/doc'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8'

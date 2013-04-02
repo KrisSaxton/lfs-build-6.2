@@ -1,0 +1,413 @@
+make  install-recursive
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33'
+Making install in .
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33'
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33'
+/bin/sh ./mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/../../pkg/debian/usr/bin
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/../../pkg/debian/usr/bin
+  /usr/bin/install -c flex /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/../../pkg/debian/usr/bin/flex
+/bin/sh ./mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/../../pkg/debian/usr/lib
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/../../pkg/debian/usr/lib
+ /usr/bin/install -c -m 644 libfl.a /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/../../pkg/debian/usr/lib/libfl.a
+ ranlib /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/../../pkg/debian/usr/lib/libfl.a
+/bin/sh ./mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/../../pkg/debian/usr/include
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/../../pkg/debian/usr/include
+ /usr/bin/install -c -m 644 FlexLexer.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/../../pkg/debian/usr/include/FlexLexer.h
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33'
+Making install in doc
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/doc'
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/doc'
+make[3]: Nothing to be done for `install-exec-am'.
+/bin/sh ../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/../../pkg/debian/usr/info
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/../../pkg/debian/usr/info
+ /usr/bin/install -c -m 644 ./flex.info /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/../../pkg/debian/usr/info/flex.info
+ /usr/bin/install -c -m 644 ./flex.info-1 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/../../pkg/debian/usr/info/flex.info-1
+ /usr/bin/install -c -m 644 ./flex.info-2 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/../../pkg/debian/usr/info/flex.info-2
+ /usr/bin/install -c -m 644 ./flex.info-3 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/../../pkg/debian/usr/info/flex.info-3
+ /usr/bin/install -c -m 644 ./flex.info-4 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/../../pkg/debian/usr/info/flex.info-4
+ /usr/bin/install -c -m 644 ./flex.info-5 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/../../pkg/debian/usr/info/flex.info-5
+ /usr/bin/install -c -m 644 ./flex.info-6 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/../../pkg/debian/usr/info/flex.info-6
+ /usr/bin/install -c -m 644 ./flex.info-7 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/../../pkg/debian/usr/info/flex.info-7
+ install-info --info-dir=/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/../../pkg/debian/usr/info /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/../../pkg/debian/usr/info/flex.info
+/bin/sh ../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/../../pkg/debian/usr/man/man1
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/../../pkg/debian/usr/man/man1
+ /usr/bin/install -c -m 644 ./flex.1 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/../../pkg/debian/usr/man/man1/flex.1
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/doc'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/doc'
+Making install in m4
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/m4'
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/m4'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/m4'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/m4'
+Making install in examples
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/examples'
+Making install in manual
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/examples/manual'
+make[4]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/examples/manual'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/examples/manual'
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/examples/manual'
+Making install in fastwc
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/examples/fastwc'
+make[4]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/examples/fastwc'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/examples/fastwc'
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/examples/fastwc'
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/examples'
+make[4]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/examples'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/examples'
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/examples'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/examples'
+Making install in po
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/po'
+/bin/sh .././mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/../../pkg/debian/usr/share
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/../../pkg/debian/usr/share
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/../../pkg/debian/usr/share/locale/ca/LC_MESSAGES
+installing ca.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/../../pkg/debian/usr/share/locale/ca/LC_MESSAGES/flex.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/../../pkg/debian/usr/share/locale/da/LC_MESSAGES
+installing da.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/../../pkg/debian/usr/share/locale/da/LC_MESSAGES/flex.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/../../pkg/debian/usr/share/locale/de/LC_MESSAGES
+installing de.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/../../pkg/debian/usr/share/locale/de/LC_MESSAGES/flex.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/../../pkg/debian/usr/share/locale/es/LC_MESSAGES
+installing es.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/../../pkg/debian/usr/share/locale/es/LC_MESSAGES/flex.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/../../pkg/debian/usr/share/locale/fr/LC_MESSAGES
+installing fr.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/../../pkg/debian/usr/share/locale/fr/LC_MESSAGES/flex.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/../../pkg/debian/usr/share/locale/ga/LC_MESSAGES
+installing ga.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/../../pkg/debian/usr/share/locale/ga/LC_MESSAGES/flex.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/../../pkg/debian/usr/share/locale/ko/LC_MESSAGES
+installing ko.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/../../pkg/debian/usr/share/locale/ko/LC_MESSAGES/flex.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/../../pkg/debian/usr/share/locale/nl/LC_MESSAGES
+installing nl.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/../../pkg/debian/usr/share/locale/nl/LC_MESSAGES/flex.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/../../pkg/debian/usr/share/locale/pl/LC_MESSAGES
+installing pl.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/../../pkg/debian/usr/share/locale/pl/LC_MESSAGES/flex.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/../../pkg/debian/usr/share/locale/pt_BR/LC_MESSAGES
+installing pt_BR.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/../../pkg/debian/usr/share/locale/pt_BR/LC_MESSAGES/flex.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/../../pkg/debian/usr/share/locale/ro/LC_MESSAGES
+installing ro.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/../../pkg/debian/usr/share/locale/ro/LC_MESSAGES/flex.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/../../pkg/debian/usr/share/locale/ru/LC_MESSAGES
+installing ru.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/../../pkg/debian/usr/share/locale/ru/LC_MESSAGES/flex.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/../../pkg/debian/usr/share/locale/sv/LC_MESSAGES
+installing sv.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/../../pkg/debian/usr/share/locale/sv/LC_MESSAGES/flex.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/../../pkg/debian/usr/share/locale/tr/LC_MESSAGES
+installing tr.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/../../pkg/debian/usr/share/locale/tr/LC_MESSAGES/flex.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/../../pkg/debian/usr/share/locale/vi/LC_MESSAGES
+installing vi.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/../../pkg/debian/usr/share/locale/vi/LC_MESSAGES/flex.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/../../pkg/debian/usr/share/locale/zh_CN/LC_MESSAGES
+installing zh_CN.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/../../pkg/debian/usr/share/locale/zh_CN/LC_MESSAGES/flex.mo
+if test "flex" = "gettext-tools"; then \
+  /bin/sh .././mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/../../pkg/debian/usr/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /usr/bin/install -c -m 644 ./$file \
+		    /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/../../pkg/debian/usr/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/../../pkg/debian/usr/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/po'
+Making install in tools
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tools'
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tools'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tools'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tools'
+Making install in tests
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests'
+Making install in test-rescan-r
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-rescan-r'
+make[4]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-rescan-r'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-rescan-r'
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-rescan-r'
+Making install in test-rescan-nr
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-rescan-nr'
+make[4]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-rescan-nr'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-rescan-nr'
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-rescan-nr'
+Making install in test-basic-nr
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-basic-nr'
+make[4]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-basic-nr'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-basic-nr'
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-basic-nr'
+Making install in test-basic-r
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-basic-r'
+make[4]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-basic-r'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-basic-r'
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-basic-r'
+Making install in test-bison-yylloc
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-bison-yylloc'
+make[4]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-bison-yylloc'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-bison-yylloc'
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-bison-yylloc'
+Making install in test-bison-yylval
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-bison-yylval'
+make[4]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-bison-yylval'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-bison-yylval'
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-bison-yylval'
+Making install in test-bison-nr
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-bison-nr'
+make[4]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-bison-nr'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-bison-nr'
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-bison-nr'
+Making install in test-multiple-scanners-nr
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-multiple-scanners-nr'
+make[4]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-multiple-scanners-nr'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-multiple-scanners-nr'
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-multiple-scanners-nr'
+Making install in test-multiple-scanners-r
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-multiple-scanners-r'
+make[4]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-multiple-scanners-r'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-multiple-scanners-r'
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-multiple-scanners-r'
+Making install in test-header-nr
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-header-nr'
+make[4]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-header-nr'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-header-nr'
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-header-nr'
+Making install in test-header-r
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-header-r'
+make[4]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-header-r'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-header-r'
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-header-r'
+Making install in test-reject
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-reject'
+make[4]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-reject'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-reject'
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-reject'
+Making install in test-c++-multiple-scanners
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-c++-multiple-scanners'
+make[4]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-c++-multiple-scanners'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-c++-multiple-scanners'
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-c++-multiple-scanners'
+Making install in test-c++-basic
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-c++-basic'
+make[4]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-c++-basic'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-c++-basic'
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-c++-basic'
+Making install in test-posixly-correct
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-posixly-correct'
+make[4]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-posixly-correct'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-posixly-correct'
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-posixly-correct'
+Making install in test-posix
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-posix'
+make[4]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-posix'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-posix'
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-posix'
+Making install in test-mem-r
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-mem-r'
+make[4]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-mem-r'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-mem-r'
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-mem-r'
+Making install in test-mem-nr
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-mem-nr'
+make[4]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-mem-nr'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-mem-nr'
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-mem-nr'
+Making install in test-debug-nr
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-debug-nr'
+make[4]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-debug-nr'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-debug-nr'
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-debug-nr'
+Making install in test-debug-r
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-debug-r'
+make[4]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-debug-r'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-debug-r'
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-debug-r'
+Making install in test-lineno-r
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-lineno-r'
+make[4]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-lineno-r'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-lineno-r'
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-lineno-r'
+Making install in test-lineno-nr
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-lineno-nr'
+make[4]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-lineno-nr'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-lineno-nr'
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-lineno-nr'
+Making install in test-linedir-r
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-linedir-r'
+make[4]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-linedir-r'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-linedir-r'
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-linedir-r'
+Making install in test-array-nr
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-array-nr'
+make[4]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-array-nr'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-array-nr'
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-array-nr'
+Making install in test-array-r
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-array-r'
+make[4]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-array-r'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-array-r'
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-array-r'
+Making install in test-c-cpp-nr
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-c-cpp-nr'
+make[4]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-c-cpp-nr'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-c-cpp-nr'
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-c-cpp-nr'
+Making install in test-c-cpp-r
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-c-cpp-r'
+make[4]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-c-cpp-r'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-c-cpp-r'
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-c-cpp-r'
+Making install in test-include-by-buffer
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-include-by-buffer'
+make[4]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-include-by-buffer'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-include-by-buffer'
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-include-by-buffer'
+Making install in test-include-by-push
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-include-by-push'
+make[4]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-include-by-push'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-include-by-push'
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-include-by-push'
+Making install in test-include-by-reentrant
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-include-by-reentrant'
+make[4]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-include-by-reentrant'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-include-by-reentrant'
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-include-by-reentrant'
+Making install in test-prefix-nr
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-prefix-nr'
+make[4]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-prefix-nr'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-prefix-nr'
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-prefix-nr'
+Making install in test-prefix-r
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-prefix-r'
+make[4]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-prefix-r'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-prefix-r'
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-prefix-r'
+Making install in test-pthread
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-pthread'
+make[4]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-pthread'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-pthread'
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-pthread'
+Making install in test-string-nr
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-string-nr'
+make[4]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-string-nr'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-string-nr'
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-string-nr'
+Making install in test-string-r
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-string-r'
+make[4]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-string-r'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-string-r'
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-string-r'
+Making install in test-yyextra
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-yyextra'
+make[4]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-yyextra'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-yyextra'
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-yyextra'
+Making install in test-noansi-nr
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-noansi-nr'
+make[4]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-noansi-nr'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-noansi-nr'
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-noansi-nr'
+Making install in test-noansi-r
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-noansi-r'
+make[4]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-noansi-r'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-noansi-r'
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-noansi-r'
+Making install in test-top
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-top'
+make[4]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-top'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-top'
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-top'
+Making install in test-table-opts
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-table-opts'
+make[4]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-table-opts'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-table-opts'
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-table-opts'
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests'
+make[4]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests'
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33'

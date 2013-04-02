@@ -1,0 +1,10 @@
+#!/bin/bash
+
+source configure
+
+pushd ../unpack/*
+
+cp -v etc/udev/rules.d/[0-9]* $PWD/../../pkg/debian/etc/udev/rules.d \
+    | tee ../../logs/060-install-udev-rules.log
+
+popd

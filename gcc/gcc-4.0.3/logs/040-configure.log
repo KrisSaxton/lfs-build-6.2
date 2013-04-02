@@ -1,0 +1,61 @@
+creating cache ./config.cache
+checking host system type... i686-pc-linux-gnu
+checking target system type... i686-pc-linux-gnu
+checking build system type... i686-pc-linux-gnu
+checking for a BSD compatible install... /usr/bin/install -c
+checking whether ln works... yes
+checking whether ln -s works... yes
+checking for gcc... gcc
+checking whether the C compiler (gcc  ) works... yes
+checking whether the C compiler (gcc  ) is a cross-compiler... no
+checking whether we are using GNU C... yes
+checking whether gcc accepts -g... yes
+checking for gnatbind... no
+checking whether compiler driver understands Ada... no
+checking how to compare bootstrapped objects... cmp --ignore-initial=16 $$f1 $$f2
+checking for correct version of gmp.h... no
+checking for bison... bison
+checking for bison... bison -y
+checking for gm4... no
+checking for gnum4... no
+checking for m4... m4
+checking for flex... flex
+checking for flex... flex
+checking for makeinfo... makeinfo
+checking for i686-pc-linux-gnu-ar... no
+checking for ar... ar
+checking for i686-pc-linux-gnu-as... no
+checking for as... as
+checking for i686-pc-linux-gnu-dlltool... no
+checking for dlltool... dlltool
+checking for i686-pc-linux-gnu-ld... no
+checking for ld... ld
+checking for i686-pc-linux-gnu-nm... no
+checking for nm... nm
+checking for i686-pc-linux-gnu-ranlib... no
+checking for ranlib... ranlib
+checking for i686-pc-linux-gnu-windres... no
+checking for windres... windres
+checking for i686-pc-linux-gnu-objcopy... no
+checking for objcopy... objcopy
+checking for i686-pc-linux-gnu-objdump... no
+checking for objdump... objdump
+checking for i686-pc-linux-gnu-ar... no
+checking for ar... ar
+checking for i686-pc-linux-gnu-as... no
+checking for as... as
+checking for i686-pc-linux-gnu-dlltool... no
+checking for dlltool... dlltool
+checking for i686-pc-linux-gnu-ld... no
+checking for ld... ld
+checking for i686-pc-linux-gnu-nm... no
+checking for nm... nm
+checking for i686-pc-linux-gnu-ranlib... no
+checking for ranlib... ranlib
+checking for i686-pc-linux-gnu-windres... no
+checking for windres... windres
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking if symbolic links between directories work... yes
+updating cache ./config.cache
+creating ./config.status
+creating Makefile

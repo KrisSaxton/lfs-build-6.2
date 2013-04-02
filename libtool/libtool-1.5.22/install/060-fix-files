@@ -1,0 +1,9 @@
+#!/bin/bash
+
+source configure
+
+pushd ../pkg/debian
+
+rm -v usr/share/info/dir | tee ../../logs/060-fix-files.log
+
+popd

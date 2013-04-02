@@ -1,0 +1,68 @@
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bash/bash-3.1/unpack/bash-3.1/../../pkg/debian/bin
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bash/bash-3.1/unpack/bash-3.1/../../pkg/debian/usr/share/man/man1
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bash/bash-3.1/unpack/bash-3.1/../../pkg/debian/usr/share/info
+( cd ./po/ ; make  DESTDIR=/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bash/bash-3.1/unpack/bash-3.1/../../pkg/debian installdirs )
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/bash/bash-3.1/unpack/bash-3.1/po'
+/bin/sh /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bash/bash-3.1/unpack/bash-3.1/./support/mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bash/bash-3.1/unpack/bash-3.1/../../pkg/debian/usr/share
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bash/bash-3.1/unpack/bash-3.1/../../pkg/debian/usr/share/locale/en@quot/LC_MESSAGES
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bash/bash-3.1/unpack/bash-3.1/../../pkg/debian/usr/share/locale/en@boldquot/LC_MESSAGES
+if test "bash" = "gettext-tools"; then \
+  /bin/sh /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bash/bash-3.1/unpack/bash-3.1/./support/mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bash/bash-3.1/unpack/bash-3.1/../../pkg/debian/usr/share/gettext/po; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/bash/bash-3.1/unpack/bash-3.1/po'
+/usr/bin/install -c -m 0755 bash /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bash/bash-3.1/unpack/bash-3.1/../../pkg/debian/bin/bash
+/usr/bin/install -c -m 0555 bashbug /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bash/bash-3.1/unpack/bash-3.1/../../pkg/debian/bin/bashbug
+( cd ./doc ; make  \
+	man1dir=/usr/share/man/man1 man1ext=.1 \
+	man3dir=/usr/share/man/man3 man3ext=.3 \
+	infodir=/usr/share/info htmldir= DESTDIR=/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bash/bash-3.1/unpack/bash-3.1/../../pkg/debian install )
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/bash/bash-3.1/unpack/bash-3.1/doc'
+makeinfo --no-split -I../lib/readline/doc ./bashref.texi
+/bin/sh ../support/mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bash/bash-3.1/unpack/bash-3.1/../../pkg/debian/usr/share/man/man1
+/bin/sh ../support/mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bash/bash-3.1/unpack/bash-3.1/../../pkg/debian/usr/share/info
+if test -n "" ; then \
+	/bin/sh ../support/mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bash/bash-3.1/unpack/bash-3.1/../../pkg/debian ; \
+fi
+/bin/sh ./infopost.sh < ./bashref.info > bash.info ; \
+
+/usr/bin/install -c -m 644 ./bash.1 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bash/bash-3.1/unpack/bash-3.1/../../pkg/debian/usr/share/man/man1/bash.1
+/usr/bin/install -c -m 644 ./bashbug.1 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bash/bash-3.1/unpack/bash-3.1/../../pkg/debian/usr/share/man/man1/bashbug.1
+/usr/bin/install -c -m 644 ./bash.info /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bash/bash-3.1/unpack/bash-3.1/../../pkg/debian/usr/share/info/bash.info
+if /bin/sh -c 'install-info --version' >/dev/null 2>&1; then \
+	install-info --dir-file=/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bash/bash-3.1/unpack/bash-3.1/../../pkg/debian/usr/share/info/dir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bash/bash-3.1/unpack/bash-3.1/../../pkg/debian/usr/share/info/bash.info; \
+else true; fi
+if test -n "" ; then \
+	/usr/bin/install -c -m 644 ./bash.html /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bash/bash-3.1/unpack/bash-3.1/../../pkg/debian ; \
+	/usr/bin/install -c -m 644 ./bashref.html /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bash/bash-3.1/unpack/bash-3.1/../../pkg/debian ; \
+fi
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/bash/bash-3.1/unpack/bash-3.1/doc'
+( cd ./builtins ; make  DESTDIR=/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bash/bash-3.1/unpack/bash-3.1/../../pkg/debian install )
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/bash/bash-3.1/unpack/bash-3.1/builtins'
+make[1]: Nothing to be done for `install'.
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/bash/bash-3.1/unpack/bash-3.1/builtins'
+( cd ./po/ ; make  DESTDIR=/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bash/bash-3.1/unpack/bash-3.1/../../pkg/debian install )
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/bash/bash-3.1/unpack/bash-3.1/po'
+test -z "en@quot.gmo en@boldquot.gmo" || make en@quot.gmo en@boldquot.gmo
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/bash/bash-3.1/unpack/bash-3.1/po'
+make[2]: `en@quot.gmo' is up to date.
+make[2]: `en@boldquot.gmo' is up to date.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/bash/bash-3.1/unpack/bash-3.1/po'
+touch stamp-po
+/bin/sh /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bash/bash-3.1/unpack/bash-3.1/./support/mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bash/bash-3.1/unpack/bash-3.1/../../pkg/debian/usr/share
+installing en@quot.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bash/bash-3.1/unpack/bash-3.1/../../pkg/debian/usr/share/locale/en@quot/LC_MESSAGES/bash.mo
+installing en@boldquot.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bash/bash-3.1/unpack/bash-3.1/../../pkg/debian/usr/share/locale/en@boldquot/LC_MESSAGES/bash.mo
+if test "bash" = "gettext-tools"; then \
+  /bin/sh /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bash/bash-3.1/unpack/bash-3.1/./support/mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bash/bash-3.1/unpack/bash-3.1/../../pkg/debian/usr/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /usr/bin/install -c -m 644 ./$file \
+		    /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bash/bash-3.1/unpack/bash-3.1/../../pkg/debian/usr/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bash/bash-3.1/unpack/bash-3.1/../../pkg/debian/usr/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/bash/bash-3.1/unpack/bash-3.1/po'

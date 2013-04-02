@@ -1,0 +1,20 @@
+dpkg-deb: building package `m4-1.4.4' in `debian.deb'.
+ new debian package, version 2.0.
+ size 140042 bytes: control archive= 965 bytes.
+     224 bytes,    10 lines      control              
+     789 bytes,    18 lines      copyright            
+       6 bytes,     1 lines      debian-binary        
+     110 bytes,     3 lines   *  postinst             #!/bin/bash
+     108 bytes,     3 lines   *  postrm               #!/bin/bash
+     111 bytes,     3 lines   *  preinst              #!/bin/bash
+     109 bytes,     3 lines   *  prerm                #!/bin/bash
+ Package: m4-1.4.4
+ Version: 1.4.4
+ Section: unknown
+ Priority: required
+ Architecture: all
+ Essential: no
+ Depends: aaa-base
+ Maintainer: Aethernet support team [support@aethernet.co.uk]
+ Provides: m4
+ Description: a macro processor

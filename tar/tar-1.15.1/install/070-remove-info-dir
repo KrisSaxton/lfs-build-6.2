@@ -1,0 +1,6 @@
+#!/bin/bash
+
+source configure
+
+rm -v ../pkg/debian/usr/share/info/dir | tee ../logs/070-remove-info-dir.log
+

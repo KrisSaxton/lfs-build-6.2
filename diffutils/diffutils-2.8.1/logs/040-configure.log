@@ -1,0 +1,238 @@
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for gawk... gawk
+checking whether make sets ${MAKE}... yes
+checking for gawk... (cached) gawk
+checking for gcc... gcc
+checking for C compiler default output... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking for strerror in -lcposix... no
+checking for gcc option to accept ANSI C... none needed
+checking how to run the C preprocessor... gcc -E
+checking for a BSD-compatible install... /usr/bin/install -c
+checking for ranlib... ranlib
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... 64
+checking for _LARGE_FILES value needed for large files... no
+checking for gcc option to accept ANSI C... none needed
+checking for an ANSI C-conforming const... yes
+checking for inline... inline
+checking for variable-length arrays... yes
+checking for pr... /usr/bin/pr
+checking for stdbool.h that conforms to C99... yes
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking libintl.h usability... yes
+checking libintl.h presence... yes
+checking for libintl.h... yes
+checking limits.h usability... yes
+checking limits.h presence... yes
+checking for limits.h... yes
+checking locale.h usability... yes
+checking locale.h presence... yes
+checking for locale.h... yes
+checking for stdlib.h... (cached) yes
+checking for string.h... (cached) yes
+checking sys/file.h usability... yes
+checking sys/file.h presence... yes
+checking for sys/file.h... yes
+checking time.h usability... yes
+checking time.h presence... yes
+checking for time.h... yes
+checking for unistd.h... (cached) yes
+checking for struct stat.st_blksize... yes
+checking for struct stat.st_rdev... yes
+checking for ptrdiff_t... yes
+checking for ssize_t... yes
+checking for unsigned long long... yes
+checking for uintmax_t... yes
+checking for msgfmt... /usr/bin/msgfmt
+checking for gmsgfmt... /usr/bin/msgfmt
+checking for xgettext... /usr/bin/xgettext
+checking for msgmerge... /usr/bin/msgmerge
+checking build system type... i686-pc-linux-gnu
+checking host system type... i686-pc-linux-gnu
+checking for ld used by GCC... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for shared library run path origin... done
+checking whether NLS is requested... yes
+checking for GNU gettext in libc... yes
+checking for dirent.h that defines DIR... yes
+checking for library containing opendir... none required
+checking whether stat file-mode macros are broken... no
+checking for sys/wait.h that is POSIX.1 compatible... yes
+checking for nanoseconds member of struct stat.st_mtim... tv_nsec
+checking for pid_t... yes
+checking return type of signal handlers... void
+checking for diraccess... no
+checking for dup2... yes
+checking for gettimeofday... yes
+checking for sigaction... yes
+checking for sigprocmask... yes
+checking for strchr... yes
+checking for strerror... yes
+checking for tmpnam... yes
+checking for memchr... yes
+checking for mkstemp... yes
+checking for strcasecmp... yes
+checking for waitpid... yes
+checking whether closedir returns void... no
+checking for unistd.h... (cached) yes
+checking vfork.h usability... no
+checking vfork.h presence... no
+checking for vfork.h... no
+checking for fork... yes
+checking for vfork... yes
+checking for working fork... (cached) yes
+checking for working vfork... (cached) yes
+checking for vprintf... yes
+checking for _doprnt... no
+checking whether clearerr_unlocked is declared... yes
+checking whether feof_unlocked is declared... yes
+checking whether ferror_unlocked is declared... yes
+checking whether fflush_unlocked is declared... yes
+checking whether fgets_unlocked is declared... yes
+checking whether fputc_unlocked is declared... yes
+checking whether fputs_unlocked is declared... yes
+checking whether fread_unlocked is declared... yes
+checking whether fwrite_unlocked is declared... yes
+checking whether getc_unlocked is declared... yes
+checking whether getchar_unlocked is declared... yes
+checking whether putc_unlocked is declared... yes
+checking whether putchar_unlocked is declared... yes
+checking whether time.h and sys/time.h may both be included... yes
+checking whether struct tm is in sys/time.h or time.h... time.h
+checking for localtime_r... yes
+checking for strftime... yes
+checking for limits.h... (cached) yes
+checking for bcopy... yes
+checking for tzset... yes
+checking for mempcpy... yes
+checking for memcpy... yes
+checking for memset... yes
+checking for struct tm.tm_zone... yes
+checking for mblen... yes
+checking for mbrlen... yes
+checking for struct tm.tm_gmtoff... yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking for working malloc... yes
+checking for working realloc... yes
+checking for working alloca.h... yes
+checking for alloca... yes
+checking for working C stack overflow detection... no
+checking for unistd.h... (cached) yes
+checking for siginfo_t... yes
+checking for stack_t... yes
+checking for strerror... (cached) yes
+checking for vprintf... (cached) yes
+checking for doprnt... no
+checking whether strerror is declared... yes
+checking whether strerror_r is declared... yes
+checking for strerror_r... yes
+checking whether strerror_r returns char *... yes
+checking for ANSI C header files... (cached) yes
+checking for function prototypes... yes
+checking for setlocale... yes
+checking for locale.h... (cached) yes
+checking for stdlib.h... (cached) yes
+checking for string.h... (cached) yes
+checking for isascii... yes
+checking for iswprint... yes
+checking whether mbrtowc and mbstate_t are properly declared... yes
+checking for limits.h... (cached) yes
+checking stddef.h usability... yes
+checking stddef.h presence... yes
+checking for stddef.h... yes
+checking for stdlib.h... (cached) yes
+checking for string.h... (cached) yes
+checking wchar.h usability... yes
+checking wchar.h presence... yes
+checking for wchar.h... yes
+checking wctype.h usability... yes
+checking wctype.h presence... yes
+checking for wctype.h... yes
+checking for ANSI C header files... (cached) yes
+checking whether backslash-a works in strings... yes
+checking for stdlib.h... (cached) yes
+checking for mbstate_t... yes
+checking for function prototypes... yes
+checking for ANSI C header files... (cached) yes
+checking for string.h... (cached) yes
+checking for bzero... yes
+checking for bcopy... (cached) yes
+checking for isascii... (cached) yes
+checking for btowc... yes
+checking alloca.h usability... yes
+checking alloca.h presence... yes
+checking for alloca.h... yes
+checking for libintl.h... (cached) yes
+checking for wctype.h... (cached) yes
+checking for wchar.h... (cached) yes
+checking for ANSI C header files... (cached) yes
+checking for working alloca.h... (cached) yes
+checking for alloca... (cached) yes
+checking for ANSI C header files... (cached) yes
+checking whether stat file-mode macros are broken... (cached) no
+checking for fcntl.h... (cached) yes
+checking for sys/time.h... (cached) yes
+checking for stdint.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for __secure_getenv... yes
+checking for gettimeofday... (cached) yes
+checking whether getenv is declared... yes
+checking for long long... yes
+checking for intmax_t... yes
+checking whether strtol is declared... yes
+checking whether strtoul is declared... yes
+checking whether strtoull is declared... yes
+checking whether strtoimax is declared... yes
+checking whether strtoumax is declared... yes
+checking for limits.h... (cached) yes
+checking for stdlib.h... (cached) yes
+checking for inttypes.h... (cached) yes
+checking whether <inttypes.h> defines strtoumax as a macro... no
+checking for strtoumax... yes
+checking for library containing clock_gettime... -lrt
+checking for clock_gettime... yes
+checking for working GNU-style fnmatch... yes
+checking for working re_compile_pattern... yes
+checking whether system is Windows or MSDOS... no
+checking for fcntl.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for DOS-style setmode... no
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating doc/Makefile
+config.status: creating lib/Makefile
+config.status: creating lib/posix/Makefile
+config.status: creating man/Makefile
+config.status: creating m4/Makefile
+config.status: creating ms/Makefile
+config.status: creating po/Makefile.in
+config.status: creating src/Makefile
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing default-1 commands
+config.status: creating po/POTFILES
+config.status: creating po/Makefile
+config.status: executing default commands

@@ -1,0 +1,4 @@
+/bin/sh ./mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/mktemp/mktemp-1.5/unpack/mktemp-1.5/../../pkg/debian/usr/bin /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/mktemp/mktemp-1.5/unpack/mktemp-1.5/../../pkg/debian/usr/share/man/man1
+/bin/sh ./install-sh -c -m 0555 -s mktemp /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/mktemp/mktemp-1.5/unpack/mktemp-1.5/../../pkg/debian/usr/bin/mktemp
+/bin/sh ./install-sh -c -m 0444 ./mktemp.man /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/mktemp/mktemp-1.5/unpack/mktemp-1.5/../../pkg/debian/usr/share/man/man1/mktemp.1
+/bin/sh ./install-sh -c -m 0555 ./tempfile /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/mktemp/mktemp-1.5/unpack/mktemp-1.5/../../pkg/debian/usr/bin/tempfile

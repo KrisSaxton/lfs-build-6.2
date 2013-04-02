@@ -1,0 +1,88 @@
+#!/bin/bash
+
+################################################################################
+# prerm
+################################################################################
+
+LDCONF_DIR=/etc/ld.so.conf.d
+PROFILE_ENVPATH_DIR=/etc/profile.d/env/path
+
+PACKAGE_INSTALL_NAME=@AB_PACKAGE_INSTALL_NAME@
+
+################################################################################
+# remove_filesfrom_profile_envpath_dir
+################################################################################
+
+function remove_filesfrom_profile_envpath_dir {
+
+    local file
+    local rtrn=0
+    
+    for file in $PROFILE_ENVPATH_DIR/$PACKAGE_INSTALL_NAME*; do
+        [ -e "$file" ] && {
+            rm "$file" \
+                && { echo "> OK    : Removed $file"; } \
+                || { echo "> ERROR : Failed to remove $file"; rtrn=1; }
+            }
+    done
+
+    return $rtrn
+}
+
+################################################################################
+# remove_filesfrom_ldconf_dir
+################################################################################
+
+function remove_filesfrom_ldconf_dir {
+
+    local file
+    local rtrn=0    
+
+    for file in $LDCONF_DIR/$PACKAGE_INSTALL_NAME*; do
+        [ -e "$file" ] && {
+            rm $file \
+                && { echo "> OK    : Removed $file"; } \
+                || { echo "> ERROR : Failed to remove $file"; rtrn=1; }
+            }
+    done
+    
+    return $rtrn
+}
+
+################################################################################
+# update_linker_cache
+################################################################################
+
+function update_linker_cache {
+
+    local rtrn=0
+    
+    ldconfig \
+        && { echo "> OK    : Updated ldconfig linker cache"; } \
+        || { echo "> ERROR : Command ldconfig returned error"; rtrn=1; }
+
+    return $rtrn
+}
+
+################################################################################
+# main
+################################################################################
+
+function main {
+
+    local rtrn=0
+
+    echo ">>>>>>>>> prerm >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"
+
+    remove_filesfrom_profile_envpath_dir    || rtrn=1
+    remove_filesfrom_ldconf_dir             || rtrn=1
+    update_linker_cache                     || rtrn=1
+
+    return $rtrn
+}
+
+main "$@"
+
+################################################################################
+# end
+################################################################################

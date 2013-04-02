@@ -1,0 +1,20 @@
+dpkg-deb: building package `linux-2.6.33.20-1' in `debian.deb'.
+new debian package, version 2.0.
+size 4380134 bytes: control archive= 9283 bytes.
+216 bytes,     9 lines      control
+789 bytes,    18 lines      copyright
+6 bytes,     1 lines      debian-binary
+22720 bytes,   257 lines      md5sums
+1499 bytes,    61 lines   *  postinst             #!/bin/bash
+108 bytes,     3 lines   *  postrm               #!/bin/bash
+111 bytes,     3 lines   *  preinst              #!/bin/bash
+509 bytes,    17 lines   *  prerm                #!/bin/bash
+Package: linux-2.6.33.20-1
+Version: 3251
+Section: unknown
+Priority: optional
+Architecture: all
+Essential: no
+Maintainer: Aethernet support team [support@aethernet.co.uk]
+Provides: linux
+Description: The Linux kernel

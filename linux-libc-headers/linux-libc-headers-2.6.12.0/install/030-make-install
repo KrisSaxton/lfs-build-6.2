@@ -1,0 +1,14 @@
+#!/bin/bash
+
+source configure
+
+pushd ../unpack/*
+
+{
+mkdir -vp                   ../../pkg/debian/usr/include/asm
+cp -vR include/asm-i386/*   ../../pkg/debian/usr/include/asm
+cp -vR include/linux        ../../pkg/debian/usr/include
+
+} | tee ../../logs/060-make-install.log
+
+popd

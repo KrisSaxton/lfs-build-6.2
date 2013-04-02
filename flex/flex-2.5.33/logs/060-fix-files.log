@@ -1,0 +1,3 @@
+create symbolic link `usr/lib/libl.a' to `libfl.a'
+mode of `usr/bin/lex' changed to 0755 (rwxr-xr-x)
+removed `usr/info/dir'

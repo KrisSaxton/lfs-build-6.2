@@ -1,0 +1,28 @@
+#!/bin/bash
+
+source configure
+
+{
+pushd ../build
+# Install the package
+make install DESTDIR=$PWD/../pkg/debian
+popd
+
+pushd $PWD/../pkg/debian
+
+# Some packages expect the C preprocessor to be installed in the /lib directory. 
+# To support those packages, create this symlink:
+
+mkdir lib
+ln -sv ../usr/bin/cpp lib
+        
+# Many packages use the name cc to call the C compiler. To satisfy those packages, 
+# create a symlink:
+
+ln -sv gcc usr/bin/cc
+
+popd
+ 
+} | tee ../logs/060-make-install.log       
+
+        

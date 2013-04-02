@@ -1,0 +1,15 @@
+#!/bin/bash
+
+source configure
+
+pushd ../pkg/debian
+
+{
+mkdir -pv boot/grub
+
+sed -e "s:AB_PACKAGE_NAME:$AB_PACKAGE_NAME:g"           ../../files/menu.lst > boot/grub/menu.lst
+sed -i "s:AB_PACKAGE_VERSION:$AB_PACKAGE_VERSION:g"     boot/grub/menu.lst
+
+} | tee ../../logs/080-install-grub-menu-lst
+
+popd

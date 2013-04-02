@@ -1,0 +1,16 @@
+#!/bin/bash
+
+source configure
+
+pushd ../unpack/*
+
+{
+sed -i 's/install_to_$(INSTALL_DEST) //'        libiberty/Makefile.in
+sed -i 's/^XCFLAGS =$/& -fomit-frame-pointer/'  gcc/Makefile.in
+sed -i 's@\./fixinc\.sh@-c true@'               gcc/Makefile.in
+sed -i 's/@have_mktemp_command@/yes/'           gcc/gccbug.in
+
+} | tee ../../logs/020-patch.log
+
+popd
+

@@ -1,0 +1,18 @@
+#!/bin/bash
+
+source configure
+
+pushd ../pkg/debian
+
+{
+
+mkdir -vp etc/rc.d/init.d
+
+sed -e "s:AB_PACKAGE_INSTALL_DIR:$AB_PACKAGE_INSTALL_DIR:g" \
+    ../../files/sysklogd > etc/rc.d/init.d/sysklogd
+
+chmod -v 754 etc/rc.d/init.d/sysklogd
+
+} | tee -a ../../logs/070-fix-files.log
+
+popd

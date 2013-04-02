@@ -1,0 +1,49 @@
+if ( test ! -d ../../pkg/debian/usr/bin ) ; then mkdir -p ../../pkg/debian/usr/bin ; fi
+if ( test ! -d ../../pkg/debian/usr/lib ) ; then mkdir -p ../../pkg/debian/usr/lib ; fi
+if ( test ! -d ../../pkg/debian/usr/man ) ; then mkdir -p ../../pkg/debian/usr/man ; fi
+if ( test ! -d ../../pkg/debian/usr/man/man1 ) ; then mkdir -p ../../pkg/debian/usr/man/man1 ; fi
+if ( test ! -d ../../pkg/debian/usr/share/doc/bzip2-1.0.3 ) ; then mkdir -p ../../pkg/debian/usr/share/doc/bzip2-1.0.3; fi
+if ( test ! -d ../../pkg/debian/usr/include ) ; then mkdir -p ../../pkg/debian/usr/include ; fi
+cp -f bzip2 ../../pkg/debian/usr/bin/bzip2
+cp -f bzip2 ../../pkg/debian/usr/bin/bunzip2
+cp -f bzip2 ../../pkg/debian/usr/bin/bzcat
+cp -f bzip2recover ../../pkg/debian/usr/bin/bzip2recover
+chmod a+x ../../pkg/debian/usr/bin/bzip2
+chmod a+x ../../pkg/debian/usr/bin/bunzip2
+chmod a+x ../../pkg/debian/usr/bin/bzcat
+chmod a+x ../../pkg/debian/usr/bin/bzip2recover
+cp -f bzip2.1 ../../pkg/debian/usr/man/man1
+chmod a+r ../../pkg/debian/usr/man/man1/bzip2.1
+cp -f bzlib.h ../../pkg/debian/usr/include
+chmod a+r ../../pkg/debian/usr/include/bzlib.h
+cp -f libbz2.a ../../pkg/debian/usr/lib
+chmod a+r ../../pkg/debian/usr/lib/libbz2.a
+cp -f bzgrep ../../pkg/debian/usr/bin/bzgrep
+ln ../../pkg/debian/usr/bin/bzgrep ../../pkg/debian/usr/bin/bzegrep
+ln ../../pkg/debian/usr/bin/bzgrep ../../pkg/debian/usr/bin/bzfgrep
+chmod a+x ../../pkg/debian/usr/bin/bzgrep
+cp -f bzmore ../../pkg/debian/usr/bin/bzmore
+ln ../../pkg/debian/usr/bin/bzmore ../../pkg/debian/usr/bin/bzless
+chmod a+x ../../pkg/debian/usr/bin/bzmore
+cp -f bzdiff ../../pkg/debian/usr/bin/bzdiff
+ln ../../pkg/debian/usr/bin/bzdiff ../../pkg/debian/usr/bin/bzcmp
+chmod a+x ../../pkg/debian/usr/bin/bzdiff
+cp -f bzgrep.1 bzmore.1 bzdiff.1 ../../pkg/debian/usr/man/man1
+chmod a+r ../../pkg/debian/usr/man/man1/bzgrep.1
+chmod a+r ../../pkg/debian/usr/man/man1/bzmore.1
+chmod a+r ../../pkg/debian/usr/man/man1/bzdiff.1
+echo ".so man1/bzgrep.1" > ../../pkg/debian/usr/man/man1/bzegrep.1
+echo ".so man1/bzgrep.1" > ../../pkg/debian/usr/man/man1/bzfgrep.1
+echo ".so man1/bzmore.1" > ../../pkg/debian/usr/man/man1/bzless.1
+echo ".so man1/bzdiff.1" > ../../pkg/debian/usr/man/man1/bzcmp.1
+cp -f manual.html ../../pkg/debian/usr/share/doc/bzip2-1.0.3
+cp -f manual.pdf ../../pkg/debian/usr/share/doc/bzip2-1.0.3
+cp -f manual.ps ../../pkg/debian/usr/share/doc/bzip2-1.0.3
+cp -f bzip2.txt ../../pkg/debian/usr/share/doc/bzip2-1.0.3
+chmod a+r ../../pkg/debian/usr/share/doc/bzip2-1.0.3/manual.html
+chmod a+r ../../pkg/debian/usr/share/doc/bzip2-1.0.3/manual.pdf
+chmod a+r ../../pkg/debian/usr/share/doc/bzip2-1.0.3/manual.ps
+chmod a+r ../../pkg/debian/usr/share/doc/bzip2-1.0.3/bzip2.txt
+`bzip2-shared' -> `../../pkg/debian/bin/bzip2'
+`libbz2.so.1.0' -> `../../pkg/debian/lib/libbz2.so.1.0'
+`libbz2.so.1.0.3' -> `../../pkg/debian/lib/libbz2.so.1.0.3'

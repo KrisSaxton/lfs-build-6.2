@@ -1,0 +1,12 @@
+#!/bin/bash
+
+source configure
+
+{
+DESTDIR=../pkg/debian
+
+mkdir -vp $DESTDIR/usr/share
+mv -v $DESTDIR/usr/man $DESTDIR/usr/share
+
+} | tee ../logs/070-move-man-pages.log
+

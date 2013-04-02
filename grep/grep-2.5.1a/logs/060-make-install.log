@@ -1,0 +1,224 @@
+Making install in intl
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grep/grep-2.5.1a/unpack/grep-2.5.1a/intl'
+if test "grep" = "gettext" \
+   && test '' = 'intl-compat.o'; then \
+  /bin/sh `case "./mkinstalldirs" in /*) echo "./mkinstalldirs" ;; *) echo ".././mkinstalldirs" ;; esac` ./../../../pkg/debian/usr/lib ./../../../pkg/debian/usr/include; \
+  /usr/bin/install -c -m 644 libintl.h ./../../../pkg/debian/usr/include/libintl.h; \
+  @LIBTOOL@ --mode=install \
+    /usr/bin/install -c -m 644 libintl.a ./../../../pkg/debian/usr/lib/libintl.a; \
+else \
+  : ; \
+fi
+if test 'no' = yes; then \
+  test yes != no || /bin/sh `case "./mkinstalldirs" in /*) echo "./mkinstalldirs" ;; *) echo ".././mkinstalldirs" ;; esac` ./../../../pkg/debian/usr/lib; \
+  temp=./../../../pkg/debian/usr/lib/t-charset.alias; \
+  dest=./../../../pkg/debian/usr/lib/charset.alias; \
+  if test -f ./../../../pkg/debian/usr/lib/charset.alias; then \
+    orig=./../../../pkg/debian/usr/lib/charset.alias; \
+    sed -f ref-add.sed $orig > $temp; \
+    /usr/bin/install -c -m 644 $temp $dest; \
+    rm -f $temp; \
+  else \
+    if test yes = no; then \
+      orig=charset.alias; \
+      sed -f ref-add.sed $orig > $temp; \
+      /usr/bin/install -c -m 644 $temp $dest; \
+      rm -f $temp; \
+    fi; \
+  fi; \
+  /bin/sh `case "./mkinstalldirs" in /*) echo "./mkinstalldirs" ;; *) echo ".././mkinstalldirs" ;; esac` ./../../../pkg/debian/usr/share/locale; \
+  test -f ./../../../pkg/debian/usr/share/locale/locale.alias \
+    && orig=./../../../pkg/debian/usr/share/locale/locale.alias \
+    || orig=./locale.alias; \
+  temp=./../../../pkg/debian/usr/share/locale/t-locale.alias; \
+  dest=./../../../pkg/debian/usr/share/locale/locale.alias; \
+  sed -f ref-add.sed $orig > $temp; \
+  /usr/bin/install -c -m 644 $temp $dest; \
+  rm -f $temp; \
+else \
+  : ; \
+fi
+if test "grep" = "gettext"; then \
+  /bin/sh `case "./mkinstalldirs" in /*) echo "./mkinstalldirs" ;; *) echo ".././mkinstalldirs" ;; esac` ./../../../pkg/debian/usr/share/gettext/intl; \
+  /usr/bin/install -c -m 644 VERSION ./../../../pkg/debian/usr/share/gettext/intl/VERSION; \
+  /usr/bin/install -c -m 644 ChangeLog.inst ./../../../pkg/debian/usr/share/gettext/intl/ChangeLog; \
+  dists="COPYING.LIB-2.0 COPYING.LIB-2.1 Makefile.in config.charset locale.alias ref-add.sin ref-del.sin gmo.h gettextP.h hash-string.h plural-exp.h eval-plural.h os2compat.h libgnuintl.h loadinfo.h bindtextdom.c dcgettext.c dgettext.c gettext.c finddomain.c loadmsgcat.c localealias.c textdomain.c l10nflist.c explodename.c dcigettext.c dcngettext.c dngettext.c ngettext.c plural.y plural-exp.c localcharset.c localename.c osdep.c os2compat.c intl-compat.c"; \
+  for file in $dists; do \
+    /usr/bin/install -c -m 644 ./$file \
+		    ./../../../pkg/debian/usr/share/gettext/intl/$file; \
+  done; \
+  chmod a+x ./../../../pkg/debian/usr/share/gettext/intl/config.charset; \
+  dists="plural.c"; \
+  for file in $dists; do \
+    if test -f $file; then dir=.; else dir=.; fi; \
+    /usr/bin/install -c -m 644 $dir/$file \
+		    ./../../../pkg/debian/usr/share/gettext/intl/$file; \
+  done; \
+  dists="xopen-msg.sed linux-msg.sed po2tbl.sed.in cat-compat.c COPYING.LIB-2 gettext.h libgettext.h plural-eval.c"; \
+  for file in $dists; do \
+    rm -f ./../../../pkg/debian/usr/share/gettext/intl/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grep/grep-2.5.1a/unpack/grep-2.5.1a/intl'
+Making install in po
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grep/grep-2.5.1a/unpack/grep-2.5.1a/po'
+if test -r ".././mkinstalldirs"; then \
+  .././mkinstalldirs .//../../../pkg/debian/usr/share; \
+else \
+  /bin/sh ../mkinstalldirs .//../../../pkg/debian/usr/share; \
+fi
+mkdir ./../../../pkg/debian/usr
+mkdir ./../../../pkg/debian/usr/share
+mkdir ./../../../pkg/debian/usr/share/locale
+mkdir ./../../../pkg/debian/usr/share/locale/cs
+mkdir ./../../../pkg/debian/usr/share/locale/cs/LC_MESSAGES
+installing cs.gmo as .//../../../pkg/debian/usr/share/locale/cs/LC_MESSAGES/grep.mo
+mkdir ./../../../pkg/debian/usr/share/locale/de
+mkdir ./../../../pkg/debian/usr/share/locale/de/LC_MESSAGES
+installing de.gmo as .//../../../pkg/debian/usr/share/locale/de/LC_MESSAGES/grep.mo
+mkdir ./../../../pkg/debian/usr/share/locale/el
+mkdir ./../../../pkg/debian/usr/share/locale/el/LC_MESSAGES
+installing el.gmo as .//../../../pkg/debian/usr/share/locale/el/LC_MESSAGES/grep.mo
+mkdir ./../../../pkg/debian/usr/share/locale/eo
+mkdir ./../../../pkg/debian/usr/share/locale/eo/LC_MESSAGES
+installing eo.gmo as .//../../../pkg/debian/usr/share/locale/eo/LC_MESSAGES/grep.mo
+mkdir ./../../../pkg/debian/usr/share/locale/es
+mkdir ./../../../pkg/debian/usr/share/locale/es/LC_MESSAGES
+installing es.gmo as .//../../../pkg/debian/usr/share/locale/es/LC_MESSAGES/grep.mo
+mkdir ./../../../pkg/debian/usr/share/locale/et
+mkdir ./../../../pkg/debian/usr/share/locale/et/LC_MESSAGES
+installing et.gmo as .//../../../pkg/debian/usr/share/locale/et/LC_MESSAGES/grep.mo
+mkdir ./../../../pkg/debian/usr/share/locale/fr
+mkdir ./../../../pkg/debian/usr/share/locale/fr/LC_MESSAGES
+installing fr.gmo as .//../../../pkg/debian/usr/share/locale/fr/LC_MESSAGES/grep.mo
+mkdir ./../../../pkg/debian/usr/share/locale/gl
+mkdir ./../../../pkg/debian/usr/share/locale/gl/LC_MESSAGES
+installing gl.gmo as .//../../../pkg/debian/usr/share/locale/gl/LC_MESSAGES/grep.mo
+mkdir ./../../../pkg/debian/usr/share/locale/hr
+mkdir ./../../../pkg/debian/usr/share/locale/hr/LC_MESSAGES
+installing hr.gmo as .//../../../pkg/debian/usr/share/locale/hr/LC_MESSAGES/grep.mo
+mkdir ./../../../pkg/debian/usr/share/locale/id
+mkdir ./../../../pkg/debian/usr/share/locale/id/LC_MESSAGES
+installing id.gmo as .//../../../pkg/debian/usr/share/locale/id/LC_MESSAGES/grep.mo
+mkdir ./../../../pkg/debian/usr/share/locale/it
+mkdir ./../../../pkg/debian/usr/share/locale/it/LC_MESSAGES
+installing it.gmo as .//../../../pkg/debian/usr/share/locale/it/LC_MESSAGES/grep.mo
+mkdir ./../../../pkg/debian/usr/share/locale/ja
+mkdir ./../../../pkg/debian/usr/share/locale/ja/LC_MESSAGES
+installing ja.gmo as .//../../../pkg/debian/usr/share/locale/ja/LC_MESSAGES/grep.mo
+mkdir ./../../../pkg/debian/usr/share/locale/ko
+mkdir ./../../../pkg/debian/usr/share/locale/ko/LC_MESSAGES
+installing ko.gmo as .//../../../pkg/debian/usr/share/locale/ko/LC_MESSAGES/grep.mo
+mkdir ./../../../pkg/debian/usr/share/locale/nl
+mkdir ./../../../pkg/debian/usr/share/locale/nl/LC_MESSAGES
+installing nl.gmo as .//../../../pkg/debian/usr/share/locale/nl/LC_MESSAGES/grep.mo
+mkdir ./../../../pkg/debian/usr/share/locale/no
+mkdir ./../../../pkg/debian/usr/share/locale/no/LC_MESSAGES
+installing no.gmo as .//../../../pkg/debian/usr/share/locale/no/LC_MESSAGES/grep.mo
+mkdir ./../../../pkg/debian/usr/share/locale/pl
+mkdir ./../../../pkg/debian/usr/share/locale/pl/LC_MESSAGES
+installing pl.gmo as .//../../../pkg/debian/usr/share/locale/pl/LC_MESSAGES/grep.mo
+mkdir ./../../../pkg/debian/usr/share/locale/pt_BR
+mkdir ./../../../pkg/debian/usr/share/locale/pt_BR/LC_MESSAGES
+installing pt_BR.gmo as .//../../../pkg/debian/usr/share/locale/pt_BR/LC_MESSAGES/grep.mo
+mkdir ./../../../pkg/debian/usr/share/locale/ru
+mkdir ./../../../pkg/debian/usr/share/locale/ru/LC_MESSAGES
+installing ru.gmo as .//../../../pkg/debian/usr/share/locale/ru/LC_MESSAGES/grep.mo
+mkdir ./../../../pkg/debian/usr/share/locale/sl
+mkdir ./../../../pkg/debian/usr/share/locale/sl/LC_MESSAGES
+installing sl.gmo as .//../../../pkg/debian/usr/share/locale/sl/LC_MESSAGES/grep.mo
+mkdir ./../../../pkg/debian/usr/share/locale/sv
+mkdir ./../../../pkg/debian/usr/share/locale/sv/LC_MESSAGES
+installing sv.gmo as .//../../../pkg/debian/usr/share/locale/sv/LC_MESSAGES/grep.mo
+if test "grep" = "gettext"; then \
+  if test -r ".././mkinstalldirs"; then \
+    .././mkinstalldirs .//../../../pkg/debian/usr/share/gettext/po; \
+  else \
+    /bin/sh ../mkinstalldirs .//../../../pkg/debian/usr/share/gettext/po; \
+  fi; \
+  /usr/bin/install -c -m 644 ./Makefile.in.in \
+		  .//../../../pkg/debian/usr/share/gettext/po/Makefile.in.in; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grep/grep-2.5.1a/unpack/grep-2.5.1a/po'
+Making install in lib
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grep/grep-2.5.1a/unpack/grep-2.5.1a/lib'
+Making install in posix
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grep/grep-2.5.1a/unpack/grep-2.5.1a/lib/posix'
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grep/grep-2.5.1a/unpack/grep-2.5.1a/lib/posix'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grep/grep-2.5.1a/unpack/grep-2.5.1a/lib/posix'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grep/grep-2.5.1a/unpack/grep-2.5.1a/lib/posix'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grep/grep-2.5.1a/unpack/grep-2.5.1a/lib'
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grep/grep-2.5.1a/unpack/grep-2.5.1a/lib'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grep/grep-2.5.1a/unpack/grep-2.5.1a/lib'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grep/grep-2.5.1a/unpack/grep-2.5.1a/lib'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grep/grep-2.5.1a/unpack/grep-2.5.1a/lib'
+Making install in doc
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grep/grep-2.5.1a/unpack/grep-2.5.1a/doc'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grep/grep-2.5.1a/unpack/grep-2.5.1a/doc'
+make[2]: Nothing to be done for `install-exec-am'.
+/bin/sh ../mkinstalldirs ./../../../pkg/debian/usr/share/info
+mkdir ./../../../pkg/debian/usr/share/info
+ /usr/bin/install -c -m 644 ./grep.info ./../../../pkg/debian/usr/share/info/grep.info
+ install-info --info-dir=./../../../pkg/debian/usr/share/info ./../../../pkg/debian/usr/share/info/grep.info
+/bin/sh ../mkinstalldirs ./../../../pkg/debian/usr/share/man/man1
+mkdir ./../../../pkg/debian/usr/share/man
+mkdir ./../../../pkg/debian/usr/share/man/man1
+ /usr/bin/install -c -m 644 ./grep.1 ./../../../pkg/debian/usr/share/man/man1/grep.1
+ /usr/bin/install -c -m 644 ./fgrep.1 ./../../../pkg/debian/usr/share/man/man1/fgrep.1
+ /usr/bin/install -c -m 644 ./egrep.1 ./../../../pkg/debian/usr/share/man/man1/egrep.1
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grep/grep-2.5.1a/unpack/grep-2.5.1a/doc'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grep/grep-2.5.1a/unpack/grep-2.5.1a/doc'
+Making install in src
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grep/grep-2.5.1a/unpack/grep-2.5.1a/src'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grep/grep-2.5.1a/unpack/grep-2.5.1a/src'
+/bin/sh ../mkinstalldirs ./../../../pkg/debian/bin
+mkdir ./../../../pkg/debian/bin
+  /usr/bin/install -c grep ./../../../pkg/debian/bin/grep
+/bin/sh ../mkinstalldirs ./../../../pkg/debian/bin
+ /usr/bin/install -c egrep ./../../../pkg/debian/bin/egrep
+ /usr/bin/install -c fgrep ./../../../pkg/debian/bin/fgrep
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grep/grep-2.5.1a/unpack/grep-2.5.1a/src'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grep/grep-2.5.1a/unpack/grep-2.5.1a/src'
+Making install in tests
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grep/grep-2.5.1a/unpack/grep-2.5.1a/tests'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grep/grep-2.5.1a/unpack/grep-2.5.1a/tests'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grep/grep-2.5.1a/unpack/grep-2.5.1a/tests'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grep/grep-2.5.1a/unpack/grep-2.5.1a/tests'
+Making install in m4
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grep/grep-2.5.1a/unpack/grep-2.5.1a/m4'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grep/grep-2.5.1a/unpack/grep-2.5.1a/m4'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grep/grep-2.5.1a/unpack/grep-2.5.1a/m4'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grep/grep-2.5.1a/unpack/grep-2.5.1a/m4'
+Making install in vms
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grep/grep-2.5.1a/unpack/grep-2.5.1a/vms'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grep/grep-2.5.1a/unpack/grep-2.5.1a/vms'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grep/grep-2.5.1a/unpack/grep-2.5.1a/vms'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grep/grep-2.5.1a/unpack/grep-2.5.1a/vms'
+Making install in bootstrap
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grep/grep-2.5.1a/unpack/grep-2.5.1a/bootstrap'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grep/grep-2.5.1a/unpack/grep-2.5.1a/bootstrap'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grep/grep-2.5.1a/unpack/grep-2.5.1a/bootstrap'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grep/grep-2.5.1a/unpack/grep-2.5.1a/bootstrap'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grep/grep-2.5.1a/unpack/grep-2.5.1a'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grep/grep-2.5.1a/unpack/grep-2.5.1a'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grep/grep-2.5.1a/unpack/grep-2.5.1a'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grep/grep-2.5.1a/unpack/grep-2.5.1a'

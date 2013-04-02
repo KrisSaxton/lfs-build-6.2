@@ -1,0 +1,717 @@
+sh Configure -ds -e -Dprefix=/usr -Dman1dir=/usr/share/man/man1 -Dman3dir=/usr/share/man/man3 -Dpager=/usr/bin/less -isR -Dusethreads
+First let's make sure your kit is complete.  Checking...
+Locating common programs...
+Checking compatibility between /bin/echo and builtin echo (if any)...
+Symbolic links are supported.
+Checking how to test for symbolic links...
+Your builtin 'test -h' may be broken.
+Trying external '/usr/bin/test -h'.
+You can test for symbolic links with '/usr/bin/test -h'.
+Good, your tr supports [:lower:] and [:upper:] to convert case.
+Using [:upper:] and [:lower:] to convert case.
+3b1   	     dos_djgpp       irix_6_0      nonstopux     sunos_4_0   
+aix   	     dynix   	     irix_6_1      openbsd   	 sunos_4_1   
+aix_3        dynixptx        isc   	   opus   	 super-ux   
+aix_4        epix   	     isc_2   	   os2   	 svr4   
+altos486     esix4   	     linux   	   os390   	 svr5   
+amigaos      fps   	     lynxos   	   os400   	 ti1500   
+apollo       freebsd         machten       posix-bc   	 titanos   
+atheos       genix   	     machten_2     powerux   	 ultrix_4   
+aux_3        gnu   	     mint   	   qnx   	 umips   
+beos         gnukfreebsd     mips   	   rhapsody   	 unicos   
+bsdos        gnuknetbsd      mpc   	   sco   	 unicosmk   
+convexos     greenhills      mpeix   	   sco_2_3_0     unisysdynix   
+cxux         hpux   	     ncr_tower     sco_2_3_1     utekv   
+cygwin       i386   	     netbsd   	   sco_2_3_2     uts   
+darwin       interix         newsos4       sco_2_3_3     uwin   
+dcosx        irix_4   	     next_3   	   sco_2_3_4     vmesa   
+dec_osf      irix_5   	     next_3_0      solaris_2     vos   
+dgux         irix_6   	     next_4   	   stellar   
+Which of these apply, if any? [linux]  
+
+You appear to have ELF support.  I'll try to use it for dynamic loading.
+If dynamic loading doesn't work, read hints/linux.sh for further information.
+Operating system name? [linux]  
+Operating system version? [2.6.18.8]  
+Build Perl for SOCKS? [n]  
+Use the PerlIO abstraction layer? [y]  
+Build a threading Perl? [y]  
+Use the newer interpreter-based ithreads? [y]  
+Use which C compiler? [cc]  
+Checking for GNU cc in disguise and/or its version number...
+Now, how can we feed standard input to your C preprocessor...
+Directories to use for library searches? [/usr/lib]  
+What is the file extension used for shared libraries? [so]  
+Try to use long doubles if available? [n]  
+Checking for optional libraries...
+What libraries to use? [-lnsl -ldl -lm -lcrypt -lutil -lpthread -lc]  
+What optimizer/debugger flag should be used? [-O2]  
+Any additional cc flags?
+[-D_REENTRANT -D_GNU_SOURCE -DTHREADS_HAVE_PIDS -fno-strict-aliasing -pipe -Wdeclaration-after-statement]  
+Let me guess what the preprocessor flags are...
+Any additional ld flags (NOT including libraries)? [none]  
+Checking your choice of C compiler and flags for coherency...
+Computing filename position in cpp output for #include directives...
+<stdlib.h> found.
+Checking to see how big your integers are...
+Checking to see if you have long long...
+Checking to see how big your long longs are...
+<inttypes.h> found.
+Checking to see if you have int64_t...
+Checking which 64-bit integer type we could use...
+We could use 'long long' for 64-bit integers.
+Try to use 64-bit integers, if available? [n]  
+Try to use maximal 64-bit support, if available? [n]  
+Checking to see how big your double precision numbers are...
+Checking to see if you have long double...
+Checking to see how big your long doubles are...
+What is your architecture name [i686-linux]  
+Threads selected.
+...setting architecture name to i686-linux-thread.
+Multiplicity selected.
+...setting architecture name to i686-linux-thread-multi.
+Perlio selected.
+Installation prefix to use? (~name ok) [/usr]  
+AFS does not seem to be running...
+What installation prefix should I use for installing files? (~name ok)
+[/usr]  
+Getting the current patchlevel...
+Pathname where the private library files will reside? (~name ok)
+[/usr/lib/perl5/5.8.8]  
+Where do you want to put the public architecture-dependent libraries? (~name ok)
+[/usr/lib/perl5/5.8.8/i686-linux-thread-multi]  
+Other username to test security of setuid scripts with? [none]  
+Well, the recommended value is *not* secure.
+Does your kernel have *secure* setuid scripts? [n]  
+Do you want to do setuid/setgid emulation? [n]  
+<malloc.h> found.
+Checking to see how well your C compiler groks the void type...
+Good.  It appears to support void to the level perl5 wants.
+Checking to see how big your pointers are...
+Do you wish to wrap malloc calls to protect against potential overflows? [y]  
+Do you wish to attempt to use the malloc that comes with perl5? [n]  
+Your system wants malloc to return 'void *', it would seem.
+Your system uses void free(), it would seem.
+Installation prefix to use for add-on modules and utilities? (~name ok)
+[/usr]  
+Pathname for the site-specific library files? (~name ok)
+[/usr/lib/perl5/site_perl/5.8.8]  
+Pathname for the site-specific architecture-dependent library files? (~name ok)
+[/usr/lib/perl5/site_perl/5.8.8/i686-linux-thread-multi]  
+Do you want to configure vendor-specific add-on directories? [n]  
+Colon-separated list of additional directories for perl to search? [none]  
+Checking out function prototypes...
+Pathname where the public executables will reside? (~name ok) [/usr/bin]  
+Install any extra modules (y or n)? [n]  
+Directory for the main Perl5 html pages? (~name ok) [none]  
+Directory for the Perl5 module html pages? (~name ok) [none]  
+List of earlier versions to include in @INC? [none]  
+Checking for GNU C Library...
+nm probably won't work on the GNU C Library.
+Shall I use /usr/bin/nm to extract C symbols from the libraries? [n]  
+<dld.h> NOT found.
+dlopen() found.
+Do you wish to use dynamic loading? [y]  
+Source file to use for dynamic loading [ext/DynaLoader/dl_dlopen.xs]  
+Any special flags to pass to cc -c to compile shared library modules?
+[-fpic]  
+What command should be used to create dynamic libraries? [cc]  
+Any special flags to pass to cc to create a dynamically loaded library?
+[-shared]  
+Any special flags to pass to cc to use dynamic linking? [-Wl,-E]  
+Build a shared libperl.so (y/n) [n]  
+System manual is in /usr/share/man/man1.
+Where do the main Perl5 manual pages (source) go? (~name ok)
+[/usr/share/man/man1]  
+What suffix should be used for the main Perl5 man pages? [1]  
+You can have filenames longer than 14 characters.
+Where do the perl5 library man pages (source) go? (~name ok)
+[/usr/share/man/man3]  
+What suffix should be used for the perl5 library man pages? [3]  
+Figuring out host name...
+Your host name appears to be "build". Right? [y]  
+What is your domain name? [.aethernet.local]  
+What is your e-mail address? [root@build.aethernet.local]  
+Perl administrator e-mail address [root@build.aethernet.local]  
+Do you want to install only the version-specific parts of perl? [n]  
+What shall I put after the #! to start up perl ("none" to not use #!)?
+[/usr/bin/perl]  
+Where do you keep publicly executable scripts? (~name ok) [/usr/bin]  
+Pathname where the add-on public executables should be installed? (~name ok)
+[/usr/bin]  
+Pathname where the site-specific html pages should be installed? (~name ok)
+[none]  
+Pathname where the site-specific library html pages should be installed? (~name ok)
+[none]  
+Pathname where the site-specific manual pages should be installed? (~name ok)
+[/usr/share/man/man1]  
+Pathname where the site-specific library manual pages should be installed? (~name ok)
+[/usr/share/man/man3]  
+Pathname where add-on public executable scripts should be installed? (~name ok)
+[/usr/bin]  
+Use the "fast stdio" if available? [y]  
+off_t found.
+Checking to see how big your file offsets are...
+fpos_t found.
+Checking the size of fpos_t...
+Try to understand large files, if available? [y]  
+Rechecking to see how big your file offsets are...
+Rechecking the size of fpos_t... 16 bytes.
+qgcvt() found.
+Checking how to print long doubles...
+gconvert NOT found.
+gcvt() found.
+I'll use gcvt to convert floats into a string.
+fwalk() NOT found.
+access() found.
+<sys/file.h> defines the *_OK access constants.
+accessx() NOT found.
+aintl() NOT found.
+alarm() found.
+<pthread.h> found.
+<sys/types.h> found.
+<sys/select.h> found.
+Testing to see if we should include <time.h>, <sys/time.h> or both.
+We'll include <time.h>.
+We'll include <sys/time.h>.
+Checking to see if your struct tm has tm_zone field...
+Checking to see if your struct tm has tm_gmtoff field...
+asctime_r() found.
+atolf() NOT found.
+atoll() found.
+Checking whether your compiler can handle __attribute__((format)) ...
+Checking whether your compiler can handle __attribute__((malloc)) ...
+Checking whether your compiler can handle __attribute__((nonnull(1))) ...
+Checking whether your compiler can handle __attribute__((noreturn)) ...
+Checking whether your compiler can handle __attribute__((pure)) ...
+Checking whether your compiler can handle __attribute__((unused)) ...
+Checking whether your compiler can handle __attribute__((warn_unused_result)) ...
+bcmp() found.
+bcopy() found.
+<unistd.h> found.
+getpgrp() found.
+You have to use getpgrp() instead of getpgrp(pid).
+setpgrp() found.
+You have to use setpgrp() instead of setpgrp(pid,pgrp).
+bzero() found.
+You have void (*signal())().
+Checking whether your C compiler can cast large floats to int32.
+Checking whether your C compiler can cast negative float to unsigned.
+vprintf() found.
+Your vsprintf() returns (char*).
+chown() found.
+chroot() found.
+chsize() NOT found.
+class() NOT found.
+clearenv() found.
+Hmm... Looks like you have Berkeley networking support.
+socketpair() found.
+Checking the availability of certain socket constants...
+<sys/uio.h> found.
+Checking to see if your system supports struct cmsghdr...
+Checking to see if your C compiler knows about "const"...
+copysignl() found.
+crypt() found.
+<crypt.h> found.
+crypt_r() found.
+ctermid_r() NOT found.
+ctime_r() found.
+cuserid() found.
+<limits.h> found.
+<float.h> found.
+DBL_DIG found.
+dbmclose() NOT found.
+difftime() found.
+<dirent.h> found.
+Your directory entries are struct dirent.
+Your directory entry does not know about the d_namlen field.
+<sys/dir.h> found.
+<sys/ndir.h> NOT found.
+dirfd() found.
+dlerror() found.
+<dlfcn.h> found.
+What is the extension of dynamically loaded modules [so]  
+Checking whether your dlsym() needs a leading underscore ...
+dlsym doesn't need a leading underscore.
+drand48_r() found.
+dup2() found.
+eaccess() NOT found.
+endgrent() found.
+<grp.h> found.
+endgrent_r() NOT found.
+endhostent() found.
+<netdb.h> found.
+endhostent_r() NOT found.
+endnetent() found.
+endnetent_r() NOT found.
+endprotoent() found.
+endprotoent_r() NOT found.
+endpwent() found.
+<pwd.h> found.
+endpwent_r() NOT found.
+endservent() found.
+endservent_r() NOT found.
+<sys/file.h> defines the O_* constants...
+and you have the 3 argument form of open().
+Using <string.h> instead of <strings.h>.
+<sys/file.h> found.
+We'll be including <sys/file.h>.
+<fcntl.h> found.
+We don't need to include <fcntl.h> if we include <sys/file.h>.
+Figuring out the flag used by open() for non-blocking I/O...
+Let's see what value errno gets from read() on a O_NONBLOCK file...
+Checking how std your stdio is...
+fchdir() found.
+fchmod() found.
+fchown() found.
+fcntl() found.
+Well, your system knows about the normal fd_set typedef...
+and you have the normal fd_set macros (just as I'd expect).
+fgetpos() found.
+finite() found.
+finitel() found.
+flock() found.
+fork() found.
+fp_class() NOT found.
+pathconf() found.
+fpathconf() found.
+fpclass() NOT found.
+fpclassify() NOT found.
+fpclassl() NOT found.
+Checking to see if you have fpos64_t...
+frexpl() found.
+<sys/param.h> found.
+<sys/mount.h> found.
+Checking to see if your system supports struct fs_data...
+fseeko() found.
+fsetpos() found.
+fstatfs() found.
+statvfs() found.
+fstatvfs() found.
+fsync() found.
+ftello() found.
+Checking for a working futimes()
+Yes, it does
+getcwd() found.
+getespwnam() NOT found.
+getfsstat() NOT found.
+getgrent() found.
+getgrent_r() found.
+getgrgid_r() found.
+getgrnam_r() found.
+gethostbyaddr() found.
+gethostbyname() found.
+gethostent() found.
+gethostname() found.
+uname() found.
+Shall I ignore gethostname() from now on? [n]  
+gethostbyaddr_r() found.
+gethostbyname_r() found.
+gethostent_r() found.
+getitimer() found.
+getlogin() found.
+getlogin_r() found.
+getmnt() NOT found.
+getmntent() found.
+getnetbyaddr() found.
+getnetbyname() found.
+getnetent() found.
+getnetbyaddr_r() found.
+getnetbyname_r() found.
+getnetent_r() found.
+getpagesize() found.
+getprotobyname() found.
+getprotobynumber() found.
+getprotoent() found.
+getpgid() found.
+getpgrp2() NOT found.
+getppid() found.
+getpriority() found.
+getprotobyname_r() found.
+getprotobynumber_r() found.
+getprotoent_r() found.
+getprpwnam() NOT found.
+getpwent() found.
+getpwent_r() found.
+getpwnam_r() found.
+getpwuid_r() found.
+getservbyname() found.
+getservbyport() found.
+getservent() found.
+getservbyname_r() found.
+getservbyport_r() found.
+getservent_r() found.
+getspnam() found.
+<shadow.h> found.
+getspnam_r() found.
+gettimeofday() found.
+gmtime_r() found.
+hasmntopt() found.
+<netinet/in.h> found.
+<arpa/inet.h> found.
+htonl() found.
+ilogbl() found.
+strchr() found.
+inet_aton() found.
+isascii() found.
+isfinite() NOT found.
+isinf() found.
+isnan() found.
+isnanl() found.
+killpg() found.
+lchown() found.
+LDBL_DIG found.
+<math.h> found.
+Checking to see if your libm supports _LIB_VERSION...
+Yes, it does (2)
+link() found.
+localtime_r() found.
+localeconv() found.
+lockf() found.
+lstat() found.
+madvise() found.
+malloc_size() NOT found.
+malloc_good_size() NOT found.
+mblen() found.
+mbstowcs() found.
+mbtowc() found.
+memchr() found.
+memcmp() found.
+memcpy() found.
+memmove() found.
+memset() found.
+mkdir() found.
+mkdtemp() found.
+mkfifo() found.
+mkstemp() found.
+mkstemps() NOT found.
+mktime() found.
+<sys/mman.h> found.
+mmap() found.
+and it returns (void *).
+sqrtl() found.
+scalbnl() found.
+modfl() found.
+Your modfl() seems okay for large values.
+mprotect() found.
+msgctl() found.
+msgget() found.
+msgsnd() found.
+msgrcv() found.
+You have the full msg*(2) library.
+Checking to see if your system supports struct msghdr...
+msync() found.
+munmap() found.
+nice() found.
+<langinfo.h> found.
+nl_langinfo() found.
+Checking to see how big your characters are (hey, you never know)...
+What is the size of a character (in bytes)? [1]  
+Checking to see if your C compiler knows about "volatile"...
+Choosing the C types to be used for Perl's internal types...
+Checking how many bits of your UVs your NVs can preserve...
+Checking whether NV 0.0 is all bits zero in memory...
+0.0 is represented as all bits zero in memory
+Checking to see if you have off64_t...
+Checking what constant to use for creating joinable pthreads...
+You seem to use PTHREAD_CREATE_JOINABLE.
+pause() found.
+pipe() found.
+poll() found.
+readlink() found.
+pthread_atfork found.
+pthread_attr_setscope() found.
+sched_yield() found.
+pthread_yield() found.
+random_r() found.
+readdir() found.
+seekdir() found.
+telldir() found.
+rewinddir() found.
+readdir64_r() found.
+readdir_r() found.
+readv() found.
+recvmsg() found.
+rename() found.
+rmdir() found.
+<memory.h> found.
+Checking if your memcmp() can compare relative magnitude...
+select() found.
+semctl() found.
+semget() found.
+semop() found.
+You have the full sem*(2) library.
+You do not have union semun in <sys/sem.h>.
+You can use union semun for semctl IPC_STAT.
+You can also use struct semid_ds* for semctl IPC_STAT.
+sendmsg() found.
+setegid() found.
+seteuid() found.
+setgrent() found.
+setgrent_r() NOT found.
+sethostent() found.
+sethostent_r() NOT found.
+setitimer() found.
+setlinebuf() found.
+setlocale() found.
+<locale.h> found.
+setlocale_r() NOT found.
+setnetent() found.
+setnetent_r() NOT found.
+setprotoent() found.
+setpgid() found.
+setpgrp2() NOT found.
+setpriority() found.
+setproctitle() NOT found.
+setprotoent_r() NOT found.
+setpwent() found.
+setpwent_r() NOT found.
+setregid() found.
+setresgid() found.
+setreuid() found.
+setresuid() found.
+setrgid() NOT found.
+setruid() NOT found.
+setservent() found.
+setservent_r() NOT found.
+setsid() found.
+setvbuf() found.
+<sfio.h> NOT found.
+shmctl() found.
+shmget() found.
+shmat() found.
+and it returns (void *).
+shmdt() found.
+You have the full shm*(2) library.
+sigaction() found.
+sigprocmask() found.
+POSIX sigsetjmp found.
+sockatmark() found.
+socks5_init() NOT found.
+Checking whether sprintf returns the length of the string...
+sprintf returns the length of the string (as ANSI says it should)
+srand48_r() found.
+srandom_r() found.
+<sys/stat.h> found.
+Checking to see if your struct stat has st_blocks field...
+<sys/vfs.h> found.
+<sys/statfs.h> found.
+Checking to see if your system supports struct statfs...
+Checking to see if your struct statfs has f_flags field...
+Checking how to access stdio streams by file descriptor number...
+I can't figure out how to access stdio streams by file descriptor number.
+strcoll() found.
+Checking to see if your C compiler can copy structs...
+strerror() found.
+strerror_r() found.
+strftime() found.
+strlcat() NOT found.
+strlcpy() NOT found.
+strtod() found.
+strtol() found.
+strtold() found.
+strtoll() found.
+strtoq() found.
+strtoul() found.
+strtoull() found.
+strtouq() found.
+strxfrm() found.
+symlink() found.
+syscall() found.
+sysconf() found.
+system() found.
+tcgetpgrp() found.
+tcsetpgrp() found.
+time() found.
+time_t found.
+<sys/times.h> found.
+times() found.
+clock_t found.
+tmpnam_r() found.
+truncate() found.
+ttyname_r() found.
+tzname[] found.
+(Testing for character data alignment may crash the test.  That's okay.)
+You can access character data pretty unalignedly.
+ualarm() found.
+umask() found.
+unordered() NOT found.
+unsetenv() found.
+usleep() found.
+ustat() found.
+vfork() found.
+Do you still want to use vfork()? [n]  
+closedir() found.
+Checking whether closedir() returns a status...
+wait4() found.
+waitpid() found.
+wcstombs() found.
+wctomb() found.
+writev() found.
+Checking alignment constraints...
+Doubles must be aligned on a how-many-byte boundary? [4]  
+Checking to see how your cpp does stuff like concatenate tokens...
+Oh!  Smells like ANSI's been here.
+<db.h> NOT found.
+Looking for a random number function...
+Good, found drand48().
+Use which function to generate random numbers? [drand48]  
+Determining whether or not we are on an EBCDIC system...
+Nope, no EBCDIC, probably ASCII or some ISO Latin. Or UTF-8.
+Checking how to flush all pending stdio output...
+Your fflush(NULL) works okay for output streams.
+Let's see if it clobbers input pipes...
+fflush(NULL) seems to behave okay with input streams.
+Checking the size of gid_t...
+Checking the sign of gid_t...
+Checking how to print 64-bit integers...
+Checking the format strings to be used for Perl's internal types...
+Checking the format string to be used for gids...
+getgroups() found.
+setgroups() found.
+What type pointer is the second argument to getgroups() and setgroups()?
+[gid_t]  
+Checking if your /usr/bin/make program sets $(MAKE)...
+mode_t found.
+<stdarg.h> found.
+<varargs.h> found.
+We'll include <stdarg.h> to get va_dcl definition.
+It seems that you don't need va_copy().
+size_t found.
+What pager is used on your system? [/usr/bin/less -isR]  
+pid_t found.
+Checking how to generate random libraries on your machine...
+Your select() operates on 32 bits at a time.
+Generating a list of signal names and numbers...
+Checking the size of size_t...
+Checking to see if you have socklen_t...
+<socks.h> NOT found.
+I'll be using ssize_t for functions returning a byte count.
+Your stdio uses signed chars.
+Checking the size of uid_t...
+Checking the sign of uid_t...
+Checking the format string to be used for uids...
+Which compiler compiler (yacc or bison -y) shall I use? [yacc]  
+<fp.h> NOT found.
+<fp_class.h> NOT found.
+<ieeefp.h> NOT found.
+<libutil.h> NOT found.
+<mach/cthreads.h> NOT found.
+<mntent.h> found.
+<ndbm.h> NOT found.
+<net/errno.h> NOT found.
+<netinet/tcp.h> found.
+<poll.h> found.
+<prot.h> NOT found.
+Guessing which symbols your C compiler and preprocessor define...
+tcsetattr() found.
+You have POSIX termios.h... good!
+<stddef.h> found.
+<sunmath.h> NOT found.
+<sys/access.h> NOT found.
+<sys/filio.h> NOT found.
+<sys/ioctl.h> found.
+<syslog.h> found.
+<sys/mode.h> NOT found.
+<sys/resource.h> found.
+<sys/security.h> NOT found.
+<sys/statvfs.h> found.
+<sys/un.h> found.
+<sys/utsname.h> found.
+<sys/wait.h> found.
+<ustat.h> found.
+<utime.h> found.
+<values.h> found.
+<gdbm.h> NOT found.
+Looking for extensions...
+What extensions do you wish to load dynamically?
+[B ByteLoader Cwd Data/Dumper Devel/DProf Devel/PPPort Devel/Peek Digest/MD5 Encode Fcntl File/Glob Filter/Util/Call I18N/Langinfo IO IPC/SysV List/Util MIME/Base64 Opcode POSIX PerlIO/encoding PerlIO/scalar PerlIO/via SDBM_File Socket Storable Sys/Hostname Sys/Syslog Time/HiRes Unicode/Normalize XS/APItest XS/Typemap attrs re threads threads/shared]  
+What extensions do you wish to load statically? [none]  
+Stripping down executable paths...
+Creating config.sh...
+Doing variable substitutions on .SH files...
+Extracting cflags (with variable substitutions)
+Extracting config.h (with variable substitutions)
+Extracting makeaperl (with variable substitutions)
+Extracting makedepend (with variable substitutions)
+Extracting makedir (with variable substitutions)
+Extracting Makefile (with variable substitutions)
+Extracting myconfig (with variable substitutions)
+Extracting pod/Makefile (with variable substitutions)
+Extracting Policy.sh (with variable substitutions)
+Extracting writemain (with variable substitutions)
+Extracting x2p/cflags (with variable substitutions)
+Extracting x2p/Makefile (with variable substitutions)
+Run make depend now? [y]  
+sh ./makedepend MAKE=make
+make[1]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/perl/perl-5.8.8-rt-1/unpack/perl-5.8.8'
+sh writemain lib/auto/DynaLoader/DynaLoader.a  > perlmain.c
+rm -f opmini.c
+cp op.c opmini.c
+echo  av.c scope.c op.c doop.c doio.c dump.c hv.c mg.c reentr.c perl.c perly.c pp.c pp_hot.c pp_ctl.c pp_sys.c regcomp.c regexec.c utf8.c gv.c sv.c taint.c toke.c util.c deb.c run.c universal.c xsutils.c pad.c globals.c perlio.c perlapi.c numeric.c locale.c pp_pack.c pp_sort.c miniperlmain.c perlmain.c opmini.c | tr ' ' '\n' >.clist
+make[1]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/perl/perl-5.8.8-rt-1/unpack/perl-5.8.8'
+Finding dependencies for av.o.
+Finding dependencies for scope.o.
+Finding dependencies for op.o.
+Finding dependencies for doop.o.
+Finding dependencies for doio.o.
+Finding dependencies for dump.o.
+Finding dependencies for hv.o.
+Finding dependencies for mg.o.
+Finding dependencies for reentr.o.
+Finding dependencies for perl.o.
+Finding dependencies for perly.o.
+Finding dependencies for pp.o.
+Finding dependencies for pp_hot.o.
+Finding dependencies for pp_ctl.o.
+Finding dependencies for pp_sys.o.
+Finding dependencies for regcomp.o.
+Finding dependencies for regexec.o.
+Finding dependencies for utf8.o.
+Finding dependencies for gv.o.
+Finding dependencies for sv.o.
+Finding dependencies for taint.o.
+Finding dependencies for toke.o.
+Finding dependencies for util.o.
+Finding dependencies for deb.o.
+Finding dependencies for run.o.
+Finding dependencies for universal.o.
+Finding dependencies for xsutils.o.
+Finding dependencies for pad.o.
+Finding dependencies for globals.o.
+Finding dependencies for perlio.o.
+Finding dependencies for perlapi.o.
+Finding dependencies for numeric.o.
+Finding dependencies for locale.o.
+Finding dependencies for pp_pack.o.
+Finding dependencies for pp_sort.o.
+Finding dependencies for miniperlmain.o.
+Finding dependencies for perlmain.o.
+Finding dependencies for opmini.o.
+make[1]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/perl/perl-5.8.8-rt-1/unpack/perl-5.8.8'
+echo Makefile.SH cflags.SH config_h.SH makeaperl.SH makedepend.SH makedir.SH myconfig.SH writemain.SH pod/Makefile.SH | tr ' ' '\n' >.shlist
+make[1]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/perl/perl-5.8.8-rt-1/unpack/perl-5.8.8'
+Updating makefile...
+test -s perlmain.c && touch perlmain.c
+cd x2p; make depend
+make[1]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/perl/perl-5.8.8-rt-1/unpack/perl-5.8.8/x2p'
+sh ../makedepend MAKE=make
+make[2]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/perl/perl-5.8.8-rt-1/unpack/perl-5.8.8/x2p'
+echo hash.c  str.c util.c walk.c | tr ' ' '\n' >.clist
+make[2]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/perl/perl-5.8.8-rt-1/unpack/perl-5.8.8/x2p'
+Finding dependencies for hash.o.
+Finding dependencies for str.o.
+Finding dependencies for util.o.
+Finding dependencies for walk.o.
+make[2]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/perl/perl-5.8.8-rt-1/unpack/perl-5.8.8/x2p'
+echo Makefile.SH cflags.SH | tr ' ' '\n' >.shlist
+make[2]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/perl/perl-5.8.8-rt-1/unpack/perl-5.8.8/x2p'
+Updating makefile...
+make[1]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/perl/perl-5.8.8-rt-1/unpack/perl-5.8.8/x2p'
+Now you must run 'make'.
+
+If you compile perl5 on a different machine or from a different object
+directory, copy the Policy.sh file from this object directory to the
+new one before you run Configure -- this will help you with most of
+the policy defaults.
+

@@ -1,0 +1,100 @@
+make  all-recursive
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/file/file-4.17/unpack/file-4.17'
+Making all in src
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/file/file-4.17/unpack/file-4.17/src'
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I..  -DMAGIC='"/usr/share/file/magic"'   -g -O2 -MT magic.lo -MD -MP -MF ".deps/magic.Tpo" -c -o magic.lo magic.c; \
+then mv -f ".deps/magic.Tpo" ".deps/magic.Plo"; else rm -f ".deps/magic.Tpo"; exit 1; fi
+mkdir .libs
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -DMAGIC=\"/usr/share/file/magic\" -g -O2 -MT magic.lo -MD -MP -MF .deps/magic.Tpo -c magic.c  -fPIC -DPIC -o .libs/magic.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -DMAGIC=\"/usr/share/file/magic\" -g -O2 -MT magic.lo -MD -MP -MF .deps/magic.Tpo -c magic.c -o magic.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I..  -DMAGIC='"/usr/share/file/magic"'   -g -O2 -MT apprentice.lo -MD -MP -MF ".deps/apprentice.Tpo" -c -o apprentice.lo apprentice.c; \
+then mv -f ".deps/apprentice.Tpo" ".deps/apprentice.Plo"; else rm -f ".deps/apprentice.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -DMAGIC=\"/usr/share/file/magic\" -g -O2 -MT apprentice.lo -MD -MP -MF .deps/apprentice.Tpo -c apprentice.c  -fPIC -DPIC -o .libs/apprentice.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -DMAGIC=\"/usr/share/file/magic\" -g -O2 -MT apprentice.lo -MD -MP -MF .deps/apprentice.Tpo -c apprentice.c -o apprentice.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I..  -DMAGIC='"/usr/share/file/magic"'   -g -O2 -MT softmagic.lo -MD -MP -MF ".deps/softmagic.Tpo" -c -o softmagic.lo softmagic.c; \
+then mv -f ".deps/softmagic.Tpo" ".deps/softmagic.Plo"; else rm -f ".deps/softmagic.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -DMAGIC=\"/usr/share/file/magic\" -g -O2 -MT softmagic.lo -MD -MP -MF .deps/softmagic.Tpo -c softmagic.c  -fPIC -DPIC -o .libs/softmagic.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -DMAGIC=\"/usr/share/file/magic\" -g -O2 -MT softmagic.lo -MD -MP -MF .deps/softmagic.Tpo -c softmagic.c -o softmagic.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I..  -DMAGIC='"/usr/share/file/magic"'   -g -O2 -MT ascmagic.lo -MD -MP -MF ".deps/ascmagic.Tpo" -c -o ascmagic.lo ascmagic.c; \
+then mv -f ".deps/ascmagic.Tpo" ".deps/ascmagic.Plo"; else rm -f ".deps/ascmagic.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -DMAGIC=\"/usr/share/file/magic\" -g -O2 -MT ascmagic.lo -MD -MP -MF .deps/ascmagic.Tpo -c ascmagic.c  -fPIC -DPIC -o .libs/ascmagic.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -DMAGIC=\"/usr/share/file/magic\" -g -O2 -MT ascmagic.lo -MD -MP -MF .deps/ascmagic.Tpo -c ascmagic.c -o ascmagic.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I..  -DMAGIC='"/usr/share/file/magic"'   -g -O2 -MT compress.lo -MD -MP -MF ".deps/compress.Tpo" -c -o compress.lo compress.c; \
+then mv -f ".deps/compress.Tpo" ".deps/compress.Plo"; else rm -f ".deps/compress.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -DMAGIC=\"/usr/share/file/magic\" -g -O2 -MT compress.lo -MD -MP -MF .deps/compress.Tpo -c compress.c  -fPIC -DPIC -o .libs/compress.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -DMAGIC=\"/usr/share/file/magic\" -g -O2 -MT compress.lo -MD -MP -MF .deps/compress.Tpo -c compress.c -o compress.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I..  -DMAGIC='"/usr/share/file/magic"'   -g -O2 -MT is_tar.lo -MD -MP -MF ".deps/is_tar.Tpo" -c -o is_tar.lo is_tar.c; \
+then mv -f ".deps/is_tar.Tpo" ".deps/is_tar.Plo"; else rm -f ".deps/is_tar.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -DMAGIC=\"/usr/share/file/magic\" -g -O2 -MT is_tar.lo -MD -MP -MF .deps/is_tar.Tpo -c is_tar.c  -fPIC -DPIC -o .libs/is_tar.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -DMAGIC=\"/usr/share/file/magic\" -g -O2 -MT is_tar.lo -MD -MP -MF .deps/is_tar.Tpo -c is_tar.c -o is_tar.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I..  -DMAGIC='"/usr/share/file/magic"'   -g -O2 -MT readelf.lo -MD -MP -MF ".deps/readelf.Tpo" -c -o readelf.lo readelf.c; \
+then mv -f ".deps/readelf.Tpo" ".deps/readelf.Plo"; else rm -f ".deps/readelf.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -DMAGIC=\"/usr/share/file/magic\" -g -O2 -MT readelf.lo -MD -MP -MF .deps/readelf.Tpo -c readelf.c  -fPIC -DPIC -o .libs/readelf.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -DMAGIC=\"/usr/share/file/magic\" -g -O2 -MT readelf.lo -MD -MP -MF .deps/readelf.Tpo -c readelf.c -o readelf.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I..  -DMAGIC='"/usr/share/file/magic"'   -g -O2 -MT print.lo -MD -MP -MF ".deps/print.Tpo" -c -o print.lo print.c; \
+then mv -f ".deps/print.Tpo" ".deps/print.Plo"; else rm -f ".deps/print.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -DMAGIC=\"/usr/share/file/magic\" -g -O2 -MT print.lo -MD -MP -MF .deps/print.Tpo -c print.c  -fPIC -DPIC -o .libs/print.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -DMAGIC=\"/usr/share/file/magic\" -g -O2 -MT print.lo -MD -MP -MF .deps/print.Tpo -c print.c -o print.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I..  -DMAGIC='"/usr/share/file/magic"'   -g -O2 -MT fsmagic.lo -MD -MP -MF ".deps/fsmagic.Tpo" -c -o fsmagic.lo fsmagic.c; \
+then mv -f ".deps/fsmagic.Tpo" ".deps/fsmagic.Plo"; else rm -f ".deps/fsmagic.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -DMAGIC=\"/usr/share/file/magic\" -g -O2 -MT fsmagic.lo -MD -MP -MF .deps/fsmagic.Tpo -c fsmagic.c  -fPIC -DPIC -o .libs/fsmagic.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -DMAGIC=\"/usr/share/file/magic\" -g -O2 -MT fsmagic.lo -MD -MP -MF .deps/fsmagic.Tpo -c fsmagic.c -o fsmagic.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I..  -DMAGIC='"/usr/share/file/magic"'   -g -O2 -MT funcs.lo -MD -MP -MF ".deps/funcs.Tpo" -c -o funcs.lo funcs.c; \
+then mv -f ".deps/funcs.Tpo" ".deps/funcs.Plo"; else rm -f ".deps/funcs.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -DMAGIC=\"/usr/share/file/magic\" -g -O2 -MT funcs.lo -MD -MP -MF .deps/funcs.Tpo -c funcs.c  -fPIC -DPIC -o .libs/funcs.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -DMAGIC=\"/usr/share/file/magic\" -g -O2 -MT funcs.lo -MD -MP -MF .deps/funcs.Tpo -c funcs.c -o funcs.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I..  -DMAGIC='"/usr/share/file/magic"'   -g -O2 -MT apptype.lo -MD -MP -MF ".deps/apptype.Tpo" -c -o apptype.lo apptype.c; \
+then mv -f ".deps/apptype.Tpo" ".deps/apptype.Plo"; else rm -f ".deps/apptype.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -DMAGIC=\"/usr/share/file/magic\" -g -O2 -MT apptype.lo -MD -MP -MF .deps/apptype.Tpo -c apptype.c  -fPIC -DPIC -o .libs/apptype.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -DMAGIC=\"/usr/share/file/magic\" -g -O2 -MT apptype.lo -MD -MP -MF .deps/apptype.Tpo -c apptype.c -o apptype.o >/dev/null 2>&1
+/bin/sh ../libtool --tag=CC --mode=link gcc  -g -O2   -o libmagic.la -rpath /usr/lib -no-undefined -version-info 1:0:0 magic.lo apprentice.lo softmagic.lo ascmagic.lo compress.lo is_tar.lo readelf.lo print.lo fsmagic.lo funcs.lo apptype.lo  -lz 
+gcc -shared  .libs/magic.o .libs/apprentice.o .libs/softmagic.o .libs/ascmagic.o .libs/compress.o .libs/is_tar.o .libs/readelf.o .libs/print.o .libs/fsmagic.o .libs/funcs.o .libs/apptype.o  -lz  -Wl,-soname -Wl,libmagic.so.1 -o .libs/libmagic.so.1.0.0
+(cd .libs && rm -f libmagic.so.1 && ln -s libmagic.so.1.0.0 libmagic.so.1)
+(cd .libs && rm -f libmagic.so && ln -s libmagic.so.1.0.0 libmagic.so)
+ar cru .libs/libmagic.a  magic.o apprentice.o softmagic.o ascmagic.o compress.o is_tar.o readelf.o print.o fsmagic.o funcs.o apptype.o
+ranlib .libs/libmagic.a
+creating libmagic.la
+(cd .libs && rm -f libmagic.la && ln -s ../libmagic.la libmagic.la)
+if gcc -DHAVE_CONFIG_H -I. -I. -I..  -DMAGIC='"/usr/share/file/magic"'   -g -O2 -MT file.o -MD -MP -MF ".deps/file.Tpo" -c -o file.o file.c; \
+then mv -f ".deps/file.Tpo" ".deps/file.Po"; else rm -f ".deps/file.Tpo"; exit 1; fi
+/bin/sh ../libtool --tag=CC --mode=link gcc  -g -O2   -o file  file.o libmagic.la -lz 
+gcc -g -O2 -o .libs/file file.o  ./.libs/libmagic.so -lz
+creating file
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/file/file-4.17/unpack/file-4.17/src'
+Making all in magic
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/file/file-4.17/unpack/file-4.17/magic'
+cat ./Header ./Localstuff > magic
+for frag in Magdir/acorn Magdir/adi Magdir/adventure Magdir/allegro Magdir/alliant Magdir/alpha Magdir/amanda Magdir/amigaos Magdir/animation Magdir/apl Magdir/apple Magdir/applix Magdir/archive Magdir/asterix Magdir/att3b Magdir/audio Magdir/basis Magdir/bflt Magdir/blender Magdir/blit Magdir/bout Magdir/bsdi Magdir/btsnoop Magdir/cad Magdir/c-lang Magdir/c64 Magdir/cddb Magdir/chord Magdir/cisco Magdir/citrus Magdir/claris Magdir/clipper Magdir/cracklib Magdir/spec Magdir/commands Magdir/communications Magdir/compress Magdir/console Magdir/convex Magdir/ctags Magdir/dact Magdir/database Magdir/diamond Magdir/diff Magdir/digital Magdir/dolby Magdir/dump Magdir/editors Magdir/elf Magdir/encore Magdir/epoc Magdir/esri Magdir/fcs Magdir/filesystems Magdir/flash Magdir/fonts Magdir/frame Magdir/freebsd Magdir/fsav Magdir/games Magdir/geos Magdir/gcc Magdir/gimp Magdir/gnu Magdir/grace Magdir/gringotts Magdir/hitachi-sh Magdir/hp Magdir/human68k Magdir/ibm370 Magdir/ibm6000 Magdir/iff Magdir/images Magdir/intel Magdir/interleaf Magdir/island Magdir/ispell Magdir/java Magdir/jpeg Magdir/karma Magdir/lecter Magdir/lex Magdir/lif Magdir/linux Magdir/lisp Magdir/mach Magdir/macintosh Magdir/magic Magdir/mail.news Magdir/maple Magdir/mathematica Magdir/matroska Magdir/mcrypt Magdir/mime Magdir/mips Magdir/mirage Magdir/misctools Magdir/mkid Magdir/mlssa Magdir/mmdf Magdir/modem Magdir/motorola Magdir/msdos Magdir/msvc Magdir/mup Magdir/natinst Magdir/ncr Magdir/netbsd Magdir/netscape Magdir/news Magdir/nitpicker Magdir/ocaml Magdir/octave Magdir/olf Magdir/os2 Magdir/os9 Magdir/osf1 Magdir/palm Magdir/parix Magdir/pbm Magdir/pdf Magdir/pdp Magdir/perl Magdir/pgp Magdir/pkgadd Magdir/plan9 Magdir/plus5 Magdir/printer Magdir/project Magdir/psdbms Magdir/psion Magdir/pulsar Magdir/pyramid Magdir/python Magdir/revision Magdir/riff Magdir/rpm Magdir/rtf Magdir/sc Magdir/sccs Magdir/sendmail Magdir/sequent Magdir/sgi Magdir/sgml Magdir/sharc Magdir/sinclair Magdir/sketch Magdir/smalltalk Magdir/sniffer Magdir/dyadic Magdir/scientific Magdir/softquad Magdir/spectrum Magdir/sql Magdir/sun Magdir/sysex Magdir/teapot Magdir/terminfo Magdir/tex Magdir/tgif Magdir/ti-8x Magdir/timezone Magdir/troff Magdir/tuxedo Magdir/typeset Magdir/unknown Magdir/uuencode Magdir/varied.out Magdir/varied.script Magdir/vax Magdir/vicar Magdir/virtutech Magdir/visx Magdir/vms Magdir/vmware Magdir/vorbis Magdir/vxl Magdir/wordprocessors Magdir/xdelta Magdir/xenix Magdir/xo65 Magdir/xwindows Magdir/zilog Magdir/zyxel; do \
+  if test -f ./$frag; then \
+    f=./$frag; \
+  else \
+    f=$frag; \
+  fi; \
+          cat $f; \
+done >> magic
+../src/file -C -m magic
+../src/file -C -m ./magic.mime
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/file/file-4.17/unpack/file-4.17/magic'
+Making all in doc
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/file/file-4.17/unpack/file-4.17/doc'
+sed -e s@__CSECTION__@1@g \
+    -e s@__FSECTION__@4@g \
+    -e s@__VERSION__@4.17@g \
+    -e s@__MAGIC__@/usr/share/file/magic@g ./file.man > file.1
+sed -e s@__CSECTION__@1@g \
+    -e s@__FSECTION__@4@g \
+    -e s@__VERSION__@4.17@g \
+    -e s@__MAGIC__@/usr/share/file/magic@g ./magic.man > magic.4
+sed -e s@__CSECTION__@1@g \
+    -e s@__FSECTION__@4@g \
+    -e s@__VERSION__@4.17@g \
+    -e s@__MAGIC__@/usr/share/file/magic@g ./libmagic.man > libmagic.3
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/file/file-4.17/unpack/file-4.17/doc'
+Making all in python
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/file/file-4.17/unpack/file-4.17/python'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/file/file-4.17/unpack/file-4.17/python'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/file/file-4.17/unpack/file-4.17'
+make[2]: Nothing to be done for `all-am'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/file/file-4.17/unpack/file-4.17'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/file/file-4.17/unpack/file-4.17'

@@ -1,0 +1,30 @@
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/module-init-tools/module-init-tools-3.2.2/unpack/module-init-tools-3.2.2'
+/bin/sh ./mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/module-init-tools/module-init-tools-3.2.2/unpack/module-init-tools-3.2.2/../../pkg/debian//bin
+mkdir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/module-init-tools/module-init-tools-3.2.2/unpack/module-init-tools-3.2.2/../../pkg/debian/bin
+  install lsmod /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/module-init-tools/module-init-tools-3.2.2/unpack/module-init-tools-3.2.2/../../pkg/debian//bin/lsmod
+/bin/sh ./mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/module-init-tools/module-init-tools-3.2.2/unpack/module-init-tools-3.2.2/../../pkg/debian//sbin
+mkdir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/module-init-tools/module-init-tools-3.2.2/unpack/module-init-tools-3.2.2/../../pkg/debian/sbin
+  install insmod /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/module-init-tools/module-init-tools-3.2.2/unpack/module-init-tools-3.2.2/../../pkg/debian//sbin/insmod
+  install modprobe /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/module-init-tools/module-init-tools-3.2.2/unpack/module-init-tools-3.2.2/../../pkg/debian//sbin/modprobe
+  install rmmod /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/module-init-tools/module-init-tools-3.2.2/unpack/module-init-tools-3.2.2/../../pkg/debian//sbin/rmmod
+  install depmod /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/module-init-tools/module-init-tools-3.2.2/unpack/module-init-tools-3.2.2/../../pkg/debian//sbin/depmod
+  install modinfo /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/module-init-tools/module-init-tools-3.2.2/unpack/module-init-tools-3.2.2/../../pkg/debian//sbin/modinfo
+  install insmod.static /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/module-init-tools/module-init-tools-3.2.2/unpack/module-init-tools-3.2.2/../../pkg/debian//sbin/insmod.static
+/bin/sh ./mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/module-init-tools/module-init-tools-3.2.2/unpack/module-init-tools-3.2.2/../../pkg/debian//sbin
+ install generate-modprobe.conf /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/module-init-tools/module-init-tools-3.2.2/unpack/module-init-tools-3.2.2/../../pkg/debian//sbin/generate-modprobe.conf
+/bin/sh ./mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/module-init-tools/module-init-tools-3.2.2/unpack/module-init-tools-3.2.2/../../pkg/debian/usr/share/man/man5
+mkdir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/module-init-tools/module-init-tools-3.2.2/unpack/module-init-tools-3.2.2/../../pkg/debian/usr
+mkdir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/module-init-tools/module-init-tools-3.2.2/unpack/module-init-tools-3.2.2/../../pkg/debian/usr/share
+mkdir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/module-init-tools/module-init-tools-3.2.2/unpack/module-init-tools-3.2.2/../../pkg/debian/usr/share/man
+mkdir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/module-init-tools/module-init-tools-3.2.2/unpack/module-init-tools-3.2.2/../../pkg/debian/usr/share/man/man5
+ install -m 644 ./modprobe.conf.5 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/module-init-tools/module-init-tools-3.2.2/unpack/module-init-tools-3.2.2/../../pkg/debian/usr/share/man/man5/modprobe.conf.5
+ install -m 644 ./modules.dep.5 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/module-init-tools/module-init-tools-3.2.2/unpack/module-init-tools-3.2.2/../../pkg/debian/usr/share/man/man5/modules.dep.5
+/bin/sh ./mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/module-init-tools/module-init-tools-3.2.2/unpack/module-init-tools-3.2.2/../../pkg/debian/usr/share/man/man8
+mkdir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/module-init-tools/module-init-tools-3.2.2/unpack/module-init-tools-3.2.2/../../pkg/debian/usr/share/man/man8
+ install -m 644 ./depmod.8 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/module-init-tools/module-init-tools-3.2.2/unpack/module-init-tools-3.2.2/../../pkg/debian/usr/share/man/man8/depmod.8
+ install -m 644 ./insmod.8 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/module-init-tools/module-init-tools-3.2.2/unpack/module-init-tools-3.2.2/../../pkg/debian/usr/share/man/man8/insmod.8
+ install -m 644 ./lsmod.8 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/module-init-tools/module-init-tools-3.2.2/unpack/module-init-tools-3.2.2/../../pkg/debian/usr/share/man/man8/lsmod.8
+ install -m 644 ./rmmod.8 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/module-init-tools/module-init-tools-3.2.2/unpack/module-init-tools-3.2.2/../../pkg/debian/usr/share/man/man8/rmmod.8
+ install -m 644 ./modprobe.8 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/module-init-tools/module-init-tools-3.2.2/unpack/module-init-tools-3.2.2/../../pkg/debian/usr/share/man/man8/modprobe.8
+ install -m 644 ./modinfo.8 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/module-init-tools/module-init-tools-3.2.2/unpack/module-init-tools-3.2.2/../../pkg/debian/usr/share/man/man8/modinfo.8
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/module-init-tools/module-init-tools-3.2.2/unpack/module-init-tools-3.2.2'

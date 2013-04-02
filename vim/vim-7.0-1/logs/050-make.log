@@ -1,0 +1,74 @@
+Starting make in the src directory.
+If there are problems, cd to the src directory and run make there
+cd src && make first
+make[1]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/src'
+mkdir objects
+CC="gcc -Iproto -DHAVE_CONFIG_H           " srcdir=. sh ./osdef.sh
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -O2         -o objects/buffer.o buffer.c
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -O2         -o objects/charset.o charset.c
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -O2         -o objects/diff.o diff.c
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -O2         -o objects/digraph.o digraph.c
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -O2         -o objects/edit.o edit.c
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -O2         -o objects/eval.o eval.c
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -O2         -o objects/ex_cmds.o ex_cmds.c
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -O2         -o objects/ex_cmds2.o ex_cmds2.c
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -O2         -o objects/ex_docmd.o ex_docmd.c
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -O2         -o objects/ex_eval.o ex_eval.c
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -O2         -o objects/ex_getln.o ex_getln.c
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -O2         -o objects/fileio.o fileio.c
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -O2         -o objects/fold.o fold.c
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -O2         -o objects/getchar.o getchar.c
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -O2         -o objects/hardcopy.o hardcopy.c
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -O2         -o objects/hashtab.o hashtab.c
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -O2         -o objects/if_cscope.o if_cscope.c
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -O2         -o objects/if_xcmdsrv.o if_xcmdsrv.c
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -O2         -o objects/main.o main.c
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -O2         -o objects/mark.o mark.c
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -O2         -o objects/memfile.o memfile.c
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -O2         -o objects/memline.o memline.c
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -O2         -o objects/menu.o menu.c
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -O2         -o objects/message.o message.c
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -O2         -o objects/misc1.o misc1.c
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -O2         -o objects/misc2.o misc2.c
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -O2         -o objects/move.o move.c
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -O2         -o objects/mbyte.o mbyte.c
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -O2         -o objects/normal.o normal.c
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -O2         -o objects/ops.o ops.c
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -O2         -o objects/option.o option.c
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -O2         -o objects/os_unix.o os_unix.c
+creating auto/pathdef.c
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -O2         -o objects/pathdef.o auto/pathdef.c
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -O2         -o objects/popupmnu.o popupmnu.c
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -O2         -o objects/quickfix.o quickfix.c
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -O2         -o objects/regexp.o regexp.c
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -O2         -o objects/screen.o screen.c
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -O2         -o objects/search.o search.c
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -O2         -o objects/spell.o spell.c
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -O2         -o objects/syntax.o syntax.c
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -O2         -o objects/tag.o tag.c
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -O2         -o objects/term.o term.c
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -O2         -o objects/ui.o ui.c
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -O2         -o objects/undo.o undo.c
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -O2         -o objects/window.o window.c
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -O2         -o objects/netbeans.o netbeans.c
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -O2         version.c -o objects/version.o
+  gcc     -o vim objects/buffer.o objects/charset.o objects/diff.o objects/digraph.o objects/edit.o objects/eval.o objects/ex_cmds.o objects/ex_cmds2.o objects/ex_docmd.o objects/ex_eval.o objects/ex_getln.o objects/fileio.o objects/fold.o objects/getchar.o objects/hardcopy.o objects/hashtab.o  objects/if_cscope.o objects/if_xcmdsrv.o objects/main.o objects/mark.o objects/memfile.o objects/memline.o objects/menu.o objects/message.o objects/misc1.o objects/misc2.o objects/move.o objects/mbyte.o objects/normal.o objects/ops.o objects/option.o objects/os_unix.o objects/pathdef.o objects/popupmnu.o objects/quickfix.o objects/regexp.o objects/screen.o objects/search.o objects/spell.o objects/syntax.o  objects/tag.o objects/term.o objects/ui.o objects/undo.o objects/window.o         objects/netbeans.o  objects/version.o       -lncurses -lnsl  -ldl        
+link.sh: OK, linking works, let's try removing a few libraries.
+link.sh: See auto/link.log for details.
+link.sh: Trying to remove the nsl library...
+link.sh: We don't need the nsl library!
+link.sh: Trying to remove the dl library...
+link.sh: We don't need the dl library!
+make[2]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/src'
+creating auto/pathdef.c
+gcc -c -I. -Iproto -DHAVE_CONFIG_H     -g -O2         -o objects/pathdef.o auto/pathdef.c
+make[2]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/src'
+link.sh: Using auto/link.sed file to remove a few libraries
+  gcc     -o vim objects/buffer.o objects/charset.o objects/diff.o objects/digraph.o objects/edit.o objects/eval.o objects/ex_cmds.o objects/ex_cmds2.o objects/ex_docmd.o objects/ex_eval.o objects/ex_getln.o objects/fileio.o objects/fold.o objects/getchar.o objects/hardcopy.o objects/hashtab.o  objects/if_cscope.o objects/if_xcmdsrv.o objects/main.o objects/mark.o objects/memfile.o objects/memline.o objects/menu.o objects/message.o objects/misc1.o objects/misc2.o objects/move.o objects/mbyte.o objects/normal.o objects/ops.o objects/option.o objects/os_unix.o objects/pathdef.o objects/popupmnu.o objects/quickfix.o objects/regexp.o objects/screen.o objects/search.o objects/spell.o objects/syntax.o  objects/tag.o objects/term.o objects/ui.o objects/undo.o objects/window.o         objects/netbeans.o  objects/version.o       -lncurses 
+link.sh: Linked fine with a few libraries removed
+cd xxd; CC="gcc" CFLAGS=" -g -O2" \
+	make -f Makefile
+make[2]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/src/xxd'
+gcc  -g -O2  -DUNIX -o xxd xxd.c
+make[2]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/src/xxd'
+make[1]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/src'

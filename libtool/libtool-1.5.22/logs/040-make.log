@@ -1,0 +1,33 @@
+Making all in .
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/libtool/libtool-1.5.22/unpack/libtool-1.5.22'
+CONFIG_FILES=libtoolize CONFIG_HEADERS= /bin/sh ./config.status
+config.status: creating libtoolize
+config.status: executing depfiles commands
+chmod +x libtoolize
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/libtool/libtool-1.5.22/unpack/libtool-1.5.22'
+Making all in libltdl
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/libtool/libtool-1.5.22/unpack/libtool-1.5.22/libltdl'
+make  all-am
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/libtool/libtool-1.5.22/unpack/libtool-1.5.22/libltdl'
+/bin/sh ./libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -c -o ltdl.lo ltdl.c
+mkdir .libs
+ gcc -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -c ltdl.c  -fPIC -DPIC -o .libs/ltdl.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I. -g -O2 -c ltdl.c -o ltdl.o >/dev/null 2>&1
+/bin/sh ./libtool --tag=CC   --mode=link gcc  -g -O2 -no-undefined -version-info 4:4:1  -o libltdl.la -rpath /usr/lib ltdl.lo -ldl 
+gcc -shared  .libs/ltdl.o  -ldl  -Wl,-soname -Wl,libltdl.so.3 -o .libs/libltdl.so.3.1.4
+(cd .libs && rm -f libltdl.so.3 && ln -s libltdl.so.3.1.4 libltdl.so.3)
+(cd .libs && rm -f libltdl.so && ln -s libltdl.so.3.1.4 libltdl.so)
+ar cru .libs/libltdl.a  ltdl.o
+ranlib .libs/libltdl.a
+creating libltdl.la
+(cd .libs && rm -f libltdl.la && ln -s ../libltdl.la libltdl.la)
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/libtool/libtool-1.5.22/unpack/libtool-1.5.22/libltdl'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/libtool/libtool-1.5.22/unpack/libtool-1.5.22/libltdl'
+Making all in doc
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/libtool/libtool-1.5.22/unpack/libtool-1.5.22/doc'
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/libtool/libtool-1.5.22/unpack/libtool-1.5.22/doc'
+Making all in tests
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/libtool/libtool-1.5.22/unpack/libtool-1.5.22/tests'
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/libtool/libtool-1.5.22/unpack/libtool-1.5.22/tests'

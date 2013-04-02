@@ -1,0 +1,15 @@
+#!/bin/bash
+
+source configure
+
+pushd ../unpack/*
+
+make install \
+    DESTDIR=./ \
+    prefix=../../../pkg/debian/usr \
+    bindir=../../../pkg/debian/bin \
+    infodir=../../../pkg/debian/usr/share/info \
+    mandir=../../../pkg/debian/usr/share/man \
+    | tee ../../logs/060-make-install.log
+
+popd

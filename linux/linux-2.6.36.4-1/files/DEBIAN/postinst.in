@@ -1,0 +1,195 @@
+#!/bin/bash
+
+################################################################################
+# postinst
+################################################################################
+
+LDCONF_DIR=/etc/ld.so.conf.d
+PROFILE_ENVPATH_DIR=/etc/profile.d/env/path
+
+SYSTEM_INSTALL_DIR=@AB_SYSTEM_INSTALL_DIR@
+
+PACKAGE_NAME=@AB_PACKAGE_NAME@
+PACKAGE_VERSION=@AB_PACKAGE_VERSION@
+PACKAGE_PATH=${SYSTEM_INSTALL_DIR}/${PACKAGE_NAME}
+
+PACKAGE_INSTALL_NAME=@AB_PACKAGE_INSTALL_NAME@
+PACKAGE_INSTALL_DIR=@AB_PACKAGE_INSTALL_DIR@
+
+PACKAGE_USER_NAME=@AB_PACKAGE_USER_NAME@
+PACKAGE_USER_UID=@AB_PACKAGE_USER_UID@
+PACKAGE_GROUP_NAME=@AB_PACKAGE_GROUP_NAME@
+PACKAGE_GROUP_GID=@AB_PACKAGE_GROUP_GID@
+
+################################################################################
+# mkgroup
+################################################################################
+
+function mkgroup {
+
+    local group_gid="$1"
+    local group_name="$2"
+
+    local tmp_file
+    local rtrn=0
+    
+    tmp_file="$(mktemp)" || {
+        echo "> ERROR : Failed to create temporary file $tmp_file"; return 1; }
+
+    if chgrp "$group_name" "$tmp_file" &> /dev/null; then
+        echo "> OK    : Checked group $group_name already exists"
+    else
+        groupadd --gid "$group_gid" "$group_name" \
+            && { echo "> OK    : Created group $group_name with gid $group_gid"; } \
+            || { echo "> ERROR : Failed to create group $group_name"; rtrn=1; }        
+    fi
+    
+    rm "$tmp_file" || {
+        echo "> ERROR : Failed to remove temporary file $tmp_file"; return 1; }
+
+    return $rtrn
+}
+
+################################################################################
+# mkuser
+################################################################################
+
+function mkuser {
+
+    local user_uid="$1"
+    local user_gid="$2"
+    local user_home="$3"    
+    local user_shell="$4"
+    local user_name="$5"
+
+    local tmp_file
+    local rtrn=0
+    
+    tmp_file="$(mktemp)" || {
+        echo "> ERROR : Failed to create temporary file $tmp_file"; return 1; }
+
+    if chown "$user_name" "$tmp_file" &> /dev/null; then
+        echo "> OK    : Checked user $user_name already exists"
+    else
+        useradd --uid "$user_uid" --gid "$user_gid" --home-dir "$user_home" --shell "$user_shell" "$user_name" \
+            && { echo "> OK    : Created user $user_name with uid $user_uid and gui $user_gid"; } \
+            || { echo "> ERROR : Failed to create user $user_name"; rtrn=1; }        
+    fi
+    
+    rm "$tmp_file" || {
+        echo "> ERROR : Failed to remove temporary file $tmp_file"; return 1; }
+
+    return $rtrn
+}
+
+################################################################################
+# create_package_symlink
+################################################################################
+
+function create_package_symlink {
+
+    local rtrn=0
+
+    if [ -e $SYSTEM_INSTALL_DIR/$PACKAGE_NAME ]; then
+            echo "> OK    : Skip creating package symlink $SYSTEM_INSTALL_DIR/$PACKAGE_NAME -> $PACKAGE_INSTALL_NAME"
+    else
+        if ln -sf $PACKAGE_INSTALL_NAME $SYSTEM_INSTALL_DIR/$PACKAGE_NAME; then
+            echo "> OK    : Created package symlink $SYSTEM_INSTALL_DIR/$PACKAGE_NAME -> $PACKAGE_INSTALL_NAME"
+        else
+            echo "> ERROR : Failed to create package symlink $SYSTEM_INSTALL_DIR/$PACKAGE_NAME -> $PACKAGE_INSTALL_NAM"
+            rtrn=1
+        fi
+    fi
+    
+    return $rtrn
+}
+
+################################################################################
+# add_filesto_profile_envpath_dir
+################################################################################
+
+function add_filesto_profile_envpath_dir {
+
+    local rtrn=0
+
+    [ -d "$PACKAGE_INSTALL_DIR/bin" ] && { \
+        echo "$PACKAGE_PATH/bin" > $PROFILE_ENVPATH_DIR/$PACKAGE_INSTALL_NAME.bin
+        echo "> OK    : Added $PROFILE_ENVPATH_DIR/$PACKAGE_INSTALL_NAME.bin"
+        }
+
+    [ -d "$PACKAGE_INSTALL_DIR/sbin" ] && { \
+        echo "$PACKAGE_PATH/sbin" > $PROFILE_ENVPATH_DIR/$PACKAGE_INSTALL_NAME.sbin
+        echo "> OK    : Added $PROFILE_ENVPATH_DIR/$PACKAGE_INSTALL_NAME.sbin"
+        }
+
+    return $rtrn
+}
+
+
+################################################################################
+# add_filesto_ldconf_dir
+################################################################################
+
+function add_filesto_ldconf_dir {
+
+    local rtrn=0
+
+    [ -d "$PACKAGE_INSTALL_DIR/lib" ] && { \
+        echo "$PACKAGE_PATH/lib" > $LDCONF_DIR/$PACKAGE_INSTALL_NAME.lib
+        echo "> OK    : Added $LDCONF_DIR/$PACKAGE_INSTALL_NAME.lib"
+        }
+
+    return $rtrn
+}
+
+################################################################################
+# update_linker_cache
+################################################################################
+
+function update_linker_cache {
+
+    local rtrn=0
+    
+    ldconfig \
+        && { echo "> OK    : Updated ldconfig linker cache"; } \
+        || { echo "> ERROR : Command ldconfig returned error"; rtrn=1; }
+
+    return $rtrn
+}
+
+################################################################################
+# main
+################################################################################
+
+function main {
+
+    local rtrn=0
+
+    echo ">>>>>>>>> postinst >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"
+
+#    mkgroup \
+#        "$PACKAGE_GROUP_GID" \
+#        "$PACKAGE_GROUP_NAME" \
+#        || rtrn=1
+
+#    mkuser \
+#        "$PACKAGE_USER_UID" \
+#        "$PACKAGE_GROUP_GID" \
+#        '/dev/null' \
+#        '/bin/bash' \
+#        "$PACKAGE_USER_NAME" \
+#        || rtrn=1
+
+#    create_package_symlink          || rtrn=1
+#    add_filesto_profile_envpath_dir || rtrn=1
+#    add_filesto_ldconf_dir          || rtrn=1
+#    update_linker_cache             || rttn=1
+
+    return $rtrn
+}
+
+main "$@"
+
+################################################################################
+# end
+################################################################################

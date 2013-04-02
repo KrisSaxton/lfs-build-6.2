@@ -1,0 +1,169 @@
+make  all-recursive
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/tar/tar-1.15.1/unpack/tar-1.15.1'
+Making all in doc
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/tar/tar-1.15.1/unpack/tar-1.15.1/doc'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/tar/tar-1.15.1/unpack/tar-1.15.1/doc'
+Making all in lib
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/tar/tar-1.15.1/unpack/tar-1.15.1/lib'
+cp ./alloca_.h alloca.h-t
+mv alloca.h-t alloca.h
+cp ./getopt_.h getopt.h-t
+mv getopt.h-t getopt.h
+make  all-am
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/tar/tar-1.15.1/unpack/tar-1.15.1/lib'
+cp ./sysexit_.h sysexits.h-t
+mv sysexits.h-t sysexits.h
+if gcc -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..     -g -O2 -MT prepargs.o -MD -MP -MF ".deps/prepargs.Tpo" -c -o prepargs.o prepargs.c; \
+then mv -f ".deps/prepargs.Tpo" ".deps/prepargs.Po"; else rm -f ".deps/prepargs.Tpo"; exit 1; fi
+echo '#define LOCALEDIR "/usr/share/locale"' >localedir.h
+echo "#ifndef DEFAULT_RMT_COMMAND" >> localedir.h
+echo "# define DEFAULT_RMT_COMMAND \"/usr/sbin/`echo \"rmt\" | sed 's,^.*/,,;s,x,x,'`\"" >> localedir.h
+echo "#endif" >> localedir.h
+if gcc -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..     -g -O2 -MT rtapelib.o -MD -MP -MF ".deps/rtapelib.Tpo" -c -o rtapelib.o rtapelib.c; \
+then mv -f ".deps/rtapelib.Tpo" ".deps/rtapelib.Po"; else rm -f ".deps/rtapelib.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..     -g -O2 -MT allocsa.o -MD -MP -MF ".deps/allocsa.Tpo" -c -o allocsa.o allocsa.c; \
+then mv -f ".deps/allocsa.Tpo" ".deps/allocsa.Po"; else rm -f ".deps/allocsa.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..     -g -O2 -MT argmatch.o -MD -MP -MF ".deps/argmatch.Tpo" -c -o argmatch.o argmatch.c; \
+then mv -f ".deps/argmatch.Tpo" ".deps/argmatch.Po"; else rm -f ".deps/argmatch.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..     -g -O2 -MT argp-ba.o -MD -MP -MF ".deps/argp-ba.Tpo" -c -o argp-ba.o argp-ba.c; \
+then mv -f ".deps/argp-ba.Tpo" ".deps/argp-ba.Po"; else rm -f ".deps/argp-ba.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..     -g -O2 -MT argp-eexst.o -MD -MP -MF ".deps/argp-eexst.Tpo" -c -o argp-eexst.o argp-eexst.c; \
+then mv -f ".deps/argp-eexst.Tpo" ".deps/argp-eexst.Po"; else rm -f ".deps/argp-eexst.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..     -g -O2 -MT argp-fmtstream.o -MD -MP -MF ".deps/argp-fmtstream.Tpo" -c -o argp-fmtstream.o argp-fmtstream.c; \
+then mv -f ".deps/argp-fmtstream.Tpo" ".deps/argp-fmtstream.Po"; else rm -f ".deps/argp-fmtstream.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..     -g -O2 -MT argp-fs-xinl.o -MD -MP -MF ".deps/argp-fs-xinl.Tpo" -c -o argp-fs-xinl.o argp-fs-xinl.c; \
+then mv -f ".deps/argp-fs-xinl.Tpo" ".deps/argp-fs-xinl.Po"; else rm -f ".deps/argp-fs-xinl.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..     -g -O2 -MT argp-help.o -MD -MP -MF ".deps/argp-help.Tpo" -c -o argp-help.o argp-help.c; \
+then mv -f ".deps/argp-help.Tpo" ".deps/argp-help.Po"; else rm -f ".deps/argp-help.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..     -g -O2 -MT argp-parse.o -MD -MP -MF ".deps/argp-parse.Tpo" -c -o argp-parse.o argp-parse.c; \
+then mv -f ".deps/argp-parse.Tpo" ".deps/argp-parse.Po"; else rm -f ".deps/argp-parse.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..     -g -O2 -MT argp-pv.o -MD -MP -MF ".deps/argp-pv.Tpo" -c -o argp-pv.o argp-pv.c; \
+then mv -f ".deps/argp-pv.Tpo" ".deps/argp-pv.Po"; else rm -f ".deps/argp-pv.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..     -g -O2 -MT argp-pvh.o -MD -MP -MF ".deps/argp-pvh.Tpo" -c -o argp-pvh.o argp-pvh.c; \
+then mv -f ".deps/argp-pvh.Tpo" ".deps/argp-pvh.Po"; else rm -f ".deps/argp-pvh.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..     -g -O2 -MT argp-xinl.o -MD -MP -MF ".deps/argp-xinl.Tpo" -c -o argp-xinl.o argp-xinl.c; \
+then mv -f ".deps/argp-xinl.Tpo" ".deps/argp-xinl.Po"; else rm -f ".deps/argp-xinl.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..     -g -O2 -MT backupfile.o -MD -MP -MF ".deps/backupfile.Tpo" -c -o backupfile.o backupfile.c; \
+then mv -f ".deps/backupfile.Tpo" ".deps/backupfile.Po"; else rm -f ".deps/backupfile.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..     -g -O2 -MT dirname.o -MD -MP -MF ".deps/dirname.Tpo" -c -o dirname.o dirname.c; \
+then mv -f ".deps/dirname.Tpo" ".deps/dirname.Po"; else rm -f ".deps/dirname.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..     -g -O2 -MT basename.o -MD -MP -MF ".deps/basename.Tpo" -c -o basename.o basename.c; \
+then mv -f ".deps/basename.Tpo" ".deps/basename.Po"; else rm -f ".deps/basename.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..     -g -O2 -MT stripslash.o -MD -MP -MF ".deps/stripslash.Tpo" -c -o stripslash.o stripslash.c; \
+then mv -f ".deps/stripslash.Tpo" ".deps/stripslash.Po"; else rm -f ".deps/stripslash.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..     -g -O2 -MT exclude.o -MD -MP -MF ".deps/exclude.Tpo" -c -o exclude.o exclude.c; \
+then mv -f ".deps/exclude.Tpo" ".deps/exclude.Po"; else rm -f ".deps/exclude.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..     -g -O2 -MT exitfail.o -MD -MP -MF ".deps/exitfail.Tpo" -c -o exitfail.o exitfail.c; \
+then mv -f ".deps/exitfail.Tpo" ".deps/exitfail.Po"; else rm -f ".deps/exitfail.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..     -g -O2 -MT full-write.o -MD -MP -MF ".deps/full-write.Tpo" -c -o full-write.o full-write.c; \
+then mv -f ".deps/full-write.Tpo" ".deps/full-write.Po"; else rm -f ".deps/full-write.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..     -g -O2 -MT getdate.o -MD -MP -MF ".deps/getdate.Tpo" -c -o getdate.o getdate.c; \
+then mv -f ".deps/getdate.Tpo" ".deps/getdate.Po"; else rm -f ".deps/getdate.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..     -g -O2 -MT gettime.o -MD -MP -MF ".deps/gettime.Tpo" -c -o gettime.o gettime.c; \
+then mv -f ".deps/gettime.Tpo" ".deps/gettime.Po"; else rm -f ".deps/gettime.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..     -g -O2 -MT hash.o -MD -MP -MF ".deps/hash.Tpo" -c -o hash.o hash.c; \
+then mv -f ".deps/hash.Tpo" ".deps/hash.Po"; else rm -f ".deps/hash.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..     -g -O2 -MT human.o -MD -MP -MF ".deps/human.Tpo" -c -o human.o human.c; \
+then mv -f ".deps/human.Tpo" ".deps/human.Po"; else rm -f ".deps/human.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..     -g -O2 -MT localcharset.o -MD -MP -MF ".deps/localcharset.Tpo" -c -o localcharset.o localcharset.c; \
+then mv -f ".deps/localcharset.Tpo" ".deps/localcharset.Po"; else rm -f ".deps/localcharset.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..     -g -O2 -MT modechange.o -MD -MP -MF ".deps/modechange.Tpo" -c -o modechange.o modechange.c; \
+then mv -f ".deps/modechange.Tpo" ".deps/modechange.Po"; else rm -f ".deps/modechange.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..     -g -O2 -MT quote.o -MD -MP -MF ".deps/quote.Tpo" -c -o quote.o quote.c; \
+then mv -f ".deps/quote.Tpo" ".deps/quote.Po"; else rm -f ".deps/quote.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..     -g -O2 -MT quotearg.o -MD -MP -MF ".deps/quotearg.Tpo" -c -o quotearg.o quotearg.c; \
+then mv -f ".deps/quotearg.Tpo" ".deps/quotearg.Po"; else rm -f ".deps/quotearg.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..     -g -O2 -MT safe-read.o -MD -MP -MF ".deps/safe-read.Tpo" -c -o safe-read.o safe-read.c; \
+then mv -f ".deps/safe-read.Tpo" ".deps/safe-read.Po"; else rm -f ".deps/safe-read.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..     -g -O2 -MT safe-write.o -MD -MP -MF ".deps/safe-write.Tpo" -c -o safe-write.o safe-write.c; \
+then mv -f ".deps/safe-write.Tpo" ".deps/safe-write.Po"; else rm -f ".deps/safe-write.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..     -g -O2 -MT save-cwd.o -MD -MP -MF ".deps/save-cwd.Tpo" -c -o save-cwd.o save-cwd.c; \
+then mv -f ".deps/save-cwd.Tpo" ".deps/save-cwd.Po"; else rm -f ".deps/save-cwd.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..     -g -O2 -MT savedir.o -MD -MP -MF ".deps/savedir.Tpo" -c -o savedir.o savedir.c; \
+then mv -f ".deps/savedir.Tpo" ".deps/savedir.Po"; else rm -f ".deps/savedir.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..     -g -O2 -MT xmalloc.o -MD -MP -MF ".deps/xmalloc.Tpo" -c -o xmalloc.o xmalloc.c; \
+then mv -f ".deps/xmalloc.Tpo" ".deps/xmalloc.Po"; else rm -f ".deps/xmalloc.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..     -g -O2 -MT xalloc-die.o -MD -MP -MF ".deps/xalloc-die.Tpo" -c -o xalloc-die.o xalloc-die.c; \
+then mv -f ".deps/xalloc-die.Tpo" ".deps/xalloc-die.Po"; else rm -f ".deps/xalloc-die.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..     -g -O2 -MT xgetcwd.o -MD -MP -MF ".deps/xgetcwd.Tpo" -c -o xgetcwd.o xgetcwd.c; \
+then mv -f ".deps/xgetcwd.Tpo" ".deps/xgetcwd.Po"; else rm -f ".deps/xgetcwd.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..     -g -O2 -MT xstrtol.o -MD -MP -MF ".deps/xstrtol.Tpo" -c -o xstrtol.o xstrtol.c; \
+then mv -f ".deps/xstrtol.Tpo" ".deps/xstrtol.Po"; else rm -f ".deps/xstrtol.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..     -g -O2 -MT xstrtoul.o -MD -MP -MF ".deps/xstrtoul.Tpo" -c -o xstrtoul.o xstrtoul.c; \
+then mv -f ".deps/xstrtoul.Tpo" ".deps/xstrtoul.Po"; else rm -f ".deps/xstrtoul.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..     -g -O2 -MT xstrtoumax.o -MD -MP -MF ".deps/xstrtoumax.Tpo" -c -o xstrtoumax.o xstrtoumax.c; \
+then mv -f ".deps/xstrtoumax.Tpo" ".deps/xstrtoumax.Po"; else rm -f ".deps/xstrtoumax.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..     -g -O2 -MT getopt.o -MD -MP -MF ".deps/getopt.Tpo" -c -o getopt.o getopt.c; \
+then mv -f ".deps/getopt.Tpo" ".deps/getopt.Po"; else rm -f ".deps/getopt.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..     -g -O2 -MT getopt1.o -MD -MP -MF ".deps/getopt1.Tpo" -c -o getopt1.o getopt1.c; \
+then mv -f ".deps/getopt1.Tpo" ".deps/getopt1.Po"; else rm -f ".deps/getopt1.Tpo"; exit 1; fi
+rm -f libtar.a
+ar cru libtar.a prepargs.o rtapelib.o allocsa.o argmatch.o argp-ba.o argp-eexst.o argp-fmtstream.o argp-fs-xinl.o argp-help.o argp-parse.o argp-pv.o argp-pvh.o argp-xinl.o backupfile.o dirname.o basename.o stripslash.o exclude.o exitfail.o full-write.o getdate.o gettime.o hash.o human.o localcharset.o modechange.o quote.o quotearg.o safe-read.o safe-write.o save-cwd.o savedir.o xmalloc.o xalloc-die.o xgetcwd.o xstrtol.o xstrtoul.o xstrtoumax.o getopt.o getopt1.o 
+ranlib libtar.a
+/bin/sh ./config.charset 'i686-pc-linux-gnu' > t-charset.alias
+mv t-charset.alias charset.alias
+sed -e '/^#/d' -e 's/@''PACKAGE''@/tar/g' ref-add.sin > t-ref-add.sed
+mv t-ref-add.sed ref-add.sed
+sed -e '/^#/d' -e 's/@''PACKAGE''@/tar/g' ref-del.sin > t-ref-del.sed
+mv t-ref-del.sed ref-del.sed
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/tar/tar-1.15.1/unpack/tar-1.15.1/lib'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/tar/tar-1.15.1/unpack/tar-1.15.1/lib'
+Making all in rmt
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/tar/tar-1.15.1/unpack/tar-1.15.1/rmt'
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib -I../ -I../lib     -g -O2 -MT rmt.o -MD -MP -MF ".deps/rmt.Tpo" -c -o rmt.o rmt.c; \
+then mv -f ".deps/rmt.Tpo" ".deps/rmt.Po"; else rm -f ".deps/rmt.Tpo"; exit 1; fi
+gcc  -g -O2   -o rmt  rmt.o ../lib/libtar.a   
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/tar/tar-1.15.1/unpack/tar-1.15.1/rmt'
+Making all in src
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/tar/tar-1.15.1/unpack/tar-1.15.1/src'
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib -I../ -I../lib     -g -O2 -MT buffer.o -MD -MP -MF ".deps/buffer.Tpo" -c -o buffer.o buffer.c; \
+then mv -f ".deps/buffer.Tpo" ".deps/buffer.Po"; else rm -f ".deps/buffer.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib -I../ -I../lib     -g -O2 -MT compare.o -MD -MP -MF ".deps/compare.Tpo" -c -o compare.o compare.c; \
+then mv -f ".deps/compare.Tpo" ".deps/compare.Po"; else rm -f ".deps/compare.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib -I../ -I../lib     -g -O2 -MT create.o -MD -MP -MF ".deps/create.Tpo" -c -o create.o create.c; \
+then mv -f ".deps/create.Tpo" ".deps/create.Po"; else rm -f ".deps/create.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib -I../ -I../lib     -g -O2 -MT delete.o -MD -MP -MF ".deps/delete.Tpo" -c -o delete.o delete.c; \
+then mv -f ".deps/delete.Tpo" ".deps/delete.Po"; else rm -f ".deps/delete.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib -I../ -I../lib     -g -O2 -MT extract.o -MD -MP -MF ".deps/extract.Tpo" -c -o extract.o extract.c; \
+then mv -f ".deps/extract.Tpo" ".deps/extract.Po"; else rm -f ".deps/extract.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib -I../ -I../lib     -g -O2 -MT xheader.o -MD -MP -MF ".deps/xheader.Tpo" -c -o xheader.o xheader.c; \
+then mv -f ".deps/xheader.Tpo" ".deps/xheader.Po"; else rm -f ".deps/xheader.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib -I../ -I../lib     -g -O2 -MT incremen.o -MD -MP -MF ".deps/incremen.Tpo" -c -o incremen.o incremen.c; \
+then mv -f ".deps/incremen.Tpo" ".deps/incremen.Po"; else rm -f ".deps/incremen.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib -I../ -I../lib     -g -O2 -MT list.o -MD -MP -MF ".deps/list.Tpo" -c -o list.o list.c; \
+then mv -f ".deps/list.Tpo" ".deps/list.Po"; else rm -f ".deps/list.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib -I../ -I../lib     -g -O2 -MT mangle.o -MD -MP -MF ".deps/mangle.Tpo" -c -o mangle.o mangle.c; \
+then mv -f ".deps/mangle.Tpo" ".deps/mangle.Po"; else rm -f ".deps/mangle.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib -I../ -I../lib     -g -O2 -MT misc.o -MD -MP -MF ".deps/misc.Tpo" -c -o misc.o misc.c; \
+then mv -f ".deps/misc.Tpo" ".deps/misc.Po"; else rm -f ".deps/misc.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib -I../ -I../lib     -g -O2 -MT names.o -MD -MP -MF ".deps/names.Tpo" -c -o names.o names.c; \
+then mv -f ".deps/names.Tpo" ".deps/names.Po"; else rm -f ".deps/names.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib -I../ -I../lib     -g -O2 -MT sparse.o -MD -MP -MF ".deps/sparse.Tpo" -c -o sparse.o sparse.c; \
+then mv -f ".deps/sparse.Tpo" ".deps/sparse.Po"; else rm -f ".deps/sparse.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib -I../ -I../lib     -g -O2 -MT system.o -MD -MP -MF ".deps/system.Tpo" -c -o system.o system.c; \
+then mv -f ".deps/system.Tpo" ".deps/system.Po"; else rm -f ".deps/system.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib -I../ -I../lib     -g -O2 -MT tar.o -MD -MP -MF ".deps/tar.Tpo" -c -o tar.o tar.c; \
+then mv -f ".deps/tar.Tpo" ".deps/tar.Po"; else rm -f ".deps/tar.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib -I../ -I../lib     -g -O2 -MT update.o -MD -MP -MF ".deps/update.Tpo" -c -o update.o update.c; \
+then mv -f ".deps/update.Tpo" ".deps/update.Po"; else rm -f ".deps/update.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib -I../ -I../lib     -g -O2 -MT utf8.o -MD -MP -MF ".deps/utf8.Tpo" -c -o utf8.o utf8.c; \
+then mv -f ".deps/utf8.Tpo" ".deps/utf8.Po"; else rm -f ".deps/utf8.Tpo"; exit 1; fi
+gcc  -g -O2   -o tar  buffer.o compare.o create.o delete.o extract.o xheader.o incremen.o list.o mangle.o misc.o names.o sparse.o system.o tar.o update.o utf8.o ../lib/libtar.a   -lrt 
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/tar/tar-1.15.1/unpack/tar-1.15.1/src'
+Making all in scripts
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/tar/tar-1.15.1/unpack/tar-1.15.1/scripts'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/tar/tar-1.15.1/unpack/tar-1.15.1/scripts'
+Making all in po
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/tar/tar-1.15.1/unpack/tar-1.15.1/po'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/tar/tar-1.15.1/unpack/tar-1.15.1/po'
+Making all in tests
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/tar/tar-1.15.1/unpack/tar-1.15.1/tests'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/tar/tar-1.15.1/unpack/tar-1.15.1/tests'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/tar/tar-1.15.1/unpack/tar-1.15.1'
+make[2]: Nothing to be done for `all-am'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/tar/tar-1.15.1/unpack/tar-1.15.1'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/tar/tar-1.15.1/unpack/tar-1.15.1'

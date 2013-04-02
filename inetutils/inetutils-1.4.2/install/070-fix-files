@@ -1,0 +1,18 @@
+#!/bin/bash
+
+source configure
+
+pushd ../pkg/debian
+
+{
+
+mkdir   -v bin
+mv      -v usr/bin/ping bin
+chmod   -v 755 bin/ping
+
+rmdir   -v usr/sbin
+rm      -v usr/share/info/dir
+
+} |  tee ../../logs/070-fix-files.log
+
+popd

@@ -1,0 +1,76 @@
+Making install in .
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/libtool/libtool-1.5.22/unpack/libtool-1.5.22'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/libtool/libtool-1.5.22/unpack/libtool-1.5.22'
+test -z "/usr/bin" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/libtool/libtool-1.5.22/unpack/libtool-1.5.22/../../pkg/debian/usr/bin"
+ /usr/bin/install -c 'libtool' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/libtool/libtool-1.5.22/unpack/libtool-1.5.22/../../pkg/debian/usr/bin/libtool'
+ /usr/bin/install -c 'libtoolize' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/libtool/libtool-1.5.22/unpack/libtool-1.5.22/../../pkg/debian/usr/bin/libtoolize'
+test -z "/usr/share/aclocal" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/libtool/libtool-1.5.22/unpack/libtool-1.5.22/../../pkg/debian/usr/share/aclocal"
+ /usr/bin/install -c -m 644 'libtool.m4' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/libtool/libtool-1.5.22/unpack/libtool-1.5.22/../../pkg/debian/usr/share/aclocal/libtool.m4'
+ /usr/bin/install -c -m 644 'ltdl.m4' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/libtool/libtool-1.5.22/unpack/libtool-1.5.22/../../pkg/debian/usr/share/aclocal/ltdl.m4'
+test -z "/usr/share/libtool/libltdl" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/libtool/libtool-1.5.22/unpack/libtool-1.5.22/../../pkg/debian/usr/share/libtool/libltdl"
+ /usr/bin/install -c -m 644 'libltdl/COPYING.LIB' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/libtool/libtool-1.5.22/unpack/libtool-1.5.22/../../pkg/debian/usr/share/libtool/libltdl/COPYING.LIB'
+ /usr/bin/install -c -m 644 'libltdl/README' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/libtool/libtool-1.5.22/unpack/libtool-1.5.22/../../pkg/debian/usr/share/libtool/libltdl/README'
+ /usr/bin/install -c -m 644 'libltdl/configure.ac' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/libtool/libtool-1.5.22/unpack/libtool-1.5.22/../../pkg/debian/usr/share/libtool/libltdl/configure.ac'
+ /usr/bin/install -c -m 644 'libltdl/Makefile.am' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/libtool/libtool-1.5.22/unpack/libtool-1.5.22/../../pkg/debian/usr/share/libtool/libltdl/Makefile.am'
+ /usr/bin/install -c -m 644 'libltdl/ltdl.c' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/libtool/libtool-1.5.22/unpack/libtool-1.5.22/../../pkg/debian/usr/share/libtool/libltdl/ltdl.c'
+ /usr/bin/install -c -m 644 'libltdl/ltdl.h' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/libtool/libtool-1.5.22/unpack/libtool-1.5.22/../../pkg/debian/usr/share/libtool/libltdl/ltdl.h'
+ /usr/bin/install -c -m 644 'libltdl/config.guess' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/libtool/libtool-1.5.22/unpack/libtool-1.5.22/../../pkg/debian/usr/share/libtool/libltdl/config.guess'
+ /usr/bin/install -c -m 644 'libltdl/config.sub' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/libtool/libtool-1.5.22/unpack/libtool-1.5.22/../../pkg/debian/usr/share/libtool/libltdl/config.sub'
+ /usr/bin/install -c -m 644 'libltdl/install-sh' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/libtool/libtool-1.5.22/unpack/libtool-1.5.22/../../pkg/debian/usr/share/libtool/libltdl/install-sh'
+ /usr/bin/install -c -m 644 'libltdl/missing' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/libtool/libtool-1.5.22/unpack/libtool-1.5.22/../../pkg/debian/usr/share/libtool/libltdl/missing'
+ /usr/bin/install -c -m 644 'libltdl/ltmain.sh' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/libtool/libtool-1.5.22/unpack/libtool-1.5.22/../../pkg/debian/usr/share/libtool/libltdl/ltmain.sh'
+ /usr/bin/install -c -m 644 'libltdl/acinclude.m4' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/libtool/libtool-1.5.22/unpack/libtool-1.5.22/../../pkg/debian/usr/share/libtool/libltdl/acinclude.m4'
+ /usr/bin/install -c -m 644 'libltdl/aclocal.m4' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/libtool/libtool-1.5.22/unpack/libtool-1.5.22/../../pkg/debian/usr/share/libtool/libltdl/aclocal.m4'
+ /usr/bin/install -c -m 644 'libltdl/Makefile.in' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/libtool/libtool-1.5.22/unpack/libtool-1.5.22/../../pkg/debian/usr/share/libtool/libltdl/Makefile.in'
+ /usr/bin/install -c -m 644 'libltdl/configure' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/libtool/libtool-1.5.22/unpack/libtool-1.5.22/../../pkg/debian/usr/share/libtool/libltdl/configure'
+ /usr/bin/install -c -m 644 'libltdl/config-h.in' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/libtool/libtool-1.5.22/unpack/libtool-1.5.22/../../pkg/debian/usr/share/libtool/libltdl/config-h.in'
+test -z "/usr/share/libtool" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/libtool/libtool-1.5.22/unpack/libtool-1.5.22/../../pkg/debian/usr/share/libtool"
+ /usr/bin/install -c -m 644 'config.guess' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/libtool/libtool-1.5.22/unpack/libtool-1.5.22/../../pkg/debian/usr/share/libtool/config.guess'
+ /usr/bin/install -c -m 644 'config.sub' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/libtool/libtool-1.5.22/unpack/libtool-1.5.22/../../pkg/debian/usr/share/libtool/config.sub'
+ /usr/bin/install -c -m 644 'install-sh' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/libtool/libtool-1.5.22/unpack/libtool-1.5.22/../../pkg/debian/usr/share/libtool/install-sh'
+ /usr/bin/install -c -m 644 'ltmain.sh' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/libtool/libtool-1.5.22/unpack/libtool-1.5.22/../../pkg/debian/usr/share/libtool/ltmain.sh'
+make  install-data-hook
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/libtool/libtool-1.5.22/unpack/libtool-1.5.22'
+chmod +x /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/libtool/libtool-1.5.22/unpack/libtool-1.5.22/../../pkg/debian/usr/share/libtool/config.guess
+chmod +x /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/libtool/libtool-1.5.22/unpack/libtool-1.5.22/../../pkg/debian/usr/share/libtool/config.sub
+chmod +x /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/libtool/libtool-1.5.22/unpack/libtool-1.5.22/../../pkg/debian/usr/share/libtool/install-sh
+chmod +x /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/libtool/libtool-1.5.22/unpack/libtool-1.5.22/../../pkg/debian/usr/share/libtool/libltdl/config.guess
+chmod +x /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/libtool/libtool-1.5.22/unpack/libtool-1.5.22/../../pkg/debian/usr/share/libtool/libltdl/config.sub
+chmod +x /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/libtool/libtool-1.5.22/unpack/libtool-1.5.22/../../pkg/debian/usr/share/libtool/libltdl/install-sh
+chmod +x /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/libtool/libtool-1.5.22/unpack/libtool-1.5.22/../../pkg/debian/usr/share/libtool/libltdl/configure
+chmod +x /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/libtool/libtool-1.5.22/unpack/libtool-1.5.22/../../pkg/debian/usr/share/libtool/libltdl/missing
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/libtool/libtool-1.5.22/unpack/libtool-1.5.22'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/libtool/libtool-1.5.22/unpack/libtool-1.5.22'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/libtool/libtool-1.5.22/unpack/libtool-1.5.22'
+Making install in libltdl
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/libtool/libtool-1.5.22/unpack/libtool-1.5.22/libltdl'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/libtool/libtool-1.5.22/unpack/libtool-1.5.22/libltdl'
+test -z "/usr/lib" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/libtool/libtool-1.5.22/unpack/libtool-1.5.22/../../pkg/debian/usr/lib"
+ /bin/sh ./libtool --mode=install /usr/bin/install -c  'libltdl.la' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/libtool/libtool-1.5.22/unpack/libtool-1.5.22/../../pkg/debian/usr/lib/libltdl.la'
+/usr/bin/install -c .libs/libltdl.so.3.1.4 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/libtool/libtool-1.5.22/unpack/libtool-1.5.22/../../pkg/debian/usr/lib/libltdl.so.3.1.4
+(cd /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/libtool/libtool-1.5.22/unpack/libtool-1.5.22/../../pkg/debian/usr/lib && { ln -s -f libltdl.so.3.1.4 libltdl.so.3 || { rm -f libltdl.so.3 && ln -s libltdl.so.3.1.4 libltdl.so.3; }; })
+(cd /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/libtool/libtool-1.5.22/unpack/libtool-1.5.22/../../pkg/debian/usr/lib && { ln -s -f libltdl.so.3.1.4 libltdl.so || { rm -f libltdl.so && ln -s libltdl.so.3.1.4 libltdl.so; }; })
+/usr/bin/install -c .libs/libltdl.lai /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/libtool/libtool-1.5.22/unpack/libtool-1.5.22/../../pkg/debian/usr/lib/libltdl.la
+/usr/bin/install -c .libs/libltdl.a /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/libtool/libtool-1.5.22/unpack/libtool-1.5.22/../../pkg/debian/usr/lib/libltdl.a
+chmod 644 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/libtool/libtool-1.5.22/unpack/libtool-1.5.22/../../pkg/debian/usr/lib/libltdl.a
+ranlib /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/libtool/libtool-1.5.22/unpack/libtool-1.5.22/../../pkg/debian/usr/lib/libltdl.a
+test -z "/usr/include" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/libtool/libtool-1.5.22/unpack/libtool-1.5.22/../../pkg/debian/usr/include"
+ /usr/bin/install -c -m 644 'ltdl.h' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/libtool/libtool-1.5.22/unpack/libtool-1.5.22/../../pkg/debian/usr/include/ltdl.h'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/libtool/libtool-1.5.22/unpack/libtool-1.5.22/libltdl'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/libtool/libtool-1.5.22/unpack/libtool-1.5.22/libltdl'
+Making install in doc
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/libtool/libtool-1.5.22/unpack/libtool-1.5.22/doc'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/libtool/libtool-1.5.22/unpack/libtool-1.5.22/doc'
+make[2]: Nothing to be done for `install-exec-am'.
+test -z "/usr/share/info" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/libtool/libtool-1.5.22/unpack/libtool-1.5.22/../../pkg/debian/usr/share/info"
+ /usr/bin/install -c -m 644 './libtool.info' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/libtool/libtool-1.5.22/unpack/libtool-1.5.22/../../pkg/debian/usr/share/info/libtool.info'
+ install-info --info-dir='/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/libtool/libtool-1.5.22/unpack/libtool-1.5.22/../../pkg/debian/usr/share/info' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/libtool/libtool-1.5.22/unpack/libtool-1.5.22/../../pkg/debian/usr/share/info/libtool.info'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/libtool/libtool-1.5.22/unpack/libtool-1.5.22/doc'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/libtool/libtool-1.5.22/unpack/libtool-1.5.22/doc'
+Making install in tests
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/libtool/libtool-1.5.22/unpack/libtool-1.5.22/tests'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/libtool/libtool-1.5.22/unpack/libtool-1.5.22/tests'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/libtool/libtool-1.5.22/unpack/libtool-1.5.22/tests'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/libtool/libtool-1.5.22/unpack/libtool-1.5.22/tests'

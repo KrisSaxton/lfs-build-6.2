@@ -1,0 +1,45 @@
+for subdir in doc lib src checks examples; do \
+  echo making all in $subdir; \
+  (cd $subdir && make CC='gcc' CFLAGS='-g -O2' LDFLAGS='' LIBS='' prefix='/usr' exec_prefix='/usr' bindir='/usr/bin' infodir='/usr/share/info' all) || exit 1; \
+done
+making all in doc
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/m4/m4-1.4.4/unpack/m4-1.4.4/doc'
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/m4/m4-1.4.4/unpack/m4-1.4.4/doc'
+making all in lib
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/m4/m4-1.4.4/unpack/m4-1.4.4/lib'
+gcc -c -DHAVE_CONFIG_H -I.. -I.  -g -O2 regex.c
+gcc -c -DHAVE_CONFIG_H -I.. -I.  -g -O2 getopt.c
+gcc -c -DHAVE_CONFIG_H -I.. -I.  -g -O2 getopt1.c
+gcc -c -DHAVE_CONFIG_H -I.. -I.  -g -O2 error.c
+gcc -c -DHAVE_CONFIG_H -I.. -I.  -g -O2 obstack.c
+gcc -c -DHAVE_CONFIG_H -I.. -I.  -g -O2 xmalloc.c
+gcc -c -DHAVE_CONFIG_H -I.. -I.  -g -O2 xstrdup.c
+rm -f libm4.a
+ar cru libm4.a regex.o getopt.o getopt1.o error.o obstack.o xmalloc.o xstrdup.o  
+ranlib libm4.a
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/m4/m4-1.4.4/unpack/m4-1.4.4/lib'
+making all in src
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/m4/m4-1.4.4/unpack/m4-1.4.4/src'
+gcc -c -DHAVE_CONFIG_H -I.. -I. -I./../lib  -g -O2 m4.c
+gcc -c -DHAVE_CONFIG_H -I.. -I. -I./../lib  -g -O2 builtin.c
+gcc -c -DHAVE_CONFIG_H -I.. -I. -I./../lib  -g -O2 debug.c
+gcc -c -DHAVE_CONFIG_H -I.. -I. -I./../lib  -g -O2 eval.c
+gcc -c -DHAVE_CONFIG_H -I.. -I. -I./../lib  -g -O2 format.c
+gcc -c -DHAVE_CONFIG_H -I.. -I. -I./../lib  -g -O2 freeze.c
+gcc -c -DHAVE_CONFIG_H -I.. -I. -I./../lib  -g -O2 input.c
+gcc -c -DHAVE_CONFIG_H -I.. -I. -I./../lib  -g -O2 macro.c
+gcc -c -DHAVE_CONFIG_H -I.. -I. -I./../lib  -g -O2 output.c
+gcc -c -DHAVE_CONFIG_H -I.. -I. -I./../lib  -g -O2 path.c
+gcc -c -DHAVE_CONFIG_H -I.. -I. -I./../lib  -g -O2 stackovf.c
+gcc -c -DHAVE_CONFIG_H -I.. -I. -I./../lib  -g -O2 symtab.c
+gcc  -o m4 m4.o builtin.o debug.o eval.o format.o freeze.o input.o macro.o output.o path.o stackovf.o symtab.o ../lib/libm4.a 
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/m4/m4-1.4.4/unpack/m4-1.4.4/src'
+making all in checks
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/m4/m4-1.4.4/unpack/m4-1.4.4/checks'
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/m4/m4-1.4.4/unpack/m4-1.4.4/checks'
+making all in examples
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/m4/m4-1.4.4/unpack/m4-1.4.4/examples'
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/m4/m4-1.4.4/unpack/m4-1.4.4/examples'

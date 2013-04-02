@@ -1,0 +1,9 @@
+#!/bin/bash
+
+source configure
+
+pushd ../unpack/*/build_unix
+
+make | tee ../../../logs/050-make.log
+
+popd

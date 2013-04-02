@@ -1,0 +1,193 @@
+Making install in build-aux
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/build-aux'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/build-aux'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/build-aux'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/build-aux'
+Making install in po
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/po'
+/bin/sh ../build-aux/mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/share
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/share
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/share/locale/da/LC_MESSAGES
+installing da.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/share/locale/da/LC_MESSAGES/bison.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/share/locale/de/LC_MESSAGES
+installing de.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/share/locale/de/LC_MESSAGES/bison.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/share/locale/es/LC_MESSAGES
+installing es.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/share/locale/es/LC_MESSAGES/bison.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/share/locale/et/LC_MESSAGES
+installing et.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/share/locale/et/LC_MESSAGES/bison.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/share/locale/fr/LC_MESSAGES
+installing fr.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/share/locale/fr/LC_MESSAGES/bison.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/share/locale/ga/LC_MESSAGES
+installing ga.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/share/locale/ga/LC_MESSAGES/bison.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/share/locale/hr/LC_MESSAGES
+installing hr.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/share/locale/hr/LC_MESSAGES/bison.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/share/locale/id/LC_MESSAGES
+installing id.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/share/locale/id/LC_MESSAGES/bison.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/share/locale/it/LC_MESSAGES
+installing it.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/share/locale/it/LC_MESSAGES/bison.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/share/locale/ja/LC_MESSAGES
+installing ja.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/share/locale/ja/LC_MESSAGES/bison.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/share/locale/ms/LC_MESSAGES
+installing ms.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/share/locale/ms/LC_MESSAGES/bison.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/share/locale/nb/LC_MESSAGES
+installing nb.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/share/locale/nb/LC_MESSAGES/bison.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/share/locale/nl/LC_MESSAGES
+installing nl.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/share/locale/nl/LC_MESSAGES/bison.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/share/locale/pl/LC_MESSAGES
+installing pl.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/share/locale/pl/LC_MESSAGES/bison.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/share/locale/pt_BR/LC_MESSAGES
+installing pt_BR.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/share/locale/pt_BR/LC_MESSAGES/bison.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/share/locale/ro/LC_MESSAGES
+installing ro.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/share/locale/ro/LC_MESSAGES/bison.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/share/locale/ru/LC_MESSAGES
+installing ru.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/share/locale/ru/LC_MESSAGES/bison.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/share/locale/rw/LC_MESSAGES
+installing rw.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/share/locale/rw/LC_MESSAGES/bison.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/share/locale/sv/LC_MESSAGES
+installing sv.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/share/locale/sv/LC_MESSAGES/bison.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/share/locale/tr/LC_MESSAGES
+installing tr.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/share/locale/tr/LC_MESSAGES/bison.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/share/locale/vi/LC_MESSAGES
+installing vi.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/share/locale/vi/LC_MESSAGES/bison.mo
+if test "bison" = "gettext-tools"; then \
+  /bin/sh ../build-aux/mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /usr/bin/install -c -m 644 ./$file \
+		    /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/po'
+Making install in runtime-po
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/runtime-po'
+/bin/sh ../build-aux/mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/share
+installing da.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/share/locale/da/LC_MESSAGES/bison-runtime.mo
+installing de.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/share/locale/de/LC_MESSAGES/bison-runtime.mo
+installing es.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/share/locale/es/LC_MESSAGES/bison-runtime.mo
+installing et.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/share/locale/et/LC_MESSAGES/bison-runtime.mo
+installing fr.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/share/locale/fr/LC_MESSAGES/bison-runtime.mo
+installing ga.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/share/locale/ga/LC_MESSAGES/bison-runtime.mo
+installing hr.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/share/locale/hr/LC_MESSAGES/bison-runtime.mo
+installing id.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/share/locale/id/LC_MESSAGES/bison-runtime.mo
+installing it.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/share/locale/it/LC_MESSAGES/bison-runtime.mo
+installing ja.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/share/locale/ja/LC_MESSAGES/bison-runtime.mo
+installing ms.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/share/locale/ms/LC_MESSAGES/bison-runtime.mo
+installing nb.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/share/locale/nb/LC_MESSAGES/bison-runtime.mo
+installing nl.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/share/locale/nl/LC_MESSAGES/bison-runtime.mo
+installing pl.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/share/locale/pl/LC_MESSAGES/bison-runtime.mo
+installing pt_BR.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/share/locale/pt_BR/LC_MESSAGES/bison-runtime.mo
+installing ro.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/share/locale/ro/LC_MESSAGES/bison-runtime.mo
+installing ru.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/share/locale/ru/LC_MESSAGES/bison-runtime.mo
+installing rw.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/share/locale/rw/LC_MESSAGES/bison-runtime.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/share/locale/sl/LC_MESSAGES
+installing sl.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/share/locale/sl/LC_MESSAGES/bison-runtime.mo
+installing sv.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/share/locale/sv/LC_MESSAGES/bison-runtime.mo
+installing tr.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/share/locale/tr/LC_MESSAGES/bison-runtime.mo
+installing vi.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/share/locale/vi/LC_MESSAGES/bison-runtime.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/share/locale/zh_TW/LC_MESSAGES
+installing zh_TW.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/share/locale/zh_TW/LC_MESSAGES/bison-runtime.mo
+if test "bison" = "gettext-tools"; then \
+  /bin/sh ../build-aux/mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /usr/bin/install -c -m 644 ./$file \
+		    /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/runtime-po'
+Making install in lib
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/lib'
+make  install-am
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/lib'
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/lib'
+test -z "/usr/lib" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/lib"
+ /usr/bin/install -c -m 644 'liby.a' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/lib/liby.a'
+ ranlib '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/lib/liby.a'
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/lib'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/lib'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/lib'
+Making install in data
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/data'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/data'
+make[2]: Nothing to be done for `install-exec-am'.
+test -z "/usr/share/bison/m4sugar" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/share/bison/m4sugar"
+ /usr/bin/install -c -m 644 'm4sugar/m4sugar.m4' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/share/bison/m4sugar/m4sugar.m4'
+test -z "/usr/share/bison" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/share/bison"
+ /usr/bin/install -c -m 644 'README' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/share/bison/README'
+ /usr/bin/install -c -m 644 'c.m4' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/share/bison/c.m4'
+ /usr/bin/install -c -m 644 'yacc.c' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/share/bison/yacc.c'
+ /usr/bin/install -c -m 644 'glr.c' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/share/bison/glr.c'
+ /usr/bin/install -c -m 644 'c++.m4' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/share/bison/c++.m4'
+ /usr/bin/install -c -m 644 'location.cc' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/share/bison/location.cc'
+ /usr/bin/install -c -m 644 'lalr1.cc' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/share/bison/lalr1.cc'
+ /usr/bin/install -c -m 644 'glr.cc' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/share/bison/glr.cc'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/data'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/data'
+Making install in src
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/src'
+make  install-am
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/src'
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/src'
+test -z "/usr/bin" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/bin"
+  /usr/bin/install -c 'bison' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/bin/bison'
+test -z "/usr/bin" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/bin"
+ /usr/bin/install -c 'yacc' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/bin/yacc'
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/src'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/src'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/src'
+Making install in doc
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/doc'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/doc'
+make[2]: Nothing to be done for `install-exec-am'.
+test -z "/usr/info" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/info"
+ /usr/bin/install -c -m 644 './bison.info' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/info/bison.info'
+ install-info --info-dir='/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/info' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/info/bison.info'
+test -z "/usr/man/man1" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/man/man1"
+ /usr/bin/install -c -m 644 './bison.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/man/man1/bison.1'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/doc'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/doc'
+Making install in examples
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/examples'
+Making install in calc++
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/examples/calc++'
+make  install-am
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/examples/calc++'
+make[4]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/examples/calc++'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/examples/calc++'
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/examples/calc++'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/examples/calc++'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/examples'
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/examples'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/examples'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/examples'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/examples'
+Making install in tests
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/tests'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/tests'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/tests'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/tests'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2'
+make[2]: Nothing to be done for `install-exec-am'.
+test -z "/usr/share/aclocal" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/share/aclocal"
+ /usr/bin/install -c -m 644 'm4/bison-i18n.m4' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/../../pkg/debian/usr/share/aclocal/bison-i18n.m4'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2'

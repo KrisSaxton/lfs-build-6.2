@@ -1,0 +1,10 @@
+#!/bin/bash
+
+source configure
+
+pushd ../pkg/debian
+
+# Remember to make any paths relative (i.e. ./usr rather than /usr)
+# | tee ../../logs/061-fix-files.log
+
+popd

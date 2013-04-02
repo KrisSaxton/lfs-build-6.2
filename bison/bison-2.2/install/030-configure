@@ -1,0 +1,16 @@
+#!/bin/bash
+
+source configure
+
+pushd ../unpack/*
+
+{
+
+./configure \
+    --prefix=$AB_PACKAGE_CONFIGURE_PREFIX
+
+echo '#define YYENABLE_NLS 1' >> config.h
+
+} | tee ../../logs/030-configure.log
+
+popd

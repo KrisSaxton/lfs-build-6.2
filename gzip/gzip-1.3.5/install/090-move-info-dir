@@ -1,0 +1,12 @@
+#!/bin/bash
+
+source configure
+
+{
+DESTDIR=../pkg/debian
+
+mkdir -vp $DESTDIR/usr/share
+mv -v $DESTDIR/usr/info $DESTDIR/usr/share
+
+} | tee ../logs/090-move-info-dir.log
+

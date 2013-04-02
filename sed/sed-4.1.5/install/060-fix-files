@@ -1,0 +1,14 @@
+#!/bin/bash
+
+source configure
+
+pushd ../pkg/debian
+
+{
+rm -v   usr/share/info/dir 
+rm -vrf usr/share/locale
+} | tee ../../logs/060-fix-files.log
+
+
+
+popd

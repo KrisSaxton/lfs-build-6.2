@@ -1,0 +1,75 @@
+/bin/sh ./support/mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/readline/readline-5.1/unpack/readline-5.1/../../pkg/debian/usr/include \
+	/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/readline/readline-5.1/unpack/readline-5.1/../../pkg/debian/usr/include/readline /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/readline/readline-5.1/unpack/readline-5.1/../../pkg/debian/lib \
+	/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/readline/readline-5.1/unpack/readline-5.1/../../pkg/debian/usr/share/info /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/readline/readline-5.1/unpack/readline-5.1/../../pkg/debian/usr/share/man/man3
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/readline/readline-5.1/unpack/readline-5.1/../../pkg/debian/usr/include /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/readline/readline-5.1/unpack/readline-5.1/../../pkg/debian/usr/include/readline /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/readline/readline-5.1/unpack/readline-5.1/../../pkg/debian/lib /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/readline/readline-5.1/unpack/readline-5.1/../../pkg/debian/usr/share/info /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/readline/readline-5.1/unpack/readline-5.1/../../pkg/debian/usr/share/man/man3
+for f in readline.h chardefs.h keymaps.h history.h tilde.h rlstdc.h rlconf.h rltypedefs.h; do \
+	/usr/bin/install -c -m 644 ./$f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/readline/readline-5.1/unpack/readline-5.1/../../pkg/debian/usr/include/readline ; \
+done
+( if test -d doc ; then \
+	cd doc && \
+	make  infodir=/usr/share/info DESTDIR=/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/readline/readline-5.1/unpack/readline-5.1/../../pkg/debian install; \
+  fi )
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/readline/readline-5.1/unpack/readline-5.1/doc'
+/bin/sh ../support/mkdirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/readline/readline-5.1/unpack/readline-5.1/../../pkg/debian/usr/share/info /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/readline/readline-5.1/unpack/readline-5.1/../../pkg/debian/usr/share/man/man3
+if test -n "" ; then \
+	/bin/sh ../support/mkdirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/readline/readline-5.1/unpack/readline-5.1/../../pkg/debian ; \
+fi
+if test -f readline.info; then \
+	/usr/bin/install -c -m 644 readline.info /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/readline/readline-5.1/unpack/readline-5.1/../../pkg/debian/usr/share/info/readline.info; \
+else \
+	/usr/bin/install -c -m 644 ./readline.info /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/readline/readline-5.1/unpack/readline-5.1/../../pkg/debian/usr/share/info/readline.info; \
+fi
+if test -f rluserman.info; then \
+	/usr/bin/install -c -m 644 rluserman.info /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/readline/readline-5.1/unpack/readline-5.1/../../pkg/debian/usr/share/info/rluserman.info; \
+else \
+	/usr/bin/install -c -m 644 ./rluserman.info /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/readline/readline-5.1/unpack/readline-5.1/../../pkg/debian/usr/share/info/rluserman.info; \
+fi
+if test -f history.info; then \
+	/usr/bin/install -c -m 644 history.info /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/readline/readline-5.1/unpack/readline-5.1/../../pkg/debian/usr/share/info/history.info; \
+else \
+	/usr/bin/install -c -m 644 ./history.info /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/readline/readline-5.1/unpack/readline-5.1/../../pkg/debian/usr/share/info/history.info; \
+fi
+if /bin/sh -c 'install-info --version' >/dev/null 2>&1; then \
+	install-info --dir-file=/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/readline/readline-5.1/unpack/readline-5.1/../../pkg/debian/usr/share/info/dir \
+		/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/readline/readline-5.1/unpack/readline-5.1/../../pkg/debian/usr/share/info/readline.info ; \
+	install-info --dir-file=/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/readline/readline-5.1/unpack/readline-5.1/../../pkg/debian/usr/share/info/dir \
+		/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/readline/readline-5.1/unpack/readline-5.1/../../pkg/debian/usr/share/info/history.info ; \
+	install-info --dir-file=/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/readline/readline-5.1/unpack/readline-5.1/../../pkg/debian/usr/share/info/dir \
+		/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/readline/readline-5.1/unpack/readline-5.1/../../pkg/debian/usr/share/info/rluserman.info ; \
+else true; fi
+/usr/bin/install -c -m 644 ./readline.3 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/readline/readline-5.1/unpack/readline-5.1/../../pkg/debian/usr/share/man/man3/readline.3
+/usr/bin/install -c -m 644 ./history.3 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/readline/readline-5.1/unpack/readline-5.1/../../pkg/debian/usr/share/man/man3/history.3
+if test -n "" ; then \
+	if test -f readline.html; then \
+		/usr/bin/install -c -m 644 readline.html /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/readline/readline-5.1/unpack/readline-5.1/../../pkg/debian/readline.html; \
+	else \
+		/usr/bin/install -c -m 644 ./readline.html /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/readline/readline-5.1/unpack/readline-5.1/../../pkg/debian/readline.html; \
+	fi ; \
+	if test -f history.html; then \
+		/usr/bin/install -c -m 644 history.html /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/readline/readline-5.1/unpack/readline-5.1/../../pkg/debian/history.html; \
+	else \
+		/usr/bin/install -c -m 644 ./history.html /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/readline/readline-5.1/unpack/readline-5.1/../../pkg/debian/history.html; \
+	fi ; \
+	if test -f rluserman.html; then \
+		/usr/bin/install -c -m 644 rluserman.html /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/readline/readline-5.1/unpack/readline-5.1/../../pkg/debian/rluserman.html; \
+	else \
+		/usr/bin/install -c -m 644 ./rluserman.html /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/readline/readline-5.1/unpack/readline-5.1/../../pkg/debian/rluserman.html; \
+	fi ; \
+fi
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/readline/readline-5.1/unpack/readline-5.1/doc'
+/usr/bin/install -c -m 644 libreadline.a /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/readline/readline-5.1/unpack/readline-5.1/../../pkg/debian/lib/libreadline.a
+test -n "ranlib" && ranlib /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/readline/readline-5.1/unpack/readline-5.1/../../pkg/debian/lib/libreadline.a
+/usr/bin/install -c -m 644 libhistory.a /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/readline/readline-5.1/unpack/readline-5.1/../../pkg/debian/lib/libhistory.a
+test -n "ranlib" && ranlib /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/readline/readline-5.1/unpack/readline-5.1/../../pkg/debian/lib/libhistory.a
+test -d shlib || mkdir shlib
+( cd shlib ; make  all )
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/readline/readline-5.1/unpack/readline-5.1/shlib'
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/readline/readline-5.1/unpack/readline-5.1/shlib'
+( cd shlib ; make  DESTDIR=/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/readline/readline-5.1/unpack/readline-5.1/../../pkg/debian install )
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/readline/readline-5.1/unpack/readline-5.1/shlib'
+/bin/sh ../support/mkdirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/readline/readline-5.1/unpack/readline-5.1/../../pkg/debian/lib
+/bin/sh ../support/shlib-install -O linux-gnu -d /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/readline/readline-5.1/unpack/readline-5.1/../../pkg/debian/lib -b /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/readline/readline-5.1/unpack/readline-5.1/../../pkg/debian/usr/bin -i "/usr/bin/install -c -m 644" libhistory.so.5.1
+/bin/sh ../support/shlib-install -O linux-gnu -d /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/readline/readline-5.1/unpack/readline-5.1/../../pkg/debian/lib -b /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/readline/readline-5.1/unpack/readline-5.1/../../pkg/debian/usr/bin -i "/usr/bin/install -c -m 644" libreadline.so.5.1
+install: you may need to run ldconfig
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/readline/readline-5.1/unpack/readline-5.1/shlib'

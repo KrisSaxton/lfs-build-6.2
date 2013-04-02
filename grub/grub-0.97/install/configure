@@ -1,0 +1,64 @@
+#!/bin/bash
+
+################################################################################
+# BEGIN
+################################################################################
+
+source functions
+
+################################################################################
+# GLOBALS
+################################################################################
+
+ABSetDefault AB_SYSTEM_INSTALL_DIR                              /usr
+
+################################################################################
+# DEPENDENCIES
+################################################################################
+
+ABSetDefault AB_PACKAGE_GRUB_DEPENDS                 PKG_DEPENDS
+
+ABSetDefault AB_PACKAGE_PKG_DEPENDS_INSTALL_ENABLE              no
+ABSetDefault AB_PACKAGE_PKG_DEPENDS_INSTALL_FORCE               no
+ABSetDefault AB_PACKAGE_PKG_DEPENDS_INSTALL_NAME                pkgdependsname
+ABSetDefault AB_PACKAGE_PKG_DEPENDS_INSTALL_DIR                 $AB_SYSTEM_INSTALL_DIR/$AB_PACKAGE_PKG_DEPENDS_INSTALL_NAME
+ABSetDefault AB_PACKAGE_PKG_DEPENDS_INCLUDE_DIR                 $AB_PACKAGE_PKG_DEPENDS_INSTALL_DIR/include
+ABSetDefault AB_PACKAGE_PKG_DEPENDS_LIB_DIR                     $AB_PACKAGE_PKG_DEPENDS_INSTALL_DIR/lib
+
+#ABSetCompileFlags $AB_PACKAGE_GRUB_DEPENDS
+
+################################################################################
+# CONFIGURATION
+################################################################################
+
+ABSetDefault AB_PACKAGE_GRUB_NAME                      grub
+ABSetDefault AB_PACKAGE_GRUB_VERSION                   0.97
+ABSetDefault AB_PACKAGE_GRUB_DESC                      'The GRand Unified Bootloader'
+ABSetDefault AB_PACKAGE_GRUB_SOURCES                   'grub-0.97-disk_geometry-1.patch grub-0.97-nic_update-2.patch grub-0.97.tar.gz'
+
+ABSetDefault AB_PACKAGE_GRUB_INSTALL_NAME              ${AB_PACKAGE_GRUB_NAME}-${AB_PACKAGE_GRUB_VERSION}
+
+ABSetDefault AB_PACKAGE_GRUB_INSTALL_DIR               $AB_SYSTEM_INSTALL_DIR
+ABSetDefault AB_PACKAGE_GRUB_INCLUDE_DIR               $AB_PACKAGE_GRUB_INSTALL_DIR/include
+ABSetDefault AB_PACKAGE_GRUB_LIB_DIR                   $AB_PACKAGE_GRUB_INSTALL_DIR/lib
+
+ABSetDefault AB_PACKAGE_GRUB_CONFIGURE_PREFIX          $AB_PACKAGE_GRUB_INSTALL_DIR
+ABSetDefault AB_PACKAGE_GRUB_CONFIGURE_WITH_EDITOR     /usr/bin/nano
+
+AB_PACKAGE_NAME=$AB_PACKAGE_GRUB_NAME
+AB_PACKAGE_VERSION=$AB_PACKAGE_GRUB_VERSION
+AB_PACKAGE_DESC=$AB_PACKAGE_GRUB_DESC
+AB_PACKAGE_SOURCES=$AB_PACKAGE_GRUB_SOURCES
+
+AB_PACKAGE_INSTALL_NAME=$AB_PACKAGE_GRUB_INSTALL_NAME
+
+AB_PACKAGE_INSTALL_DIR=$AB_PACKAGE_GRUB_INSTALL_DIR
+AB_PACKAGE_INCLUDE_DIR=$AB_PACKAGE_GRUB_INCLUDE_DIR
+AB_PACKAGE_LIB_DIR=$AB_PACKAGE_GRUB_LIB_DIR
+
+AB_PACKAGE_CONFIGURE_PREFIX=$AB_PACKAGE_GRUB_CONFIGURE_PREFIX
+AB_PACKAGE_CONFIGURE_WITH_EDITOR=$AB_PACKAGE_GRUB_CONFIGURE_WITH_EDITOR
+
+################################################################################
+# END
+################################################################################

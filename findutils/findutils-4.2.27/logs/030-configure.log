@@ -1,0 +1,299 @@
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking build system type... i686-pc-linux-gnu
+checking host system type... i686-pc-linux-gnu
+checking whether debug output should be produced... no
+checking for leaf optimisation... yes
+checking for gcc... gcc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ANSI C... none needed
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking how to run the C preprocessor... gcc -E
+checking for egrep... grep -E
+checking for AIX... no
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking for library containing strerror... none required
+checking for function prototypes... yes
+checking for string.h... (cached) yes
+checking for a BSD-compatible install... /usr/bin/install -c
+checking for ranlib... ranlib
+checking whether make sets $(MAKE)... (cached) yes
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... 64
+checking for _LARGE_FILES value needed for large files... no
+checking for working alloca.h... yes
+checking for alloca... yes
+checking whether system is Windows or MSDOS... no
+checking whether strerror_r is declared... yes
+checking for strerror_r... yes
+checking whether strerror_r returns char *... yes
+checking sys/param.h usability... yes
+checking sys/param.h presence... yes
+checking for sys/param.h... yes
+checking for unistd.h... (cached) yes
+checking wchar.h usability... yes
+checking wchar.h presence... yes
+checking for wchar.h... yes
+checking wctype.h usability... yes
+checking wctype.h presence... yes
+checking for wctype.h... yes
+checking locale.h usability... yes
+checking locale.h presence... yes
+checking for locale.h... yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking for mempcpy... yes
+checking for iswprint... yes
+checking for mbsinit... yes
+checking for isblank... yes
+checking for mbrtowc... yes
+checking for wcrtomb... yes
+checking for wcscoll... yes
+checking for mblen... yes
+checking for mbrlen... yes
+checking for tzset... yes
+checking for isascii... yes
+checking for an ANSI C-conforming const... yes
+checking for mbstate_t... yes
+checking whether getcwd (NULL, 0) allocates memory for result... yes
+checking whether getcwd is declared... yes
+checking for dirent.h that defines DIR... yes
+checking for library containing opendir... none required
+checking for d_ino member in directory struct... yes
+checking whether getdelim is declared... yes
+checking getopt.h usability... yes
+checking getopt.h presence... yes
+checking for getopt.h... yes
+checking for getopt_long_only... yes
+checking whether optreset is declared... no
+checking for working GNU getopt function... yes
+checking for stdbool.h that conforms to C99... yes
+checking for _Bool... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unsigned long long... yes
+checking whether lstat dereferences a symlink specified with a trailing slash... yes
+checking for working memcmp... yes
+checking whether time.h and sys/time.h may both be included... yes
+checking for stdlib.h... (cached) yes
+checking for sys/time.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for alarm... yes
+checking for working mktime... yes
+checking for C/C++ restrict keyword... __restrict
+checking for nl_langinfo and CODESET... yes
+checking whether closedir returns void... no
+checking whether stat file-mode macros are broken... no
+checking whether strdup is declared... yes
+checking for strftime... yes
+checking whether struct tm is in sys/time.h or time.h... time.h
+checking for struct tm.tm_zone... yes
+checking for struct tm.tm_gmtoff... yes
+checking for long long... yes
+checking for inline... inline
+checking whether strtoimax is declared... yes
+checking whether strtoumax is declared... yes
+checking for atexit... yes
+checking for string.h... (cached) yes
+checking for sys/param.h... (cached) yes
+checking for resolvepath... no
+checking for canonicalize_file_name... yes
+checking for error_at_line... yes
+checking for struct stat.st_blocks... yes
+checking for working GNU fnmatch... yes
+checking stdio_ext.h usability... yes
+checking stdio_ext.h presence... yes
+checking for stdio_ext.h... yes
+checking for __fpending... yes
+checking whether __fpending is declared... yes
+checking whether getcwd handles long file names properly... yes
+checking for getdelim... yes
+checking whether getline is declared... yes
+checking for getline... yes
+checking for working getline function... yes
+checking for stdlib.h... (cached) yes
+checking for GNU libc compatible malloc... yes
+checking for memchr... yes
+checking for mempcpy... (cached) yes
+checking for memset... yes
+checking for listmntent... no
+checking for getmntinfo... no
+checking for sys/ucred.h... no
+checking for sys/mount.h... yes
+checking mntent.h usability... yes
+checking mntent.h presence... yes
+checking for mntent.h... yes
+checking sys/fs_types.h usability... no
+checking sys/fs_types.h presence... no
+checking for sys/fs_types.h... no
+checking for struct fsstat.f_fstypename... no
+checking for library containing getmntent... none required
+checking for getmntent... yes
+checking for listmntent of Cray/Unicos-9... no
+checking for mntctl function and struct vmount... no
+checking for one-argument getmntent function... yes
+checking sys/mntent.h usability... no
+checking sys/mntent.h presence... no
+checking for sys/mntent.h... no
+checking for f_fstypename in struct statfs... no
+checking for mbstate_t... (cached) yes
+checking whether mbrtowc and mbstate_t are properly declared... yes
+checking for readlink... yes
+checking for stdlib.h... (cached) yes
+checking for GNU libc compatible realloc... yes
+checking for working re_compile_pattern... yes
+checking for C/C++ restrict keyword... (cached) __restrict
+checking for rpmatch... yes
+checking for ssize_t... yes
+checking for stpcpy... yes
+checking for strdup... yes
+checking whether mbrtowc and mbstate_t are properly declared... (cached) yes
+checking whether <inttypes.h> defines strtoimax as a macro... no
+checking for strtoimax... yes
+checking for strtol... yes
+checking for strtoll... yes
+checking for strtoul... yes
+checking for strtoull... yes
+checking whether <inttypes.h> defines strtoumax as a macro... no
+checking for strtoumax... yes
+checking whether localtime_r is compatible with its POSIX signature... yes
+checking for getpwnam... yes
+checking for ANSI C header files... (cached) yes
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking for string.h... (cached) yes
+checking limits.h usability... yes
+checking limits.h presence... yes
+checking for limits.h... yes
+checking errno.h usability... yes
+checking errno.h presence... yes
+checking for errno.h... yes
+checking for stdlib.h... (cached) yes
+checking stddef.h usability... yes
+checking stddef.h presence... yes
+checking for stddef.h... yes
+checking for unistd.h... (cached) yes
+checking for sys/types.h... (cached) yes
+checking for inttypes.h... (cached) yes
+checking for fcntl.h... (cached) yes
+checking for locale.h... (cached) yes
+checking for stdint.h... (cached) yes
+checking for sys/param.h... (cached) yes
+checking for mntent.h... (cached) yes
+checking sys/mnttab.h usability... no
+checking sys/mnttab.h presence... no
+checking for sys/mnttab.h... no
+checking sys/mntio.h usability... no
+checking sys/mntio.h presence... no
+checking for sys/mntio.h... no
+checking sys/mkdev.h usability... no
+checking sys/mkdev.h presence... no
+checking for sys/mkdev.h... no
+checking sys/utsname.h usability... yes
+checking sys/utsname.h presence... yes
+checking for sys/utsname.h... yes
+checking whether sys/types.h defines makedev... yes
+checking for dirent.h that defines DIR... (cached) yes
+checking for library containing opendir... (cached) none required
+checking whether stat file-mode macros are broken... (cached) no
+checking for sys/wait.h that is POSIX.1 compatible... yes
+checking for uid_t in sys/types.h... yes
+checking for size_t... yes
+checking for ssize_t... yes
+checking for pid_t... yes
+checking for ino_t... yes
+checking for dev_t... yes
+checking for mode_t... yes
+checking for struct stat.st_blocks... (cached) yes
+checking for struct stat.st_rdev... yes
+checking whether we should use struct dirent.d_type, if available... yes
+checking for struct dirent.d_type... yes
+checking whether struct tm is in sys/time.h or time.h... (cached) time.h
+checking for struct tm.tm_zone... (cached) yes
+checking for strftime... (cached) yes
+checking for memcmp... yes
+checking for memset... (cached) yes
+checking for stpcpy... (cached) yes
+checking for strdup... (cached) yes
+checking for strstr... yes
+checking for strtol... (cached) yes
+checking for strtoul... (cached) yes
+checking for fchdir... yes
+checking for getcwd... yes
+checking for strerror... yes
+checking for endgrent... yes
+checking for endpwent... yes
+checking for setlocale... yes
+checking for vprintf... yes
+checking for _doprnt... no
+checking for working alloca.h... (cached) yes
+checking for alloca... (cached) yes
+checking whether closedir returns void... (cached) no
+checking for getmntent... (cached) yes
+checking for getmntent... (cached) yes
+checking for setmntent... yes
+checking for endmntent... yes
+checking for waitpid... yes
+checking for strspn... yes
+checking for forcefindlib... no
+checking for working re_compile_pattern... (cached) yes
+checking for sort... /usr/bin/sort
+checking if /usr/bin/sort supports the -z option... yes
+checking for struct dirent.d_type... (cached) yes
+checking whether NLS is requested... yes
+checking for msgfmt... /usr/bin/msgfmt
+checking for gmsgfmt... /usr/bin/msgfmt
+checking for xgettext... /usr/bin/xgettext
+checking for msgmerge... /usr/bin/msgmerge
+checking for ld used by GCC... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for shared library run path origin... done
+checking for CFPreferencesCopyAppValue... no
+checking for CFLocaleCopyCurrent... no
+checking whether NLS is requested... yes
+checking for GNU gettext in libc... yes
+checking whether to use NLS... yes
+checking where the gettext function comes from... libc
+configure: creating ./config.status
+config.status: creating gnulib/Makefile
+config.status: creating gnulib/lib/Makefile
+config.status: creating m4/Makefile
+config.status: creating Makefile
+config.status: creating find/Makefile
+config.status: creating find/testsuite/Makefile
+config.status: creating xargs/Makefile
+config.status: creating xargs/testsuite/Makefile
+config.status: creating locate/Makefile
+config.status: creating locate/testsuite/Makefile
+config.status: creating po/Makefile.in
+config.status: creating po/Makefile
+config.status: creating doc/Makefile
+config.status: creating lib/Makefile
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing default-1 commands
+config.status: creating po/POTFILES
+config.status: creating po/Makefile

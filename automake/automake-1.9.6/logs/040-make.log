@@ -1,0 +1,49 @@
+Making all in .
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/automake/automake-1.9.6/unpack/automake-1.9.6'
+rm -f automake automake.tmp
+sed -e 's,[@]APIVERSION[@],1.9,g' -e 's,[@]PACKAGE[@],automake,g' -e 's,[@]PATH_SEPARATOR[@],:,g' -e 's,[@]PERL[@],/usr/bin/perl,g' -e 's,[@]SHELL[@],/bin/sh,g' -e 's,[@]VERSION[@],1.9.6,g' -e 's,[@]configure_input[@],Generated from automake.in; do not edit by hand.,g' -e 's,[@]datadir[@],/usr/share,g' ./automake.in >automake.tmp
+chmod +x automake.tmp
+chmod a-w automake.tmp
+mv -f automake.tmp automake
+rm -f aclocal aclocal.tmp
+sed -e 's,[@]APIVERSION[@],1.9,g' -e 's,[@]PACKAGE[@],automake,g' -e 's,[@]PATH_SEPARATOR[@],:,g' -e 's,[@]PERL[@],/usr/bin/perl,g' -e 's,[@]SHELL[@],/bin/sh,g' -e 's,[@]VERSION[@],1.9.6,g' -e 's,[@]configure_input[@],Generated from aclocal.in; do not edit by hand.,g' -e 's,[@]datadir[@],/usr/share,g' ./aclocal.in >aclocal.tmp
+chmod +x aclocal.tmp
+chmod a-w aclocal.tmp
+mv -f aclocal.tmp aclocal
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/automake/automake-1.9.6/unpack/automake-1.9.6'
+Making all in doc
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/automake/automake-1.9.6/unpack/automake-1.9.6/doc'
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/automake/automake-1.9.6/unpack/automake-1.9.6/doc'
+Making all in m4
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/automake/automake-1.9.6/unpack/automake-1.9.6/m4'
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/automake/automake-1.9.6/unpack/automake-1.9.6/m4'
+Making all in lib
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/automake/automake-1.9.6/unpack/automake-1.9.6/lib'
+Making all in Automake
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/automake/automake-1.9.6/unpack/automake-1.9.6/lib/Automake'
+Making all in tests
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/automake/automake-1.9.6/unpack/automake-1.9.6/lib/Automake/tests'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/automake/automake-1.9.6/unpack/automake-1.9.6/lib/Automake/tests'
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/automake/automake-1.9.6/unpack/automake-1.9.6/lib/Automake'
+rm -f Config.tmp Config.pm
+in=`echo Config.pm | sed 's/\.[^.]*$//'`; sed -e 's,[@]APIVERSION[@],1.9,g' -e 's,[@]PACKAGE[@],automake,g' -e 's,[@]PERL[@],/usr/bin/perl,g' -e 's,[@]SHELL[@],/bin/sh,g' -e 's,[@]VERSION[@],1.9.6,g' -e "s,[@]configure_input[@],Generated from $in.in; do not edit by hand.,g" -e 's,[@]datadir[@],/usr/share,g' ./Config.in >Config.tmp
+chmod +x Config.tmp
+chmod a-w Config.tmp
+mv -f Config.tmp Config.pm
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/automake/automake-1.9.6/unpack/automake-1.9.6/lib/Automake'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/automake/automake-1.9.6/unpack/automake-1.9.6/lib/Automake'
+Making all in am
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/automake/automake-1.9.6/unpack/automake-1.9.6/lib/am'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/automake/automake-1.9.6/unpack/automake-1.9.6/lib/am'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/automake/automake-1.9.6/unpack/automake-1.9.6/lib'
+make[2]: Nothing to be done for `all-am'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/automake/automake-1.9.6/unpack/automake-1.9.6/lib'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/automake/automake-1.9.6/unpack/automake-1.9.6/lib'
+Making all in tests
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/automake/automake-1.9.6/unpack/automake-1.9.6/tests'
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/automake/automake-1.9.6/unpack/automake-1.9.6/tests'

@@ -1,0 +1,10 @@
+Package: coreutils-5.96-1
+Version: 1647
+Section: unknown
+Priority: required
+Architecture: all
+Essential: no
+Depends: aaa-base
+Maintainer: Aethernet support team [support@aethernet.co.uk]
+Provides: coreutils
+Description: Package for showing and setting basic system characteristics

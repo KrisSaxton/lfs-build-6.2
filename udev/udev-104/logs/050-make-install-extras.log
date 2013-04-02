@@ -1,0 +1,157 @@
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/extras/ata_id'
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/extras/ata_id'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/extras/cdrom_id'
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/extras/cdrom_id'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/extras/edd_id'
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/extras/edd_id'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/extras/firmware'
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/extras/firmware'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/extras/floppy'
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/extras/floppy'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/extras/path_id'
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/extras/path_id'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/extras/rule_generator'
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/extras/rule_generator'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/extras/scsi_id'
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/extras/scsi_id'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/extras/usb_id'
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/extras/usb_id'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/extras/volume_id'
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/extras/volume_id'
+/usr/bin/install -c -d /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/../../pkg/debian/dev
+/usr/bin/install -c -D udevd /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/../../pkg/debian/sbin/udevd
+/usr/bin/install -c -D udevtrigger /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/../../pkg/debian/sbin/udevtrigger
+/usr/bin/install -c -D udevsettle /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/../../pkg/debian/sbin/udevsettle
+/usr/bin/install -c -D udevcontrol /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/../../pkg/debian/sbin/udevcontrol
+/usr/bin/install -c -D udevmonitor /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/../../pkg/debian/usr/sbin/udevmonitor
+/usr/bin/install -c -D udevinfo /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/../../pkg/debian/usr/bin/udevinfo
+/usr/bin/install -c -D udevtest /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/../../pkg/debian/usr/bin/udevtest
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/extras/ata_id'
+/usr/bin/install -c -D ata_id /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/../../pkg/debian/lib/udev/ata_id
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/extras/ata_id'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/extras/cdrom_id'
+/usr/bin/install -c -D cdrom_id /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/../../pkg/debian/lib/udev/cdrom_id
+/usr/bin/install -c -m 644 -D 60-cdrom_id.rules /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/../../pkg/debian/etc/udev/rules.d/60-cdrom_id.rules
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/extras/cdrom_id'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/extras/edd_id'
+/usr/bin/install -c -D edd_id /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/../../pkg/debian/lib/udev/edd_id
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/extras/edd_id'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/extras/firmware'
+/usr/bin/install -c -D firmware.sh /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/../../pkg/debian/lib/udev/firmware.sh
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/extras/firmware'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/extras/floppy'
+/usr/bin/install -c -D create_floppy_devices /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/../../pkg/debian/lib/udev/create_floppy_devices
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/extras/floppy'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/extras/path_id'
+/usr/bin/install -c -D path_id /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/../../pkg/debian/lib/udev/path_id
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/extras/path_id'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/extras/rule_generator'
+/usr/bin/install -c -D rule_generator.functions /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/../../pkg/debian/lib/udev/rule_generator.functions
+/usr/bin/install -c -D write_cd_rules /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/../../pkg/debian/lib/udev/write_cd_rules
+/usr/bin/install -c -D write_net_rules /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/../../pkg/debian/lib/udev/write_net_rules
+/usr/bin/install -c -m 644 -D 75-cd-aliases-generator.rules \
+	/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/../../pkg/debian/etc/udev/rules.d/75-cd-aliases-generator.rules
+/usr/bin/install -c -m 644 -D 75-persistent-net-generator.rules \
+	/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/../../pkg/debian/etc/udev/rules.d/75-persistent-net-generator.rules
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/extras/rule_generator'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/extras/scsi_id'
+/usr/bin/install -c -D scsi_id /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/../../pkg/debian/lib/udev/scsi_id
+ln -sf /lib/udev/scsi_id /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/../../pkg/debian/sbin/scsi_id
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/extras/scsi_id'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/extras/usb_id'
+/usr/bin/install -c -D usb_id /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/../../pkg/debian/lib/udev/usb_id
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/extras/usb_id'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/extras/volume_id'
+/usr/bin/install -c -D vol_id /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/../../pkg/debian/lib/udev/vol_id
+make -C lib install
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/extras/volume_id/lib'
+/usr/bin/install -c -m 644 -D libvolume_id.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/../../pkg/debian/usr/include/libvolume_id.h
+/usr/bin/install -c -m 755 -D libvolume_id.a /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/../../pkg/debian/usr/lib/libvolume_id.a
+/usr/bin/install -c -m 755 -D libvolume_id.so.0.74.0 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/../../pkg/debian/lib/libvolume_id.so.0.74.0
+ln -sf libvolume_id.so.0.74.0 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/../../pkg/debian/lib/libvolume_id.so.0
+ln -sf /lib/libvolume_id.so.0.74.0 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/../../pkg/debian/usr/lib/libvolume_id.so
+/usr/bin/install -c -m 644 -D libvolume_id.pc /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/../../pkg/debian/usr/lib/pkgconfig/libvolume_id.pc
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/extras/volume_id/lib'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/extras/volume_id'
+/usr/bin/install -c -d /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/../../pkg/debian/etc/udev/rules.d
+
+pick a udev rules file from the etc/udev directory that matches your distribution
+
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/extras/ata_id'
+no config file to install
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/extras/ata_id'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/extras/cdrom_id'
+no config file to install
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/extras/cdrom_id'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/extras/edd_id'
+no config file to install
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/extras/edd_id'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/extras/firmware'
+no config file to install
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/extras/firmware'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/extras/floppy'
+no config file to install
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/extras/floppy'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/extras/path_id'
+no config file to install
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/extras/path_id'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/extras/rule_generator'
+no config file to install
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/extras/rule_generator'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/extras/scsi_id'
+/usr/bin/install -c -m 644 -D ./scsi_id.config /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/../../pkg/debian/etc/udev/extras
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/extras/scsi_id'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/extras/usb_id'
+no config file to install
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/extras/usb_id'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/extras/volume_id'
+no config file to install
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/extras/volume_id'
+/usr/bin/install -c -m 644 -D udev.7 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/../../pkg/debian/usr/share/man/man7/udev.7
+/usr/bin/install -c -m 644 -D udevinfo.8 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/../../pkg/debian/usr/share/man/man8/udevinfo.8
+/usr/bin/install -c -m 644 -D udevtest.8 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/../../pkg/debian/usr/share/man/man8/udevtest.8
+/usr/bin/install -c -m 644 -D udevd.8 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/../../pkg/debian/usr/share/man/man8/udevd.8
+/usr/bin/install -c -m 644 -D udevtrigger.8 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/../../pkg/debian/usr/share/man/man8/udevtrigger.8
+/usr/bin/install -c -m 644 -D udevsettle.8 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/../../pkg/debian/usr/share/man/man8/udevsettle.8
+/usr/bin/install -c -m 644 -D udevmonitor.8 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/../../pkg/debian/usr/share/man/man8/udevmonitor.8
+ln -f -s udevd.8 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/../../pkg/debian/usr/share/man/man8/udevcontrol.8
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/extras/ata_id'
+/usr/bin/install -c -m 644 -D ata_id.8 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/../../pkg/debian/usr/share/man/man8/ata_id.8
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/extras/ata_id'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/extras/cdrom_id'
+/usr/bin/install -c -m 644 -D cdrom_id.8 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/../../pkg/debian/usr/share/man/man8/cdrom_id.8
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/extras/cdrom_id'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/extras/edd_id'
+/usr/bin/install -c -m 644 -D edd_id.8 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/../../pkg/debian/usr/share/man/man8/edd_id.8
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/extras/edd_id'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/extras/firmware'
+Please create a man page for this tool.
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/extras/firmware'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/extras/floppy'
+Please create a man page for this tool.
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/extras/floppy'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/extras/path_id'
+Please create a man page for this tool.
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/extras/path_id'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/extras/rule_generator'
+Please create a man page for this tool.
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/extras/rule_generator'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/extras/scsi_id'
+/usr/bin/install -c -m 644 -D scsi_id.8 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/../../pkg/debian/usr/share/man/man8/scsi_id.8
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/extras/scsi_id'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/extras/usb_id'
+Please create a man page for this tool.
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/extras/usb_id'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/extras/volume_id'
+/usr/bin/install -c -m 644 -D vol_id.8 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/../../pkg/debian/usr/share/man/man8/vol_id.8
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/extras/volume_id'

@@ -1,0 +1,24 @@
+#!/bin/bash
+
+source configure
+
+{
+DESTDIR=../pkg/debian
+
+rm -vrf $DESTDIR/$AB_PACKAGE_INSTALL_DIR/share/vim/vim70/tutor/tutor.{gr,pl,ru,sk}
+rm -vrf $DESTDIR/$AB_PACKAGE_INSTALL_DIR/share/vim/vim70/tutor/tutor.??.*
+rm -vrf $DESTDIR/$AB_PACKAGE_INSTALL_DIR/share/vim/vim70/doc
+
+rm -rv $DESTDIR/usr/share/man/ru
+rm -rv $DESTDIR/usr/share/man/it
+rm -rv $DESTDIR/usr/share/man/pl
+rm -rf $DESTDIR/usr/share/man/fr
+mv -v  $DESTDIR/usr/share/man $DESTDIR/$AB_PACKAGE_INSTALL_DIR/share
+rm -rv $DESTDIR/usr/share
+
+ln -sv vim $DESTDIR/$AB_PACKAGE_INSTALL_DIR/bin/vi
+
+mkdir -vp $DESTDIR/$AB_PACKAGE_INSTALL_DIR/etc
+cp ../files/vimrc.in $DESTDIR/$AB_PACKAGE_INSTALL_DIR/etc/vimrc
+
+} | tee -a ../../logs/060-fix-files.log

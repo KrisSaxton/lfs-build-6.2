@@ -1,0 +1,115 @@
+sh configure 
+TC schedulers
+ ATM	no
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/iproute2/iproute2-2.6.16-060323/unpack/iproute2-2.6.16-060323/lib'
+gcc -D_GNU_SOURCE -O2 -Wstrict-prototypes -Wall -I../include -DRESOLVE_HOSTNAMES   -c -o ll_map.o ll_map.c
+gcc -D_GNU_SOURCE -O2 -Wstrict-prototypes -Wall -I../include -DRESOLVE_HOSTNAMES   -c -o libnetlink.o libnetlink.c
+ar rcs libnetlink.a ll_map.o libnetlink.o
+gcc -D_GNU_SOURCE -O2 -Wstrict-prototypes -Wall -I../include -DRESOLVE_HOSTNAMES   -c -o utils.o utils.c
+gcc -D_GNU_SOURCE -O2 -Wstrict-prototypes -Wall -I../include -DRESOLVE_HOSTNAMES   -c -o rt_names.o rt_names.c
+gcc -D_GNU_SOURCE -O2 -Wstrict-prototypes -Wall -I../include -DRESOLVE_HOSTNAMES   -c -o ll_types.o ll_types.c
+gcc -D_GNU_SOURCE -O2 -Wstrict-prototypes -Wall -I../include -DRESOLVE_HOSTNAMES   -c -o ll_proto.o ll_proto.c
+gcc -D_GNU_SOURCE -O2 -Wstrict-prototypes -Wall -I../include -DRESOLVE_HOSTNAMES   -c -o ll_addr.o ll_addr.c
+gcc -D_GNU_SOURCE -O2 -Wstrict-prototypes -Wall -I../include -DRESOLVE_HOSTNAMES   -c -o inet_proto.o inet_proto.c
+gcc -D_GNU_SOURCE -O2 -Wstrict-prototypes -Wall -I../include -DRESOLVE_HOSTNAMES   -c -o dnet_ntop.o dnet_ntop.c
+gcc -D_GNU_SOURCE -O2 -Wstrict-prototypes -Wall -I../include -DRESOLVE_HOSTNAMES   -c -o dnet_pton.o dnet_pton.c
+gcc -D_GNU_SOURCE -O2 -Wstrict-prototypes -Wall -I../include -DRESOLVE_HOSTNAMES   -c -o ipx_ntop.o ipx_ntop.c
+gcc -D_GNU_SOURCE -O2 -Wstrict-prototypes -Wall -I../include -DRESOLVE_HOSTNAMES   -c -o ipx_pton.o ipx_pton.c
+ar rcs libutil.a utils.o rt_names.o ll_types.o ll_proto.o ll_addr.o inet_proto.o  dnet_ntop.o dnet_pton.o ipx_ntop.o ipx_pton.o
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/iproute2/iproute2-2.6.16-060323/unpack/iproute2-2.6.16-060323/lib'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/iproute2/iproute2-2.6.16-060323/unpack/iproute2-2.6.16-060323/ip'
+gcc -D_GNU_SOURCE -O2 -Wstrict-prototypes -Wall -I../include -DRESOLVE_HOSTNAMES   -c -o ip.o ip.c
+gcc -D_GNU_SOURCE -O2 -Wstrict-prototypes -Wall -I../include -DRESOLVE_HOSTNAMES   -c -o ipaddress.o ipaddress.c
+gcc -D_GNU_SOURCE -O2 -Wstrict-prototypes -Wall -I../include -DRESOLVE_HOSTNAMES   -c -o iproute.o iproute.c
+gcc -D_GNU_SOURCE -O2 -Wstrict-prototypes -Wall -I../include -DRESOLVE_HOSTNAMES   -c -o iprule.o iprule.c
+gcc -D_GNU_SOURCE -O2 -Wstrict-prototypes -Wall -I../include -DRESOLVE_HOSTNAMES   -c -o rtm_map.o rtm_map.c
+gcc -D_GNU_SOURCE -O2 -Wstrict-prototypes -Wall -I../include -DRESOLVE_HOSTNAMES   -c -o iptunnel.o iptunnel.c
+gcc -D_GNU_SOURCE -O2 -Wstrict-prototypes -Wall -I../include -DRESOLVE_HOSTNAMES   -c -o ipneigh.o ipneigh.c
+gcc -D_GNU_SOURCE -O2 -Wstrict-prototypes -Wall -I../include -DRESOLVE_HOSTNAMES   -c -o ipntable.o ipntable.c
+gcc -D_GNU_SOURCE -O2 -Wstrict-prototypes -Wall -I../include -DRESOLVE_HOSTNAMES   -c -o iplink.o iplink.c
+gcc -D_GNU_SOURCE -O2 -Wstrict-prototypes -Wall -I../include -DRESOLVE_HOSTNAMES   -c -o ipmaddr.o ipmaddr.c
+gcc -D_GNU_SOURCE -O2 -Wstrict-prototypes -Wall -I../include -DRESOLVE_HOSTNAMES   -c -o ipmonitor.o ipmonitor.c
+gcc -D_GNU_SOURCE -O2 -Wstrict-prototypes -Wall -I../include -DRESOLVE_HOSTNAMES   -c -o ipmroute.o ipmroute.c
+gcc -D_GNU_SOURCE -O2 -Wstrict-prototypes -Wall -I../include -DRESOLVE_HOSTNAMES   -c -o ipprefix.o ipprefix.c
+gcc -D_GNU_SOURCE -O2 -Wstrict-prototypes -Wall -I../include -DRESOLVE_HOSTNAMES   -c -o ipxfrm.o ipxfrm.c
+gcc -D_GNU_SOURCE -O2 -Wstrict-prototypes -Wall -I../include -DRESOLVE_HOSTNAMES   -c -o xfrm_state.o xfrm_state.c
+gcc -D_GNU_SOURCE -O2 -Wstrict-prototypes -Wall -I../include -DRESOLVE_HOSTNAMES   -c -o xfrm_policy.o xfrm_policy.c
+gcc -D_GNU_SOURCE -O2 -Wstrict-prototypes -Wall -I../include -DRESOLVE_HOSTNAMES   -c -o xfrm_monitor.o xfrm_monitor.c
+gcc   ip.o ipaddress.o iproute.o iprule.o rtm_map.o iptunnel.o ipneigh.o ipntable.o iplink.o ipmaddr.o ipmonitor.o ipmroute.o ipprefix.o ipxfrm.o xfrm_state.o xfrm_policy.o xfrm_monitor.o ../lib/libnetlink.a ../lib/libutil.a  -lresolv -L../lib -lnetlink -lutil -o ip
+gcc -D_GNU_SOURCE -O2 -Wstrict-prototypes -Wall -I../include -DRESOLVE_HOSTNAMES   -c -o rtmon.o rtmon.c
+gcc   rtmon.o ../lib/libnetlink.a ../lib/libutil.a  -lresolv -L../lib -lnetlink -lutil -o rtmon
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/iproute2/iproute2-2.6.16-060323/unpack/iproute2-2.6.16-060323/ip'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/iproute2/iproute2-2.6.16-060323/unpack/iproute2-2.6.16-060323/tc'
+gcc -D_GNU_SOURCE -O2 -Wstrict-prototypes -Wall -I../include -DRESOLVE_HOSTNAMES -DCONFIG_GACT -DCONFIG_GACT_PROB   -c -o tc_core.o tc_core.c
+gcc -D_GNU_SOURCE -O2 -Wstrict-prototypes -Wall -I../include -DRESOLVE_HOSTNAMES -DCONFIG_GACT -DCONFIG_GACT_PROB   -c -o tc_red.o tc_red.c
+gcc -D_GNU_SOURCE -O2 -Wstrict-prototypes -Wall -I../include -DRESOLVE_HOSTNAMES -DCONFIG_GACT -DCONFIG_GACT_PROB   -c -o tc_cbq.o tc_cbq.c
+gcc -D_GNU_SOURCE -O2 -Wstrict-prototypes -Wall -I../include -DRESOLVE_HOSTNAMES -DCONFIG_GACT -DCONFIG_GACT_PROB   -c -o tc_estimator.o tc_estimator.c
+ar rcs libtc.a tc_core.o tc_red.o tc_cbq.o tc_estimator.o
+gcc -D_GNU_SOURCE -O2 -Wstrict-prototypes -Wall -I../include -DRESOLVE_HOSTNAMES -DCONFIG_GACT -DCONFIG_GACT_PROB   -c -o tc.o tc.c
+gcc -D_GNU_SOURCE -O2 -Wstrict-prototypes -Wall -I../include -DRESOLVE_HOSTNAMES -DCONFIG_GACT -DCONFIG_GACT_PROB   -c -o tc_qdisc.o tc_qdisc.c
+gcc -D_GNU_SOURCE -O2 -Wstrict-prototypes -Wall -I../include -DRESOLVE_HOSTNAMES -DCONFIG_GACT -DCONFIG_GACT_PROB   -c -o tc_class.o tc_class.c
+gcc -D_GNU_SOURCE -O2 -Wstrict-prototypes -Wall -I../include -DRESOLVE_HOSTNAMES -DCONFIG_GACT -DCONFIG_GACT_PROB   -c -o tc_filter.o tc_filter.c
+gcc -D_GNU_SOURCE -O2 -Wstrict-prototypes -Wall -I../include -DRESOLVE_HOSTNAMES -DCONFIG_GACT -DCONFIG_GACT_PROB   -c -o tc_util.o tc_util.c
+gcc -D_GNU_SOURCE -O2 -Wstrict-prototypes -Wall -I../include -DRESOLVE_HOSTNAMES -DCONFIG_GACT -DCONFIG_GACT_PROB   -c -o m_police.o m_police.c
+gcc -D_GNU_SOURCE -O2 -Wstrict-prototypes -Wall -I../include -DRESOLVE_HOSTNAMES -DCONFIG_GACT -DCONFIG_GACT_PROB   -c -o m_estimator.o m_estimator.c
+gcc -D_GNU_SOURCE -O2 -Wstrict-prototypes -Wall -I../include -DRESOLVE_HOSTNAMES -DCONFIG_GACT -DCONFIG_GACT_PROB   -c -o m_action.o m_action.c
+gcc -D_GNU_SOURCE -O2 -Wstrict-prototypes -Wall -I../include -DRESOLVE_HOSTNAMES -DCONFIG_GACT -DCONFIG_GACT_PROB   -c -o m_ematch.o m_ematch.c
+bison -d -t -v -o emp_ematch.yacc.c emp_ematch.y
+gcc -D_GNU_SOURCE -O2 -Wstrict-prototypes -Wall -I../include -DRESOLVE_HOSTNAMES -DCONFIG_GACT -DCONFIG_GACT_PROB   -c -o emp_ematch.yacc.o emp_ematch.yacc.c
+flex  -oemp_ematch.lex.c emp_ematch.l
+gcc -D_GNU_SOURCE -O2 -Wstrict-prototypes -Wall -I../include -DRESOLVE_HOSTNAMES -DCONFIG_GACT -DCONFIG_GACT_PROB   -c -o emp_ematch.lex.o emp_ematch.lex.c
+gcc -D_GNU_SOURCE -O2 -Wstrict-prototypes -Wall -I../include -DRESOLVE_HOSTNAMES -DCONFIG_GACT -DCONFIG_GACT_PROB   -c -o q_fifo.o q_fifo.c
+gcc -D_GNU_SOURCE -O2 -Wstrict-prototypes -Wall -I../include -DRESOLVE_HOSTNAMES -DCONFIG_GACT -DCONFIG_GACT_PROB   -c -o q_sfq.o q_sfq.c
+gcc -D_GNU_SOURCE -O2 -Wstrict-prototypes -Wall -I../include -DRESOLVE_HOSTNAMES -DCONFIG_GACT -DCONFIG_GACT_PROB   -c -o q_red.o q_red.c
+gcc -D_GNU_SOURCE -O2 -Wstrict-prototypes -Wall -I../include -DRESOLVE_HOSTNAMES -DCONFIG_GACT -DCONFIG_GACT_PROB   -c -o q_prio.o q_prio.c
+gcc -D_GNU_SOURCE -O2 -Wstrict-prototypes -Wall -I../include -DRESOLVE_HOSTNAMES -DCONFIG_GACT -DCONFIG_GACT_PROB   -c -o q_tbf.o q_tbf.c
+gcc -D_GNU_SOURCE -O2 -Wstrict-prototypes -Wall -I../include -DRESOLVE_HOSTNAMES -DCONFIG_GACT -DCONFIG_GACT_PROB   -c -o q_cbq.o q_cbq.c
+gcc -D_GNU_SOURCE -O2 -Wstrict-prototypes -Wall -I../include -DRESOLVE_HOSTNAMES -DCONFIG_GACT -DCONFIG_GACT_PROB   -c -o f_rsvp.o f_rsvp.c
+gcc -D_GNU_SOURCE -O2 -Wstrict-prototypes -Wall -I../include -DRESOLVE_HOSTNAMES -DCONFIG_GACT -DCONFIG_GACT_PROB   -c -o f_u32.o f_u32.c
+gcc -D_GNU_SOURCE -O2 -Wstrict-prototypes -Wall -I../include -DRESOLVE_HOSTNAMES -DCONFIG_GACT -DCONFIG_GACT_PROB   -c -o f_route.o f_route.c
+gcc -D_GNU_SOURCE -O2 -Wstrict-prototypes -Wall -I../include -DRESOLVE_HOSTNAMES -DCONFIG_GACT -DCONFIG_GACT_PROB   -c -o f_fw.o f_fw.c
+gcc -D_GNU_SOURCE -O2 -Wstrict-prototypes -Wall -I../include -DRESOLVE_HOSTNAMES -DCONFIG_GACT -DCONFIG_GACT_PROB   -c -o f_basic.o f_basic.c
+gcc -D_GNU_SOURCE -O2 -Wstrict-prototypes -Wall -I../include -DRESOLVE_HOSTNAMES -DCONFIG_GACT -DCONFIG_GACT_PROB   -c -o q_dsmark.o q_dsmark.c
+gcc -D_GNU_SOURCE -O2 -Wstrict-prototypes -Wall -I../include -DRESOLVE_HOSTNAMES -DCONFIG_GACT -DCONFIG_GACT_PROB   -c -o q_gred.o q_gred.c
+gcc -D_GNU_SOURCE -O2 -Wstrict-prototypes -Wall -I../include -DRESOLVE_HOSTNAMES -DCONFIG_GACT -DCONFIG_GACT_PROB   -c -o f_tcindex.o f_tcindex.c
+gcc -D_GNU_SOURCE -O2 -Wstrict-prototypes -Wall -I../include -DRESOLVE_HOSTNAMES -DCONFIG_GACT -DCONFIG_GACT_PROB   -c -o q_ingress.o q_ingress.c
+gcc -D_GNU_SOURCE -O2 -Wstrict-prototypes -Wall -I../include -DRESOLVE_HOSTNAMES -DCONFIG_GACT -DCONFIG_GACT_PROB   -c -o q_hfsc.o q_hfsc.c
+gcc -D_GNU_SOURCE -O2 -Wstrict-prototypes -Wall -I../include -DRESOLVE_HOSTNAMES -DCONFIG_GACT -DCONFIG_GACT_PROB   -c -o q_htb.o q_htb.c
+gcc -D_GNU_SOURCE -O2 -Wstrict-prototypes -Wall -I../include -DRESOLVE_HOSTNAMES -DCONFIG_GACT -DCONFIG_GACT_PROB   -c -o m_gact.o m_gact.c
+gcc -D_GNU_SOURCE -O2 -Wstrict-prototypes -Wall -I../include -DRESOLVE_HOSTNAMES -DCONFIG_GACT -DCONFIG_GACT_PROB   -c -o m_mirred.o m_mirred.c
+gcc -D_GNU_SOURCE -O2 -Wstrict-prototypes -Wall -I../include -DRESOLVE_HOSTNAMES -DCONFIG_GACT -DCONFIG_GACT_PROB   -c -o m_ipt.o m_ipt.c
+gcc -D_GNU_SOURCE -O2 -Wstrict-prototypes -Wall -I../include -DRESOLVE_HOSTNAMES -DCONFIG_GACT -DCONFIG_GACT_PROB   -c -o m_pedit.o m_pedit.c
+gcc -D_GNU_SOURCE -O2 -Wstrict-prototypes -Wall -I../include -DRESOLVE_HOSTNAMES -DCONFIG_GACT -DCONFIG_GACT_PROB   -c -o p_ip.o p_ip.c
+gcc -D_GNU_SOURCE -O2 -Wstrict-prototypes -Wall -I../include -DRESOLVE_HOSTNAMES -DCONFIG_GACT -DCONFIG_GACT_PROB   -c -o p_icmp.o p_icmp.c
+gcc -D_GNU_SOURCE -O2 -Wstrict-prototypes -Wall -I../include -DRESOLVE_HOSTNAMES -DCONFIG_GACT -DCONFIG_GACT_PROB   -c -o p_tcp.o p_tcp.c
+gcc -D_GNU_SOURCE -O2 -Wstrict-prototypes -Wall -I../include -DRESOLVE_HOSTNAMES -DCONFIG_GACT -DCONFIG_GACT_PROB   -c -o p_udp.o p_udp.c
+gcc -D_GNU_SOURCE -O2 -Wstrict-prototypes -Wall -I../include -DRESOLVE_HOSTNAMES -DCONFIG_GACT -DCONFIG_GACT_PROB   -c -o em_nbyte.o em_nbyte.c
+gcc -D_GNU_SOURCE -O2 -Wstrict-prototypes -Wall -I../include -DRESOLVE_HOSTNAMES -DCONFIG_GACT -DCONFIG_GACT_PROB   -c -o em_cmp.o em_cmp.c
+gcc -D_GNU_SOURCE -O2 -Wstrict-prototypes -Wall -I../include -DRESOLVE_HOSTNAMES -DCONFIG_GACT -DCONFIG_GACT_PROB   -c -o em_u32.o em_u32.c
+gcc -D_GNU_SOURCE -O2 -Wstrict-prototypes -Wall -I../include -DRESOLVE_HOSTNAMES -DCONFIG_GACT -DCONFIG_GACT_PROB   -c -o em_meta.o em_meta.c
+gcc -Wl,-export-dynamic  tc.o tc_qdisc.o tc_class.o tc_filter.o tc_util.o m_police.o m_estimator.o m_action.o m_ematch.o emp_ematch.yacc.o emp_ematch.lex.o q_fifo.o q_sfq.o q_red.o q_prio.o q_tbf.o q_cbq.o f_rsvp.o f_u32.o f_route.o f_fw.o f_basic.o q_dsmark.o q_gred.o f_tcindex.o q_ingress.o q_hfsc.o q_htb.o m_gact.o m_mirred.o m_ipt.o m_pedit.o p_ip.o p_icmp.o p_tcp.o p_udp.o em_nbyte.o em_cmp.o em_u32.o em_meta.o ../lib/libnetlink.a ../lib/libutil.a tc_core.o tc_red.o tc_cbq.o tc_estimator.o  -lresolv -L../lib -lnetlink -lutil -L. -ltc -lm -ldl -o tc
+gcc -D_GNU_SOURCE -O2 -Wstrict-prototypes -Wall -I../include -DRESOLVE_HOSTNAMES -DCONFIG_GACT -DCONFIG_GACT_PROB -shared -fpic q_netem.c -o q_netem.so
+rm emp_ematch.lex.c emp_ematch.yacc.c
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/iproute2/iproute2-2.6.16-060323/unpack/iproute2-2.6.16-060323/tc'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/iproute2/iproute2-2.6.16-060323/unpack/iproute2-2.6.16-060323/misc'
+gcc -D_GNU_SOURCE -O2 -Wstrict-prototypes -Wall -I../include -DRESOLVE_HOSTNAMES   -c -o ss.o ss.c
+bison ssfilter.y -o ssfilter.c
+gcc -D_GNU_SOURCE -O2 -Wstrict-prototypes -Wall -I../include -DRESOLVE_HOSTNAMES   -c -o ssfilter.o ssfilter.c
+gcc   ss.o ssfilter.o  -lresolv -L../lib -lnetlink -lutil -o ss
+gcc -D_GNU_SOURCE -O2 -Wstrict-prototypes -Wall -I../include -DRESOLVE_HOSTNAMES  -o nstat nstat.c -lm
+gcc -D_GNU_SOURCE -O2 -Wstrict-prototypes -Wall -I../include -DRESOLVE_HOSTNAMES  -o ifstat ifstat.c ../lib/libnetlink.a ../lib/libutil.a -lm
+gcc -D_GNU_SOURCE -O2 -Wstrict-prototypes -Wall -I../include -DRESOLVE_HOSTNAMES  -o rtacct rtacct.c ../lib/libnetlink.a ../lib/libutil.a -lm
+gcc -D_GNU_SOURCE -O2 -Wstrict-prototypes -Wall -I../include -DRESOLVE_HOSTNAMES   -c -o lnstat.o lnstat.c
+gcc -D_GNU_SOURCE -O2 -Wstrict-prototypes -Wall -I../include -DRESOLVE_HOSTNAMES   -c -o lnstat_util.o lnstat_util.c
+gcc   lnstat.o lnstat_util.o  -lresolv -L../lib -lnetlink -lutil -o lnstat
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/iproute2/iproute2-2.6.16-060323/unpack/iproute2-2.6.16-060323/misc'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/iproute2/iproute2-2.6.16-060323/unpack/iproute2-2.6.16-060323/netem'
+gcc -D_GNU_SOURCE -O2 -Wstrict-prototypes -Wall -I../include -o maketable maketable.c -lm
+gcc -D_GNU_SOURCE -O2 -Wstrict-prototypes -Wall -I../include -o normal normal.c -lm
+gcc -D_GNU_SOURCE -O2 -Wstrict-prototypes -Wall -I../include -o pareto pareto.c -lm
+gcc -D_GNU_SOURCE -O2 -Wstrict-prototypes -Wall -I../include -o paretonormal paretonormal.c -lm
+./normal > normal.dist
+./pareto > pareto.dist
+./paretonormal > paretonormal.dist
+./maketable experimental.dat > experimental.dist
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/iproute2/iproute2-2.6.16-060323/unpack/iproute2-2.6.16-060323/netem'

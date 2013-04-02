@@ -1,0 +1,18 @@
+#!/bin/bash
+
+source configure
+
+pushd ../pkg/debian
+
+{
+cp -v ../../files/inittab etc/inittab
+
+rm -v usr/bin/lastb && ln -v usr/bin/last   usr/bin/lastb
+rm -v bin/pidof     && ln -v sbin/killall5  bin/pidof
+rm -v sbin/telinit  && ln -v sbin/init      sbin/telinit
+rm -v sbin/reboot   && ln -v sbin/halt      sbin/reboot
+rm -v sbin/poweroff && ln -v sbin/halt      sbin/poweroff
+
+} | tee ../../logs/060-fix-files.log
+
+popd

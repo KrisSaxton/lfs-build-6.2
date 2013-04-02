@@ -1,0 +1,29 @@
+for subdir in doc lib src checks examples; do \
+  echo making install in $subdir; \
+  (cd $subdir && make CC='gcc' CFLAGS='-g -O2' LDFLAGS='' LIBS='' prefix='/usr' exec_prefix='/usr' bindir='/usr/bin' infodir='/usr/share/info' install) || exit 1; \
+done
+making install in doc
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/m4/m4-1.4.4/unpack/m4-1.4.4/doc'
+./../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/m4/m4-1.4.4/unpack/m4-1.4.4/../../pkg/debian/usr/share/info
+cd . && for file in m4.info*; do \
+  /usr/bin/install -c -m 644 $file /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/m4/m4-1.4.4/unpack/m4-1.4.4/../../pkg/debian/usr/share/info/$file; \
+done
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/m4/m4-1.4.4/unpack/m4-1.4.4/doc'
+making install in lib
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/m4/m4-1.4.4/unpack/m4-1.4.4/lib'
+make[1]: Nothing to be done for `install'.
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/m4/m4-1.4.4/unpack/m4-1.4.4/lib'
+making install in src
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/m4/m4-1.4.4/unpack/m4-1.4.4/src'
+./../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/m4/m4-1.4.4/unpack/m4-1.4.4/../../pkg/debian/usr/bin
+/usr/bin/install -c m4 \
+/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/m4/m4-1.4.4/unpack/m4-1.4.4/../../pkg/debian/usr/bin/`echo m4 | sed 's,x,x,'`
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/m4/m4-1.4.4/unpack/m4-1.4.4/src'
+making install in checks
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/m4/m4-1.4.4/unpack/m4-1.4.4/checks'
+make[1]: Nothing to be done for `install'.
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/m4/m4-1.4.4/unpack/m4-1.4.4/checks'
+making install in examples
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/m4/m4-1.4.4/unpack/m4-1.4.4/examples'
+make[1]: Nothing to be done for `install'.
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/m4/m4-1.4.4/unpack/m4-1.4.4/examples'

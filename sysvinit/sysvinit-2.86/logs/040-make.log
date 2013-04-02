@@ -1,0 +1,30 @@
+make: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/sysvinit/sysvinit-2.86/unpack/sysvinit-2.86/src'
+gcc -Wall -O2 -fomit-frame-pointer -D_GNU_SOURCE   -c -o mountpoint.o mountpoint.c
+gcc -s -o mountpoint mountpoint.o
+gcc -c -Wall -O2 -fomit-frame-pointer -D_GNU_SOURCE init.c
+gcc -c -Wall -O2 -fomit-frame-pointer -D_GNU_SOURCE -DINIT_MAIN utmp.c -o init_utmp.o
+gcc -s  -o init init.o init_utmp.o
+gcc -Wall -O2 -fomit-frame-pointer -D_GNU_SOURCE   -c -o halt.o halt.c
+gcc -Wall -O2 -fomit-frame-pointer -D_GNU_SOURCE   -c -o ifdown.o ifdown.c
+gcc -Wall -O2 -fomit-frame-pointer -D_GNU_SOURCE   -c -o hddown.o hddown.c
+gcc -c -Wall -O2 -fomit-frame-pointer -D_GNU_SOURCE utmp.c
+gcc -s -o halt halt.o ifdown.o hddown.o utmp.o
+gcc -Wall -O2 -fomit-frame-pointer -D_GNU_SOURCE   -c -o dowall.o dowall.c
+gcc -Wall -O2 -fomit-frame-pointer -D_GNU_SOURCE   -c -o shutdown.o shutdown.c
+gcc -s -o shutdown dowall.o shutdown.o utmp.o
+gcc -Wall -O2 -fomit-frame-pointer -D_GNU_SOURCE   -c -o runlevel.o runlevel.c
+gcc -s -o runlevel runlevel.o
+gcc -Wall -O2 -fomit-frame-pointer -D_GNU_SOURCE  -s  killall5.c   -o killall5
+gcc -Wall -O2 -fomit-frame-pointer -D_GNU_SOURCE   -c -o sulogin.o sulogin.c
+gcc -s  -o sulogin sulogin.o -lcrypt
+gcc -Wall -O2 -fomit-frame-pointer -D_GNU_SOURCE   -c -o bootlogd.o bootlogd.c
+gcc -s -o bootlogd bootlogd.o -lutil
+gcc -Wall -O2 -fomit-frame-pointer -D_GNU_SOURCE   -c -o last.o last.c
+gcc -s -o last last.o
+gcc -Wall -O2 -fomit-frame-pointer -D_GNU_SOURCE   -c -o mesg.o mesg.c
+gcc -s -o mesg mesg.o
+gcc -Wall -O2 -fomit-frame-pointer -D_GNU_SOURCE   -c -o utmpdump.o utmpdump.c
+gcc -s -o utmpdump utmpdump.o
+gcc -Wall -O2 -fomit-frame-pointer -D_GNU_SOURCE   -c -o wall.o wall.c
+gcc -s -o wall dowall.o wall.o
+make: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/sysvinit/sysvinit-2.86/unpack/sysvinit-2.86/src'

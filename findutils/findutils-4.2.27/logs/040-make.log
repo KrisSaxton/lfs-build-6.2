@@ -1,0 +1,174 @@
+make  all-recursive
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27'
+Making all in gnulib
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/gnulib'
+Making all in lib
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/gnulib/lib'
+cp ./alloca_.h alloca.h-t
+mv alloca.h-t alloca.h
+make  all-am
+make[4]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/gnulib/lib'
+gcc -DHAVE_CONFIG_H -I. -I. -I../..     -g -O2 -c argmatch.c
+gcc -DHAVE_CONFIG_H -I. -I. -I../..     -g -O2 -c cycle-check.c
+gcc -DHAVE_CONFIG_H -I. -I. -I../..     -g -O2 -c basename.c
+gcc -DHAVE_CONFIG_H -I. -I. -I../..     -g -O2 -c stripslash.c
+gcc -DHAVE_CONFIG_H -I. -I. -I../..     -g -O2 -c mbchar.c
+gcc -DHAVE_CONFIG_H -I. -I. -I../..     -g -O2 -c strnlen1.c
+gcc -DHAVE_CONFIG_H -I. -I. -I../..     -g -O2 -c xalloc-die.c
+gcc -DHAVE_CONFIG_H -I. -I. -I../..     -g -O2 -c xreadlink.c
+gcc -DHAVE_CONFIG_H -I. -I. -I../..     -g -O2 -c xstrtoumax.c
+gcc -DHAVE_CONFIG_H -I. -I. -I../..     -g -O2 -c strftime.c
+gcc -DHAVE_CONFIG_H -I. -I. -I../..     -g -O2 -c canonicalize.c
+gcc -DHAVE_CONFIG_H -I. -I. -I../..     -g -O2 -c closeout.c
+gcc -DHAVE_CONFIG_H -I. -I. -I../..     -g -O2 -c dirname.c
+gcc -DHAVE_CONFIG_H -I. -I. -I../..     -g -O2 -c exitfail.c
+gcc -DHAVE_CONFIG_H -I. -I. -I../..     -g -O2 -c filemode.c
+gcc -DHAVE_CONFIG_H -I. -I. -I../..     -g -O2 -c filenamecat.c
+gcc -DHAVE_CONFIG_H -I. -I. -I../..     -g -O2 -c human.c
+gcc -DHAVE_CONFIG_H -I. -I. -I../..     -g -O2 -c idcache.c
+gcc -DHAVE_CONFIG_H -I. -I. -I../..     -g -O2 -c modechange.c
+gcc -DHAVE_CONFIG_H -I. -I. -I../..     -g -O2 -c mountlist.c
+gcc -DHAVE_CONFIG_H -I. -I. -I../..     -g -O2 -c quote.c
+gcc -DHAVE_CONFIG_H -I. -I. -I../..     -g -O2 -c quotearg.c
+gcc -DHAVE_CONFIG_H -I. -I. -I../..     -g -O2 -c regex.c
+gcc -DHAVE_CONFIG_H -I. -I. -I../..     -g -O2 -c savedir.c
+gcc -DHAVE_CONFIG_H -I. -I. -I../..     -g -O2 -c fopen-safer.c
+gcc -DHAVE_CONFIG_H -I. -I. -I../..     -g -O2 -c strstr.c
+gcc -DHAVE_CONFIG_H -I. -I. -I../..     -g -O2 -c dup-safer.c
+gcc -DHAVE_CONFIG_H -I. -I. -I../..     -g -O2 -c fd-safer.c
+gcc -DHAVE_CONFIG_H -I. -I. -I../..     -g -O2 -c pipe-safer.c
+gcc -DHAVE_CONFIG_H -I. -I. -I../..     -g -O2 -c xmalloc.c
+gcc -DHAVE_CONFIG_H -I. -I. -I../..     -g -O2 -c xgetcwd.c
+gcc -DHAVE_CONFIG_H -I. -I. -I../..     -g -O2 -c xstrtol.c
+gcc -DHAVE_CONFIG_H -I. -I. -I../..     -g -O2 -c xstrtoul.c
+gcc -DHAVE_CONFIG_H -I. -I. -I../..     -g -O2 -c yesno.c
+rm -f libgnulib.a
+ar cru libgnulib.a argmatch.o cycle-check.o basename.o stripslash.o mbchar.o strnlen1.o xalloc-die.o xreadlink.o xstrtoumax.o strftime.o canonicalize.o closeout.o dirname.o exitfail.o filemode.o filenamecat.o human.o idcache.o modechange.o mountlist.o quote.o quotearg.o regex.o savedir.o fopen-safer.o strstr.o dup-safer.o fd-safer.o pipe-safer.o xmalloc.o xgetcwd.o xstrtol.o xstrtoul.o yesno.o 
+ranlib libgnulib.a
+make[4]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/gnulib/lib'
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/gnulib/lib'
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/gnulib'
+make[3]: Nothing to be done for `all-am'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/gnulib'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/gnulib'
+Making all in lib
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/lib'
+make  all-am
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/lib'
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../gnulib/lib -I../gnulib/lib     -g -O2 -MT listfile.o -MD -MP -MF ".deps/listfile.Tpo" -c -o listfile.o listfile.c; \
+then mv -f ".deps/listfile.Tpo" ".deps/listfile.Po"; else rm -f ".deps/listfile.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../gnulib/lib -I../gnulib/lib     -g -O2 -MT nextelem.o -MD -MP -MF ".deps/nextelem.Tpo" -c -o nextelem.o nextelem.c; \
+then mv -f ".deps/nextelem.Tpo" ".deps/nextelem.Po"; else rm -f ".deps/nextelem.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../gnulib/lib -I../gnulib/lib     -g -O2 -MT extendbuf.o -MD -MP -MF ".deps/extendbuf.Tpo" -c -o extendbuf.o extendbuf.c; \
+then mv -f ".deps/extendbuf.Tpo" ".deps/extendbuf.Po"; else rm -f ".deps/extendbuf.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../gnulib/lib -I../gnulib/lib     -g -O2 -MT buildcmd.o -MD -MP -MF ".deps/buildcmd.Tpo" -c -o buildcmd.o buildcmd.c; \
+then mv -f ".deps/buildcmd.Tpo" ".deps/buildcmd.Po"; else rm -f ".deps/buildcmd.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../gnulib/lib -I../gnulib/lib     -g -O2 -MT savedirinfo.o -MD -MP -MF ".deps/savedirinfo.Tpo" -c -o savedirinfo.o savedirinfo.c; \
+then mv -f ".deps/savedirinfo.Tpo" ".deps/savedirinfo.Po"; else rm -f ".deps/savedirinfo.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../gnulib/lib -I../gnulib/lib     -g -O2 -MT forcefindlib.o -MD -MP -MF ".deps/forcefindlib.Tpo" -c -o forcefindlib.o forcefindlib.c; \
+then mv -f ".deps/forcefindlib.Tpo" ".deps/forcefindlib.Po"; else rm -f ".deps/forcefindlib.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../gnulib/lib -I../gnulib/lib     -g -O2 -MT qmark.o -MD -MP -MF ".deps/qmark.Tpo" -c -o qmark.o qmark.c; \
+then mv -f ".deps/qmark.Tpo" ".deps/qmark.Po"; else rm -f ".deps/qmark.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../gnulib/lib -I../gnulib/lib     -g -O2 -MT printquoted.o -MD -MP -MF ".deps/printquoted.Tpo" -c -o printquoted.o printquoted.c; \
+then mv -f ".deps/printquoted.Tpo" ".deps/printquoted.Po"; else rm -f ".deps/printquoted.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../gnulib/lib -I../gnulib/lib     -g -O2 -MT regextype.o -MD -MP -MF ".deps/regextype.Tpo" -c -o regextype.o regextype.c; \
+then mv -f ".deps/regextype.Tpo" ".deps/regextype.Po"; else rm -f ".deps/regextype.Tpo"; exit 1; fi
+rm -f libfind.a
+ar cru libfind.a listfile.o nextelem.o extendbuf.o buildcmd.o savedirinfo.o forcefindlib.o qmark.o printquoted.o regextype.o forcefindlib.o
+ranlib libfind.a
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../gnulib/lib -I../gnulib/lib     -g -O2 -MT regexprops.o -MD -MP -MF ".deps/regexprops.Tpo" -c -o regexprops.o regexprops.c; \
+then mv -f ".deps/regexprops.Tpo" ".deps/regexprops.Po"; else rm -f ".deps/regexprops.Tpo"; exit 1; fi
+gcc  -g -O2   -o regexprops  regexprops.o regextype.o ../gnulib/lib/libgnulib.a  
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/lib'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/lib'
+Making all in find
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/find'
+Making all in testsuite
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/find/testsuite'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/find/testsuite'
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/find'
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../gnulib/lib -I../lib -I../gnulib/lib -I../intl -DLOCALEDIR=\"/usr/share/locale\"    -g -O2 -MT find.o -MD -MP -MF ".deps/find.Tpo" -c -o find.o find.c; \
+then mv -f ".deps/find.Tpo" ".deps/find.Po"; else rm -f ".deps/find.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../gnulib/lib -I../lib -I../gnulib/lib -I../intl -DLOCALEDIR=\"/usr/share/locale\"    -g -O2 -MT fstype.o -MD -MP -MF ".deps/fstype.Tpo" -c -o fstype.o fstype.c; \
+then mv -f ".deps/fstype.Tpo" ".deps/fstype.Po"; else rm -f ".deps/fstype.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../gnulib/lib -I../lib -I../gnulib/lib -I../intl -DLOCALEDIR=\"/usr/share/locale\"    -g -O2 -MT parser.o -MD -MP -MF ".deps/parser.Tpo" -c -o parser.o parser.c; \
+then mv -f ".deps/parser.Tpo" ".deps/parser.Po"; else rm -f ".deps/parser.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../gnulib/lib -I../lib -I../gnulib/lib -I../intl -DLOCALEDIR=\"/usr/share/locale\"    -g -O2 -MT pred.o -MD -MP -MF ".deps/pred.Tpo" -c -o pred.o pred.c; \
+then mv -f ".deps/pred.Tpo" ".deps/pred.Po"; else rm -f ".deps/pred.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../gnulib/lib -I../lib -I../gnulib/lib -I../intl -DLOCALEDIR=\"/usr/share/locale\"    -g -O2 -MT tree.o -MD -MP -MF ".deps/tree.Tpo" -c -o tree.o tree.c; \
+then mv -f ".deps/tree.Tpo" ".deps/tree.Po"; else rm -f ".deps/tree.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../gnulib/lib -I../lib -I../gnulib/lib -I../intl -DLOCALEDIR=\"/usr/share/locale\"    -g -O2 -MT util.o -MD -MP -MF ".deps/util.Tpo" -c -o util.o util.c; \
+then mv -f ".deps/util.Tpo" ".deps/util.Po"; else rm -f ".deps/util.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../gnulib/lib -I../lib -I../gnulib/lib -I../intl -DLOCALEDIR=\"/usr/share/locale\"    -g -O2 -MT version.o -MD -MP -MF ".deps/version.Tpo" -c -o version.o version.c; \
+then mv -f ".deps/version.Tpo" ".deps/version.Po"; else rm -f ".deps/version.Tpo"; exit 1; fi
+gcc  -g -O2   -o find  find.o fstype.o parser.o pred.o tree.o util.o version.o ../lib/libfind.a ../gnulib/lib/libgnulib.a  
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/find'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/find'
+Making all in xargs
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/xargs'
+Making all in testsuite
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/xargs/testsuite'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/xargs/testsuite'
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/xargs'
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I.. -I../gnulib/lib -I../gnulib/lib -I../lib -I../intl -DLOCALEDIR=\"/usr/share/locale\"    -g -O2 -MT xargs.o -MD -MP -MF ".deps/xargs.Tpo" -c -o xargs.o xargs.c; \
+then mv -f ".deps/xargs.Tpo" ".deps/xargs.Po"; else rm -f ".deps/xargs.Tpo"; exit 1; fi
+gcc  -g -O2   -o xargs  xargs.o ../find/version.o ../lib/libfind.a ../gnulib/lib/libgnulib.a  
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/xargs'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/xargs'
+Making all in locate
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/locate'
+Making all in testsuite
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/locate/testsuite'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/locate/testsuite'
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/locate'
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib -I../gnulib/lib -I../gnulib/lib -I../intl -DLOCATE_DB=\"/var/lib/locate/locatedb\" -DLOCALEDIR=\"/usr/share/locale\"    -g -O2 -MT locate.o -MD -MP -MF ".deps/locate.Tpo" -c -o locate.o locate.c; \
+then mv -f ".deps/locate.Tpo" ".deps/locate.Po"; else rm -f ".deps/locate.Tpo"; exit 1; fi
+gcc  -g -O2   -o locate  locate.o ../find/version.o ../lib/libfind.a ../gnulib/lib/libgnulib.a  
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib -I../gnulib/lib -I../gnulib/lib -I../intl -DLOCATE_DB=\"/var/lib/locate/locatedb\" -DLOCALEDIR=\"/usr/share/locale\"    -g -O2 -MT frcode.o -MD -MP -MF ".deps/frcode.Tpo" -c -o frcode.o frcode.c; \
+then mv -f ".deps/frcode.Tpo" ".deps/frcode.Po"; else rm -f ".deps/frcode.Tpo"; exit 1; fi
+gcc  -g -O2   -o frcode  frcode.o ../find/version.o ../lib/libfind.a ../gnulib/lib/libgnulib.a  
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib -I../gnulib/lib -I../gnulib/lib -I../intl -DLOCATE_DB=\"/var/lib/locate/locatedb\" -DLOCALEDIR=\"/usr/share/locale\"    -g -O2 -MT code.o -MD -MP -MF ".deps/code.Tpo" -c -o code.o code.c; \
+then mv -f ".deps/code.Tpo" ".deps/code.Po"; else rm -f ".deps/code.Tpo"; exit 1; fi
+gcc  -g -O2   -o code  code.o ../find/version.o ../lib/libfind.a ../gnulib/lib/libgnulib.a  
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib -I../gnulib/lib -I../gnulib/lib -I../intl -DLOCATE_DB=\"/var/lib/locate/locatedb\" -DLOCALEDIR=\"/usr/share/locale\"    -g -O2 -MT bigram.o -MD -MP -MF ".deps/bigram.Tpo" -c -o bigram.o bigram.c; \
+then mv -f ".deps/bigram.Tpo" ".deps/bigram.Po"; else rm -f ".deps/bigram.Tpo"; exit 1; fi
+gcc  -g -O2   -o bigram  bigram.o ../find/version.o ../lib/libfind.a ../gnulib/lib/libgnulib.a  
+rm -f updatedb
+find=`echo find|sed 's,x,x,'`; \
+frcode=`echo frcode|sed 's,x,x,'`; \
+bigram=`echo bigram|sed 's,x,x,'`; \
+code=`echo code|sed 's,x,x,'`; \
+sed \
+-e "s,@""bindir""@,/usr/bin," \
+-e "s,@""libexecdir""@,/usr/lib/findutils," \
+-e "s,@""LOCATE_DB""@,/var/lib/locate/locatedb," \
+-e "s,@""VERSION""@,4.2.27," \
+-e "s,@""find""@,${find}," \
+-e "s,@""frcode""@,${frcode}," \
+-e "s,@""bigram""@,${bigram}," \
+-e "s,@""code""@,${code}," \
+-e "s,@""SORT""@,/usr/bin/sort," \
+-e "s,@""SORT_SUPPORTS_Z""@,true," \
+./updatedb.sh > updatedb
+chmod +x updatedb
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/locate'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/locate'
+Making all in doc
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/doc'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/doc'
+Making all in po
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/po'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/po'
+Making all in m4
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/m4'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/m4'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27'
+make[2]: Nothing to be done for `all-am'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27'

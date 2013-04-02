@@ -1,0 +1,40 @@
+install -D --owner 0 --group 0 --mode a=rx uptime /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/procps/procps-3.2.6/unpack/procps-3.2.6/../../pkg/debian/usr/bin/uptime
+install -D --owner 0 --group 0 --mode a=rx tload /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/procps/procps-3.2.6/unpack/procps-3.2.6/../../pkg/debian/usr/bin/tload
+install -D --owner 0 --group 0 --mode a=rx free /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/procps/procps-3.2.6/unpack/procps-3.2.6/../../pkg/debian/usr/bin/free
+install -D --owner 0 --group 0 --mode a=rx w /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/procps/procps-3.2.6/unpack/procps-3.2.6/../../pkg/debian/usr/bin/w
+install -D --owner 0 --group 0 --mode a=rx top /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/procps/procps-3.2.6/unpack/procps-3.2.6/../../pkg/debian/usr/bin/top
+install -D --owner 0 --group 0 --mode a=rx vmstat /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/procps/procps-3.2.6/unpack/procps-3.2.6/../../pkg/debian/usr/bin/vmstat
+install -D --owner 0 --group 0 --mode a=rx watch /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/procps/procps-3.2.6/unpack/procps-3.2.6/../../pkg/debian/usr/bin/watch
+install -D --owner 0 --group 0 --mode a=rx skill /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/procps/procps-3.2.6/unpack/procps-3.2.6/../../pkg/debian/usr/bin/skill
+install -D --owner 0 --group 0 --mode a=rx snice /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/procps/procps-3.2.6/unpack/procps-3.2.6/../../pkg/debian/usr/bin/snice
+install -D --owner 0 --group 0 --mode a=rx kill /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/procps/procps-3.2.6/unpack/procps-3.2.6/../../pkg/debian/bin/kill
+install -D --owner 0 --group 0 --mode a=rx sysctl /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/procps/procps-3.2.6/unpack/procps-3.2.6/../../pkg/debian/sbin/sysctl
+install -D --owner 0 --group 0 --mode a=rx pmap /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/procps/procps-3.2.6/unpack/procps-3.2.6/../../pkg/debian/usr/bin/pmap
+install -D --owner 0 --group 0 --mode a=rx pgrep /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/procps/procps-3.2.6/unpack/procps-3.2.6/../../pkg/debian/usr/bin/pgrep
+install -D --owner 0 --group 0 --mode a=rx pkill /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/procps/procps-3.2.6/unpack/procps-3.2.6/../../pkg/debian/usr/bin/pkill
+install -D --owner 0 --group 0 --mode a=rx slabtop /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/procps/procps-3.2.6/unpack/procps-3.2.6/../../pkg/debian/usr/bin/slabtop
+install -D --owner 0 --group 0 --mode a=rx pwdx /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/procps/procps-3.2.6/unpack/procps-3.2.6/../../pkg/debian/usr/bin/pwdx
+install -D --owner 0 --group 0 --mode a=r uptime.1 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/procps/procps-3.2.6/unpack/procps-3.2.6/../../pkg/debian/usr/share/man/man1/uptime.1
+install -D --owner 0 --group 0 --mode a=r tload.1 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/procps/procps-3.2.6/unpack/procps-3.2.6/../../pkg/debian/usr/share/man/man1/tload.1
+install -D --owner 0 --group 0 --mode a=r free.1 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/procps/procps-3.2.6/unpack/procps-3.2.6/../../pkg/debian/usr/share/man/man1/free.1
+install -D --owner 0 --group 0 --mode a=r w.1 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/procps/procps-3.2.6/unpack/procps-3.2.6/../../pkg/debian/usr/share/man/man1/w.1
+install -D --owner 0 --group 0 --mode a=r top.1 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/procps/procps-3.2.6/unpack/procps-3.2.6/../../pkg/debian/usr/share/man/man1/top.1
+install -D --owner 0 --group 0 --mode a=r watch.1 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/procps/procps-3.2.6/unpack/procps-3.2.6/../../pkg/debian/usr/share/man/man1/watch.1
+install -D --owner 0 --group 0 --mode a=r skill.1 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/procps/procps-3.2.6/unpack/procps-3.2.6/../../pkg/debian/usr/share/man/man1/skill.1
+install -D --owner 0 --group 0 --mode a=r kill.1 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/procps/procps-3.2.6/unpack/procps-3.2.6/../../pkg/debian/usr/share/man/man1/kill.1
+install -D --owner 0 --group 0 --mode a=r snice.1 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/procps/procps-3.2.6/unpack/procps-3.2.6/../../pkg/debian/usr/share/man/man1/snice.1
+install -D --owner 0 --group 0 --mode a=r pgrep.1 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/procps/procps-3.2.6/unpack/procps-3.2.6/../../pkg/debian/usr/share/man/man1/pgrep.1
+install -D --owner 0 --group 0 --mode a=r pkill.1 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/procps/procps-3.2.6/unpack/procps-3.2.6/../../pkg/debian/usr/share/man/man1/pkill.1
+install -D --owner 0 --group 0 --mode a=r pmap.1 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/procps/procps-3.2.6/unpack/procps-3.2.6/../../pkg/debian/usr/share/man/man1/pmap.1
+install -D --owner 0 --group 0 --mode a=r sysctl.conf.5 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/procps/procps-3.2.6/unpack/procps-3.2.6/../../pkg/debian/usr/share/man/man5/sysctl.conf.5
+install -D --owner 0 --group 0 --mode a=r vmstat.8 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/procps/procps-3.2.6/unpack/procps-3.2.6/../../pkg/debian/usr/share/man/man8/vmstat.8
+install -D --owner 0 --group 0 --mode a=r sysctl.8 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/procps/procps-3.2.6/unpack/procps-3.2.6/../../pkg/debian/usr/share/man/man8/sysctl.8
+install -D --owner 0 --group 0 --mode a=r slabtop.1 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/procps/procps-3.2.6/unpack/procps-3.2.6/../../pkg/debian/usr/share/man/man1/slabtop.1
+install -D --owner 0 --group 0 --mode a=r pwdx.1 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/procps/procps-3.2.6/unpack/procps-3.2.6/../../pkg/debian/usr/share/man/man1/pwdx.1
+install -D --owner 0 --group 0 --mode a=rx proc/libproc-3.2.6.so /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/procps/procps-3.2.6/unpack/procps-3.2.6/../../pkg/debian/lib/libproc-3.2.6.so
+ldconfig
+install -D --owner 0 --group 0 --mode a=rx ps/ps /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/procps/procps-3.2.6/unpack/procps-3.2.6/../../pkg/debian/bin/ps
+install -D --owner 0 --group 0 --mode a=r ps/ps.1 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/procps/procps-3.2.6/unpack/procps-3.2.6/../../pkg/debian/usr/share/man/man1/ps.1
+rm -f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/procps/procps-3.2.6/unpack/procps-3.2.6/../../pkg/debian/var/catman/cat1/ps.1.gz /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/procps/procps-3.2.6/unpack/procps-3.2.6/../../pkg/debian/var/man/cat1/ps.1.gz
+cd /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/procps/procps-3.2.6/unpack/procps-3.2.6/../../pkg/debian/usr/bin/ && ln -f skill snice
+cd /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/procps/procps-3.2.6/unpack/procps-3.2.6/../../pkg/debian/usr/bin/ && ln -f pgrep pkill

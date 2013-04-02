@@ -1,0 +1,1 @@
+usage: configure [--prefix=PREFIXDIR] [--datadir=DATADIR] [--mandir=MANDIR]

@@ -1,0 +1,483 @@
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/libs/libgroff'
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/libs/libgroff -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c assert.cc
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/libs/libgroff -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c change_lf.cc
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/libs/libgroff -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c cmap.cc
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/libs/libgroff -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c color.cc
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/libs/libgroff -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c cset.cc
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/libs/libgroff -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c device.cc
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/libs/libgroff -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c encoding.cc
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/libs/libgroff -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c errarg.cc
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/libs/libgroff -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c error.cc
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/libs/libgroff -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c fatal.cc
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/libs/libgroff -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c filename.cc
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/libs/libgroff -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c font.cc
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/libs/libgroff -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c fontfile.cc
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/libs/libgroff -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c geometry.cc
+gcc -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/libs/libgroff -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c getopt.c
+gcc -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/libs/libgroff -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c getopt1.c
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/libs/libgroff -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c htmlhint.cc
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/libs/libgroff -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c invalid.cc
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/libs/libgroff -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c lf.cc
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/libs/libgroff -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c lineno.cc
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/libs/libgroff -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c macropath.cc
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/libs/libgroff -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c maxfilename.cc
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/libs/libgroff -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c mksdir.cc
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/libs/libgroff -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c nametoindex.cc
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/libs/libgroff -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c new.cc
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/libs/libgroff -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c paper.cc
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/libs/libgroff -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c prime.cc
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/libs/libgroff -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c progname.cc
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/libs/libgroff -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c ptable.cc
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/libs/libgroff -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c searchpath.cc
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/libs/libgroff -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c string.cc
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/libs/libgroff -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c strsave.cc
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/libs/libgroff -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c tmpfile.cc
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/libs/libgroff -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c tmpname.cc
+gcc -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/libs/libgroff -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c iftoa.c
+gcc -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/libs/libgroff -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c itoa.c
+gcc -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/libs/libgroff -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c matherr.c
+Making version.cc
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/libs/libgroff -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c version.cc
+ar r libgroff.a assert.o change_lf.o cmap.o color.o cset.o device.o encoding.o errarg.o error.o fatal.o filename.o font.o fontfile.o geometry.o getopt.o getopt1.o htmlhint.o invalid.o lf.o lineno.o macropath.o maxfilename.o mksdir.o nametoindex.o new.o paper.o prime.o progname.o ptable.o searchpath.o string.o strsave.o tmpfile.o tmpname.o iftoa.o itoa.o matherr.o version.o
+ranlib libgroff.a
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/libs/libgroff'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/libs/libdriver'
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/libs/libdriver -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c input.cc
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/libs/libdriver -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c printer.cc
+ar r libdriver.a input.o printer.o
+ranlib libdriver.a
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/libs/libdriver'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/libs/libbib'
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/libs/libbib -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c common.cc
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/libs/libbib -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c index.cc
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/libs/libbib -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c linear.cc
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/libs/libbib -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c search.cc
+gcc -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/libs/libbib -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c map.c
+ar r libbib.a common.o index.o linear.o search.o map.o
+ranlib libbib.a
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/libs/libbib'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/roff/groff'
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/roff/groff -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c groff.cc
+gcc -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/roff/groff -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c pipeline.c
+g++ -g -O2  -o groff groff.o pipeline.o /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/libs/libgroff/libgroff.a  -lm
+Making groff.n from groff.man
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/roff/groff'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/roff/troff'
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/roff/troff -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c env.cc
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/roff/troff -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c node.cc
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/roff/troff -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c input.cc
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/roff/troff -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c div.cc
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/roff/troff -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c symbol.cc
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/roff/troff -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c dictionary.cc
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/roff/troff -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c reg.cc
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/roff/troff -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c number.cc
+Making majorminor.cc
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/roff/troff -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c majorminor.cc
+g++ -g -O2  -o troff env.o node.o input.o div.o symbol.o dictionary.o reg.o number.o majorminor.o /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/libs/libgroff/libgroff.a  -lm
+Making troff.n from troff.man
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/roff/troff'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/preproc/tbl'
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/preproc/tbl -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c main.cc
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/preproc/tbl -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c table.cc
+g++ -g -O2  -o tbl main.o table.o /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/libs/libgroff/libgroff.a  
+Making tbl.n from tbl.man
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/preproc/tbl'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/preproc/pic'
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/preproc/pic -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c pic.cc
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/preproc/pic -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c lex.cc
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/preproc/pic -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c main.cc
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/preproc/pic -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c object.cc
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/preproc/pic -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c common.cc
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/preproc/pic -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c troff.cc
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/preproc/pic -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c tex.cc
+g++ -g -O2  -o pic pic.o lex.o main.o object.o common.o troff.o tex.o /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/libs/libgroff/libgroff.a  -lm
+Making pic.n from pic.man
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/preproc/pic'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/preproc/eqn'
+rm -f neqn
+sed -e 's/@g@//g' \
+-e 's|@BINDIR@|/usr/bin|g' \
+-e 1s/a/a/ /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/preproc/eqn/neqn.sh >neqn
+chmod +x neqn
+if test -n "eqn_tab.h"; then \
+  bison -y -v -d eqn.y; \
+else \
+  bison -y -v eqn.y; \
+fi
+test -f y.tab.h && mv y.tab.h y_tab.h
+test -f y.tab.c && mv y.tab.c y_tab.c
+mv y_tab.c eqn.cc
+if test -n "eqn_tab.h"; then mv y_tab.h eqn_tab.h; fi
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/preproc/eqn -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c eqn.cc
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/preproc/eqn -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c main.cc
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/preproc/eqn -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c lex.cc
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/preproc/eqn -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c box.cc
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/preproc/eqn -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c limit.cc
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/preproc/eqn -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c list.cc
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/preproc/eqn -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c over.cc
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/preproc/eqn -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c text.cc
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/preproc/eqn -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c script.cc
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/preproc/eqn -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c mark.cc
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/preproc/eqn -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c other.cc
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/preproc/eqn -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c delim.cc
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/preproc/eqn -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c sqrt.cc
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/preproc/eqn -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c pile.cc
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/preproc/eqn -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c special.cc
+g++ -g -O2  -o eqn eqn.o main.o lex.o box.o limit.o list.o over.o text.o script.o mark.o other.o delim.o sqrt.o pile.o special.o /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/libs/libgroff/libgroff.a  
+Making eqn.n from eqn.man
+Making neqn.n from neqn.man
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/preproc/eqn'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/preproc/grn'
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/preproc/grn -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c hdb.cc
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/preproc/grn -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c hpoint.cc
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/preproc/grn -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c hgraph.cc
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/preproc/grn -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c main.cc
+g++ -g -O2  -o grn hdb.o hpoint.o hgraph.o main.o /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/libs/libgroff/libgroff.a  -lm
+Making grn.n from grn.man
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/preproc/grn'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/preproc/refer'
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/preproc/refer -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c command.cc
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/preproc/refer -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c label.cc
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/preproc/refer -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c ref.cc
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/preproc/refer -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c refer.cc
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/preproc/refer -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c token.cc
+g++ -g -O2  -o refer command.o label.o ref.o refer.o token.o /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/libs/libbib/libbib.a /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/libs/libgroff/libgroff.a  -lm
+Making refer.n from refer.man
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/preproc/refer'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/preproc/soelim'
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/preproc/soelim -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c soelim.cc
+g++ -g -O2  -o soelim soelim.o /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/libs/libgroff/libgroff.a  
+Making soelim.n from soelim.man
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/preproc/soelim'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/preproc/html'
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/preproc/html -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c pre-html.cc
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/preproc/html -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c pushback.cc
+g++ -g -O2  -o pre-grohtml pre-html.o pushback.o /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/libs/libgroff/libgroff.a  
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/preproc/html'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/devices/grops'
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/devices/grops -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c ps.cc
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/devices/grops -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c psrm.cc
+g++ -g -O2  -o grops ps.o psrm.o /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/libs/libdriver/libdriver.a /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/libs/libgroff/libgroff.a  -lm
+Making grops.n from grops.man
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/devices/grops'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/devices/grotty'
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/devices/grotty -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c tty.cc
+g++ -g -O2  -o grotty tty.o /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/libs/libdriver/libdriver.a /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/libs/libgroff/libgroff.a  -lm
+Making grotty.n from grotty.man
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/devices/grotty'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/devices/grodvi'
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/devices/grodvi -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c dvi.cc
+g++ -g -O2  -o grodvi dvi.o /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/libs/libdriver/libdriver.a /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/libs/libgroff/libgroff.a  -lm
+Making grodvi.n from grodvi.man
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/devices/grodvi'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/devices/grolj4'
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/devices/grolj4 -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c lj4.cc
+g++ -g -O2  -o grolj4 lj4.o /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/libs/libdriver/libdriver.a /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/libs/libgroff/libgroff.a  -lm
+Making grolj4.n from grolj4.man
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/devices/grolj4'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/devices/grohtml'
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/devices/grohtml -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c post-html.cc
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/devices/grohtml -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c html-table.cc
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/devices/grohtml -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c html-text.cc
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/devices/grohtml -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c output.cc
+g++ -g -O2  -o post-grohtml post-html.o html-table.o html-text.o output.o /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/libs/libdriver/libdriver.a /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/libs/libgroff/libgroff.a  -lm
+Making grohtml.n from grohtml.man
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/devices/grohtml'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/devices/grolbp'
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/devices/grolbp -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c lbp.cc
+g++ -g -O2  -o grolbp lbp.o /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/libs/libdriver/libdriver.a /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/libs/libgroff/libgroff.a  -lm
+Making grolbp.n from grolbp.man
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/devices/grolbp'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/utils/tfmtodit'
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/utils/tfmtodit -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c tfmtodit.cc
+g++ -g -O2  -o tfmtodit tfmtodit.o /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/libs/libgroff/libgroff.a  -lm
+Making tfmtodit.n from tfmtodit.man
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/utils/tfmtodit'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/utils/hpftodit'
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/utils/hpftodit -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c hpftodit.cc
+g++ -g -O2  -o hpftodit hpftodit.o /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/libs/libgroff/libgroff.a  -lm
+Making hpftodit.n from hpftodit.man
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/utils/hpftodit'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/utils/lookbib'
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/utils/lookbib -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c lookbib.cc
+g++ -g -O2  -o lookbib lookbib.o /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/libs/libbib/libbib.a /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/libs/libgroff/libgroff.a  -lm
+Making lookbib.n from lookbib.man
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/utils/lookbib'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/utils/indxbib'
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/utils/indxbib -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c indxbib.cc
+gcc -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/utils/indxbib -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c signal.c
+g++ -g -O2  -o indxbib indxbib.o signal.o /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/libs/libbib/libbib.a /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/libs/libgroff/libgroff.a  -lm
+Making indxbib.n from indxbib.man
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/utils/indxbib'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/utils/lkbib'
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/utils/lkbib -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c lkbib.cc
+g++ -g -O2  -o lkbib lkbib.o /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/libs/libbib/libbib.a /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/libs/libgroff/libgroff.a  -lm
+Making lkbib.n from lkbib.man
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/utils/lkbib'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/utils/addftinfo'
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/utils/addftinfo -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c addftinfo.cc
+g++ -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/utils/addftinfo -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c guess.cc
+g++ -g -O2  -o addftinfo addftinfo.o guess.o /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/libs/libgroff/libgroff.a  
+Making addftinfo.n from addftinfo.man
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/utils/addftinfo'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/utils/pfbtops'
+gcc -I. -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/utils/pfbtops -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/include -DHAVE_CONFIG_H -g -O2  -c pfbtops.c
+gcc -g -O2  -o pfbtops pfbtops.o /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/libs/libgroff/libgroff.a  -lm
+Making pfbtops.n from pfbtops.man
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/utils/pfbtops'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/font/devps'
+rm -f DESC
+cat /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/font/devps/DESC.in >DESC
+echo broken 7 >>DESC
+if test "A4" = A4; then \
+  echo "papersize /etc/papersize a4" >>DESC; \
+else \
+  echo "papersize /etc/papersize letter" >>DESC; \
+fi
+test -z '' ||	echo print '' >>DESC
+rm -f prologue
+sed -f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/font/devps/psstrip.sed prologue.ps >prologue
+rm -f symbolsl.pfa
+sed -f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/font/devps/psstrip.sed symbolsl.ps >symbolsl.pfa
+rm -f zapfdr.pfa
+sed -f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/font/devps/psstrip.sed zapfdr.ps >zapfdr.pfa
+Making M
+Making G
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/font/devps'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/font/devdvi'
+cat /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/font/devdvi/DESC.in >DESC
+test -z '' || echo print '' >>DESC
+Making M
+cp M.proto-NTT M
+Making G
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/font/devdvi'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/font/devX75'
+Making M
+Making G
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/font/devX75'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/font/devX75-12'
+Making M
+Making G
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/font/devX75-12'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/font/devX100'
+Making M
+Making G
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/font/devX100'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/font/devX100-12'
+Making M
+Making G
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/font/devX100-12'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/font/devhtml'
+Making R
+Making I
+Making B
+Making BI
+Making CR
+Making CI
+Making CB
+Making CBI
+Making S
+Making M
+Making G
+Making DESC
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/font/devhtml'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/font/devlj4'
+rm -f DESC
+echo "res 600" >DESC
+echo "unitwidth `expr 7620000 / 600`" >>DESC
+cat /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/font/devlj4/DESC.in >>DESC
+if test "A4" = A4; then \
+  echo "papersize /etc/papersize a4" >>DESC; \
+else \
+  echo "papersize /etc/papersize letter" >>DESC; \
+fi
+test -z '' || echo print '' >>DESC
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/font/devlj4'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/font/devlbp'
+rm -f DESC
+cat /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/font/devlbp/DESC.in >>DESC
+if test "A4" = A4; then \
+  echo "papersize /etc/papersize a4" >>DESC; \
+else \
+  echo "papersize /etc/papersize letter" >>DESC; \
+fi
+test -z '' || echo print '' >>DESC
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/font/devlbp'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/font/devascii'
+Making R
+Making I
+Making B
+Making BI
+Making DESC
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/font/devascii'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/font/devascii8'
+Making R
+Making I
+Making B
+Making BI
+Making DESC
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/font/devascii8'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/font/devlatin1'
+Making R
+Making I
+Making B
+Making BI
+Making DESC
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/font/devlatin1'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/font/devutf8'
+Making R
+Making I
+Making B
+Making BI
+Making M
+(wcharwidth=`expr 240 / 10 \* 2` ; \
+  spacewidth=`expr 240 / 10` ; \
+  sed -e "s/^spacewidth [0-9][0-9]*$/spacewidth $spacewidth/" \
+      -e "s/^u\\([0-9A-F]*\\)..u\\([0-9A-F]*\\) [0-9][0-9]*/u\\1..u\\2 $wcharwidth/" \
+  /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/font/devutf8/M.proto > M)
+Making G
+Making DESC
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/font/devutf8'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/font/devnippon'
+Making R
+Making I
+Making B
+Making BI
+Making M
+Making G
+Making DESC
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/font/devnippon'
+make[1]: Nothing to be done for `font/devcp1047'.
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/man'
+Making groff_font.n from groff_font.man
+Making groff_out.n from groff_out.man
+Making groff_tmac.n from groff_tmac.man
+Making ditroff.n from ditroff.man
+Making groff_char.n from groff_char.man
+Making groff_diff.n from groff_diff.man
+Making groff.n from groff.man
+Making roff.n from roff.man
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/man'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/tmac'
+for f in e.tmac doc.tmac doc-old.tmac docj.tmac doc-common doc-ditroff doc-nroff doc-syms docj-ditroff docj-nroff mdoc.local; do \
+  rm -f $f-s; \
+  sed -f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/tmac/strip.sed /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/tmac/$f >$f-s; \
+done
+touch stamp-strip
+if test -n ""; then \
+  for m in ""; do \
+    rm -f $m-wrap; \
+    if test "$m" = an; then \
+      echo .do mso andoc.tmac >>$m-wrap; \
+    fi; \
+    echo .cp 1 >>$m-wrap; \
+    echo .so $m >>$m-wrap; \
+  done; \
+fi
+touch stamp-wrap
+for f in man.tmac ms.tmac; do \
+  rm -f $f-sed; \
+  sed -e "s;@TMAC_AN_PREFIX@;;g" \
+  -e "s;@TMAC_S_PREFIX@;;g" \
+  /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/tmac/$f > $f-sed; \
+done
+touch stamp-sed
+Making groff_ms.n from groff_ms.man
+Making groff_man.n from groff_man.man
+Making groff_me.n from groff_me.man
+Making groff_mdoc.n from groff_mdoc.man
+Making groff_trace.n from groff_trace.man
+Making groff_www.n from groff_www.man
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/tmac'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/utils/afmtodit'
+if test -n "/usr/bin/perl"; then \
+  sed -e "s|/usr/bin/perl|/usr/bin/perl|" \
+              -e "s|@VERSION@|1.18.1|" \
+              /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/utils/afmtodit/afmtodit.pl >afmtodit; \
+else \
+  sed -e "s|@VERSION@|1.18.1|" \
+              /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/utils/afmtodit/afmtodit.pl afmtodit; \
+fi
+chmod +x afmtodit
+Making afmtodit.n from afmtodit.man
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/utils/afmtodit'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/roff/grog'
+rm -f grog
+sed -e "s|@g@||g" \
+  -e "s|@VERSION@|1.18.1|" \
+  -e 1s/a/a/ /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/roff/grog/grog.sh >grog
+chmod +x grog
+Making grog.n from grog.man
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/roff/grog'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/roff/nroff'
+rm -f nroff
+sed -e "s|@BINDIR@|/usr/bin|g" \
+-e 1s/a/a/ \
+-e "s|@VERSION@|1.18.1|" /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/roff/nroff/nroff.sh >nroff
+chmod +x nroff
+Making nroff.n from nroff.man
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/roff/nroff'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/contrib/mm'
+rm -f mmroff
+sed -e 's;/usr/bin/perl;/usr/bin/perl;' /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/contrib/mm/mmroff.pl >mmroff
+chmod +x mmroff
+Making mmroff.n from mmroff.man
+Making groff_mm.n from groff_mm.man
+Making groff_mmse.n from groff_mmse.man
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/contrib/mm'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/contrib/pic2graph'
+rm -f pic2graph; \
+sed -e "s|@g@||g" \
+    -e "s|@VERSION@|1.18.1|" \
+    -e 1s/a/a/ /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/contrib/pic2graph/pic2graph.sh >pic2graph; \
+chmod +x pic2graph
+Making pic2graph.n from pic2graph.man
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/contrib/pic2graph'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/contrib/eqn2graph'
+rm -f eqn2graph; \
+sed -e "s|@g@||g" \
+    -e "s|@VERSION@|1.18.1|" \
+    -e 1s/a/a/ /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/contrib/eqn2graph/eqn2graph.sh >eqn2graph; \
+chmod +x eqn2graph
+Making eqn2graph.n from eqn2graph.man
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/contrib/eqn2graph'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/contrib/groffer'
+rm -f groffer; \
+sed -e "s|@BINDIR@|/usr/bin|g" \
+    -e "s|@VERSION@|1.18.1|g" \
+    -e 1s/a/a/ /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/contrib/groffer/groffer.sh >groffer; \
+chmod +x groffer
+Making groffer.n from groffer.man
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/contrib/groffer'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/contrib/mom'
+test -d examples || /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/mkinstalldirs examples
+test -f penguin.ps || cp /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/contrib/mom/examples/penguin.ps .
+GROFF_COMMAND_PREFIX=''; export GROFF_COMMAND_PREFIX; GROFF_BIN_PATH=`echo /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/roff/groff /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/roff/troff /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/devices/grops | sed -e 's|  *|:|g'`; export GROFF_BIN_PATH; /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/roff/groff/groff -F/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/font -F/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/font -M/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/tmac -M/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/tmac -M/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/contrib/mom -Tps -mom examples/letter.mom >examples/letter.ps
+GROFF_COMMAND_PREFIX=''; export GROFF_COMMAND_PREFIX; GROFF_BIN_PATH=`echo /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/roff/groff /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/roff/troff /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/devices/grops | sed -e 's|  *|:|g'`; export GROFF_BIN_PATH; /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/roff/groff/groff -F/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/font -F/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/font -M/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/tmac -M/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/tmac -M/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/contrib/mom -Tps -mom examples/macros.mom >examples/macros.ps
+GROFF_COMMAND_PREFIX=''; export GROFF_COMMAND_PREFIX; GROFF_BIN_PATH=`echo /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/roff/groff /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/roff/troff /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/devices/grops | sed -e 's|  *|:|g'`; export GROFF_BIN_PATH; /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/roff/groff/groff -F/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/font -F/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/font -M/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/tmac -M/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/tmac -M/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/contrib/mom -Tps -mom examples/typeset.mom >examples/typeset.ps
+GROFF_COMMAND_PREFIX=''; export GROFF_COMMAND_PREFIX; GROFF_BIN_PATH=`echo /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/roff/groff /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/roff/troff /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/devices/grops | sed -e 's|  *|:|g'`; export GROFF_BIN_PATH; /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/roff/groff/groff -F/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/font -F/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/font -M/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/tmac -M/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/tmac -M/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/contrib/mom -Tps -mom examples/typewrite.mom >examples/typewrite.ps
+Making groff_mom.n from groff_mom.man
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/contrib/mom'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/doc'
+GROFF_COMMAND_PREFIX=''; export GROFF_COMMAND_PREFIX; GROFF_BIN_PATH=`echo /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/roff/groff /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/roff/troff /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/preproc/pic /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/preproc/eqn /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/preproc/tbl /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/preproc/grn /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/preproc/refer /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/preproc/soelim /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/preproc/html /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/devices/grops /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/devices/grohtml | sed -e 's|  *|:|g'`; export GROFF_BIN_PATH; sed -e "s;@VERSION@;1.18.1;" meref.me | /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/roff/groff/groff -M/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/tmac -M/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/tmac -F/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/font -F/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/font -Upet -ww -Tps -ge -me >meref.ps
+GROFF_COMMAND_PREFIX=''; export GROFF_COMMAND_PREFIX; GROFF_BIN_PATH=`echo /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/roff/groff /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/roff/troff /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/preproc/pic /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/preproc/eqn /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/preproc/tbl /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/preproc/grn /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/preproc/refer /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/preproc/soelim /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/preproc/html /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/devices/grops /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/devices/grohtml | sed -e 's|  *|:|g'`; export GROFF_BIN_PATH; sed -e "s;@VERSION@;1.18.1;" meintro.me | /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/roff/groff/groff -M/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/tmac -M/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/tmac -F/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/font -F/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/font -Upet -ww -Tps -ge -me >meintro.ps
+GROFF_COMMAND_PREFIX=''; export GROFF_COMMAND_PREFIX; GROFF_BIN_PATH=`echo /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/roff/groff /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/roff/troff /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/preproc/pic /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/preproc/eqn /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/preproc/tbl /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/preproc/grn /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/preproc/refer /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/preproc/soelim /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/preproc/html /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/devices/grops /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/devices/grohtml | sed -e 's|  *|:|g'`; export GROFF_BIN_PATH; sed -e "s;@VERSION@;1.18.1;" pic.ms | /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/roff/groff/groff -M/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/tmac -M/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/tmac -F/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/font -F/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/font -Upet -ww -Tps -ms -mwww >pic.ps
+test -f grnexmpl.g || cp /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/doc/grnexmpl.g .
+GROFF_COMMAND_PREFIX=''; export GROFF_COMMAND_PREFIX; GROFF_BIN_PATH=`echo /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/roff/groff /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/roff/troff /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/preproc/pic /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/preproc/eqn /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/preproc/tbl /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/preproc/grn /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/preproc/refer /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/preproc/soelim /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/preproc/html /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/devices/grops /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/devices/grohtml | sed -e 's|  *|:|g'`; export GROFF_BIN_PATH; sed -e "s;@VERSION@;1.18.1;" webpage.ms | /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/roff/groff/groff -M/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/tmac -M/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/tmac -F/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/font -F/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/font -Upet -ww -Tps -ms -mwww >webpage.ps
+GROFF_COMMAND_PREFIX=''; export GROFF_COMMAND_PREFIX; GROFF_BIN_PATH=`echo /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/roff/groff /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/roff/troff /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/preproc/pic /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/preproc/eqn /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/preproc/tbl /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/preproc/grn /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/preproc/refer /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/preproc/soelim /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/preproc/html /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/devices/grops /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/devices/grohtml | sed -e 's|  *|:|g'`; export GROFF_BIN_PATH; sed -e "s;@VERSION@;1.18.1;" grnexmpl.me | /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/src/roff/groff/groff -M/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/tmac -M/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/tmac -F/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/font -F/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/font -Upet -ww -Tps -ge -me >grnexmpl.ps
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1/doc'
+make[1]: Nothing to be done for `font/devps/generate'.
+make[1]: Nothing to be done for `font/devdvi/generate'.
+make[1]: Nothing to be done for `font/devlj4/generate'.
+make[1]: Nothing to be done for `src/xditview'.
+make[1]: Nothing to be done for `doc'.
+make[1]: Nothing to be done for `arch/djgpp'.
+make[1]: Nothing to be done for `contrib/mm/examples'.
+make[1]: Nothing to be done for `contrib/mm/mm'.
+make[1]: Nothing to be done for `contrib/mom/examples'.
+make[1]: Nothing to be done for `contrib/mom/momdoc'.
+make[1]: Nothing to be done for `src/libs/snprintf'.
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/groff/groff-1.18.1.1/unpack/groff-1.18.1.1'

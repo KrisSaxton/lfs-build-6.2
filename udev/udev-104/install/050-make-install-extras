@@ -1,0 +1,25 @@
+#!/bin/bash
+
+source configure
+
+pushd ../unpack/*
+
+make \
+    DESTDIR=$PWD/../../pkg/debian \
+    etcdir=/etc/udev/extras \
+    configdir=/etc/udev \
+    EXTRAS="\
+        extras/ata_id \
+        extras/cdrom_id \
+        extras/edd_id \
+        extras/firmware \
+        extras/floppy \
+        extras/path_id \
+        extras/rule_generator \
+        extras/scsi_id \
+        extras/usb_id \
+        extras/volume_id" \
+    install \
+    | tee ../../logs/050-make-install-extras.log
+
+popd

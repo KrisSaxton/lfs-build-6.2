@@ -1,0 +1,9 @@
+Package: AB_PACKAGE_INSTALL_NAME
+Version: 1.unpublished
+Section: unknown
+Priority: optional
+Architecture: all
+Essential: no
+Maintainer: Aethernet support team [support@aethernet.co.uk]
+Provides: AB_PACKAGE_NAME
+Description: AB_PACKAGE_DESC

@@ -1,0 +1,2 @@
+copy from vmlinux(elf32-i386) to vmlinux-2.6.33.20-1(elf32-i386)
+`System.map' -> `../../pkg/debian/boot/System.map-2.6.33.20-1'

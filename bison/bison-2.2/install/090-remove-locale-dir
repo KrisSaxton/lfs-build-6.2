@@ -1,0 +1,11 @@
+#!/bin/bash
+
+source configure
+
+pushd ../pkg/debian
+
+{
+rm -rf  usr/share/locale
+} | tee ../../logs/090-remove-locale-dir.log
+
+popd

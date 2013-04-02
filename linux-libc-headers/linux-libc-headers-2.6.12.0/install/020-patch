@@ -1,0 +1,12 @@
+#!/bin/bash
+
+source configure
+
+pushd ../unpack/*
+
+patch -Np1 -i ../../source/linux-libc-headers-2.6.12.0-inotify-3.patch | tee ../../logs/020-patch.log
+
+popd
+
+
+

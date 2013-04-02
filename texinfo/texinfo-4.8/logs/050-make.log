@@ -1,0 +1,200 @@
+make  all-recursive
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8'
+Making all in intl
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/intl'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/intl'
+Making all in m4
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/m4'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/m4'
+Making all in lib
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/lib'
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../intl    -g -O2 -MT getopt.o -MD -MP -MF ".deps/getopt.Tpo" -c -o getopt.o getopt.c; \
+then mv -f ".deps/getopt.Tpo" ".deps/getopt.Po"; else rm -f ".deps/getopt.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../intl    -g -O2 -MT getopt1.o -MD -MP -MF ".deps/getopt1.Tpo" -c -o getopt1.o getopt1.c; \
+then mv -f ".deps/getopt1.Tpo" ".deps/getopt1.Po"; else rm -f ".deps/getopt1.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../intl    -g -O2 -MT substring.o -MD -MP -MF ".deps/substring.Tpo" -c -o substring.o substring.c; \
+then mv -f ".deps/substring.Tpo" ".deps/substring.Po"; else rm -f ".deps/substring.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../intl    -g -O2 -MT xexit.o -MD -MP -MF ".deps/xexit.Tpo" -c -o xexit.o xexit.c; \
+then mv -f ".deps/xexit.Tpo" ".deps/xexit.Po"; else rm -f ".deps/xexit.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../intl    -g -O2 -MT xmalloc.o -MD -MP -MF ".deps/xmalloc.Tpo" -c -o xmalloc.o xmalloc.c; \
+then mv -f ".deps/xmalloc.Tpo" ".deps/xmalloc.Po"; else rm -f ".deps/xmalloc.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../intl    -g -O2 -MT xstrdup.o -MD -MP -MF ".deps/xstrdup.Tpo" -c -o xstrdup.o xstrdup.c; \
+then mv -f ".deps/xstrdup.Tpo" ".deps/xstrdup.Po"; else rm -f ".deps/xstrdup.Tpo"; exit 1; fi
+rm -f libtxi.a
+ar cru libtxi.a getopt.o getopt1.o substring.o xexit.o xmalloc.o xstrdup.o  
+ranlib libtxi.a
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/lib'
+Making all in info
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/info'
+if gcc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -DINFODIR=\"/usr/share/info\" -DINFODIR2=\"/usr/share/info\" -I. -I. -I.. -I. -I../lib -I../intl -I.. -I.    -g -O2 -MT makedoc.o -MD -MP -MF ".deps/makedoc.Tpo" -c -o makedoc.o makedoc.c; \
+then mv -f ".deps/makedoc.Tpo" ".deps/makedoc.Po"; else rm -f ".deps/makedoc.Tpo"; exit 1; fi
+gcc  -g -O2   -o makedoc  makedoc.o ../lib/libtxi.a -lncurses  
+rm -f doc.c key.c funs.h
+..//info/makedoc ./session.c ./echo-area.c ./infodoc.c ./m-x.c ./indices.c ./nodemenu.c ./footnotes.c ./variables.c
+make  all-am
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/info'
+if gcc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -DINFODIR=\"/usr/share/info\" -DINFODIR2=\"/usr/share/info\" -I. -I. -I.. -I. -I../lib -I../intl -I.. -I.    -g -O2 -MT dir.o -MD -MP -MF ".deps/dir.Tpo" -c -o dir.o dir.c; \
+then mv -f ".deps/dir.Tpo" ".deps/dir.Po"; else rm -f ".deps/dir.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -DINFODIR=\"/usr/share/info\" -DINFODIR2=\"/usr/share/info\" -I. -I. -I.. -I. -I../lib -I../intl -I.. -I.    -g -O2 -MT display.o -MD -MP -MF ".deps/display.Tpo" -c -o display.o display.c; \
+then mv -f ".deps/display.Tpo" ".deps/display.Po"; else rm -f ".deps/display.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -DINFODIR=\"/usr/share/info\" -DINFODIR2=\"/usr/share/info\" -I. -I. -I.. -I. -I../lib -I../intl -I.. -I.    -g -O2 -MT dribble.o -MD -MP -MF ".deps/dribble.Tpo" -c -o dribble.o dribble.c; \
+then mv -f ".deps/dribble.Tpo" ".deps/dribble.Po"; else rm -f ".deps/dribble.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -DINFODIR=\"/usr/share/info\" -DINFODIR2=\"/usr/share/info\" -I. -I. -I.. -I. -I../lib -I../intl -I.. -I.    -g -O2 -MT echo-area.o -MD -MP -MF ".deps/echo-area.Tpo" -c -o echo-area.o echo-area.c; \
+then mv -f ".deps/echo-area.Tpo" ".deps/echo-area.Po"; else rm -f ".deps/echo-area.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -DINFODIR=\"/usr/share/info\" -DINFODIR2=\"/usr/share/info\" -I. -I. -I.. -I. -I../lib -I../intl -I.. -I.    -g -O2 -MT filesys.o -MD -MP -MF ".deps/filesys.Tpo" -c -o filesys.o filesys.c; \
+then mv -f ".deps/filesys.Tpo" ".deps/filesys.Po"; else rm -f ".deps/filesys.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -DINFODIR=\"/usr/share/info\" -DINFODIR2=\"/usr/share/info\" -I. -I. -I.. -I. -I../lib -I../intl -I.. -I.    -g -O2 -MT footnotes.o -MD -MP -MF ".deps/footnotes.Tpo" -c -o footnotes.o footnotes.c; \
+then mv -f ".deps/footnotes.Tpo" ".deps/footnotes.Po"; else rm -f ".deps/footnotes.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -DINFODIR=\"/usr/share/info\" -DINFODIR2=\"/usr/share/info\" -I. -I. -I.. -I. -I../lib -I../intl -I.. -I.    -g -O2 -MT gc.o -MD -MP -MF ".deps/gc.Tpo" -c -o gc.o gc.c; \
+then mv -f ".deps/gc.Tpo" ".deps/gc.Po"; else rm -f ".deps/gc.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -DINFODIR=\"/usr/share/info\" -DINFODIR2=\"/usr/share/info\" -I. -I. -I.. -I. -I../lib -I../intl -I.. -I.    -g -O2 -MT indices.o -MD -MP -MF ".deps/indices.Tpo" -c -o indices.o indices.c; \
+then mv -f ".deps/indices.Tpo" ".deps/indices.Po"; else rm -f ".deps/indices.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -DINFODIR=\"/usr/share/info\" -DINFODIR2=\"/usr/share/info\" -I. -I. -I.. -I. -I../lib -I../intl -I.. -I.    -g -O2 -MT info-utils.o -MD -MP -MF ".deps/info-utils.Tpo" -c -o info-utils.o info-utils.c; \
+then mv -f ".deps/info-utils.Tpo" ".deps/info-utils.Po"; else rm -f ".deps/info-utils.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -DINFODIR=\"/usr/share/info\" -DINFODIR2=\"/usr/share/info\" -I. -I. -I.. -I. -I../lib -I../intl -I.. -I.    -g -O2 -MT info.o -MD -MP -MF ".deps/info.Tpo" -c -o info.o info.c; \
+then mv -f ".deps/info.Tpo" ".deps/info.Po"; else rm -f ".deps/info.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -DINFODIR=\"/usr/share/info\" -DINFODIR2=\"/usr/share/info\" -I. -I. -I.. -I. -I../lib -I../intl -I.. -I.    -g -O2 -MT infodoc.o -MD -MP -MF ".deps/infodoc.Tpo" -c -o infodoc.o infodoc.c; \
+then mv -f ".deps/infodoc.Tpo" ".deps/infodoc.Po"; else rm -f ".deps/infodoc.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -DINFODIR=\"/usr/share/info\" -DINFODIR2=\"/usr/share/info\" -I. -I. -I.. -I. -I../lib -I../intl -I.. -I.    -g -O2 -MT infomap.o -MD -MP -MF ".deps/infomap.Tpo" -c -o infomap.o infomap.c; \
+then mv -f ".deps/infomap.Tpo" ".deps/infomap.Po"; else rm -f ".deps/infomap.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -DINFODIR=\"/usr/share/info\" -DINFODIR2=\"/usr/share/info\" -I. -I. -I.. -I. -I../lib -I../intl -I.. -I.    -g -O2 -MT m-x.o -MD -MP -MF ".deps/m-x.Tpo" -c -o m-x.o m-x.c; \
+then mv -f ".deps/m-x.Tpo" ".deps/m-x.Po"; else rm -f ".deps/m-x.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -DINFODIR=\"/usr/share/info\" -DINFODIR2=\"/usr/share/info\" -I. -I. -I.. -I. -I../lib -I../intl -I.. -I.    -g -O2 -MT man.o -MD -MP -MF ".deps/man.Tpo" -c -o man.o man.c; \
+then mv -f ".deps/man.Tpo" ".deps/man.Po"; else rm -f ".deps/man.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -DINFODIR=\"/usr/share/info\" -DINFODIR2=\"/usr/share/info\" -I. -I. -I.. -I. -I../lib -I../intl -I.. -I.    -g -O2 -MT nodemenu.o -MD -MP -MF ".deps/nodemenu.Tpo" -c -o nodemenu.o nodemenu.c; \
+then mv -f ".deps/nodemenu.Tpo" ".deps/nodemenu.Po"; else rm -f ".deps/nodemenu.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -DINFODIR=\"/usr/share/info\" -DINFODIR2=\"/usr/share/info\" -I. -I. -I.. -I. -I../lib -I../intl -I.. -I.    -g -O2 -MT nodes.o -MD -MP -MF ".deps/nodes.Tpo" -c -o nodes.o nodes.c; \
+then mv -f ".deps/nodes.Tpo" ".deps/nodes.Po"; else rm -f ".deps/nodes.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -DINFODIR=\"/usr/share/info\" -DINFODIR2=\"/usr/share/info\" -I. -I. -I.. -I. -I../lib -I../intl -I.. -I.    -g -O2 -MT search.o -MD -MP -MF ".deps/search.Tpo" -c -o search.o search.c; \
+then mv -f ".deps/search.Tpo" ".deps/search.Po"; else rm -f ".deps/search.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -DINFODIR=\"/usr/share/info\" -DINFODIR2=\"/usr/share/info\" -I. -I. -I.. -I. -I../lib -I../intl -I.. -I.    -g -O2 -MT session.o -MD -MP -MF ".deps/session.Tpo" -c -o session.o session.c; \
+then mv -f ".deps/session.Tpo" ".deps/session.Po"; else rm -f ".deps/session.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -DINFODIR=\"/usr/share/info\" -DINFODIR2=\"/usr/share/info\" -I. -I. -I.. -I. -I../lib -I../intl -I.. -I.    -g -O2 -MT signals.o -MD -MP -MF ".deps/signals.Tpo" -c -o signals.o signals.c; \
+then mv -f ".deps/signals.Tpo" ".deps/signals.Po"; else rm -f ".deps/signals.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -DINFODIR=\"/usr/share/info\" -DINFODIR2=\"/usr/share/info\" -I. -I. -I.. -I. -I../lib -I../intl -I.. -I.    -g -O2 -MT terminal.o -MD -MP -MF ".deps/terminal.Tpo" -c -o terminal.o terminal.c; \
+then mv -f ".deps/terminal.Tpo" ".deps/terminal.Po"; else rm -f ".deps/terminal.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -DINFODIR=\"/usr/share/info\" -DINFODIR2=\"/usr/share/info\" -I. -I. -I.. -I. -I../lib -I../intl -I.. -I.    -g -O2 -MT tilde.o -MD -MP -MF ".deps/tilde.Tpo" -c -o tilde.o tilde.c; \
+then mv -f ".deps/tilde.Tpo" ".deps/tilde.Po"; else rm -f ".deps/tilde.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -DINFODIR=\"/usr/share/info\" -DINFODIR2=\"/usr/share/info\" -I. -I. -I.. -I. -I../lib -I../intl -I.. -I.    -g -O2 -MT variables.o -MD -MP -MF ".deps/variables.Tpo" -c -o variables.o variables.c; \
+then mv -f ".deps/variables.Tpo" ".deps/variables.Po"; else rm -f ".deps/variables.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -DINFODIR=\"/usr/share/info\" -DINFODIR2=\"/usr/share/info\" -I. -I. -I.. -I. -I../lib -I../intl -I.. -I.    -g -O2 -MT window.o -MD -MP -MF ".deps/window.Tpo" -c -o window.o window.c; \
+then mv -f ".deps/window.Tpo" ".deps/window.Po"; else rm -f ".deps/window.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -DINFODIR=\"/usr/share/info\" -DINFODIR2=\"/usr/share/info\" -I. -I. -I.. -I. -I../lib -I../intl -I.. -I.    -g -O2 -MT doc.o -MD -MP -MF ".deps/doc.Tpo" -c -o doc.o doc.c; \
+then mv -f ".deps/doc.Tpo" ".deps/doc.Po"; else rm -f ".deps/doc.Tpo"; exit 1; fi
+gcc  -g -O2   -o ginfo  dir.o display.o dribble.o echo-area.o filesys.o footnotes.o gc.o indices.o info-utils.o info.o infodoc.o infomap.o m-x.o man.o nodemenu.o nodes.o search.o session.o signals.o terminal.o tilde.o variables.o window.o doc.o ../lib/libtxi.a -lncurses  
+if gcc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -DINFODIR=\"/usr/share/info\" -DINFODIR2=\"/usr/share/info\" -I. -I. -I.. -I. -I../lib -I../intl -I.. -I.    -g -O2 -MT infokey.o -MD -MP -MF ".deps/infokey.Tpo" -c -o infokey.o infokey.c; \
+then mv -f ".deps/infokey.Tpo" ".deps/infokey.Po"; else rm -f ".deps/infokey.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -DINFODIR=\"/usr/share/info\" -DINFODIR2=\"/usr/share/info\" -I. -I. -I.. -I. -I../lib -I../intl -I.. -I.    -g -O2 -MT key.o -MD -MP -MF ".deps/key.Tpo" -c -o key.o key.c; \
+then mv -f ".deps/key.Tpo" ".deps/key.Po"; else rm -f ".deps/key.Tpo"; exit 1; fi
+gcc  -g -O2   -o infokey  infokey.o key.o ../lib/libtxi.a -lncurses  
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/info'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/info'
+Making all in makeinfo
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/makeinfo'
+Making all in tests
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/makeinfo/tests'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/makeinfo/tests'
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/makeinfo'
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib -I../intl -DLOCALEDIR=\"/usr/share/locale\"    -g -O2 -MT cmds.o -MD -MP -MF ".deps/cmds.Tpo" -c -o cmds.o cmds.c; \
+then mv -f ".deps/cmds.Tpo" ".deps/cmds.Po"; else rm -f ".deps/cmds.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib -I../intl -DLOCALEDIR=\"/usr/share/locale\"    -g -O2 -MT defun.o -MD -MP -MF ".deps/defun.Tpo" -c -o defun.o defun.c; \
+then mv -f ".deps/defun.Tpo" ".deps/defun.Po"; else rm -f ".deps/defun.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib -I../intl -DLOCALEDIR=\"/usr/share/locale\"    -g -O2 -MT files.o -MD -MP -MF ".deps/files.Tpo" -c -o files.o files.c; \
+then mv -f ".deps/files.Tpo" ".deps/files.Po"; else rm -f ".deps/files.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib -I../intl -DLOCALEDIR=\"/usr/share/locale\"    -g -O2 -MT float.o -MD -MP -MF ".deps/float.Tpo" -c -o float.o float.c; \
+then mv -f ".deps/float.Tpo" ".deps/float.Po"; else rm -f ".deps/float.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib -I../intl -DLOCALEDIR=\"/usr/share/locale\"    -g -O2 -MT footnote.o -MD -MP -MF ".deps/footnote.Tpo" -c -o footnote.o footnote.c; \
+then mv -f ".deps/footnote.Tpo" ".deps/footnote.Po"; else rm -f ".deps/footnote.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib -I../intl -DLOCALEDIR=\"/usr/share/locale\"    -g -O2 -MT html.o -MD -MP -MF ".deps/html.Tpo" -c -o html.o html.c; \
+then mv -f ".deps/html.Tpo" ".deps/html.Po"; else rm -f ".deps/html.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib -I../intl -DLOCALEDIR=\"/usr/share/locale\"    -g -O2 -MT index.o -MD -MP -MF ".deps/index.Tpo" -c -o index.o index.c; \
+then mv -f ".deps/index.Tpo" ".deps/index.Po"; else rm -f ".deps/index.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib -I../intl -DLOCALEDIR=\"/usr/share/locale\"    -g -O2 -MT insertion.o -MD -MP -MF ".deps/insertion.Tpo" -c -o insertion.o insertion.c; \
+then mv -f ".deps/insertion.Tpo" ".deps/insertion.Po"; else rm -f ".deps/insertion.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib -I../intl -DLOCALEDIR=\"/usr/share/locale\"    -g -O2 -MT lang.o -MD -MP -MF ".deps/lang.Tpo" -c -o lang.o lang.c; \
+then mv -f ".deps/lang.Tpo" ".deps/lang.Po"; else rm -f ".deps/lang.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib -I../intl -DLOCALEDIR=\"/usr/share/locale\"    -g -O2 -MT macro.o -MD -MP -MF ".deps/macro.Tpo" -c -o macro.o macro.c; \
+then mv -f ".deps/macro.Tpo" ".deps/macro.Po"; else rm -f ".deps/macro.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib -I../intl -DLOCALEDIR=\"/usr/share/locale\"    -g -O2 -MT makeinfo.o -MD -MP -MF ".deps/makeinfo.Tpo" -c -o makeinfo.o makeinfo.c; \
+then mv -f ".deps/makeinfo.Tpo" ".deps/makeinfo.Po"; else rm -f ".deps/makeinfo.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib -I../intl -DLOCALEDIR=\"/usr/share/locale\"    -g -O2 -MT multi.o -MD -MP -MF ".deps/multi.Tpo" -c -o multi.o multi.c; \
+then mv -f ".deps/multi.Tpo" ".deps/multi.Po"; else rm -f ".deps/multi.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib -I../intl -DLOCALEDIR=\"/usr/share/locale\"    -g -O2 -MT node.o -MD -MP -MF ".deps/node.Tpo" -c -o node.o node.c; \
+then mv -f ".deps/node.Tpo" ".deps/node.Po"; else rm -f ".deps/node.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib -I../intl -DLOCALEDIR=\"/usr/share/locale\"    -g -O2 -MT sectioning.o -MD -MP -MF ".deps/sectioning.Tpo" -c -o sectioning.o sectioning.c; \
+then mv -f ".deps/sectioning.Tpo" ".deps/sectioning.Po"; else rm -f ".deps/sectioning.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib -I../intl -DLOCALEDIR=\"/usr/share/locale\"    -g -O2 -MT toc.o -MD -MP -MF ".deps/toc.Tpo" -c -o toc.o toc.c; \
+then mv -f ".deps/toc.Tpo" ".deps/toc.Po"; else rm -f ".deps/toc.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib -I../intl -DLOCALEDIR=\"/usr/share/locale\"    -g -O2 -MT xml.o -MD -MP -MF ".deps/xml.Tpo" -c -o xml.o xml.c; \
+then mv -f ".deps/xml.Tpo" ".deps/xml.Po"; else rm -f ".deps/xml.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib -I../intl -DLOCALEDIR=\"/usr/share/locale\"    -g -O2 -MT xref.o -MD -MP -MF ".deps/xref.Tpo" -c -o xref.o xref.c; \
+then mv -f ".deps/xref.Tpo" ".deps/xref.Po"; else rm -f ".deps/xref.Tpo"; exit 1; fi
+gcc  -g -O2   -o makeinfo  cmds.o defun.o files.o float.o footnote.o html.o index.o insertion.o lang.o macro.o makeinfo.o multi.o node.o sectioning.o toc.o xml.o xref.o ../lib/libtxi.a  
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/makeinfo'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/makeinfo'
+Making all in po
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/po'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/po'
+Making all in util
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/util'
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib -I../intl -DLOCALEDIR=\"/usr/share/locale\"    -g -O2 -MT install-info.o -MD -MP -MF ".deps/install-info.Tpo" -c -o install-info.o install-info.c; \
+then mv -f ".deps/install-info.Tpo" ".deps/install-info.Po"; else rm -f ".deps/install-info.Tpo"; exit 1; fi
+gcc  -g -O2   -o ginstall-info  install-info.o ../lib/libtxi.a  
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib -I../intl -DLOCALEDIR=\"/usr/share/locale\"    -g -O2 -MT texindex.o -MD -MP -MF ".deps/texindex.Tpo" -c -o texindex.o texindex.c; \
+then mv -f ".deps/texindex.Tpo" ".deps/texindex.Po"; else rm -f ".deps/texindex.Tpo"; exit 1; fi
+gcc  -g -O2   -o texindex  texindex.o ../lib/libtxi.a  
+sed 's/__VERSION__/4.8/g' ./texinfo-cat.in >texinfo.cat
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/util'
+Making all in doc
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/doc'
+restore=: && backupdir=".am$$" && \
+rm -rf $backupdir && mkdir $backupdir && \
+for f in texinfo texinfo-[0-9] texinfo-[0-9][0-9] texinfo.i[0-9] texinfo.i[0-9][0-9]; do \
+  if test -f $f; then mv $f $backupdir; restore=mv; else :; fi; \
+done; \
+if ..//makeinfo/makeinfo   -I . \
+ -o texinfo `test -f 'texinfo.txi' || echo './'`texinfo.txi; \
+then \
+  rc=0; \
+else \
+  rc=$?; \
+  $restore $backupdir/* `echo "./texinfo" | sed 's|[^/]*$||'`; \
+fi; \
+rm -rf $backupdir; exit $rc
+restore=: && backupdir=".am$$" && \
+rm -rf $backupdir && mkdir $backupdir && \
+for f in info-stnd.info info-stnd.info-[0-9] info-stnd.info-[0-9][0-9] info-stnd.i[0-9] info-stnd.i[0-9][0-9]; do \
+  if test -f $f; then mv $f $backupdir; restore=mv; else :; fi; \
+done; \
+if ..//makeinfo/makeinfo   -I . \
+ -o info-stnd.info `test -f 'info-stnd.texi' || echo './'`info-stnd.texi; \
+then \
+  rc=0; \
+else \
+  rc=$?; \
+  $restore $backupdir/* `echo "./info-stnd.info" | sed 's|[^/]*$||'`; \
+fi; \
+rm -rf $backupdir; exit $rc
+restore=: && backupdir=".am$$" && \
+rm -rf $backupdir && mkdir $backupdir && \
+for f in info.info info.info-[0-9] info.info-[0-9][0-9] info.i[0-9] info.i[0-9][0-9]; do \
+  if test -f $f; then mv $f $backupdir; restore=mv; else :; fi; \
+done; \
+if ..//makeinfo/makeinfo   -I . \
+ -o info.info `test -f 'info.texi' || echo './'`info.texi; \
+then \
+  rc=0; \
+else \
+  rc=$?; \
+  $restore $backupdir/* `echo "./info.info" | sed 's|[^/]*$||'`; \
+fi; \
+rm -rf $backupdir; exit $rc
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8/doc'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8'
+make[2]: Nothing to be done for `all-am'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/texinfo/texinfo-4.8/unpack/texinfo-4.8'

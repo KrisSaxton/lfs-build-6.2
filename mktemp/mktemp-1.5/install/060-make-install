@@ -1,0 +1,25 @@
+#!/bin/bash
+
+source configure
+
+pushd ../unpack/*
+
+{
+
+DESTDIR=$PWD/../../pkg/debian
+bindir=$DESTDIR/usr/bin
+mandir=$DESTDIR/usr/share/man
+
+make install \
+    DESTDIR=$DESTDIR \
+    bindir=$bindir \
+    mandir=$mandir
+
+make install-tempfile \
+    DESTDIR=$DESTDIR \
+    bindir=$bindir \
+    mandir=$mandir
+    
+} | tee ../../logs/060-make-install.log
+
+popd

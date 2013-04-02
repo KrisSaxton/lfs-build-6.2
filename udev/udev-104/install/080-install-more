@@ -1,0 +1,23 @@
+#!/bin/bash
+
+source configure
+
+mkdir -p ../pkg/debian
+pushd ../pkg/debian
+
+{
+install -dv lib/{firmware,udev/devices/{pts,shm}}
+
+mknod -m0666 lib/udev/devices/null c 1 3
+
+ln -sv /proc/self/fd    lib/udev/devices/fd
+ln -sv /proc/self/fd/0  lib/udev/devices/stdin
+ln -sv /proc/self/fd/1  lib/udev/devices/stdout
+ln -sv /proc/self/fd/2  lib/udev/devices/stderr
+ln -sv /proc/kcore      lib/udev/devices/core
+
+rm sbin/scsi_id && ln -v lib/udev/scsi_id sbin/scsi_id
+
+} | tee ../../logs/080-install-more.log
+
+popd

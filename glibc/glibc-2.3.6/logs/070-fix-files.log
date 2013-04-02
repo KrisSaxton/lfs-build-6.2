@@ -1,0 +1,7 @@
+removed `usr/share/info/dir'
+`usr/share/zoneinfo/UTC' -> `etc/localtime.d/UTC'
+removed `etc/localtime'
+create symbolic link `etc/localtime' to `localtime.d/UTC'
+`../../files/group' -> `etc/group'
+`../../files/passwd' -> `etc/passwd'
+`../../files/ld.so.conf' -> `etc/ld.so.conf'

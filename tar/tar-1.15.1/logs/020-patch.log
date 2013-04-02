@@ -1,0 +1,3 @@
+patching file tests/genfile.c
+patching file src/xheader.c
+patching file src/sparse.c

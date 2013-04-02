@@ -1,0 +1,9 @@
+#!/bin/bash
+
+source configure
+
+pushd ../pkg/debian
+
+chmod -v 644 usr/lib/libz.a | tee ../../logs/090-fix-static.log
+
+popd

@@ -1,0 +1,10 @@
+Package: AB_PACKAGE_NAME-AB_PACKAGE_VERSION
+Version: AB_PACKAGE_VERSION
+Section: unknown
+Priority: required
+Architecture: all
+Essential: no
+Depends: bison-2.2, flex-2.5.33
+Maintainer: Aethernet support team [support@aethernet.co.uk]
+Provides: AB_PACKAGE_NAME
+Description: AB_PACKAGE_DESC

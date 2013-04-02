@@ -1,0 +1,62 @@
+#!/bin/bash
+
+################################################################################
+# BEGIN
+################################################################################
+
+source functions
+
+################################################################################
+# GLOBALS
+################################################################################
+
+ABSetDefault AB_SYSTEM_INSTALL_DIR                              /usr
+
+################################################################################
+# DEPENDENCIES
+################################################################################
+
+ABSetDefault AB_PACKAGE_PERL_DEPENDS                 PKG_DEPENDS
+
+ABSetDefault AB_PACKAGE_PKG_DEPENDS_INSTALL_ENABLE              no
+ABSetDefault AB_PACKAGE_PKG_DEPENDS_INSTALL_FORCE               no
+ABSetDefault AB_PACKAGE_PKG_DEPENDS_INSTALL_NAME                pkgdependsname
+ABSetDefault AB_PACKAGE_PKG_DEPENDS_INSTALL_DIR                 $AB_SYSTEM_INSTALL_DIR/$AB_PACKAGE_PKG_DEPENDS_INSTALL_NAME
+ABSetDefault AB_PACKAGE_PKG_DEPENDS_INCLUDE_DIR                 $AB_PACKAGE_PKG_DEPENDS_INSTALL_DIR/include
+ABSetDefault AB_PACKAGE_PKG_DEPENDS_LIB_DIR                     $AB_PACKAGE_PKG_DEPENDS_INSTALL_DIR/lib
+
+#ABSetCompileFlags $AB_PACKAGE_PERL_DEPENDS
+
+################################################################################
+# CONFIGURATION
+################################################################################
+
+ABSetDefault AB_PACKAGE_PERL_NAME                      perl
+ABSetDefault AB_PACKAGE_PERL_VERSION                   5.8.8-rt-1
+ABSetDefault AB_PACKAGE_PERL_DESC                      'The Pathalogically Eclectic Rubbish Lister'
+
+ABSetDefault AB_PACKAGE_PERL_INSTALL_NAME              ${AB_PACKAGE_PERL_NAME}-${AB_PACKAGE_PERL_VERSION}
+
+ABSetDefault AB_PACKAGE_PERL_INSTALL_DIR               $AB_SYSTEM_INSTALL_DIR
+ABSetDefault AB_PACKAGE_PERL_INCLUDE_DIR               $AB_PACKAGE_PERL_INSTALL_DIR/include
+ABSetDefault AB_PACKAGE_PERL_LIB_DIR                   $AB_PACKAGE_PERL_INSTALL_DIR/lib
+
+ABSetDefault AB_PACKAGE_PERL_CONFIGURE_PREFIX          $AB_PACKAGE_PERL_INSTALL_DIR
+ABSetDefault AB_PACKAGE_PERL_CONFIGURE_WITH_EDITOR     /usr/bin/nano
+
+AB_PACKAGE_NAME=$AB_PACKAGE_PERL_NAME
+AB_PACKAGE_VERSION=$AB_PACKAGE_PERL_VERSION
+AB_PACKAGE_DESC=$AB_PACKAGE_PERL_DESC
+
+AB_PACKAGE_INSTALL_NAME=$AB_PACKAGE_PERL_INSTALL_NAME
+
+AB_PACKAGE_INSTALL_DIR=$AB_PACKAGE_PERL_INSTALL_DIR
+AB_PACKAGE_INCLUDE_DIR=$AB_PACKAGE_PERL_INCLUDE_DIR
+AB_PACKAGE_LIB_DIR=$AB_PACKAGE_PERL_LIB_DIR
+
+AB_PACKAGE_CONFIGURE_PREFIX=$AB_PACKAGE_PERL_CONFIGURE_PREFIX
+AB_PACKAGE_CONFIGURE_WITH_EDITOR=$AB_PACKAGE_PERL_CONFIGURE_WITH_EDITOR
+
+################################################################################
+# END
+################################################################################

@@ -1,0 +1,8 @@
+#!/bin/bash
+
+source configure
+
+
+pushd ../pkg/debian
+	ABPrepPkg | tee ../../logs/065-prep-package.log
+popd

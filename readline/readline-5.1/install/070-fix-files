@@ -1,0 +1,27 @@
+#!/bin/bash
+
+source configure
+
+pushd ../pkg/debian
+
+{
+
+mkdir -p usr/lib
+
+#Give Readline's dynamic libraries more appropriate permissions: 
+chmod -v 755 lib/lib{readline,history}.so*
+
+#Now move the static libraries to a more appropriate location: 
+mv -v lib/lib{readline,history}.a usr/lib
+
+# Next, remove the .so files in /lib and relink them into /usr/lib:
+rm -v lib/lib{readline,history}.so
+ln -sfv ../../lib/libreadline.so.5  usr/lib/libreadline.so
+ln -sfv ../../lib/libhistory.so.5   usr/lib/libhistory.so
+
+# Remove info/dir file which causes package management problems
+rm -v usr/share/info/dir
+
+} | tee ../../logs/070-fix-files.log
+
+popd

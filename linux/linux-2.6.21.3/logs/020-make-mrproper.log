@@ -1,0 +1,19 @@
+  CLEAN   arch/i386/boot/compressed
+  CLEAN   arch/i386/boot
+  CLEAN   /mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/linux/linux-2.6.21.3/unpack/linux-2.6.21.3
+  CLEAN   arch/i386/kernel
+  CLEAN   drivers/char
+  CLEAN   drivers/md
+  CLEAN   drivers/scsi/aic7xxx
+  CLEAN   init
+  CLEAN   kernel
+  CLEAN   lib
+  CLEAN   usr
+  CLEAN   .tmp_versions
+  CLEAN   vmlinux System.map .tmp_kallsyms1.S .tmp_kallsyms1.o .tmp_kallsyms2.S .tmp_kallsyms2.o .tmp_vmlinux1 .tmp_vmlinux2 .tmp_System.map
+  CLEAN   scripts/basic
+  CLEAN   scripts/kconfig
+  CLEAN   scripts/mod
+  CLEAN   scripts
+  CLEAN   include/config
+  CLEAN   .config include/asm .version include/linux/autoconf.h include/linux/version.h include/linux/utsrelease.h Module.symvers

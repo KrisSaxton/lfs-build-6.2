@@ -1,0 +1,7 @@
+./mkinstalldirs ../../pkg/debian/usr/bin ../../pkg/debian/usr/man/man1
+/usr/bin/install -c less ../../pkg/debian/usr/bin/less
+/usr/bin/install -c lesskey ../../pkg/debian/usr/bin/lesskey
+/usr/bin/install -c lessecho ../../pkg/debian/usr/bin/lessecho
+/usr/bin/install -c -m 644 ./less.nro ../../pkg/debian/usr/man/man1/less.1
+/usr/bin/install -c -m 644 ./lesskey.nro ../../pkg/debian/usr/man/man1/lesskey.1
+/usr/bin/install -c -m 644 ./lessecho.nro ../../pkg/debian/usr/man/man1/lessecho.1

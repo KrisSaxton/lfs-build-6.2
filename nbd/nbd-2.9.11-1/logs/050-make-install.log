@@ -1,0 +1,12 @@
+make[1]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/nbd/nbd-2.9.11-1/unpack/nbd-2.9.11'
+test -z "/usr/local/pkg/nbd-2.9.11-1/bin" || /bin/mkdir -p "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/nbd/nbd-2.9.11-1/unpack/nbd-2.9.11/../../pkg/debian/usr/local/pkg/nbd-2.9.11-1/bin"
+  /usr/bin/install -c 'nbd-server' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/nbd/nbd-2.9.11-1/unpack/nbd-2.9.11/../../pkg/debian/usr/local/pkg/nbd-2.9.11-1/bin/nbd-server'
+test -z "/usr/local/pkg/nbd-2.9.11-1/sbin" || /bin/mkdir -p "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/nbd/nbd-2.9.11-1/unpack/nbd-2.9.11/../../pkg/debian/usr/local/pkg/nbd-2.9.11-1/sbin"
+  /usr/bin/install -c 'nbd-client' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/nbd/nbd-2.9.11-1/unpack/nbd-2.9.11/../../pkg/debian/usr/local/pkg/nbd-2.9.11-1/sbin/nbd-client'
+test -z "/usr/local/pkg/nbd-2.9.11-1/share/man/man1" || /bin/mkdir -p "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/nbd/nbd-2.9.11-1/unpack/nbd-2.9.11/../../pkg/debian/usr/local/pkg/nbd-2.9.11-1/share/man/man1"
+ /usr/bin/install -c -m 644 './nbd-server.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/nbd/nbd-2.9.11-1/unpack/nbd-2.9.11/../../pkg/debian/usr/local/pkg/nbd-2.9.11-1/share/man/man1/nbd-server.1'
+test -z "/usr/local/pkg/nbd-2.9.11-1/share/man/man5" || /bin/mkdir -p "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/nbd/nbd-2.9.11-1/unpack/nbd-2.9.11/../../pkg/debian/usr/local/pkg/nbd-2.9.11-1/share/man/man5"
+ /usr/bin/install -c -m 644 './nbd-server.5' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/nbd/nbd-2.9.11-1/unpack/nbd-2.9.11/../../pkg/debian/usr/local/pkg/nbd-2.9.11-1/share/man/man5/nbd-server.5'
+test -z "/usr/local/pkg/nbd-2.9.11-1/share/man/man8" || /bin/mkdir -p "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/nbd/nbd-2.9.11-1/unpack/nbd-2.9.11/../../pkg/debian/usr/local/pkg/nbd-2.9.11-1/share/man/man8"
+ /usr/bin/install -c -m 644 './nbd-client.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/nbd/nbd-2.9.11-1/unpack/nbd-2.9.11/../../pkg/debian/usr/local/pkg/nbd-2.9.11-1/share/man/man8/nbd-client.8'
+make[1]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/nbd/nbd-2.9.11-1/unpack/nbd-2.9.11'

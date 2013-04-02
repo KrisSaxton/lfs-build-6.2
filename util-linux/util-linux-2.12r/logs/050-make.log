@@ -1,0 +1,194 @@
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/util-linux/util-linux-2.12r/unpack/util-linux-2.12r/po'
+rm -f cat-id-tbl.tmp
+sed -f ./po2tbl.sed util-linux.pot \
+| sed -e "s/@PACKAGE NAME@/util-linux/" > cat-id-tbl.tmp
+if cmp -s cat-id-tbl.tmp cat-id-tbl.c; then \
+  rm cat-id-tbl.tmp; \
+else \
+  echo cat-id-tbl.c changed; \
+  rm -f cat-id-tbl.c; \
+  mv cat-id-tbl.tmp cat-id-tbl.c; \
+fi
+cat-id-tbl.c changed
+rm -f stamp-cat-id && echo timestamp > stamp-cat-id
+msgfmt -o ca.gmo ca.po
+msgfmt -o cs.gmo cs.po
+msgfmt -o da.gmo da.po
+msgfmt -o de.gmo de.po
+msgfmt -o es.gmo es.po
+msgfmt -o et.gmo et.po
+msgfmt -o fi.gmo fi.po
+msgfmt -o fr.gmo fr.po
+msgfmt -o it.gmo it.po
+msgfmt -o ja.gmo ja.po
+msgfmt -o nl.gmo nl.po
+msgfmt -o pt_BR.gmo pt_BR.po
+msgfmt -o sl.gmo sl.po
+msgfmt -o sv.gmo sv.po
+msgfmt -o tr.gmo tr.po
+msgfmt -o uk.gmo uk.po
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/util-linux/util-linux-2.12r/unpack/util-linux-2.12r/po'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/util-linux/util-linux-2.12r/unpack/util-linux-2.12r/lib'
+cc -c -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2 err.c -o err.o
+cc -c -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2 my_reboot.c -o my_reboot.o
+cc -c -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2 setproctitle.c -o setproctitle.o
+cc -c -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2 env.c -o env.o
+cc -c -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2 carefulputc.c -o carefulputc.o
+cc -c -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2 xstrncpy.c -o xstrncpy.o
+cc -c -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2 md5.c -o md5.o
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/util-linux/util-linux-2.12r/unpack/util-linux-2.12r/lib'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/util-linux/util-linux-2.12r/unpack/util-linux-2.12r/getopt'
+cc -c -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2 getopt.c -o getopt.o
+cc -s getopt.o -o getopt
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/util-linux/util-linux-2.12r/unpack/util-linux-2.12r/getopt'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/util-linux/util-linux-2.12r/unpack/util-linux-2.12r/disk-utils'
+cc -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2  -s  mkfs.c   -o mkfs
+cc -c -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2 mkswap.c -o mkswap.o
+cc -s -o mkswap mkswap.o ../lib/xstrncpy.o -luuid
+cc -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2  -s  blockdev.c   -o blockdev
+cc -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2  -s  elvtune.c   -o elvtune
+cc -c -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2 fsck.minix.c -o fsck.minix.o
+cc -s  fsck.minix.o   -o fsck.minix
+cc -c -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2 mkfs.minix.c -o mkfs.minix.o
+cc -s  mkfs.minix.o   -o mkfs.minix
+cc -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2  -s  mkfs.bfs.c   -o mkfs.bfs
+cc -c -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2 fsck.cramfs.c -o fsck.cramfs.o
+cc -s -o fsck.cramfs fsck.cramfs.o -lz
+cc -c -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2 mkfs.cramfs.c -o mkfs.cramfs.o
+cc -s -o mkfs.cramfs mkfs.cramfs.o ../lib/md5.o -lz
+cc -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2  -s  fdformat.c   -o fdformat
+cc -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2  -s  isosize.c   -o isosize
+cc -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2  -s  setfdprm.c   -o setfdprm
+cc -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2  -s  raw.c   -o raw
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/util-linux/util-linux-2.12r/unpack/util-linux-2.12r/disk-utils'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/util-linux/util-linux-2.12r/unpack/util-linux-2.12r/login-utils'
+cc -c -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2 agetty.c -o agetty.o
+cc -s  agetty.o ../lib/xstrncpy.o   -o agetty
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/util-linux/util-linux-2.12r/unpack/util-linux-2.12r/login-utils'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/util-linux/util-linux-2.12r/unpack/util-linux-2.12r/misc-utils'
+cc -c -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2 cal.c -o cal.o
+cc -s cal.o ../lib/err.o -o cal -lncurses
+cp chkdupexe.pl chkdupexe
+chmod 755 chkdupexe
+cc -c -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2 ddate.c -o ddate.o
+cc -s  ddate.o   -o ddate
+cc -c -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2 logger.c -o logger.o
+cc -s  logger.o   -o logger
+cc -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2  -s  look.c   -o look
+cc -c -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2 mcookie.c -o mcookie.o
+cc -s  mcookie.o ../lib/md5.o   -o mcookie
+cc -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2  -s  namei.c   -o namei
+cc -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2  -s  rename.c   -o rename
+cc -c -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2 script.c -o script.o
+cc -s script.o -o script  -lutil
+cc -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2  -s  whereis.c   -o whereis
+cc -c -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2 write.c -o write.o
+cc -s  write.o ../lib/carefulputc.o   -o write
+cc -c -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2 setterm.c -o setterm.o
+cc -s setterm.o -o setterm -lncurses
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/util-linux/util-linux-2.12r/unpack/util-linux-2.12r/misc-utils'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/util-linux/util-linux-2.12r/unpack/util-linux-2.12r/mount'
+cc -c -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2 -DHAVE_NFS -DHAVE_BLKID mount.c
+cc -c -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2 -DHAVE_NFS -DHAVE_BLKID fstab.c
+cp rpcsvc/nfsmount.h .
+cc -c -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2 -DHAVE_NFS -DHAVE_BLKID sundries.c
+cc -c -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2 -DHAVE_NFS -DHAVE_BLKID xmalloc.c
+cc -c -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2 -DHAVE_NFS -DHAVE_BLKID realpath.c
+cc -c -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2 -DHAVE_NFS -DHAVE_BLKID mntent.c
+cc -c -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2 -DHAVE_NFS -DHAVE_BLKID version.c
+cc -c -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2 -DHAVE_NFS -DHAVE_BLKID get_label_uuid.c
+cc -c -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2 -DHAVE_NFS -DHAVE_BLKID mount_by_label.c
+cc -c -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2 -DHAVE_NFS -DHAVE_BLKID mount_blkid.c
+cc -c -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2 -DHAVE_NFS -DHAVE_BLKID mount_guess_fstype.c
+cc -c -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2 -DHAVE_NFS -DHAVE_BLKID getusername.c
+cc -c -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2 -DHAVE_NFS -DHAVE_BLKID nfsmount.c
+cp rpcsvc/nfsmount_xdr.c .
+cc -c -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2 -DHAVE_NFS -DHAVE_BLKID -Wno-unused  nfsmount_xdr.c
+cp rpcsvc/nfsmount_clnt.c .
+cc -c -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2 -DHAVE_NFS -DHAVE_BLKID -Wno-unused  nfsmount_clnt.c
+cc -c -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2 -DHAVE_NFS -DHAVE_BLKID lomount.c
+cc -s mount.o fstab.o sundries.o xmalloc.o realpath.o mntent.o version.o get_label_uuid.o mount_by_label.o mount_blkid.o mount_guess_fstype.o getusername.o ../lib/setproctitle.o ../lib/env.o nfsmount.o nfsmount_xdr.o nfsmount_clnt.o lomount.o ../lib/xstrncpy.o -o mount -lblkid -luuid
+cc -c -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2 -DHAVE_NFS -DHAVE_BLKID umount.c
+cc -s umount.o fstab.o sundries.o xmalloc.o realpath.o mntent.o getusername.o get_label_uuid.o mount_by_label.o mount_blkid.o version.o ../lib/env.o lomount.o ../lib/xstrncpy.o -o umount -lblkid -luuid
+sh swap.configure
+cc -c -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2 -DHAVE_NFS -DHAVE_BLKID swapon.c
+cc -s swapon.o version.o xmalloc.o get_label_uuid.o mount_by_label.o mount_blkid.o -o swapon -lblkid -luuid
+cc -c -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2 -DHAVE_NFS -DHAVE_BLKID -DMAIN lomount.c -o main_losetup.o
+cc -s main_losetup.o ../lib/xstrncpy.o -o losetup
+cc -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2  -s  pivot_root.c   -o pivot_root
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/util-linux/util-linux-2.12r/unpack/util-linux-2.12r/mount'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/util-linux/util-linux-2.12r/unpack/util-linux-2.12r/fdisk'
+cc -c -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2 fdisk.c -o fdisk.o
+cc -c -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2 llseek.c -o llseek.o
+cc -c -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2 disksize.c -o disksize.o
+cc -c -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2 fdiskbsdlabel.c -o fdiskbsdlabel.o
+cc -c -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2 fdisksgilabel.c -o fdisksgilabel.o
+cc -c -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2 fdisksunlabel.c -o fdisksunlabel.o
+cc -c -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2 fdiskaixlabel.c -o fdiskaixlabel.o
+cc -c -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2 i386_sys_types.c -o i386_sys_types.o
+cc -c -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2 partname.c -o partname.o
+cc -s  fdisk.o llseek.o disksize.o fdiskbsdlabel.o fdisksgilabel.o fdisksunlabel.o fdiskaixlabel.o i386_sys_types.o partname.o   -o fdisk
+cc -c -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2 cfdisk.c -o cfdisk.o
+cc -s cfdisk.o llseek.o disksize.o i386_sys_types.o ../lib/xstrncpy.o -o cfdisk -lncurses
+cc -c -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2 sfdisk.c -o sfdisk.o
+cc -s  sfdisk.o disksize.o i386_sys_types.o partname.o   -o sfdisk
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/util-linux/util-linux-2.12r/unpack/util-linux-2.12r/fdisk'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/util-linux/util-linux-2.12r/unpack/util-linux-2.12r/hwclock'
+cc -c -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2 hwclock.c -o hwclock.o
+cc -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall  -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2 -c cmos.c -o cmos.o
+cc -c -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2 rtc.c -o rtc.o
+cc -c -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2 kd.c -o kd.o
+cc -s  hwclock.o cmos.o rtc.o kd.o   -o hwclock
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/util-linux/util-linux-2.12r/unpack/util-linux-2.12r/hwclock'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/util-linux/util-linux-2.12r/unpack/util-linux-2.12r/sys-utils'
+cc -c -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2 ctrlaltdel.c -o ctrlaltdel.o
+cc -s  ctrlaltdel.o ../lib/my_reboot.o   -o ctrlaltdel
+cc -c -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2 arch.c -o arch.o
+cc -s  arch.o   -o arch
+cc -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2  -s  dmesg.c   -o dmesg
+cc -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall  -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2 -c cytune.c -o cytune.o
+cc -s  cytune.o   -o cytune
+cc -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2  -s  flock.c   -o flock
+cc -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall  -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2 -c ipcrm.c -o ipcrm.o
+cc -s  ipcrm.o   -o ipcrm
+cc -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall  -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2 -c ipcs.c -o ipcs.o
+cc -s  ipcs.o   -o ipcs
+cc -c -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2 renice.c -o renice.o
+cc -s  renice.o   -o renice
+cc -c -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2 setsid.c -o setsid.o
+cc -s  setsid.o   -o setsid
+cc -c -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2 readprofile.c -o readprofile.o
+cc -s  readprofile.o   -o readprofile
+cc -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2  -s  tunelp.c   -o tunelp
+cc -c -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2 rdev.c -o rdev.o
+cc -s  rdev.o   -o rdev
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/util-linux/util-linux-2.12r/unpack/util-linux-2.12r/sys-utils'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/util-linux/util-linux-2.12r/unpack/util-linux-2.12r/text-utils'
+cc -c -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2 more.c -o more.o
+cc -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2 -s more.o ../lib/xstrncpy.o -o more -lncurses
+cc -c -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2 col.c -o col.o
+cc -s  col.o   -o col
+cc -c -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2 colcrt.c -o colcrt.o
+cc -s  colcrt.o   -o colcrt
+cc -c -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2 colrm.c -o colrm.o
+cc -s  colrm.o   -o colrm
+cc -c -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2 column.c -o column.o
+cc -s  column.o ../lib/err.o   -o column
+cc -c -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2 hexdump.c -o hexdump.o
+cc -c -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2 conv.c -o conv.o
+cc -c -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2 display.c -o display.o
+cc -c -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2 hexsyntax.c -o hexsyntax.o
+cc -c -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2 odsyntax.c -o odsyntax.o
+cc -c -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2 parse.c -o parse.o
+cc -s  hexdump.o conv.o display.o hexsyntax.o odsyntax.o parse.o   -o hexdump
+cc -c -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2 rev.c -o rev.o
+cc -s  rev.o   -o rev
+cc -c -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2 line.c -o line.o
+cc -s  line.o   -o line
+cc -c -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2 tailf.c -o tailf.o
+cc -s  tailf.o   -o tailf
+cc -c -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2 ul.c -o ul.o
+cc -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2 -s ul.o -o ul -lncurses
+cc -c -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2 pg.c -o pg.o
+cc -pipe -O2 -mtune=i486 -fomit-frame-pointer -I../lib -Wall -Wmissing-prototypes -Wstrict-prototypes -DNCH=1   -D_FILE_OFFSET_BITS=64 -DSBINDIR=\"/sbin\" -DUSRSBINDIR=\"/usr/sbin\" -DLOGDIR=\"/var/log\" -DVARPATH=\"/var\" -DLOCALEDIR=\"/usr/share/locale\" -O2 -s pg.o -o pg -lncurses
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/util-linux/util-linux-2.12r/unpack/util-linux-2.12r/text-utils'

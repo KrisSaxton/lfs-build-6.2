@@ -1,0 +1,17 @@
+#!/bin/bash
+
+source configure
+
+pushd ../pkg/debian
+
+{
+mkdir   -vp usr/share/e2fsprogs
+mv      -v  usr/share/ss usr/share/e2fsprogs
+mv      -v  usr/share/et usr/share/e2fsprogs
+
+sed     -i -e "s@/usr/share/et@/usr/share/e2fsprogs/et@" usr/bin/compile_et
+sed     -i -e "s@/usr/share/ss@/usr/share/e2fsprogs/ss@" usr/bin/mk_cmds
+
+} | tee ../../logs/090-move-et-ss-dirs.log
+
+popd

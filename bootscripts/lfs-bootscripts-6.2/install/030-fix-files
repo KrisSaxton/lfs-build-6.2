@@ -1,0 +1,24 @@
+#!/bin/bash
+
+source configure
+
+pushd ../pkg/debian
+
+{
+# Remember to make any paths relative (i.e. ./usr rather than /usr)
+rm -v etc/rc.d/rc{1,2,4,5}.d/*
+
+# Give everything in rc0.d and rc6.d a K prefix instead of an S
+for n in 0 6; do
+  for i in etc/rc.d/rc$n.d/*; do
+    c=`echo $i | cut -d S -f 2`
+    mv -v etc/rc.d/rc$n.d/{S,K}$c
+  done
+done
+
+# We are using syslog-ng so we don't need the sysklogd scripts
+rm -v etc/rc.d/rc{0,3,6}.d/*sysklogd
+
+} | tee ../../logs/030-fix-files.log
+
+popd

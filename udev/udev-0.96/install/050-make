@@ -1,0 +1,12 @@
+#!/bin/bash
+
+source configure
+
+pushd ../unpack/*
+
+make EXTRAS="extras/ata_id extras/cdrom_id extras/edd_id \
+	extras/firmware extras/floppy extras/path_id \
+	extras/scsi_id extras/usb_id extras/volume_id" \
+	| tee ../../logs/050-make.log
+
+popd

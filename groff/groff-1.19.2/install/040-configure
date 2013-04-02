@@ -1,0 +1,20 @@
+#!/bin/bash
+
+################################################################################
+#
+# Note: The directories specified with --with-libs are passed to the makefile
+#       as -L options with /lib appended. Thus "--with-libs=:/usr" translates
+#       to "-L /lib -L /usr/lib" 
+#         
+################################################################################
+
+source configure
+
+pushd ../unpack/*
+
+PAGE=A4 ./configure \
+    --prefix=$AB_PACKAGE_CONFIGURE_PREFIX \
+        --enable-multibyte \
+    | tee ../../logs/040-configure.log
+
+popd

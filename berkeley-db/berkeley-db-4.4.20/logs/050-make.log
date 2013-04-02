@@ -1,0 +1,769 @@
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../db185/db185.c
+mkdir .libs
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../db185/db185.c  -fPIC -DPIC -o .libs/db185.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../db185/db185.c -o db185.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../mutex/mut_pthread.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../mutex/mut_pthread.c  -fPIC -DPIC -o .libs/mut_pthread.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../mutex/mut_pthread.c -o mut_pthread.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../btree/bt_compare.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../btree/bt_compare.c  -fPIC -DPIC -o .libs/bt_compare.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../btree/bt_compare.c -o bt_compare.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../btree/bt_conv.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../btree/bt_conv.c  -fPIC -DPIC -o .libs/bt_conv.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../btree/bt_conv.c -o bt_conv.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../btree/bt_curadj.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../btree/bt_curadj.c  -fPIC -DPIC -o .libs/bt_curadj.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../btree/bt_curadj.c -o bt_curadj.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../btree/bt_cursor.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../btree/bt_cursor.c  -fPIC -DPIC -o .libs/bt_cursor.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../btree/bt_cursor.c -o bt_cursor.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../btree/bt_delete.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../btree/bt_delete.c  -fPIC -DPIC -o .libs/bt_delete.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../btree/bt_delete.c -o bt_delete.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../btree/bt_method.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../btree/bt_method.c  -fPIC -DPIC -o .libs/bt_method.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../btree/bt_method.c -o bt_method.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../btree/bt_open.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../btree/bt_open.c  -fPIC -DPIC -o .libs/bt_open.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../btree/bt_open.c -o bt_open.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../btree/bt_put.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../btree/bt_put.c  -fPIC -DPIC -o .libs/bt_put.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../btree/bt_put.c -o bt_put.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../btree/bt_rec.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../btree/bt_rec.c  -fPIC -DPIC -o .libs/bt_rec.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../btree/bt_rec.c -o bt_rec.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../btree/bt_reclaim.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../btree/bt_reclaim.c  -fPIC -DPIC -o .libs/bt_reclaim.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../btree/bt_reclaim.c -o bt_reclaim.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../btree/bt_recno.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../btree/bt_recno.c  -fPIC -DPIC -o .libs/bt_recno.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../btree/bt_recno.c -o bt_recno.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../btree/bt_rsearch.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../btree/bt_rsearch.c  -fPIC -DPIC -o .libs/bt_rsearch.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../btree/bt_rsearch.c -o bt_rsearch.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../btree/bt_search.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../btree/bt_search.c  -fPIC -DPIC -o .libs/bt_search.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../btree/bt_search.c -o bt_search.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../btree/bt_split.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../btree/bt_split.c  -fPIC -DPIC -o .libs/bt_split.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../btree/bt_split.c -o bt_split.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../btree/bt_stat.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../btree/bt_stat.c  -fPIC -DPIC -o .libs/bt_stat.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../btree/bt_stat.c -o bt_stat.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../btree/bt_compact.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../btree/bt_compact.c  -fPIC -DPIC -o .libs/bt_compact.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../btree/bt_compact.c -o bt_compact.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../btree/bt_upgrade.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../btree/bt_upgrade.c  -fPIC -DPIC -o .libs/bt_upgrade.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../btree/bt_upgrade.c -o bt_upgrade.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../btree/btree_auto.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../btree/btree_auto.c  -fPIC -DPIC -o .libs/btree_auto.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../btree/btree_auto.c -o btree_auto.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../hash/hash.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../hash/hash.c  -fPIC -DPIC -o .libs/hash.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../hash/hash.c -o hash.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../hash/hash_auto.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../hash/hash_auto.c  -fPIC -DPIC -o .libs/hash_auto.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../hash/hash_auto.c -o hash_auto.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../hash/hash_conv.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../hash/hash_conv.c  -fPIC -DPIC -o .libs/hash_conv.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../hash/hash_conv.c -o hash_conv.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../hash/hash_dup.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../hash/hash_dup.c  -fPIC -DPIC -o .libs/hash_dup.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../hash/hash_dup.c -o hash_dup.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../hash/hash_meta.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../hash/hash_meta.c  -fPIC -DPIC -o .libs/hash_meta.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../hash/hash_meta.c -o hash_meta.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../hash/hash_method.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../hash/hash_method.c  -fPIC -DPIC -o .libs/hash_method.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../hash/hash_method.c -o hash_method.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../hash/hash_open.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../hash/hash_open.c  -fPIC -DPIC -o .libs/hash_open.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../hash/hash_open.c -o hash_open.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../hash/hash_page.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../hash/hash_page.c  -fPIC -DPIC -o .libs/hash_page.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../hash/hash_page.c -o hash_page.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../hash/hash_rec.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../hash/hash_rec.c  -fPIC -DPIC -o .libs/hash_rec.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../hash/hash_rec.c -o hash_rec.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../hash/hash_reclaim.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../hash/hash_reclaim.c  -fPIC -DPIC -o .libs/hash_reclaim.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../hash/hash_reclaim.c -o hash_reclaim.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../hash/hash_stat.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../hash/hash_stat.c  -fPIC -DPIC -o .libs/hash_stat.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../hash/hash_stat.c -o hash_stat.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../hash/hash_upgrade.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../hash/hash_upgrade.c  -fPIC -DPIC -o .libs/hash_upgrade.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../hash/hash_upgrade.c -o hash_upgrade.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../hash/hash_verify.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../hash/hash_verify.c  -fPIC -DPIC -o .libs/hash_verify.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../hash/hash_verify.c -o hash_verify.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../qam/qam.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../qam/qam.c  -fPIC -DPIC -o .libs/qam.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../qam/qam.c -o qam.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../qam/qam_auto.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../qam/qam_auto.c  -fPIC -DPIC -o .libs/qam_auto.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../qam/qam_auto.c -o qam_auto.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../qam/qam_conv.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../qam/qam_conv.c  -fPIC -DPIC -o .libs/qam_conv.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../qam/qam_conv.c -o qam_conv.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../qam/qam_files.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../qam/qam_files.c  -fPIC -DPIC -o .libs/qam_files.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../qam/qam_files.c -o qam_files.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../qam/qam_method.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../qam/qam_method.c  -fPIC -DPIC -o .libs/qam_method.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../qam/qam_method.c -o qam_method.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../qam/qam_open.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../qam/qam_open.c  -fPIC -DPIC -o .libs/qam_open.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../qam/qam_open.c -o qam_open.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../qam/qam_rec.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../qam/qam_rec.c  -fPIC -DPIC -o .libs/qam_rec.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../qam/qam_rec.c -o qam_rec.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../qam/qam_stat.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../qam/qam_stat.c  -fPIC -DPIC -o .libs/qam_stat.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../qam/qam_stat.c -o qam_stat.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../qam/qam_upgrade.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../qam/qam_upgrade.c  -fPIC -DPIC -o .libs/qam_upgrade.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../qam/qam_upgrade.c -o qam_upgrade.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../qam/qam_verify.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../qam/qam_verify.c  -fPIC -DPIC -o .libs/qam_verify.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../qam/qam_verify.c -o qam_verify.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../rep/rep_auto.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../rep/rep_auto.c  -fPIC -DPIC -o .libs/rep_auto.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../rep/rep_auto.c -o rep_auto.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../rep/rep_backup.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../rep/rep_backup.c  -fPIC -DPIC -o .libs/rep_backup.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../rep/rep_backup.c -o rep_backup.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../rep/rep_elect.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../rep/rep_elect.c  -fPIC -DPIC -o .libs/rep_elect.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../rep/rep_elect.c -o rep_elect.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../rep/rep_log.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../rep/rep_log.c  -fPIC -DPIC -o .libs/rep_log.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../rep/rep_log.c -o rep_log.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../rep/rep_method.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../rep/rep_method.c  -fPIC -DPIC -o .libs/rep_method.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../rep/rep_method.c -o rep_method.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../rep/rep_record.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../rep/rep_record.c  -fPIC -DPIC -o .libs/rep_record.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../rep/rep_record.c -o rep_record.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../rep/rep_region.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../rep/rep_region.c  -fPIC -DPIC -o .libs/rep_region.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../rep/rep_region.c -o rep_region.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../rep/rep_stat.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../rep/rep_stat.c  -fPIC -DPIC -o .libs/rep_stat.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../rep/rep_stat.c -o rep_stat.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../rep/rep_util.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../rep/rep_util.c  -fPIC -DPIC -o .libs/rep_util.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../rep/rep_util.c -o rep_util.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../rep/rep_verify.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../rep/rep_verify.c  -fPIC -DPIC -o .libs/rep_verify.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../rep/rep_verify.c -o rep_verify.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../db/db_ovfl_vrfy.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../db/db_ovfl_vrfy.c  -fPIC -DPIC -o .libs/db_ovfl_vrfy.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../db/db_ovfl_vrfy.c -o db_ovfl_vrfy.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../db/db_vrfy.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../db/db_vrfy.c  -fPIC -DPIC -o .libs/db_vrfy.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../db/db_vrfy.c -o db_vrfy.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../db/db_vrfyutil.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../db/db_vrfyutil.c  -fPIC -DPIC -o .libs/db_vrfyutil.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../db/db_vrfyutil.c -o db_vrfyutil.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../btree/bt_verify.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../btree/bt_verify.c  -fPIC -DPIC -o .libs/bt_verify.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../btree/bt_verify.c -o bt_verify.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../crypto/aes_method.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../crypto/aes_method.c  -fPIC -DPIC -o .libs/aes_method.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../crypto/aes_method.c -o aes_method.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../crypto/crypto.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../crypto/crypto.c  -fPIC -DPIC -o .libs/crypto.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../crypto/crypto.c -o crypto.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../crypto/mersenne/mt19937db.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../crypto/mersenne/mt19937db.c  -fPIC -DPIC -o .libs/mt19937db.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../crypto/mersenne/mt19937db.c -o mt19937db.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../crypto/rijndael/rijndael-alg-fst.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../crypto/rijndael/rijndael-alg-fst.c  -fPIC -DPIC -o .libs/rijndael-alg-fst.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../crypto/rijndael/rijndael-alg-fst.c -o rijndael-alg-fst.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../crypto/rijndael/rijndael-api-fst.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../crypto/rijndael/rijndael-api-fst.c  -fPIC -DPIC -o .libs/rijndael-api-fst.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../crypto/rijndael/rijndael-api-fst.c -o rijndael-api-fst.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../db/crdel_auto.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../db/crdel_auto.c  -fPIC -DPIC -o .libs/crdel_auto.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../db/crdel_auto.c -o crdel_auto.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../db/crdel_rec.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../db/crdel_rec.c  -fPIC -DPIC -o .libs/crdel_rec.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../db/crdel_rec.c -o crdel_rec.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../db/db.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../db/db.c  -fPIC -DPIC -o .libs/db.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../db/db.c -o db.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../db/db_am.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../db/db_am.c  -fPIC -DPIC -o .libs/db_am.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../db/db_am.c -o db_am.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../db/db_auto.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../db/db_auto.c  -fPIC -DPIC -o .libs/db_auto.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../db/db_auto.c -o db_auto.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../common/db_byteorder.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../common/db_byteorder.c  -fPIC -DPIC -o .libs/db_byteorder.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../common/db_byteorder.c -o db_byteorder.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../db/db_cam.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../db/db_cam.c  -fPIC -DPIC -o .libs/db_cam.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../db/db_cam.c -o db_cam.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../common/db_clock.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../common/db_clock.c  -fPIC -DPIC -o .libs/db_clock.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../common/db_clock.c -o db_clock.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../db/db_conv.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../db/db_conv.c  -fPIC -DPIC -o .libs/db_conv.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../db/db_conv.c -o db_conv.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../db/db_dispatch.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../db/db_dispatch.c  -fPIC -DPIC -o .libs/db_dispatch.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../db/db_dispatch.c -o db_dispatch.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../db/db_dup.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../db/db_dup.c  -fPIC -DPIC -o .libs/db_dup.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../db/db_dup.c -o db_dup.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../common/db_err.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../common/db_err.c  -fPIC -DPIC -o .libs/db_err.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../common/db_err.c -o db_err.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../common/db_getlong.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../common/db_getlong.c  -fPIC -DPIC -o .libs/db_getlong.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../common/db_getlong.c -o db_getlong.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../common/db_idspace.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../common/db_idspace.c  -fPIC -DPIC -o .libs/db_idspace.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../common/db_idspace.c -o db_idspace.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../db/db_iface.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../db/db_iface.c  -fPIC -DPIC -o .libs/db_iface.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../db/db_iface.c -o db_iface.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../db/db_join.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../db/db_join.c  -fPIC -DPIC -o .libs/db_join.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../db/db_join.c -o db_join.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../common/db_log2.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../common/db_log2.c  -fPIC -DPIC -o .libs/db_log2.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../common/db_log2.c -o db_log2.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../db/db_meta.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../db/db_meta.c  -fPIC -DPIC -o .libs/db_meta.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../db/db_meta.c -o db_meta.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../db/db_method.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../db/db_method.c  -fPIC -DPIC -o .libs/db_method.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../db/db_method.c -o db_method.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../db/db_open.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../db/db_open.c  -fPIC -DPIC -o .libs/db_open.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../db/db_open.c -o db_open.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../db/db_overflow.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../db/db_overflow.c  -fPIC -DPIC -o .libs/db_overflow.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../db/db_overflow.c -o db_overflow.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../db/db_pr.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../db/db_pr.c  -fPIC -DPIC -o .libs/db_pr.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../db/db_pr.c -o db_pr.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../db/db_rec.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../db/db_rec.c  -fPIC -DPIC -o .libs/db_rec.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../db/db_rec.c -o db_rec.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../db/db_reclaim.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../db/db_reclaim.c  -fPIC -DPIC -o .libs/db_reclaim.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../db/db_reclaim.c -o db_reclaim.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../db/db_rename.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../db/db_rename.c  -fPIC -DPIC -o .libs/db_rename.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../db/db_rename.c -o db_rename.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../db/db_remove.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../db/db_remove.c  -fPIC -DPIC -o .libs/db_remove.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../db/db_remove.c -o db_remove.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../db/db_ret.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../db/db_ret.c  -fPIC -DPIC -o .libs/db_ret.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../db/db_ret.c -o db_ret.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../env/db_salloc.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../env/db_salloc.c  -fPIC -DPIC -o .libs/db_salloc.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../env/db_salloc.c -o db_salloc.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../db/db_setid.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../db/db_setid.c  -fPIC -DPIC -o .libs/db_setid.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../db/db_setid.c -o db_setid.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../db/db_setlsn.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../db/db_setlsn.c  -fPIC -DPIC -o .libs/db_setlsn.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../db/db_setlsn.c -o db_setlsn.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../env/db_shash.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../env/db_shash.c  -fPIC -DPIC -o .libs/db_shash.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../env/db_shash.c -o db_shash.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../db/db_stati.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../db/db_stati.c  -fPIC -DPIC -o .libs/db_stati.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../db/db_stati.c -o db_stati.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../db/db_truncate.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../db/db_truncate.c  -fPIC -DPIC -o .libs/db_truncate.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../db/db_truncate.c -o db_truncate.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../db/db_upg.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../db/db_upg.c  -fPIC -DPIC -o .libs/db_upg.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../db/db_upg.c -o db_upg.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../db/db_upg_opd.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../db/db_upg_opd.c  -fPIC -DPIC -o .libs/db_upg_opd.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../db/db_upg_opd.c -o db_upg_opd.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../dbm/dbm.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../dbm/dbm.c  -fPIC -DPIC -o .libs/dbm.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../dbm/dbm.c -o dbm.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../dbreg/dbreg.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../dbreg/dbreg.c  -fPIC -DPIC -o .libs/dbreg.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../dbreg/dbreg.c -o dbreg.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../dbreg/dbreg_auto.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../dbreg/dbreg_auto.c  -fPIC -DPIC -o .libs/dbreg_auto.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../dbreg/dbreg_auto.c -o dbreg_auto.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../dbreg/dbreg_rec.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../dbreg/dbreg_rec.c  -fPIC -DPIC -o .libs/dbreg_rec.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../dbreg/dbreg_rec.c -o dbreg_rec.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../dbreg/dbreg_stat.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../dbreg/dbreg_stat.c  -fPIC -DPIC -o .libs/dbreg_stat.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../dbreg/dbreg_stat.c -o dbreg_stat.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../dbreg/dbreg_util.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../dbreg/dbreg_util.c  -fPIC -DPIC -o .libs/dbreg_util.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../dbreg/dbreg_util.c -o dbreg_util.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../env/env_failchk.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../env/env_failchk.c  -fPIC -DPIC -o .libs/env_failchk.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../env/env_failchk.c -o env_failchk.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../env/env_file.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../env/env_file.c  -fPIC -DPIC -o .libs/env_file.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../env/env_file.c -o env_file.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../env/env_method.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../env/env_method.c  -fPIC -DPIC -o .libs/env_method.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../env/env_method.c -o env_method.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../env/env_open.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../env/env_open.c  -fPIC -DPIC -o .libs/env_open.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../env/env_open.c -o env_open.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../env/env_recover.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../env/env_recover.c  -fPIC -DPIC -o .libs/env_recover.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../env/env_recover.c -o env_recover.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../env/env_region.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../env/env_region.c  -fPIC -DPIC -o .libs/env_region.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../env/env_region.c -o env_region.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../env/env_register.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../env/env_register.c  -fPIC -DPIC -o .libs/env_register.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../env/env_register.c -o env_register.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../env/env_stat.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../env/env_stat.c  -fPIC -DPIC -o .libs/env_stat.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../env/env_stat.c -o env_stat.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../fileops/fileops_auto.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../fileops/fileops_auto.c  -fPIC -DPIC -o .libs/fileops_auto.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../fileops/fileops_auto.c -o fileops_auto.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../fileops/fop_basic.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../fileops/fop_basic.c  -fPIC -DPIC -o .libs/fop_basic.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../fileops/fop_basic.c -o fop_basic.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../fileops/fop_rec.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../fileops/fop_rec.c  -fPIC -DPIC -o .libs/fop_rec.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../fileops/fop_rec.c -o fop_rec.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../fileops/fop_util.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../fileops/fop_util.c  -fPIC -DPIC -o .libs/fop_util.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../fileops/fop_util.c -o fop_util.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../hash/hash_func.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../hash/hash_func.c  -fPIC -DPIC -o .libs/hash_func.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../hash/hash_func.c -o hash_func.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../hmac/hmac.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../hmac/hmac.c  -fPIC -DPIC -o .libs/hmac.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../hmac/hmac.c -o hmac.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../hsearch/hsearch.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../hsearch/hsearch.c  -fPIC -DPIC -o .libs/hsearch.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../hsearch/hsearch.c -o hsearch.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../lock/lock.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../lock/lock.c  -fPIC -DPIC -o .libs/lock.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../lock/lock.c -o lock.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../lock/lock_deadlock.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../lock/lock_deadlock.c  -fPIC -DPIC -o .libs/lock_deadlock.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../lock/lock_deadlock.c -o lock_deadlock.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../lock/lock_failchk.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../lock/lock_failchk.c  -fPIC -DPIC -o .libs/lock_failchk.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../lock/lock_failchk.c -o lock_failchk.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../lock/lock_id.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../lock/lock_id.c  -fPIC -DPIC -o .libs/lock_id.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../lock/lock_id.c -o lock_id.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../lock/lock_list.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../lock/lock_list.c  -fPIC -DPIC -o .libs/lock_list.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../lock/lock_list.c -o lock_list.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../lock/lock_method.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../lock/lock_method.c  -fPIC -DPIC -o .libs/lock_method.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../lock/lock_method.c -o lock_method.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../lock/lock_region.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../lock/lock_region.c  -fPIC -DPIC -o .libs/lock_region.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../lock/lock_region.c -o lock_region.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../lock/lock_stat.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../lock/lock_stat.c  -fPIC -DPIC -o .libs/lock_stat.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../lock/lock_stat.c -o lock_stat.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../lock/lock_timer.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../lock/lock_timer.c  -fPIC -DPIC -o .libs/lock_timer.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../lock/lock_timer.c -o lock_timer.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../lock/lock_util.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../lock/lock_util.c  -fPIC -DPIC -o .libs/lock_util.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../lock/lock_util.c -o lock_util.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../log/log.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../log/log.c  -fPIC -DPIC -o .libs/log.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../log/log.c -o log.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../log/log_archive.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../log/log_archive.c  -fPIC -DPIC -o .libs/log_archive.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../log/log_archive.c -o log_archive.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../log/log_compare.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../log/log_compare.c  -fPIC -DPIC -o .libs/log_compare.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../log/log_compare.c -o log_compare.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../log/log_debug.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../log/log_debug.c  -fPIC -DPIC -o .libs/log_debug.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../log/log_debug.c -o log_debug.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../log/log_get.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../log/log_get.c  -fPIC -DPIC -o .libs/log_get.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../log/log_get.c -o log_get.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../log/log_method.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../log/log_method.c  -fPIC -DPIC -o .libs/log_method.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../log/log_method.c -o log_method.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../log/log_put.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../log/log_put.c  -fPIC -DPIC -o .libs/log_put.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../log/log_put.c -o log_put.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../log/log_stat.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../log/log_stat.c  -fPIC -DPIC -o .libs/log_stat.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../log/log_stat.c -o log_stat.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../mp/mp_alloc.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../mp/mp_alloc.c  -fPIC -DPIC -o .libs/mp_alloc.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../mp/mp_alloc.c -o mp_alloc.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../mp/mp_bh.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../mp/mp_bh.c  -fPIC -DPIC -o .libs/mp_bh.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../mp/mp_bh.c -o mp_bh.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../mp/mp_fget.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../mp/mp_fget.c  -fPIC -DPIC -o .libs/mp_fget.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../mp/mp_fget.c -o mp_fget.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../mp/mp_fmethod.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../mp/mp_fmethod.c  -fPIC -DPIC -o .libs/mp_fmethod.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../mp/mp_fmethod.c -o mp_fmethod.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../mp/mp_fopen.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../mp/mp_fopen.c  -fPIC -DPIC -o .libs/mp_fopen.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../mp/mp_fopen.c -o mp_fopen.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../mp/mp_fput.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../mp/mp_fput.c  -fPIC -DPIC -o .libs/mp_fput.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../mp/mp_fput.c -o mp_fput.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../mp/mp_fset.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../mp/mp_fset.c  -fPIC -DPIC -o .libs/mp_fset.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../mp/mp_fset.c -o mp_fset.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../mp/mp_method.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../mp/mp_method.c  -fPIC -DPIC -o .libs/mp_method.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../mp/mp_method.c -o mp_method.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../mp/mp_region.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../mp/mp_region.c  -fPIC -DPIC -o .libs/mp_region.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../mp/mp_region.c -o mp_region.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../mp/mp_register.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../mp/mp_register.c  -fPIC -DPIC -o .libs/mp_register.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../mp/mp_register.c -o mp_register.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../mp/mp_stat.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../mp/mp_stat.c  -fPIC -DPIC -o .libs/mp_stat.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../mp/mp_stat.c -o mp_stat.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../mp/mp_sync.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../mp/mp_sync.c  -fPIC -DPIC -o .libs/mp_sync.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../mp/mp_sync.c -o mp_sync.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../mp/mp_trickle.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../mp/mp_trickle.c  -fPIC -DPIC -o .libs/mp_trickle.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../mp/mp_trickle.c -o mp_trickle.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../mutex/mut_alloc.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../mutex/mut_alloc.c  -fPIC -DPIC -o .libs/mut_alloc.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../mutex/mut_alloc.c -o mut_alloc.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../mutex/mut_method.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../mutex/mut_method.c  -fPIC -DPIC -o .libs/mut_method.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../mutex/mut_method.c -o mut_method.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../mutex/mut_region.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../mutex/mut_region.c  -fPIC -DPIC -o .libs/mut_region.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../mutex/mut_region.c -o mut_region.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../mutex/mut_stat.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../mutex/mut_stat.c  -fPIC -DPIC -o .libs/mut_stat.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../mutex/mut_stat.c -o mut_stat.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../os/os_abs.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../os/os_abs.c  -fPIC -DPIC -o .libs/os_abs.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../os/os_abs.c -o os_abs.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../os/os_alloc.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../os/os_alloc.c  -fPIC -DPIC -o .libs/os_alloc.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../os/os_alloc.c -o os_alloc.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../os/os_clock.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../os/os_clock.c  -fPIC -DPIC -o .libs/os_clock.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../os/os_clock.c -o os_clock.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../os/os_config.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../os/os_config.c  -fPIC -DPIC -o .libs/os_config.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../os/os_config.c -o os_config.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../os/os_dir.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../os/os_dir.c  -fPIC -DPIC -o .libs/os_dir.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../os/os_dir.c -o os_dir.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../os/os_errno.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../os/os_errno.c  -fPIC -DPIC -o .libs/os_errno.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../os/os_errno.c -o os_errno.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../os/os_fid.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../os/os_fid.c  -fPIC -DPIC -o .libs/os_fid.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../os/os_fid.c -o os_fid.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../os/os_flock.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../os/os_flock.c  -fPIC -DPIC -o .libs/os_flock.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../os/os_flock.c -o os_flock.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../os/os_fsync.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../os/os_fsync.c  -fPIC -DPIC -o .libs/os_fsync.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../os/os_fsync.c -o os_fsync.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../os/os_handle.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../os/os_handle.c  -fPIC -DPIC -o .libs/os_handle.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../os/os_handle.c -o os_handle.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../os/os_id.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../os/os_id.c  -fPIC -DPIC -o .libs/os_id.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../os/os_id.c -o os_id.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../os/os_map.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../os/os_map.c  -fPIC -DPIC -o .libs/os_map.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../os/os_map.c -o os_map.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../os/os_method.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../os/os_method.c  -fPIC -DPIC -o .libs/os_method.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../os/os_method.c -o os_method.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../os/os_mkdir.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../os/os_mkdir.c  -fPIC -DPIC -o .libs/os_mkdir.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../os/os_mkdir.c -o os_mkdir.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../os/os_oflags.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../os/os_oflags.c  -fPIC -DPIC -o .libs/os_oflags.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../os/os_oflags.c -o os_oflags.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../os/os_open.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../os/os_open.c  -fPIC -DPIC -o .libs/os_open.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../os/os_open.c -o os_open.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../os/os_region.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../os/os_region.c  -fPIC -DPIC -o .libs/os_region.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../os/os_region.c -o os_region.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../os/os_rename.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../os/os_rename.c  -fPIC -DPIC -o .libs/os_rename.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../os/os_rename.c -o os_rename.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../os/os_root.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../os/os_root.c  -fPIC -DPIC -o .libs/os_root.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../os/os_root.c -o os_root.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../os/os_rpath.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../os/os_rpath.c  -fPIC -DPIC -o .libs/os_rpath.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../os/os_rpath.c -o os_rpath.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../os/os_rw.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../os/os_rw.c  -fPIC -DPIC -o .libs/os_rw.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../os/os_rw.c -o os_rw.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../os/os_seek.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../os/os_seek.c  -fPIC -DPIC -o .libs/os_seek.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../os/os_seek.c -o os_seek.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../os/os_sleep.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../os/os_sleep.c  -fPIC -DPIC -o .libs/os_sleep.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../os/os_sleep.c -o os_sleep.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../os/os_spin.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../os/os_spin.c  -fPIC -DPIC -o .libs/os_spin.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../os/os_spin.c -o os_spin.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../os/os_stat.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../os/os_stat.c  -fPIC -DPIC -o .libs/os_stat.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../os/os_stat.c -o os_stat.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../os/os_tmpdir.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../os/os_tmpdir.c  -fPIC -DPIC -o .libs/os_tmpdir.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../os/os_tmpdir.c -o os_tmpdir.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../os/os_truncate.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../os/os_truncate.c  -fPIC -DPIC -o .libs/os_truncate.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../os/os_truncate.c -o os_truncate.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../os/os_unlink.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../os/os_unlink.c  -fPIC -DPIC -o .libs/os_unlink.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../os/os_unlink.c -o os_unlink.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../hmac/sha1.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../hmac/sha1.c  -fPIC -DPIC -o .libs/sha1.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../hmac/sha1.c -o sha1.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../sequence/seq_stat.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../sequence/seq_stat.c  -fPIC -DPIC -o .libs/seq_stat.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../sequence/seq_stat.c -o seq_stat.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../sequence/sequence.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../sequence/sequence.c  -fPIC -DPIC -o .libs/sequence.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../sequence/sequence.c -o sequence.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../clib/snprintf.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../clib/snprintf.c  -fPIC -DPIC -o .libs/snprintf.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../clib/snprintf.c -o snprintf.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../txn/txn.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../txn/txn.c  -fPIC -DPIC -o .libs/txn.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../txn/txn.c -o txn.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../txn/txn_auto.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../txn/txn_auto.c  -fPIC -DPIC -o .libs/txn_auto.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../txn/txn_auto.c -o txn_auto.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../txn/txn_chkpt.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../txn/txn_chkpt.c  -fPIC -DPIC -o .libs/txn_chkpt.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../txn/txn_chkpt.c -o txn_chkpt.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../txn/txn_failchk.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../txn/txn_failchk.c  -fPIC -DPIC -o .libs/txn_failchk.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../txn/txn_failchk.c -o txn_failchk.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../txn/txn_method.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../txn/txn_method.c  -fPIC -DPIC -o .libs/txn_method.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../txn/txn_method.c -o txn_method.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../txn/txn_rec.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../txn/txn_rec.c  -fPIC -DPIC -o .libs/txn_rec.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../txn/txn_rec.c -o txn_rec.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../txn/txn_recover.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../txn/txn_recover.c  -fPIC -DPIC -o .libs/txn_recover.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../txn/txn_recover.c -o txn_recover.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../txn/txn_region.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../txn/txn_region.c  -fPIC -DPIC -o .libs/txn_region.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../txn/txn_region.c -o txn_region.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../txn/txn_stat.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../txn/txn_stat.c  -fPIC -DPIC -o .libs/txn_stat.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../txn/txn_stat.c -o txn_stat.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../txn/txn_util.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../txn/txn_util.c  -fPIC -DPIC -o .libs/txn_util.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../txn/txn_util.c -o txn_util.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../xa/xa.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../xa/xa.c  -fPIC -DPIC -o .libs/xa.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../xa/xa.c -o xa.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../xa/xa_db.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../xa/xa_db.c  -fPIC -DPIC -o .libs/xa_db.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../xa/xa_db.c -o xa_db.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../xa/xa_map.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../xa/xa_map.c  -fPIC -DPIC -o .libs/xa_map.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../xa/xa_map.c -o xa_map.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=link cc -avoid-version -rpath /usr/lib  -o libdb-4.4.la db185.lo mut_pthread.lo  bt_compare.lo bt_conv.lo bt_curadj.lo bt_cursor.lo bt_delete.lo bt_method.lo bt_open.lo bt_put.lo bt_rec.lo bt_reclaim.lo bt_recno.lo bt_rsearch.lo bt_search.lo bt_split.lo bt_stat.lo bt_compact.lo bt_upgrade.lo btree_auto.lo hash.lo hash_auto.lo hash_conv.lo hash_dup.lo hash_meta.lo hash_method.lo hash_open.lo hash_page.lo hash_rec.lo hash_reclaim.lo hash_stat.lo hash_upgrade.lo hash_verify.lo qam.lo qam_auto.lo qam_conv.lo qam_files.lo qam_method.lo qam_open.lo qam_rec.lo qam_stat.lo qam_upgrade.lo qam_verify.lo rep_auto.lo rep_backup.lo rep_elect.lo rep_log.lo rep_method.lo rep_record.lo rep_region.lo rep_stat.lo rep_util.lo rep_verify.lo db_ovfl_vrfy.lo db_vrfy.lo db_vrfyutil.lo bt_verify.lo  aes_method.lo crypto.lo mt19937db.lo rijndael-alg-fst.lo rijndael-api-fst.lo crdel_auto.lo crdel_rec.lo db.lo db_am.lo db_auto.lo db_byteorder.lo db_cam.lo db_clock.lo db_conv.lo db_dispatch.lo db_dup.lo db_err.lo db_getlong.lo db_idspace.lo db_iface.lo db_join.lo db_log2.lo db_meta.lo db_method.lo db_open.lo db_overflow.lo db_pr.lo db_rec.lo db_reclaim.lo db_rename.lo db_remove.lo db_ret.lo db_salloc.lo db_setid.lo db_setlsn.lo db_shash.lo db_stati.lo db_truncate.lo db_upg.lo db_upg_opd.lo dbm.lo dbreg.lo dbreg_auto.lo dbreg_rec.lo dbreg_stat.lo dbreg_util.lo env_failchk.lo env_file.lo env_method.lo env_open.lo env_recover.lo env_region.lo env_register.lo env_stat.lo fileops_auto.lo fop_basic.lo fop_rec.lo fop_util.lo hash_func.lo hmac.lo hsearch.lo lock.lo lock_deadlock.lo lock_failchk.lo lock_id.lo lock_list.lo lock_method.lo lock_region.lo lock_stat.lo lock_timer.lo lock_util.lo log.lo log_archive.lo log_compare.lo log_debug.lo log_get.lo log_method.lo log_put.lo log_stat.lo mp_alloc.lo mp_bh.lo mp_fget.lo mp_fmethod.lo mp_fopen.lo mp_fput.lo mp_fset.lo mp_method.lo mp_region.lo mp_register.lo mp_stat.lo mp_sync.lo mp_trickle.lo mut_alloc.lo mut_method.lo mut_region.lo mut_stat.lo os_abs.lo os_alloc.lo os_clock.lo os_config.lo os_dir.lo os_errno.lo os_fid.lo os_flock.lo os_fsync.lo os_handle.lo os_id.lo os_map.lo os_method.lo os_mkdir.lo os_oflags.lo os_open.lo os_region.lo os_rename.lo os_root.lo os_rpath.lo os_rw.lo os_seek.lo os_sleep.lo os_spin.lo os_stat.lo os_tmpdir.lo os_truncate.lo os_unlink.lo sha1.lo seq_stat.lo sequence.lo snprintf.lo txn.lo txn_auto.lo txn_chkpt.lo txn_failchk.lo txn_method.lo txn_rec.lo txn_recover.lo txn_region.lo txn_stat.lo txn_util.lo xa.lo xa_db.lo xa_map.lo -lpthread
+cc -shared  .libs/db185.o .libs/mut_pthread.o .libs/bt_compare.o .libs/bt_conv.o .libs/bt_curadj.o .libs/bt_cursor.o .libs/bt_delete.o .libs/bt_method.o .libs/bt_open.o .libs/bt_put.o .libs/bt_rec.o .libs/bt_reclaim.o .libs/bt_recno.o .libs/bt_rsearch.o .libs/bt_search.o .libs/bt_split.o .libs/bt_stat.o .libs/bt_compact.o .libs/bt_upgrade.o .libs/btree_auto.o .libs/hash.o .libs/hash_auto.o .libs/hash_conv.o .libs/hash_dup.o .libs/hash_meta.o .libs/hash_method.o .libs/hash_open.o .libs/hash_page.o .libs/hash_rec.o .libs/hash_reclaim.o .libs/hash_stat.o .libs/hash_upgrade.o .libs/hash_verify.o .libs/qam.o .libs/qam_auto.o .libs/qam_conv.o .libs/qam_files.o .libs/qam_method.o .libs/qam_open.o .libs/qam_rec.o .libs/qam_stat.o .libs/qam_upgrade.o .libs/qam_verify.o .libs/rep_auto.o .libs/rep_backup.o .libs/rep_elect.o .libs/rep_log.o .libs/rep_method.o .libs/rep_record.o .libs/rep_region.o .libs/rep_stat.o .libs/rep_util.o .libs/rep_verify.o .libs/db_ovfl_vrfy.o .libs/db_vrfy.o .libs/db_vrfyutil.o .libs/bt_verify.o .libs/aes_method.o .libs/crypto.o .libs/mt19937db.o .libs/rijndael-alg-fst.o .libs/rijndael-api-fst.o .libs/crdel_auto.o .libs/crdel_rec.o .libs/db.o .libs/db_am.o .libs/db_auto.o .libs/db_byteorder.o .libs/db_cam.o .libs/db_clock.o .libs/db_conv.o .libs/db_dispatch.o .libs/db_dup.o .libs/db_err.o .libs/db_getlong.o .libs/db_idspace.o .libs/db_iface.o .libs/db_join.o .libs/db_log2.o .libs/db_meta.o .libs/db_method.o .libs/db_open.o .libs/db_overflow.o .libs/db_pr.o .libs/db_rec.o .libs/db_reclaim.o .libs/db_rename.o .libs/db_remove.o .libs/db_ret.o .libs/db_salloc.o .libs/db_setid.o .libs/db_setlsn.o .libs/db_shash.o .libs/db_stati.o .libs/db_truncate.o .libs/db_upg.o .libs/db_upg_opd.o .libs/dbm.o .libs/dbreg.o .libs/dbreg_auto.o .libs/dbreg_rec.o .libs/dbreg_stat.o .libs/dbreg_util.o .libs/env_failchk.o .libs/env_file.o .libs/env_method.o .libs/env_open.o .libs/env_recover.o .libs/env_region.o .libs/env_register.o .libs/env_stat.o .libs/fileops_auto.o .libs/fop_basic.o .libs/fop_rec.o .libs/fop_util.o .libs/hash_func.o .libs/hmac.o .libs/hsearch.o .libs/lock.o .libs/lock_deadlock.o .libs/lock_failchk.o .libs/lock_id.o .libs/lock_list.o .libs/lock_method.o .libs/lock_region.o .libs/lock_stat.o .libs/lock_timer.o .libs/lock_util.o .libs/log.o .libs/log_archive.o .libs/log_compare.o .libs/log_debug.o .libs/log_get.o .libs/log_method.o .libs/log_put.o .libs/log_stat.o .libs/mp_alloc.o .libs/mp_bh.o .libs/mp_fget.o .libs/mp_fmethod.o .libs/mp_fopen.o .libs/mp_fput.o .libs/mp_fset.o .libs/mp_method.o .libs/mp_region.o .libs/mp_register.o .libs/mp_stat.o .libs/mp_sync.o .libs/mp_trickle.o .libs/mut_alloc.o .libs/mut_method.o .libs/mut_region.o .libs/mut_stat.o .libs/os_abs.o .libs/os_alloc.o .libs/os_clock.o .libs/os_config.o .libs/os_dir.o .libs/os_errno.o .libs/os_fid.o .libs/os_flock.o .libs/os_fsync.o .libs/os_handle.o .libs/os_id.o .libs/os_map.o .libs/os_method.o .libs/os_mkdir.o .libs/os_oflags.o .libs/os_open.o .libs/os_region.o .libs/os_rename.o .libs/os_root.o .libs/os_rpath.o .libs/os_rw.o .libs/os_seek.o .libs/os_sleep.o .libs/os_spin.o .libs/os_stat.o .libs/os_tmpdir.o .libs/os_truncate.o .libs/os_unlink.o .libs/sha1.o .libs/seq_stat.o .libs/sequence.o .libs/snprintf.o .libs/txn.o .libs/txn_auto.o .libs/txn_chkpt.o .libs/txn_failchk.o .libs/txn_method.o .libs/txn_rec.o .libs/txn_recover.o .libs/txn_region.o .libs/txn_stat.o .libs/txn_util.o .libs/xa.o .libs/xa_db.o .libs/xa_map.o  -lpthread  -Wl,-soname -Wl,libdb-4.4.so -o .libs/libdb-4.4.so
+ar cru .libs/libdb-4.4.a  db185.o mut_pthread.o bt_compare.o bt_conv.o bt_curadj.o bt_cursor.o bt_delete.o bt_method.o bt_open.o bt_put.o bt_rec.o bt_reclaim.o bt_recno.o bt_rsearch.o bt_search.o bt_split.o bt_stat.o bt_compact.o bt_upgrade.o btree_auto.o hash.o hash_auto.o hash_conv.o hash_dup.o hash_meta.o hash_method.o hash_open.o hash_page.o hash_rec.o hash_reclaim.o hash_stat.o hash_upgrade.o hash_verify.o qam.o qam_auto.o qam_conv.o qam_files.o qam_method.o qam_open.o qam_rec.o qam_stat.o qam_upgrade.o qam_verify.o rep_auto.o rep_backup.o rep_elect.o rep_log.o rep_method.o rep_record.o rep_region.o rep_stat.o rep_util.o rep_verify.o db_ovfl_vrfy.o db_vrfy.o db_vrfyutil.o bt_verify.o aes_method.o crypto.o mt19937db.o rijndael-alg-fst.o rijndael-api-fst.o crdel_auto.o crdel_rec.o db.o db_am.o db_auto.o db_byteorder.o db_cam.o db_clock.o db_conv.o db_dispatch.o db_dup.o db_err.o db_getlong.o db_idspace.o db_iface.o db_join.o db_log2.o db_meta.o db_method.o db_open.o db_overflow.o db_pr.o db_rec.o db_reclaim.o db_rename.o db_remove.o db_ret.o db_salloc.o db_setid.o db_setlsn.o db_shash.o db_stati.o db_truncate.o db_upg.o db_upg_opd.o dbm.o dbreg.o dbreg_auto.o dbreg_rec.o dbreg_stat.o dbreg_util.o env_failchk.o env_file.o env_method.o env_open.o env_recover.o env_region.o env_register.o env_stat.o fileops_auto.o fop_basic.o fop_rec.o fop_util.o hash_func.o hmac.o hsearch.o lock.o lock_deadlock.o lock_failchk.o lock_id.o lock_list.o lock_method.o lock_region.o lock_stat.o lock_timer.o lock_util.o log.o log_archive.o log_compare.o log_debug.o log_get.o log_method.o log_put.o log_stat.o mp_alloc.o mp_bh.o mp_fget.o mp_fmethod.o mp_fopen.o mp_fput.o mp_fset.o mp_method.o mp_region.o mp_register.o mp_stat.o mp_sync.o mp_trickle.o mut_alloc.o mut_method.o mut_region.o mut_stat.o os_abs.o os_alloc.o os_clock.o os_config.o os_dir.o os_errno.o os_fid.o os_flock.o os_fsync.o os_handle.o os_id.o os_map.o os_method.o os_mkdir.o os_oflags.o os_open.o os_region.o os_rename.o os_root.o os_rpath.o os_rw.o os_seek.o os_sleep.o os_spin.o os_stat.o os_tmpdir.o os_truncate.o os_unlink.o sha1.o seq_stat.o sequence.o snprintf.o txn.o txn_auto.o txn_chkpt.o txn_failchk.o txn_method.o txn_rec.o txn_recover.o txn_region.o txn_stat.o txn_util.o xa.o xa_db.o xa_map.o
+ranlib .libs/libdb-4.4.a
+creating libdb-4.4.la
+(cd .libs && rm -f libdb-4.4.la && ln -s ../libdb-4.4.la libdb-4.4.la)
+rm -f libdb.a
+ln -s .libs/libdb-4.4.a libdb.a
+/bin/sh ./libtool --mode=compile g++ -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O ../dist/../cxx/cxx_db.cpp
+ g++ -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O ../dist/../cxx/cxx_db.cpp  -fPIC -DPIC -o .libs/cxx_db.o
+ g++ -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O ../dist/../cxx/cxx_db.cpp -o cxx_db.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile g++ -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O ../dist/../cxx/cxx_dbc.cpp
+ g++ -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O ../dist/../cxx/cxx_dbc.cpp  -fPIC -DPIC -o .libs/cxx_dbc.o
+ g++ -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O ../dist/../cxx/cxx_dbc.cpp -o cxx_dbc.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile g++ -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O ../dist/../cxx/cxx_dbt.cpp
+ g++ -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O ../dist/../cxx/cxx_dbt.cpp  -fPIC -DPIC -o .libs/cxx_dbt.o
+ g++ -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O ../dist/../cxx/cxx_dbt.cpp -o cxx_dbt.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile g++ -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O ../dist/../cxx/cxx_env.cpp
+ g++ -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O ../dist/../cxx/cxx_env.cpp  -fPIC -DPIC -o .libs/cxx_env.o
+ g++ -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O ../dist/../cxx/cxx_env.cpp -o cxx_env.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile g++ -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O ../dist/../cxx/cxx_except.cpp
+ g++ -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O ../dist/../cxx/cxx_except.cpp  -fPIC -DPIC -o .libs/cxx_except.o
+ g++ -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O ../dist/../cxx/cxx_except.cpp -o cxx_except.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile g++ -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O ../dist/../cxx/cxx_lock.cpp
+ g++ -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O ../dist/../cxx/cxx_lock.cpp  -fPIC -DPIC -o .libs/cxx_lock.o
+ g++ -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O ../dist/../cxx/cxx_lock.cpp -o cxx_lock.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile g++ -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O ../dist/../cxx/cxx_logc.cpp
+ g++ -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O ../dist/../cxx/cxx_logc.cpp  -fPIC -DPIC -o .libs/cxx_logc.o
+ g++ -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O ../dist/../cxx/cxx_logc.cpp -o cxx_logc.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile g++ -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O ../dist/../cxx/cxx_mpool.cpp
+ g++ -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O ../dist/../cxx/cxx_mpool.cpp  -fPIC -DPIC -o .libs/cxx_mpool.o
+ g++ -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O ../dist/../cxx/cxx_mpool.cpp -o cxx_mpool.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile g++ -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O ../dist/../cxx/cxx_multi.cpp
+ g++ -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O ../dist/../cxx/cxx_multi.cpp  -fPIC -DPIC -o .libs/cxx_multi.o
+ g++ -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O ../dist/../cxx/cxx_multi.cpp -o cxx_multi.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile g++ -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O ../dist/../cxx/cxx_seq.cpp
+ g++ -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O ../dist/../cxx/cxx_seq.cpp  -fPIC -DPIC -o .libs/cxx_seq.o
+ g++ -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O ../dist/../cxx/cxx_seq.cpp -o cxx_seq.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile g++ -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O ../dist/../cxx/cxx_txn.cpp
+ g++ -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O ../dist/../cxx/cxx_txn.cpp  -fPIC -DPIC -o .libs/cxx_txn.o
+ g++ -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O ../dist/../cxx/cxx_txn.cpp -o cxx_txn.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=link g++ -avoid-version -O -rpath /usr/lib  \
+    -o libdb_cxx-4.4.la cxx_db.lo cxx_dbc.lo cxx_dbt.lo cxx_env.lo cxx_except.lo cxx_lock.lo cxx_logc.lo cxx_mpool.lo cxx_multi.lo cxx_seq.lo cxx_txn.lo db185.lo mut_pthread.lo  bt_compare.lo bt_conv.lo bt_curadj.lo bt_cursor.lo bt_delete.lo bt_method.lo bt_open.lo bt_put.lo bt_rec.lo bt_reclaim.lo bt_recno.lo bt_rsearch.lo bt_search.lo bt_split.lo bt_stat.lo bt_compact.lo bt_upgrade.lo btree_auto.lo hash.lo hash_auto.lo hash_conv.lo hash_dup.lo hash_meta.lo hash_method.lo hash_open.lo hash_page.lo hash_rec.lo hash_reclaim.lo hash_stat.lo hash_upgrade.lo hash_verify.lo qam.lo qam_auto.lo qam_conv.lo qam_files.lo qam_method.lo qam_open.lo qam_rec.lo qam_stat.lo qam_upgrade.lo qam_verify.lo rep_auto.lo rep_backup.lo rep_elect.lo rep_log.lo rep_method.lo rep_record.lo rep_region.lo rep_stat.lo rep_util.lo rep_verify.lo db_ovfl_vrfy.lo db_vrfy.lo db_vrfyutil.lo bt_verify.lo  aes_method.lo crypto.lo mt19937db.lo rijndael-alg-fst.lo rijndael-api-fst.lo crdel_auto.lo crdel_rec.lo db.lo db_am.lo db_auto.lo db_byteorder.lo db_cam.lo db_clock.lo db_conv.lo db_dispatch.lo db_dup.lo db_err.lo db_getlong.lo db_idspace.lo db_iface.lo db_join.lo db_log2.lo db_meta.lo db_method.lo db_open.lo db_overflow.lo db_pr.lo db_rec.lo db_reclaim.lo db_rename.lo db_remove.lo db_ret.lo db_salloc.lo db_setid.lo db_setlsn.lo db_shash.lo db_stati.lo db_truncate.lo db_upg.lo db_upg_opd.lo dbm.lo dbreg.lo dbreg_auto.lo dbreg_rec.lo dbreg_stat.lo dbreg_util.lo env_failchk.lo env_file.lo env_method.lo env_open.lo env_recover.lo env_region.lo env_register.lo env_stat.lo fileops_auto.lo fop_basic.lo fop_rec.lo fop_util.lo hash_func.lo hmac.lo hsearch.lo lock.lo lock_deadlock.lo lock_failchk.lo lock_id.lo lock_list.lo lock_method.lo lock_region.lo lock_stat.lo lock_timer.lo lock_util.lo log.lo log_archive.lo log_compare.lo log_debug.lo log_get.lo log_method.lo log_put.lo log_stat.lo mp_alloc.lo mp_bh.lo mp_fget.lo mp_fmethod.lo mp_fopen.lo mp_fput.lo mp_fset.lo mp_method.lo mp_region.lo mp_register.lo mp_stat.lo mp_sync.lo mp_trickle.lo mut_alloc.lo mut_method.lo mut_region.lo mut_stat.lo os_abs.lo os_alloc.lo os_clock.lo os_config.lo os_dir.lo os_errno.lo os_fid.lo os_flock.lo os_fsync.lo os_handle.lo os_id.lo os_map.lo os_method.lo os_mkdir.lo os_oflags.lo os_open.lo os_region.lo os_rename.lo os_root.lo os_rpath.lo os_rw.lo os_seek.lo os_sleep.lo os_spin.lo os_stat.lo os_tmpdir.lo os_truncate.lo os_unlink.lo sha1.lo seq_stat.lo sequence.lo snprintf.lo txn.lo txn_auto.lo txn_chkpt.lo txn_failchk.lo txn_method.lo txn_rec.lo txn_recover.lo txn_region.lo txn_stat.lo txn_util.lo xa.lo xa_db.lo xa_map.lo -lpthread
+g++ -shared -nostdlib /usr/lib/gcc/i686-pc-linux-gnu/4.0.3/../../../crti.o /usr/lib/gcc/i686-pc-linux-gnu/4.0.3/crtbeginS.o  .libs/cxx_db.o .libs/cxx_dbc.o .libs/cxx_dbt.o .libs/cxx_env.o .libs/cxx_except.o .libs/cxx_lock.o .libs/cxx_logc.o .libs/cxx_mpool.o .libs/cxx_multi.o .libs/cxx_seq.o .libs/cxx_txn.o .libs/db185.o .libs/mut_pthread.o .libs/bt_compare.o .libs/bt_conv.o .libs/bt_curadj.o .libs/bt_cursor.o .libs/bt_delete.o .libs/bt_method.o .libs/bt_open.o .libs/bt_put.o .libs/bt_rec.o .libs/bt_reclaim.o .libs/bt_recno.o .libs/bt_rsearch.o .libs/bt_search.o .libs/bt_split.o .libs/bt_stat.o .libs/bt_compact.o .libs/bt_upgrade.o .libs/btree_auto.o .libs/hash.o .libs/hash_auto.o .libs/hash_conv.o .libs/hash_dup.o .libs/hash_meta.o .libs/hash_method.o .libs/hash_open.o .libs/hash_page.o .libs/hash_rec.o .libs/hash_reclaim.o .libs/hash_stat.o .libs/hash_upgrade.o .libs/hash_verify.o .libs/qam.o .libs/qam_auto.o .libs/qam_conv.o .libs/qam_files.o .libs/qam_method.o .libs/qam_open.o .libs/qam_rec.o .libs/qam_stat.o .libs/qam_upgrade.o .libs/qam_verify.o .libs/rep_auto.o .libs/rep_backup.o .libs/rep_elect.o .libs/rep_log.o .libs/rep_method.o .libs/rep_record.o .libs/rep_region.o .libs/rep_stat.o .libs/rep_util.o .libs/rep_verify.o .libs/db_ovfl_vrfy.o .libs/db_vrfy.o .libs/db_vrfyutil.o .libs/bt_verify.o .libs/aes_method.o .libs/crypto.o .libs/mt19937db.o .libs/rijndael-alg-fst.o .libs/rijndael-api-fst.o .libs/crdel_auto.o .libs/crdel_rec.o .libs/db.o .libs/db_am.o .libs/db_auto.o .libs/db_byteorder.o .libs/db_cam.o .libs/db_clock.o .libs/db_conv.o .libs/db_dispatch.o .libs/db_dup.o .libs/db_err.o .libs/db_getlong.o .libs/db_idspace.o .libs/db_iface.o .libs/db_join.o .libs/db_log2.o .libs/db_meta.o .libs/db_method.o .libs/db_open.o .libs/db_overflow.o .libs/db_pr.o .libs/db_rec.o .libs/db_reclaim.o .libs/db_rename.o .libs/db_remove.o .libs/db_ret.o .libs/db_salloc.o .libs/db_setid.o .libs/db_setlsn.o .libs/db_shash.o .libs/db_stati.o .libs/db_truncate.o .libs/db_upg.o .libs/db_upg_opd.o .libs/dbm.o .libs/dbreg.o .libs/dbreg_auto.o .libs/dbreg_rec.o .libs/dbreg_stat.o .libs/dbreg_util.o .libs/env_failchk.o .libs/env_file.o .libs/env_method.o .libs/env_open.o .libs/env_recover.o .libs/env_region.o .libs/env_register.o .libs/env_stat.o .libs/fileops_auto.o .libs/fop_basic.o .libs/fop_rec.o .libs/fop_util.o .libs/hash_func.o .libs/hmac.o .libs/hsearch.o .libs/lock.o .libs/lock_deadlock.o .libs/lock_failchk.o .libs/lock_id.o .libs/lock_list.o .libs/lock_method.o .libs/lock_region.o .libs/lock_stat.o .libs/lock_timer.o .libs/lock_util.o .libs/log.o .libs/log_archive.o .libs/log_compare.o .libs/log_debug.o .libs/log_get.o .libs/log_method.o .libs/log_put.o .libs/log_stat.o .libs/mp_alloc.o .libs/mp_bh.o .libs/mp_fget.o .libs/mp_fmethod.o .libs/mp_fopen.o .libs/mp_fput.o .libs/mp_fset.o .libs/mp_method.o .libs/mp_region.o .libs/mp_register.o .libs/mp_stat.o .libs/mp_sync.o .libs/mp_trickle.o .libs/mut_alloc.o .libs/mut_method.o .libs/mut_region.o .libs/mut_stat.o .libs/os_abs.o .libs/os_alloc.o .libs/os_clock.o .libs/os_config.o .libs/os_dir.o .libs/os_errno.o .libs/os_fid.o .libs/os_flock.o .libs/os_fsync.o .libs/os_handle.o .libs/os_id.o .libs/os_map.o .libs/os_method.o .libs/os_mkdir.o .libs/os_oflags.o .libs/os_open.o .libs/os_region.o .libs/os_rename.o .libs/os_root.o .libs/os_rpath.o .libs/os_rw.o .libs/os_seek.o .libs/os_sleep.o .libs/os_spin.o .libs/os_stat.o .libs/os_tmpdir.o .libs/os_truncate.o .libs/os_unlink.o .libs/sha1.o .libs/seq_stat.o .libs/sequence.o .libs/snprintf.o .libs/txn.o .libs/txn_auto.o .libs/txn_chkpt.o .libs/txn_failchk.o .libs/txn_method.o .libs/txn_rec.o .libs/txn_recover.o .libs/txn_region.o .libs/txn_stat.o .libs/txn_util.o .libs/xa.o .libs/xa_db.o .libs/xa_map.o  -lpthread -L/usr/lib/gcc/i686-pc-linux-gnu/4.0.3 -L/usr/lib/gcc/i686-pc-linux-gnu/4.0.3/../../.. /usr/lib/libstdc++.so -L/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/i686-pc-linux-gnu/libstdc++-v3/src -L/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/i686-pc-linux-gnu/libstdc++-v3/src/.libs -L/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/gcc -lm -lc -lgcc_s /usr/lib/gcc/i686-pc-linux-gnu/4.0.3/crtendS.o /usr/lib/gcc/i686-pc-linux-gnu/4.0.3/../../../crtn.o  -Wl,-soname -Wl,libdb_cxx-4.4.so -o .libs/libdb_cxx-4.4.so
+ar cru .libs/libdb_cxx-4.4.a  cxx_db.o cxx_dbc.o cxx_dbt.o cxx_env.o cxx_except.o cxx_lock.o cxx_logc.o cxx_mpool.o cxx_multi.o cxx_seq.o cxx_txn.o db185.o mut_pthread.o bt_compare.o bt_conv.o bt_curadj.o bt_cursor.o bt_delete.o bt_method.o bt_open.o bt_put.o bt_rec.o bt_reclaim.o bt_recno.o bt_rsearch.o bt_search.o bt_split.o bt_stat.o bt_compact.o bt_upgrade.o btree_auto.o hash.o hash_auto.o hash_conv.o hash_dup.o hash_meta.o hash_method.o hash_open.o hash_page.o hash_rec.o hash_reclaim.o hash_stat.o hash_upgrade.o hash_verify.o qam.o qam_auto.o qam_conv.o qam_files.o qam_method.o qam_open.o qam_rec.o qam_stat.o qam_upgrade.o qam_verify.o rep_auto.o rep_backup.o rep_elect.o rep_log.o rep_method.o rep_record.o rep_region.o rep_stat.o rep_util.o rep_verify.o db_ovfl_vrfy.o db_vrfy.o db_vrfyutil.o bt_verify.o aes_method.o crypto.o mt19937db.o rijndael-alg-fst.o rijndael-api-fst.o crdel_auto.o crdel_rec.o db.o db_am.o db_auto.o db_byteorder.o db_cam.o db_clock.o db_conv.o db_dispatch.o db_dup.o db_err.o db_getlong.o db_idspace.o db_iface.o db_join.o db_log2.o db_meta.o db_method.o db_open.o db_overflow.o db_pr.o db_rec.o db_reclaim.o db_rename.o db_remove.o db_ret.o db_salloc.o db_setid.o db_setlsn.o db_shash.o db_stati.o db_truncate.o db_upg.o db_upg_opd.o dbm.o dbreg.o dbreg_auto.o dbreg_rec.o dbreg_stat.o dbreg_util.o env_failchk.o env_file.o env_method.o env_open.o env_recover.o env_region.o env_register.o env_stat.o fileops_auto.o fop_basic.o fop_rec.o fop_util.o hash_func.o hmac.o hsearch.o lock.o lock_deadlock.o lock_failchk.o lock_id.o lock_list.o lock_method.o lock_region.o lock_stat.o lock_timer.o lock_util.o log.o log_archive.o log_compare.o log_debug.o log_get.o log_method.o log_put.o log_stat.o mp_alloc.o mp_bh.o mp_fget.o mp_fmethod.o mp_fopen.o mp_fput.o mp_fset.o mp_method.o mp_region.o mp_register.o mp_stat.o mp_sync.o mp_trickle.o mut_alloc.o mut_method.o mut_region.o mut_stat.o os_abs.o os_alloc.o os_clock.o os_config.o os_dir.o os_errno.o os_fid.o os_flock.o os_fsync.o os_handle.o os_id.o os_map.o os_method.o os_mkdir.o os_oflags.o os_open.o os_region.o os_rename.o os_root.o os_rpath.o os_rw.o os_seek.o os_sleep.o os_spin.o os_stat.o os_tmpdir.o os_truncate.o os_unlink.o sha1.o seq_stat.o sequence.o snprintf.o txn.o txn_auto.o txn_chkpt.o txn_failchk.o txn_method.o txn_rec.o txn_recover.o txn_region.o txn_stat.o txn_util.o xa.o xa_db.o xa_map.o
+ranlib .libs/libdb_cxx-4.4.a
+creating libdb_cxx-4.4.la
+(cd .libs && rm -f libdb_cxx-4.4.la && ln -s ../libdb_cxx-4.4.la libdb_cxx-4.4.la)
+rm -f libdb_cxx.a
+ln -s .libs/libdb_cxx-4.4.a libdb_cxx.a
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../db_archive/db_archive.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../db_archive/db_archive.c  -fPIC -DPIC -o .libs/db_archive.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../db_archive/db_archive.c -o db_archive.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../common/util_sig.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../common/util_sig.c  -fPIC -DPIC -o .libs/util_sig.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../common/util_sig.c -o util_sig.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=link cc -O2  -o db_archive  \
+    db_archive.lo util_sig.lo libdb-4.4.la -lpthread
+cc -O2 -o .libs/db_archive .libs/db_archive.o .libs/util_sig.o  ./.libs/libdb-4.4.so -lpthread 
+creating db_archive
+/bin/sh ./libtool --mode=execute true db_archive
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../db_checkpoint/db_checkpoint.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../db_checkpoint/db_checkpoint.c  -fPIC -DPIC -o .libs/db_checkpoint.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../db_checkpoint/db_checkpoint.c -o db_checkpoint.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../common/util_log.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../common/util_log.c  -fPIC -DPIC -o .libs/util_log.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../common/util_log.c -o util_log.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=link cc -O2  -o db_checkpoint  \
+    db_checkpoint.lo util_log.lo util_sig.lo libdb-4.4.la -lpthread
+cc -O2 -o .libs/db_checkpoint .libs/db_checkpoint.o .libs/util_log.o .libs/util_sig.o  ./.libs/libdb-4.4.so -lpthread 
+creating db_checkpoint
+/bin/sh ./libtool --mode=execute true db_checkpoint
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../db_deadlock/db_deadlock.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../db_deadlock/db_deadlock.c  -fPIC -DPIC -o .libs/db_deadlock.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../db_deadlock/db_deadlock.c -o db_deadlock.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=link cc -O2  -o db_deadlock  \
+    db_deadlock.lo util_log.lo util_sig.lo libdb-4.4.la -lpthread
+cc -O2 -o .libs/db_deadlock .libs/db_deadlock.o .libs/util_log.o .libs/util_sig.o  ./.libs/libdb-4.4.so -lpthread 
+creating db_deadlock
+/bin/sh ./libtool --mode=execute true db_deadlock
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../db_dump/db_dump.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../db_dump/db_dump.c  -fPIC -DPIC -o .libs/db_dump.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../db_dump/db_dump.c -o db_dump.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../common/util_cache.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../common/util_cache.c  -fPIC -DPIC -o .libs/util_cache.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../common/util_cache.c -o util_cache.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=link cc -O2  -o db_dump  \
+    db_dump.lo util_cache.lo util_sig.lo libdb-4.4.la -lpthread
+cc -O2 -o .libs/db_dump .libs/db_dump.o .libs/util_cache.o .libs/util_sig.o  ./.libs/libdb-4.4.so -lpthread 
+creating db_dump
+/bin/sh ./libtool --mode=execute true db_dump
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../db_hotbackup/db_hotbackup.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../db_hotbackup/db_hotbackup.c  -fPIC -DPIC -o .libs/db_hotbackup.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../db_hotbackup/db_hotbackup.c -o db_hotbackup.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=link cc -O2  -o db_hotbackup  \
+    db_hotbackup.lo util_sig.lo libdb-4.4.la -lpthread
+cc -O2 -o .libs/db_hotbackup .libs/db_hotbackup.o .libs/util_sig.o  ./.libs/libdb-4.4.so -lpthread 
+creating db_hotbackup
+/bin/sh ./libtool --mode=execute true db_hotbackup
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../db_load/db_load.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../db_load/db_load.c  -fPIC -DPIC -o .libs/db_load.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../db_load/db_load.c -o db_load.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=link cc -O2  -o db_load  \
+    db_load.lo util_cache.lo util_sig.lo libdb-4.4.la -lpthread
+cc -O2 -o .libs/db_load .libs/db_load.o .libs/util_cache.o .libs/util_sig.o  ./.libs/libdb-4.4.so -lpthread 
+creating db_load
+/bin/sh ./libtool --mode=execute true db_load
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../db_printlog/db_printlog.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../db_printlog/db_printlog.c  -fPIC -DPIC -o .libs/db_printlog.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../db_printlog/db_printlog.c -o db_printlog.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../btree/btree_autop.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../btree/btree_autop.c  -fPIC -DPIC -o .libs/btree_autop.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../btree/btree_autop.c -o btree_autop.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../db/crdel_autop.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../db/crdel_autop.c  -fPIC -DPIC -o .libs/crdel_autop.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../db/crdel_autop.c -o crdel_autop.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../db/db_autop.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../db/db_autop.c  -fPIC -DPIC -o .libs/db_autop.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../db/db_autop.c -o db_autop.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../dbreg/dbreg_autop.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../dbreg/dbreg_autop.c  -fPIC -DPIC -o .libs/dbreg_autop.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../dbreg/dbreg_autop.c -o dbreg_autop.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../fileops/fileops_autop.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../fileops/fileops_autop.c  -fPIC -DPIC -o .libs/fileops_autop.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../fileops/fileops_autop.c -o fileops_autop.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../hash/hash_autop.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../hash/hash_autop.c  -fPIC -DPIC -o .libs/hash_autop.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../hash/hash_autop.c -o hash_autop.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../qam/qam_autop.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../qam/qam_autop.c  -fPIC -DPIC -o .libs/qam_autop.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../qam/qam_autop.c -o qam_autop.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../rep/rep_autop.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../rep/rep_autop.c  -fPIC -DPIC -o .libs/rep_autop.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../rep/rep_autop.c -o rep_autop.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../txn/txn_autop.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../txn/txn_autop.c  -fPIC -DPIC -o .libs/txn_autop.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../txn/txn_autop.c -o txn_autop.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=link cc -O2  -o db_printlog  \
+    db_printlog.lo btree_autop.lo crdel_autop.lo db_autop.lo dbreg_autop.lo fileops_autop.lo hash_autop.lo qam_autop.lo rep_autop.lo txn_autop.lo util_sig.lo libdb-4.4.la -lpthread
+cc -O2 -o .libs/db_printlog .libs/db_printlog.o .libs/btree_autop.o .libs/crdel_autop.o .libs/db_autop.o .libs/dbreg_autop.o .libs/fileops_autop.o .libs/hash_autop.o .libs/qam_autop.o .libs/rep_autop.o .libs/txn_autop.o .libs/util_sig.o  ./.libs/libdb-4.4.so -lpthread 
+creating db_printlog
+/bin/sh ./libtool --mode=execute true db_printlog
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../db_recover/db_recover.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../db_recover/db_recover.c  -fPIC -DPIC -o .libs/db_recover.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../db_recover/db_recover.c -o db_recover.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=link cc -O2  -o db_recover  \
+    db_recover.lo util_sig.lo libdb-4.4.la -lpthread
+cc -O2 -o .libs/db_recover .libs/db_recover.o .libs/util_sig.o  ./.libs/libdb-4.4.so -lpthread 
+creating db_recover
+/bin/sh ./libtool --mode=execute true db_recover
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../db_stat/db_stat.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../db_stat/db_stat.c  -fPIC -DPIC -o .libs/db_stat.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../db_stat/db_stat.c -o db_stat.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=link cc -O2  -o db_stat  \
+    db_stat.lo util_cache.lo util_sig.lo libdb-4.4.la -lpthread
+cc -O2 -o .libs/db_stat .libs/db_stat.o .libs/util_cache.o .libs/util_sig.o  ./.libs/libdb-4.4.so -lpthread 
+creating db_stat
+/bin/sh ./libtool --mode=execute true db_stat
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../db_upgrade/db_upgrade.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../db_upgrade/db_upgrade.c  -fPIC -DPIC -o .libs/db_upgrade.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../db_upgrade/db_upgrade.c -o db_upgrade.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=link cc -O2  -o db_upgrade  \
+    db_upgrade.lo util_sig.lo libdb-4.4.la -lpthread
+cc -O2 -o .libs/db_upgrade .libs/db_upgrade.o .libs/util_sig.o  ./.libs/libdb-4.4.so -lpthread 
+creating db_upgrade
+/bin/sh ./libtool --mode=execute true db_upgrade
+/bin/sh ./libtool --mode=compile cc -c -I. -I../dist/..  -D_GNU_SOURCE -D_REENTRANT -O2  ../dist/../db_verify/db_verify.c
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../db_verify/db_verify.c  -fPIC -DPIC -o .libs/db_verify.o
+ cc -c -I. -I../dist/.. -D_GNU_SOURCE -D_REENTRANT -O2 ../dist/../db_verify/db_verify.c -o db_verify.o >/dev/null 2>&1
+/bin/sh ./libtool --mode=link cc -O2  -o db_verify  \
+    db_verify.lo util_cache.lo util_sig.lo libdb-4.4.la -lpthread
+cc -O2 -o .libs/db_verify .libs/db_verify.o .libs/util_cache.o .libs/util_sig.o  ./.libs/libdb-4.4.so -lpthread 
+creating db_verify
+/bin/sh ./libtool --mode=execute true db_verify

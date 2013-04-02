@@ -1,0 +1,12 @@
+#!/bin/bash
+
+source configure
+
+pushd ../unpack/*
+
+make install \
+    prefix=$PWD/../../pkg/debian/usr \
+    libdir=$PWD/../../pkg/debian/lib \
+    | tee ../../logs/050-make-install.log
+
+popd

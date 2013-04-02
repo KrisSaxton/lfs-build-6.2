@@ -1,0 +1,9 @@
+#!/bin/bash
+
+source configure
+
+pushd ../unpack/*
+
+make | tee -a ../../logs/030-make.log
+
+popd

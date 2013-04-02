@@ -1,0 +1,11 @@
+#!/bin/bash
+
+source configure
+
+pushd ../unpack/*
+
+make install \
+    prefix=../../pkg/debian/usr \
+    | tee ../../logs/050-make-install.log
+
+popd

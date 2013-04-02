@@ -1,0 +1,27 @@
+#!/bin/bash
+
+source configure
+
+pushd ../pkg/debian
+
+{
+mkdir bin
+mkdir usr/sbin
+
+mv -v usr/bin/{cat,chgrp,chmod,chown,cp,date,dd,df,echo} bin
+mv -v usr/bin/{false,hostname,ln,ls,mkdir,mknod,mv,pwd,rm} bin
+mv -v usr/bin/{rmdir,stty,sync,true,uname} bin
+mv -v usr/bin/chroot usr/sbin
+mv -v usr/bin/{head,sleep,nice} bin
+rm -v usr/share/info/dir
+} | tee ../../logs/070-fix-files.log
+
+# Seems as good a package as any to include the which utility
+cat > usr/bin/which << "EOF"
+#!/bin/bash
+type -pa "$@" | head -n 1 ; exit ${PIPESTATUS[0]}
+EOF
+
+chmod 755 usr/bin/which
+
+popd

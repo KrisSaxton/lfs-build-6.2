@@ -1,0 +1,12 @@
+#!/bin/bash
+
+source configure
+
+pushd ../unpack/*
+
+# The arpd target links to -ldb - thus we opt out to compile it
+sed -i -e 's/rtacct arpd lnstat/rtacct lnstat/g' misc/Makefile
+
+make SBINDIR=/sbin | tee ../../logs/030-make.log
+
+popd

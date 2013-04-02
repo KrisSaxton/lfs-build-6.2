@@ -1,0 +1,15 @@
+#!/bin/bash
+
+source configure
+
+pushd ../unpack/*
+
+DESTDIR=$PWD/../../pkg/debian
+
+make \
+    prefix=$DESTDIR \
+    DESTDIR=$DESTDIR \
+    install \
+    | tee ../../logs/020-make-install.log
+
+popd

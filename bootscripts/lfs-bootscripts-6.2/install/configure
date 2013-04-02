@@ -1,0 +1,62 @@
+#!/bin/bash
+
+################################################################################
+# BEGIN
+################################################################################
+
+source functions
+
+################################################################################
+# GLOBALS
+################################################################################
+
+ABSetDefault AB_SYSTEM_INSTALL_DIR                              /usr/pkg
+
+################################################################################
+# DEPENDENCIES
+################################################################################
+
+ABSetDefault AB_PACKAGE_LFS_BOOTSCRIPTS_DEPENDS                 PKG_DEPENDS
+
+ABSetDefault AB_PACKAGE_PKG_DEPENDS_INSTALL_ENABLE              no
+ABSetDefault AB_PACKAGE_PKG_DEPENDS_INSTALL_FORCE               no
+ABSetDefault AB_PACKAGE_PKG_DEPENDS_INSTALL_NAME                pkgdependsname
+ABSetDefault AB_PACKAGE_PKG_DEPENDS_INSTALL_DIR                 $AB_SYSTEM_INSTALL_DIR/$AB_PACKAGE_PKG_DEPENDS_INSTALL_NAME
+ABSetDefault AB_PACKAGE_PKG_DEPENDS_INCLUDE_DIR                 $AB_PACKAGE_PKG_DEPENDS_INSTALL_DIR/include
+ABSetDefault AB_PACKAGE_PKG_DEPENDS_LIB_DIR                     $AB_PACKAGE_PKG_DEPENDS_INSTALL_DIR/lib
+
+#ABSetCompileFlags $AB_PACKAGE_LFS_BOOTSCRIPTS_DEPENDS
+
+################################################################################
+# CONFIGURATION
+################################################################################
+
+ABSetDefault AB_PACKAGE_LFS_BOOTSCRIPTS_NAME                      lfs-bootscripts
+ABSetDefault AB_PACKAGE_LFS_BOOTSCRIPTS_VERSION                   6.2
+ABSetDefault AB_PACKAGE_LFS_BOOTSCRIPTS_DESC                      'A collection of scripts to start and stop the system at bootup and shutdown'
+
+ABSetDefault AB_PACKAGE_LFS_BOOTSCRIPTS_INSTALL_NAME              ${AB_PACKAGE_LFS_BOOTSCRIPTS_NAME}-${AB_PACKAGE_LFS_BOOTSCRIPTS_VERSION}
+
+ABSetDefault AB_PACKAGE_LFS_BOOTSCRIPTS_INSTALL_DIR               $AB_SYSTEM_INSTALL_DIR/$AB_PACKAGE_LFS_BOOTSCRIPTS_INSTALL_NAME
+ABSetDefault AB_PACKAGE_LFS_BOOTSCRIPTS_INCLUDE_DIR               $AB_PACKAGE_LFS_BOOTSCRIPTS_INSTALL_DIR/include
+ABSetDefault AB_PACKAGE_LFS_BOOTSCRIPTS_LIB_DIR                   $AB_PACKAGE_LFS_BOOTSCRIPTS_INSTALL_DIR/lib
+
+ABSetDefault AB_PACKAGE_LFS_BOOTSCRIPTS_CONFIGURE_PREFIX          $AB_PACKAGE_LFS_BOOTSCRIPTS_INSTALL_DIR
+ABSetDefault AB_PACKAGE_LFS_BOOTSCRIPTS_CONFIGURE_WITH_EDITOR     /usr/bin/nano
+
+AB_PACKAGE_NAME=$AB_PACKAGE_LFS_BOOTSCRIPTS_NAME
+AB_PACKAGE_VERSION=$AB_PACKAGE_LFS_BOOTSCRIPTS_VERSION
+AB_PACKAGE_DESC=$AB_PACKAGE_LFS_BOOTSCRIPTS_DESC
+
+AB_PACKAGE_INSTALL_NAME=$AB_PACKAGE_LFS_BOOTSCRIPTS_INSTALL_NAME
+
+AB_PACKAGE_INSTALL_DIR=$AB_PACKAGE_LFS_BOOTSCRIPTS_INSTALL_DIR
+AB_PACKAGE_INCLUDE_DIR=$AB_PACKAGE_LFS_BOOTSCRIPTS_INCLUDE_DIR
+AB_PACKAGE_LIB_DIR=$AB_PACKAGE_LFS_BOOTSCRIPTS_LIB_DIR
+
+AB_PACKAGE_CONFIGURE_PREFIX=$AB_PACKAGE_LFS_BOOTSCRIPTS_CONFIGURE_PREFIX
+AB_PACKAGE_CONFIGURE_WITH_EDITOR=$AB_PACKAGE_LFS_BOOTSCRIPTS_CONFIGURE_WITH_EDITOR
+
+################################################################################
+# END
+################################################################################

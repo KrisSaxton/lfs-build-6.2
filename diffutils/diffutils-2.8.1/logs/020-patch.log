@@ -1,0 +1,12 @@
+patching file src/diff.c
+Hunk #1 succeeded at 273 (offset -2 lines).
+patching file src/diff.h
+Hunk #1 succeeded at 25 with fuzz 2 (offset 2 lines).
+Hunk #2 succeeded at 360 (offset -3 lines).
+patching file src/io.c
+Hunk #1 succeeded at 25 (offset -1 lines).
+Hunk #3 succeeded at 261 (offset -1 lines).
+patching file src/side.c
+Hunk #1 succeeded at 74 with fuzz 1 (offset 1 line).
+patching file src/util.c
+Hunk #1 succeeded at 312 (offset -9 lines).

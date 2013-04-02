@@ -1,0 +1,4 @@
+removed `usr/share/info/dir'
+create hard link `boot/grub/stage1' to `usr/lib/grub/stage1'
+create hard link `boot/grub/stage2' to `usr/lib/grub/stage2'
+create hard link `boot/grub/e2fs_stage1_5' to `usr/lib/grub/e2fs_stage1_5'

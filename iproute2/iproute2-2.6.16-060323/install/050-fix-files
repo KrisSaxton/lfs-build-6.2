@@ -1,0 +1,20 @@
+#!/bin/bash
+
+source configure
+
+pushd ../pkg/debian
+
+{
+mkdir -vp usr/sbin
+mv    -v  sbin/arpd usr/sbin
+
+rm -vrf   usr/share/doc
+
+rm -v sbin/rtstat   && ln -v sbin/lnstat    sbin/rtstat
+rm -v sbin/ctstat   && ln -v sbin/lnstat    sbin/ctstat
+
+rmdir -v usr/sbin
+
+} | tee ../../logs/050-fix-files.log
+
+popd

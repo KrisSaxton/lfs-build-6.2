@@ -1,0 +1,14 @@
+#!/bin/bash
+
+source configure
+
+pushd ../unpack/*
+
+./configure \
+    --libdir=/lib \
+    --mandir=/usr/share/man \
+    --enable-shared \
+    --without-selinux \
+    | tee ../../logs/030-configure.log
+
+popd

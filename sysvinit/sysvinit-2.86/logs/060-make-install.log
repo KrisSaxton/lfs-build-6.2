@@ -1,0 +1,29 @@
+make: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/sysvinit/sysvinit-2.86/unpack/sysvinit-2.86/src'
+for i in  mountpoint; do \
+		install -o root -g root -m 755 $i /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/sysvinit/sysvinit-2.86/unpack/sysvinit-2.86/../../pkg/debian/bin/; \
+	done
+for i in init halt shutdown runlevel killall5 sulogin bootlogd; do \
+		install -o root -g root -m 755 $i /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/sysvinit/sysvinit-2.86/unpack/sysvinit-2.86/../../pkg/debian/sbin/; \
+	done
+for i in last mesg utmpdump wall; do \
+		install -o root -g root -m 755 $i /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/sysvinit/sysvinit-2.86/unpack/sysvinit-2.86/../../pkg/debian/usr/bin/; \
+	done
+# install -o root -g root -m 755 etc/initscript.sample /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/sysvinit/sysvinit-2.86/unpack/sysvinit-2.86/../../pkg/debian/etc/
+ln -sf halt /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/sysvinit/sysvinit-2.86/unpack/sysvinit-2.86/../../pkg/debian/sbin/reboot
+ln -sf halt /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/sysvinit/sysvinit-2.86/unpack/sysvinit-2.86/../../pkg/debian/sbin/poweroff
+ln -sf init /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/sysvinit/sysvinit-2.86/unpack/sysvinit-2.86/../../pkg/debian/sbin/telinit
+ln -sf ../sbin/killall5 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/sysvinit/sysvinit-2.86/unpack/sysvinit-2.86/../../pkg/debian/bin/pidof
+if [ ! -f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/sysvinit/sysvinit-2.86/unpack/sysvinit-2.86/../../pkg/debian/usr/bin/lastb ]; then \
+		ln -sf last /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/sysvinit/sysvinit-2.86/unpack/sysvinit-2.86/../../pkg/debian/usr/bin/lastb; \
+	fi
+install -o root -g root -m 644 initreq.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/sysvinit/sysvinit-2.86/unpack/sysvinit-2.86/../../pkg/debian/usr/include/
+for i in last.1 lastb.1 mesg.1 mountpoint.1 wall.1; do \
+		install -o root -g root -m 644 ../man/$i /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/sysvinit/sysvinit-2.86/unpack/sysvinit-2.86/../../pkg/debian/usr/share/man/man1/; \
+	done
+for i in initscript.5 inittab.5; do \
+		install -o root -g root -m 644 ../man/$i /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/sysvinit/sysvinit-2.86/unpack/sysvinit-2.86/../../pkg/debian/usr/share/man/man5/; \
+	done
+for i in halt.8 init.8 killall5.8 pidof.8 poweroff.8 reboot.8 runlevel.8 shutdown.8 telinit.8 sulogin.8 bootlogd.8; do \
+		install -o root -g root -m 644 ../man/$i /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/sysvinit/sysvinit-2.86/unpack/sysvinit-2.86/../../pkg/debian/usr/share/man/man8/; \
+	done
+make: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/sysvinit/sysvinit-2.86/unpack/sysvinit-2.86/src'

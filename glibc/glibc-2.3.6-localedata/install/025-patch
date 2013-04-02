@@ -1,0 +1,12 @@
+#!/bin/bash
+
+source configure
+
+pushd ../unpack/*
+
+ABPatch | tee ../../logs/025-patch.log
+
+sed -i '/vi_VN.TCVN/d' localedata/SUPPORTED | tee -a ../../logs/025-patch.log
+
+popd
+

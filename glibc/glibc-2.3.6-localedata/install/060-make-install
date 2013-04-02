@@ -1,0 +1,13 @@
+#!/bin/bash
+
+source configure
+
+DESTDIR=$PWD/../pkg/debian
+
+pushd ../build
+
+# make won't accept relative paths for DESTDIR, hence the $PWD fudge.
+	make install_root=$DESTDIR localedata/install-locales \
+		| tee ../logs/060-make-install.log
+
+popd

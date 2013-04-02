@@ -1,0 +1,13 @@
+mode of `lib/libreadline.so' changed to 0755 (rwxr-xr-x)
+mode of `lib/libreadline.so.5' changed to 0755 (rwxr-xr-x)
+mode of `lib/libreadline.so.5.1' changed to 0755 (rwxr-xr-x)
+mode of `lib/libhistory.so' changed to 0755 (rwxr-xr-x)
+mode of `lib/libhistory.so.5' changed to 0755 (rwxr-xr-x)
+mode of `lib/libhistory.so.5.1' changed to 0755 (rwxr-xr-x)
+`lib/libreadline.a' -> `usr/lib/libreadline.a'
+`lib/libhistory.a' -> `usr/lib/libhistory.a'
+removed `lib/libreadline.so'
+removed `lib/libhistory.so'
+create symbolic link `usr/lib/libreadline.so' to `../../lib/libreadline.so.5'
+create symbolic link `usr/lib/libhistory.so' to `../../lib/libhistory.so.5'
+removed `usr/share/info/dir'

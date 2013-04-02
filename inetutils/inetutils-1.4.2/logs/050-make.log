@@ -1,0 +1,491 @@
+make  all-recursive
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2'
+Making all in headers
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/headers'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/headers'
+Making all in libinetutils
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/libinetutils'
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -DPATH_WTMPX=\"/var/log/wtmpx\"    -I../include    -g -O2 -MT argcv.o -MD -MP -MF ".deps/argcv.Tpo" \
+  -c -o argcv.o `test -f 'argcv.c' || echo './'`argcv.c; \
+then mv ".deps/argcv.Tpo" ".deps/argcv.Po"; \
+else rm -f ".deps/argcv.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -DPATH_WTMPX=\"/var/log/wtmpx\"    -I../include    -g -O2 -MT cleansess.o -MD -MP -MF ".deps/cleansess.Tpo" \
+  -c -o cleansess.o `test -f 'cleansess.c' || echo './'`cleansess.c; \
+then mv ".deps/cleansess.Tpo" ".deps/cleansess.Po"; \
+else rm -f ".deps/cleansess.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -DPATH_WTMPX=\"/var/log/wtmpx\"    -I../include    -g -O2 -MT daemon.o -MD -MP -MF ".deps/daemon.Tpo" \
+  -c -o daemon.o `test -f 'daemon.c' || echo './'`daemon.c; \
+then mv ".deps/daemon.Tpo" ".deps/daemon.Po"; \
+else rm -f ".deps/daemon.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -DPATH_WTMPX=\"/var/log/wtmpx\"    -I../include    -g -O2 -MT des_rw.o -MD -MP -MF ".deps/des_rw.Tpo" \
+  -c -o des_rw.o `test -f 'des_rw.c' || echo './'`des_rw.c; \
+then mv ".deps/des_rw.Tpo" ".deps/des_rw.Po"; \
+else rm -f ".deps/des_rw.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -DPATH_WTMPX=\"/var/log/wtmpx\"    -I../include    -g -O2 -MT kcmd.o -MD -MP -MF ".deps/kcmd.Tpo" \
+  -c -o kcmd.o `test -f 'kcmd.c' || echo './'`kcmd.c; \
+then mv ".deps/kcmd.Tpo" ".deps/kcmd.Po"; \
+else rm -f ".deps/kcmd.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -DPATH_WTMPX=\"/var/log/wtmpx\"    -I../include    -g -O2 -MT krcmd.o -MD -MP -MF ".deps/krcmd.Tpo" \
+  -c -o krcmd.o `test -f 'krcmd.c' || echo './'`krcmd.c; \
+then mv ".deps/krcmd.Tpo" ".deps/krcmd.Po"; \
+else rm -f ".deps/krcmd.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -DPATH_WTMPX=\"/var/log/wtmpx\"    -I../include    -g -O2 -MT localhost.o -MD -MP -MF ".deps/localhost.Tpo" \
+  -c -o localhost.o `test -f 'localhost.c' || echo './'`localhost.c; \
+then mv ".deps/localhost.Tpo" ".deps/localhost.Po"; \
+else rm -f ".deps/localhost.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -DPATH_WTMPX=\"/var/log/wtmpx\"    -I../include    -g -O2 -MT logwtmpko.o -MD -MP -MF ".deps/logwtmpko.Tpo" \
+  -c -o logwtmpko.o `test -f 'logwtmpko.c' || echo './'`logwtmpko.c; \
+then mv ".deps/logwtmpko.Tpo" ".deps/logwtmpko.Po"; \
+else rm -f ".deps/logwtmpko.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -DPATH_WTMPX=\"/var/log/wtmpx\"    -I../include    -g -O2 -MT setsig.o -MD -MP -MF ".deps/setsig.Tpo" \
+  -c -o setsig.o `test -f 'setsig.c' || echo './'`setsig.c; \
+then mv ".deps/setsig.Tpo" ".deps/setsig.Po"; \
+else rm -f ".deps/setsig.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -DPATH_WTMPX=\"/var/log/wtmpx\"    -I../include    -g -O2 -MT tftpsubs.o -MD -MP -MF ".deps/tftpsubs.Tpo" \
+  -c -o tftpsubs.o `test -f 'tftpsubs.c' || echo './'`tftpsubs.c; \
+then mv ".deps/tftpsubs.Tpo" ".deps/tftpsubs.Po"; \
+else rm -f ".deps/tftpsubs.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -DPATH_WTMPX=\"/var/log/wtmpx\"    -I../include    -g -O2 -MT ttymsg.o -MD -MP -MF ".deps/ttymsg.Tpo" \
+  -c -o ttymsg.o `test -f 'ttymsg.c' || echo './'`ttymsg.c; \
+then mv ".deps/ttymsg.Tpo" ".deps/ttymsg.Po"; \
+else rm -f ".deps/ttymsg.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -DPATH_WTMPX=\"/var/log/wtmpx\"    -I../include    -g -O2 -MT xmalloc.o -MD -MP -MF ".deps/xmalloc.Tpo" \
+  -c -o xmalloc.o `test -f 'xmalloc.c' || echo './'`xmalloc.c; \
+then mv ".deps/xmalloc.Tpo" ".deps/xmalloc.Po"; \
+else rm -f ".deps/xmalloc.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -DPATH_WTMPX=\"/var/log/wtmpx\"    -I../include    -g -O2 -MT xstrdup.o -MD -MP -MF ".deps/xstrdup.Tpo" \
+  -c -o xstrdup.o `test -f 'xstrdup.c' || echo './'`xstrdup.c; \
+then mv ".deps/xstrdup.Tpo" ".deps/xstrdup.Po"; \
+else rm -f ".deps/xstrdup.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -DPATH_WTMPX=\"/var/log/wtmpx\"    -I../include    -g -O2 -MT xgetcwd.o -MD -MP -MF ".deps/xgetcwd.Tpo" \
+  -c -o xgetcwd.o `test -f 'xgetcwd.c' || echo './'`xgetcwd.c; \
+then mv ".deps/xgetcwd.Tpo" ".deps/xgetcwd.Po"; \
+else rm -f ".deps/xgetcwd.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -DPATH_WTMPX=\"/var/log/wtmpx\"    -I../include    -g -O2 -MT utmp_init.o -MD -MP -MF ".deps/utmp_init.Tpo" \
+  -c -o utmp_init.o `test -f 'utmp_init.c' || echo './'`utmp_init.c; \
+then mv ".deps/utmp_init.Tpo" ".deps/utmp_init.Po"; \
+else rm -f ".deps/utmp_init.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -DPATH_WTMPX=\"/var/log/wtmpx\"    -I../include    -g -O2 -MT utmp_logout.o -MD -MP -MF ".deps/utmp_logout.Tpo" \
+  -c -o utmp_logout.o `test -f 'utmp_logout.c' || echo './'`utmp_logout.c; \
+then mv ".deps/utmp_logout.Tpo" ".deps/utmp_logout.Po"; \
+else rm -f ".deps/utmp_logout.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -DPATH_WTMPX=\"/var/log/wtmpx\"    -I../include    -g -O2 -MT revoke.o -MD -MP -MF ".deps/revoke.Tpo" \
+  -c -o revoke.o `test -f 'revoke.c' || echo './'`revoke.c; \
+then mv ".deps/revoke.Tpo" ".deps/revoke.Po"; \
+else rm -f ".deps/revoke.Tpo"; exit 1; \
+fi
+rm -f libinetutils.a
+ar cru libinetutils.a argcv.o cleansess.o daemon.o des_rw.o kcmd.o krcmd.o localhost.o logwtmpko.o setsig.o tftpsubs.o ttymsg.o xmalloc.o xstrdup.o xgetcwd.o utmp_init.o utmp_logout.o daemon.o  revoke.o
+ranlib libinetutils.a
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/libinetutils'
+Making all in libtelnet
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/libtelnet'
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include     -g -O2 -MT auth.o -MD -MP -MF ".deps/auth.Tpo" \
+  -c -o auth.o `test -f 'auth.c' || echo './'`auth.c; \
+then mv ".deps/auth.Tpo" ".deps/auth.Po"; \
+else rm -f ".deps/auth.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include     -g -O2 -MT enc_des.o -MD -MP -MF ".deps/enc_des.Tpo" \
+  -c -o enc_des.o `test -f 'enc_des.c' || echo './'`enc_des.c; \
+then mv ".deps/enc_des.Tpo" ".deps/enc_des.Po"; \
+else rm -f ".deps/enc_des.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include     -g -O2 -MT encrypt.o -MD -MP -MF ".deps/encrypt.Tpo" \
+  -c -o encrypt.o `test -f 'encrypt.c' || echo './'`encrypt.c; \
+then mv ".deps/encrypt.Tpo" ".deps/encrypt.Po"; \
+else rm -f ".deps/encrypt.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include     -g -O2 -MT forward.o -MD -MP -MF ".deps/forward.Tpo" \
+  -c -o forward.o `test -f 'forward.c' || echo './'`forward.c; \
+then mv ".deps/forward.Tpo" ".deps/forward.Po"; \
+else rm -f ".deps/forward.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include     -g -O2 -MT genget.o -MD -MP -MF ".deps/genget.Tpo" \
+  -c -o genget.o `test -f 'genget.c' || echo './'`genget.c; \
+then mv ".deps/genget.Tpo" ".deps/genget.Po"; \
+else rm -f ".deps/genget.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include     -g -O2 -MT getent.o -MD -MP -MF ".deps/getent.Tpo" \
+  -c -o getent.o `test -f 'getent.c' || echo './'`getent.c; \
+then mv ".deps/getent.Tpo" ".deps/getent.Po"; \
+else rm -f ".deps/getent.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include     -g -O2 -MT kerberos.o -MD -MP -MF ".deps/kerberos.Tpo" \
+  -c -o kerberos.o `test -f 'kerberos.c' || echo './'`kerberos.c; \
+then mv ".deps/kerberos.Tpo" ".deps/kerberos.Po"; \
+else rm -f ".deps/kerberos.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include     -g -O2 -MT kerberos5.o -MD -MP -MF ".deps/kerberos5.Tpo" \
+  -c -o kerberos5.o `test -f 'kerberos5.c' || echo './'`kerberos5.c; \
+then mv ".deps/kerberos5.Tpo" ".deps/kerberos5.Po"; \
+else rm -f ".deps/kerberos5.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include     -g -O2 -MT misc.o -MD -MP -MF ".deps/misc.Tpo" \
+  -c -o misc.o `test -f 'misc.c' || echo './'`misc.c; \
+then mv ".deps/misc.Tpo" ".deps/misc.Po"; \
+else rm -f ".deps/misc.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include     -g -O2 -MT read_passwd.o -MD -MP -MF ".deps/read_passwd.Tpo" \
+  -c -o read_passwd.o `test -f 'read_passwd.c' || echo './'`read_passwd.c; \
+then mv ".deps/read_passwd.Tpo" ".deps/read_passwd.Po"; \
+else rm -f ".deps/read_passwd.Tpo"; exit 1; \
+fi
+rm -f libtelnet.a
+ar cru libtelnet.a auth.o enc_des.o encrypt.o forward.o genget.o getent.o kerberos.o kerberos5.o misc.o read_passwd.o 
+ranlib libtelnet.a
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/libtelnet'
+Making all in glob
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/glob'
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include    -g -O2 -MT glob.o -MD -MP -MF ".deps/glob.Tpo" \
+  -c -o glob.o `test -f 'glob.c' || echo './'`glob.c; \
+then mv ".deps/glob.Tpo" ".deps/glob.Po"; \
+else rm -f ".deps/glob.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include    -g -O2 -MT fnmatch.o -MD -MP -MF ".deps/fnmatch.Tpo" \
+  -c -o fnmatch.o `test -f 'fnmatch.c' || echo './'`fnmatch.c; \
+then mv ".deps/fnmatch.Tpo" ".deps/fnmatch.Po"; \
+else rm -f ".deps/fnmatch.Tpo"; exit 1; \
+fi
+rm -f libglob.a
+ar cru libglob.a glob.o fnmatch.o 
+ranlib libglob.a
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/glob'
+Making all in inetd
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/inetd'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/inetd'
+Making all in telnetd
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/telnetd'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/telnetd'
+Making all in libls
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/libls'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/libls'
+Making all in ftpd
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/ftpd'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/ftpd'
+Making all in rshd
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/rshd'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/rshd'
+Making all in rlogind
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/rlogind'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/rlogind'
+Making all in uucpd
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/uucpd'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/uucpd'
+Making all in rexecd
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/rexecd'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/rexecd'
+Making all in syslogd
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/syslogd'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/syslogd'
+Making all in tftpd
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/tftpd'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/tftpd'
+Making all in talkd
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/talkd'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/talkd'
+Making all in telnet
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/telnet'
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -DTERMCAP -DLINEMODE -DKLUDGELINEMODE -DENV_HACK -I../include    -g -O2 -MT authenc.o -MD -MP -MF ".deps/authenc.Tpo" \
+  -c -o authenc.o `test -f 'authenc.c' || echo './'`authenc.c; \
+then mv ".deps/authenc.Tpo" ".deps/authenc.Po"; \
+else rm -f ".deps/authenc.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -DTERMCAP -DLINEMODE -DKLUDGELINEMODE -DENV_HACK -I../include    -g -O2 -MT commands.o -MD -MP -MF ".deps/commands.Tpo" \
+  -c -o commands.o `test -f 'commands.c' || echo './'`commands.c; \
+then mv ".deps/commands.Tpo" ".deps/commands.Po"; \
+else rm -f ".deps/commands.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -DTERMCAP -DLINEMODE -DKLUDGELINEMODE -DENV_HACK -I../include    -g -O2 -MT main.o -MD -MP -MF ".deps/main.Tpo" \
+  -c -o main.o `test -f 'main.c' || echo './'`main.c; \
+then mv ".deps/main.Tpo" ".deps/main.Po"; \
+else rm -f ".deps/main.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -DTERMCAP -DLINEMODE -DKLUDGELINEMODE -DENV_HACK -I../include    -g -O2 -MT network.o -MD -MP -MF ".deps/network.Tpo" \
+  -c -o network.o `test -f 'network.c' || echo './'`network.c; \
+then mv ".deps/network.Tpo" ".deps/network.Po"; \
+else rm -f ".deps/network.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -DTERMCAP -DLINEMODE -DKLUDGELINEMODE -DENV_HACK -I../include    -g -O2 -MT ring.o -MD -MP -MF ".deps/ring.Tpo" \
+  -c -o ring.o `test -f 'ring.c' || echo './'`ring.c; \
+then mv ".deps/ring.Tpo" ".deps/ring.Po"; \
+else rm -f ".deps/ring.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -DTERMCAP -DLINEMODE -DKLUDGELINEMODE -DENV_HACK -I../include    -g -O2 -MT sys_bsd.o -MD -MP -MF ".deps/sys_bsd.Tpo" \
+  -c -o sys_bsd.o `test -f 'sys_bsd.c' || echo './'`sys_bsd.c; \
+then mv ".deps/sys_bsd.Tpo" ".deps/sys_bsd.Po"; \
+else rm -f ".deps/sys_bsd.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -DTERMCAP -DLINEMODE -DKLUDGELINEMODE -DENV_HACK -I../include    -g -O2 -MT telnet.o -MD -MP -MF ".deps/telnet.Tpo" \
+  -c -o telnet.o `test -f 'telnet.c' || echo './'`telnet.c; \
+then mv ".deps/telnet.Tpo" ".deps/telnet.Po"; \
+else rm -f ".deps/telnet.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -DTERMCAP -DLINEMODE -DKLUDGELINEMODE -DENV_HACK -I../include    -g -O2 -MT terminal.o -MD -MP -MF ".deps/terminal.Tpo" \
+  -c -o terminal.o `test -f 'terminal.c' || echo './'`terminal.c; \
+then mv ".deps/terminal.Tpo" ".deps/terminal.Po"; \
+else rm -f ".deps/terminal.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -DTERMCAP -DLINEMODE -DKLUDGELINEMODE -DENV_HACK -I../include    -g -O2 -MT tn3270.o -MD -MP -MF ".deps/tn3270.Tpo" \
+  -c -o tn3270.o `test -f 'tn3270.c' || echo './'`tn3270.c; \
+then mv ".deps/tn3270.Tpo" ".deps/tn3270.Po"; \
+else rm -f ".deps/tn3270.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -DTERMCAP -DLINEMODE -DKLUDGELINEMODE -DENV_HACK -I../include    -g -O2 -MT utilities.o -MD -MP -MF ".deps/utilities.Tpo" \
+  -c -o utilities.o `test -f 'utilities.c' || echo './'`utilities.c; \
+then mv ".deps/utilities.Tpo" ".deps/utilities.Po"; \
+else rm -f ".deps/utilities.Tpo"; exit 1; \
+fi
+gcc  -g -O2   -o telnet  authenc.o commands.o main.o network.o ring.o sys_bsd.o telnet.o terminal.o tn3270.o utilities.o -L../libinetutils -L../libtelnet -linetutils -ltelnet -lncurses -lcrypt  -lz -lresolv -lnsl 
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/telnet'
+Making all in ftp
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/ftp'
+if gcc -DHAVE_CONFIG_H -I. -I. -I..   -I../include    -g -O2 -MT cmds.o -MD -MP -MF ".deps/cmds.Tpo" \
+  -c -o cmds.o `test -f 'cmds.c' || echo './'`cmds.c; \
+then mv ".deps/cmds.Tpo" ".deps/cmds.Po"; \
+else rm -f ".deps/cmds.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I..   -I../include    -g -O2 -MT cmdtab.o -MD -MP -MF ".deps/cmdtab.Tpo" \
+  -c -o cmdtab.o `test -f 'cmdtab.c' || echo './'`cmdtab.c; \
+then mv ".deps/cmdtab.Tpo" ".deps/cmdtab.Po"; \
+else rm -f ".deps/cmdtab.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I..   -I../include    -g -O2 -MT domacro.o -MD -MP -MF ".deps/domacro.Tpo" \
+  -c -o domacro.o `test -f 'domacro.c' || echo './'`domacro.c; \
+then mv ".deps/domacro.Tpo" ".deps/domacro.Po"; \
+else rm -f ".deps/domacro.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I..   -I../include    -g -O2 -MT ftp.o -MD -MP -MF ".deps/ftp.Tpo" \
+  -c -o ftp.o `test -f 'ftp.c' || echo './'`ftp.c; \
+then mv ".deps/ftp.Tpo" ".deps/ftp.Po"; \
+else rm -f ".deps/ftp.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I..   -I../include    -g -O2 -MT main.o -MD -MP -MF ".deps/main.Tpo" \
+  -c -o main.o `test -f 'main.c' || echo './'`main.c; \
+then mv ".deps/main.Tpo" ".deps/main.Po"; \
+else rm -f ".deps/main.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I..   -I../include    -g -O2 -MT ruserpass.o -MD -MP -MF ".deps/ruserpass.Tpo" \
+  -c -o ruserpass.o `test -f 'ruserpass.c' || echo './'`ruserpass.c; \
+then mv ".deps/ruserpass.Tpo" ".deps/ruserpass.Po"; \
+else rm -f ".deps/ruserpass.Tpo"; exit 1; \
+fi
+gcc  -g -O2   -o ftp  cmds.o cmdtab.o domacro.o ftp.o main.o ruserpass.o -L../libinetutils -linetutils -L../glob -lglob -lreadline -lncurses -lz -lresolv -lnsl 
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/ftp'
+Making all in rsh
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/rsh'
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -DPATH_RLOGIN=\"/usr/bin/rlogin\" -I../include    -g -O2 -MT rsh.o -MD -MP -MF ".deps/rsh.Tpo" \
+  -c -o rsh.o `test -f 'rsh.c' || echo './'`rsh.c; \
+then mv ".deps/rsh.Tpo" ".deps/rsh.Po"; \
+else rm -f ".deps/rsh.Tpo"; exit 1; \
+fi
+gcc  -g -O2   -o rsh  rsh.o -L../libinetutils -linetutils -lz -lresolv -lnsl 
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/rsh'
+Making all in rcp
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/rcp'
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -DPATH_RSH=\"/usr/bin/rsh\" -DPATH_CP=\"/bin/cp\"  -I../include    -g -O2 -MT rcp.o -MD -MP -MF ".deps/rcp.Tpo" \
+  -c -o rcp.o `test -f 'rcp.c' || echo './'`rcp.c; \
+then mv ".deps/rcp.Tpo" ".deps/rcp.Po"; \
+else rm -f ".deps/rcp.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -DPATH_RSH=\"/usr/bin/rsh\" -DPATH_CP=\"/bin/cp\"  -I../include    -g -O2 -MT util.o -MD -MP -MF ".deps/util.Tpo" \
+  -c -o util.o `test -f 'util.c' || echo './'`util.c; \
+then mv ".deps/util.Tpo" ".deps/util.Po"; \
+else rm -f ".deps/util.Tpo"; exit 1; \
+fi
+gcc  -g -O2   -o rcp  rcp.o util.o -L../libinetutils -linetutils -lz -lresolv -lnsl 
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/rcp'
+Making all in rlogin
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/rlogin'
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include    -g -O2 -MT rlogin.o -MD -MP -MF ".deps/rlogin.Tpo" \
+  -c -o rlogin.o `test -f 'rlogin.c' || echo './'`rlogin.c; \
+then mv ".deps/rlogin.Tpo" ".deps/rlogin.Po"; \
+else rm -f ".deps/rlogin.Tpo"; exit 1; \
+fi
+gcc  -g -O2   -o rlogin  rlogin.o -L../libinetutils -linetutils -lz -lresolv -lnsl 
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/rlogin'
+Making all in tftp
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/tftp'
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include    -g -O2 -MT main.o -MD -MP -MF ".deps/main.Tpo" \
+  -c -o main.o `test -f 'main.c' || echo './'`main.c; \
+then mv ".deps/main.Tpo" ".deps/main.Po"; \
+else rm -f ".deps/main.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include    -g -O2 -MT tftp.o -MD -MP -MF ".deps/tftp.Tpo" \
+  -c -o tftp.o `test -f 'tftp.c' || echo './'`tftp.c; \
+then mv ".deps/tftp.Tpo" ".deps/tftp.Po"; \
+else rm -f ".deps/tftp.Tpo"; exit 1; \
+fi
+gcc  -g -O2   -o tftp  main.o tftp.o -L../libinetutils -linetutils -lz -lresolv -lnsl 
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/tftp'
+Making all in logger
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/logger'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/logger'
+Making all in gwhois
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/gwhois'
+make  all-am
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/gwhois'
+make[3]: Nothing to be done for `all-am'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/gwhois'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/gwhois'
+Making all in talk
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/talk'
+if gcc -DHAVE_CONFIG_H -I. -I. -I..  -I../include    -g -O2 -MT ctl.o -MD -MP -MF ".deps/ctl.Tpo" \
+  -c -o ctl.o `test -f 'ctl.c' || echo './'`ctl.c; \
+then mv ".deps/ctl.Tpo" ".deps/ctl.Po"; \
+else rm -f ".deps/ctl.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I..  -I../include    -g -O2 -MT ctl_transact.o -MD -MP -MF ".deps/ctl_transact.Tpo" \
+  -c -o ctl_transact.o `test -f 'ctl_transact.c' || echo './'`ctl_transact.c; \
+then mv ".deps/ctl_transact.Tpo" ".deps/ctl_transact.Po"; \
+else rm -f ".deps/ctl_transact.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I..  -I../include    -g -O2 -MT display.o -MD -MP -MF ".deps/display.Tpo" \
+  -c -o display.o `test -f 'display.c' || echo './'`display.c; \
+then mv ".deps/display.Tpo" ".deps/display.Po"; \
+else rm -f ".deps/display.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I..  -I../include    -g -O2 -MT get_addrs.o -MD -MP -MF ".deps/get_addrs.Tpo" \
+  -c -o get_addrs.o `test -f 'get_addrs.c' || echo './'`get_addrs.c; \
+then mv ".deps/get_addrs.Tpo" ".deps/get_addrs.Po"; \
+else rm -f ".deps/get_addrs.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I..  -I../include    -g -O2 -MT get_names.o -MD -MP -MF ".deps/get_names.Tpo" \
+  -c -o get_names.o `test -f 'get_names.c' || echo './'`get_names.c; \
+then mv ".deps/get_names.Tpo" ".deps/get_names.Po"; \
+else rm -f ".deps/get_names.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I..  -I../include    -g -O2 -MT init_disp.o -MD -MP -MF ".deps/init_disp.Tpo" \
+  -c -o init_disp.o `test -f 'init_disp.c' || echo './'`init_disp.c; \
+then mv ".deps/init_disp.Tpo" ".deps/init_disp.Po"; \
+else rm -f ".deps/init_disp.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I..  -I../include    -g -O2 -MT invite.o -MD -MP -MF ".deps/invite.Tpo" \
+  -c -o invite.o `test -f 'invite.c' || echo './'`invite.c; \
+then mv ".deps/invite.Tpo" ".deps/invite.Po"; \
+else rm -f ".deps/invite.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I..  -I../include    -g -O2 -MT io.o -MD -MP -MF ".deps/io.Tpo" \
+  -c -o io.o `test -f 'io.c' || echo './'`io.c; \
+then mv ".deps/io.Tpo" ".deps/io.Po"; \
+else rm -f ".deps/io.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I..  -I../include    -g -O2 -MT look_up.o -MD -MP -MF ".deps/look_up.Tpo" \
+  -c -o look_up.o `test -f 'look_up.c' || echo './'`look_up.c; \
+then mv ".deps/look_up.Tpo" ".deps/look_up.Po"; \
+else rm -f ".deps/look_up.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I..  -I../include    -g -O2 -MT msgs.o -MD -MP -MF ".deps/msgs.Tpo" \
+  -c -o msgs.o `test -f 'msgs.c' || echo './'`msgs.c; \
+then mv ".deps/msgs.Tpo" ".deps/msgs.Po"; \
+else rm -f ".deps/msgs.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I..  -I../include    -g -O2 -MT talk.o -MD -MP -MF ".deps/talk.Tpo" \
+  -c -o talk.o `test -f 'talk.c' || echo './'`talk.c; \
+then mv ".deps/talk.Tpo" ".deps/talk.Po"; \
+else rm -f ".deps/talk.Tpo"; exit 1; \
+fi
+gcc  -g -O2   -o talk  ctl.o ctl_transact.o display.o get_addrs.o get_names.o init_disp.o invite.o io.o look_up.o msgs.o talk.o -lncurses -L../libinetutils -linetutils -lz -lresolv -lnsl 
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/talk'
+Making all in libicmp
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/libicmp'
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include    -g -O2 -MT libping.o -MD -MP -MF ".deps/libping.Tpo" \
+  -c -o libping.o `test -f 'libping.c' || echo './'`libping.c; \
+then mv ".deps/libping.Tpo" ".deps/libping.Po"; \
+else rm -f ".deps/libping.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include    -g -O2 -MT icmp_echo.o -MD -MP -MF ".deps/icmp_echo.Tpo" \
+  -c -o icmp_echo.o `test -f 'icmp_echo.c' || echo './'`icmp_echo.c; \
+then mv ".deps/icmp_echo.Tpo" ".deps/icmp_echo.Po"; \
+else rm -f ".deps/icmp_echo.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include    -g -O2 -MT icmp_timestamp.o -MD -MP -MF ".deps/icmp_timestamp.Tpo" \
+  -c -o icmp_timestamp.o `test -f 'icmp_timestamp.c' || echo './'`icmp_timestamp.c; \
+then mv ".deps/icmp_timestamp.Tpo" ".deps/icmp_timestamp.Po"; \
+else rm -f ".deps/icmp_timestamp.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include    -g -O2 -MT icmp_address.o -MD -MP -MF ".deps/icmp_address.Tpo" \
+  -c -o icmp_address.o `test -f 'icmp_address.c' || echo './'`icmp_address.c; \
+then mv ".deps/icmp_address.Tpo" ".deps/icmp_address.Po"; \
+else rm -f ".deps/icmp_address.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include    -g -O2 -MT icmp_cksum.o -MD -MP -MF ".deps/icmp_cksum.Tpo" \
+  -c -o icmp_cksum.o `test -f 'icmp_cksum.c' || echo './'`icmp_cksum.c; \
+then mv ".deps/icmp_cksum.Tpo" ".deps/icmp_cksum.Po"; \
+else rm -f ".deps/icmp_cksum.Tpo"; exit 1; \
+fi
+rm -f libicmp.a
+ar cru libicmp.a libping.o icmp_echo.o icmp_timestamp.o icmp_address.o icmp_cksum.o 
+ranlib libicmp.a
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/libicmp'
+Making all in ping
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/ping'
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../libicmp -I../include    -g -O2 -MT ping.o -MD -MP -MF ".deps/ping.Tpo" \
+  -c -o ping.o `test -f 'ping.c' || echo './'`ping.c; \
+then mv ".deps/ping.Tpo" ".deps/ping.Po"; \
+else rm -f ".deps/ping.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../libicmp -I../include    -g -O2 -MT ping_echo.o -MD -MP -MF ".deps/ping_echo.Tpo" \
+  -c -o ping_echo.o `test -f 'ping_echo.c' || echo './'`ping_echo.c; \
+then mv ".deps/ping_echo.Tpo" ".deps/ping_echo.Po"; \
+else rm -f ".deps/ping_echo.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../libicmp -I../include    -g -O2 -MT ping_address.o -MD -MP -MF ".deps/ping_address.Tpo" \
+  -c -o ping_address.o `test -f 'ping_address.c' || echo './'`ping_address.c; \
+then mv ".deps/ping_address.Tpo" ".deps/ping_address.Po"; \
+else rm -f ".deps/ping_address.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../libicmp -I../include    -g -O2 -MT ping_router.o -MD -MP -MF ".deps/ping_router.Tpo" \
+  -c -o ping_router.o `test -f 'ping_router.c' || echo './'`ping_router.c; \
+then mv ".deps/ping_router.Tpo" ".deps/ping_router.Po"; \
+else rm -f ".deps/ping_router.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../libicmp -I../include    -g -O2 -MT ping_timestamp.o -MD -MP -MF ".deps/ping_timestamp.Tpo" \
+  -c -o ping_timestamp.o `test -f 'ping_timestamp.c' || echo './'`ping_timestamp.c; \
+then mv ".deps/ping_timestamp.Tpo" ".deps/ping_timestamp.Po"; \
+else rm -f ".deps/ping_timestamp.Tpo"; exit 1; \
+fi
+gcc  -g -O2   -o ping  ping.o ping_echo.o ping_address.o ping_router.o ping_timestamp.o -L../libinetutils -linetutils -lm -L../libicmp -licmp -lz -lresolv -lnsl 
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/ping'
+Making all in doc
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/doc'
+Making all in rfc
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/doc/rfc'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/doc/rfc'
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/doc'
+make[3]: Nothing to be done for `all-am'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/doc'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/doc'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2'
+make[2]: Nothing to be done for `all-am'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2'

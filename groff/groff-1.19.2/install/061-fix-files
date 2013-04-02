@@ -1,0 +1,13 @@
+#!/bin/bash
+
+source configure
+
+GROFFVERSION=1.18.1
+
+pushd ../pkg/debian
+
+# Remember to make any paths relative (i.e. ./usr rather than /usr)
+ln -sv eqn ./usr/bin/geqn | tee ../../logs/061-fix-files.log
+ln -sv tbl ./usr/bin/gtbl | tee -a ../../logs/061-fix-files.log
+
+popd

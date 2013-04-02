@@ -1,0 +1,17 @@
+#!/bin/bash
+
+source configure
+
+pushd ../unpack/*
+
+{
+ABPatch | tee ../../logs/020-patch.log
+
+# Avoid a linking bug
+sed -i '/MV.*old/d' Makefile.in &&
+sed -i '/{OLDSUFF}/c:' support/shlib-install
+
+} | tee ../../logs/020-patch.log
+
+popd
+

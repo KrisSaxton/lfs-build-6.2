@@ -1,0 +1,1038 @@
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr \
+  || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr
+mkdir -p -- /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr
+make[1]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include'
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man
+mkdir -p -- /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1
+mkdir -p -- /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man5 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man5
+mkdir -p -- /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man5
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7
+mkdir -p -- /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/arch/misc'
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man5 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man5
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/arch/misc'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/libs/libgroff'
+test yes != no || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/lib
+if test -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/lib/charset.alias; then \
+  sed -f ref-add.sed /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/lib/charset.alias \
+      > /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/lib/t-charset.alias; \
+  /usr/bin/install -c -m 644 /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/lib/t-charset.alias \
+                  /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/lib/charset.alias; \
+  rm -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/lib/t-charset.alias; \
+else \
+  if test yes = no; then \
+    sed -f ref-add.sed charset.alias \
+        > /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/lib/t-charset.alias; \
+    /usr/bin/install -c -m 644 /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/lib/t-charset.alias \
+                    /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/lib/charset.alias; \
+    rm -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/lib/t-charset.alias; \
+  fi; \
+fi
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/libs/libgroff'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/libs/libdriver'
+make[2]: Nothing to be done for `do_install'.
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/libs/libdriver'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/libs/libbib'
+make[2]: Nothing to be done for `do_install'.
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/libs/libbib'
+make[1]: Nothing to be done for `arch/misc'.
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/roff/groff'
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin
+mkdir -p -- /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin
+rm -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin/groff
+/usr/bin/install -c groff /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin/groff
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1
+/usr/bin/install -c -m 644 groff.n /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1/groff.1
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man5 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man5
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/roff/groff'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/roff/troff'
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin
+rm -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin/troff
+/usr/bin/install -c troff /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin/troff
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1
+/usr/bin/install -c -m 644 troff.n /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1/troff.1
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man5 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man5
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/roff/troff'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/preconv'
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin
+rm -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin/preconv
+/usr/bin/install -c preconv /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin/preconv
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1
+/usr/bin/install -c -m 644 preconv.n /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1/preconv.1
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man5 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man5
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/preconv'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/tbl'
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin
+rm -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin/tbl
+/usr/bin/install -c tbl /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin/tbl
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1
+/usr/bin/install -c -m 644 tbl.n /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1/tbl.1
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man5 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man5
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/tbl'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/pic'
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin
+rm -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin/pic
+/usr/bin/install -c pic /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin/pic
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1
+/usr/bin/install -c -m 644 pic.n /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1/pic.1
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man5 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man5
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/pic'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/eqn'
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin
+rm -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin/eqn
+/usr/bin/install -c eqn /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin/eqn
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1
+/usr/bin/install -c -m 644 eqn.n /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1/eqn.1
+/usr/bin/install -c -m 644 neqn.n /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1/neqn.1
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man5 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man5
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7
+rm -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin/neqn
+/usr/bin/install -c neqn /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin/neqn
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/eqn'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/grn'
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin
+rm -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin/grn
+/usr/bin/install -c grn /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin/grn
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1
+/usr/bin/install -c -m 644 grn.n /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1/grn.1
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man5 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man5
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/grn'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/refer'
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin
+rm -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin/refer
+/usr/bin/install -c refer /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin/refer
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1
+/usr/bin/install -c -m 644 refer.n /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1/refer.1
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man5 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man5
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/refer'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/soelim'
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin
+rm -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin/soelim
+/usr/bin/install -c soelim /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin/soelim
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1
+/usr/bin/install -c -m 644 soelim.n /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1/soelim.1
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man5 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man5
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/soelim'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/html'
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin
+rm -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin/pre-grohtml
+/usr/bin/install -c pre-grohtml /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin/pre-grohtml
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man5 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man5
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/html'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/devices/grops'
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin
+rm -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin/grops
+/usr/bin/install -c grops /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin/grops
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1
+/usr/bin/install -c -m 644 grops.n /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1/grops.1
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man5 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man5
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/devices/grops'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/devices/grotty'
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin
+rm -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin/grotty
+/usr/bin/install -c grotty /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin/grotty
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1
+/usr/bin/install -c -m 644 grotty.n /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1/grotty.1
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man5 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man5
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/devices/grotty'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/devices/grodvi'
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin
+rm -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin/grodvi
+/usr/bin/install -c grodvi /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin/grodvi
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1
+/usr/bin/install -c -m 644 grodvi.n /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1/grodvi.1
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man5 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man5
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/devices/grodvi'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/devices/grolj4'
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin
+rm -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin/grolj4
+/usr/bin/install -c grolj4 /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin/grolj4
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1
+/usr/bin/install -c -m 644 grolj4.n /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1/grolj4.1
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man5 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man5
+/usr/bin/install -c -m 644 lj4_font.n /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man5/lj4_font.5
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/devices/grolj4'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/devices/grohtml'
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin
+rm -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin/post-grohtml
+/usr/bin/install -c post-grohtml /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin/post-grohtml
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1
+/usr/bin/install -c -m 644 grohtml.n /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1/grohtml.1
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man5 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man5
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/devices/grohtml'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/devices/grolbp'
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin
+rm -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin/grolbp
+/usr/bin/install -c grolbp /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin/grolbp
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1
+/usr/bin/install -c -m 644 grolbp.n /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1/grolbp.1
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man5 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man5
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/devices/grolbp'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/utils/tfmtodit'
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin
+rm -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin/tfmtodit
+/usr/bin/install -c tfmtodit /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin/tfmtodit
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1
+/usr/bin/install -c -m 644 tfmtodit.n /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1/tfmtodit.1
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man5 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man5
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/utils/tfmtodit'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/utils/hpftodit'
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin
+rm -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin/hpftodit
+/usr/bin/install -c hpftodit /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin/hpftodit
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1
+/usr/bin/install -c -m 644 hpftodit.n /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1/hpftodit.1
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man5 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man5
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/utils/hpftodit'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/utils/lookbib'
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin
+rm -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin/lookbib
+/usr/bin/install -c lookbib /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin/lookbib
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1
+/usr/bin/install -c -m 644 lookbib.n /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1/lookbib.1
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man5 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man5
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/utils/lookbib'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/utils/indxbib'
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin
+rm -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin/indxbib
+/usr/bin/install -c indxbib /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin/indxbib
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1
+/usr/bin/install -c -m 644 indxbib.n /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1/indxbib.1
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man5 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man5
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share \
+  || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff \
+  || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff
+mkdir -p -- /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3 \
+  || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3
+mkdir -p -- /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3
+if test -f /usr/lib/eign; then \
+  rm -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/eign; \
+  ln -s /usr/lib/eign /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/eign 2>/dev/null \
+  || ln /usr/lib/eign /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/eign 2>/dev/null \
+  || cp /usr/lib/eign /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/eign; \
+else \
+  rm -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/eign; \
+  /usr/bin/install -c -m 644 ./eign /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/eign; \
+fi
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/utils/indxbib'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/utils/lkbib'
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin
+rm -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin/lkbib
+/usr/bin/install -c lkbib /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin/lkbib
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1
+/usr/bin/install -c -m 644 lkbib.n /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1/lkbib.1
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man5 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man5
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/utils/lkbib'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/utils/addftinfo'
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin
+rm -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin/addftinfo
+/usr/bin/install -c addftinfo /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin/addftinfo
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1
+/usr/bin/install -c -m 644 addftinfo.n /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1/addftinfo.1
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man5 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man5
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/utils/addftinfo'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/utils/pfbtops'
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin
+rm -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin/pfbtops
+/usr/bin/install -c pfbtops /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin/pfbtops
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1
+/usr/bin/install -c -m 644 pfbtops.n /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1/pfbtops.1
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man5 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man5
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/utils/pfbtops'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/font/devps'
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share \
+  || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff \
+  || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3 \
+  || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font \
+  || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font
+mkdir -p -- /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font/devps \
+  || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font/devps
+mkdir -p -- /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font/devps
+if test -d ./generate; then \
+  test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font/devps/generate \
+    || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font/devps/generate; \
+fi
+mkdir -p -- /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font/devps/generate
+if test -d ./old; then \
+  test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/oldfont \
+    || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/oldfont; \
+  test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/oldfont/devps \
+    || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/oldfont/devps; \
+fi
+mkdir -p -- /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/oldfont
+mkdir -p -- /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/oldfont/devps
+test -z "DESC prologue symbolsl.pfa zapfdr.pfa S SS ZD ZDR ZCMI AB ABI AI AR BMB BMBI BMI BMR CB CBI CI CR HB HBI HI HR HNB HNBI HNI HNR NB NBI NI NR PB PBI PI PR TB TBI TI TR EURO freeeuro.pfa freeeuro.afm text.enc download generate/Makefile generate/dingbats.map generate/dingbats.rmap generate/lgreekmap generate/symbolchars generate/symbolsl.afm generate/textmap" \
+  || for f in ""DESC prologue symbolsl.pfa zapfdr.pfa S SS ZD ZDR ZCMI AB ABI AI AR BMB BMBI BMI BMR CB CBI CI CR HB HBI HI HR HNB HNBI HNI HNR NB NBI NI NR PB PBI PI PR TB TBI TI TR EURO freeeuro.pfa freeeuro.afm text.enc download generate/Makefile generate/dingbats.map generate/dingbats.rmap generate/lgreekmap generate/symbolchars generate/symbolsl.afm generate/textmap; do \
+       rm -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font/devps/$f; \
+       if test -f $f; then \
+	 /usr/bin/install -c -m 644 $f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font/devps/$f; \
+       else \
+	 /usr/bin/install -c -m 644 ./$f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font/devps/$f; \
+       fi; \
+     done
+test -z "S SS CB CBI CI CR HB HBI HI HR HNB HNBI HNI HNR NB NBI NI NR PB PBI PI PR TB TBI TI TR symbol.afm symbolsl.afm zapfdr.afm zapfdr.ps" \
+  || for f in ""S SS CB CBI CI CR HB HBI HI HR HNB HNBI HNI HNR NB NBI NI NR PB PBI PI PR TB TBI TI TR symbol.afm symbolsl.afm zapfdr.afm zapfdr.ps; do \
+       rm -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/oldfont/devps/$f; \
+       /usr/bin/install -c -m 644 ./old/$f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/oldfont/devps/$f; \
+     done
+test -z "generate/afmname generate/symbol.sed" \
+  || for f in ""generate/afmname generate/symbol.sed; do \
+       rm -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font/devps/$f; \
+       if test -f $f; then \
+	 /usr/bin/install -c $f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font/devps/$f; \
+       else \
+	 /usr/bin/install -c ./$f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font/devps/$f; \
+       fi; \
+     done
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/font/devps'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/font/devdvi'
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share \
+  || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff \
+  || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3 \
+  || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font \
+  || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font/devdvi \
+  || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font/devdvi
+mkdir -p -- /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font/devdvi
+if test -d ./generate; then \
+  test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font/devdvi/generate \
+    || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font/devdvi/generate; \
+fi
+mkdir -p -- /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font/devdvi/generate
+if test -d ./old; then \
+  test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/oldfont \
+    || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/oldfont; \
+  test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/oldfont/devdvi \
+    || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/oldfont/devdvi; \
+fi
+test -z "DESC TR TI TB TBI CW CWI HR HI HB HBI TREC TIEC TBEC TBIEC CWEC CWIEC HREC HIEC HBEC HBIEC TRTC TITC TBTC TBITC CWTC CWITC HRTC HITC HBTC HBITC MI S EX SA SB SC generate/Makefile generate/msam.map generate/msbm.map generate/texb.map generate/texex.map generate/texi.map generate/texmi.map generate/texr.map generate/texsy.map generate/textt.map generate/textex.map generate/ec.map generate/tc.map" \
+  || for f in ""DESC TR TI TB TBI CW CWI HR HI HB HBI TREC TIEC TBEC TBIEC CWEC CWIEC HREC HIEC HBEC HBIEC TRTC TITC TBTC TBITC CWTC CWITC HRTC HITC HBTC HBITC MI S EX SA SB SC generate/Makefile generate/msam.map generate/msbm.map generate/texb.map generate/texex.map generate/texi.map generate/texmi.map generate/texr.map generate/texsy.map generate/textt.map generate/textex.map generate/ec.map generate/tc.map; do \
+       rm -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font/devdvi/$f; \
+       if test -f $f; then \
+	 /usr/bin/install -c -m 644 $f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font/devdvi/$f; \
+       else \
+	 /usr/bin/install -c -m 644 ./$f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font/devdvi/$f; \
+       fi; \
+     done
+test -z "" \
+  || for f in ""; do \
+       rm -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/oldfont/devdvi/$f; \
+       /usr/bin/install -c -m 644 ./old/$f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/oldfont/devdvi/$f; \
+     done
+test -z "generate/CompileFonts" \
+  || for f in ""generate/CompileFonts; do \
+       rm -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font/devdvi/$f; \
+       if test -f $f; then \
+	 /usr/bin/install -c $f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font/devdvi/$f; \
+       else \
+	 /usr/bin/install -c ./$f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font/devdvi/$f; \
+       fi; \
+     done
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/font/devdvi'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/font/devhtml'
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share \
+  || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff \
+  || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3 \
+  || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font \
+  || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font/devhtml \
+  || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font/devhtml
+mkdir -p -- /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font/devhtml
+if test -d ./generate; then \
+  test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font/devhtml/generate \
+    || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font/devhtml/generate; \
+fi
+if test -d ./old; then \
+  test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/oldfont \
+    || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/oldfont; \
+  test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/oldfont/devhtml \
+    || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/oldfont/devhtml; \
+fi
+test -z "R I B BI CR CI CB CBI S DESC" \
+  || for f in ""R I B BI CR CI CB CBI S DESC; do \
+       rm -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font/devhtml/$f; \
+       if test -f $f; then \
+	 /usr/bin/install -c -m 644 $f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font/devhtml/$f; \
+       else \
+	 /usr/bin/install -c -m 644 ./$f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font/devhtml/$f; \
+       fi; \
+     done
+test -z "" \
+  || for f in ""; do \
+       rm -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/oldfont/devhtml/$f; \
+       /usr/bin/install -c -m 644 ./old/$f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/oldfont/devhtml/$f; \
+     done
+test -z "" \
+  || for f in ""; do \
+       rm -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font/devhtml/$f; \
+       if test -f $f; then \
+	 /usr/bin/install -c $f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font/devhtml/$f; \
+       else \
+	 /usr/bin/install -c ./$f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font/devhtml/$f; \
+       fi; \
+     done
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/font/devhtml'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/font/devlj4'
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share \
+  || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff \
+  || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3 \
+  || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font \
+  || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font/devlj4 \
+  || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font/devlj4
+mkdir -p -- /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font/devlj4
+if test -d ./generate; then \
+  test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font/devlj4/generate \
+    || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font/devlj4/generate; \
+fi
+mkdir -p -- /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font/devlj4/generate
+if test -d ./old; then \
+  test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/oldfont \
+    || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/oldfont; \
+  test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/oldfont/devlj4 \
+    || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/oldfont/devlj4; \
+fi
+test -z "DESC AB ABI AI AR ALBB ALBR AOB AOI AOR CB CBI CI CR GB GBI GI GR LGB LGI LGR OB OBI OI OR TB TBI TI TR TNRB TNRBI TNRI TNRR UB UBI UI UR UCB UCBI UCI UCR CLARENDON CORONET MARIGOLD S SYMBOL WINGDINGS generate/Makefile generate/special.map generate/symbol.map generate/text.map generate/wingdings.map generate/special.awk" \
+  || for f in ""DESC AB ABI AI AR ALBB ALBR AOB AOI AOR CB CBI CI CR GB GBI GI GR LGB LGI LGR OB OBI OI OR TB TBI TI TR TNRB TNRBI TNRI TNRR UB UBI UI UR UCB UCBI UCI UCR CLARENDON CORONET MARIGOLD S SYMBOL WINGDINGS generate/Makefile generate/special.map generate/symbol.map generate/text.map generate/wingdings.map generate/special.awk; do \
+       rm -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font/devlj4/$f; \
+       if test -f $f; then \
+	 /usr/bin/install -c -m 644 $f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font/devlj4/$f; \
+       else \
+	 /usr/bin/install -c -m 644 ./$f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font/devlj4/$f; \
+       fi; \
+     done
+test -z "" \
+  || for f in ""; do \
+       rm -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/oldfont/devlj4/$f; \
+       /usr/bin/install -c -m 644 ./old/$f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/oldfont/devlj4/$f; \
+     done
+test -z "" \
+  || for f in ""; do \
+       rm -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font/devlj4/$f; \
+       if test -f $f; then \
+	 /usr/bin/install -c $f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font/devlj4/$f; \
+       else \
+	 /usr/bin/install -c ./$f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font/devlj4/$f; \
+       fi; \
+     done
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/font/devlj4'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/font/devlbp'
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share \
+  || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff \
+  || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3 \
+  || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font \
+  || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font/devlbp \
+  || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font/devlbp
+mkdir -p -- /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font/devlbp
+if test -d ./generate; then \
+  test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font/devlbp/generate \
+    || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font/devlbp/generate; \
+fi
+if test -d ./old; then \
+  test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/oldfont \
+    || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/oldfont; \
+  test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/oldfont/devlbp \
+    || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/oldfont/devlbp; \
+fi
+test -z "DESC HB HBI HI HR HNB HNBI HNI HNR TB TBI TI TR CR CB CI ER EB EI" \
+  || for f in ""DESC HB HBI HI HR HNB HNBI HNI HNR TB TBI TI TR CR CB CI ER EB EI; do \
+       rm -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font/devlbp/$f; \
+       if test -f $f; then \
+	 /usr/bin/install -c -m 644 $f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font/devlbp/$f; \
+       else \
+	 /usr/bin/install -c -m 644 ./$f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font/devlbp/$f; \
+       fi; \
+     done
+test -z "" \
+  || for f in ""; do \
+       rm -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/oldfont/devlbp/$f; \
+       /usr/bin/install -c -m 644 ./old/$f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/oldfont/devlbp/$f; \
+     done
+test -z "" \
+  || for f in ""; do \
+       rm -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font/devlbp/$f; \
+       if test -f $f; then \
+	 /usr/bin/install -c $f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font/devlbp/$f; \
+       else \
+	 /usr/bin/install -c ./$f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font/devlbp/$f; \
+       fi; \
+     done
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/font/devlbp'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/font/devascii'
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share \
+  || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff \
+  || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3 \
+  || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font \
+  || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font/devascii \
+  || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font/devascii
+mkdir -p -- /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font/devascii
+if test -d ./generate; then \
+  test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font/devascii/generate \
+    || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font/devascii/generate; \
+fi
+if test -d ./old; then \
+  test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/oldfont \
+    || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/oldfont; \
+  test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/oldfont/devascii \
+    || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/oldfont/devascii; \
+fi
+test -z "R I B BI DESC" \
+  || for f in ""R I B BI DESC; do \
+       rm -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font/devascii/$f; \
+       if test -f $f; then \
+	 /usr/bin/install -c -m 644 $f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font/devascii/$f; \
+       else \
+	 /usr/bin/install -c -m 644 ./$f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font/devascii/$f; \
+       fi; \
+     done
+test -z "" \
+  || for f in ""; do \
+       rm -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/oldfont/devascii/$f; \
+       /usr/bin/install -c -m 644 ./old/$f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/oldfont/devascii/$f; \
+     done
+test -z "" \
+  || for f in ""; do \
+       rm -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font/devascii/$f; \
+       if test -f $f; then \
+	 /usr/bin/install -c $f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font/devascii/$f; \
+       else \
+	 /usr/bin/install -c ./$f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font/devascii/$f; \
+       fi; \
+     done
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/font/devascii'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/font/devlatin1'
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share \
+  || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff \
+  || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3 \
+  || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font \
+  || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font/devlatin1 \
+  || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font/devlatin1
+mkdir -p -- /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font/devlatin1
+if test -d ./generate; then \
+  test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font/devlatin1/generate \
+    || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font/devlatin1/generate; \
+fi
+if test -d ./old; then \
+  test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/oldfont \
+    || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/oldfont; \
+  test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/oldfont/devlatin1 \
+    || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/oldfont/devlatin1; \
+fi
+test -z "R I B BI DESC" \
+  || for f in ""R I B BI DESC; do \
+       rm -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font/devlatin1/$f; \
+       if test -f $f; then \
+	 /usr/bin/install -c -m 644 $f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font/devlatin1/$f; \
+       else \
+	 /usr/bin/install -c -m 644 ./$f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font/devlatin1/$f; \
+       fi; \
+     done
+test -z "" \
+  || for f in ""; do \
+       rm -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/oldfont/devlatin1/$f; \
+       /usr/bin/install -c -m 644 ./old/$f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/oldfont/devlatin1/$f; \
+     done
+test -z "" \
+  || for f in ""; do \
+       rm -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font/devlatin1/$f; \
+       if test -f $f; then \
+	 /usr/bin/install -c $f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font/devlatin1/$f; \
+       else \
+	 /usr/bin/install -c ./$f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font/devlatin1/$f; \
+       fi; \
+     done
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/font/devlatin1'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/font/devutf8'
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share \
+  || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff \
+  || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3 \
+  || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font \
+  || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font/devutf8 \
+  || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font/devutf8
+mkdir -p -- /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font/devutf8
+if test -d ./generate; then \
+  test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font/devutf8/generate \
+    || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font/devutf8/generate; \
+fi
+if test -d ./old; then \
+  test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/oldfont \
+    || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/oldfont; \
+  test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/oldfont/devutf8 \
+    || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/oldfont/devutf8; \
+fi
+test -z "R I B BI DESC" \
+  || for f in ""R I B BI DESC; do \
+       rm -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font/devutf8/$f; \
+       if test -f $f; then \
+	 /usr/bin/install -c -m 644 $f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font/devutf8/$f; \
+       else \
+	 /usr/bin/install -c -m 644 ./$f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font/devutf8/$f; \
+       fi; \
+     done
+test -z "" \
+  || for f in ""; do \
+       rm -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/oldfont/devutf8/$f; \
+       /usr/bin/install -c -m 644 ./old/$f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/oldfont/devutf8/$f; \
+     done
+test -z "" \
+  || for f in ""; do \
+       rm -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font/devutf8/$f; \
+       if test -f $f; then \
+	 /usr/bin/install -c $f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font/devutf8/$f; \
+       else \
+	 /usr/bin/install -c ./$f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/font/devutf8/$f; \
+       fi; \
+     done
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/font/devutf8'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/man'
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man5 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man5
+/usr/bin/install -c -m 644 groff_font.n /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man5/groff_font.5
+/usr/bin/install -c -m 644 groff_out.n /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man5/groff_out.5
+/usr/bin/install -c -m 644 groff_tmac.n /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man5/groff_tmac.5
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7
+/usr/bin/install -c -m 644 ditroff.n /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7/ditroff.7
+/usr/bin/install -c -m 644 groff_char.n /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7/groff_char.7
+/usr/bin/install -c -m 644 groff_diff.n /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7/groff_diff.7
+/usr/bin/install -c -m 644 groff.n /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7/groff.7
+/usr/bin/install -c -m 644 roff.n /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7/roff.7
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/man'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/tmac'
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man5 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man5
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7
+/usr/bin/install -c -m 644 groff_ms.n /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7/groff_ms.7
+/usr/bin/install -c -m 644 groff_man.n /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7/groff_man.7
+/usr/bin/install -c -m 644 groff_me.n /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7/groff_me.7
+/usr/bin/install -c -m 644 groff_mdoc.n /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7/groff_mdoc.7
+/usr/bin/install -c -m 644 groff_trace.n /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7/groff_trace.7
+/usr/bin/install -c -m 644 groff_www.n /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7/groff_www.7
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/tmac \
+  || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/tmac
+mkdir -p -- /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/tmac
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/lib/groff/site-tmac \
+  || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/lib/groff/site-tmac
+mkdir -p -- /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/lib/groff/site-tmac
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/site-tmac \
+  || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/site-tmac
+mkdir -p -- /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/site-tmac
+if test -n ""; then \
+  for m in ""; do \
+    /usr/bin/install -c -m 644 $m-wrap /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/lib/groff/site-tmac/$m.tmac; \
+  done; \
+fi
+for f in man.tmac mandoc.tmac andoc.tmac an-old.tmac an-ext.tmac ms.tmac me.tmac mdoc.tmac pic.tmac a4.tmac papersize.tmac 62bit.tmac ec.tmac safer.tmac trace.tmac ps.tmac psold.tmac pspic.tmac psatk.tmac dvi.tmac tty.tmac tty-char.tmac latin1.tmac latin2.tmac latin5.tmac latin9.tmac cp1047.tmac unicode.tmac X.tmac Xps.tmac lj4.tmac lbp.tmac html.tmac html-end.tmac devtag.tmac europs.tmac composite.tmac eqnrc troffrc troffrc-end trans.tmac hyphen.us hyphenex.us fr.tmac hyphen.fr sv.tmac hyphen.sv de.tmac den.tmac hyphen.det hyphen.den hyphenex.det; do \
+  rm -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/tmac/$f; \
+  /usr/bin/install -c -m 644 ./$f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/tmac/$f; \
+done
+rm -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/tmac/s.tmac
+/usr/bin/install -c -m 644 ./s.tmac \
+  /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/tmac/s.tmac
+rm -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/tmac/an.tmac
+/usr/bin/install -c -m 644 ./an.tmac \
+  /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/tmac/an.tmac
+rm -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/tmac/www.tmac
+/usr/bin/install -c -m 644 www.tmac-sed /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/tmac/www.tmac
+for f in e.tmac doc.tmac doc-old.tmac; do \
+  rm -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/tmac/$f; \
+  /usr/bin/install -c -m 644 $f-s /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/tmac/$f; \
+done
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/tmac/mdoc || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/tmac/mdoc
+mkdir -p -- /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/tmac/mdoc
+for f in doc-common doc-ditroff doc-nroff doc-syms; do \
+  rm -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/tmac/mdoc/$f; \
+  /usr/bin/install -c -m 644 $f-s /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/tmac/mdoc/$f; \
+done
+test -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/site-tmac/man.local || \
+  /usr/bin/install -c -m 644 ./man.local \
+    /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/site-tmac/man.local
+test -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/site-tmac/mdoc.local || \
+  /usr/bin/install -c -m 644 mdoc.local-s /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/site-tmac/mdoc.local
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/tmac'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/utils/afmtodit'
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1
+/usr/bin/install -c -m 644 afmtodit.n /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1/afmtodit.1
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man5 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man5
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin
+rm -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin/afmtodit
+/usr/bin/install -c afmtodit /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin/afmtodit
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/utils/afmtodit'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/roff/grog'
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1
+/usr/bin/install -c -m 644 grog.n /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1/grog.1
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man5 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man5
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7
+/usr/bin/install -c grog /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin/grog
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/roff/grog'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/roff/nroff'
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1
+/usr/bin/install -c -m 644 nroff.n /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1/nroff.1
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man5 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man5
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin
+rm -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin/nroff
+/usr/bin/install -c nroff /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin/nroff
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/roff/nroff'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/doc'
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man5 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man5
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/info || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/info
+mkdir -p -- /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/info
+d=.; \
+  test -f "groff.info" || d=.; \
+  for p in $d/groff.info `ls $d/groff.info*`; do \
+    f=`basename $p`; \
+    rm -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/info/$f; \
+    /usr/bin/install -c -m 644 $p /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/info/$f; \
+  done
+install-info --info-dir=/home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/info \
+  /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/info/groff.info
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/doc/groff/1.19.3 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/doc/groff/1.19.3
+mkdir -p -- /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/doc/groff/1.19.3
+for f in meref.me meintro.me pic.ms; do \
+  rm -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/doc/groff/1.19.3/$f; \
+  /usr/bin/install -c -m 644 ./$f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/doc/groff/1.19.3/$f; \
+done
+for f in meref.ps meintro.ps pic.ps; do \
+  rm -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/doc/groff/1.19.3/$f; \
+  /usr/bin/install -c -m 644 $f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/doc/groff/1.19.3/$f; \
+done
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/doc/groff/1.19.3/examples \
+  || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/doc/groff/1.19.3/examples
+mkdir -p -- /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/doc/groff/1.19.3/examples
+for f in webpage.ms groff.css grnexmpl.g grnexmpl.me; do \
+  rm -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/doc/groff/1.19.3/examples/$f; \
+  /usr/bin/install -c -m 644 ./$f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/doc/groff/1.19.3/examples/$f; \
+done
+for f in webpage.ps grnexmpl.ps gnu.eps; do \
+  rm -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/doc/groff/1.19.3/examples/$f; \
+  /usr/bin/install -c -m 644 $f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/doc/groff/1.19.3/examples/$f; \
+done
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/doc'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/contrib/mm'
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin
+rm -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin/mmroff
+/usr/bin/install -c mmroff /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin/mmroff
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/tmac \
+  || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/tmac
+rm -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/tmac/tmac.m
+rm -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/tmac/m.tmac
+/usr/bin/install -c -m 644 ./m.tmac \
+  /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/tmac/m.tmac
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1
+/usr/bin/install -c -m 644 mmroff.n /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1/mmroff.1
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man5 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man5
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7
+/usr/bin/install -c -m 644 groff_mm.n /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7/groff_mm.7
+/usr/bin/install -c -m 644 groff_mmse.n /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7/groff_mmse.7
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/tmac/mm \
+  || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/tmac/mm
+mkdir -p -- /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/tmac/mm
+for f in 0.MT 5.MT 4.MT ms.cov se_ms.cov ; do \
+	rm -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/tmac/mm/$f; \
+	/usr/bin/install -c -m 644 ./mm/$f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/tmac/mm/$f; \
+done
+for f in locale se_locale; do \
+	test -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/tmac/mm/$f \
+	  || touch /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/tmac/mm/$f; \
+done
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/contrib/mm'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/contrib/chem'
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1
+/usr/bin/install -c -m 644 chem.n /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1/chem.1
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man5 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man5
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin
+rm -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin/chem
+/usr/bin/install -c chem /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin/chem
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/pic \
+          || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/pic
+mkdir -p -- /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/pic
+rm -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/pic/chem.pic
+/usr/bin/install -c -m 644 ./chem.pic \
+          /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/pic/chem.pic
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/doc/groff/1.19.3/examples/chem \
+          || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/doc/groff/1.19.3/examples/chem/122
+mkdir -p -- /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/doc/groff/1.19.3/examples/chem/122
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/doc/groff/1.19.3/examples/chem/122 \
+          || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/doc/groff/1.19.3/examples/chem/122
+rm -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/doc/groff/1.19.3/examples/chem/*
+/usr/bin/install -c -m 644 examples/README \
+          /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/doc/groff/1.19.3/examples/chem/README
+for i in ./examples/*.chem; do \
+          n=`echo $i | sed 's|./examples/||g'`; \
+          /usr/bin/install -c -m 644 $i /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/doc/groff/1.19.3/examples/chem/$n; \
+        done
+rm -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/doc/groff/1.19.3/examples/chem/122/*
+for i in ./examples/122/*; do \
+          n=`echo $i | sed 's|./examples/122/||g'`; \
+          /usr/bin/install -c -m 644 $i /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/doc/groff/1.19.3/examples/chem/122/$n; \
+        done
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/contrib/chem'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/contrib/pic2graph'
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1
+/usr/bin/install -c -m 644 pic2graph.n /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1/pic2graph.1
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man5 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man5
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin
+rm -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin/pic2graph
+/usr/bin/install -c pic2graph /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin/pic2graph
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/contrib/pic2graph'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/contrib/eqn2graph'
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1
+/usr/bin/install -c -m 644 eqn2graph.n /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1/eqn2graph.1
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man5 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man5
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin
+rm -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin/eqn2graph
+/usr/bin/install -c eqn2graph /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin/eqn2graph
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/contrib/eqn2graph'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/contrib/grap2graph'
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1
+/usr/bin/install -c -m 644 grap2graph.n /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1/grap2graph.1
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man5 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man5
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin
+rm -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin/grap2graph
+/usr/bin/install -c grap2graph /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin/grap2graph
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/contrib/grap2graph'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/contrib/groffer'
+Making roff2dvi.n from roff2dvi.man
+Making roff2html.n from roff2html.man
+Making roff2pdf.n from roff2pdf.man
+Making roff2ps.n from roff2ps.man
+Making roff2text.n from roff2text.man
+Making roff2x.n from roff2x.man
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1
+/usr/bin/install -c -m 644 groffer.n /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1/groffer.1
+/usr/bin/install -c -m 644 roff2dvi.n /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1/roff2dvi.1
+/usr/bin/install -c -m 644 roff2html.n /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1/roff2html.1
+/usr/bin/install -c -m 644 roff2pdf.n /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1/roff2pdf.1
+/usr/bin/install -c -m 644 roff2ps.n /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1/roff2ps.1
+/usr/bin/install -c -m 644 roff2text.n /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1/roff2text.1
+/usr/bin/install -c -m 644 roff2x.n /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1/roff2x.1
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man5 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man5
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin
+rm -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin/groffer
+/usr/bin/install -c groffer /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin/groffer
+for f in `echo dvi html pdf ps text x | sed 's/[a-z][a-z]*/roff2&/g'`; do \
+  rm -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin/$f; \
+  /usr/bin/install -c $f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin/$f; \
+done
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/lib/groff/groffer \
+          || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/lib/groff/groffer
+mkdir -p -- /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/lib/groff/groffer
+rm -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/lib/groff/groffer/version.sh
+/usr/bin/install -c -m 644 ./version.sh \
+          /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/lib/groff/groffer/version.sh
+for f in `echo ./perl/func.pl ./perl/man.pl ./perl/perl_test.pl ./perl/split_env.sh | sed 's|./perl/||g'` `echo ./shell/groffer2.sh | sed 's|./shell||g'`; do \
+          rm -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/lib/groff/groffer/$f; \
+        done
+if test -f HAVE_PERL; then \
+          for f in `echo ./perl/func.pl ./perl/man.pl ./perl/perl_test.pl ./perl/split_env.sh | sed 's|./perl/||g'`; do \
+            /usr/bin/install -c ./perl/$f \
+              /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/lib/groff/groffer/$f; \
+          done; \
+        elif test -f HAVE_SHELL; then \
+          for f in `echo ./shell/groffer2.sh | sed 's|./shell||g'`; do \
+            /usr/bin/install -c ./shell/$f \
+              /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/lib/groff/groffer/$f; \
+          done; \
+        fi;
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/contrib/groffer'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/contrib/mom'
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man5 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man5
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7
+/usr/bin/install -c -m 644 groff_mom.n /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7/groff_mom.7
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/tmac || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/tmac
+for f in mom.tmac; do \
+  rm -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/tmac/$f; \
+  /usr/bin/install -c -m 644 ./$f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/tmac/$f; \
+done
+for f in om.tmac; do \
+  rm -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/tmac/$f; \
+  /usr/bin/install -c -m 644 $f-s /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/tmac/$f; \
+done
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/doc/groff/1.19.3/html/mom \
+  || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/doc/groff/1.19.3/html/mom
+mkdir -p -- /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/doc/groff/1.19.3/html/mom
+for f in `echo momdoc/appendices.html momdoc/color.html momdoc/cover.html momdoc/definitions.html momdoc/docelement.html momdoc/docprocessing.html momdoc/goodies.html momdoc/headfootpage.html momdoc/inlines.html momdoc/intro.html momdoc/letters.html momdoc/macrolist.html momdoc/rectoverso.html momdoc/refer.html momdoc/reserved.html momdoc/toc.html momdoc/typemacdoc.html momdoc/typesetting.html momdoc/using.html | sed 's|momdoc/||g'`; do \
+  rm -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/doc/groff/1.19.3/html/mom/$f; \
+  /usr/bin/install -c -m 644 ./momdoc/$f \
+    /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/doc/groff/1.19.3/html/mom/$f; \
+done
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/doc/groff/1.19.3/examples/mom \
+  || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/doc/groff/1.19.3/examples/mom
+mkdir -p -- /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/doc/groff/1.19.3/examples/mom
+for f in `echo examples/letter.mom examples/sample_docs.mom examples/typesetting.mom examples/README.txt examples/elvis_syntax examples/elvis_syntax.new examples/penguin.ps | sed 's|examples/||g'`; do \
+  rm -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/doc/groff/1.19.3/examples/mom/$f; \
+  /usr/bin/install -c -m 644 ./examples/$f \
+    /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/doc/groff/1.19.3/examples/mom/$f; \
+done
+for f in `echo examples/letter.ps examples/sample_docs.ps examples/typesetting.ps | sed 's|examples/||g'`; do \
+  rm -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/doc/groff/1.19.3/examples/mom/$f; \
+  /usr/bin/install -c -m 644 examples/$f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/doc/groff/1.19.3/examples/mom/$f; \
+done
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/contrib/mom'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/contrib/hdtbl'
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man5 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man5
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7
+/usr/bin/install -c -m 644 groff_hdtbl.n /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7/groff_hdtbl.7
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/tmac || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/tmac
+for f in hdtbl.tmac hdmisc.tmac; do \
+  rm -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/tmac/$f; \
+  /usr/bin/install -c -m 644 $f-s /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/tmac/$f; \
+done
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/doc/groff/1.19.3/examples/hdtbl \
+  || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/doc/groff/1.19.3/examples/hdtbl
+mkdir -p -- /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/doc/groff/1.19.3/examples/hdtbl
+for f in `echo examples/chess_board.roff examples/color_boxes.roff examples/color_nested_tables.roff examples/color_table_cells.roff examples/color_transitions.roff examples/col_rowspan_colors.roff examples/mixed_pickles.roff examples/rainbow.roff examples/short_reference.roff | sed 's|examples/||g'`; do \
+  rm -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/doc/groff/1.19.3/examples/hdtbl/$f; \
+  /usr/bin/install -c -m 644 ./examples/$f \
+    /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/doc/groff/1.19.3/examples/hdtbl/$f; \
+done
+for f in `echo examples/chess_board.ps examples/color_boxes.ps examples/color_nested_tables.ps examples/color_table_cells.ps examples/color_transitions.ps examples/col_rowspan_colors.ps examples/fonts_n.ps examples/fonts_x.ps examples/mixed_pickles.ps examples/rainbow.ps examples/short_reference.ps | sed 's|examples/||g'` `echo examples/fonts_n.roff examples/fonts_x.roff | sed 's|examples/||g'`; do \
+  rm -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/doc/groff/1.19.3/examples/hdtbl/$f; \
+  /usr/bin/install -c -m 644 examples/$f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/doc/groff/1.19.3/examples/hdtbl/$f; \
+done
+/usr/bin/install -c -m 644 gnu.eps /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/doc/groff/1.19.3/examples/hdtbl/gnu.eps
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/contrib/hdtbl'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/contrib/pdfmark'
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1
+/usr/bin/install -c -m 644 pdfroff.n /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1/pdfroff.1
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man5 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man5
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin
+for f in pdfroff; do \
+  rm -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin/$f; \
+  /usr/bin/install -c $f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin/$f; \
+done
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/tmac || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/tmac
+for f in pdfmark.tmac spdf.tmac; do \
+  rm -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/tmac/$f; \
+  /usr/bin/install -c -m 644 ./$f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/1.19.3/tmac/$f; \
+done
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/contrib/pdfmark'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/contrib/gdiffmk'
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1
+/usr/bin/install -c -m 644 gdiffmk.n /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man1/gdiffmk.1
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man5 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man5
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7 || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/man/man7
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin  ||  /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin
+rm -f /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin/gdiffmk
+/usr/bin/install -c gdiffmk /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/bin/gdiffmk
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/contrib/gdiffmk'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2'
+test -d /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/site-font \
+  || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/site-font
+mkdir -p -- /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff/site-font
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2'
+make[1]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2'
+cd /home/kris/svn/packages/groff/groff-1.19.2/pkg/debian/usr/share/groff; \
+rm -f current; \
+ln -s `cat /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/VERSION``sed -e 's/^0$//' -e 's/^[1-9].*$/.&/' /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/REVISION` current

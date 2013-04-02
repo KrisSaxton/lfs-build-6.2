@@ -1,0 +1,18 @@
+#!/bin/bash
+
+source configure
+
+pushd ../pkg/debian
+
+{
+mkdir bin
+mv -v usr/bin/gzip bin
+rm -v usr/info/dir
+rm -v usr/bin/{gunzip,zcat}
+ln -v bin/gzip bin/gunzip
+ln -v bin/gzip bin/zcat
+ln -v bin/gzip bin/compress
+ln -v bin/gunzip bin/uncompress
+} | tee ../../logs/070-fix-files.log
+
+popd

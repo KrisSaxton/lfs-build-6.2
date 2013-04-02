@@ -1,0 +1,167 @@
+Making install in bin
+make[1]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/bin'
+make[2]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/bin'
+/bin/sh ../config/mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/../../pkg/debian/usr/bin
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/../../pkg/debian/usr/bin
+ /usr/bin/install -c autom4te /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/../../pkg/debian/usr/bin/autom4te
+ /usr/bin/install -c autoconf /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/../../pkg/debian/usr/bin/autoconf
+ /usr/bin/install -c autoheader /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/../../pkg/debian/usr/bin/autoheader
+ /usr/bin/install -c autoreconf /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/../../pkg/debian/usr/bin/autoreconf
+ /usr/bin/install -c ifnames /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/../../pkg/debian/usr/bin/ifnames
+ /usr/bin/install -c autoscan /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/../../pkg/debian/usr/bin/autoscan
+ /usr/bin/install -c autoupdate /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/../../pkg/debian/usr/bin/autoupdate
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/bin'
+make[1]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/bin'
+Making install in tests
+make[1]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/tests'
+make[2]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/tests'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/tests'
+make[1]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/tests'
+Making install in .
+make[1]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59'
+make[2]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59'
+make[2]: Nothing to be done for `install-exec-am'.
+/bin/sh ./config/mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/../../pkg/debian/usr/share/autoconf
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/../../pkg/debian/usr/share/autoconf
+ /usr/bin/install -c -m 644 INSTALL /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/../../pkg/debian/usr/share/autoconf/INSTALL
+make[2]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59'
+make[1]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59'
+Making install in lib
+make[1]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/lib'
+Making install in Autom4te
+make[2]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/lib/Autom4te'
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/lib/Autom4te'
+make[3]: Nothing to be done for `install-exec-am'.
+/bin/sh ../../config/mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/../../pkg/debian/usr/share/autoconf/Autom4te
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/../../pkg/debian/usr/share/autoconf/Autom4te
+ /usr/bin/install -c -m 644 C4che.pm /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/../../pkg/debian/usr/share/autoconf/Autom4te/C4che.pm
+ /usr/bin/install -c -m 644 ChannelDefs.pm /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/../../pkg/debian/usr/share/autoconf/Autom4te/ChannelDefs.pm
+ /usr/bin/install -c -m 644 Channels.pm /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/../../pkg/debian/usr/share/autoconf/Autom4te/Channels.pm
+ /usr/bin/install -c -m 644 Configure_ac.pm /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/../../pkg/debian/usr/share/autoconf/Autom4te/Configure_ac.pm
+ /usr/bin/install -c -m 644 FileUtils.pm /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/../../pkg/debian/usr/share/autoconf/Autom4te/FileUtils.pm
+ /usr/bin/install -c -m 644 General.pm /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/../../pkg/debian/usr/share/autoconf/Autom4te/General.pm
+ /usr/bin/install -c -m 644 Request.pm /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/../../pkg/debian/usr/share/autoconf/Autom4te/Request.pm
+ /usr/bin/install -c -m 644 Struct.pm /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/../../pkg/debian/usr/share/autoconf/Autom4te/Struct.pm
+ /usr/bin/install -c -m 644 XFile.pm /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/../../pkg/debian/usr/share/autoconf/Autom4te/XFile.pm
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/lib/Autom4te'
+make[2]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/lib/Autom4te'
+Making install in m4sugar
+make[2]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/lib/m4sugar'
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/lib/m4sugar'
+make[3]: Nothing to be done for `install-exec-am'.
+/bin/sh ../../config/mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/../../pkg/debian/usr/share/autoconf/m4sugar
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/../../pkg/debian/usr/share/autoconf/m4sugar
+ /usr/bin/install -c -m 644 m4sugar.m4 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/../../pkg/debian/usr/share/autoconf/m4sugar/m4sugar.m4
+ /usr/bin/install -c -m 644 m4sh.m4 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/../../pkg/debian/usr/share/autoconf/m4sugar/m4sh.m4
+/bin/sh ../../config/mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/../../pkg/debian/usr/share/autoconf/m4sugar
+ /usr/bin/install -c -m 644 version.m4 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/../../pkg/debian/usr/share/autoconf/m4sugar/version.m4
+ /usr/bin/install -c -m 644 m4sugar.m4f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/../../pkg/debian/usr/share/autoconf/m4sugar/m4sugar.m4f
+ /usr/bin/install -c -m 644 m4sh.m4f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/../../pkg/debian/usr/share/autoconf/m4sugar/m4sh.m4f
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/lib/m4sugar'
+make[2]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/lib/m4sugar'
+Making install in autoconf
+make[2]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/lib/autoconf'
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/lib/autoconf'
+make[3]: Nothing to be done for `install-exec-am'.
+/bin/sh ../../config/mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/../../pkg/debian/usr/share/autoconf/autoconf
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/../../pkg/debian/usr/share/autoconf/autoconf
+ /usr/bin/install -c -m 644 autoconf.m4 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/../../pkg/debian/usr/share/autoconf/autoconf/autoconf.m4
+ /usr/bin/install -c -m 644 general.m4 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/../../pkg/debian/usr/share/autoconf/autoconf/general.m4
+ /usr/bin/install -c -m 644 status.m4 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/../../pkg/debian/usr/share/autoconf/autoconf/status.m4
+ /usr/bin/install -c -m 644 oldnames.m4 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/../../pkg/debian/usr/share/autoconf/autoconf/oldnames.m4
+ /usr/bin/install -c -m 644 specific.m4 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/../../pkg/debian/usr/share/autoconf/autoconf/specific.m4
+ /usr/bin/install -c -m 644 autoheader.m4 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/../../pkg/debian/usr/share/autoconf/autoconf/autoheader.m4
+ /usr/bin/install -c -m 644 autoupdate.m4 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/../../pkg/debian/usr/share/autoconf/autoconf/autoupdate.m4
+ /usr/bin/install -c -m 644 autotest.m4 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/../../pkg/debian/usr/share/autoconf/autoconf/autotest.m4
+ /usr/bin/install -c -m 644 autoscan.m4 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/../../pkg/debian/usr/share/autoconf/autoconf/autoscan.m4
+ /usr/bin/install -c -m 644 lang.m4 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/../../pkg/debian/usr/share/autoconf/autoconf/lang.m4
+ /usr/bin/install -c -m 644 c.m4 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/../../pkg/debian/usr/share/autoconf/autoconf/c.m4
+ /usr/bin/install -c -m 644 fortran.m4 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/../../pkg/debian/usr/share/autoconf/autoconf/fortran.m4
+ /usr/bin/install -c -m 644 functions.m4 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/../../pkg/debian/usr/share/autoconf/autoconf/functions.m4
+ /usr/bin/install -c -m 644 headers.m4 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/../../pkg/debian/usr/share/autoconf/autoconf/headers.m4
+ /usr/bin/install -c -m 644 types.m4 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/../../pkg/debian/usr/share/autoconf/autoconf/types.m4
+ /usr/bin/install -c -m 644 libs.m4 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/../../pkg/debian/usr/share/autoconf/autoconf/libs.m4
+ /usr/bin/install -c -m 644 programs.m4 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/../../pkg/debian/usr/share/autoconf/autoconf/programs.m4
+/bin/sh ../../config/mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/../../pkg/debian/usr/share/autoconf/autoconf
+ /usr/bin/install -c -m 644 autoconf.m4f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/../../pkg/debian/usr/share/autoconf/autoconf/autoconf.m4f
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/lib/autoconf'
+make[2]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/lib/autoconf'
+Making install in autotest
+make[2]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/lib/autotest'
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/lib/autotest'
+make[3]: Nothing to be done for `install-exec-am'.
+/bin/sh ../../config/mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/../../pkg/debian/usr/share/autoconf/autotest
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/../../pkg/debian/usr/share/autoconf/autotest
+ /usr/bin/install -c -m 644 autotest.m4 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/../../pkg/debian/usr/share/autoconf/autotest/autotest.m4
+ /usr/bin/install -c -m 644 general.m4 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/../../pkg/debian/usr/share/autoconf/autotest/general.m4
+/bin/sh ../../config/mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/../../pkg/debian/usr/share/autoconf/autotest
+ /usr/bin/install -c -m 644 autotest.m4f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/../../pkg/debian/usr/share/autoconf/autotest/autotest.m4f
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/lib/autotest'
+make[2]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/lib/autotest'
+Making install in autoscan
+make[2]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/lib/autoscan'
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/lib/autoscan'
+make[3]: Nothing to be done for `install-exec-am'.
+/bin/sh ../../config/mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/../../pkg/debian/usr/share/autoconf/autoscan
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/../../pkg/debian/usr/share/autoconf/autoscan
+ /usr/bin/install -c -m 644 autoscan.list /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/../../pkg/debian/usr/share/autoconf/autoscan/autoscan.list
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/lib/autoscan'
+make[2]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/lib/autoscan'
+Making install in emacs
+make[2]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/lib/emacs'
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/lib/emacs'
+make[3]: Nothing to be done for `install-exec-am'.
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/../../pkg/debian/usr/share/emacs/site-lisp
+ /usr/bin/install -c -m 644 autoconf-mode.el /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/../../pkg/debian/usr/share/emacs/site-lisp/autoconf-mode.el
+ /usr/bin/install -c -m 644 autoconf-mode.elc /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/../../pkg/debian/usr/share/emacs/site-lisp/autoconf-mode.elc
+ /usr/bin/install -c -m 644 autotest-mode.el /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/../../pkg/debian/usr/share/emacs/site-lisp/autotest-mode.el
+ /usr/bin/install -c -m 644 autotest-mode.elc /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/../../pkg/debian/usr/share/emacs/site-lisp/autotest-mode.elc
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/lib/emacs'
+make[2]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/lib/emacs'
+make[2]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/lib'
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/lib'
+make[3]: Nothing to be done for `install-exec-am'.
+/bin/sh ../config/mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/../../pkg/debian/usr/share/autoconf
+ /usr/bin/install -c -m 644 autom4te.cfg /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/../../pkg/debian/usr/share/autoconf/autom4te.cfg
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/lib'
+make[2]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/lib'
+make[1]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/lib'
+Making install in config
+make[1]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/config'
+make[2]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/config'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/config'
+make[1]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/config'
+Making install in man
+make[1]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/man'
+make[2]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/man'
+make[2]: Nothing to be done for `install-exec-am'.
+/bin/sh ../config/mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/../../pkg/debian/usr/share/man/man1
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/../../pkg/debian/usr/share/man/man1
+ /usr/bin/install -c -m 644 ./autoconf.1 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/../../pkg/debian/usr/share/man/man1/autoconf.1
+ /usr/bin/install -c -m 644 ./autoreconf.1 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/../../pkg/debian/usr/share/man/man1/autoreconf.1
+ /usr/bin/install -c -m 644 ./autoheader.1 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/../../pkg/debian/usr/share/man/man1/autoheader.1
+ /usr/bin/install -c -m 644 ./autoupdate.1 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/../../pkg/debian/usr/share/man/man1/autoupdate.1
+ /usr/bin/install -c -m 644 ./ifnames.1 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/../../pkg/debian/usr/share/man/man1/ifnames.1
+ /usr/bin/install -c -m 644 ./autoscan.1 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/../../pkg/debian/usr/share/man/man1/autoscan.1
+ /usr/bin/install -c -m 644 ./autom4te.1 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/../../pkg/debian/usr/share/man/man1/autom4te.1
+ /usr/bin/install -c -m 644 ./config.guess.1 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/../../pkg/debian/usr/share/man/man1/config.guess.1
+ /usr/bin/install -c -m 644 ./config.sub.1 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/../../pkg/debian/usr/share/man/man1/config.sub.1
+make[2]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/man'
+make[1]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/man'
+Making install in doc
+make[1]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/doc'
+make[2]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/doc'
+make[2]: Nothing to be done for `install-exec-am'.
+/bin/sh ../config/mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/../../pkg/debian/usr/share/info
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/../../pkg/debian/usr/share/info
+ /usr/bin/install -c -m 644 ./autoconf.info /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/../../pkg/debian/usr/share/info/autoconf.info
+ /usr/bin/install -c -m 644 ./standards.info /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/../../pkg/debian/usr/share/info/standards.info
+ install-info --info-dir=/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/../../pkg/debian/usr/share/info /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/../../pkg/debian/usr/share/info/autoconf.info
+ install-info --info-dir=/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/../../pkg/debian/usr/share/info /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/../../pkg/debian/usr/share/info/standards.info
+make[2]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/doc'
+make[1]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/doc'

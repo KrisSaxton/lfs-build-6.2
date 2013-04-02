@@ -1,0 +1,20 @@
+dpkg-deb: building package `sysvinit-2.86' in `debian.deb'.
+ new debian package, version 2.0.
+ size 75900 bytes: control archive= 996 bytes.
+     290 bytes,    10 lines      control              
+     789 bytes,    18 lines      copyright            
+       6 bytes,     1 lines      debian-binary        
+     110 bytes,     3 lines   *  postinst             #!/bin/bash
+     108 bytes,     3 lines   *  postrm               #!/bin/bash
+     111 bytes,     3 lines   *  preinst              #!/bin/bash
+     109 bytes,     3 lines   *  prerm                #!/bin/bash
+ Package: sysvinit-2.86
+ Version: 2.86
+ Section: unknown
+ Priority: required
+ Architecture: all
+ Essential: no
+ Depends: aaa-base
+ Maintainer: Aethernet support team [support@aethernet.co.uk]
+ Provides: sysvinit
+ Description: Programs for controlling the startup, running, and shutdown of the system

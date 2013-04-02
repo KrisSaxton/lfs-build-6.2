@@ -1,0 +1,275 @@
+Configuring NCURSES 5.5 ABI 5 (Sun Sep 23 12:53:49 UTC 2007)
+checking build system type... i686-pc-linux-gnu
+checking host system type... i686-pc-linux-gnu
+checking target system type... i686-pc-linux-gnu
+Configuring for linux-gnu
+checking for prefix... /usr
+checking for gcc... gcc
+checking for C compiler default output... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for executable suffix... 
+checking for object suffix... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking version of gcc... 4.0.3
+checking how to run the C preprocessor... gcc -E
+checking whether gcc needs -traditional... no
+checking whether gcc understands -c and -o together... yes
+checking for POSIXized ISC... no
+checking for gcc option to accept ANSI C... -DCC_HAS_PROTOS
+checking for ldconfig... /sbin/ldconfig
+checking if you want to ensure bool is consistent with C++... yes
+checking for g++... g++
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking for g++... /usr/bin/g++
+checking version of g++... 4.0.3
+checking if you want to build C++ binding and demo... yes
+checking if you want to build with Ada95... yes
+checking if you want to build programs such as tic... yes
+checking if you wish to install curses.h... yes
+checking for mawk... no
+checking for gawk... gawk
+checking whether make sets ${MAKE}... yes
+checking for a BSD compatible install... /usr/bin/install -c
+checking for long file names... yes
+checking if filesystem supports mixed-case filenames... yes
+checking whether ln -s works... yes
+checking for ctags... no
+checking for etags... no
+checking for tdlint... no
+checking for lint... no
+checking for alint... no
+checking for man... man
+checking for ranlib... ranlib
+checking for ld... ld
+checking for ar... ar
+checking for archiver options (symbol AR_OPTS)... rv
+checking for makeflags variable... 
+checking if you have specified an install-prefix... 
+checking if you want to build libraries with libtool... no
+checking if you want to build shared libraries... yes
+checking if you want to build static libraries... yes
+checking if you want to build debug libraries... no
+checking if you want to build profiling libraries... no
+checking for specified models...  shared normal
+checking for default model... shared
+checking if you want to build a separate terminfo library... no
+checking if you want to link with dbmalloc for testing... no
+checking if you want to link with dmalloc for testing... no
+checking if you want to link with the GPM mouse library... maybe
+checking for Gpm_Open in -lgpm... no
+checking for default loader flags... 
+checking if rpath option should be used... no
+checking if release/abi version should be used for shared libs... auto
+checking which gcc option to use... -fPIC
+checking if you wish to install ncurses overwriting curses... yes
+checking if external terminfo-database is used... yes
+checking which terminfo source-file will be installed... ${top_srcdir}/misc/terminfo.src
+checking for list of fallback descriptions... 
+checking if you want modern xterm or antique... xterm-new
+checking for list of terminfo directories... /usr/share/terminfo
+checking for default terminfo directory... /usr/share/terminfo
+checking if big-core option selected... yes
+checking if you want termcap-fallback support... no
+checking if ~/.terminfo is wanted... yes
+checking if you want to use restrict environment when running as root... yes
+checking for remove... yes
+checking for unlink... yes
+checking if link/symlink functions work...  link symlink
+checking if tic should use symbolic links... no
+checking if you want broken-linker support code... no
+checking if gcc -U and -D options work together... yes
+checking if we must define _GNU_SOURCE... yes
+checking for nl_langinfo and CODESET... yes
+checking if you want wide-character code... yes
+checking if we must define _XOPEN_SOURCE_EXTENDED... no
+checking for putwc... yes
+checking for btowc... yes
+checking for wctob... yes
+checking for mbtowc... yes
+checking for wctomb... yes
+checking for mblen... yes
+checking for mbrlen... yes
+checking for mbrtowc... yes
+checking if we must include wchar.h to declare mbstate_t... yes
+checking if we must include wchar.h to declare wchar_t... no
+checking if we must include wchar.h to declare wint_t... no
+checking whether to enable _LP64 definition in curses.h... no
+checking for _LARGEFILE_SOURCE value needed for large files... no
+checking for fseeko... yes
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... 64
+checking for _LARGE_FILES value needed for large files... no
+checking whether to use struct dirent64... no
+checking for type of bool... auto
+checking for alternate terminal capabilities file... Caps
+checking for type of chtype... auto
+checking for type of ospeed... short
+checking for type of mmask_t... auto
+checking if tputs should process BSD-style prefix padding... no
+checking if RCS identifiers should be compiled-in... no
+checking format of man-pages...  normal
+checking for manpage renaming... no
+checking if manpage aliases will be installed... yes
+checking if manpage symlinks should be used... yes
+checking for manpage tbl... no
+checking if you want to build with function extensions... yes
+checking for extended use of const keyword... no
+checking if you want $NCURSES_NO_PADDING code... yes
+checking if you want SIGWINCH handler... yes
+checking if you want user-definable terminal capabilities like termcap... yes
+checking if you want all development code... no
+checking if you want hard-tabs code... no
+checking if you want limited support for xmc... no
+checking if you do not want to assume colors are white-on-black... yes
+checking if you want hashmap scrolling-optimization code... yes
+checking if you want colorfgbg code... no
+checking if you want to use experimental extended colors... no
+checking if you want to use experimental extended mouse encoding... no
+checking if you want experimental safe-sprintf code... no
+checking if you want to display full commands during build... yes
+checking if you want to see compiler warnings... 
+configure: checking for gcc __attribute__ directives...
+... scanf
+... printf
+... unused
+... noreturn
+checking if you want to enable runtime assertions... no
+checking whether to add trace feature to all models... no
+checking for gettimeofday... yes
+checking if -lm needed for math functions... yes
+checking for ANSI C header files... yes
+checking for dirent.h that defines DIR... yes
+checking for opendir in -ldir... no
+checking whether time.h and sys/time.h may both be included... yes
+checking for regular-expression headers... regex.h
+checking for fcntl.h... yes
+checking for getopt.h... yes
+checking for limits.h... yes
+checking for locale.h... yes
+checking for poll.h... yes
+checking for sys/bsdtypes.h... no
+checking for sys/ioctl.h... yes
+checking for sys/param.h... yes
+checking for sys/poll.h... yes
+checking for sys/select.h... yes
+checking for sys/time.h... yes
+checking for sys/times.h... yes
+checking for ttyent.h... yes
+checking for unistd.h... yes
+checking for wctype.h... yes
+checking if sys/time.h works with sys/select.h... yes
+checking for gcc option to accept ANSI C... none needed
+checking for an ANSI C-conforming const... yes
+checking for inline... inline
+checking for type of chtype... long
+checking if unsigned literals are legal... yes
+checking if external errno is declared... yes
+checking if external errno exists... no
+checking if data-only library module links... yes
+checking for getcwd... yes
+checking for getegid... yes
+checking for geteuid... yes
+checking for getttynam... yes
+checking for issetugid... no
+checking for poll... yes
+checking for remove... (cached) yes
+checking for select... yes
+checking for setbuf... yes
+checking for setbuffer... yes
+checking for setvbuf... yes
+checking for sigaction... yes
+checking for sigvec... yes
+checking for strdup... yes
+checking for strstr... yes
+checking for tcgetpgrp... yes
+checking for times... yes
+checking for vsnprintf... yes
+checking for isascii... yes
+checking whether sigaction needs _POSIX_SOURCE... no
+checking if nanosleep really works... yes
+checking for termio.h... yes
+checking for termios.h... yes
+checking for unistd.h... (cached) yes
+checking whether termios.h needs _POSIX_SOURCE... no
+checking for tcgetattr... yes
+checking for vsscanf function or workaround... vsscanf
+checking for working mkstemp... yes
+checking whether setvbuf arguments are reversed... no
+checking return type of signal handlers... void
+checking for type sigaction_t... no
+checking declaration of size-change... yes
+checking for memmove... yes
+checking if poll really works... yes
+checking if we should include stdbool.h... yes
+checking for builtin bool type... no
+checking for library stdc++... no
+checking whether /usr/bin/g++ understands -c and -o together... yes
+checking how to run the C++ preprocessor... /usr/bin/g++ -E
+checking for typeinfo... yes
+checking if we should include stdbool.h... (cached) yes
+checking for builtin bool type... yes
+checking for size of bool... unsigned char
+checking for special defines needed for etip.h... MATH_H 
+checking if /usr/bin/g++ accepts parameter initialization... no
+checking if /usr/bin/g++ accepts static_cast... yes
+checking for strstream.h... no
+checking if /usr/bin/g++ supports vscan function... stdio
+checking for gnatmake... no
+checking for library subsets... termlib+ext_tinfo+base+widechar+ext_funcs
+checking default library suffix... w
+checking default library-dependency suffix... w.so
+checking default object directory... obj_s
+checking c++ library-dependency suffix... w.a
+checking where we will install curses.h... ${prefix}/include
+checking for src modules... ncurses progs tack panel menu form
+configure: creating ./config.status
+config.status: creating include/MKterm.h.awk
+config.status: creating include/curses.head
+config.status: creating include/termcap.h
+config.status: creating include/unctrl.h
+config.status: creating man/Makefile
+config.status: creating include/Makefile
+config.status: creating ncurses/Makefile
+config.status: creating progs/Makefile
+config.status: creating tack/Makefile
+config.status: creating panel/Makefile
+config.status: creating menu/Makefile
+config.status: creating form/Makefile
+config.status: creating test/Makefile
+config.status: creating misc/Makefile
+config.status: creating c++/Makefile
+config.status: creating misc/run_tic.sh
+config.status: creating Makefile
+config.status: creating include/ncurses_cfg.h
+Appending rules for shared model (ncurses: termlib+ext_tinfo+base+widechar+ext_funcs)
+Appending rules for normal model (ncurses: termlib+ext_tinfo+base+widechar+ext_funcs)
+Appending rules for shared model (progs: termlib+ext_tinfo+base+widechar+ext_funcs)
+Appending rules for normal model (progs: termlib+ext_tinfo+base+widechar+ext_funcs)
+Appending rules for shared model (tack: termlib+ext_tinfo+base+widechar+ext_funcs)
+Appending rules for normal model (tack: termlib+ext_tinfo+base+widechar+ext_funcs)
+Appending rules for shared model (panel: termlib+ext_tinfo+base+widechar+ext_funcs)
+Appending rules for normal model (panel: termlib+ext_tinfo+base+widechar+ext_funcs)
+Appending rules for shared model (menu: termlib+ext_tinfo+base+widechar+ext_funcs)
+Appending rules for normal model (menu: termlib+ext_tinfo+base+widechar+ext_funcs)
+Appending rules for shared model (form: termlib+ext_tinfo+base+widechar+ext_funcs)
+Appending rules for normal model (form: termlib+ext_tinfo+base+widechar+ext_funcs)
+Appending rules for shared model (test: termlib+ext_tinfo+base+widechar+ext_funcs)
+Appending rules for normal model (test: termlib+ext_tinfo+base+widechar+ext_funcs)
+Appending rules for shared model (c++: termlib+ext_tinfo+base+widechar+ext_funcs)
+Appending rules for normal model (c++: termlib+ext_tinfo+base+widechar+ext_funcs)
+creating headers.sh
+
+** Configuration summary for NCURSES 5.5 20051010:
+
+     extended funcs: yes
+     xterm terminfo: xterm-new
+
+      bin directory: /usr/bin
+      lib directory: /usr/lib
+  include directory: /usr/include
+      man directory: /usr/share/man
+ terminfo directory: /usr/share/terminfo
+

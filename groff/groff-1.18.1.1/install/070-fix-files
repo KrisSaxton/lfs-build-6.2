@@ -1,0 +1,12 @@
+#!/bin/bash
+
+source configure
+
+pushd ../pkg/debian
+
+{
+ln -v usr/bin/eqn usr/bin/geqn
+ln -v usr/bin/tbl usr/bin/gtbl
+} | tee ../../logs/070-fix-files.log
+
+popd

@@ -1,0 +1,15 @@
+#!/bin/bash
+
+source configure
+
+pushd ../unpack/*
+
+# make won't accept relative paths for DESTDIR, hence the sed fudge.
+	make DESTDIR=$(pwd | sed 's:unpack.*::')pkg/debian \
+	EXTRAS="extras/ata_id extras/cdrom_id extras/edd_id \
+	extras/firmware extras/floppy extras/path_id \
+	extras/scsi_id extras/usb_id extras/volume_id" \
+		install \
+		| tee ../../logs/060-make-install.log
+
+popd

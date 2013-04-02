@@ -1,0 +1,12 @@
+#!/bin/bash
+
+source configure
+
+pushd ../pkg
+
+# First set the package priority to required
+sed -i 's/Priority: optional/Priority: required/g' ./debian/DEBIAN/control
+
+ABMakePkg $AB_PACKAGE_INSTALL_NAME | tee ../logs/090-make-package.log
+
+popd

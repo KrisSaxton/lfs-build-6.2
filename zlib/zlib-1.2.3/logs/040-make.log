@@ -1,0 +1,20 @@
+gcc -fPIC -O3 -DUSE_MMAP   -c -o example.o example.c
+gcc -fPIC -O3 -DUSE_MMAP   -c -o adler32.o adler32.c
+gcc -fPIC -O3 -DUSE_MMAP   -c -o compress.o compress.c
+gcc -fPIC -O3 -DUSE_MMAP   -c -o crc32.o crc32.c
+gcc -fPIC -O3 -DUSE_MMAP   -c -o gzio.o gzio.c
+gcc -fPIC -O3 -DUSE_MMAP   -c -o uncompr.o uncompr.c
+gcc -fPIC -O3 -DUSE_MMAP   -c -o deflate.o deflate.c
+gcc -fPIC -O3 -DUSE_MMAP   -c -o trees.o trees.c
+gcc -fPIC -O3 -DUSE_MMAP   -c -o zutil.o zutil.c
+gcc -fPIC -O3 -DUSE_MMAP   -c -o inflate.o inflate.c
+gcc -fPIC -O3 -DUSE_MMAP   -c -o infback.o infback.c
+gcc -fPIC -O3 -DUSE_MMAP   -c -o inftrees.o inftrees.c
+gcc -fPIC -O3 -DUSE_MMAP   -c -o inffast.o inffast.c
+gcc -shared -Wl,-soname,libz.so.1 -o libz.so.1.2.3 adler32.o compress.o crc32.o gzio.o uncompr.o deflate.o trees.o zutil.o inflate.o infback.o inftrees.o inffast.o
+rm -f libz.so libz.so.1
+ln -s libz.so.1.2.3 libz.so
+ln -s libz.so.1.2.3 libz.so.1
+gcc -fPIC -O3 -DUSE_MMAP -o example example.o -L. libz.so.1.2.3
+gcc -fPIC -O3 -DUSE_MMAP   -c -o minigzip.o minigzip.c
+gcc -fPIC -O3 -DUSE_MMAP -o minigzip minigzip.o -L. libz.so.1.2.3

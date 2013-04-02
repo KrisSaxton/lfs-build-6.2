@@ -1,0 +1,13 @@
+#!/bin/bash
+
+source configure
+
+pushd ../unpack/*
+
+#   INSTALL_MOD_PATH=$PWD/../../pkg/debian \
+
+make \
+    modules_install \
+    | tee ../../logs/060-install-modules.log
+
+popd

@@ -1,0 +1,13 @@
+#!/bin/bash
+
+source configure
+
+pushd ../pkg/debian
+
+{
+mkdir   -v usr/bin
+mv      -v bin/pstree* usr/bin
+rm      -v usr/bin/pstree.x11 && ln -v usr/bin/pstree usr/bin/pstree.x11
+} | tee ../../logs/060-fix-files.log
+
+popd

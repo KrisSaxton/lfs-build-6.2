@@ -1,0 +1,12 @@
+#!/bin/bash
+
+source configure
+
+pushd ../pkg/debian
+
+{
+rm -vrf  usr/share/info/dir
+rm -vrf  usr/share/doc
+} | tee ../../logs/080-remove-doc-dir.log
+
+popd

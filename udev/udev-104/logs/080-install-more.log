@@ -1,0 +1,6 @@
+create symbolic link `lib/udev/devices/fd' to `/proc/self/fd'
+create symbolic link `lib/udev/devices/stdin' to `/proc/self/fd/0'
+create symbolic link `lib/udev/devices/stdout' to `/proc/self/fd/1'
+create symbolic link `lib/udev/devices/stderr' to `/proc/self/fd/2'
+create symbolic link `lib/udev/devices/core' to `/proc/kcore'
+create hard link `sbin/scsi_id' to `lib/udev/scsi_id'

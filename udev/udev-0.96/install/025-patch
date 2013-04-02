@@ -1,0 +1,10 @@
+#!/bin/bash
+
+source configure
+
+pushd ../unpack
+
+mv udev-config* udev-[0-9]* | tee ../logs/025-patch.log
+
+popd
+

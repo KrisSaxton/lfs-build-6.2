@@ -1,0 +1,16 @@
+#!/bin/bash
+
+source configure
+
+pushd ../build
+
+../unpack/glibc-2.3.6/configure \
+    --prefix=$AB_PACKAGE_CONFIGURE_PREFIX \
+    --libexecdir=/usr/lib/glibc \
+    --infodir=/usr/share/info \
+    --disable-profile \
+    --enable-add-ons \
+    --enable-kernel=2.6.0 \
+    | tee ../logs/040-configure.log
+
+popd

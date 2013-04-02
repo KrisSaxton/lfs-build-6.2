@@ -1,0 +1,1 @@
+if [ -r System.map -a -x /sbin/depmod ]; then /sbin/depmod -ae -F System.map -b /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/linux/linux-2.6.18.8-20081111/unpack/linux-2.6.18.8/../../pkg/debian -r 2.6.18.8; fi

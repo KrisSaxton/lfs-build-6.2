@@ -1,0 +1,62 @@
+#!/bin/bash
+
+################################################################################
+# BEGIN
+################################################################################
+
+source functions
+
+################################################################################
+# GLOBALS
+################################################################################
+
+ABSetDefault AB_SYSTEM_INSTALL_DIR                              /usr/local/install
+
+################################################################################
+# DEPENDENCIES
+################################################################################
+
+ABSetDefault AB_PACKAGE_LINUX_LIBC_HEADERS_DEPENDS                 PKG_DEPENDS
+
+ABSetDefault AB_PACKAGE_PKG_DEPENDS_INSTALL_ENABLE              no
+ABSetDefault AB_PACKAGE_PKG_DEPENDS_INSTALL_FORCE               no
+ABSetDefault AB_PACKAGE_PKG_DEPENDS_INSTALL_NAME                pkgdependsname
+ABSetDefault AB_PACKAGE_PKG_DEPENDS_INSTALL_DIR                 $AB_SYSTEM_INSTALL_DIR/$AB_PACKAGE_PKG_DEPENDS_INSTALL_NAME
+ABSetDefault AB_PACKAGE_PKG_DEPENDS_INCLUDE_DIR                 $AB_PACKAGE_PKG_DEPENDS_INSTALL_DIR/include
+ABSetDefault AB_PACKAGE_PKG_DEPENDS_LIB_DIR                     $AB_PACKAGE_PKG_DEPENDS_INSTALL_DIR/lib
+
+ABSetCompileFlags $AB_PACKAGE_LINUX_LIBC_HEADERS_DEPENDS
+
+################################################################################
+# CONFIGURATION
+################################################################################
+
+ABSetDefault AB_PACKAGE_LINUX_LIBC_HEADERS_NAME                      linux-libc-headers
+ABSetDefault AB_PACKAGE_LINUX_LIBC_HEADERS_VERSION                   2.6.12.0
+ABSetDefault AB_PACKAGE_LINUX_LIBC_HEADERS_DESC                      'The Linux-Libc-Headers package contains the sanitised kernel headers'
+
+ABSetDefault AB_PACKAGE_LINUX_LIBC_HEADERS_INSTALL_NAME              ${AB_PACKAGE_LINUX_LIBC_HEADERS_NAME}-${AB_PACKAGE_LINUX_LIBC_HEADERS_VERSION}
+
+ABSetDefault AB_PACKAGE_LINUX_LIBC_HEADERS_INSTALL_DIR               $AB_SYSTEM_INSTALL_DIR/$AB_PACKAGE_LINUX_LIBC_HEADERS_INSTALL_NAME
+ABSetDefault AB_PACKAGE_LINUX_LIBC_HEADERS_INCLUDE_DIR               $AB_PACKAGE_LINUX_LIBC_HEADERS_INSTALL_DIR/include
+ABSetDefault AB_PACKAGE_LINUX_LIBC_HEADERS_LIB_DIR                   $AB_PACKAGE_LINUX_LIBC_HEADERS_INSTALL_DIR/lib
+
+ABSetDefault AB_PACKAGE_LINUX_LIBC_HEADERS_CONFIGURE_PREFIX          $AB_PACKAGE_LINUX_LIBC_HEADERS_INSTALL_DIR
+ABSetDefault AB_PACKAGE_LINUX_LIBC_HEADERS_CONFIGURE_WITH_EDITOR     /usr/bin/nano
+
+AB_PACKAGE_NAME=$AB_PACKAGE_LINUX_LIBC_HEADERS_NAME
+AB_PACKAGE_VERSION=$AB_PACKAGE_LINUX_LIBC_HEADERS_VERSION
+AB_PACKAGE_DESC=$AB_PACKAGE_LINUX_LIBC_HEADERS_DESC
+
+AB_PACKAGE_INSTALL_NAME=$AB_PACKAGE_LINUX_LIBC_HEADERS_INSTALL_NAME
+
+AB_PACKAGE_INSTALL_DIR=$AB_PACKAGE_LINUX_LIBC_HEADERS_INSTALL_DIR
+AB_PACKAGE_INCLUDE_DIR=$AB_PACKAGE_LINUX_LIBC_HEADERS_INCLUDE_DIR
+AB_PACKAGE_LIB_DIR=$AB_PACKAGE_LINUX_LIBC_HEADERS_LIB_DIR
+
+AB_PACKAGE_CONFIGURE_PREFIX=$AB_PACKAGE_LINUX_LIBC_HEADERS_CONFIGURE_PREFIX
+AB_PACKAGE_CONFIGURE_WITH_EDITOR=$AB_PACKAGE_LINUX_LIBC_HEADERS_CONFIGURE_WITH_EDITOR
+
+################################################################################
+# END
+################################################################################

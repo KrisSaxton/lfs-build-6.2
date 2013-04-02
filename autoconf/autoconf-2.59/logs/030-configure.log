@@ -1,0 +1,37 @@
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking for expr... /usr/bin/expr
+checking for gm4... no
+checking for gnum4... no
+checking for m4... /usr/bin/m4
+checking whether m4 supports frozen files... yes
+checking for perl... /usr/bin/perl
+checking for emacs... emacs
+checking whether emacs is sufficiently recent... yes
+checking for emacs... emacs
+checking where .elc files should go... ${datadir}/emacs/site-lisp
+configure: creating ./config.status
+config.status: creating config/Makefile
+config.status: creating tests/Makefile
+config.status: creating tests/atlocal
+config.status: creating tests/autoconf
+config.status: creating tests/autoheader
+config.status: creating tests/autom4te
+config.status: creating tests/autoreconf
+config.status: creating tests/autoscan
+config.status: creating tests/autoupdate
+config.status: creating tests/ifnames
+config.status: creating man/Makefile
+config.status: creating lib/emacs/Makefile
+config.status: creating Makefile
+config.status: creating doc/Makefile
+config.status: creating lib/Makefile
+config.status: creating lib/Autom4te/Makefile
+config.status: creating lib/autoscan/Makefile
+config.status: creating lib/m4sugar/Makefile
+config.status: creating lib/autoconf/Makefile
+config.status: creating lib/autotest/Makefile
+config.status: creating bin/Makefile
+config.status: executing tests/atconfig commands

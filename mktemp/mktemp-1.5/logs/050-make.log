@@ -1,0 +1,2 @@
+gcc -c -I. -I. "-DMKTEMP_VERSION=\"1.5\""  -g -O2 mktemp.c
+gcc -o mktemp mktemp.o  

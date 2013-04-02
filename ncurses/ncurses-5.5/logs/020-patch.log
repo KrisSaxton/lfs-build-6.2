@@ -1,0 +1,8 @@
+patching file ncurses/base/MKkeyname.awk
+patching file ncurses/base/lib_addch.c
+patching file ncurses/base/lib_bkgd.c
+patching file ncurses/base/lib_erase.c
+patching file misc/terminfo.src
+Hunk #1 succeeded at 4730 (offset -1 lines).
+patching file ncurses/tinfo/lib_ttyflags.c
+patching file ncurses/widechar/lib_ins_wch.c

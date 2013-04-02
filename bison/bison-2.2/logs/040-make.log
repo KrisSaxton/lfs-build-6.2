@@ -1,0 +1,183 @@
+make  all-recursive
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2'
+Making all in build-aux
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/build-aux'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/build-aux'
+Making all in po
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/po'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/po'
+Making all in runtime-po
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/runtime-po'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/runtime-po'
+Making all in lib
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/lib'
+make  all-am
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/lib'
+if gcc -DHAVE_CONFIG_H -I. -I. -I..     -g -O2 -MT main.o -MD -MP -MF ".deps/main.Tpo" -c -o main.o main.c; \
+then mv -f ".deps/main.Tpo" ".deps/main.Po"; else rm -f ".deps/main.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I..     -g -O2 -MT yyerror.o -MD -MP -MF ".deps/yyerror.Tpo" -c -o yyerror.o yyerror.c; \
+then mv -f ".deps/yyerror.Tpo" ".deps/yyerror.Po"; else rm -f ".deps/yyerror.Tpo"; exit 1; fi
+rm -f liby.a
+ar cru liby.a main.o yyerror.o 
+ranlib liby.a
+if gcc -DHAVE_CONFIG_H -I. -I. -I..     -g -O2 -MT get-errno.o -MD -MP -MF ".deps/get-errno.Tpo" -c -o get-errno.o get-errno.c; \
+then mv -f ".deps/get-errno.Tpo" ".deps/get-errno.Po"; else rm -f ".deps/get-errno.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I..     -g -O2 -MT subpipe.o -MD -MP -MF ".deps/subpipe.Tpo" -c -o subpipe.o subpipe.c; \
+then mv -f ".deps/subpipe.Tpo" ".deps/subpipe.Po"; else rm -f ".deps/subpipe.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I..     -g -O2 -MT abitset.o -MD -MP -MF ".deps/abitset.Tpo" -c -o abitset.o abitset.c; \
+then mv -f ".deps/abitset.Tpo" ".deps/abitset.Po"; else rm -f ".deps/abitset.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I..     -g -O2 -MT bitset.o -MD -MP -MF ".deps/bitset.Tpo" -c -o bitset.o bitset.c; \
+then mv -f ".deps/bitset.Tpo" ".deps/bitset.Po"; else rm -f ".deps/bitset.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I..     -g -O2 -MT bitset_stats.o -MD -MP -MF ".deps/bitset_stats.Tpo" -c -o bitset_stats.o bitset_stats.c; \
+then mv -f ".deps/bitset_stats.Tpo" ".deps/bitset_stats.Po"; else rm -f ".deps/bitset_stats.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I..     -g -O2 -MT bitsetv.o -MD -MP -MF ".deps/bitsetv.Tpo" -c -o bitsetv.o bitsetv.c; \
+then mv -f ".deps/bitsetv.Tpo" ".deps/bitsetv.Po"; else rm -f ".deps/bitsetv.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I..     -g -O2 -MT ebitset.o -MD -MP -MF ".deps/ebitset.Tpo" -c -o ebitset.o ebitset.c; \
+then mv -f ".deps/ebitset.Tpo" ".deps/ebitset.Po"; else rm -f ".deps/ebitset.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I..     -g -O2 -MT lbitset.o -MD -MP -MF ".deps/lbitset.Tpo" -c -o lbitset.o lbitset.c; \
+then mv -f ".deps/lbitset.Tpo" ".deps/lbitset.Po"; else rm -f ".deps/lbitset.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I..     -g -O2 -MT vbitset.o -MD -MP -MF ".deps/vbitset.Tpo" -c -o vbitset.o vbitset.c; \
+then mv -f ".deps/vbitset.Tpo" ".deps/vbitset.Po"; else rm -f ".deps/vbitset.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I..     -g -O2 -MT bitsetv-print.o -MD -MP -MF ".deps/bitsetv-print.Tpo" -c -o bitsetv-print.o bitsetv-print.c; \
+then mv -f ".deps/bitsetv-print.Tpo" ".deps/bitsetv-print.Po"; else rm -f ".deps/bitsetv-print.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I..     -g -O2 -MT timevar.o -MD -MP -MF ".deps/timevar.Tpo" -c -o timevar.o timevar.c; \
+then mv -f ".deps/timevar.Tpo" ".deps/timevar.Po"; else rm -f ".deps/timevar.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I..     -g -O2 -MT argmatch.o -MD -MP -MF ".deps/argmatch.Tpo" -c -o argmatch.o argmatch.c; \
+then mv -f ".deps/argmatch.Tpo" ".deps/argmatch.Po"; else rm -f ".deps/argmatch.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I..     -g -O2 -MT basename.o -MD -MP -MF ".deps/basename.Tpo" -c -o basename.o basename.c; \
+then mv -f ".deps/basename.Tpo" ".deps/basename.Po"; else rm -f ".deps/basename.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I..     -g -O2 -MT stripslash.o -MD -MP -MF ".deps/stripslash.Tpo" -c -o stripslash.o stripslash.c; \
+then mv -f ".deps/stripslash.Tpo" ".deps/stripslash.Po"; else rm -f ".deps/stripslash.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I..     -g -O2 -MT mbswidth.o -MD -MP -MF ".deps/mbswidth.Tpo" -c -o mbswidth.o mbswidth.c; \
+then mv -f ".deps/mbswidth.Tpo" ".deps/mbswidth.Po"; else rm -f ".deps/mbswidth.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I..     -g -O2 -MT xalloc-die.o -MD -MP -MF ".deps/xalloc-die.Tpo" -c -o xalloc-die.o xalloc-die.c; \
+then mv -f ".deps/xalloc-die.Tpo" ".deps/xalloc-die.Po"; else rm -f ".deps/xalloc-die.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I..     -g -O2 -MT xstrndup.o -MD -MP -MF ".deps/xstrndup.Tpo" -c -o xstrndup.o xstrndup.c; \
+then mv -f ".deps/xstrndup.Tpo" ".deps/xstrndup.Po"; else rm -f ".deps/xstrndup.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I..     -g -O2 -MT dirname.o -MD -MP -MF ".deps/dirname.Tpo" -c -o dirname.o dirname.c; \
+then mv -f ".deps/dirname.Tpo" ".deps/dirname.Po"; else rm -f ".deps/dirname.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I..     -g -O2 -MT exitfail.o -MD -MP -MF ".deps/exitfail.Tpo" -c -o exitfail.o exitfail.c; \
+then mv -f ".deps/exitfail.Tpo" ".deps/exitfail.Po"; else rm -f ".deps/exitfail.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I..     -g -O2 -MT hard-locale.o -MD -MP -MF ".deps/hard-locale.Tpo" -c -o hard-locale.o hard-locale.c; \
+then mv -f ".deps/hard-locale.Tpo" ".deps/hard-locale.Po"; else rm -f ".deps/hard-locale.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I..     -g -O2 -MT hash.o -MD -MP -MF ".deps/hash.Tpo" -c -o hash.o hash.c; \
+then mv -f ".deps/hash.Tpo" ".deps/hash.Po"; else rm -f ".deps/hash.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I..     -g -O2 -MT quote.o -MD -MP -MF ".deps/quote.Tpo" -c -o quote.o quote.c; \
+then mv -f ".deps/quote.Tpo" ".deps/quote.Po"; else rm -f ".deps/quote.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I..     -g -O2 -MT quotearg.o -MD -MP -MF ".deps/quotearg.Tpo" -c -o quotearg.o quotearg.c; \
+then mv -f ".deps/quotearg.Tpo" ".deps/quotearg.Po"; else rm -f ".deps/quotearg.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I..     -g -O2 -MT fopen-safer.o -MD -MP -MF ".deps/fopen-safer.Tpo" -c -o fopen-safer.o fopen-safer.c; \
+then mv -f ".deps/fopen-safer.Tpo" ".deps/fopen-safer.Po"; else rm -f ".deps/fopen-safer.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I..     -g -O2 -MT dup-safer.o -MD -MP -MF ".deps/dup-safer.Tpo" -c -o dup-safer.o dup-safer.c; \
+then mv -f ".deps/dup-safer.Tpo" ".deps/dup-safer.Po"; else rm -f ".deps/dup-safer.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I..     -g -O2 -MT fd-safer.o -MD -MP -MF ".deps/fd-safer.Tpo" -c -o fd-safer.o fd-safer.c; \
+then mv -f ".deps/fd-safer.Tpo" ".deps/fd-safer.Po"; else rm -f ".deps/fd-safer.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I..     -g -O2 -MT pipe-safer.o -MD -MP -MF ".deps/pipe-safer.Tpo" -c -o pipe-safer.o pipe-safer.c; \
+then mv -f ".deps/pipe-safer.Tpo" ".deps/pipe-safer.Po"; else rm -f ".deps/pipe-safer.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I..     -g -O2 -MT xmalloc.o -MD -MP -MF ".deps/xmalloc.Tpo" -c -o xmalloc.o xmalloc.c; \
+then mv -f ".deps/xmalloc.Tpo" ".deps/xmalloc.Po"; else rm -f ".deps/xmalloc.Tpo"; exit 1; fi
+rm -f libbison.a
+ar cru libbison.a get-errno.o subpipe.o abitset.o bitset.o bitset_stats.o bitsetv.o ebitset.o lbitset.o vbitset.o bitsetv-print.o timevar.o argmatch.o basename.o stripslash.o mbswidth.o xalloc-die.o xstrndup.o dirname.o exitfail.o hard-locale.o hash.o quote.o quotearg.o fopen-safer.o dup-safer.o fd-safer.o pipe-safer.o xmalloc.o 
+ranlib libbison.a
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/lib'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/lib'
+Making all in data
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/data'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/data'
+Making all in src
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/src'
+make  all-am
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/src'
+if gcc -DHAVE_CONFIG_H -DPKGDATADIR=\"/usr/share/bison\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I. -I..  -I../lib -I../lib    -g -O2 -MT LR0.o -MD -MP -MF ".deps/LR0.Tpo" -c -o LR0.o LR0.c; \
+then mv -f ".deps/LR0.Tpo" ".deps/LR0.Po"; else rm -f ".deps/LR0.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -DPKGDATADIR=\"/usr/share/bison\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I. -I..  -I../lib -I../lib    -g -O2 -MT assoc.o -MD -MP -MF ".deps/assoc.Tpo" -c -o assoc.o assoc.c; \
+then mv -f ".deps/assoc.Tpo" ".deps/assoc.Po"; else rm -f ".deps/assoc.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -DPKGDATADIR=\"/usr/share/bison\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I. -I..  -I../lib -I../lib    -g -O2 -MT closure.o -MD -MP -MF ".deps/closure.Tpo" -c -o closure.o closure.c; \
+then mv -f ".deps/closure.Tpo" ".deps/closure.Po"; else rm -f ".deps/closure.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -DPKGDATADIR=\"/usr/share/bison\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I. -I..  -I../lib -I../lib    -g -O2 -MT complain.o -MD -MP -MF ".deps/complain.Tpo" -c -o complain.o complain.c; \
+then mv -f ".deps/complain.Tpo" ".deps/complain.Po"; else rm -f ".deps/complain.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -DPKGDATADIR=\"/usr/share/bison\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I. -I..  -I../lib -I../lib    -g -O2 -MT conflicts.o -MD -MP -MF ".deps/conflicts.Tpo" -c -o conflicts.o conflicts.c; \
+then mv -f ".deps/conflicts.Tpo" ".deps/conflicts.Po"; else rm -f ".deps/conflicts.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -DPKGDATADIR=\"/usr/share/bison\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I. -I..  -I../lib -I../lib    -g -O2 -MT derives.o -MD -MP -MF ".deps/derives.Tpo" -c -o derives.o derives.c; \
+then mv -f ".deps/derives.Tpo" ".deps/derives.Po"; else rm -f ".deps/derives.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -DPKGDATADIR=\"/usr/share/bison\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I. -I..  -I../lib -I../lib    -g -O2 -MT files.o -MD -MP -MF ".deps/files.Tpo" -c -o files.o files.c; \
+then mv -f ".deps/files.Tpo" ".deps/files.Po"; else rm -f ".deps/files.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -DPKGDATADIR=\"/usr/share/bison\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I. -I..  -I../lib -I../lib    -g -O2 -MT getargs.o -MD -MP -MF ".deps/getargs.Tpo" -c -o getargs.o getargs.c; \
+then mv -f ".deps/getargs.Tpo" ".deps/getargs.Po"; else rm -f ".deps/getargs.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -DPKGDATADIR=\"/usr/share/bison\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I. -I..  -I../lib -I../lib    -g -O2 -MT gram.o -MD -MP -MF ".deps/gram.Tpo" -c -o gram.o gram.c; \
+then mv -f ".deps/gram.Tpo" ".deps/gram.Po"; else rm -f ".deps/gram.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -DPKGDATADIR=\"/usr/share/bison\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I. -I..  -I../lib -I../lib    -g -O2 -MT lalr.o -MD -MP -MF ".deps/lalr.Tpo" -c -o lalr.o lalr.c; \
+then mv -f ".deps/lalr.Tpo" ".deps/lalr.Po"; else rm -f ".deps/lalr.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -DPKGDATADIR=\"/usr/share/bison\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I. -I..  -I../lib -I../lib    -g -O2 -MT location.o -MD -MP -MF ".deps/location.Tpo" -c -o location.o location.c; \
+then mv -f ".deps/location.Tpo" ".deps/location.Po"; else rm -f ".deps/location.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -DPKGDATADIR=\"/usr/share/bison\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I. -I..  -I../lib -I../lib    -g -O2 -MT main.o -MD -MP -MF ".deps/main.Tpo" -c -o main.o main.c; \
+then mv -f ".deps/main.Tpo" ".deps/main.Po"; else rm -f ".deps/main.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -DPKGDATADIR=\"/usr/share/bison\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I. -I..  -I../lib -I../lib    -g -O2 -MT muscle_tab.o -MD -MP -MF ".deps/muscle_tab.Tpo" -c -o muscle_tab.o muscle_tab.c; \
+then mv -f ".deps/muscle_tab.Tpo" ".deps/muscle_tab.Po"; else rm -f ".deps/muscle_tab.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -DPKGDATADIR=\"/usr/share/bison\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I. -I..  -I../lib -I../lib    -g -O2 -MT nullable.o -MD -MP -MF ".deps/nullable.Tpo" -c -o nullable.o nullable.c; \
+then mv -f ".deps/nullable.Tpo" ".deps/nullable.Po"; else rm -f ".deps/nullable.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -DPKGDATADIR=\"/usr/share/bison\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I. -I..  -I../lib -I../lib    -g -O2 -MT output.o -MD -MP -MF ".deps/output.Tpo" -c -o output.o output.c; \
+then mv -f ".deps/output.Tpo" ".deps/output.Po"; else rm -f ".deps/output.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -DPKGDATADIR=\"/usr/share/bison\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I. -I..  -I../lib -I../lib    -g -O2 -MT parse-gram.o -MD -MP -MF ".deps/parse-gram.Tpo" -c -o parse-gram.o parse-gram.c; \
+then mv -f ".deps/parse-gram.Tpo" ".deps/parse-gram.Po"; else rm -f ".deps/parse-gram.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -DPKGDATADIR=\"/usr/share/bison\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I. -I..  -I../lib -I../lib    -g -O2 -MT print.o -MD -MP -MF ".deps/print.Tpo" -c -o print.o print.c; \
+then mv -f ".deps/print.Tpo" ".deps/print.Po"; else rm -f ".deps/print.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -DPKGDATADIR=\"/usr/share/bison\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I. -I..  -I../lib -I../lib    -g -O2 -MT print_graph.o -MD -MP -MF ".deps/print_graph.Tpo" -c -o print_graph.o print_graph.c; \
+then mv -f ".deps/print_graph.Tpo" ".deps/print_graph.Po"; else rm -f ".deps/print_graph.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -DPKGDATADIR=\"/usr/share/bison\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I. -I..  -I../lib -I../lib    -g -O2 -MT reader.o -MD -MP -MF ".deps/reader.Tpo" -c -o reader.o reader.c; \
+then mv -f ".deps/reader.Tpo" ".deps/reader.Po"; else rm -f ".deps/reader.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -DPKGDATADIR=\"/usr/share/bison\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I. -I..  -I../lib -I../lib    -g -O2 -MT reduce.o -MD -MP -MF ".deps/reduce.Tpo" -c -o reduce.o reduce.c; \
+then mv -f ".deps/reduce.Tpo" ".deps/reduce.Po"; else rm -f ".deps/reduce.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -DPKGDATADIR=\"/usr/share/bison\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I. -I..  -I../lib -I../lib    -g -O2 -MT relation.o -MD -MP -MF ".deps/relation.Tpo" -c -o relation.o relation.c; \
+then mv -f ".deps/relation.Tpo" ".deps/relation.Po"; else rm -f ".deps/relation.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -DPKGDATADIR=\"/usr/share/bison\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I. -I..  -I../lib -I../lib    -g -O2 -MT scan-gram-c.o -MD -MP -MF ".deps/scan-gram-c.Tpo" -c -o scan-gram-c.o scan-gram-c.c; \
+then mv -f ".deps/scan-gram-c.Tpo" ".deps/scan-gram-c.Po"; else rm -f ".deps/scan-gram-c.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -DPKGDATADIR=\"/usr/share/bison\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I. -I..  -I../lib -I../lib    -g -O2 -MT scan-skel-c.o -MD -MP -MF ".deps/scan-skel-c.Tpo" -c -o scan-skel-c.o scan-skel-c.c; \
+then mv -f ".deps/scan-skel-c.Tpo" ".deps/scan-skel-c.Po"; else rm -f ".deps/scan-skel-c.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -DPKGDATADIR=\"/usr/share/bison\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I. -I..  -I../lib -I../lib    -g -O2 -MT state.o -MD -MP -MF ".deps/state.Tpo" -c -o state.o state.c; \
+then mv -f ".deps/state.Tpo" ".deps/state.Po"; else rm -f ".deps/state.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -DPKGDATADIR=\"/usr/share/bison\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I. -I..  -I../lib -I../lib    -g -O2 -MT symlist.o -MD -MP -MF ".deps/symlist.Tpo" -c -o symlist.o symlist.c; \
+then mv -f ".deps/symlist.Tpo" ".deps/symlist.Po"; else rm -f ".deps/symlist.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -DPKGDATADIR=\"/usr/share/bison\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I. -I..  -I../lib -I../lib    -g -O2 -MT symtab.o -MD -MP -MF ".deps/symtab.Tpo" -c -o symtab.o symtab.c; \
+then mv -f ".deps/symtab.Tpo" ".deps/symtab.Po"; else rm -f ".deps/symtab.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -DPKGDATADIR=\"/usr/share/bison\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I. -I..  -I../lib -I../lib    -g -O2 -MT tables.o -MD -MP -MF ".deps/tables.Tpo" -c -o tables.o tables.c; \
+then mv -f ".deps/tables.Tpo" ".deps/tables.Po"; else rm -f ".deps/tables.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -DPKGDATADIR=\"/usr/share/bison\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I. -I..  -I../lib -I../lib    -g -O2 -MT uniqstr.o -MD -MP -MF ".deps/uniqstr.Tpo" -c -o uniqstr.o uniqstr.c; \
+then mv -f ".deps/uniqstr.Tpo" ".deps/uniqstr.Po"; else rm -f ".deps/uniqstr.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -DPKGDATADIR=\"/usr/share/bison\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I. -I..  -I../lib -I../lib    -g -O2 -MT vcg.o -MD -MP -MF ".deps/vcg.Tpo" -c -o vcg.o vcg.c; \
+then mv -f ".deps/vcg.Tpo" ".deps/vcg.Po"; else rm -f ".deps/vcg.Tpo"; exit 1; fi
+gcc   -g -O2   -o bison  LR0.o assoc.o closure.o complain.o conflicts.o derives.o files.o getargs.o gram.o lalr.o location.o main.o muscle_tab.o nullable.o output.o parse-gram.o print.o print_graph.o reader.o reduce.o relation.o scan-gram-c.o scan-skel-c.o state.o symlist.o symtab.o tables.o uniqstr.o vcg.o ../lib/libbison.a  
+echo '#! /bin/sh' >yacc
+echo 'exec /usr/bin/bison -y "$@"' >>yacc
+chmod a+x yacc
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/src'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/src'
+Making all in doc
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/doc'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/doc'
+Making all in examples
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/examples'
+Making all in calc++
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/examples/calc++'
+make  all-am
+make[4]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/examples/calc++'
+make[4]: Nothing to be done for `all-am'.
+make[4]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/examples/calc++'
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/examples/calc++'
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/examples'
+make[3]: Nothing to be done for `all-am'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/examples'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/examples'
+Making all in tests
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/tests'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2/tests'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2'
+make[2]: Nothing to be done for `all-am'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/bison/bison-2.2/unpack/bison-2.2'

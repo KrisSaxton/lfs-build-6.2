@@ -1,0 +1,10 @@
+#!/bin/bash
+
+source configure
+
+cd ../unpack/*
+
+tar zxvf ../../source/atoppatch-kernel-2.6.18.tar.gz
+
+patch -p1 < atoppatch-kernel-2.6.18/01patch-2.6.18_atopcnt
+patch -p1 < atoppatch-kernel-2.6.18/02patch-2.6.18_atopacct

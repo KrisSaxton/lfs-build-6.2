@@ -1,0 +1,20 @@
+dpkg-deb: building package `linux-2.6.36.4-1' in `debian.deb'.
+new debian package, version 2.0.
+size 4135646 bytes: control archive= 9998 bytes.
+215 bytes,     9 lines      control
+789 bytes,    18 lines      copyright
+6 bytes,     1 lines      debian-binary
+23278 bytes,   261 lines      md5sums
+5906 bytes,   195 lines   *  postinst             #!/bin/bash
+662 bytes,    24 lines   *  postrm               #!/bin/bash
+663 bytes,    24 lines   *  preinst              #!/bin/bash
+2481 bytes,    88 lines   *  prerm                #!/bin/bash
+Package: linux-2.6.36.4-1
+Version: 3250
+Section: unknown
+Priority: optional
+Architecture: all
+Essential: no
+Maintainer: Aethernet support team [support@aethernet.co.uk]
+Provides: linux
+Description: The Linux kernel

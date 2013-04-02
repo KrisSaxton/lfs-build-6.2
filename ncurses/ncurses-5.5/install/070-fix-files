@@ -1,0 +1,50 @@
+#!/bin/bash
+
+source configure
+
+pushd ../pkg/debian
+
+{
+
+mkdir lib
+
+# Give the Ncurses libraries execute permissions
+chmod -v 755 usr/lib/*.5.5
+
+# Fix a library that should not be executable
+chmod -v 644 usr/lib/libncurses++w.a
+
+# Move the libraries to the /lib directory, where they are expected to reside
+mv -v usr/lib/libncursesw.so.5* lib
+
+# Because the libraries have been moved, one symlink points 
+# to a non-existent file. Recreate it
+ln -sfv ../../lib/libncursesw.so.5 usr/lib/libncursesw.so
+
+# Many applications still expect the linker to be able to find 
+# non-wide-character Ncurses libraries. 
+# Trick such applications into linking with wide-character 
+# libraries by means of symlinks and linker scripts
+for lib in curses ncurses form panel menu; do
+  rm -vf usr/lib/lib${lib}.so
+  echo "INPUT(-l${lib}w)" > usr/lib/lib${lib}.so
+  ln -sfv lib${lib}w.a usr/lib/lib${lib}.a
+done
+
+ln -sfv libncurses++w.a usr/lib/libncurses++.a
+
+# Finally, make sure that old applications that look for -lcurses 
+# at build time are still buildable 
+echo "INPUT(-lncursesw)" >  usr/lib/libcursesw.so
+ln -sfv libncurses.so       usr/lib/libcurses.so
+ln -sfv libncursesw.a       usr/lib/libcursesw.a
+ln -sfv libncurses.a        usr/lib/libcurses.a
+
+# Replace symlink by hardlinks
+rm -vf usr/bin/infotocap    && ln -v usr/bin/tic    usr/bin/infotocap
+rm -vf usr/bin/reset        && ln -v usr/bin/tset   usr/bin/reset
+rm -vf usr/bin/captoinfo    && ln -v usr/bin/tic    usr/bin/captoinfo
+
+} | tee ../../logs/070-fix-files.log
+
+popd

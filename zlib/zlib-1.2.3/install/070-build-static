@@ -1,0 +1,14 @@
+#!/bin/bash
+
+source configure
+
+pushd ../unpack/*
+
+{
+make clean 
+./configure \
+    --prefix=$AB_PACKAGE_CONFIGURE_PREFIX
+make
+} | tee ../../logs/070-build-static.log
+
+popd

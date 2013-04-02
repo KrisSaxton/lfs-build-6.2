@@ -1,0 +1,4 @@
+ln -f -s protocol-numbers.dist protocol-numbers
+gawk --re-interval -f protocols.gawk protocol-numbers > protocols
+ln -f -s port-numbers.dist port-numbers
+gawk -f services.gawk port-numbers > services

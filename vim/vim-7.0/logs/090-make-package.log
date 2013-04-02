@@ -1,0 +1,20 @@
+dpkg-deb: building package `vim-7.0' in `debian.deb'.
+ new debian package, version 2.0.
+ size 4877888 bytes: control archive= 1473 bytes.
+     218 bytes,    10 lines      control              
+     789 bytes,    18 lines      copyright            
+       6 bytes,     1 lines      debian-binary        
+     928 bytes,    41 lines   *  postinst             #!/bin/bash
+     131 bytes,     5 lines   *  postrm               #!/bin/bash
+     111 bytes,     3 lines   *  preinst              #!/bin/bash
+     361 bytes,    11 lines   *  prerm                #!/bin/bash
+ Package: vim-7.0
+ Version: 7.0
+ Section: unknown
+ Priority: optional
+ Architecture: all
+ Essential: no
+ Depends: aaa-base
+ Maintainer: Aethernet support team [support@aethernet.co.uk]
+ Provides: vim
+ Description: A text editor

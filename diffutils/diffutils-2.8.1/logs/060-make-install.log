@@ -1,0 +1,115 @@
+Making install in doc
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/doc'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/doc'
+make[2]: Nothing to be done for `install-exec-am'.
+/bin/sh ../config/mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/../../pkg/debian/usr/share/info
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/../../pkg/debian/usr/share/info
+ /usr/bin/install -c -m 644 ./diff.info /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/../../pkg/debian/usr/share/info/diff.info
+ install-info --info-dir=/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/../../pkg/debian/usr/share/info /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/../../pkg/debian/usr/share/info/diff.info
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/doc'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/doc'
+Making install in lib
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/lib'
+Making install in posix
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/lib/posix'
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/lib/posix'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/lib/posix'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/lib/posix'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/lib'
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/lib'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/lib'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/lib'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/lib'
+Making install in m4
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/m4'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/m4'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/m4'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/m4'
+Making install in ms
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/ms'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/ms'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/ms'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/ms'
+Making install in src
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/src'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/src'
+/bin/sh ../config/mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/../../pkg/debian/usr/bin
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/../../pkg/debian/usr/bin
+  /usr/bin/install -c cmp /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/../../pkg/debian/usr/bin/cmp
+  /usr/bin/install -c diff /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/../../pkg/debian/usr/bin/diff
+  /usr/bin/install -c diff3 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/../../pkg/debian/usr/bin/diff3
+  /usr/bin/install -c sdiff /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/../../pkg/debian/usr/bin/sdiff
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/src'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/src'
+Making install in man
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/man'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/man'
+make[2]: Nothing to be done for `install-exec-am'.
+/bin/sh ../config/mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/../../pkg/debian/usr/share/man/man1
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/../../pkg/debian/usr/share/man/man1
+ /usr/bin/install -c -m 644 ./cmp.1 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/../../pkg/debian/usr/share/man/man1/cmp.1
+ /usr/bin/install -c -m 644 ./diff.1 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/../../pkg/debian/usr/share/man/man1/diff.1
+ /usr/bin/install -c -m 644 ./diff3.1 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/../../pkg/debian/usr/share/man/man1/diff3.1
+ /usr/bin/install -c -m 644 ./sdiff.1 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/../../pkg/debian/usr/share/man/man1/sdiff.1
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/man'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/man'
+Making install in po
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/po'
+/bin/sh `case "config/mkinstalldirs" in /*) echo "config/mkinstalldirs" ;; *) echo "../config/mkinstalldirs" ;; esac` /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/../../pkg/debian/usr/share
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/../../pkg/debian/usr/share/locale/cs/LC_MESSAGES
+installing cs.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/../../pkg/debian/usr/share/locale/cs/LC_MESSAGES/diffutils.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/../../pkg/debian/usr/share/locale/da/LC_MESSAGES
+installing da.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/../../pkg/debian/usr/share/locale/da/LC_MESSAGES/diffutils.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/../../pkg/debian/usr/share/locale/de/LC_MESSAGES
+installing de.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/../../pkg/debian/usr/share/locale/de/LC_MESSAGES/diffutils.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/../../pkg/debian/usr/share/locale/en_GB/LC_MESSAGES
+installing en_GB.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/../../pkg/debian/usr/share/locale/en_GB/LC_MESSAGES/diffutils.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/../../pkg/debian/usr/share/locale/eo/LC_MESSAGES
+installing eo.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/../../pkg/debian/usr/share/locale/eo/LC_MESSAGES/diffutils.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/../../pkg/debian/usr/share/locale/es/LC_MESSAGES
+installing es.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/../../pkg/debian/usr/share/locale/es/LC_MESSAGES/diffutils.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/../../pkg/debian/usr/share/locale/fr/LC_MESSAGES
+installing fr.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/../../pkg/debian/usr/share/locale/fr/LC_MESSAGES/diffutils.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/../../pkg/debian/usr/share/locale/gl/LC_MESSAGES
+installing gl.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/../../pkg/debian/usr/share/locale/gl/LC_MESSAGES/diffutils.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/../../pkg/debian/usr/share/locale/he/LC_MESSAGES
+installing he.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/../../pkg/debian/usr/share/locale/he/LC_MESSAGES/diffutils.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/../../pkg/debian/usr/share/locale/id/LC_MESSAGES
+installing id.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/../../pkg/debian/usr/share/locale/id/LC_MESSAGES/diffutils.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/../../pkg/debian/usr/share/locale/ja/LC_MESSAGES
+installing ja.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/../../pkg/debian/usr/share/locale/ja/LC_MESSAGES/diffutils.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/../../pkg/debian/usr/share/locale/pl/LC_MESSAGES
+installing pl.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/../../pkg/debian/usr/share/locale/pl/LC_MESSAGES/diffutils.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/../../pkg/debian/usr/share/locale/ru/LC_MESSAGES
+installing ru.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/../../pkg/debian/usr/share/locale/ru/LC_MESSAGES/diffutils.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/../../pkg/debian/usr/share/locale/sv/LC_MESSAGES
+installing sv.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/../../pkg/debian/usr/share/locale/sv/LC_MESSAGES/diffutils.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/../../pkg/debian/usr/share/locale/tr/LC_MESSAGES
+installing tr.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/../../pkg/debian/usr/share/locale/tr/LC_MESSAGES/diffutils.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/../../pkg/debian/usr/share/locale/zh_TW/LC_MESSAGES
+installing zh_TW.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/../../pkg/debian/usr/share/locale/zh_TW/LC_MESSAGES/diffutils.mo
+if test "diffutils" = "gettext"; then \
+  /bin/sh `case "config/mkinstalldirs" in /*) echo "config/mkinstalldirs" ;; *) echo "../config/mkinstalldirs" ;; esac` /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/../../pkg/debian/usr/share/gettext/po; \
+  for file in Makefile.in.in Makevars remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot  ; do \
+    /usr/bin/install -c -m 644 ./$file \
+		    /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/../../pkg/debian/usr/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/po'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1'

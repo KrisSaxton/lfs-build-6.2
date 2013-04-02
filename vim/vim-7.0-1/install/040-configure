@@ -1,0 +1,17 @@
+#!/bin/bash
+
+source configure
+
+pushd ../unpack/*
+
+./configure \
+    --prefix=$AB_PACKAGE_CONFIGURE_PREFIX \
+    --mandir=$AB_PACKAGE_CONFIGURE_PREFIX/share/man \
+    --with-features=tiny \
+    --disable-gui \
+    --disable-gpm \
+    --enable-multibyte \
+    | tee ../../logs/040-configure.log
+
+popd
+

@@ -1,0 +1,10 @@
+#!/bin/bash
+
+source configure
+
+
+pushd ../pkg/debian
+
+ABPrepPkg | tee ../../logs/040-prep-package.log
+
+popd

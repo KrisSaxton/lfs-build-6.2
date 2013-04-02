@@ -1,0 +1,11 @@
+#!/bin/bash
+
+source configure
+
+pushd ../pkg/debian
+
+# Remember to make any paths relative (i.e. ./usr rather than /usr)
+cp -v udev-config-6.2/[0-9]* ./etc/udev/rules.d/ \
+	| tee ../../logs/061-fix-files.log
+
+popd

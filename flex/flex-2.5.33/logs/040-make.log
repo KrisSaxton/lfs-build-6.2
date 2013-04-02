@@ -1,0 +1,316 @@
+make  all-recursive
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33'
+Making all in .
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33'
+if gcc -DHAVE_CONFIG_H -I. -I. -I.  -DLOCALEDIR=\"/usr/share/locale\" -I/usr/include -I./intl   -g -O2 -MT libmain.o -MD -MP -MF ".deps/libmain.Tpo" \
+  -c -o libmain.o `test -f 'libmain.c' || echo './'`libmain.c; \
+then mv -f ".deps/libmain.Tpo" ".deps/libmain.Po"; \
+else rm -f ".deps/libmain.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.  -DLOCALEDIR=\"/usr/share/locale\" -I/usr/include -I./intl   -g -O2 -MT libyywrap.o -MD -MP -MF ".deps/libyywrap.Tpo" \
+  -c -o libyywrap.o `test -f 'libyywrap.c' || echo './'`libyywrap.c; \
+then mv -f ".deps/libyywrap.Tpo" ".deps/libyywrap.Po"; \
+else rm -f ".deps/libyywrap.Tpo"; exit 1; \
+fi
+rm -f libfl.a
+ar cru libfl.a libmain.o libyywrap.o 
+ranlib libfl.a
+if gcc -DHAVE_CONFIG_H -I. -I. -I.  -DLOCALEDIR=\"/usr/share/locale\" -I/usr/include -I./intl   -g -O2 -MT ccl.o -MD -MP -MF ".deps/ccl.Tpo" \
+  -c -o ccl.o `test -f 'ccl.c' || echo './'`ccl.c; \
+then mv -f ".deps/ccl.Tpo" ".deps/ccl.Po"; \
+else rm -f ".deps/ccl.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.  -DLOCALEDIR=\"/usr/share/locale\" -I/usr/include -I./intl   -g -O2 -MT dfa.o -MD -MP -MF ".deps/dfa.Tpo" \
+  -c -o dfa.o `test -f 'dfa.c' || echo './'`dfa.c; \
+then mv -f ".deps/dfa.Tpo" ".deps/dfa.Po"; \
+else rm -f ".deps/dfa.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.  -DLOCALEDIR=\"/usr/share/locale\" -I/usr/include -I./intl   -g -O2 -MT ecs.o -MD -MP -MF ".deps/ecs.Tpo" \
+  -c -o ecs.o `test -f 'ecs.c' || echo './'`ecs.c; \
+then mv -f ".deps/ecs.Tpo" ".deps/ecs.Po"; \
+else rm -f ".deps/ecs.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.  -DLOCALEDIR=\"/usr/share/locale\" -I/usr/include -I./intl   -g -O2 -MT gen.o -MD -MP -MF ".deps/gen.Tpo" \
+  -c -o gen.o `test -f 'gen.c' || echo './'`gen.c; \
+then mv -f ".deps/gen.Tpo" ".deps/gen.Po"; \
+else rm -f ".deps/gen.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.  -DLOCALEDIR=\"/usr/share/locale\" -I/usr/include -I./intl   -g -O2 -MT main.o -MD -MP -MF ".deps/main.Tpo" \
+  -c -o main.o `test -f 'main.c' || echo './'`main.c; \
+then mv -f ".deps/main.Tpo" ".deps/main.Po"; \
+else rm -f ".deps/main.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.  -DLOCALEDIR=\"/usr/share/locale\" -I/usr/include -I./intl   -g -O2 -MT misc.o -MD -MP -MF ".deps/misc.Tpo" \
+  -c -o misc.o `test -f 'misc.c' || echo './'`misc.c; \
+then mv -f ".deps/misc.Tpo" ".deps/misc.Po"; \
+else rm -f ".deps/misc.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.  -DLOCALEDIR=\"/usr/share/locale\" -I/usr/include -I./intl   -g -O2 -MT nfa.o -MD -MP -MF ".deps/nfa.Tpo" \
+  -c -o nfa.o `test -f 'nfa.c' || echo './'`nfa.c; \
+then mv -f ".deps/nfa.Tpo" ".deps/nfa.Po"; \
+else rm -f ".deps/nfa.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.  -DLOCALEDIR=\"/usr/share/locale\" -I/usr/include -I./intl   -g -O2 -MT parse.o -MD -MP -MF ".deps/parse.Tpo" \
+  -c -o parse.o `test -f 'parse.c' || echo './'`parse.c; \
+then mv -f ".deps/parse.Tpo" ".deps/parse.Po"; \
+else rm -f ".deps/parse.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.  -DLOCALEDIR=\"/usr/share/locale\" -I/usr/include -I./intl   -g -O2 -MT scan.o -MD -MP -MF ".deps/scan.Tpo" \
+  -c -o scan.o `test -f 'scan.c' || echo './'`scan.c; \
+then mv -f ".deps/scan.Tpo" ".deps/scan.Po"; \
+else rm -f ".deps/scan.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.  -DLOCALEDIR=\"/usr/share/locale\" -I/usr/include -I./intl   -g -O2 -MT skel.o -MD -MP -MF ".deps/skel.Tpo" \
+  -c -o skel.o `test -f 'skel.c' || echo './'`skel.c; \
+then mv -f ".deps/skel.Tpo" ".deps/skel.Po"; \
+else rm -f ".deps/skel.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.  -DLOCALEDIR=\"/usr/share/locale\" -I/usr/include -I./intl   -g -O2 -MT sym.o -MD -MP -MF ".deps/sym.Tpo" \
+  -c -o sym.o `test -f 'sym.c' || echo './'`sym.c; \
+then mv -f ".deps/sym.Tpo" ".deps/sym.Po"; \
+else rm -f ".deps/sym.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.  -DLOCALEDIR=\"/usr/share/locale\" -I/usr/include -I./intl   -g -O2 -MT tblcmp.o -MD -MP -MF ".deps/tblcmp.Tpo" \
+  -c -o tblcmp.o `test -f 'tblcmp.c' || echo './'`tblcmp.c; \
+then mv -f ".deps/tblcmp.Tpo" ".deps/tblcmp.Po"; \
+else rm -f ".deps/tblcmp.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.  -DLOCALEDIR=\"/usr/share/locale\" -I/usr/include -I./intl   -g -O2 -MT yylex.o -MD -MP -MF ".deps/yylex.Tpo" \
+  -c -o yylex.o `test -f 'yylex.c' || echo './'`yylex.c; \
+then mv -f ".deps/yylex.Tpo" ".deps/yylex.Po"; \
+else rm -f ".deps/yylex.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.  -DLOCALEDIR=\"/usr/share/locale\" -I/usr/include -I./intl   -g -O2 -MT options.o -MD -MP -MF ".deps/options.Tpo" \
+  -c -o options.o `test -f 'options.c' || echo './'`options.c; \
+then mv -f ".deps/options.Tpo" ".deps/options.Po"; \
+else rm -f ".deps/options.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.  -DLOCALEDIR=\"/usr/share/locale\" -I/usr/include -I./intl   -g -O2 -MT scanopt.o -MD -MP -MF ".deps/scanopt.Tpo" \
+  -c -o scanopt.o `test -f 'scanopt.c' || echo './'`scanopt.c; \
+then mv -f ".deps/scanopt.Tpo" ".deps/scanopt.Po"; \
+else rm -f ".deps/scanopt.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.  -DLOCALEDIR=\"/usr/share/locale\" -I/usr/include -I./intl   -g -O2 -MT buf.o -MD -MP -MF ".deps/buf.Tpo" \
+  -c -o buf.o `test -f 'buf.c' || echo './'`buf.c; \
+then mv -f ".deps/buf.Tpo" ".deps/buf.Po"; \
+else rm -f ".deps/buf.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.  -DLOCALEDIR=\"/usr/share/locale\" -I/usr/include -I./intl   -g -O2 -MT tables.o -MD -MP -MF ".deps/tables.Tpo" \
+  -c -o tables.o `test -f 'tables.c' || echo './'`tables.c; \
+then mv -f ".deps/tables.Tpo" ".deps/tables.Po"; \
+else rm -f ".deps/tables.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.  -DLOCALEDIR=\"/usr/share/locale\" -I/usr/include -I./intl   -g -O2 -MT tables_shared.o -MD -MP -MF ".deps/tables_shared.Tpo" \
+  -c -o tables_shared.o `test -f 'tables_shared.c' || echo './'`tables_shared.c; \
+then mv -f ".deps/tables_shared.Tpo" ".deps/tables_shared.Po"; \
+else rm -f ".deps/tables_shared.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.  -DLOCALEDIR=\"/usr/share/locale\" -I/usr/include -I./intl   -g -O2 -MT filter.o -MD -MP -MF ".deps/filter.Tpo" \
+  -c -o filter.o `test -f 'filter.c' || echo './'`filter.c; \
+then mv -f ".deps/filter.Tpo" ".deps/filter.Po"; \
+else rm -f ".deps/filter.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.  -DLOCALEDIR=\"/usr/share/locale\" -I/usr/include -I./intl   -g -O2 -MT regex.o -MD -MP -MF ".deps/regex.Tpo" \
+  -c -o regex.o `test -f 'regex.c' || echo './'`regex.c; \
+then mv -f ".deps/regex.Tpo" ".deps/regex.Po"; \
+else rm -f ".deps/regex.Tpo"; exit 1; \
+fi
+gcc  -g -O2   -o flex  ccl.o dfa.o ecs.o gen.o main.o misc.o nfa.o parse.o scan.o skel.o sym.o tblcmp.o yylex.o options.o scanopt.o buf.o tables.o tables_shared.o filter.o regex.o  -lm 
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33'
+Making all in doc
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/doc'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/doc'
+Making all in m4
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/m4'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/m4'
+Making all in examples
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/examples'
+Making all in manual
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/examples/manual'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/examples/manual'
+Making all in fastwc
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/examples/fastwc'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/examples/fastwc'
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/examples'
+make[3]: Nothing to be done for `all-am'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/examples'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/examples'
+Making all in po
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/po'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/po'
+Making all in tools
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tools'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tools'
+Making all in tests
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests'
+Making all in test-rescan-r
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-rescan-r'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-rescan-r'
+Making all in test-rescan-nr
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-rescan-nr'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-rescan-nr'
+Making all in test-basic-nr
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-basic-nr'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-basic-nr'
+Making all in test-basic-r
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-basic-r'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-basic-r'
+Making all in test-bison-yylloc
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-bison-yylloc'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-bison-yylloc'
+Making all in test-bison-yylval
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-bison-yylval'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-bison-yylval'
+Making all in test-bison-nr
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-bison-nr'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-bison-nr'
+Making all in test-multiple-scanners-nr
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-multiple-scanners-nr'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-multiple-scanners-nr'
+Making all in test-multiple-scanners-r
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-multiple-scanners-r'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-multiple-scanners-r'
+Making all in test-header-nr
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-header-nr'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-header-nr'
+Making all in test-header-r
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-header-r'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-header-r'
+Making all in test-reject
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-reject'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-reject'
+Making all in test-c++-multiple-scanners
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-c++-multiple-scanners'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-c++-multiple-scanners'
+Making all in test-c++-basic
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-c++-basic'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-c++-basic'
+Making all in test-posixly-correct
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-posixly-correct'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-posixly-correct'
+Making all in test-posix
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-posix'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-posix'
+Making all in test-mem-r
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-mem-r'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-mem-r'
+Making all in test-mem-nr
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-mem-nr'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-mem-nr'
+Making all in test-debug-nr
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-debug-nr'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-debug-nr'
+Making all in test-debug-r
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-debug-r'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-debug-r'
+Making all in test-lineno-r
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-lineno-r'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-lineno-r'
+Making all in test-lineno-nr
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-lineno-nr'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-lineno-nr'
+Making all in test-linedir-r
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-linedir-r'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-linedir-r'
+Making all in test-array-nr
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-array-nr'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-array-nr'
+Making all in test-array-r
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-array-r'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-array-r'
+Making all in test-c-cpp-nr
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-c-cpp-nr'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-c-cpp-nr'
+Making all in test-c-cpp-r
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-c-cpp-r'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-c-cpp-r'
+Making all in test-include-by-buffer
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-include-by-buffer'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-include-by-buffer'
+Making all in test-include-by-push
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-include-by-push'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-include-by-push'
+Making all in test-include-by-reentrant
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-include-by-reentrant'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-include-by-reentrant'
+Making all in test-prefix-nr
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-prefix-nr'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-prefix-nr'
+Making all in test-prefix-r
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-prefix-r'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-prefix-r'
+Making all in test-pthread
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-pthread'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-pthread'
+Making all in test-string-nr
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-string-nr'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-string-nr'
+Making all in test-string-r
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-string-r'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-string-r'
+Making all in test-yyextra
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-yyextra'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-yyextra'
+Making all in test-noansi-nr
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-noansi-nr'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-noansi-nr'
+Making all in test-noansi-r
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-noansi-r'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-noansi-r'
+Making all in test-top
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-top'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-top'
+Making all in test-table-opts
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-table-opts'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests/test-table-opts'
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests'
+make[3]: Nothing to be done for `all-am'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33/tests'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/flex/flex-2.5.33/unpack/flex-2.5.33'

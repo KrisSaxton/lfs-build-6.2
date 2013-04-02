@@ -1,0 +1,2 @@
+removed `lib/libz.so'
+create symbolic link `usr/lib/libz.so' to `../../lib/libz.so.1.2.3'

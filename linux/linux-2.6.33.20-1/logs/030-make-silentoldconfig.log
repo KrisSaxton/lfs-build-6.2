@@ -1,0 +1,12 @@
+`../../files/config-2.6.33.20' -> `.config'
+  HOSTCC  scripts/basic/fixdep
+  HOSTCC  scripts/basic/docproc
+  HOSTCC  scripts/basic/hash
+  HOSTCC  scripts/kconfig/conf.o
+  HOSTCC  scripts/kconfig/kxgettext.o
+  SHIPPED scripts/kconfig/zconf.tab.c
+  SHIPPED scripts/kconfig/lex.zconf.c
+  SHIPPED scripts/kconfig/zconf.hash.c
+  HOSTCC  scripts/kconfig/zconf.tab.o
+  HOSTLD  scripts/kconfig/conf
+scripts/kconfig/conf -s arch/x86/Kconfig

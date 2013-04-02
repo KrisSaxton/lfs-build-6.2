@@ -1,0 +1,19 @@
+scripts/kconfig/conf -s arch/i386/Kconfig
+*
+* Restart config...
+*
+*
+* General setup
+*
+Prompt for development and/or incomplete code/drivers (EXPERIMENTAL) [Y/n/?] y
+Local version - append to kernel release (LOCALVERSION) [] 
+Automatically append version information to the version string (LOCALVERSION_AUTO) [N/y/?] n
+Support for paging of anonymous memory (swap) (SWAP) [Y/n/?] y
+System V IPC (SYSVIPC) [Y/n/?] y
+POSIX Message Queues (POSIX_MQUEUE) [N/y/?] n
+BSD Process Accounting (BSD_PROCESS_ACCT) [N/y/?] n
+Export task/process statistics through netlink (EXPERIMENTAL) (TASKSTATS) [N/y/?] n
+User Namespaces (EXPERIMENTAL) (USER_NS) [N/y/?] (NEW) aborted!
+
+Console input/output is redirected. Run 'make oldconfig' to update configuration.
+

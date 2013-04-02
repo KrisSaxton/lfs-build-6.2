@@ -1,0 +1,115 @@
+Making install in .
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5'
+test -z "/usr/bin" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5/../../pkg/debian/usr/bin"
+  ./install-sh -c 'gawk' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5/../../pkg/debian/usr/bin/gawk'
+  ./install-sh -c 'pgawk' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5/../../pkg/debian/usr/bin/pgawk'
+make 'CFLAGS=-g -O2' 'LDFLAGS=-export-dynamic' install-exec-hook
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5'
+(cd /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5/../../pkg/debian/usr/bin; \
+ln gawk gawk-3.1.5 2>/dev/null ; \
+ln pgawk pgawk-3.1.5 2>/dev/null ; \
+if [ ! -f awk ]; \
+then	ln -s gawk awk; \
+fi; exit 0)
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5'
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5'
+Making install in awklib
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5/awklib'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5/awklib'
+test -z "/usr/bin" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5/../../pkg/debian/usr/bin"
+ .././install-sh -c 'igawk' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5/../../pkg/debian/usr/bin/igawk'
+test -z "/usr/bin" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5/../../pkg/debian/usr/bin"
+  .././install-sh -c 'pwcat' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5/../../pkg/debian/usr/bin/pwcat'
+  .././install-sh -c 'grcat' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5/../../pkg/debian/usr/bin/grcat'
+make  install-exec-hook
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5/awklib'
+/bin/sh ../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5/../../pkg/debian/usr/share/awk
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5/../../pkg/debian/usr/share/awk
+for i in passwd.awk group.awk ./eg/lib/*.awk ; do \
+	progname=`echo $i | sed 's;.*/;;'` ; \
+	.././install-sh -c -m 644 $i /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5/../../pkg/debian/usr/share/awk/$progname ; \
+done
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5/awklib'
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5/awklib'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5/awklib'
+Making install in doc
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5/doc'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5/doc'
+make[2]: Nothing to be done for `install-exec-am'.
+test -z "/usr/share/info" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5/../../pkg/debian/usr/share/info"
+ .././install-sh -c -m 644 './gawk.info' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5/../../pkg/debian/usr/share/info/gawk.info'
+ .././install-sh -c -m 644 './gawkinet.info' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5/../../pkg/debian/usr/share/info/gawkinet.info'
+ install-info --info-dir='/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5/../../pkg/debian/usr/share/info' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5/../../pkg/debian/usr/share/info/gawk.info'
+ install-info --info-dir='/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5/../../pkg/debian/usr/share/info' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5/../../pkg/debian/usr/share/info/gawkinet.info'
+test -z "/usr/share/man/man1" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5/../../pkg/debian/usr/share/man/man1"
+ .././install-sh -c -m 644 './gawk.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5/../../pkg/debian/usr/share/man/man1/gawk.1'
+ .././install-sh -c -m 644 './igawk.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5/../../pkg/debian/usr/share/man/man1/igawk.1'
+make  install-data-hook
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5/doc'
+(cd /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5/../../pkg/debian/usr/share/man/man1; \
+ln gawk.1 pgawk.1 2>/dev/null ; \
+exit 0)
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5/doc'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5/doc'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5/doc'
+Making install in po
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5/po'
+/bin/sh .././mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5/../../pkg/debian/usr/share
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5/../../pkg/debian/usr/share/locale/es/LC_MESSAGES
+installing es.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5/../../pkg/debian/usr/share/locale/es/LC_MESSAGES/gawk.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5/../../pkg/debian/usr/share/locale/fr/LC_MESSAGES
+installing fr.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5/../../pkg/debian/usr/share/locale/fr/LC_MESSAGES/gawk.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5/../../pkg/debian/usr/share/locale/he/LC_MESSAGES
+installing he.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5/../../pkg/debian/usr/share/locale/he/LC_MESSAGES/gawk.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5/../../pkg/debian/usr/share/locale/it/LC_MESSAGES
+installing it.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5/../../pkg/debian/usr/share/locale/it/LC_MESSAGES/gawk.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5/../../pkg/debian/usr/share/locale/sv/LC_MESSAGES
+installing sv.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5/../../pkg/debian/usr/share/locale/sv/LC_MESSAGES/gawk.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5/../../pkg/debian/usr/share/locale/tr/LC_MESSAGES
+installing tr.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5/../../pkg/debian/usr/share/locale/tr/LC_MESSAGES/gawk.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5/../../pkg/debian/usr/share/locale/de/LC_MESSAGES
+installing de.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5/../../pkg/debian/usr/share/locale/de/LC_MESSAGES/gawk.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5/../../pkg/debian/usr/share/locale/da/LC_MESSAGES
+installing da.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5/../../pkg/debian/usr/share/locale/da/LC_MESSAGES/gawk.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5/../../pkg/debian/usr/share/locale/pt_BR/LC_MESSAGES
+installing pt_BR.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5/../../pkg/debian/usr/share/locale/pt_BR/LC_MESSAGES/gawk.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5/../../pkg/debian/usr/share/locale/ca/LC_MESSAGES
+installing ca.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5/../../pkg/debian/usr/share/locale/ca/LC_MESSAGES/gawk.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5/../../pkg/debian/usr/share/locale/pl/LC_MESSAGES
+installing pl.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5/../../pkg/debian/usr/share/locale/pl/LC_MESSAGES/gawk.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5/../../pkg/debian/usr/share/locale/ja/LC_MESSAGES
+installing ja.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5/../../pkg/debian/usr/share/locale/ja/LC_MESSAGES/gawk.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5/../../pkg/debian/usr/share/locale/ro/LC_MESSAGES
+installing ro.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5/../../pkg/debian/usr/share/locale/ro/LC_MESSAGES/gawk.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5/../../pkg/debian/usr/share/locale/nl/LC_MESSAGES
+installing nl.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5/../../pkg/debian/usr/share/locale/nl/LC_MESSAGES/gawk.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5/../../pkg/debian/usr/share/locale/rw/LC_MESSAGES
+installing rw.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5/../../pkg/debian/usr/share/locale/rw/LC_MESSAGES/gawk.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5/../../pkg/debian/usr/share/locale/ga/LC_MESSAGES
+installing ga.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5/../../pkg/debian/usr/share/locale/ga/LC_MESSAGES/gawk.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5/../../pkg/debian/usr/share/locale/vi/LC_MESSAGES
+installing vi.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5/../../pkg/debian/usr/share/locale/vi/LC_MESSAGES/gawk.mo
+if test "gawk" = "gettext-tools"; then \
+  /bin/sh .././mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5/../../pkg/debian/usr/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    .././install-sh -c -m 644 ./$file \
+		    /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5/../../pkg/debian/usr/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5/../../pkg/debian/usr/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5/po'
+Making install in test
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5/test'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5/test'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5/test'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5/test'

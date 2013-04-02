@@ -1,0 +1,19 @@
+#!/bin/bash
+
+source configure
+
+pushd ../unpack/*
+
+{
+DESTDIR=../../pkg/debian
+
+make install \
+    PREFIX=$DESTDIR/usr
+
+mkdir -vp           $DESTDIR/{bin,lib}
+cp -v bzip2-shared  $DESTDIR/bin/bzip2
+cp -av libbz2.so*   $DESTDIR/lib
+
+} | tee ../../logs/050-make-install.log
+
+popd

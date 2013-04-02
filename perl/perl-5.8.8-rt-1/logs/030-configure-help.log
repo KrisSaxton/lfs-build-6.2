@@ -1,0 +1,13 @@
+Usage: configure.gnu [options]
+This is GNU configure-like front end for a metaconfig-generated Configure.
+It emulates the following GNU configure options (must be fully spelled out):
+	--help
+	--no-create
+	--prefix=PREFIX
+ 	--cache-file  (ignored)
+	--quiet
+	--silent
+	--verbose
+	--version
+
+And it honours these environment variables: CC, CFLAGS and DEFS.

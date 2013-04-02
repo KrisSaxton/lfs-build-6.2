@@ -1,0 +1,717 @@
+/bin/sh ../unpack/gcc-4.0.3/mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/fixincludes'
+rm -rf /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib/gcc/i686-pc-linux-gnu/4.0.3/install-tools
+/bin/sh ../../unpack/gcc-4.0.3/fixincludes/../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib/gcc/i686-pc-linux-gnu/4.0.3/install-tools 
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib/gcc/i686-pc-linux-gnu/4.0.3/install-tools
+/bin/sh ../../unpack/gcc-4.0.3/fixincludes/../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib/gcc/i686-pc-linux-gnu/4.0.3/install-tools/include
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib/gcc/i686-pc-linux-gnu/4.0.3/install-tools/include
+/usr/bin/install -c -m 644 ../../unpack/gcc-4.0.3/fixincludes/README-fixinc \
+  /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib/gcc/i686-pc-linux-gnu/4.0.3/install-tools/include/README
+/usr/bin/install -c fixinc.sh /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib/gcc/i686-pc-linux-gnu/4.0.3/install-tools/fixinc.sh
+/usr/bin/install -c fixincl \
+  /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib/gcc/i686-pc-linux-gnu/4.0.3/install-tools/fixincl
+/usr/bin/install -c mkheaders /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib/gcc/i686-pc-linux-gnu/4.0.3/install-tools/mkheaders
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/fixincludes'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/gcc'
+/bin/sh ../../unpack/gcc-4.0.3/gcc/../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib/gcc/i686-pc-linux-gnu/4.0.3
+/bin/sh ../../unpack/gcc-4.0.3/gcc/../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib/gcc/i686-pc-linux-gnu/4.0.3
+/bin/sh ../../unpack/gcc-4.0.3/gcc/../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/bin
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/bin
+/bin/sh ../../unpack/gcc-4.0.3/gcc/../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/include
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/include
+/bin/sh ../../unpack/gcc-4.0.3/gcc/../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/info
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/info
+/bin/sh ../../unpack/gcc-4.0.3/gcc/../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib
+/bin/sh ../../unpack/gcc-4.0.3/gcc/../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/man/man1
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/man/man1
+/bin/sh ../../unpack/gcc-4.0.3/gcc/../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/man/man7
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/man/man7
+rm -f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/bin/g++
+/usr/bin/install -c g++ /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/bin/g++
+chmod a+x /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/bin/g++
+rm -f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/bin/c++
+( cd /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/bin && \
+      ln g++ c++ )
+if [ -f cc1plus ] ; then \
+  if [ -f g++-cross ] ; then \
+    if [ -d /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib/gcc/i686-pc-linux-gnu/4.0.3/../../../../i686-pc-linux-gnu/bin/. ] ; then \
+      rm -f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib/gcc/i686-pc-linux-gnu/4.0.3/../../../../i686-pc-linux-gnu/bin/g++; \
+      /usr/bin/install -c g++-cross /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib/gcc/i686-pc-linux-gnu/4.0.3/../../../../i686-pc-linux-gnu/bin/g++; \
+      rm -f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib/gcc/i686-pc-linux-gnu/4.0.3/../../../../i686-pc-linux-gnu/bin/c++; \
+      ( cd /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib/gcc/i686-pc-linux-gnu/4.0.3/../../../../i686-pc-linux-gnu/bin && \
+        ln g++ c++ ); \
+    else true; fi; \
+  else \
+    rm -f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/bin/i686-pc-linux-gnu-g++; \
+    ( cd /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/bin && \
+      ln g++ i686-pc-linux-gnu-g++ ); \
+    rm -f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/bin/i686-pc-linux-gnu-c++; \
+    ( cd /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/bin && \
+      ln c++ i686-pc-linux-gnu-c++ ); \
+  fi ; \
+fi
+for file in cc1  cc1plus; do \
+  if [ -f $file ] ; then \
+    rm -f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib/gcc/i686-pc-linux-gnu/4.0.3/$file; \
+    /usr/bin/install -c $file /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib/gcc/i686-pc-linux-gnu/4.0.3/$file; \
+  else true; \
+  fi; \
+done
+for file in   collect2 ..; do \
+  if [ x"$file" != x.. ]; then \
+    rm -f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib/gcc/i686-pc-linux-gnu/4.0.3/$file; \
+    /usr/bin/install -c $file /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib/gcc/i686-pc-linux-gnu/4.0.3/$file; \
+  else true; fi; \
+done
+for file in crtbegin.o crtbeginS.o crtbeginT.o crtend.o crtendS.o ..; do \
+  if [ x"$file" != x.. ]; then \
+    rm -f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib/gcc/i686-pc-linux-gnu/4.0.3/$file; \
+    /usr/bin/install -c -m 644 $file /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib/gcc/i686-pc-linux-gnu/4.0.3/$file; \
+    chmod a-x /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib/gcc/i686-pc-linux-gnu/4.0.3/$file; \
+  else true; fi; \
+done
+rm -f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib/gcc/i686-pc-linux-gnu/4.0.3/specs
+if [ -f protoize ]; then \
+  rm -f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/bin/protoize; \
+  /usr/bin/install -c protoize /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/bin/protoize; \
+  rm -f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/bin/unprotoize; \
+  /usr/bin/install -c unprotoize /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/bin/unprotoize; \
+  rm -f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib/gcc/i686-pc-linux-gnu/4.0.3/SYSCALLS.c.X; \
+  /usr/bin/install -c -m 644 SYSCALLS.c.X /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib/gcc/i686-pc-linux-gnu/4.0.3/SYSCALLS.c.X; \
+  chmod a-x /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib/gcc/i686-pc-linux-gnu/4.0.3/SYSCALLS.c.X; \
+fi
+if [ -f gcov ]; \
+then \
+    rm -f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/bin/gcov; \
+    /usr/bin/install -c gcov /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/bin/gcov; \
+fi
+/usr/bin/install -c gccbug /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/bin/gccbug
+rm -rf /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib/gcc/i686-pc-linux-gnu/4.0.3/include
+mkdir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib/gcc/i686-pc-linux-gnu/4.0.3/include
+chmod a+rx /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib/gcc/i686-pc-linux-gnu/4.0.3/include
+(cd `${PWDCMD-pwd}`/include ; \
+ tar -cf - .; exit 0) | (cd /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib/gcc/i686-pc-linux-gnu/4.0.3/include; tar xpf - )
+files=`cd /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib/gcc/i686-pc-linux-gnu/4.0.3/include; find . -type l -print 2>/dev/null`; \
+if [ $? -eq 0 ]; then \
+  dir=`cd include; ${PWDCMD-pwd}`; \
+  for i in $files; do \
+    dest=`ls -ld /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib/gcc/i686-pc-linux-gnu/4.0.3/include/$i | sed -n 's/.*-> //p'`; \
+    if expr "$dest" : "$dir.*" > /dev/null; then \
+      rm -f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib/gcc/i686-pc-linux-gnu/4.0.3/include/$i; \
+      ln -s `echo $i | sed "s|/[^/]*|/..|g" | sed 's|/..$||'``echo "$dest" | sed "s|$dir||"` /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib/gcc/i686-pc-linux-gnu/4.0.3/include/$i; \
+    fi; \
+  done; \
+fi
+for file in ../../unpack/gcc-4.0.3/gcc/ginclude/float.h ../../unpack/gcc-4.0.3/gcc/ginclude/iso646.h ../../unpack/gcc-4.0.3/gcc/ginclude/stdarg.h ../../unpack/gcc-4.0.3/gcc/ginclude/stdbool.h ../../unpack/gcc-4.0.3/gcc/ginclude/stddef.h ../../unpack/gcc-4.0.3/gcc/ginclude/varargs.h ../../unpack/gcc-4.0.3/gcc/unwind.h ../../unpack/gcc-4.0.3/gcc/config/i386/mmintrin.h ../../unpack/gcc-4.0.3/gcc/config/i386/mm3dnow.h ../../unpack/gcc-4.0.3/gcc/config/i386/xmmintrin.h ../../unpack/gcc-4.0.3/gcc/config/i386/emmintrin.h ../../unpack/gcc-4.0.3/gcc/config/i386/pmmintrin.h mm_malloc.h; do \
+  realfile=`echo $file | sed -e 's|.*/\([^/]*\)$|\1|'`; \
+  /usr/bin/install -c -m 644 $file \
+    /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib/gcc/i686-pc-linux-gnu/4.0.3/install-tools/include/$realfile ; \
+done
+/usr/bin/install -c -m 644 xlimits.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib/gcc/i686-pc-linux-gnu/4.0.3/install-tools/include/limits.h
+/usr/bin/install -c -m 644 ../../unpack/gcc-4.0.3/gcc/gsyslimits.h \
+  /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib/gcc/i686-pc-linux-gnu/4.0.3/install-tools/gsyslimits.h
+/usr/bin/install -c -m 644 macro_list /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib/gcc/i686-pc-linux-gnu/4.0.3/install-tools/macro_list
+if [ x != x ] ; then \
+  /usr/bin/install -c /bin/sh ../../unpack/gcc-4.0.3/gcc/../mkinstalldirs \
+	/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib/gcc/i686-pc-linux-gnu/4.0.3/install-tools/mkinstalldirs ; \
+  /usr/bin/install -c ../../unpack/gcc-4.0.3/gcc/fixproto /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib/gcc/i686-pc-linux-gnu/4.0.3/install-tools/fixproto ; \
+  /usr/bin/install -c build/fix-header \
+	/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib/gcc/i686-pc-linux-gnu/4.0.3/install-tools/fix-header ; \
+else :; fi
+echo 'SYSTEM_HEADER_DIR="'"/usr/include"'"' \
+	> /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib/gcc/i686-pc-linux-gnu/4.0.3/install-tools/mkheaders.conf
+echo 'OTHER_FIXINCLUDES_DIRS=""' \
+>> /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib/gcc/i686-pc-linux-gnu/4.0.3/install-tools/mkheaders.conf
+echo 'FIXPROTO_DEFINES=""' \
+>> /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib/gcc/i686-pc-linux-gnu/4.0.3/install-tools/mkheaders.conf
+echo 'STMP_FIXPROTO=""' \
+>> /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib/gcc/i686-pc-linux-gnu/4.0.3/install-tools/mkheaders.conf
+echo 'STMP_FIXINC="stmp-fixinc"' \
+>> /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib/gcc/i686-pc-linux-gnu/4.0.3/install-tools/mkheaders.conf
+make \
+  CFLAGS="-g -O2  -W -Wall -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -pedantic -Wno-long-long -Wno-variadic-macros -Wold-style-definition  " \
+  CONFIG_H="tconfig.h ../../unpack/gcc-4.0.3/gcc/../include/ansidecl.h" TM_H="tm.h      ../../unpack/gcc-4.0.3/gcc/config/i386/i386.h ../../unpack/gcc-4.0.3/gcc/config/i386/unix.h ../../unpack/gcc-4.0.3/gcc/config/i386/att.h ../../unpack/gcc-4.0.3/gcc/config/dbxelf.h ../../unpack/gcc-4.0.3/gcc/config/elfos.h ../../unpack/gcc-4.0.3/gcc/config/svr4.h ../../unpack/gcc-4.0.3/gcc/config/linux.h ../../unpack/gcc-4.0.3/gcc/config/i386/linux.h ../../unpack/gcc-4.0.3/gcc/defaults.h insn-constants.h insn-flags.h" \
+  INCLUDES="-I. -I. -I../../unpack/gcc-4.0.3/gcc -I../../unpack/gcc-4.0.3/gcc/. -I../../unpack/gcc-4.0.3/gcc/../include -I../../unpack/gcc-4.0.3/gcc/../libcpp/include " \
+  MAKEOVERRIDES= \
+  -f libgcc.mk all
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/gcc'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/gcc'
+make \
+  CFLAGS="-g -O2  -W -Wall -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -pedantic -Wno-long-long -Wno-variadic-macros -Wold-style-definition  " \
+  CONFIG_H="tconfig.h ../../unpack/gcc-4.0.3/gcc/../include/ansidecl.h" \
+  MAKEOVERRIDES= \
+  mkinstalldirs='/bin/sh ../../unpack/gcc-4.0.3/gcc/../mkinstalldirs' \
+  -f libgcc.mk install
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/gcc'
+/usr/bin/install -c -m 644 ./libgcc.a /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib/gcc/i686-pc-linux-gnu/4.0.3/
+ranlib /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib/gcc/i686-pc-linux-gnu/4.0.3/libgcc.a
+/usr/bin/install -c -m 644 ./libgcov.a /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib/gcc/i686-pc-linux-gnu/4.0.3/
+ranlib /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib/gcc/i686-pc-linux-gnu/4.0.3/libgcov.a
+/usr/bin/install -c -m 644 ./libgcc_eh.a /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib/gcc/i686-pc-linux-gnu/4.0.3/
+ranlib /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib/gcc/i686-pc-linux-gnu/4.0.3/libgcc_eh.a
+/bin/sh ../../unpack/gcc-4.0.3/gcc/../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib; /usr/bin/install -c -m 644 ./libgcc_s.so.1 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib/libgcc_s.so.1; rm -f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib/libgcc_s.so; ln -s libgcc_s.so.1 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib/libgcc_s.so
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/gcc'
+rm -f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/bin/cpp
+/usr/bin/install -c -m 755 cpp /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/bin/cpp
+if [ x != x ]; then \
+  rm -f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr//cpp; \
+  /usr/bin/install -c -m 755 cpp /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr//cpp; \
+else true; fi
+rm -f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/man/man1/g++.1
+/usr/bin/install -c -m 644 ../../unpack/gcc-4.0.3/gcc/doc/g++.1 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/man/man1/g++.1
+chmod a-x /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/man/man1/g++.1
+rm -f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/man/man1/gcc.1
+/usr/bin/install -c -m 644 ../../unpack/gcc-4.0.3/gcc/doc/gcc.1 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/man/man1/gcc.1
+chmod a-x /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/man/man1/gcc.1
+rm -f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/man/man1/cpp.1
+/usr/bin/install -c -m 644 ../../unpack/gcc-4.0.3/gcc/doc/cpp.1 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/man/man1/cpp.1
+chmod a-x /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/man/man1/cpp.1
+rm -f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/man/man1/gcov.1
+/usr/bin/install -c -m 644 ../../unpack/gcc-4.0.3/gcc/doc/gcov.1 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/man/man1/gcov.1
+chmod a-x /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/man/man1/gcov.1
+rm -f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/man/man7/fsf-funding.7
+/usr/bin/install -c -m 644 ../../unpack/gcc-4.0.3/gcc/doc/fsf-funding.7 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/man/man7/fsf-funding.7
+chmod a-x /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/man/man7/fsf-funding.7
+rm -f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/man/man7/gfdl.7
+/usr/bin/install -c -m 644 ../../unpack/gcc-4.0.3/gcc/doc/gfdl.7 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/man/man7/gfdl.7
+chmod a-x /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/man/man7/gfdl.7
+rm -f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/man/man7/gpl.7
+/usr/bin/install -c -m 644 ../../unpack/gcc-4.0.3/gcc/doc/gpl.7 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/man/man7/gpl.7
+chmod a-x /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/man/man7/gpl.7
+rm -f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/info/cpp.info
+if [ -f ../../unpack/gcc-4.0.3/gcc/doc/cpp.info ]; then \
+  for f in ../../unpack/gcc-4.0.3/gcc/doc/cpp.info*; do \
+    realfile=`echo $f | sed -e 's|.*/\([^/]*\)$|\1|'`; \
+    /usr/bin/install -c -m 644 $f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/info/$realfile; \
+    chmod a-x /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/info/$realfile; \
+  done; \
+else true; fi
+if /bin/sh -c 'install-info --version' >/dev/null 2>&1; then \
+  if [ -f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/info/cpp.info ]; then \
+    install-info --dir-file=/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/info/dir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/info/cpp.info; \
+  else true; fi; \
+else true; fi;
+rm -f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/info/gcc.info
+if [ -f ../../unpack/gcc-4.0.3/gcc/doc/gcc.info ]; then \
+  for f in ../../unpack/gcc-4.0.3/gcc/doc/gcc.info*; do \
+    realfile=`echo $f | sed -e 's|.*/\([^/]*\)$|\1|'`; \
+    /usr/bin/install -c -m 644 $f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/info/$realfile; \
+    chmod a-x /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/info/$realfile; \
+  done; \
+else true; fi
+if /bin/sh -c 'install-info --version' >/dev/null 2>&1; then \
+  if [ -f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/info/gcc.info ]; then \
+    install-info --dir-file=/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/info/dir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/info/gcc.info; \
+  else true; fi; \
+else true; fi;
+rm -f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/info/cppinternals.info
+if [ -f ../../unpack/gcc-4.0.3/gcc/doc/cppinternals.info ]; then \
+  for f in ../../unpack/gcc-4.0.3/gcc/doc/cppinternals.info*; do \
+    realfile=`echo $f | sed -e 's|.*/\([^/]*\)$|\1|'`; \
+    /usr/bin/install -c -m 644 $f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/info/$realfile; \
+    chmod a-x /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/info/$realfile; \
+  done; \
+else true; fi
+if /bin/sh -c 'install-info --version' >/dev/null 2>&1; then \
+  if [ -f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/info/cppinternals.info ]; then \
+    install-info --dir-file=/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/info/dir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/info/cppinternals.info; \
+  else true; fi; \
+else true; fi;
+rm -f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/info/gccinstall.info
+if [ -f ../../unpack/gcc-4.0.3/gcc/doc/gccinstall.info ]; then \
+  for f in ../../unpack/gcc-4.0.3/gcc/doc/gccinstall.info*; do \
+    realfile=`echo $f | sed -e 's|.*/\([^/]*\)$|\1|'`; \
+    /usr/bin/install -c -m 644 $f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/info/$realfile; \
+    chmod a-x /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/info/$realfile; \
+  done; \
+else true; fi
+if /bin/sh -c 'install-info --version' >/dev/null 2>&1; then \
+  if [ -f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/info/gccinstall.info ]; then \
+    install-info --dir-file=/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/info/dir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/info/gccinstall.info; \
+  else true; fi; \
+else true; fi;
+rm -f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/info/gccint.info
+if [ -f ../../unpack/gcc-4.0.3/gcc/doc/gccint.info ]; then \
+  for f in ../../unpack/gcc-4.0.3/gcc/doc/gccint.info*; do \
+    realfile=`echo $f | sed -e 's|.*/\([^/]*\)$|\1|'`; \
+    /usr/bin/install -c -m 644 $f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/info/$realfile; \
+    chmod a-x /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/info/$realfile; \
+  done; \
+else true; fi
+if /bin/sh -c 'install-info --version' >/dev/null 2>&1; then \
+  if [ -f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/info/gccint.info ]; then \
+    install-info --dir-file=/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/info/dir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/info/gccint.info; \
+  else true; fi; \
+else true; fi;
+/bin/sh ../../unpack/gcc-4.0.3/gcc/../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share
+cats="po/be.gmo po/ca.gmo po/da.gmo po/de.gmo po/el.gmo po/es.gmo po/fr.gmo po/ja.gmo po/nl.gmo po/rw.gmo po/sv.gmo po/tr.gmo po/zh_CN.gmo po/be.gmo po/ca.gmo po/da.gmo po/de.gmo po/el.gmo po/es.gmo po/fr.gmo po/ja.gmo po/nl.gmo po/rw.gmo po/sv.gmo po/tr.gmo po/zh_CN.gmo"; for cat in $cats; do \
+  lang=`basename $cat | sed 's/\.gmo$//'`; \
+  if [ -f $cat ]; then :; \
+  elif [ -f ../../unpack/gcc-4.0.3/gcc/$cat ]; then cat=../../unpack/gcc-4.0.3/gcc/$cat; \
+  else continue; \
+  fi; \
+  dir=/usr/share/locale/$lang/LC_MESSAGES; \
+  echo /bin/sh ../../unpack/gcc-4.0.3/gcc/../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian$dir; \
+  /bin/sh ../../unpack/gcc-4.0.3/gcc/../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian$dir || exit 1; \
+  echo /usr/bin/install -c -m 644 $cat /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian$dir/gcc.mo; \
+  /usr/bin/install -c -m 644 $cat /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian$dir/gcc.mo; \
+done
+/bin/sh ../../unpack/gcc-4.0.3/gcc/../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/locale/be/LC_MESSAGES
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/locale/be/LC_MESSAGES
+/usr/bin/install -c -m 644 ../../unpack/gcc-4.0.3/gcc/po/be.gmo /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/locale/be/LC_MESSAGES/gcc.mo
+/bin/sh ../../unpack/gcc-4.0.3/gcc/../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/locale/ca/LC_MESSAGES
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/locale/ca/LC_MESSAGES
+/usr/bin/install -c -m 644 ../../unpack/gcc-4.0.3/gcc/po/ca.gmo /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/locale/ca/LC_MESSAGES/gcc.mo
+/bin/sh ../../unpack/gcc-4.0.3/gcc/../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/locale/da/LC_MESSAGES
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/locale/da/LC_MESSAGES
+/usr/bin/install -c -m 644 ../../unpack/gcc-4.0.3/gcc/po/da.gmo /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/locale/da/LC_MESSAGES/gcc.mo
+/bin/sh ../../unpack/gcc-4.0.3/gcc/../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/locale/de/LC_MESSAGES
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/locale/de/LC_MESSAGES
+/usr/bin/install -c -m 644 ../../unpack/gcc-4.0.3/gcc/po/de.gmo /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/locale/de/LC_MESSAGES/gcc.mo
+/bin/sh ../../unpack/gcc-4.0.3/gcc/../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/locale/el/LC_MESSAGES
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/locale/el/LC_MESSAGES
+/usr/bin/install -c -m 644 ../../unpack/gcc-4.0.3/gcc/po/el.gmo /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/locale/el/LC_MESSAGES/gcc.mo
+/bin/sh ../../unpack/gcc-4.0.3/gcc/../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/locale/es/LC_MESSAGES
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/locale/es/LC_MESSAGES
+/usr/bin/install -c -m 644 ../../unpack/gcc-4.0.3/gcc/po/es.gmo /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/locale/es/LC_MESSAGES/gcc.mo
+/bin/sh ../../unpack/gcc-4.0.3/gcc/../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/locale/fr/LC_MESSAGES
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/locale/fr/LC_MESSAGES
+/usr/bin/install -c -m 644 ../../unpack/gcc-4.0.3/gcc/po/fr.gmo /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/locale/fr/LC_MESSAGES/gcc.mo
+/bin/sh ../../unpack/gcc-4.0.3/gcc/../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/locale/ja/LC_MESSAGES
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/locale/ja/LC_MESSAGES
+/usr/bin/install -c -m 644 ../../unpack/gcc-4.0.3/gcc/po/ja.gmo /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/locale/ja/LC_MESSAGES/gcc.mo
+/bin/sh ../../unpack/gcc-4.0.3/gcc/../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/locale/nl/LC_MESSAGES
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/locale/nl/LC_MESSAGES
+/usr/bin/install -c -m 644 ../../unpack/gcc-4.0.3/gcc/po/nl.gmo /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/locale/nl/LC_MESSAGES/gcc.mo
+/bin/sh ../../unpack/gcc-4.0.3/gcc/../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/locale/rw/LC_MESSAGES
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/locale/rw/LC_MESSAGES
+/usr/bin/install -c -m 644 ../../unpack/gcc-4.0.3/gcc/po/rw.gmo /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/locale/rw/LC_MESSAGES/gcc.mo
+/bin/sh ../../unpack/gcc-4.0.3/gcc/../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/locale/sv/LC_MESSAGES
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/locale/sv/LC_MESSAGES
+/usr/bin/install -c -m 644 ../../unpack/gcc-4.0.3/gcc/po/sv.gmo /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/locale/sv/LC_MESSAGES/gcc.mo
+/bin/sh ../../unpack/gcc-4.0.3/gcc/../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/locale/tr/LC_MESSAGES
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/locale/tr/LC_MESSAGES
+/usr/bin/install -c -m 644 ../../unpack/gcc-4.0.3/gcc/po/tr.gmo /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/locale/tr/LC_MESSAGES/gcc.mo
+/bin/sh ../../unpack/gcc-4.0.3/gcc/../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/locale/zh_CN/LC_MESSAGES
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/locale/zh_CN/LC_MESSAGES
+/usr/bin/install -c -m 644 ../../unpack/gcc-4.0.3/gcc/po/zh_CN.gmo /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/locale/zh_CN/LC_MESSAGES/gcc.mo
+/bin/sh ../../unpack/gcc-4.0.3/gcc/../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/locale/be/LC_MESSAGES
+/usr/bin/install -c -m 644 ../../unpack/gcc-4.0.3/gcc/po/be.gmo /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/locale/be/LC_MESSAGES/gcc.mo
+/bin/sh ../../unpack/gcc-4.0.3/gcc/../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/locale/ca/LC_MESSAGES
+/usr/bin/install -c -m 644 ../../unpack/gcc-4.0.3/gcc/po/ca.gmo /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/locale/ca/LC_MESSAGES/gcc.mo
+/bin/sh ../../unpack/gcc-4.0.3/gcc/../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/locale/da/LC_MESSAGES
+/usr/bin/install -c -m 644 ../../unpack/gcc-4.0.3/gcc/po/da.gmo /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/locale/da/LC_MESSAGES/gcc.mo
+/bin/sh ../../unpack/gcc-4.0.3/gcc/../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/locale/de/LC_MESSAGES
+/usr/bin/install -c -m 644 ../../unpack/gcc-4.0.3/gcc/po/de.gmo /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/locale/de/LC_MESSAGES/gcc.mo
+/bin/sh ../../unpack/gcc-4.0.3/gcc/../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/locale/el/LC_MESSAGES
+/usr/bin/install -c -m 644 ../../unpack/gcc-4.0.3/gcc/po/el.gmo /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/locale/el/LC_MESSAGES/gcc.mo
+/bin/sh ../../unpack/gcc-4.0.3/gcc/../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/locale/es/LC_MESSAGES
+/usr/bin/install -c -m 644 ../../unpack/gcc-4.0.3/gcc/po/es.gmo /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/locale/es/LC_MESSAGES/gcc.mo
+/bin/sh ../../unpack/gcc-4.0.3/gcc/../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/locale/fr/LC_MESSAGES
+/usr/bin/install -c -m 644 ../../unpack/gcc-4.0.3/gcc/po/fr.gmo /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/locale/fr/LC_MESSAGES/gcc.mo
+/bin/sh ../../unpack/gcc-4.0.3/gcc/../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/locale/ja/LC_MESSAGES
+/usr/bin/install -c -m 644 ../../unpack/gcc-4.0.3/gcc/po/ja.gmo /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/locale/ja/LC_MESSAGES/gcc.mo
+/bin/sh ../../unpack/gcc-4.0.3/gcc/../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/locale/nl/LC_MESSAGES
+/usr/bin/install -c -m 644 ../../unpack/gcc-4.0.3/gcc/po/nl.gmo /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/locale/nl/LC_MESSAGES/gcc.mo
+/bin/sh ../../unpack/gcc-4.0.3/gcc/../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/locale/rw/LC_MESSAGES
+/usr/bin/install -c -m 644 ../../unpack/gcc-4.0.3/gcc/po/rw.gmo /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/locale/rw/LC_MESSAGES/gcc.mo
+/bin/sh ../../unpack/gcc-4.0.3/gcc/../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/locale/sv/LC_MESSAGES
+/usr/bin/install -c -m 644 ../../unpack/gcc-4.0.3/gcc/po/sv.gmo /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/locale/sv/LC_MESSAGES/gcc.mo
+/bin/sh ../../unpack/gcc-4.0.3/gcc/../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/locale/tr/LC_MESSAGES
+/usr/bin/install -c -m 644 ../../unpack/gcc-4.0.3/gcc/po/tr.gmo /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/locale/tr/LC_MESSAGES/gcc.mo
+/bin/sh ../../unpack/gcc-4.0.3/gcc/../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/locale/zh_CN/LC_MESSAGES
+/usr/bin/install -c -m 644 ../../unpack/gcc-4.0.3/gcc/po/zh_CN.gmo /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/locale/zh_CN/LC_MESSAGES/gcc.mo
+rm -f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/bin/gcc
+/usr/bin/install -c xgcc /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/bin/gcc
+rm -f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/bin/i686-pc-linux-gnu-gcc-4.0.3
+( cd /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/bin && \
+   ln gcc i686-pc-linux-gnu-gcc-4.0.3 )
+if [ -f gcc-cross ] ; then \
+  if [ -d /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib/gcc/i686-pc-linux-gnu/4.0.3/../../../../i686-pc-linux-gnu/bin/. ] ; then \
+    rm -f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib/gcc/i686-pc-linux-gnu/4.0.3/../../../../i686-pc-linux-gnu/bin/gcc; \
+    /usr/bin/install -c gcc-cross /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib/gcc/i686-pc-linux-gnu/4.0.3/../../../../i686-pc-linux-gnu/bin/gcc; \
+  else true; fi; \
+else \
+  rm -f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/bin/i686-pc-linux-gnu-gcc-tmp; \
+  ( cd /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/bin && \
+    ln gcc i686-pc-linux-gnu-gcc-tmp && \
+    mv -f i686-pc-linux-gnu-gcc-tmp i686-pc-linux-gnu-gcc ); \
+fi
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/gcc'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/intl'
+make[1]: Nothing to be done for `install'.
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/intl'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/libcpp'
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/locale/vi/LC_MESSAGES
+cats="po/be.gmo po/ca.gmo po/da.gmo po/de.gmo po/el.gmo po/es.gmo po/fr.gmo po/ja.gmo po/nl.gmo po/rw.gmo po/sv.gmo po/tr.gmo po/vi.gmo po/be.gmo po/ca.gmo po/da.gmo po/de.gmo po/el.gmo po/es.gmo po/fr.gmo po/ja.gmo po/nl.gmo po/rw.gmo po/sv.gmo po/tr.gmo po/vi.gmo"; for cat in $cats; do \
+  lang=`basename $cat | sed 's/\.gmo$//'`; \
+  if [ -f $cat ]; then :; \
+  elif [ -f ../../unpack/gcc-4.0.3/libcpp/$cat ]; then cat=../../unpack/gcc-4.0.3/libcpp/$cat; \
+  else continue; \
+  fi; \
+  dir=/usr/share/locale/$lang/LC_MESSAGES; \
+  echo /usr/bin/install -c -m 644 $cat /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian$dir/cpplib.mo; \
+  /usr/bin/install -c -m 644 $cat /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian$dir/cpplib.mo; \
+done
+/usr/bin/install -c -m 644 ../../unpack/gcc-4.0.3/libcpp/po/be.gmo /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/locale/be/LC_MESSAGES/cpplib.mo
+/usr/bin/install -c -m 644 ../../unpack/gcc-4.0.3/libcpp/po/ca.gmo /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/locale/ca/LC_MESSAGES/cpplib.mo
+/usr/bin/install -c -m 644 ../../unpack/gcc-4.0.3/libcpp/po/da.gmo /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/locale/da/LC_MESSAGES/cpplib.mo
+/usr/bin/install -c -m 644 ../../unpack/gcc-4.0.3/libcpp/po/de.gmo /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/locale/de/LC_MESSAGES/cpplib.mo
+/usr/bin/install -c -m 644 ../../unpack/gcc-4.0.3/libcpp/po/el.gmo /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/locale/el/LC_MESSAGES/cpplib.mo
+/usr/bin/install -c -m 644 ../../unpack/gcc-4.0.3/libcpp/po/es.gmo /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/locale/es/LC_MESSAGES/cpplib.mo
+/usr/bin/install -c -m 644 ../../unpack/gcc-4.0.3/libcpp/po/fr.gmo /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/locale/fr/LC_MESSAGES/cpplib.mo
+/usr/bin/install -c -m 644 ../../unpack/gcc-4.0.3/libcpp/po/ja.gmo /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/locale/ja/LC_MESSAGES/cpplib.mo
+/usr/bin/install -c -m 644 ../../unpack/gcc-4.0.3/libcpp/po/nl.gmo /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/locale/nl/LC_MESSAGES/cpplib.mo
+/usr/bin/install -c -m 644 ../../unpack/gcc-4.0.3/libcpp/po/rw.gmo /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/locale/rw/LC_MESSAGES/cpplib.mo
+/usr/bin/install -c -m 644 ../../unpack/gcc-4.0.3/libcpp/po/sv.gmo /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/locale/sv/LC_MESSAGES/cpplib.mo
+/usr/bin/install -c -m 644 ../../unpack/gcc-4.0.3/libcpp/po/tr.gmo /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/locale/tr/LC_MESSAGES/cpplib.mo
+/usr/bin/install -c -m 644 ../../unpack/gcc-4.0.3/libcpp/po/vi.gmo /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/locale/vi/LC_MESSAGES/cpplib.mo
+/usr/bin/install -c -m 644 ../../unpack/gcc-4.0.3/libcpp/po/be.gmo /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/locale/be/LC_MESSAGES/cpplib.mo
+/usr/bin/install -c -m 644 ../../unpack/gcc-4.0.3/libcpp/po/ca.gmo /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/locale/ca/LC_MESSAGES/cpplib.mo
+/usr/bin/install -c -m 644 ../../unpack/gcc-4.0.3/libcpp/po/da.gmo /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/locale/da/LC_MESSAGES/cpplib.mo
+/usr/bin/install -c -m 644 ../../unpack/gcc-4.0.3/libcpp/po/de.gmo /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/locale/de/LC_MESSAGES/cpplib.mo
+/usr/bin/install -c -m 644 ../../unpack/gcc-4.0.3/libcpp/po/el.gmo /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/locale/el/LC_MESSAGES/cpplib.mo
+/usr/bin/install -c -m 644 ../../unpack/gcc-4.0.3/libcpp/po/es.gmo /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/locale/es/LC_MESSAGES/cpplib.mo
+/usr/bin/install -c -m 644 ../../unpack/gcc-4.0.3/libcpp/po/fr.gmo /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/locale/fr/LC_MESSAGES/cpplib.mo
+/usr/bin/install -c -m 644 ../../unpack/gcc-4.0.3/libcpp/po/ja.gmo /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/locale/ja/LC_MESSAGES/cpplib.mo
+/usr/bin/install -c -m 644 ../../unpack/gcc-4.0.3/libcpp/po/nl.gmo /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/locale/nl/LC_MESSAGES/cpplib.mo
+/usr/bin/install -c -m 644 ../../unpack/gcc-4.0.3/libcpp/po/rw.gmo /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/locale/rw/LC_MESSAGES/cpplib.mo
+/usr/bin/install -c -m 644 ../../unpack/gcc-4.0.3/libcpp/po/sv.gmo /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/locale/sv/LC_MESSAGES/cpplib.mo
+/usr/bin/install -c -m 644 ../../unpack/gcc-4.0.3/libcpp/po/tr.gmo /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/locale/tr/LC_MESSAGES/cpplib.mo
+/usr/bin/install -c -m 644 ../../unpack/gcc-4.0.3/libcpp/po/vi.gmo /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/share/locale/vi/LC_MESSAGES/cpplib.mo
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/libcpp'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/libiberty'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/libiberty/testsuite'
+make[2]: Nothing to be done for `install'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/libiberty/testsuite'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/libiberty'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/i686-pc-linux-gnu/libstdc++-v3'
+Making install in include
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/i686-pc-linux-gnu/libstdc++-v3/include'
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/i686-pc-linux-gnu/libstdc++-v3/include'
+make[3]: Nothing to be done for `install-exec-am'.
+/bin/sh /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/include/c++/4.0.3
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/include/c++/4.0.3
+/bin/sh /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/include/c++/4.0.3/./bits
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/include/c++/4.0.3/./bits
+for file in /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/bits/allocator.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/bits/atomicity.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/bits/basic_ios.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/bits/basic_ios.tcc /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/bits/basic_string.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/bits/basic_string.tcc /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/bits/boost_concept_check.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/bits/char_traits.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/bits/codecvt.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/bits/concept_check.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/bits/concurrence.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/bits/cpp_type_traits.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/bits/deque.tcc /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/bits/fstream.tcc /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/bits/functexcept.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/bits/gslice.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/bits/gslice_array.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/bits/indirect_array.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/bits/ios_base.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/bits/istream.tcc /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/bits/list.tcc /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/bits/locale_classes.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/bits/locale_facets.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/bits/locale_facets.tcc /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/bits/localefwd.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/bits/mask_array.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/bits/ostream.tcc /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/bits/postypes.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/bits/stream_iterator.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/bits/streambuf_iterator.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/bits/slice_array.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/bits/sstream.tcc /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/bits/stl_algo.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/bits/stl_algobase.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/bits/stl_bvector.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/bits/stl_construct.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/bits/stl_deque.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/bits/stl_function.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/bits/stl_heap.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/bits/stl_iterator.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/bits/stl_iterator_base_funcs.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/bits/stl_iterator_base_types.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/bits/stl_list.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/bits/stl_map.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/bits/stl_multimap.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/bits/stl_multiset.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/bits/stl_numeric.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/bits/stl_pair.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/bits/stl_queue.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/bits/stl_raw_storage_iter.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/bits/stl_relops.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/bits/stl_set.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/bits/stl_stack.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/bits/stl_tempbuf.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/bits/stl_tree.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/bits/stl_uninitialized.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/bits/stl_vector.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/bits/streambuf.tcc /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/bits/stringfwd.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/bits/valarray_array.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/bits/valarray_array.tcc /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/bits/valarray_before.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/bits/valarray_after.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/bits/vector.tcc; do \
+  /usr/bin/install -c -m 644 ${file} /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/include/c++/4.0.3/./bits; done
+/bin/sh /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/include/c++/4.0.3/./backward
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/include/c++/4.0.3/./backward
+for file in /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/backward/complex.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/backward/iomanip.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/backward/istream.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/backward/ostream.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/backward/stream.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/backward/streambuf.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/backward/algo.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/backward/algobase.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/backward/alloc.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/backward/bvector.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/backward/defalloc.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/backward/deque.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/backward/function.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/backward/hash_map.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/backward/hash_set.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/backward/hashtable.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/backward/heap.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/backward/iostream.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/backward/iterator.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/backward/list.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/backward/map.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/backward/multimap.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/backward/new.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/backward/multiset.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/backward/pair.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/backward/queue.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/backward/rope.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/backward/set.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/backward/slist.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/backward/stack.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/backward/tempbuf.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/backward/tree.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/backward/vector.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/backward/fstream.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/backward/strstream /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/backward/backward_warning.h; do \
+  /usr/bin/install -c -m 644 ${file} /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/include/c++/4.0.3/./backward; done
+/bin/sh /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/include/c++/4.0.3/./ext
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/include/c++/4.0.3/./ext
+for file in /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/ext/algorithm /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/ext/array_allocator.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/ext/bitmap_allocator.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/ext/codecvt_specializations.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/ext/debug_allocator.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/ext/stdio_filebuf.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/ext/stdio_sync_filebuf.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/ext/functional /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/ext/hash_map /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/ext/hash_set /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/ext/iterator /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/ext/malloc_allocator.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/ext/memory /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/ext/mt_allocator.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/ext/new_allocator.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/ext/numeric /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/ext/pod_char_traits.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/ext/pool_allocator.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/ext/rb_tree /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/ext/rope /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/ext/ropeimpl.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/ext/slist /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/ext/hash_fun.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/ext/hashtable.h; do \
+  /usr/bin/install -c -m 644 ${file} /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/include/c++/4.0.3/./ext; done
+/bin/sh /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/include/c++/4.0.3/./tr1
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/include/c++/4.0.3/./tr1
+for file in /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/tr1/array /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/tr1/bind_repeat.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/tr1/bind_iterate.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/tr1/boost_shared_ptr.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/tr1/mu_iterate.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/tr1/functional /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/tr1/functional_iterate.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/tr1/memory /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/tr1/ref_fwd.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/tr1/ref_wrap_iterate.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/tr1/repeat.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/tr1/tuple /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/tr1/tuple_iterate.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/tr1/utility /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/tr1/type_traits /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/tr1/type_traits_fwd.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/tr1/hashtable /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/tr1/unordered_set /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/tr1/unordered_map; do \
+  /usr/bin/install -c -m 644 ${file} /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/include/c++/4.0.3/./tr1; done
+/bin/sh /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/include/c++/4.0.3/.
+for file in cassert cctype cerrno cfloat ciso646 climits clocale cmath csetjmp csignal cstdarg cstddef cstdio cstdlib cstring ctime cwchar cwctype; do \
+  /usr/bin/install -c -m 644 ./${file} /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/include/c++/4.0.3/.; done
+c_base_headers_extra_install='/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/c_std/cmath.tcc';\
+for file in $c_base_headers_extra_install; do \
+  /usr/bin/install -c -m 644 $file /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/include/c++/4.0.3/./bits; done
+c_compatibility_headers_install='';\
+for file in $c_compatibility_headers_install; do \
+  /usr/bin/install -c -m 644 $file /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/include/c++/4.0.3; done
+/bin/sh /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/include/c++/4.0.3/.
+for file in algorithm bitset complex deque fstream functional iomanip ios iosfwd iostream istream iterator limits list locale map memory numeric ostream queue set sstream stack stdexcept streambuf string utility valarray vector; do \
+  /usr/bin/install -c -m 644 ./${file} /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/include/c++/4.0.3/.; done
+/bin/sh /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/include/c++/4.0.3/./debug
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/include/c++/4.0.3/./debug
+for file in /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/debug/bitset /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/debug/debug.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/debug/deque /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/debug/formatter.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/debug/hash_map /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/debug/hash_map.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/debug/hash_multimap.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/debug/hash_multiset.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/debug/hash_set /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/debug/hash_set.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/debug/list /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/debug/map /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/debug/map.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/debug/multimap.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/debug/multiset.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/debug/safe_base.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/debug/safe_iterator.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/debug/safe_iterator.tcc /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/debug/safe_sequence.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/debug/set /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/debug/set.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/debug/string /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/debug/vector; do \
+  /usr/bin/install -c -m 644 ${file} /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/include/c++/4.0.3/./debug; done
+/bin/sh /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/include/c++/4.0.3/./i686-pc-linux-gnu/bits
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/include/c++/4.0.3/./i686-pc-linux-gnu/bits
+for file in /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/config/os/gnu-linux/ctype_base.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/config/os/gnu-linux/ctype_inline.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/config/os/gnu-linux/ctype_noninline.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/config/os/gnu-linux/os_defines.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/config/cpu/generic/atomic_word.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/config/cpu/generic/cxxabi_tweaks.h ./i686-pc-linux-gnu/bits/basic_file.h ./i686-pc-linux-gnu/bits/c++config.h ./i686-pc-linux-gnu/bits/c++allocator.h ./i686-pc-linux-gnu/bits/c++io.h ./i686-pc-linux-gnu/bits/c++locale.h ./i686-pc-linux-gnu/bits/messages_members.h ./i686-pc-linux-gnu/bits/time_members.h  \
+ ./i686-pc-linux-gnu/bits/gthr.h ./i686-pc-linux-gnu/bits/gthr-single.h ./i686-pc-linux-gnu/bits/gthr-posix.h ./i686-pc-linux-gnu/bits/gthr-tpf.h ./i686-pc-linux-gnu/bits/gthr-default.h; do \
+  /usr/bin/install -c -m 644 ${file} /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/include/c++/4.0.3/./i686-pc-linux-gnu/bits; done
+/bin/sh /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/include/c++/4.0.3/./i686-pc-linux-gnu/bits/stdc++.h.gch
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/include/c++/4.0.3/./i686-pc-linux-gnu/bits/stdc++.h.gch
+for file in ./i686-pc-linux-gnu/bits/stdc++.h.gch/*; do \
+  /usr/bin/install -c -m 644 $file /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/include/c++/4.0.3/./i686-pc-linux-gnu/bits/stdc++.h.gch; done
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/i686-pc-linux-gnu/libstdc++-v3/include'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/i686-pc-linux-gnu/libstdc++-v3/include'
+Making install in libsupc++
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/i686-pc-linux-gnu/libstdc++-v3/libsupc++'
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/i686-pc-linux-gnu/libstdc++-v3/libsupc++'
+test -z "/usr/lib" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib"
+ /bin/sh ../libtool --mode=install /usr/bin/install -c  'libsupc++.la' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib/libsupc++.la'
+/usr/bin/install -c .libs/libsupc++.lai /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib/libsupc++.la
+/usr/bin/install -c .libs/libsupc++.a /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib/libsupc++.a
+ranlib /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib/libsupc++.a
+chmod 644 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib/libsupc++.a
+/bin/sh /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/include/c++/4.0.3
+ /usr/bin/install -c -m 644 ../../../../unpack/gcc-4.0.3/libstdc++-v3/libsupc++/exception /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/include/c++/4.0.3/exception
+ /usr/bin/install -c -m 644 ../../../../unpack/gcc-4.0.3/libstdc++-v3/libsupc++/new /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/include/c++/4.0.3/new
+ /usr/bin/install -c -m 644 ../../../../unpack/gcc-4.0.3/libstdc++-v3/libsupc++/typeinfo /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/include/c++/4.0.3/typeinfo
+ /usr/bin/install -c -m 644 ../../../../unpack/gcc-4.0.3/libstdc++-v3/libsupc++/cxxabi.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/include/c++/4.0.3/cxxabi.h
+ /usr/bin/install -c -m 644 ../../../../unpack/gcc-4.0.3/libstdc++-v3/libsupc++/exception_defines.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/include/c++/4.0.3/exception_defines.h
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/i686-pc-linux-gnu/libstdc++-v3/libsupc++'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/i686-pc-linux-gnu/libstdc++-v3/libsupc++'
+Making install in libmath
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/i686-pc-linux-gnu/libstdc++-v3/libmath'
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/i686-pc-linux-gnu/libstdc++-v3/libmath'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/i686-pc-linux-gnu/libstdc++-v3/libmath'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/i686-pc-linux-gnu/libstdc++-v3/libmath'
+Making install in src
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/i686-pc-linux-gnu/libstdc++-v3/src'
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/i686-pc-linux-gnu/libstdc++-v3/src'
+test -z "/usr/lib" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib"
+ /bin/sh ../libtool --mode=install /usr/bin/install -c  'libstdc++.la' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib/libstdc++.la'
+/usr/bin/install -c .libs/libstdc++.so.6.0.7 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib/libstdc++.so.6.0.7
+(cd /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib && rm -f libstdc++.so.6 && ln -s libstdc++.so.6.0.7 libstdc++.so.6)
+(cd /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib && rm -f libstdc++.so && ln -s libstdc++.so.6.0.7 libstdc++.so)
+/usr/bin/install -c .libs/libstdc++.lai /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib/libstdc++.la
+/usr/bin/install -c .libs/libstdc++.a /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib/libstdc++.a
+ranlib /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib/libstdc++.a
+chmod 644 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib/libstdc++.a
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/i686-pc-linux-gnu/libstdc++-v3/src'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/i686-pc-linux-gnu/libstdc++-v3/src'
+Making install in po
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/i686-pc-linux-gnu/libstdc++-v3/po'
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/i686-pc-linux-gnu/libstdc++-v3/po'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/i686-pc-linux-gnu/libstdc++-v3/po'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/i686-pc-linux-gnu/libstdc++-v3/po'
+Making install in testsuite
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/i686-pc-linux-gnu/libstdc++-v3/testsuite'
+touch testsuite_wchar_t
+touch testsuite_thread
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/i686-pc-linux-gnu/libstdc++-v3/testsuite'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/i686-pc-linux-gnu/libstdc++-v3/testsuite'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/i686-pc-linux-gnu/libstdc++-v3/testsuite'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/i686-pc-linux-gnu/libstdc++-v3'
+make "AR_FLAGS=rc" "CC_FOR_BUILD=gcc" "CC_FOR_TARGET=/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/gcc/xgcc -B/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/gcc/ -B/usr/i686-pc-linux-gnu/bin/ -B/usr/i686-pc-linux-gnu/lib/ -isystem /usr/i686-pc-linux-gnu/include -isystem /usr/i686-pc-linux-gnu/sys-include" "CFLAGS=-O2 -g -O2 " "CXXFLAGS=-g -O2 -D_GNU_SOURCE" "CFLAGS_FOR_BUILD=" "CFLAGS_FOR_TARGET=-O2 -g -O2 " "INSTALL=/usr/bin/install -c" "INSTALL_DATA=/usr/bin/install -c -m 644" "INSTALL_PROGRAM=/usr/bin/install -c" "INSTALL_SCRIPT=/usr/bin/install -c" "LDFLAGS=" "LIBCFLAGS=-O2 -g -O2 " "LIBCFLAGS_FOR_TARGET=-O2 -g -O2 " "MAKE=make" "MAKEINFO=makeinfo --split-size=5000000  " "PICFLAG=" "PICFLAG_FOR_TARGET=" "SHELL=/bin/sh" "RUNTESTFLAGS=" "exec_prefix=/usr" "infodir=/usr/share/info" "libdir=/usr/lib" "includedir=/usr/include" "prefix=/usr" "tooldir=/usr/i686-pc-linux-gnu" "gxx_include_dir=/usr/include/c++/4.0.3" "AR=ar" "AS=as" "LD=ld" "RANLIB=ranlib" "NM=nm" "NM_FOR_BUILD=" "NM_FOR_TARGET=nm" "DESTDIR=/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian" "WERROR=" DO=all multi-do # make
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/i686-pc-linux-gnu/libstdc++-v3'
+if [ -z "" ]; then \
+  true; \
+else \
+  rootpre=`${PWDCMD-pwd}`/; export rootpre; \
+  srcrootpre=`cd ../../../unpack/gcc-4.0.3/libstdc++-v3; ${PWDCMD-pwd}`/; export srcrootpre; \
+  lib=`echo ${rootpre} | sed -e 's,^.*/\([^/][^/]*\)/$,\1,'`; \
+  compiler="/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/gcc/xgcc -B/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/gcc/ -B/usr/i686-pc-linux-gnu/bin/ -B/usr/i686-pc-linux-gnu/lib/ -isystem /usr/i686-pc-linux-gnu/include -isystem /usr/i686-pc-linux-gnu/sys-include"; \
+  for i in `${compiler} --print-multi-lib 2>/dev/null`; do \
+    dir=`echo $i | sed -e 's/;.*$//'`; \
+    if [ "${dir}" = "." ]; then \
+      true; \
+    else \
+      if [ -d ../${dir}/${lib} ]; then \
+	flags=`echo $i | sed -e 's/^[^;]*;//' -e 's/@/ -/g'`; \
+	if (cd ../${dir}/${lib}; make "AR_FLAGS=rc" "CC_FOR_BUILD=gcc" "CC_FOR_TARGET=/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/gcc/xgcc -B/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/gcc/ -B/usr/i686-pc-linux-gnu/bin/ -B/usr/i686-pc-linux-gnu/lib/ -isystem /usr/i686-pc-linux-gnu/include -isystem /usr/i686-pc-linux-gnu/sys-include" "CFLAGS=-O2 -g -O2 " "CXXFLAGS=-g -O2 -D_GNU_SOURCE" "CFLAGS_FOR_BUILD=" "CFLAGS_FOR_TARGET=-O2 -g -O2 " "INSTALL=/usr/bin/install -c" "INSTALL_DATA=/usr/bin/install -c -m 644" "INSTALL_PROGRAM=/usr/bin/install -c" "INSTALL_SCRIPT=/usr/bin/install -c" "LDFLAGS=" "LIBCFLAGS=-O2 -g -O2 " "LIBCFLAGS_FOR_TARGET=-O2 -g -O2 " "MAKE=make" "MAKEINFO=makeinfo --split-size=5000000   " "PICFLAG=" "PICFLAG_FOR_TARGET=" "SHELL=/bin/sh" "RUNTESTFLAGS=" "exec_prefix=/usr" "infodir=/usr/share/info" "libdir=/usr/lib" "includedir=/usr/include" "prefix=/usr" "tooldir=/usr/i686-pc-linux-gnu" "gxx_include_dir=/usr/include/c++/4.0.3" "AR=ar" "AS=as" "LD=ld" "RANLIB=ranlib" "NM=nm" "NM_FOR_BUILD=" "NM_FOR_TARGET=nm" "DESTDIR=/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian" "WERROR=" \
+			CFLAGS="-O2 -g -O2  ${flags}" \
+			FCFLAGS=" ${flags}" \
+			FFLAGS=" ${flags}" \
+			ADAFLAGS=" ${flags}" \
+			prefix="/usr" \
+			exec_prefix="/usr" \
+			GCJFLAGS=" ${flags}" \
+			CXXFLAGS="-g -O2 -D_GNU_SOURCE ${flags}" \
+			LIBCFLAGS="-O2 -g -O2  ${flags}" \
+			LIBCXXFLAGS="-g -O2 -D_GNU_SOURCE -fno-implicit-templates ${flags}" \
+			LDFLAGS=" ${flags}" \
+			MULTIFLAGS="${flags}" \
+			DESTDIR="/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian" \
+			INSTALL="/usr/bin/install -c" \
+			INSTALL_DATA="/usr/bin/install -c -m 644" \
+			INSTALL_PROGRAM="/usr/bin/install -c" \
+			INSTALL_SCRIPT="/usr/bin/install -c" \
+			all); then \
+	  true; \
+	else \
+	  exit 1; \
+	fi; \
+      else true; \
+      fi; \
+    fi; \
+  done; \
+fi
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/i686-pc-linux-gnu/libstdc++-v3'
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/i686-pc-linux-gnu/libstdc++-v3'
+make "AR_FLAGS=rc" "CC_FOR_BUILD=gcc" "CC_FOR_TARGET=/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/gcc/xgcc -B/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/gcc/ -B/usr/i686-pc-linux-gnu/bin/ -B/usr/i686-pc-linux-gnu/lib/ -isystem /usr/i686-pc-linux-gnu/include -isystem /usr/i686-pc-linux-gnu/sys-include" "CFLAGS=-O2 -g -O2 " "CXXFLAGS=-g -O2 -D_GNU_SOURCE" "CFLAGS_FOR_BUILD=" "CFLAGS_FOR_TARGET=-O2 -g -O2 " "INSTALL=/usr/bin/install -c" "INSTALL_DATA=/usr/bin/install -c -m 644" "INSTALL_PROGRAM=/usr/bin/install -c" "INSTALL_SCRIPT=/usr/bin/install -c" "LDFLAGS=" "LIBCFLAGS=-O2 -g -O2 " "LIBCFLAGS_FOR_TARGET=-O2 -g -O2 " "MAKE=make" "MAKEINFO=makeinfo --split-size=5000000   " "PICFLAG=" "PICFLAG_FOR_TARGET=" "SHELL=/bin/sh" "RUNTESTFLAGS=" "exec_prefix=/usr" "infodir=/usr/share/info" "libdir=/usr/lib" "includedir=/usr/include" "prefix=/usr" "tooldir=/usr/i686-pc-linux-gnu" "gxx_include_dir=/usr/include/c++/4.0.3" "AR=ar" "AS=as" "LD=ld" "RANLIB=ranlib" "NM=nm" "NM_FOR_BUILD=" "NM_FOR_TARGET=nm" "DESTDIR=/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian" "WERROR=" DO=install multi-do # make
+make[4]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/i686-pc-linux-gnu/libstdc++-v3'
+if [ -z "" ]; then \
+  true; \
+else \
+  rootpre=`${PWDCMD-pwd}`/; export rootpre; \
+  srcrootpre=`cd ../../../unpack/gcc-4.0.3/libstdc++-v3; ${PWDCMD-pwd}`/; export srcrootpre; \
+  lib=`echo ${rootpre} | sed -e 's,^.*/\([^/][^/]*\)/$,\1,'`; \
+  compiler="/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/gcc/xgcc -B/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/gcc/ -B/usr/i686-pc-linux-gnu/bin/ -B/usr/i686-pc-linux-gnu/lib/ -isystem /usr/i686-pc-linux-gnu/include -isystem /usr/i686-pc-linux-gnu/sys-include"; \
+  for i in `${compiler} --print-multi-lib 2>/dev/null`; do \
+    dir=`echo $i | sed -e 's/;.*$//'`; \
+    if [ "${dir}" = "." ]; then \
+      true; \
+    else \
+      if [ -d ../${dir}/${lib} ]; then \
+	flags=`echo $i | sed -e 's/^[^;]*;//' -e 's/@/ -/g'`; \
+	if (cd ../${dir}/${lib}; make "AR_FLAGS=rc" "CC_FOR_BUILD=gcc" "CC_FOR_TARGET=/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/gcc/xgcc -B/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/gcc/ -B/usr/i686-pc-linux-gnu/bin/ -B/usr/i686-pc-linux-gnu/lib/ -isystem /usr/i686-pc-linux-gnu/include -isystem /usr/i686-pc-linux-gnu/sys-include" "CFLAGS=-O2 -g -O2 " "CXXFLAGS=-g -O2 -D_GNU_SOURCE" "CFLAGS_FOR_BUILD=" "CFLAGS_FOR_TARGET=-O2 -g -O2 " "INSTALL=/usr/bin/install -c" "INSTALL_DATA=/usr/bin/install -c -m 644" "INSTALL_PROGRAM=/usr/bin/install -c" "INSTALL_SCRIPT=/usr/bin/install -c" "LDFLAGS=" "LIBCFLAGS=-O2 -g -O2 " "LIBCFLAGS_FOR_TARGET=-O2 -g -O2 " "MAKE=make" "MAKEINFO=makeinfo --split-size=5000000    " "PICFLAG=" "PICFLAG_FOR_TARGET=" "SHELL=/bin/sh" "RUNTESTFLAGS=" "exec_prefix=/usr" "infodir=/usr/share/info" "libdir=/usr/lib" "includedir=/usr/include" "prefix=/usr" "tooldir=/usr/i686-pc-linux-gnu" "gxx_include_dir=/usr/include/c++/4.0.3" "AR=ar" "AS=as" "LD=ld" "RANLIB=ranlib" "NM=nm" "NM_FOR_BUILD=" "NM_FOR_TARGET=nm" "DESTDIR=/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian" "WERROR=" \
+			CFLAGS="-O2 -g -O2  ${flags}" \
+			FCFLAGS=" ${flags}" \
+			FFLAGS=" ${flags}" \
+			ADAFLAGS=" ${flags}" \
+			prefix="/usr" \
+			exec_prefix="/usr" \
+			GCJFLAGS=" ${flags}" \
+			CXXFLAGS="-g -O2 -D_GNU_SOURCE ${flags}" \
+			LIBCFLAGS="-O2 -g -O2  ${flags}" \
+			LIBCXXFLAGS="-g -O2 -D_GNU_SOURCE -fno-implicit-templates ${flags}" \
+			LDFLAGS=" ${flags}" \
+			MULTIFLAGS="${flags}" \
+			DESTDIR="/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian" \
+			INSTALL="/usr/bin/install -c" \
+			INSTALL_DATA="/usr/bin/install -c -m 644" \
+			INSTALL_PROGRAM="/usr/bin/install -c" \
+			INSTALL_SCRIPT="/usr/bin/install -c" \
+			install); then \
+	  true; \
+	else \
+	  exit 1; \
+	fi; \
+      else true; \
+      fi; \
+    fi; \
+  done; \
+fi
+make[4]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/i686-pc-linux-gnu/libstdc++-v3'
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/i686-pc-linux-gnu/libstdc++-v3'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/i686-pc-linux-gnu/libstdc++-v3'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/i686-pc-linux-gnu/libstdc++-v3'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/i686-pc-linux-gnu/libmudflap'
+Making install in testsuite
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/i686-pc-linux-gnu/libmudflap/testsuite'
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/i686-pc-linux-gnu/libmudflap/testsuite'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/i686-pc-linux-gnu/libmudflap/testsuite'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/i686-pc-linux-gnu/libmudflap/testsuite'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/i686-pc-linux-gnu/libmudflap'
+make "AR_FLAGS=rc" "CC_FOR_BUILD=gcc" "CFLAGS=-O2 -g -O2 " "CXXFLAGS=-g -O2 -D_GNU_SOURCE" "CFLAGS_FOR_BUILD=" "CFLAGS_FOR_TARGET=-O2 -g -O2 " "INSTALL=/usr/bin/install -c" "INSTALL_DATA=/usr/bin/install -c -m 644" "INSTALL_PROGRAM=/usr/bin/install -c" "INSTALL_SCRIPT=/usr/bin/install -c" "JC1FLAGS=" "LDFLAGS=" "LIBCFLAGS=-O2 -g -O2 " "LIBCFLAGS_FOR_TARGET=-O2 -g -O2 " "MAKE=make" "MAKEINFO=makeinfo --split-size=5000000  " "PICFLAG=" "PICFLAG_FOR_TARGET=" "SHELL=/bin/sh" "RUNTESTFLAGS=" "exec_prefix=/usr" "infodir=/usr/share/info" "libdir=/usr/lib" "prefix=/usr" "AR=ar" "AS=as" "CC=/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/gcc/xgcc -B/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/gcc/ -B/usr/i686-pc-linux-gnu/bin/ -B/usr/i686-pc-linux-gnu/lib/ -isystem /usr/i686-pc-linux-gnu/include -isystem /usr/i686-pc-linux-gnu/sys-include" "CXX=/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/gcc/g++ -B/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/gcc/ -nostdinc++ -nostdinc++ -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/i686-pc-linux-gnu/libstdc++-v3/include/i686-pc-linux-gnu -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/i686-pc-linux-gnu/libstdc++-v3/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/libsupc++ -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/backward -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/testsuite -L/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/i686-pc-linux-gnu/libstdc++-v3/src -L/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/i686-pc-linux-gnu/libstdc++-v3/src/.libs -B/usr/i686-pc-linux-gnu/bin/ -B/usr/i686-pc-linux-gnu/lib/ -isystem /usr/i686-pc-linux-gnu/include -isystem /usr/i686-pc-linux-gnu/sys-include" "LD=ld" "LIBCFLAGS=-O2 -g -O2 " "NM=nm" "PICFLAG=" "RANLIB=ranlib" "DESTDIR=/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian" DO=all multi-do # make
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/i686-pc-linux-gnu/libmudflap'
+if [ -z "" ]; then \
+  true; \
+else \
+  rootpre=`${PWDCMD-pwd}`/; export rootpre; \
+  srcrootpre=`cd ../../../unpack/gcc-4.0.3/libmudflap; ${PWDCMD-pwd}`/; export srcrootpre; \
+  lib=`echo ${rootpre} | sed -e 's,^.*/\([^/][^/]*\)/$,\1,'`; \
+  compiler="/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/gcc/xgcc -B/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/gcc/ -B/usr/i686-pc-linux-gnu/bin/ -B/usr/i686-pc-linux-gnu/lib/ -isystem /usr/i686-pc-linux-gnu/include -isystem /usr/i686-pc-linux-gnu/sys-include"; \
+  for i in `${compiler} --print-multi-lib 2>/dev/null`; do \
+    dir=`echo $i | sed -e 's/;.*$//'`; \
+    if [ "${dir}" = "." ]; then \
+      true; \
+    else \
+      if [ -d ../${dir}/${lib} ]; then \
+	flags=`echo $i | sed -e 's/^[^;]*;//' -e 's/@/ -/g'`; \
+	if (cd ../${dir}/${lib}; make  \
+			CFLAGS="-O2 -g -O2  ${flags}" \
+			FCFLAGS=" ${flags}" \
+			FFLAGS=" ${flags}" \
+			ADAFLAGS=" ${flags}" \
+			prefix="/usr" \
+			exec_prefix="/usr" \
+			GCJFLAGS=" ${flags}" \
+			CXXFLAGS="-g -O2 -D_GNU_SOURCE ${flags}" \
+			LIBCFLAGS="-O2 -g -O2  ${flags}" \
+			LIBCXXFLAGS="-g -O2 -D_GNU_SOURCE -fno-implicit-templates ${flags}" \
+			LDFLAGS=" ${flags}" \
+			MULTIFLAGS="${flags}" \
+			DESTDIR="/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian" \
+			INSTALL="/usr/bin/install -c" \
+			INSTALL_DATA="/usr/bin/install -c -m 644" \
+			INSTALL_PROGRAM="/usr/bin/install -c" \
+			INSTALL_SCRIPT="/usr/bin/install -c" \
+			all); then \
+	  true; \
+	else \
+	  exit 1; \
+	fi; \
+      else true; \
+      fi; \
+    fi; \
+  done; \
+fi
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/i686-pc-linux-gnu/libmudflap'
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/i686-pc-linux-gnu/libmudflap'
+make "AR_FLAGS=rc" "CC_FOR_BUILD=gcc" "CFLAGS=-O2 -g -O2 " "CXXFLAGS=-g -O2 -D_GNU_SOURCE" "CFLAGS_FOR_BUILD=" "CFLAGS_FOR_TARGET=-O2 -g -O2 " "INSTALL=/usr/bin/install -c" "INSTALL_DATA=/usr/bin/install -c -m 644" "INSTALL_PROGRAM=/usr/bin/install -c" "INSTALL_SCRIPT=/usr/bin/install -c" "JC1FLAGS=" "LDFLAGS=" "LIBCFLAGS=-O2 -g -O2 " "LIBCFLAGS_FOR_TARGET=-O2 -g -O2 " "MAKE=make" "MAKEINFO=makeinfo --split-size=5000000   " "PICFLAG=" "PICFLAG_FOR_TARGET=" "SHELL=/bin/sh" "RUNTESTFLAGS=" "exec_prefix=/usr" "infodir=/usr/share/info" "libdir=/usr/lib" "prefix=/usr" "AR=ar" "AS=as" "CC=/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/gcc/xgcc -B/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/gcc/ -B/usr/i686-pc-linux-gnu/bin/ -B/usr/i686-pc-linux-gnu/lib/ -isystem /usr/i686-pc-linux-gnu/include -isystem /usr/i686-pc-linux-gnu/sys-include" "CXX=/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/gcc/g++ -B/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/gcc/ -nostdinc++ -nostdinc++ -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/i686-pc-linux-gnu/libstdc++-v3/include/i686-pc-linux-gnu -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/i686-pc-linux-gnu/libstdc++-v3/include -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/libsupc++ -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/include/backward -I/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/unpack/gcc-4.0.3/libstdc++-v3/testsuite -L/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/i686-pc-linux-gnu/libstdc++-v3/src -L/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/i686-pc-linux-gnu/libstdc++-v3/src/.libs -B/usr/i686-pc-linux-gnu/bin/ -B/usr/i686-pc-linux-gnu/lib/ -isystem /usr/i686-pc-linux-gnu/include -isystem /usr/i686-pc-linux-gnu/sys-include" "LD=ld" "LIBCFLAGS=-O2 -g -O2 " "NM=nm" "PICFLAG=" "RANLIB=ranlib" "DESTDIR=/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian" DO=install multi-do # make
+make[4]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/i686-pc-linux-gnu/libmudflap'
+if [ -z "" ]; then \
+  true; \
+else \
+  rootpre=`${PWDCMD-pwd}`/; export rootpre; \
+  srcrootpre=`cd ../../../unpack/gcc-4.0.3/libmudflap; ${PWDCMD-pwd}`/; export srcrootpre; \
+  lib=`echo ${rootpre} | sed -e 's,^.*/\([^/][^/]*\)/$,\1,'`; \
+  compiler="/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/gcc/xgcc -B/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/gcc/ -B/usr/i686-pc-linux-gnu/bin/ -B/usr/i686-pc-linux-gnu/lib/ -isystem /usr/i686-pc-linux-gnu/include -isystem /usr/i686-pc-linux-gnu/sys-include"; \
+  for i in `${compiler} --print-multi-lib 2>/dev/null`; do \
+    dir=`echo $i | sed -e 's/;.*$//'`; \
+    if [ "${dir}" = "." ]; then \
+      true; \
+    else \
+      if [ -d ../${dir}/${lib} ]; then \
+	flags=`echo $i | sed -e 's/^[^;]*;//' -e 's/@/ -/g'`; \
+	if (cd ../${dir}/${lib}; make  \
+			CFLAGS="-O2 -g -O2  ${flags}" \
+			FCFLAGS=" ${flags}" \
+			FFLAGS=" ${flags}" \
+			ADAFLAGS=" ${flags}" \
+			prefix="/usr" \
+			exec_prefix="/usr" \
+			GCJFLAGS=" ${flags}" \
+			CXXFLAGS="-g -O2 -D_GNU_SOURCE ${flags}" \
+			LIBCFLAGS="-O2 -g -O2  ${flags}" \
+			LIBCXXFLAGS="-g -O2 -D_GNU_SOURCE -fno-implicit-templates ${flags}" \
+			LDFLAGS=" ${flags}" \
+			MULTIFLAGS="${flags}" \
+			DESTDIR="/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian" \
+			INSTALL="/usr/bin/install -c" \
+			INSTALL_DATA="/usr/bin/install -c -m 644" \
+			INSTALL_PROGRAM="/usr/bin/install -c" \
+			INSTALL_SCRIPT="/usr/bin/install -c" \
+			install); then \
+	  true; \
+	else \
+	  exit 1; \
+	fi; \
+      else true; \
+      fi; \
+    fi; \
+  done; \
+fi
+make[4]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/i686-pc-linux-gnu/libmudflap'
+test -z "/usr/lib" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib"
+ /bin/sh ./libtool --mode=install /usr/bin/install -c  'libmudflap.la' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib/libmudflap.la'
+/usr/bin/install -c .libs/libmudflap.so.0.0.0 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib/libmudflap.so.0.0.0
+(cd /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib && rm -f libmudflap.so.0 && ln -s libmudflap.so.0.0.0 libmudflap.so.0)
+(cd /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib && rm -f libmudflap.so && ln -s libmudflap.so.0.0.0 libmudflap.so)
+/usr/bin/install -c .libs/libmudflap.lai /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib/libmudflap.la
+/usr/bin/install -c .libs/libmudflap.a /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib/libmudflap.a
+ranlib /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib/libmudflap.a
+chmod 644 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib/libmudflap.a
+ /bin/sh ./libtool --mode=install /usr/bin/install -c  'libmudflapth.la' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib/libmudflapth.la'
+/usr/bin/install -c .libs/libmudflapth.so.0.0.0 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib/libmudflapth.so.0.0.0
+(cd /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib && rm -f libmudflapth.so.0 && ln -s libmudflapth.so.0.0.0 libmudflapth.so.0)
+(cd /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib && rm -f libmudflapth.so && ln -s libmudflapth.so.0.0.0 libmudflapth.so)
+/usr/bin/install -c .libs/libmudflapth.lai /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib/libmudflapth.la
+/usr/bin/install -c .libs/libmudflapth.a /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib/libmudflapth.a
+ranlib /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib/libmudflapth.a
+chmod 644 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/lib/libmudflapth.a
+test -z "/usr/include" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/include"
+ /usr/bin/install -c -m 644 '../../../unpack/gcc-4.0.3/libmudflap/mf-runtime.h' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/../pkg/debian/usr/include/mf-runtime.h'
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/i686-pc-linux-gnu/libmudflap'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/i686-pc-linux-gnu/libmudflap'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/i686-pc-linux-gnu/libmudflap'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/i686-pc-linux-gnu/libiberty'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/i686-pc-linux-gnu/libiberty/testsuite'
+make[2]: Nothing to be done for `install'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/i686-pc-linux-gnu/libiberty/testsuite'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gcc/gcc-4.0.3/build/i686-pc-linux-gnu/libiberty'

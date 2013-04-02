@@ -1,0 +1,12 @@
+#!/bin/bash
+
+source configure
+
+pushd ../unpack/*
+
+#ABCheckImRoot && make install \
+make install \
+    DESTDIR=$PWD/../../pkg/debian \
+    | tee ../../logs/040-make-install.log
+
+popd

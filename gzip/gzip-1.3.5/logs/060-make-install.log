@@ -1,0 +1,33 @@
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gzip/gzip-1.3.5/unpack/gzip-1.3.5'
+/bin/sh ./mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gzip/gzip-1.3.5/unpack/gzip-1.3.5/../../pkg/debian/usr/bin
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gzip/gzip-1.3.5/unpack/gzip-1.3.5/../../pkg/debian/usr/bin
+  /usr/bin/install -c gzip /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gzip/gzip-1.3.5/unpack/gzip-1.3.5/../../pkg/debian/usr/bin/gzip
+/bin/sh ./mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gzip/gzip-1.3.5/unpack/gzip-1.3.5/../../pkg/debian/usr/bin
+ /usr/bin/install -c gzexe /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gzip/gzip-1.3.5/unpack/gzip-1.3.5/../../pkg/debian/usr/bin/gzexe
+ /usr/bin/install -c zdiff /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gzip/gzip-1.3.5/unpack/gzip-1.3.5/../../pkg/debian/usr/bin/zdiff
+ /usr/bin/install -c zgrep /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gzip/gzip-1.3.5/unpack/gzip-1.3.5/../../pkg/debian/usr/bin/zgrep
+ /usr/bin/install -c zforce /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gzip/gzip-1.3.5/unpack/gzip-1.3.5/../../pkg/debian/usr/bin/zforce
+ /usr/bin/install -c zless /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gzip/gzip-1.3.5/unpack/gzip-1.3.5/../../pkg/debian/usr/bin/zless
+ /usr/bin/install -c zmore /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gzip/gzip-1.3.5/unpack/gzip-1.3.5/../../pkg/debian/usr/bin/zmore
+ /usr/bin/install -c znew /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gzip/gzip-1.3.5/unpack/gzip-1.3.5/../../pkg/debian/usr/bin/znew
+make  install-exec-hook
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gzip/gzip-1.3.5/unpack/gzip-1.3.5'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gzip/gzip-1.3.5/unpack/gzip-1.3.5'
+/bin/sh ./mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gzip/gzip-1.3.5/unpack/gzip-1.3.5/../../pkg/debian/usr/info
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gzip/gzip-1.3.5/unpack/gzip-1.3.5/../../pkg/debian/usr/info
+ /usr/bin/install -c -m 644 ./gzip.info /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gzip/gzip-1.3.5/unpack/gzip-1.3.5/../../pkg/debian/usr/info/gzip.info
+ install-info --info-dir=/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gzip/gzip-1.3.5/unpack/gzip-1.3.5/../../pkg/debian/usr/info /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gzip/gzip-1.3.5/unpack/gzip-1.3.5/../../pkg/debian/usr/info/gzip.info
+/bin/sh ./mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gzip/gzip-1.3.5/unpack/gzip-1.3.5/../../pkg/debian/usr/man/man1
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gzip/gzip-1.3.5/unpack/gzip-1.3.5/../../pkg/debian/usr/man/man1
+ /usr/bin/install -c -m 644 ./gunzip.1 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gzip/gzip-1.3.5/unpack/gzip-1.3.5/../../pkg/debian/usr/man/man1/gunzip.1
+ /usr/bin/install -c -m 644 ./gzexe.1 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gzip/gzip-1.3.5/unpack/gzip-1.3.5/../../pkg/debian/usr/man/man1/gzexe.1
+ /usr/bin/install -c -m 644 ./gzip.1 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gzip/gzip-1.3.5/unpack/gzip-1.3.5/../../pkg/debian/usr/man/man1/gzip.1
+ /usr/bin/install -c -m 644 ./zcat.1 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gzip/gzip-1.3.5/unpack/gzip-1.3.5/../../pkg/debian/usr/man/man1/zcat.1
+ /usr/bin/install -c -m 644 ./zcmp.1 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gzip/gzip-1.3.5/unpack/gzip-1.3.5/../../pkg/debian/usr/man/man1/zcmp.1
+ /usr/bin/install -c -m 644 ./zdiff.1 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gzip/gzip-1.3.5/unpack/gzip-1.3.5/../../pkg/debian/usr/man/man1/zdiff.1
+ /usr/bin/install -c -m 644 ./zforce.1 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gzip/gzip-1.3.5/unpack/gzip-1.3.5/../../pkg/debian/usr/man/man1/zforce.1
+ /usr/bin/install -c -m 644 ./zgrep.1 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gzip/gzip-1.3.5/unpack/gzip-1.3.5/../../pkg/debian/usr/man/man1/zgrep.1
+ /usr/bin/install -c -m 644 ./zless.1 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gzip/gzip-1.3.5/unpack/gzip-1.3.5/../../pkg/debian/usr/man/man1/zless.1
+ /usr/bin/install -c -m 644 ./zmore.1 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gzip/gzip-1.3.5/unpack/gzip-1.3.5/../../pkg/debian/usr/man/man1/zmore.1
+ /usr/bin/install -c -m 644 ./znew.1 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/gzip/gzip-1.3.5/unpack/gzip-1.3.5/../../pkg/debian/usr/man/man1/znew.1
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gzip/gzip-1.3.5/unpack/gzip-1.3.5'

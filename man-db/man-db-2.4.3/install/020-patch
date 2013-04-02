@@ -1,0 +1,21 @@
+#!/bin/bash
+
+source configure
+
+pushd ../unpack/*
+
+{
+mv man/de{_DE.88591,}
+mv man/es{_ES.88591,}
+mv man/it{_IT.88591,}
+mv man/ja{_JP.eucJP,}
+
+sed -i 's,\*_\*,??,' man/Makefile.in
+sed -i '/\t\/usr\/man/d' src/man_db.conf.in
+
+cat ../../files/manconfig.h.in >> include/manconfig.h.in
+
+} | tee ../../logs/025-patch.log
+
+popd
+

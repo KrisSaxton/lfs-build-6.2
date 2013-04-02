@@ -1,0 +1,62 @@
+#!/bin/bash
+
+################################################################################
+# BEGIN
+################################################################################
+
+source functions
+
+################################################################################
+# GLOBALS
+################################################################################
+
+ABSetDefault AB_SYSTEM_INSTALL_DIR                              /usr
+
+################################################################################
+# DEPENDENCIES
+################################################################################
+
+ABSetDefault AB_PACKAGE_BZIP2_DEPENDS                 PKG_DEPENDS
+
+ABSetDefault AB_PACKAGE_PKG_DEPENDS_INSTALL_ENABLE              no
+ABSetDefault AB_PACKAGE_PKG_DEPENDS_INSTALL_FORCE               no
+ABSetDefault AB_PACKAGE_PKG_DEPENDS_INSTALL_NAME                pkgdependsname
+ABSetDefault AB_PACKAGE_PKG_DEPENDS_INSTALL_DIR                 $AB_SYSTEM_INSTALL_DIR/$AB_PACKAGE_PKG_DEPENDS_INSTALL_NAME
+ABSetDefault AB_PACKAGE_PKG_DEPENDS_INCLUDE_DIR                 $AB_PACKAGE_PKG_DEPENDS_INSTALL_DIR/include
+ABSetDefault AB_PACKAGE_PKG_DEPENDS_LIB_DIR                     $AB_PACKAGE_PKG_DEPENDS_INSTALL_DIR/lib
+
+#ABSetCompileFlags $AB_PACKAGE_BZIP2_DEPENDS
+
+################################################################################
+# CONFIGURATION
+################################################################################
+
+ABSetDefault AB_PACKAGE_BZIP2_NAME                      bzip2
+ABSetDefault AB_PACKAGE_BZIP2_VERSION                   1.0.3
+ABSetDefault AB_PACKAGE_BZIP2_DESC                      'Programs for compressing and decompressing files.'
+
+ABSetDefault AB_PACKAGE_BZIP2_INSTALL_NAME              ${AB_PACKAGE_BZIP2_NAME}-${AB_PACKAGE_BZIP2_VERSION}
+
+ABSetDefault AB_PACKAGE_BZIP2_INSTALL_DIR               $AB_SYSTEM_INSTALL_DIR
+ABSetDefault AB_PACKAGE_BZIP2_INCLUDE_DIR               $AB_PACKAGE_BZIP2_INSTALL_DIR/include
+ABSetDefault AB_PACKAGE_BZIP2_LIB_DIR                   $AB_PACKAGE_BZIP2_INSTALL_DIR/lib
+
+ABSetDefault AB_PACKAGE_BZIP2_CONFIGURE_PREFIX          $AB_PACKAGE_BZIP2_INSTALL_DIR
+ABSetDefault AB_PACKAGE_BZIP2_CONFIGURE_WITH_EDITOR     /usr/bin/nano
+
+AB_PACKAGE_NAME=$AB_PACKAGE_BZIP2_NAME
+AB_PACKAGE_VERSION=$AB_PACKAGE_BZIP2_VERSION
+AB_PACKAGE_DESC=$AB_PACKAGE_BZIP2_DESC
+
+AB_PACKAGE_INSTALL_NAME=$AB_PACKAGE_BZIP2_INSTALL_NAME
+
+AB_PACKAGE_INSTALL_DIR=$AB_PACKAGE_BZIP2_INSTALL_DIR
+AB_PACKAGE_INCLUDE_DIR=$AB_PACKAGE_BZIP2_INCLUDE_DIR
+AB_PACKAGE_LIB_DIR=$AB_PACKAGE_BZIP2_LIB_DIR
+
+AB_PACKAGE_CONFIGURE_PREFIX=$AB_PACKAGE_BZIP2_CONFIGURE_PREFIX
+AB_PACKAGE_CONFIGURE_WITH_EDITOR=$AB_PACKAGE_BZIP2_CONFIGURE_WITH_EDITOR
+
+################################################################################
+# END
+################################################################################

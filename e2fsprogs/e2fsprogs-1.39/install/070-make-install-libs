@@ -1,0 +1,12 @@
+#!/bin/bash
+
+source configure
+
+pushd ../unpack/*/build
+
+{
+make install-libs \
+    DESTDIR=$PWD/../../../pkg/debian
+} | tee ../../../logs/070-make-install-libs.log
+
+popd

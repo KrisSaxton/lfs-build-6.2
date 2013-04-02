@@ -1,0 +1,20 @@
+/usr/bin/install -c -d /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/../../pkg/debian/dev
+/usr/bin/install -c -D udevd /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/../../pkg/debian/sbin/udevd
+/usr/bin/install -c -D udevtrigger /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/../../pkg/debian/sbin/udevtrigger
+/usr/bin/install -c -D udevsettle /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/../../pkg/debian/sbin/udevsettle
+/usr/bin/install -c -D udevcontrol /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/../../pkg/debian/sbin/udevcontrol
+/usr/bin/install -c -D udevmonitor /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/../../pkg/debian/usr/sbin/udevmonitor
+/usr/bin/install -c -D udevinfo /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/../../pkg/debian/usr/bin/udevinfo
+/usr/bin/install -c -D udevtest /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/../../pkg/debian/usr/bin/udevtest
+/usr/bin/install -c -d /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/../../pkg/debian/etc/udev/rules.d
+
+pick a udev rules file from the etc/udev directory that matches your distribution
+
+/usr/bin/install -c -m 644 -D udev.7 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/../../pkg/debian/usr/share/man/man7/udev.7
+/usr/bin/install -c -m 644 -D udevinfo.8 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/../../pkg/debian/usr/share/man/man8/udevinfo.8
+/usr/bin/install -c -m 644 -D udevtest.8 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/../../pkg/debian/usr/share/man/man8/udevtest.8
+/usr/bin/install -c -m 644 -D udevd.8 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/../../pkg/debian/usr/share/man/man8/udevd.8
+/usr/bin/install -c -m 644 -D udevtrigger.8 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/../../pkg/debian/usr/share/man/man8/udevtrigger.8
+/usr/bin/install -c -m 644 -D udevsettle.8 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/../../pkg/debian/usr/share/man/man8/udevsettle.8
+/usr/bin/install -c -m 644 -D udevmonitor.8 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/../../pkg/debian/usr/share/man/man8/udevmonitor.8
+ln -f -s udevd.8 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/../../pkg/debian/usr/share/man/man8/udevcontrol.8

@@ -1,0 +1,12 @@
+#!/bin/bash
+
+source configure
+
+pushd ../unpack/*/build_unix
+
+../dist/configure \
+    --prefix=$AB_PACKAGE_CONFIGURE_PREFIX \
+    --enable-compat185 --enable-cxx \
+    | tee ../../../logs/040-configure.log
+
+popd

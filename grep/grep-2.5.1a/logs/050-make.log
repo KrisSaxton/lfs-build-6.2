@@ -1,0 +1,167 @@
+make  all-recursive
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grep/grep-2.5.1a/unpack/grep-2.5.1a'
+Making all in intl
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grep/grep-2.5.1a/unpack/grep-2.5.1a/intl'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grep/grep-2.5.1a/unpack/grep-2.5.1a/intl'
+Making all in po
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grep/grep-2.5.1a/unpack/grep-2.5.1a/po'
+PATH=../src:$PATH /usr/bin/xgettext --default-domain=grep --directory=.. \
+  --add-comments --keyword=_ --keyword=N_ \
+  --files-from=./POTFILES.in \
+&& test ! -f grep.po \
+   || ( rm -f ./grep.pot \
+	&& mv grep.po ./grep.pot )
+rm -f cat-id-tbl.tmp
+sed -f ../intl/po2tbl.sed ./grep.pot \
+| sed -e "s/@PACKAGE NAME@/grep/" > cat-id-tbl.tmp
+if cmp -s cat-id-tbl.tmp ./cat-id-tbl.c; then \
+  rm cat-id-tbl.tmp; \
+else \
+  echo cat-id-tbl.c changed; \
+  rm -f ./cat-id-tbl.c; \
+  mv cat-id-tbl.tmp ./cat-id-tbl.c; \
+fi
+cd . && rm -f stamp-cat-id && echo timestamp > stamp-cat-id
+file=./`echo cs | sed 's,.*/,,'`.gmo \
+  && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file cs.po
+file=./`echo de | sed 's,.*/,,'`.gmo \
+  && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file de.po
+file=./`echo el | sed 's,.*/,,'`.gmo \
+  && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file el.po
+file=./`echo eo | sed 's,.*/,,'`.gmo \
+  && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file eo.po
+file=./`echo es | sed 's,.*/,,'`.gmo \
+  && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file es.po
+file=./`echo et | sed 's,.*/,,'`.gmo \
+  && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file et.po
+file=./`echo fr | sed 's,.*/,,'`.gmo \
+  && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file fr.po
+file=./`echo gl | sed 's,.*/,,'`.gmo \
+  && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file gl.po
+file=./`echo hr | sed 's,.*/,,'`.gmo \
+  && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file hr.po
+file=./`echo id | sed 's,.*/,,'`.gmo \
+  && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file id.po
+file=./`echo it | sed 's,.*/,,'`.gmo \
+  && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file it.po
+file=./`echo ja | sed 's,.*/,,'`.gmo \
+  && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file ja.po
+file=./`echo ko | sed 's,.*/,,'`.gmo \
+  && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file ko.po
+file=./`echo nl | sed 's,.*/,,'`.gmo \
+  && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file nl.po
+file=./`echo no | sed 's,.*/,,'`.gmo \
+  && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file no.po
+file=./`echo pl | sed 's,.*/,,'`.gmo \
+  && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file pl.po
+file=./`echo pt_BR | sed 's,.*/,,'`.gmo \
+  && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file pt_BR.po
+file=./`echo ru | sed 's,.*/,,'`.gmo \
+  && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file ru.po
+file=./`echo sl | sed 's,.*/,,'`.gmo \
+  && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file sl.po
+file=./`echo sv | sed 's,.*/,,'`.gmo \
+  && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file sv.po
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grep/grep-2.5.1a/unpack/grep-2.5.1a/po'
+Making all in lib
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grep/grep-2.5.1a/unpack/grep-2.5.1a/lib'
+Making all in posix
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grep/grep-2.5.1a/unpack/grep-2.5.1a/lib/posix'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grep/grep-2.5.1a/unpack/grep-2.5.1a/lib/posix'
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grep/grep-2.5.1a/unpack/grep-2.5.1a/lib'
+source='closeout.c' object='closeout.o' libtool=no \
+depfile='.deps/closeout.Po' tmpdepfile='.deps/closeout.TPo' \
+depmode=gcc3 /bin/sh ../depcomp \
+gcc -DLIBDIR=\"/usr/lib\" -DHAVE_CONFIG_H -I. -I. -I.. -I.. -I. -I../intl    -g -O2 -c `test -f closeout.c || echo './'`closeout.c
+source='error.c' object='error.o' libtool=no \
+depfile='.deps/error.Po' tmpdepfile='.deps/error.TPo' \
+depmode=gcc3 /bin/sh ../depcomp \
+gcc -DLIBDIR=\"/usr/lib\" -DHAVE_CONFIG_H -I. -I. -I.. -I.. -I. -I../intl    -g -O2 -c `test -f error.c || echo './'`error.c
+source='exclude.c' object='exclude.o' libtool=no \
+depfile='.deps/exclude.Po' tmpdepfile='.deps/exclude.TPo' \
+depmode=gcc3 /bin/sh ../depcomp \
+gcc -DLIBDIR=\"/usr/lib\" -DHAVE_CONFIG_H -I. -I. -I.. -I.. -I. -I../intl    -g -O2 -c `test -f exclude.c || echo './'`exclude.c
+source='hard-locale.c' object='hard-locale.o' libtool=no \
+depfile='.deps/hard-locale.Po' tmpdepfile='.deps/hard-locale.TPo' \
+depmode=gcc3 /bin/sh ../depcomp \
+gcc -DLIBDIR=\"/usr/lib\" -DHAVE_CONFIG_H -I. -I. -I.. -I.. -I. -I../intl    -g -O2 -c `test -f hard-locale.c || echo './'`hard-locale.c
+source='isdir.c' object='isdir.o' libtool=no \
+depfile='.deps/isdir.Po' tmpdepfile='.deps/isdir.TPo' \
+depmode=gcc3 /bin/sh ../depcomp \
+gcc -DLIBDIR=\"/usr/lib\" -DHAVE_CONFIG_H -I. -I. -I.. -I.. -I. -I../intl    -g -O2 -c `test -f isdir.c || echo './'`isdir.c
+source='obstack.c' object='obstack.o' libtool=no \
+depfile='.deps/obstack.Po' tmpdepfile='.deps/obstack.TPo' \
+depmode=gcc3 /bin/sh ../depcomp \
+gcc -DLIBDIR=\"/usr/lib\" -DHAVE_CONFIG_H -I. -I. -I.. -I.. -I. -I../intl    -g -O2 -c `test -f obstack.c || echo './'`obstack.c
+source='quotearg.c' object='quotearg.o' libtool=no \
+depfile='.deps/quotearg.Po' tmpdepfile='.deps/quotearg.TPo' \
+depmode=gcc3 /bin/sh ../depcomp \
+gcc -DLIBDIR=\"/usr/lib\" -DHAVE_CONFIG_H -I. -I. -I.. -I.. -I. -I../intl    -g -O2 -c `test -f quotearg.c || echo './'`quotearg.c
+source='savedir.c' object='savedir.o' libtool=no \
+depfile='.deps/savedir.Po' tmpdepfile='.deps/savedir.TPo' \
+depmode=gcc3 /bin/sh ../depcomp \
+gcc -DLIBDIR=\"/usr/lib\" -DHAVE_CONFIG_H -I. -I. -I.. -I.. -I. -I../intl    -g -O2 -c `test -f savedir.c || echo './'`savedir.c
+source='xmalloc.c' object='xmalloc.o' libtool=no \
+depfile='.deps/xmalloc.Po' tmpdepfile='.deps/xmalloc.TPo' \
+depmode=gcc3 /bin/sh ../depcomp \
+gcc -DLIBDIR=\"/usr/lib\" -DHAVE_CONFIG_H -I. -I. -I.. -I.. -I. -I../intl    -g -O2 -c `test -f xmalloc.c || echo './'`xmalloc.c
+source='xstrtol.c' object='xstrtol.o' libtool=no \
+depfile='.deps/xstrtol.Po' tmpdepfile='.deps/xstrtol.TPo' \
+depmode=gcc3 /bin/sh ../depcomp \
+gcc -DLIBDIR=\"/usr/lib\" -DHAVE_CONFIG_H -I. -I. -I.. -I.. -I. -I../intl    -g -O2 -c `test -f xstrtol.c || echo './'`xstrtol.c
+source='xstrtoumax.c' object='xstrtoumax.o' libtool=no \
+depfile='.deps/xstrtoumax.Po' tmpdepfile='.deps/xstrtoumax.TPo' \
+depmode=gcc3 /bin/sh ../depcomp \
+gcc -DLIBDIR=\"/usr/lib\" -DHAVE_CONFIG_H -I. -I. -I.. -I.. -I. -I../intl    -g -O2 -c `test -f xstrtoumax.c || echo './'`xstrtoumax.c
+rm -f libgreputils.a
+ar cru libgreputils.a closeout.o error.o exclude.o hard-locale.o isdir.o obstack.o quotearg.o savedir.o xmalloc.o xstrtol.o xstrtoumax.o 
+ranlib libgreputils.a
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grep/grep-2.5.1a/unpack/grep-2.5.1a/lib'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grep/grep-2.5.1a/unpack/grep-2.5.1a/lib'
+Making all in doc
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grep/grep-2.5.1a/unpack/grep-2.5.1a/doc'
+Updating ./version.texi
+cd . \
+  && /bin/sh /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/grep/grep-2.5.1a/unpack/grep-2.5.1a/missing --run makeinfo   \
+       `echo grep.texi | sed 's,.*/,,'`
+inst=`echo "grep" | sed 's,x,x,'`.1; \
+sed -e "s%@grep@%$inst%g" ./fgrep.man > fgrep.1
+inst=`echo "grep" | sed 's,x,x,'`.1; \
+sed -e "s%@grep@%$inst%g" ./egrep.man > egrep.1
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grep/grep-2.5.1a/unpack/grep-2.5.1a/doc'
+Making all in src
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grep/grep-2.5.1a/unpack/grep-2.5.1a/src'
+gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../intl -I../lib -DLOCALEDIR=\"/usr/share/locale\"    -g -O2 -c `test -f grep.c || echo './'`grep.c
+gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../intl -I../lib -DLOCALEDIR=\"/usr/share/locale\"    -g -O2 -c `test -f dfa.c || echo './'`dfa.c
+gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../intl -I../lib -DLOCALEDIR=\"/usr/share/locale\"    -g -O2 -c `test -f kwset.c || echo './'`kwset.c
+gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../intl -I../lib -DLOCALEDIR=\"/usr/share/locale\"    -g -O2 -c `test -f search.c || echo './'`search.c
+gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../intl -I../lib -DLOCALEDIR=\"/usr/share/locale\"    -g -O2 -c `test -f grepmat.c || echo './'`grepmat.c
+gcc  -g -O2   -o grep  grep.o dfa.o kwset.o search.o grepmat.o ../lib/libgreputils.a 
+echo '#!/bin/sh' >egrep
+echo 'exec grep -E ${1+"$@"}' >>egrep
+chmod a+x egrep
+echo '#!/bin/sh' >fgrep
+echo 'exec grep -F ${1+"$@"}' >>fgrep
+chmod a+x fgrep
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grep/grep-2.5.1a/unpack/grep-2.5.1a/src'
+Making all in tests
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grep/grep-2.5.1a/unpack/grep-2.5.1a/tests'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grep/grep-2.5.1a/unpack/grep-2.5.1a/tests'
+Making all in m4
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grep/grep-2.5.1a/unpack/grep-2.5.1a/m4'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grep/grep-2.5.1a/unpack/grep-2.5.1a/m4'
+Making all in vms
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grep/grep-2.5.1a/unpack/grep-2.5.1a/vms'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grep/grep-2.5.1a/unpack/grep-2.5.1a/vms'
+Making all in bootstrap
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grep/grep-2.5.1a/unpack/grep-2.5.1a/bootstrap'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grep/grep-2.5.1a/unpack/grep-2.5.1a/bootstrap'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grep/grep-2.5.1a/unpack/grep-2.5.1a'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grep/grep-2.5.1a/unpack/grep-2.5.1a'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grep/grep-2.5.1a/unpack/grep-2.5.1a'

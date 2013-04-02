@@ -1,0 +1,2 @@
+patching file disk-utils/fsck.cramfs.c
+patching file disk-utils/mkfs.cramfs.c

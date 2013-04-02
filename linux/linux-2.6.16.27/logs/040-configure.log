@@ -1,0 +1,5 @@
+  CLEAN   drivers/char
+  CLEAN   scripts/basic
+  CLEAN   scripts/kconfig/lxdialog
+  CLEAN   scripts/kconfig
+  CLEAN   .config .kernelrelease

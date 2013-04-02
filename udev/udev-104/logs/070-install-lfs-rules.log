@@ -1,0 +1,6 @@
+`../udev-config-6.2/05-udev-early.rules' -> `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/../../pkg/debian/etc/udev/rules.d/05-udev-early.rules'
+`../udev-config-6.2/25-lfs.rules' -> `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/../../pkg/debian/etc/udev/rules.d/25-lfs.rules'
+`../udev-config-6.2/26-modprobe.rules' -> `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/../../pkg/debian/etc/udev/rules.d/26-modprobe.rules'
+`../udev-config-6.2/27-firmware.rules' -> `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/../../pkg/debian/etc/udev/rules.d/27-firmware.rules'
+`../udev-config-6.2/60-persistent-storage.rules' -> `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/../../pkg/debian/etc/udev/rules.d/60-persistent-storage.rules'
+`../udev-config-6.2/81-cdrom.rules' -> `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/udev/udev-104/unpack/udev-104/../../pkg/debian/etc/udev/rules.d/81-cdrom.rules'

@@ -1,0 +1,253 @@
+Making install in headers
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/headers'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/headers'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/headers'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/headers'
+Making install in libinetutils
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/libinetutils'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/libinetutils'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/libinetutils'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/libinetutils'
+Making install in libtelnet
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/libtelnet'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/libtelnet'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/libtelnet'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/libtelnet'
+Making install in glob
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/glob'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/glob'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/glob'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/glob'
+Making install in inetd
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/inetd'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/inetd'
+make[2]: Nothing to be done for `install-exec-am'.
+/bin/sh ../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/../../pkg/debian/usr/sbin
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/../../pkg/debian/usr/sbin
+/bin/sh ../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/../../pkg/debian/usr/share/man/man8
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/../../pkg/debian/usr/share/man/man8
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/inetd'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/inetd'
+Making install in telnetd
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/telnetd'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/telnetd'
+make[2]: Nothing to be done for `install-exec-am'.
+/bin/sh ../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/../../pkg/debian/usr/sbin
+/bin/sh ../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/../../pkg/debian/usr/share/man/man8
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/telnetd'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/telnetd'
+Making install in libls
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/libls'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/libls'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/libls'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/libls'
+Making install in ftpd
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/ftpd'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/ftpd'
+make[2]: Nothing to be done for `install-exec-am'.
+/bin/sh ../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/../../pkg/debian/usr/sbin
+/bin/sh ../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/../../pkg/debian/usr/share/man/man8
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/ftpd'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/ftpd'
+Making install in rshd
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/rshd'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/rshd'
+make[2]: Nothing to be done for `install-exec-am'.
+/bin/sh ../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/../../pkg/debian/usr/sbin
+/bin/sh ../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/../../pkg/debian/usr/share/man/man8
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/rshd'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/rshd'
+Making install in rlogind
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/rlogind'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/rlogind'
+make[2]: Nothing to be done for `install-exec-am'.
+/bin/sh ../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/../../pkg/debian/usr/sbin
+/bin/sh ../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/../../pkg/debian/usr/share/man/man8
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/rlogind'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/rlogind'
+Making install in uucpd
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/uucpd'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/uucpd'
+make[2]: Nothing to be done for `install-exec-am'.
+/bin/sh ../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/../../pkg/debian/usr/sbin
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/uucpd'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/uucpd'
+Making install in rexecd
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/rexecd'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/rexecd'
+make[2]: Nothing to be done for `install-exec-am'.
+/bin/sh ../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/../../pkg/debian/usr/sbin
+/bin/sh ../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/../../pkg/debian/usr/share/man/man8
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/rexecd'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/rexecd'
+Making install in syslogd
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/syslogd'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/syslogd'
+make[2]: Nothing to be done for `install-exec-am'.
+/bin/sh ../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/../../pkg/debian/usr/sbin
+/bin/sh ../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/../../pkg/debian/usr/share/man/man5
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/../../pkg/debian/usr/share/man/man5
+/bin/sh ../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/../../pkg/debian/usr/share/man/man8
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/syslogd'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/syslogd'
+Making install in tftpd
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/tftpd'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/tftpd'
+make[2]: Nothing to be done for `install-exec-am'.
+/bin/sh ../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/../../pkg/debian/usr/sbin
+/bin/sh ../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/../../pkg/debian/usr/share/man/man8
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/tftpd'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/tftpd'
+Making install in talkd
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/talkd'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/talkd'
+make[2]: Nothing to be done for `install-exec-am'.
+/bin/sh ../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/../../pkg/debian/usr/sbin
+/bin/sh ../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/../../pkg/debian/usr/share/man/man8
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/talkd'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/talkd'
+Making install in telnet
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/telnet'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/telnet'
+/bin/sh ../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/../../pkg/debian/usr/bin
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/../../pkg/debian/usr/bin
+  /usr/bin/install -c telnet /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/../../pkg/debian/usr/bin/telnet
+/bin/sh ../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/../../pkg/debian/usr/share/man/man1
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/../../pkg/debian/usr/share/man/man1
+ /usr/bin/install -c -m 644 ./telnet.1 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/../../pkg/debian/usr/share/man/man1/telnet.1
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/telnet'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/telnet'
+Making install in ftp
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/ftp'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/ftp'
+/bin/sh ../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/../../pkg/debian/usr/bin
+  /usr/bin/install -c ftp /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/../../pkg/debian/usr/bin/ftp
+/bin/sh ../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/../../pkg/debian/usr/share/man/man1
+ /usr/bin/install -c -m 644 ./ftp.1 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/../../pkg/debian/usr/share/man/man1/ftp.1
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/ftp'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/ftp'
+Making install in rsh
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/rsh'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/rsh'
+/bin/sh ../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/../../pkg/debian/usr/bin
+  /usr/bin/install -c rsh /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/../../pkg/debian/usr/bin/rsh
+make  install-exec-hook
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/rsh'
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/rsh'
+/bin/sh ../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/../../pkg/debian/usr/share/man/man1
+ /usr/bin/install -c -m 644 ./rsh.1 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/../../pkg/debian/usr/share/man/man1/rsh.1
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/rsh'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/rsh'
+Making install in rcp
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/rcp'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/rcp'
+/bin/sh ../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/../../pkg/debian/usr/bin
+  /usr/bin/install -c rcp /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/../../pkg/debian/usr/bin/rcp
+make  install-exec-hook
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/rcp'
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/rcp'
+/bin/sh ../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/../../pkg/debian/usr/share/man/man1
+ /usr/bin/install -c -m 644 ./rcp.1 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/../../pkg/debian/usr/share/man/man1/rcp.1
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/rcp'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/rcp'
+Making install in rlogin
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/rlogin'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/rlogin'
+/bin/sh ../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/../../pkg/debian/usr/bin
+  /usr/bin/install -c rlogin /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/../../pkg/debian/usr/bin/rlogin
+make  install-exec-hook
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/rlogin'
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/rlogin'
+/bin/sh ../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/../../pkg/debian/usr/share/man/man1
+ /usr/bin/install -c -m 644 ./rlogin.1 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/../../pkg/debian/usr/share/man/man1/rlogin.1
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/rlogin'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/rlogin'
+Making install in tftp
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/tftp'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/tftp'
+/bin/sh ../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/../../pkg/debian/usr/bin
+  /usr/bin/install -c tftp /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/../../pkg/debian/usr/bin/tftp
+/bin/sh ../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/../../pkg/debian/usr/share/man/man1
+ /usr/bin/install -c -m 644 ./tftp.1 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/../../pkg/debian/usr/share/man/man1/tftp.1
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/tftp'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/tftp'
+Making install in logger
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/logger'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/logger'
+/bin/sh ../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/../../pkg/debian/usr/bin
+/bin/sh ../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/../../pkg/debian/usr/share/man/man1
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/logger'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/logger'
+Making install in gwhois
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/gwhois'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/gwhois'
+/bin/sh ../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/../../pkg/debian/usr/bin
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/gwhois'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/gwhois'
+Making install in talk
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/talk'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/talk'
+/bin/sh ../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/../../pkg/debian/usr/bin
+  /usr/bin/install -c talk /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/../../pkg/debian/usr/bin/talk
+/bin/sh ../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/../../pkg/debian/usr/share/man/man1
+ /usr/bin/install -c -m 644 ./talk.1 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/../../pkg/debian/usr/share/man/man1/talk.1
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/talk'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/talk'
+Making install in libicmp
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/libicmp'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/libicmp'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/libicmp'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/libicmp'
+Making install in ping
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/ping'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/ping'
+/bin/sh ../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/../../pkg/debian/usr/bin
+  /usr/bin/install -c ping /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/../../pkg/debian/usr/bin/ping
+make  install-exec-hook
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/ping'
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/ping'
+/bin/sh ../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/../../pkg/debian/usr/share/man/man8
+ /usr/bin/install -c -m 644 ./ping.8 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/../../pkg/debian/usr/share/man/man8/ping.8
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/ping'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/ping'
+Making install in doc
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/doc'
+Making install in rfc
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/doc/rfc'
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/doc/rfc'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/doc/rfc'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/doc/rfc'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/doc'
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/doc'
+make[3]: Nothing to be done for `install-exec-am'.
+/bin/sh ../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/../../pkg/debian/usr/share/info
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/../../pkg/debian/usr/share/info
+ /usr/bin/install -c -m 644 ./inetutils.info /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/../../pkg/debian/usr/share/info/inetutils.info
+ /usr/bin/install -c -m 644 ./inetutils.info-1 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/../../pkg/debian/usr/share/info/inetutils.info-1
+ /usr/bin/install -c -m 644 ./inetutils.info-2 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/../../pkg/debian/usr/share/info/inetutils.info-2
+ /usr/bin/install -c -m 644 ./inetutils.info-3 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/../../pkg/debian/usr/share/info/inetutils.info-3
+ install-info --info-dir=/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/../../pkg/debian/usr/share/info /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/../../pkg/debian/usr/share/info/inetutils.info
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/doc'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/doc'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2/doc'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/inetutils/inetutils-1.4.2/unpack/inetutils-1.4.2'

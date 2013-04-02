@@ -1,0 +1,20 @@
+dpkg-deb: building package `grep-2.5.1a' in `debian.deb'.
+ new debian package, version 2.0.
+ size 131256 bytes: control archive= 978 bytes.
+     249 bytes,    10 lines      control              
+     789 bytes,    18 lines      copyright            
+       6 bytes,     1 lines      debian-binary        
+     110 bytes,     3 lines   *  postinst             #!/bin/bash
+     108 bytes,     3 lines   *  postrm               #!/bin/bash
+     111 bytes,     3 lines   *  preinst              #!/bin/bash
+     109 bytes,     3 lines   *  prerm                #!/bin/bash
+ Package: grep-2.5.1a
+ Version: 2.5.1a
+ Section: unknown
+ Priority: required
+ Architecture: all
+ Essential: no
+ Depends: aaa-base
+ Maintainer: Aethernet support team [support@aethernet.co.uk]
+ Provides: grep
+ Description: Programs for searching through files

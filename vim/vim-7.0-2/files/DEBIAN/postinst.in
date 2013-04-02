@@ -1,0 +1,30 @@
+#!/bin/bash
+# Place in this file any commands you would like to be run
+# after the package has been installed
+
+# Create link if not found
+[ ! -e /usr/local/pkg/vim ] && \
+    ln -s AB_PACKAGE_NAME-AB_PACKAGE_VERSION /usr/local/pkg/vim
+
+if [ ! -d $PROFILEPATH ]; then
+  mkdir -p $PROFILEPATH
+fi
+
+# Place the following file(s) containing the additional path for this
+# application into the directory that will be parsed by shell when
+# setting the PATH variable.
+LDCONFDIR=/etc/ld.so.conf.d
+PROFILEPATH=/etc/profile.d/env/path
+MYPKGROOT=AB_PACKAGE_INSTALL_DIR
+
+if [ ! -d $PROFILEPATH ]; then
+  mkdir -p $PROFILEPATH
+fi
+
+for i in bin sbin; do
+  if [ -d $MYPKGROOT/$i ]; then
+    echo "Path $MYPKGROOT/$i not found, adding..."
+    echo "$MYPKGROOT/$i" \
+    > $PROFILEPATH/AB_PACKAGE_NAME-AB_PACKAGE_VERSION.$i
+  fi
+done

@@ -1,0 +1,8 @@
+`usr/bin/gzip' -> `bin/gzip'
+removed `usr/info/dir'
+removed `usr/bin/gunzip'
+removed `usr/bin/zcat'
+create hard link `bin/gunzip' to `bin/gzip'
+create hard link `bin/zcat' to `bin/gzip'
+create hard link `bin/compress' to `bin/gzip'
+create hard link `bin/uncompress' to `bin/gunzip'

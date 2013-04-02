@@ -1,0 +1,20 @@
+dpkg-deb: building package `udev-0.96' in `debian.deb'.
+ new debian package, version 2.0.
+ size 411432 bytes: control archive= 1396 bytes.
+     254 bytes,    10 lines      control              
+     789 bytes,    18 lines      copyright            
+       6 bytes,     1 lines      debian-binary        
+     883 bytes,    38 lines   *  postinst             #!/bin/bash
+     108 bytes,     3 lines   *  postrm               #!/bin/bash
+     111 bytes,     3 lines   *  preinst              #!/bin/bash
+     471 bytes,    17 lines   *  prerm                #!/bin/bash
+ Package: udev-0.96
+ Version: 0.96
+ Section: unknown
+ Priority: optional
+ Architecture: all
+ Essential: no
+ Depends: aaa-base
+ Maintainer: Aethernet support team [support@aethernet.co.uk]
+ Provides: udev
+ Description: Programs for dynamic creation of device nodes

@@ -1,0 +1,22 @@
+#!/bin/bash
+
+source configure
+
+pushd ../pkg/debian
+
+{
+
+# Remember to make any paths relative (i.e. ./usr rather than /usr)
+find usr/lib ! -name 'libstdc++.so*' -a ! -name 'libgcc_s*' -exec rm -v "{}" \;
+
+rm -rv lib
+rm -rv usr/bin
+rm -rv usr/include
+rm -rv usr/info
+rm -rv usr/lib/gcc
+rm -rv usr/man
+rm -rv usr/share
+
+} | tee ../../logs/070-fix-files.log
+
+popd

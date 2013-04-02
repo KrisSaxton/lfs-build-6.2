@@ -1,0 +1,23 @@
+#!/bin/bash
+
+source configure
+
+DESTDIR=$PWD/../pkg/debian
+
+pushd ../build
+
+{
+# make won't accept relative paths for DESTDIR, hence the $PWD fudge.
+make install_root=$DESTDIR install
+
+# install the inotify header to the system header location:
+mkdir -p $DESTDIR/usr/include/sys
+
+cp -v ../unpack/*/sysdeps/unix/sysv/linux/inotify.h $DESTDIR/usr/include/sys
+
+install -d $DESTDIR/etc/ld.so.conf.d
+install -d $DESTDIR/etc/profile.d/env/path
+
+} | tee ../logs/060-make-install.log
+
+popd

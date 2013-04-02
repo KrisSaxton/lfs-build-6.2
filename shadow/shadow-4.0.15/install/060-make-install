@@ -1,0 +1,22 @@
+#!/bin/bash
+
+source configure
+
+pushd ../unpack/*
+
+{
+INSTDIR=${PWD%unpack/*}pkg/debian
+
+make DESTDIR=$INSTDIR install
+
+mkdir -p ${INSTDIR}/etc
+
+cp -v etc/{limits,login.access} ${INSTDIR}/etc
+
+sed -e 's@#MD5_CRYPT_ENAB.no@MD5_CRYPT_ENAB yes@' \
+    -e 's@/var/spool/mail@/var/mail@' \
+    etc/login.defs > ${INSTDIR}/etc/login.defs
+
+} | tee ../../logs/060-make-install.log
+
+popd

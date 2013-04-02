@@ -1,0 +1,23 @@
+  HOSTCC  scripts/basic/fixdep
+  HOSTCC  scripts/basic/docproc
+  HOSTCC  scripts/kconfig/conf.o
+  HOSTCC  scripts/kconfig/kxgettext.o
+  SHIPPED scripts/kconfig/zconf.tab.c
+  SHIPPED scripts/kconfig/lex.zconf.c
+  SHIPPED scripts/kconfig/zconf.hash.c
+  HOSTCC  scripts/kconfig/zconf.tab.o
+  HOSTLD  scripts/kconfig/conf
+scripts/kconfig/conf -s arch/i386/Kconfig
+*
+* Restart config...
+*
+*
+* General setup
+*
+Local version - append to kernel release (LOCALVERSION) [] 
+Automatically append version information to the version string (LOCALVERSION_AUTO) [N/y/?] n
+Support for paging of anonymous memory (swap) (SWAP) [Y/n/?] y
+  Support for prefetching swapped memory (SWAP_PREFETCH) [Y/n/?] (NEW) aborted!
+
+Console input/output is redirected. Run 'make oldconfig' to update configuration.
+

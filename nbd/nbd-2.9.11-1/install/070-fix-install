@@ -1,0 +1,18 @@
+#!/bin/bash
+
+source configure
+
+##########
+
+DEBIAN_DIR=../pkg/debian
+DEBIAN_INSTALL_DIR=$DEBIAN_DIR/$AB_PACKAGE_INSTALL_DIR
+
+##########
+
+mv $DEBIAN_INSTALL_DIR/sbin/nbd-client $DEBIAN_INSTALL_DIR/bin
+rmdir $DEBIAN_INSTALL_DIR/sbin
+
+##########
+
+mkdir -p $DEBIAN_INSTALL_DIR/etc/nbd-server
+mkdir -p $DEBIAN_INSTALL_DIR/var/run

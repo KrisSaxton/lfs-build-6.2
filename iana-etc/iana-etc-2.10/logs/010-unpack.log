@@ -1,0 +1,15 @@
+iana-etc-2.10/
+iana-etc-2.10/port-aliases
+iana-etc-2.10/README
+iana-etc-2.10/Makefile
+iana-etc-2.10/COPYING
+iana-etc-2.10/CREDITS
+iana-etc-2.10/get.gawk
+iana-etc-2.10/protocols.gawk
+iana-etc-2.10/VERSION
+iana-etc-2.10/services.gawk
+iana-etc-2.10/port-numbers.dist
+iana-etc-2.10/protocol-numbers.dist
+iana-etc-2.10/services-test.gawk
+iana-etc-2.10/protocols-test.gawk
+iana-etc-2.10/test-lib.gawk

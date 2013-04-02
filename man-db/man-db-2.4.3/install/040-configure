@@ -1,0 +1,13 @@
+#!/bin/bash
+
+source configure
+
+pushd ../unpack/*
+
+./configure \
+    --prefix=$AB_PACKAGE_CONFIGURE_PREFIX \
+    --enable-mb-groff \
+    --disable-setuid \
+    | tee ../../logs/040-configure.log
+
+popd

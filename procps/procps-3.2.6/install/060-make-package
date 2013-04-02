@@ -1,0 +1,9 @@
+#!/bin/bash
+
+source configure
+
+pushd ../pkg
+
+ABMakePkg $AB_PACKAGE_INSTALL_NAME | tee ../logs/060-make-package.log
+
+popd

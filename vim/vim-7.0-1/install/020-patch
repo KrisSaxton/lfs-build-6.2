@@ -1,0 +1,13 @@
+#!/bin/bash
+
+source configure
+
+pushd ../unpack/*
+
+ABPatch | tee ../../logs/020-patch.log
+
+# Change the default location of the vimrc configuration file to /etc
+echo "#define SYS_VIMRC_FILE \"$AB_PACKAGE_VIM_INSTALL_DIR/etc/vimrc\"" >> src/feature.h
+
+popd
+

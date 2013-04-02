@@ -1,0 +1,30 @@
+Applying ../../source/vim-7.0-fixes-7.patch...
+patching file runtime/autoload/ccomplete.vim
+patching file runtime/autoload/paste.vim
+patching file runtime/autoload/spellfile.vim
+patching file runtime/plugin/matchparen.vim
+patching file src/edit.c
+patching file src/eval.c
+patching file src/ex_cmds.h
+patching file src/ex_docmd.c
+patching file src/gui_at_fs.c
+patching file src/gui.c
+patching file src/gui_xmebw.c
+patching file src/if_ruby.c
+patching file src/main.c
+patching file src/Makefile
+patching file src/mbyte.c
+patching file src/message.c
+patching file src/ops.c
+patching file src/option.c
+patching file src/os_unix.c
+patching file src/proto/undo.pro
+patching file src/quickfix.c
+patching file src/screen.c
+patching file src/spell.c
+patching file src/undo.c
+patching file src/version.c
+patching file src/vim.h
+Applying ../../source/vim-7.0-mandir-1.patch...
+patching file src/Makefile
+../../source/vim-7.0.tar.bz2, not a patch file, skipping...

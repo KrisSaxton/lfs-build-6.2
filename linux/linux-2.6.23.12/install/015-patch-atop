@@ -1,0 +1,18 @@
+#!/bin/bash
+
+source configure
+
+tar xvf ../source/atoppatch-kernel-2.6.23.tar.gz -C ../unpack
+
+pushd ../unpack
+
+ln -s linux-2.6.23.12 linux
+
+patch -p0 < atoppatch-kernel-2.6.23/01patch-2.6.23_atopcnt
+patch -p0 < atoppatch-kernel-2.6.23/02patch-2.6.23_atopacct
+
+rm linux
+
+rm -rf ../unpack/atoppatch-kernel-2.6.23
+
+popd

@@ -1,0 +1,18 @@
+################################################################################
+# menu.lst
+################################################################################
+
+timeout=5
+color blue/black light-blue/black
+
+# Serial Console ###############################################################
+
+serial --unit=1 --speed=19200 --word=8 --parity=no --stop=1
+terminal --timeout=5 serial console
+
+# Linux Kernels ################################################################
+
+title GNU/Linux: AB_PACKAGE_NAME-AB_PACKAGE_VERSION
+kernel (hd0,0)/boot/AB_PACKAGE_NAME-AB_PACKAGE_VERSION root=/dev/hda1 console=tty0 console=ttyS1,19200n8
+
+################################################################################

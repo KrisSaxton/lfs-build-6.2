@@ -1,0 +1,64 @@
+for i in src openvt po; do make -C $i install || exit 1; done
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/kbd/kbd-1.12/unpack/kbd-1.12/src'
+install -d -m 0755 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/kbd/kbd-1.12/unpack/kbd-1.12/../../pkg/debian/usr/bin /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/kbd/kbd-1.12/unpack/kbd-1.12/../../pkg/debian/bin
+install -s -m 0755  dumpkeys loadkeys showkey setfont showconsolefont setleds setmetamode kbd_mode chvt deallocvt psfxtable kbdrate fgconsole getkeycodes setkeycodes resizecons mapscrn loadunimap /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/kbd/kbd-1.12/unpack/kbd-1.12/../../pkg/debian/usr/bin
+install -c -m 0755  unicode_start unicode_stop /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/kbd/kbd-1.12/unpack/kbd-1.12/../../pkg/debian/usr/bin
+for i in psfaddtable psfgettable psfstriptable; do \
+	rm -f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/kbd/kbd-1.12/unpack/kbd-1.12/../../pkg/debian/usr/bin/$i; ln -s psfxtable /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/kbd/kbd-1.12/unpack/kbd-1.12/../../pkg/debian/usr/bin/$i; \
+done
+rm -f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/kbd/kbd-1.12/unpack/kbd-1.12/../../pkg/debian/usr/bin/loadkeys
+install -s -m 0755  loadkeys /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/kbd/kbd-1.12/unpack/kbd-1.12/../../pkg/debian/bin
+You may also want to add psf.magic to /usr/lib/magic
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/kbd/kbd-1.12/unpack/kbd-1.12/src'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/kbd/kbd-1.12/unpack/kbd-1.12/openvt'
+install -d -m 755 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/kbd/kbd-1.12/unpack/kbd-1.12/../../pkg/debian/usr/bin /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/kbd/kbd-1.12/unpack/kbd-1.12/../../pkg/debian//usr/share/man/man1
+install openvt /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/kbd/kbd-1.12/unpack/kbd-1.12/../../pkg/debian/usr/bin
+install -m 644 openvt.1 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/kbd/kbd-1.12/unpack/kbd-1.12/../../pkg/debian//usr/share/man/man1
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/kbd/kbd-1.12/unpack/kbd-1.12/openvt'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/kbd/kbd-1.12/unpack/kbd-1.12/po'
+msgfmt -o da.gmo da.po
+msgfmt -o fr.gmo fr.po
+msgfmt -o sv.gmo sv.po
+msgfmt -o tr.gmo tr.po
+../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/kbd/kbd-1.12/unpack/kbd-1.12/../../pkg/debian/usr/share;
+installing cs.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/kbd/kbd-1.12/unpack/kbd-1.12/../../pkg/debian/usr/share/locale/cs/LC_MESSAGES/kbd.mo
+installing da.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/kbd/kbd-1.12/unpack/kbd-1.12/../../pkg/debian/usr/share/locale/da/LC_MESSAGES/kbd.mo
+installing de.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/kbd/kbd-1.12/unpack/kbd-1.12/../../pkg/debian/usr/share/locale/de/LC_MESSAGES/kbd.mo
+installing es.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/kbd/kbd-1.12/unpack/kbd-1.12/../../pkg/debian/usr/share/locale/es/LC_MESSAGES/kbd.mo
+installing fr.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/kbd/kbd-1.12/unpack/kbd-1.12/../../pkg/debian/usr/share/locale/fr/LC_MESSAGES/kbd.mo
+installing gr.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/kbd/kbd-1.12/unpack/kbd-1.12/../../pkg/debian/usr/share/locale/gr/LC_MESSAGES/kbd.mo
+installing nl.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/kbd/kbd-1.12/unpack/kbd-1.12/../../pkg/debian/usr/share/locale/nl/LC_MESSAGES/kbd.mo
+installing pl.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/kbd/kbd-1.12/unpack/kbd-1.12/../../pkg/debian/usr/share/locale/pl/LC_MESSAGES/kbd.mo
+installing ro.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/kbd/kbd-1.12/unpack/kbd-1.12/../../pkg/debian/usr/share/locale/ro/LC_MESSAGES/kbd.mo
+installing ru.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/kbd/kbd-1.12/unpack/kbd-1.12/../../pkg/debian/usr/share/locale/ru/LC_MESSAGES/kbd.mo
+installing sv.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/kbd/kbd-1.12/unpack/kbd-1.12/../../pkg/debian/usr/share/locale/sv/LC_MESSAGES/kbd.mo
+installing tr.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/kbd/kbd-1.12/unpack/kbd-1.12/../../pkg/debian/usr/share/locale/tr/LC_MESSAGES/kbd.mo
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/kbd/kbd-1.12/unpack/kbd-1.12/po'
+cd data && make install
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/kbd/kbd-1.12/unpack/kbd-1.12/data'
+install -d -m 755 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/kbd/kbd-1.12/unpack/kbd-1.12/../../pkg/debian//lib/kbd
+install -d -m 755 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/kbd/kbd-1.12/unpack/kbd-1.12/../../pkg/debian//lib/kbd/consolefonts
+install -m 644 consolefonts_Z/* /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/kbd/kbd-1.12/unpack/kbd-1.12/../../pkg/debian//lib/kbd/consolefonts
+install -d -m 755 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/kbd/kbd-1.12/unpack/kbd-1.12/../../pkg/debian//lib/kbd/consolefonts/partialfonts
+install -m 644 partialfonts_Z/* /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/kbd/kbd-1.12/unpack/kbd-1.12/../../pkg/debian//lib/kbd/consolefonts/partialfonts
+install -d -m 755 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/kbd/kbd-1.12/unpack/kbd-1.12/../../pkg/debian//lib/kbd/consoletrans
+install -m 644 consoletrans/* /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/kbd/kbd-1.12/unpack/kbd-1.12/../../pkg/debian//lib/kbd/consoletrans
+install -d -m 755 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/kbd/kbd-1.12/unpack/kbd-1.12/../../pkg/debian//lib/kbd/unimaps
+install -m 644 unimaps/* /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/kbd/kbd-1.12/unpack/kbd-1.12/../../pkg/debian//lib/kbd/unimaps
+install -d -m 755 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/kbd/kbd-1.12/unpack/kbd-1.12/../../pkg/debian//lib/kbd/keymaps
+install -d -m 755 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/kbd/kbd-1.12/unpack/kbd-1.12/../../pkg/debian//lib/kbd/keymaps/i386
+install -d -m 755 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/kbd/kbd-1.12/unpack/kbd-1.12/../../pkg/debian//lib/kbd/keymaps/mac
+for i in include sun amiga atari i386/azerty i386/dvorak i386/fgGIod i386/qwerty i386/qwertz i386/include mac/include mac/all; do \
+	install -d -m 755 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/kbd/kbd-1.12/unpack/kbd-1.12/../../pkg/debian//lib/kbd/keymaps/$i ;\
+	install -m 644 keymaps_Z/$i/* /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/kbd/kbd-1.12/unpack/kbd-1.12/../../pkg/debian//lib/kbd/keymaps/$i ;\
+done
+rm -f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/kbd/kbd-1.12/unpack/kbd-1.12/../../pkg/debian//lib/kbd/keymaps/ppc; ln -s mac /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/kbd/kbd-1.12/unpack/kbd-1.12/../../pkg/debian//lib/kbd/keymaps/ppc
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/kbd/kbd-1.12/unpack/kbd-1.12/data'
+cd man && make install
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/kbd/kbd-1.12/unpack/kbd-1.12/man'
+for i in man?; do \
+	install -d -m 755 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/kbd/kbd-1.12/unpack/kbd-1.12/../../pkg/debian//usr/share/man/$i; \
+	install -m 644 $i/*.[0-9] /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/kbd/kbd-1.12/unpack/kbd-1.12/../../pkg/debian//usr/share/man/$i; \
+done
+rm -f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/kbd/kbd-1.12/unpack/kbd-1.12/../../pkg/debian//usr/share/man/man5/keytables.5
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/kbd/kbd-1.12/unpack/kbd-1.12/man'

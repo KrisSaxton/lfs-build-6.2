@@ -1,0 +1,131 @@
+make  all-am
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gzip/gzip-1.3.5/unpack/gzip-1.3.5'
+if gcc -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT bits.o -MD -MP -MF ".deps/bits.Tpo" \
+  -c -o bits.o `test -f 'bits.c' || echo './'`bits.c; \
+then mv ".deps/bits.Tpo" ".deps/bits.Po"; \
+else rm -f ".deps/bits.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT crypt.o -MD -MP -MF ".deps/crypt.Tpo" \
+  -c -o crypt.o `test -f 'crypt.c' || echo './'`crypt.c; \
+then mv ".deps/crypt.Tpo" ".deps/crypt.Po"; \
+else rm -f ".deps/crypt.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT deflate.o -MD -MP -MF ".deps/deflate.Tpo" \
+  -c -o deflate.o `test -f 'deflate.c' || echo './'`deflate.c; \
+then mv ".deps/deflate.Tpo" ".deps/deflate.Po"; \
+else rm -f ".deps/deflate.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT getopt.o -MD -MP -MF ".deps/getopt.Tpo" \
+  -c -o getopt.o `test -f 'getopt.c' || echo './'`getopt.c; \
+then mv ".deps/getopt.Tpo" ".deps/getopt.Po"; \
+else rm -f ".deps/getopt.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT getopt1.o -MD -MP -MF ".deps/getopt1.Tpo" \
+  -c -o getopt1.o `test -f 'getopt1.c' || echo './'`getopt1.c; \
+then mv ".deps/getopt1.Tpo" ".deps/getopt1.Po"; \
+else rm -f ".deps/getopt1.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT gzip.o -MD -MP -MF ".deps/gzip.Tpo" \
+  -c -o gzip.o `test -f 'gzip.c' || echo './'`gzip.c; \
+then mv ".deps/gzip.Tpo" ".deps/gzip.Po"; \
+else rm -f ".deps/gzip.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT inflate.o -MD -MP -MF ".deps/inflate.Tpo" \
+  -c -o inflate.o `test -f 'inflate.c' || echo './'`inflate.c; \
+then mv ".deps/inflate.Tpo" ".deps/inflate.Po"; \
+else rm -f ".deps/inflate.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT lzw.o -MD -MP -MF ".deps/lzw.Tpo" \
+  -c -o lzw.o `test -f 'lzw.c' || echo './'`lzw.c; \
+then mv ".deps/lzw.Tpo" ".deps/lzw.Po"; \
+else rm -f ".deps/lzw.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT trees.o -MD -MP -MF ".deps/trees.Tpo" \
+  -c -o trees.o `test -f 'trees.c' || echo './'`trees.c; \
+then mv ".deps/trees.Tpo" ".deps/trees.Po"; \
+else rm -f ".deps/trees.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT unlzh.o -MD -MP -MF ".deps/unlzh.Tpo" \
+  -c -o unlzh.o `test -f 'unlzh.c' || echo './'`unlzh.c; \
+then mv ".deps/unlzh.Tpo" ".deps/unlzh.Po"; \
+else rm -f ".deps/unlzh.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT unlzw.o -MD -MP -MF ".deps/unlzw.Tpo" \
+  -c -o unlzw.o `test -f 'unlzw.c' || echo './'`unlzw.c; \
+then mv ".deps/unlzw.Tpo" ".deps/unlzw.Po"; \
+else rm -f ".deps/unlzw.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT unpack.o -MD -MP -MF ".deps/unpack.Tpo" \
+  -c -o unpack.o `test -f 'unpack.c' || echo './'`unpack.c; \
+then mv ".deps/unpack.Tpo" ".deps/unpack.Po"; \
+else rm -f ".deps/unpack.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT unzip.o -MD -MP -MF ".deps/unzip.Tpo" \
+  -c -o unzip.o `test -f 'unzip.c' || echo './'`unzip.c; \
+then mv ".deps/unzip.Tpo" ".deps/unzip.Po"; \
+else rm -f ".deps/unzip.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT util.o -MD -MP -MF ".deps/util.Tpo" \
+  -c -o util.o `test -f 'util.c' || echo './'`util.c; \
+then mv ".deps/util.Tpo" ".deps/util.Po"; \
+else rm -f ".deps/util.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT yesno.o -MD -MP -MF ".deps/yesno.Tpo" \
+  -c -o yesno.o `test -f 'yesno.c' || echo './'`yesno.c; \
+then mv ".deps/yesno.Tpo" ".deps/yesno.Po"; \
+else rm -f ".deps/yesno.Tpo"; exit 1; \
+fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.     -g -O2 -MT zip.o -MD -MP -MF ".deps/zip.Tpo" \
+  -c -o zip.o `test -f 'zip.c' || echo './'`zip.c; \
+then mv ".deps/zip.Tpo" ".deps/zip.Po"; \
+else rm -f ".deps/zip.Tpo"; exit 1; \
+fi
+cp ./match.c _match.S
+gcc -E -DNO_UNDERLINE _match.S >_match.s
+gcc -c -g -O2 _match.s
+mv _match.o match.o
+rm -f _match.S _match.s
+gcc  -g -O2   -o gzip  bits.o crypt.o deflate.o getopt.o getopt1.o gzip.o inflate.o lzw.o trees.o unlzh.o unlzw.o unpack.o unzip.o util.o yesno.o zip.o match.o 
+sed \
+-e '1d' \
+-e 's|/bin/sh|/bin/sh|g' \
+-e 's|BINDIR|/usr/bin|g' \
+./gzexe.in >gzexe
+chmod a+x gzexe
+sed \
+-e '1d' \
+-e 's|/bin/sh|/bin/sh|g' \
+-e 's|BINDIR|/usr/bin|g' \
+./zdiff.in >zdiff
+chmod a+x zdiff
+sed \
+-e '1d' \
+-e 's|/bin/sh|/bin/sh|g' \
+-e 's|BINDIR|/usr/bin|g' \
+./zgrep.in >zgrep
+chmod a+x zgrep
+sed \
+-e '1d' \
+-e 's|/bin/sh|/bin/sh|g' \
+-e 's|BINDIR|/usr/bin|g' \
+./zforce.in >zforce
+chmod a+x zforce
+sed \
+-e '1d' \
+-e 's|/bin/sh|/bin/sh|g' \
+-e 's|BINDIR|/usr/bin|g' \
+./zless.in >zless
+chmod a+x zless
+sed \
+-e '1d' \
+-e 's|/bin/sh|/bin/sh|g' \
+-e 's|BINDIR|/usr/bin|g' \
+./zmore.in >zmore
+chmod a+x zmore
+sed \
+-e '1d' \
+-e 's|/bin/sh|/bin/sh|g' \
+-e 's|BINDIR|/usr/bin|g' \
+./znew.in >znew
+chmod a+x znew
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gzip/gzip-1.3.5/unpack/gzip-1.3.5'

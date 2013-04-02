@@ -1,0 +1,54 @@
+#!/bin/bash
+
+################################################################################
+# BEGIN
+################################################################################
+
+source functions
+
+################################################################################
+# GLOBALS
+################################################################################
+
+ABSetDefault AB_SYSTEM_INSTALL_DIR                              /usr
+
+################################################################################
+# DEPENDENCIES
+################################################################################
+
+ABSetDefault AB_PACKAGE_FLEX_DEPENDS                            ''
+#ABSetCompileFlags $AB_PACKAGE_FLEX_DEPENDS
+
+################################################################################
+# CONFIGURATION
+################################################################################
+
+ABSetDefault AB_PACKAGE_FLEX_NAME                      flex
+ABSetDefault AB_PACKAGE_FLEX_VERSION                   2.5.33
+ABSetDefault AB_PACKAGE_FLEX_DESC                      'A  utility for generating programs that recognise patterns in text'
+
+ABSetDefault AB_PACKAGE_FLEX_INSTALL_NAME              ${AB_PACKAGE_FLEX_NAME}-${AB_PACKAGE_FLEX_VERSION}
+
+ABSetDefault AB_PACKAGE_FLEX_INSTALL_DIR               $AB_SYSTEM_INSTALL_DIR
+ABSetDefault AB_PACKAGE_FLEX_INCLUDE_DIR               $AB_PACKAGE_FLEX_INSTALL_DIR/include
+ABSetDefault AB_PACKAGE_FLEX_LIB_DIR                   $AB_PACKAGE_FLEX_INSTALL_DIR/lib
+
+ABSetDefault AB_PACKAGE_FLEX_CONFIGURE_PREFIX          $AB_PACKAGE_FLEX_INSTALL_DIR
+ABSetDefault AB_PACKAGE_FLEX_CONFIGURE_WITH_EDITOR     /usr/bin/nano
+
+AB_PACKAGE_NAME=$AB_PACKAGE_FLEX_NAME
+AB_PACKAGE_VERSION=$AB_PACKAGE_FLEX_VERSION
+AB_PACKAGE_DESC=$AB_PACKAGE_FLEX_DESC
+
+AB_PACKAGE_INSTALL_NAME=$AB_PACKAGE_FLEX_INSTALL_NAME
+
+AB_PACKAGE_INSTALL_DIR=$AB_PACKAGE_FLEX_INSTALL_DIR
+AB_PACKAGE_INCLUDE_DIR=$AB_PACKAGE_FLEX_INCLUDE_DIR
+AB_PACKAGE_LIB_DIR=$AB_PACKAGE_FLEX_LIB_DIR
+
+AB_PACKAGE_CONFIGURE_PREFIX=$AB_PACKAGE_FLEX_CONFIGURE_PREFIX
+AB_PACKAGE_CONFIGURE_WITH_EDITOR=$AB_PACKAGE_FLEX_CONFIGURE_WITH_EDITOR
+
+################################################################################
+# END
+################################################################################

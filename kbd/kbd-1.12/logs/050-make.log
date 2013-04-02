@@ -1,0 +1,111 @@
+for i in src openvt po data; do make -C $i all || exit 1; done
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/kbd/kbd-1.12/unpack/kbd-1.12/src'
+gcc -c -Wall -Wmissing-prototypes -Wstrict-prototypes -O2 -DDATADIR=\"/lib/kbd\" dumpkeys.c
+gcc -c -Wall -Wmissing-prototypes -Wstrict-prototypes -O2 -DDATADIR=\"/lib/kbd\" ksyms.c
+gcc -c -Wall -Wmissing-prototypes -Wstrict-prototypes -O2 -DDATADIR=\"/lib/kbd\" xmalloc.c
+gcc -c -Wall -Wmissing-prototypes -Wstrict-prototypes -O2 -DDATADIR=\"/lib/kbd\" getfd.c
+gcc -s  dumpkeys.o ksyms.o xmalloc.o getfd.o   -o dumpkeys
+bison -y  loadkeys.y 
+mv -f y.tab.c loadkeys.c
+flex -8  -t analyze.l > analyze.c
+gcc -c -O2 -DDATADIR=\"/lib/kbd\" loadkeys.c
+gcc -c -Wall -Wmissing-prototypes -Wstrict-prototypes -O2 -DDATADIR=\"/lib/kbd\" findfile.c
+gcc -s  loadkeys.o ksyms.o xmalloc.o findfile.o getfd.o   -o loadkeys
+gcc -c -Wall -Wmissing-prototypes -Wstrict-prototypes -O2 -DDATADIR=\"/lib/kbd\" showkey.c
+gcc -s  showkey.o getfd.o   -o showkey
+gcc -c -Wall -Wmissing-prototypes -Wstrict-prototypes -O2 -DDATADIR=\"/lib/kbd\" setfont.c
+gcc -c -Wall -Wmissing-prototypes -Wstrict-prototypes -O2 -DDATADIR=\"/lib/kbd\" mapscrn.c
+gcc -c -Wall -Wmissing-prototypes -Wstrict-prototypes -O2 -DDATADIR=\"/lib/kbd\" loadunimap.c
+gcc -c -Wall -Wmissing-prototypes -Wstrict-prototypes -O2 -DDATADIR=\"/lib/kbd\" kdmapop.c
+gcc -c -Wall -Wmissing-prototypes -Wstrict-prototypes -O2 -DDATADIR=\"/lib/kbd\" kdfontop.c
+gcc -c -Wall -Wmissing-prototypes -Wstrict-prototypes -O2 -DDATADIR=\"/lib/kbd\" psffontop.c
+gcc -c -Wall -Wmissing-prototypes -Wstrict-prototypes -O2 -DDATADIR=\"/lib/kbd\" utf8.c
+gcc -s  setfont.o findfile.o xmalloc.o getfd.o mapscrn.o loadunimap.o kdmapop.o kdfontop.o psffontop.o utf8.o   -o setfont
+gcc -c -Wall -Wmissing-prototypes -Wstrict-prototypes -O2 -DDATADIR=\"/lib/kbd\" showconsolefont.c
+gcc -s  showconsolefont.o xmalloc.o getfd.o kdmapop.o kdfontop.o   -o showconsolefont
+gcc -c -Wall -Wmissing-prototypes -Wstrict-prototypes -O2 -DDATADIR=\"/lib/kbd\" setleds.c
+gcc -s  setleds.o   -o setleds
+gcc -c -Wall -Wmissing-prototypes -Wstrict-prototypes -O2 -DDATADIR=\"/lib/kbd\" setmetamode.c
+gcc -s  setmetamode.o   -o setmetamode
+gcc -c -Wall -Wmissing-prototypes -Wstrict-prototypes -O2 -DDATADIR=\"/lib/kbd\" kbd_mode.c
+gcc -s  kbd_mode.o getfd.o   -o kbd_mode
+gcc -c -Wall -Wmissing-prototypes -Wstrict-prototypes -O2 -DDATADIR=\"/lib/kbd\" chvt.c
+gcc -s  chvt.o getfd.o   -o chvt
+gcc -c -Wall -Wmissing-prototypes -Wstrict-prototypes -O2 -DDATADIR=\"/lib/kbd\" deallocvt.c
+gcc -s  deallocvt.o getfd.o   -o deallocvt
+gcc -c -Wall -Wmissing-prototypes -Wstrict-prototypes -O2 -DDATADIR=\"/lib/kbd\" psfxtable.c
+gcc -s  psfxtable.o psffontop.o xmalloc.o utf8.o   -o psfxtable
+gcc -c -Wall -Wmissing-prototypes -Wstrict-prototypes -O2 -DDATADIR=\"/lib/kbd\" kbdrate.c
+gcc -s  kbdrate.o   -o kbdrate
+gcc -c -Wall -Wmissing-prototypes -Wstrict-prototypes -O2 -DDATADIR=\"/lib/kbd\" fgconsole.c
+gcc -s  fgconsole.o getfd.o   -o fgconsole
+gcc -c -Wall -Wmissing-prototypes -Wstrict-prototypes -O2 -DDATADIR=\"/lib/kbd\" getkeycodes.c
+gcc -s  getkeycodes.o getfd.o   -o getkeycodes
+gcc -c -Wall -Wmissing-prototypes -Wstrict-prototypes -O2 -DDATADIR=\"/lib/kbd\" setkeycodes.c
+gcc -s  setkeycodes.o getfd.o   -o setkeycodes
+gcc -c -Wall -Wmissing-prototypes -Wstrict-prototypes -O2 -DDATADIR=\"/lib/kbd\" resizecons.c
+gcc -s  resizecons.o findfile.o xmalloc.o getfd.o   -o resizecons
+gcc -O2 -Wall -Wmissing-prototypes -Wstrict-prototypes -DDATADIR=\"/lib/kbd\" -DMAIN -c mapscrn.c -o main_mapscrn.o
+gcc -s main_mapscrn.o findfile.o psffontop.o utf8.o xmalloc.o getfd.o kdmapop.o -o mapscrn
+gcc -O2 -Wall -Wmissing-prototypes -Wstrict-prototypes -DDATADIR=\"/lib/kbd\" -DMAIN -c loadunimap.c -o main_loadunimap.o
+gcc -s main_loadunimap.o findfile.o psffontop.o utf8.o xmalloc.o getfd.o kdmapop.o -o loadunimap
+gcc -c -Wall -Wmissing-prototypes -Wstrict-prototypes -O2 -DDATADIR=\"/lib/kbd\" screendump.c
+gcc -s  screendump.o xmalloc.o   -o screendump
+gcc -c -Wall -Wmissing-prototypes -Wstrict-prototypes -O2 -DDATADIR=\"/lib/kbd\" setlogcons.c
+gcc -s  setlogcons.o getfd.o   -o setlogcons
+gcc -c -Wall -Wmissing-prototypes -Wstrict-prototypes -O2 -DDATADIR=\"/lib/kbd\" setvesablank.c
+gcc -s  setvesablank.o getfd.o   -o setvesablank
+gcc -O2  -s  spawn_console.c   -o spawn_console
+gcc -O2  -s  spawn_login.c   -o spawn_login
+gcc -c -Wall -Wmissing-prototypes -Wstrict-prototypes -O2 -DDATADIR=\"/lib/kbd\" getunimap.c
+gcc -s  getunimap.o xmalloc.o getfd.o kdmapop.o   -o getunimap
+gcc -c -Wall -Wmissing-prototypes -Wstrict-prototypes -O2 -DDATADIR=\"/lib/kbd\" clrunimap.c
+gcc -s  clrunimap.o getfd.o kdmapop.o   -o clrunimap
+gcc -O2  -s  outpsfheader.c   -o outpsfheader
+gcc -c -Wall -Wmissing-prototypes -Wstrict-prototypes -O2 -DDATADIR=\"/lib/kbd\" setpalette.c
+gcc -s  setpalette.o getfd.o   -o setpalette
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/kbd/kbd-1.12/unpack/kbd-1.12/src'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/kbd/kbd-1.12/unpack/kbd-1.12/openvt'
+gcc -O2 -Wall -ansi   -c -o openvt.o openvt.c
+gcc -O2 -Wall -ansi   -c -o getfd.o getfd.c
+gcc -O2 -Wall -ansi -s   openvt.o getfd.o   -o openvt
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/kbd/kbd-1.12/unpack/kbd-1.12/openvt'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/kbd/kbd-1.12/unpack/kbd-1.12/po'
+xgettext --default-domain=kbd --directory=.. \
+  --add-comments --keyword=_ --keyword=N_ \
+  --files-from=POTFILES.in 
+mv kbd.po kbd.pot
+rm -f cat-id-tbl.tmp
+sed -f ./po2tbl.sed kbd.pot \
+| sed -e "s/@PACKAGE NAME@/kbd/" > cat-id-tbl.tmp
+if cmp -s cat-id-tbl.tmp cat-id-tbl.c; then \
+  rm cat-id-tbl.tmp; \
+else \
+  echo cat-id-tbl.c changed; \
+  rm -f cat-id-tbl.c; \
+  mv cat-id-tbl.tmp cat-id-tbl.c; \
+fi
+rm -f stamp-cat-id && echo timestamp > stamp-cat-id
+msgfmt -o cs.gmo cs.po
+msgfmt -o da.gmo da.po
+msgfmt -o de.gmo de.po
+msgfmt -o es.gmo es.po
+msgfmt -o fr.gmo fr.po
+msgfmt -o gr.gmo gr.po
+msgfmt -o nl.gmo nl.po
+msgfmt -o pl.gmo pl.po
+msgfmt -o ro.gmo ro.po
+msgfmt -o ru.gmo ru.po
+msgfmt -o sv.gmo sv.po
+msgfmt -o tr.gmo tr.po
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/kbd/kbd-1.12/unpack/kbd-1.12/po'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/kbd/kbd-1.12/unpack/kbd-1.12/data'
+cp -r keymaps keymaps_Z
+cd keymaps_Z && gzip -f -9 */*.map */*/*.map
+cp -r consolefonts consolefonts_Z
+cp -r partialfonts partialfonts_Z
+cd consolefonts_Z && gzip -f -9 * && gunzip ERRORS* README*
+cd partialfonts_Z && gzip -f -9 *
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/kbd/kbd-1.12/unpack/kbd-1.12/data'
+
+Done. You can now do  make install

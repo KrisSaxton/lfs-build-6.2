@@ -1,0 +1,144 @@
+making install in lib/et
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/lib/et'
+	MKINSTALLDIRS /lib /usr/lib
+	INSTALL-ELF-LIB /lib/libcom_err.so.2.1
+	SYMLINK /lib/libcom_err.so.2
+	SYMLINK /usr/lib/libcom_err.so
+	LDCONFIG
+	MKINSTALLDIRS /usr/lib /usr/include/et /usr/share/et /usr/bin /usr/share/man/man1 /usr/share/man/man3
+mkdir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/../../../pkg/debian/usr/include
+mkdir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/../../../pkg/debian/usr/include/et
+mkdir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/../../../pkg/debian/usr/share/et
+mkdir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/../../../pkg/debian/usr/share/man/man3
+mkdir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/../../../pkg/debian/usr/lib/pkgconfig
+	INSTALL_DATA /usr/lib/libcom_err.a
+	INSTALL_DATA /usr/include/et/com_err.h
+	INSTALL_DATA /usr/share/et/et_c.awk
+	INSTALL_DATA /usr/share/et/et_h.awk
+	INSTALL_SCRIPT /usr/bin/compile_et
+	INSTALL_DATA /usr/share/man/man3/com_err.3
+	INSTALL_DATA /usr/share/man/man1/compile_et.1
+	INSTALL_DATA /usr/lib/pkgconfig/com_err.pc
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/lib/et'
+making install in lib/ss
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/lib/ss'
+	MKINSTALLDIRS /lib /usr/lib
+	INSTALL-ELF-LIB /lib/libss.so.2.0
+	SYMLINK /lib/libss.so.2
+	SYMLINK /usr/lib/libss.so
+	LDCONFIG
+	MKINSTALLDIRS /usr/lib /usr/include/ss /usr/share/ss /usr/bin
+mkdir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/../../../pkg/debian/usr/include/ss
+mkdir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/../../../pkg/debian/usr/share/ss
+	INSTALL_DATA /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/../../../pkg/debian/usr/lib/libss.a
+	INSTALL_DATA /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/../../../pkg/debian/usr/include/ss/ss.h
+	INSTALL_DATA /usr/include/ss/ss_err.h
+	INSTALL_DATA /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/../../../pkg/debian/usr/share/ss/ct_c.awk
+	INSTALL_DATA /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/../../../pkg/debian/usr/share/ss/ct_c.sed
+	INSTALL /usr/bin/mk_cmds
+	INSTALL_DATA /usr/share/man/man1/mk_cmds.1
+	INSTALL_DATA /usr/lib/pkgconfig/ss.pc
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/lib/ss'
+making install in lib/e2p
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/lib/e2p'
+	MKINSTALLDIRS /lib /usr/lib
+	INSTALL-ELF-LIB /lib/libe2p.so.2.3
+	SYMLINK /lib/libe2p.so.2
+	SYMLINK /usr/lib/libe2p.so
+	LDCONFIG
+	MKINSTALLDIRS /usr/lib /usr/include/e2p
+mkdir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/../../../pkg/debian/usr/include/e2p
+	INSTALL_DATA /usr/lib/libe2p.a
+	INSTALL_DATA /usr/include/e2p/e2p.h
+	INSTALL_DATA /usr/lib/pkgconfig/e2p.pc
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/lib/e2p'
+making install in lib/ext2fs
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/lib/ext2fs'
+	MKINSTALLDIRS /lib /usr/lib
+	INSTALL-ELF-LIB /lib/libext2fs.so.2.4
+	SYMLINK /lib/libext2fs.so.2
+	SYMLINK /usr/lib/libext2fs.so
+	LDCONFIG
+	MKINSTALLDIRS /usr/lib /usr/include/ext2fs
+mkdir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/../../../pkg/debian/usr/include/ext2fs
+	INSTALL_DATA /usr/lib/libext2fs.a
+	INSTALL_DATA /usr/include/ext2fs/bitops.h
+	INSTALL_DATA /usr/include/ext2fs/ext2fs.h
+	INSTALL_DATA /usr/include/ext2fs/ext2_io.h
+	INSTALL_DATA /usr/include/ext2fs/ext2_fs.h
+	INSTALL_DATA /usr/include/ext2fs/ext2_ext_attr.h
+	INSTALL_DATA /usr/include/ext2fs/ext2_err.h
+	INSTALL_DATA /usr/include/ext2fs/ext2_types.h
+	INSTALL_DATA /usr/lib/pkgconfig/ext2fs.pc
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/lib/ext2fs'
+making install in lib/uuid
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/lib/uuid'
+	MKINSTALLDIRS /lib /usr/lib
+	INSTALL-ELF-LIB /lib/libuuid.so.1.2
+	SYMLINK /lib/libuuid.so.1
+	SYMLINK /usr/lib/libuuid.so
+	LDCONFIG
+	MKINSTALLDIRS /usr/lib /usr/include/uuid /usr/share/man/man3
+mkdir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/../../../pkg/debian/usr/include/uuid
+	INSTALL_DATA /usr/lib/libuuid.a
+	INSTALL_DATA /usr/include/uuid/uuid.h
+	INSTALL_DATA /usr/share/man/man3/uuid.3
+	INSTALL_DATA /usr/share/man/man3/uuid_clear.3
+	INSTALL_DATA /usr/share/man/man3/uuid_compare.3
+	INSTALL_DATA /usr/share/man/man3/uuid_copy.3
+	INSTALL_DATA /usr/share/man/man3/uuid_generate.3
+	INSTALL_DATA /usr/share/man/man3/uuid_is_null.3
+	INSTALL_DATA /usr/share/man/man3/uuid_parse.3
+	INSTALL_DATA /usr/share/man/man3/uuid_time.3
+	INSTALL_DATA /usr/share/man/man3/uuid_unparse.3
+	LINK /usr/share/man/man3/uuid_generate_random.3
+	LINK /usr/share/man/man3/uuid_generate_time.3
+	INSTALL_DATA /usr/lib/pkgconfig/uuid.pc
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/lib/uuid'
+making install in lib/blkid
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/lib/blkid'
+	MKINSTALLDIRS /lib /usr/lib
+	INSTALL-ELF-LIB /lib/libblkid.so.1.0
+	SYMLINK /lib/libblkid.so.1
+	SYMLINK /usr/lib/libblkid.so
+	LDCONFIG
+	MKINSTALLDIRS /usr/lib /usr/include/blkid
+mkdir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/../../../pkg/debian/usr/include/blkid
+	INSTALL_DATA /usr/lib/libblkid.a
+	INSTALL_DATA /usr/include/blkid/blkid.h
+	INSTALL_DATA /usr/include/blkid/blkid_types.h
+	INSTALL_DATA /usr/share/man/man3/libblkid.3
+	INSTALL_DATA /usr/lib/pkgconfig/blkid.pc
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/lib/blkid'
+making install in intl
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/intl'
+if test 'no' = yes; then \
+  test yes != no || /bin/sh ../../config/mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/../../../pkg/debian/usr/lib; \
+  temp=/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/../../../pkg/debian/usr/lib/t-charset.alias; \
+  dest=/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/../../../pkg/debian/usr/lib/charset.alias; \
+  if test -f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/../../../pkg/debian/usr/lib/charset.alias; then \
+    orig=/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/../../../pkg/debian/usr/lib/charset.alias; \
+    sed -f ref-add.sed $orig > $temp; \
+    /usr/bin/install -c -m 644 $temp $dest; \
+    rm -f $temp; \
+  else \
+    if test yes = no; then \
+      orig=charset.alias; \
+      sed -f ref-add.sed $orig > $temp; \
+      /usr/bin/install -c -m 644 $temp $dest; \
+      rm -f $temp; \
+    fi; \
+  fi; \
+  /bin/sh ../../config/mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/../../../pkg/debian/usr/share/locale; \
+  test -f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/../../../pkg/debian/usr/share/locale/locale.alias \
+    && orig=/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/../../../pkg/debian/usr/share/locale/locale.alias \
+    || orig=../../intl/locale.alias; \
+  temp=/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/../../../pkg/debian/usr/share/locale/t-locale.alias; \
+  dest=/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/../../../pkg/debian/usr/share/locale/locale.alias; \
+  sed -f ref-add.sed $orig > $temp; \
+  /usr/bin/install -c -m 644 $temp $dest; \
+  rm -f $temp; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/intl'

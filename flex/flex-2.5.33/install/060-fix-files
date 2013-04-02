@@ -1,0 +1,16 @@
+#!/bin/bash
+
+source configure
+
+pushd ../pkg/debian
+
+{
+
+ln -sv libfl.a usr/lib/libl.a
+cat ../../files/lex >> usr/bin/lex
+chmod -v 755 usr/bin/lex
+rm -v usr/info/dir
+
+} | tee ../../logs/060-fix-files.log
+
+popd

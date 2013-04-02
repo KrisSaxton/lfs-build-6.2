@@ -1,0 +1,2 @@
+create symbolic link `./usr/bin/geqn' to `eqn'
+create symbolic link `./usr/bin/gtbl' to `tbl'

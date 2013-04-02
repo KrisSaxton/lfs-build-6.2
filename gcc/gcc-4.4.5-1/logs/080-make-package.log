@@ -1,0 +1,21 @@
+dpkg-deb: building package `gcc-4.4.5-1' in `debian.deb'.
+new debian package, version 2.0.
+size 40611304 bytes: control archive= 21448 bytes.
+238 bytes,    10 lines      control
+789 bytes,    18 lines      copyright
+6 bytes,     1 lines      debian-binary
+64427 bytes,   744 lines      md5sums
+110 bytes,     3 lines   *  postinst             #!/bin/bash
+108 bytes,     3 lines   *  postrm               #!/bin/bash
+111 bytes,     3 lines   *  preinst              #!/bin/bash
+109 bytes,     3 lines   *  prerm                #!/bin/bash
+Package: gcc-4.4.5-1
+Version: 2593
+Section: unknown
+Priority: optional
+Architecture: all
+Essential: no
+Depends: mpfr, gmp
+Maintainer: Aethernet support team [support@aethernet.co.uk]
+Provides: gcc
+Description: The GNU compiler collection

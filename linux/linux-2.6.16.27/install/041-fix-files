@@ -1,0 +1,13 @@
+#!/bin/bash
+
+source configure
+
+pushd ../unpack/*
+
+# Remember to make any paths relative (i.e. ./usr rather than /usr)
+loadkeys -m ../../files/kbd/uk.map.gz > drivers/char/defkeymap.c \
+  | tee ../../logs/041-fix-files.log
+
+cp -v ../../files/config-default .config | tee -a ../../logs/041-fix-files.log
+
+popd

@@ -1,0 +1,15 @@
+#!/bin/bash
+
+source configure
+
+pushd ../unpack/*
+
+{
+# Change the location of the blkid.tab file
+sed -i -e 's@/etc/blkid.tab@/var/cache/blkid.tab@' lib/blkid/blkidP.h
+} | tee ../../logs/020-fix-blkid-tab.log
+
+popd
+
+
+

@@ -1,0 +1,2 @@
+`arch/i386/boot/bzImage' -> `../../pkg/debian/boot/linux-2.6.36.4-1'
+`System.map' -> `../../pkg/debian/boot/System.map-2.6.36.4-1'

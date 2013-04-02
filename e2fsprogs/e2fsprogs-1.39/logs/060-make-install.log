@@ -1,0 +1,223 @@
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build'
+make[1]: `lib/ext2fs/ext2_types.h' is up to date.
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build'
+make[1]: `lib/blkid/blkid_types.h' is up to date.
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build'
+make[1]: `lib/uuid/uuid_types.h' is up to date.
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build'
+making all in lib/et
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/lib/et'
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/lib/et'
+making all in lib/ss
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/lib/ss'
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/lib/ss'
+making all in lib/e2p
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/lib/e2p'
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/lib/e2p'
+making all in lib/ext2fs
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/lib/ext2fs'
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/lib/ext2fs'
+making all in lib/uuid
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/lib/uuid'
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/lib/uuid'
+making all in lib/blkid
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/lib/blkid'
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/lib/blkid'
+making all in intl
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/intl'
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/intl'
+making install in e2fsck
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/e2fsck'
+	MKINSTALLDIRS /sbin /usr/share/man/man8
+mkdir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/../../../pkg/debian/sbin
+mkdir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/../../../pkg/debian/usr
+mkdir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/../../../pkg/debian/usr/share
+mkdir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/../../../pkg/debian/usr/share/man
+mkdir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/../../../pkg/debian/usr/share/man/man8
+mkdir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/../../../pkg/debian/usr/share/man/man5
+	INSTALL /sbin/e2fsck
+	LINK /sbin/fsck.ext2
+	LINK /sbin/fsck.ext3
+	INSTALL_DATA /usr/share/man/man8/e2fsck.8
+	INSTALL_DATA /usr/share/man/man5/e2fsck.conf.5
+	LINK /usr/share/man/man8/fsck.ext2.8
+	LINK /usr/share/man/man8/fsck.ext3.8
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/e2fsck'
+making install in debugfs
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/debugfs'
+	MKINSTALLDIRS /sbin /usr/share/man/man8
+	INSTALL /sbin/debugfs
+	INSTALL_DATA /usr/share/man/man8/debugfs.8
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/debugfs'
+making install in misc
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/misc'
+	MKINSTALLDIRS /usr/sbin /sbin /usr/bin /usr/share/man/man1 /usr/share/man/man8 /usr/lib
+mkdir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/../../../pkg/debian/usr/sbin
+mkdir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/../../../pkg/debian/usr/bin
+mkdir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/../../../pkg/debian/usr/share/man/man1
+mkdir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/../../../pkg/debian/usr/lib
+mkdir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/../../../pkg/debian/etc
+	INSTALL /sbin/mke2fs
+	INSTALL /sbin/badblocks
+	INSTALL /sbin/tune2fs
+	INSTALL /sbin/dumpe2fs
+	INSTALL /sbin/blkid
+	INSTALL /sbin/logsave
+	INSTALL /sbin/e2image
+	INSTALL /sbin/fsck
+	INSTALL /usr/sbin/mklost+found
+	INSTALL /usr/sbin/filefrag
+	LINK /sbin/mkfs.ext2
+	LINK /sbin/mkfs.ext3
+	LINK /sbin/e2label
+	LINK /sbin/findfs
+	INSTALL /usr/bin/chattr
+	INSTALL /usr/bin/lsattr
+	INSTALL /usr/bin/uuidgen
+	INSTALL /usr/lib/e2initrd_helper
+	INSTALL_DATA /usr/share/man/man8/tune2fs.8
+	INSTALL_DATA /usr/share/man/man8/mklost+found.8
+	INSTALL_DATA /usr/share/man/man8/mke2fs.8
+	INSTALL_DATA /usr/share/man/man8/dumpe2fs.8
+	INSTALL_DATA /usr/share/man/man8/badblocks.8
+	INSTALL_DATA /usr/share/man/man8/e2label.8
+	INSTALL_DATA /usr/share/man/man8/findfs.8
+	INSTALL_DATA /usr/share/man/man8/blkid.8
+	INSTALL_DATA /usr/share/man/man8/e2image.8
+	INSTALL_DATA /usr/share/man/man8/logsave.8
+	INSTALL_DATA /usr/share/man/man8/filefrag.8
+	INSTALL_DATA /usr/share/man/man8/fsck.8
+	LINK mkfs.ext2.8
+	LINK mkfs.ext3.8
+	INSTALL_DATA /usr/share/man/man1/chattr.1
+	INSTALL_DATA /usr/share/man/man1/lsattr.1
+	INSTALL_DATA /usr/share/man/man1/uuidgen.1
+	INSTALL_DATA /usr/share/man/man5/mke2fs.conf.5
+	INSTALL_DATA /etc/mke2fs.conf
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/misc'
+making install in resize
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/resize'
+	MKINSTALLDIRS /sbin /usr/share/man/man8
+	INSTALL /sbin/resize2fs
+	INSTALL_DATA /usr/share/man/man8/resize2fs.8
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/resize'
+making install in tests/progs
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/tests/progs'
+make[1]: Nothing to be done for `install'.
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/tests/progs'
+making install in po
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/po'
+/bin/sh ../../config/mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/../../../pkg/debian/usr/share
+mkdir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/../../../pkg/debian/usr/share/locale
+mkdir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/../../../pkg/debian/usr/share/locale/cs
+mkdir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/../../../pkg/debian/usr/share/locale/cs/LC_MESSAGES
+installing ../../po/cs.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/../../../pkg/debian/usr/share/locale/cs/LC_MESSAGES/e2fsprogs.mo
+mkdir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/../../../pkg/debian/usr/share/locale/de
+mkdir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/../../../pkg/debian/usr/share/locale/de/LC_MESSAGES
+installing ../../po/de.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/../../../pkg/debian/usr/share/locale/de/LC_MESSAGES/e2fsprogs.mo
+mkdir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/../../../pkg/debian/usr/share/locale/es
+mkdir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/../../../pkg/debian/usr/share/locale/es/LC_MESSAGES
+installing ../../po/es.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/../../../pkg/debian/usr/share/locale/es/LC_MESSAGES/e2fsprogs.mo
+mkdir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/../../../pkg/debian/usr/share/locale/fr
+mkdir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/../../../pkg/debian/usr/share/locale/fr/LC_MESSAGES
+installing ../../po/fr.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/../../../pkg/debian/usr/share/locale/fr/LC_MESSAGES/e2fsprogs.mo
+mkdir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/../../../pkg/debian/usr/share/locale/it
+mkdir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/../../../pkg/debian/usr/share/locale/it/LC_MESSAGES
+installing ../../po/it.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/../../../pkg/debian/usr/share/locale/it/LC_MESSAGES/e2fsprogs.mo
+mkdir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/../../../pkg/debian/usr/share/locale/nl
+mkdir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/../../../pkg/debian/usr/share/locale/nl/LC_MESSAGES
+installing ../../po/nl.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/../../../pkg/debian/usr/share/locale/nl/LC_MESSAGES/e2fsprogs.mo
+mkdir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/../../../pkg/debian/usr/share/locale/pl
+mkdir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/../../../pkg/debian/usr/share/locale/pl/LC_MESSAGES
+installing ../../po/pl.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/../../../pkg/debian/usr/share/locale/pl/LC_MESSAGES/e2fsprogs.mo
+mkdir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/../../../pkg/debian/usr/share/locale/rw
+mkdir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/../../../pkg/debian/usr/share/locale/rw/LC_MESSAGES
+installing ../../po/rw.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/../../../pkg/debian/usr/share/locale/rw/LC_MESSAGES/e2fsprogs.mo
+mkdir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/../../../pkg/debian/usr/share/locale/sv
+mkdir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/../../../pkg/debian/usr/share/locale/sv/LC_MESSAGES
+installing ../../po/sv.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/../../../pkg/debian/usr/share/locale/sv/LC_MESSAGES/e2fsprogs.mo
+mkdir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/../../../pkg/debian/usr/share/locale/tr
+mkdir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/../../../pkg/debian/usr/share/locale/tr/LC_MESSAGES
+installing ../../po/tr.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/../../../pkg/debian/usr/share/locale/tr/LC_MESSAGES/e2fsprogs.mo
+if test "e2fsprogs" = "gettext-tools"; then \
+  /bin/sh ../../config/mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/../../../pkg/debian/usr/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /usr/bin/install -c -m 644 ../../po/$file \
+		    /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/../../../pkg/debian/usr/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/../../../pkg/debian/usr/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/po'
+making install-shlibs in lib/et
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/lib/et'
+	MKINSTALLDIRS /lib /usr/lib
+mkdir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/../../../pkg/debian/lib
+	INSTALL-ELF-LIB /lib/libcom_err.so.2.1
+	SYMLINK /lib/libcom_err.so.2
+	SYMLINK /usr/lib/libcom_err.so
+	LDCONFIG
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/lib/et'
+making install-shlibs in lib/ss
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/lib/ss'
+	MKINSTALLDIRS /lib /usr/lib
+	INSTALL-ELF-LIB /lib/libss.so.2.0
+	SYMLINK /lib/libss.so.2
+	SYMLINK /usr/lib/libss.so
+	LDCONFIG
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/lib/ss'
+making install-shlibs in lib/e2p
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/lib/e2p'
+	MKINSTALLDIRS /lib /usr/lib
+	INSTALL-ELF-LIB /lib/libe2p.so.2.3
+	SYMLINK /lib/libe2p.so.2
+	SYMLINK /usr/lib/libe2p.so
+	LDCONFIG
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/lib/e2p'
+making install-shlibs in lib/ext2fs
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/lib/ext2fs'
+	MKINSTALLDIRS /lib /usr/lib
+	INSTALL-ELF-LIB /lib/libext2fs.so.2.4
+	SYMLINK /lib/libext2fs.so.2
+	SYMLINK /usr/lib/libext2fs.so
+	LDCONFIG
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/lib/ext2fs'
+making install-shlibs in lib/uuid
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/lib/uuid'
+	MKINSTALLDIRS /lib /usr/lib
+	INSTALL-ELF-LIB /lib/libuuid.so.1.2
+	SYMLINK /lib/libuuid.so.1
+	SYMLINK /usr/lib/libuuid.so
+	LDCONFIG
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/lib/uuid'
+making install-shlibs in lib/blkid
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/lib/blkid'
+	MKINSTALLDIRS /lib /usr/lib
+	INSTALL-ELF-LIB /lib/libblkid.so.1.0
+	SYMLINK /lib/libblkid.so.1
+	SYMLINK /usr/lib/libblkid.so
+	LDCONFIG
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/lib/blkid'
+making install-shlibs in intl
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/intl'
+make[1]: Nothing to be done for `install-shlibs'.
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/intl'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/doc'
+	MKINSTALLDIRS /usr/share/info
+mkdir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/../../../pkg/debian/usr/share/info
+	INSTALL_DATA /usr/share/info/libext2fs.info
+	GZIP /usr/share/info/libext2fs.info*
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/e2fsprogs/e2fsprogs-1.39/unpack/e2fsprogs-1.39/build/doc'
+if test ! -d e2fsck && test ! -d debugfs && test ! -d misc && test ! -d ext2ed ; then make install-libs ; fi

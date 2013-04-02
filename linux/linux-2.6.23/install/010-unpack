@@ -1,0 +1,5 @@
+#!/bin/bash
+
+source configure
+
+ABUnpack | tee ../logs/010-unpack.log

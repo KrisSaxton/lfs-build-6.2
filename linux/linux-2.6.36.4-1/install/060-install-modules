@@ -1,0 +1,12 @@
+#!/bin/bash
+
+source configure
+
+pushd ../unpack/*
+
+make \
+    INSTALL_MOD_PATH=$PWD/../../pkg/debian \
+    modules_install \
+    | ABLog
+
+popd

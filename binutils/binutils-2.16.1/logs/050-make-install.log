@@ -1,0 +1,469 @@
+/bin/sh ../unpack/binutils-2.16.1/mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/bfd'
+Making install in doc
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/bfd/doc'
+test -z "/usr/share/info" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/info"
+ /usr/bin/install -c -m 644 '../../../unpack/binutils-2.16.1/bfd/doc/bfd.info' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/info/bfd.info'
+ /usr/bin/install -c -m 644 '../../../unpack/binutils-2.16.1/bfd/doc/bfd.info-1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/info/bfd.info-1'
+ /usr/bin/install -c -m 644 '../../../unpack/binutils-2.16.1/bfd/doc/bfd.info-2' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/info/bfd.info-2'
+ install-info --info-dir='/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/info' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/info/bfd.info'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/bfd/doc'
+Making install in po
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/bfd/po'
+if test -r ../../../unpack/binutils-2.16.1/bfd/po/../../mkinstalldirs; then \
+  ../../../unpack/binutils-2.16.1/bfd/po/../../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share; \
+else \
+  ../../../unpack/binutils-2.16.1/bfd/mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share; \
+fi
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/locale/fr/LC_MESSAGES
+installing ../../../unpack/binutils-2.16.1/bfd/po/fr.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/locale/fr/LC_MESSAGES/bfd.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/locale/tr/LC_MESSAGES
+installing ../../../unpack/binutils-2.16.1/bfd/po/tr.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/locale/tr/LC_MESSAGES/bfd.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/locale/ja/LC_MESSAGES
+installing ../../../unpack/binutils-2.16.1/bfd/po/ja.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/locale/ja/LC_MESSAGES/bfd.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/locale/es/LC_MESSAGES
+installing ../../../unpack/binutils-2.16.1/bfd/po/es.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/locale/es/LC_MESSAGES/bfd.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/locale/sv/LC_MESSAGES
+installing ../../../unpack/binutils-2.16.1/bfd/po/sv.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/locale/sv/LC_MESSAGES/bfd.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/locale/da/LC_MESSAGES
+installing ../../../unpack/binutils-2.16.1/bfd/po/da.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/locale/da/LC_MESSAGES/bfd.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/locale/zh_CN/LC_MESSAGES
+installing ../../../unpack/binutils-2.16.1/bfd/po/zh_CN.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/locale/zh_CN/LC_MESSAGES/bfd.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/locale/ro/LC_MESSAGES
+installing ../../../unpack/binutils-2.16.1/bfd/po/ro.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/locale/ro/LC_MESSAGES/bfd.mo
+if test "bfd" = "gettext"; then \
+  if test -r ../../../unpack/binutils-2.16.1/bfd/po/../../mkinstalldirs; then \
+    ../../../unpack/binutils-2.16.1/bfd/po/../../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/gettext/po; \
+  else \
+    ../../../unpack/binutils-2.16.1/bfd/mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/gettext/po; \
+  fi; \
+  /usr/bin/install -c -m 644 ../../../unpack/binutils-2.16.1/bfd/po/Makefile.in.in \
+		  /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/gettext/po/Makefile.in.in; \
+else \
+  : ; \
+fi
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/bfd/po'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/bfd'
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/bfd'
+make[3]: Nothing to be done for `install-exec-am'.
+/bin/sh ../../unpack/binutils-2.16.1/bfd/../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/lib
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/lib
+/bin/sh ../../unpack/binutils-2.16.1/bfd/../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/include
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/include
+/bin/sh ./libtool  --mode=install /usr/bin/install -c libbfd.la /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/lib/libbfd.la
+/usr/bin/install -c .libs/libbfd-2.16.1.so /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/lib/libbfd-2.16.1.so
+(cd /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/lib && rm -f libbfd.so && ln -s libbfd-2.16.1.so libbfd.so)
+/usr/bin/install -c .libs/libbfd.lai /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/lib/libbfd.la
+/usr/bin/install -c .libs/libbfd.a /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/lib/libbfd.a
+ranlib /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/lib/libbfd.a
+chmod 644 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/lib/libbfd.a
+/usr/bin/install -c -m 644 bfd.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/include/bfd.h
+/usr/bin/install -c -m 644 ../../unpack/binutils-2.16.1/bfd/../include/ansidecl.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/include/ansidecl.h
+/usr/bin/install -c -m 644 ../../unpack/binutils-2.16.1/bfd/../include/symcat.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/include/symcat.h
+/usr/bin/install -c -m 644 ../../unpack/binutils-2.16.1/bfd/../include/bfdlink.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/include/bfdlink.h
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/bfd'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/bfd'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/bfd'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/opcodes'
+Making install in po
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/opcodes/po'
+if test -r ../../../unpack/binutils-2.16.1/opcodes/po/../../mkinstalldirs; then \
+  ../../../unpack/binutils-2.16.1/opcodes/po/../../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share; \
+else \
+  ../../../unpack/binutils-2.16.1/opcodes/mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share; \
+fi
+installing ../../../unpack/binutils-2.16.1/opcodes/po/fr.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/locale/fr/LC_MESSAGES/opcodes.mo
+installing ../../../unpack/binutils-2.16.1/opcodes/po/sv.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/locale/sv/LC_MESSAGES/opcodes.mo
+installing ../../../unpack/binutils-2.16.1/opcodes/po/tr.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/locale/tr/LC_MESSAGES/opcodes.mo
+installing ../../../unpack/binutils-2.16.1/opcodes/po/es.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/locale/es/LC_MESSAGES/opcodes.mo
+installing ../../../unpack/binutils-2.16.1/opcodes/po/da.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/locale/da/LC_MESSAGES/opcodes.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/locale/de/LC_MESSAGES
+installing ../../../unpack/binutils-2.16.1/opcodes/po/de.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/locale/de/LC_MESSAGES/opcodes.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/locale/id/LC_MESSAGES
+installing ../../../unpack/binutils-2.16.1/opcodes/po/id.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/locale/id/LC_MESSAGES/opcodes.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/locale/pt_BR/LC_MESSAGES
+installing ../../../unpack/binutils-2.16.1/opcodes/po/pt_BR.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/locale/pt_BR/LC_MESSAGES/opcodes.mo
+installing ../../../unpack/binutils-2.16.1/opcodes/po/ro.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/locale/ro/LC_MESSAGES/opcodes.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/locale/nl/LC_MESSAGES
+installing ../../../unpack/binutils-2.16.1/opcodes/po/nl.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/locale/nl/LC_MESSAGES/opcodes.mo
+if test "opcodes" = "gettext"; then \
+  if test -r ../../../unpack/binutils-2.16.1/opcodes/po/../../mkinstalldirs; then \
+    ../../../unpack/binutils-2.16.1/opcodes/po/../../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/gettext/po; \
+  else \
+    ../../../unpack/binutils-2.16.1/opcodes/mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/gettext/po; \
+  fi; \
+  /usr/bin/install -c -m 644 ../../../unpack/binutils-2.16.1/opcodes/po/Makefile.in.in \
+		  /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/gettext/po/Makefile.in.in; \
+else \
+  : ; \
+fi
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/opcodes/po'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/opcodes'
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/opcodes'
+make[3]: Nothing to be done for `install-exec-am'.
+/bin/sh ../../unpack/binutils-2.16.1/opcodes/../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/lib
+/bin/sh ../../unpack/binutils-2.16.1/opcodes/../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/include
+/bin/sh ./libtool  --mode=install /usr/bin/install -c libopcodes.la /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/lib/libopcodes.la
+/usr/bin/install -c .libs/libopcodes-2.16.1.so /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/lib/libopcodes-2.16.1.so
+(cd /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/lib && rm -f libopcodes.so && ln -s libopcodes-2.16.1.so libopcodes.so)
+/usr/bin/install -c .libs/libopcodes.lai /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/lib/libopcodes.la
+/usr/bin/install -c .libs/libopcodes.a /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/lib/libopcodes.a
+ranlib /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/lib/libopcodes.a
+chmod 644 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/lib/libopcodes.a
+/usr/bin/install -c -m 644 ../../unpack/binutils-2.16.1/opcodes/../include/dis-asm.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/include/dis-asm.h
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/opcodes'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/opcodes'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/opcodes'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/binutils'
+Making install in doc
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/binutils/doc'
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/binutils/doc'
+make[3]: Nothing to be done for `install-exec-am'.
+make  install-man1
+make[4]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/binutils/doc'
+/bin/sh ../../../unpack/binutils-2.16.1/binutils/../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/man/man1
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/man/man1
+ /usr/bin/install -c -m 644 ../../../unpack/binutils-2.16.1/binutils/doc/addr2line.1 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/man/man1/addr2line.1
+ /usr/bin/install -c -m 644 ../../../unpack/binutils-2.16.1/binutils/doc/ar.1 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/man/man1/ar.1
+ /usr/bin/install -c -m 644 ../../../unpack/binutils-2.16.1/binutils/doc/dlltool.1 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/man/man1/dlltool.1
+ /usr/bin/install -c -m 644 ../../../unpack/binutils-2.16.1/binutils/doc/nlmconv.1 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/man/man1/nlmconv.1
+ /usr/bin/install -c -m 644 ../../../unpack/binutils-2.16.1/binutils/doc/nm.1 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/man/man1/nm.1
+ /usr/bin/install -c -m 644 ../../../unpack/binutils-2.16.1/binutils/doc/objcopy.1 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/man/man1/objcopy.1
+ /usr/bin/install -c -m 644 ../../../unpack/binutils-2.16.1/binutils/doc/objdump.1 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/man/man1/objdump.1
+ /usr/bin/install -c -m 644 ../../../unpack/binutils-2.16.1/binutils/doc/ranlib.1 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/man/man1/ranlib.1
+ /usr/bin/install -c -m 644 ../../../unpack/binutils-2.16.1/binutils/doc/readelf.1 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/man/man1/readelf.1
+ /usr/bin/install -c -m 644 ../../../unpack/binutils-2.16.1/binutils/doc/size.1 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/man/man1/size.1
+ /usr/bin/install -c -m 644 ../../../unpack/binutils-2.16.1/binutils/doc/strings.1 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/man/man1/strings.1
+ /usr/bin/install -c -m 644 ../../../unpack/binutils-2.16.1/binutils/doc/strip.1 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/man/man1/strip.1
+ /usr/bin/install -c -m 644 ../../../unpack/binutils-2.16.1/binutils/doc/windres.1 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/man/man1/windres.1
+ /usr/bin/install -c -m 644 c++filt.1 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/man/man1/c++filt.1
+make[4]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/binutils/doc'
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/binutils/doc'
+rm -f config.texi
+echo '@set VERSION 2.16.1' > config.texi
+echo "@set UPDATED `date "+%B %Y"`" >> config.texi
+makeinfo --split-size=5000000 -I ../../../unpack/binutils-2.16.1/binutils/doc ../../../unpack/binutils-2.16.1/binutils/doc/binutils.texi
+/bin/sh ../../../unpack/binutils-2.16.1/binutils/../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/info
+ /usr/bin/install -c -m 644 ./binutils.info /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/info/binutils.info
+ install-info --info-dir=/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/info /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/info/binutils.info
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/binutils/doc'
+Making install in po
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/binutils/po'
+if test -r ../../../unpack/binutils-2.16.1/binutils/po/../../mkinstalldirs; then \
+  ../../../unpack/binutils-2.16.1/binutils/po/../../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share; \
+else \
+  ../../../unpack/binutils-2.16.1/binutils/mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share; \
+fi
+installing ../../../unpack/binutils-2.16.1/binutils/po/fr.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/locale/fr/LC_MESSAGES/binutils.mo
+installing ../../../unpack/binutils-2.16.1/binutils/po/tr.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/locale/tr/LC_MESSAGES/binutils.mo
+installing ../../../unpack/binutils-2.16.1/binutils/po/ja.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/locale/ja/LC_MESSAGES/binutils.mo
+installing ../../../unpack/binutils-2.16.1/binutils/po/es.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/locale/es/LC_MESSAGES/binutils.mo
+installing ../../../unpack/binutils-2.16.1/binutils/po/sv.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/locale/sv/LC_MESSAGES/binutils.mo
+installing ../../../unpack/binutils-2.16.1/binutils/po/da.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/locale/da/LC_MESSAGES/binutils.mo
+installing ../../../unpack/binutils-2.16.1/binutils/po/zh_CN.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/locale/zh_CN/LC_MESSAGES/binutils.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/locale/ru/LC_MESSAGES
+installing ../../../unpack/binutils-2.16.1/binutils/po/ru.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/locale/ru/LC_MESSAGES/binutils.mo
+installing ../../../unpack/binutils-2.16.1/binutils/po/ro.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/locale/ro/LC_MESSAGES/binutils.mo
+if test "binutils" = "gettext"; then \
+  if test -r ../../../unpack/binutils-2.16.1/binutils/po/../../mkinstalldirs; then \
+    ../../../unpack/binutils-2.16.1/binutils/po/../../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/gettext/po; \
+  else \
+    ../../../unpack/binutils-2.16.1/binutils/mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/gettext/po; \
+  fi; \
+  /usr/bin/install -c -m 644 ../../../unpack/binutils-2.16.1/binutils/po/Makefile.in.in \
+		  /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/gettext/po/Makefile.in.in; \
+else \
+  : ; \
+fi
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/binutils/po'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/binutils'
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/binutils'
+/bin/sh ../../unpack/binutils-2.16.1/binutils/../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/bin
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/bin
+ /bin/sh ./libtool  --mode=install /usr/bin/install -c size /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/bin/size
+/usr/bin/install -c .libs/size /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/bin/size
+ /bin/sh ./libtool  --mode=install /usr/bin/install -c objdump /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/bin/objdump
+/usr/bin/install -c .libs/objdump /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/bin/objdump
+ /bin/sh ./libtool  --mode=install /usr/bin/install -c ar /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/bin/ar
+/usr/bin/install -c .libs/ar /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/bin/ar
+ /bin/sh ./libtool  --mode=install /usr/bin/install -c strings /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/bin/strings
+/usr/bin/install -c .libs/strings /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/bin/strings
+ /bin/sh ./libtool  --mode=install /usr/bin/install -c ranlib /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/bin/ranlib
+/usr/bin/install -c .libs/ranlib /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/bin/ranlib
+ /bin/sh ./libtool  --mode=install /usr/bin/install -c objcopy /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/bin/objcopy
+/usr/bin/install -c .libs/objcopy /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/bin/objcopy
+ /bin/sh ./libtool  --mode=install /usr/bin/install -c addr2line /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/bin/addr2line
+/usr/bin/install -c .libs/addr2line /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/bin/addr2line
+ /bin/sh ./libtool  --mode=install /usr/bin/install -c readelf /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/bin/readelf
+/usr/bin/install -c readelf /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/bin/readelf
+ /bin/sh ./libtool  --mode=install /usr/bin/install -c nm-new /usr/bin/nm
+/usr/bin/install -c .libs/nm-new /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/bin/nm
+ /bin/sh ./libtool  --mode=install /usr/bin/install -c strip-new /usr/bin/strip
+/usr/bin/install -c .libs/strip-new /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/bin/strip
+ /bin/sh ./libtool  --mode=install /usr/bin/install -c cxxfilt /usr/bin/c++filt
+/usr/bin/install -c .libs/cxxfilt /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/bin/c++filt
+/bin/sh ../../unpack/binutils-2.16.1/binutils/../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/bin
+for i in nm-new strip-new ar ranlib dlltool objdump; do \
+  if [ -f $i ]; then \
+    j=`echo $i | sed -e 's/-new//'`; \
+    k=`echo $j | sed 's,y,y,'`; \
+    if [ "/usr/bin/$k" != "/usr/bin/$j" ]; then \
+      rm -f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/bin/$j; \
+      ln /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/bin/$k /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/bin/$j >/dev/null 2>/dev/null \
+	|| /bin/sh ./libtool --mode=install /usr/bin/install -c $i /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/bin/$j; \
+    fi; \
+  else true; \
+  fi; \
+done
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/binutils'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/binutils'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/binutils'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/etc'
+for f in standards.info configure.info; do \
+  if test -f ../../unpack/binutils-2.16.1/etc/`echo $f | sed -e 's/.info$/.texi/'`; then \
+    if make "MAKEINFO=makeinfo --split-size=5000000" $f; then \
+      true; \
+    else \
+      exit 1; \
+    fi; \
+  fi; \
+done
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/etc'
+make[2]: `../../unpack/binutils-2.16.1/etc/standards.info' is up to date.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/etc'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/etc'
+make[2]: `../../unpack/binutils-2.16.1/etc/configure.info' is up to date.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/etc'
+/bin/sh ../../unpack/binutils-2.16.1/etc/../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/info
+if test ! -f standards.info; then cd ../../unpack/binutils-2.16.1/etc; fi; \
+if test -f standards.info; then \
+  for i in standards.info*; do \
+    /usr/bin/install -c -m 644 $i /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/info/$i; \
+  done; \
+fi
+if test ! -f configure.info; then cd ../../unpack/binutils-2.16.1/etc; fi; \
+if test -f configure.info; then \
+  for i in configure.info*; do \
+    /usr/bin/install -c -m 644 $i /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/info/$i; \
+  done; \
+fi
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/etc'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/gas'
+Making install in doc
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/gas/doc'
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/gas/doc'
+make[3]: Nothing to be done for `install-exec-am'.
+test -z "/usr/share/info" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/info"
+ /usr/bin/install -c -m 644 '../../../unpack/binutils-2.16.1/gas/doc/as.info' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/info/as.info'
+ /usr/bin/install -c -m 644 '../../../unpack/binutils-2.16.1/gas/doc/as.info-1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/info/as.info-1'
+ /usr/bin/install -c -m 644 '../../../unpack/binutils-2.16.1/gas/doc/as.info-2' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/info/as.info-2'
+ /usr/bin/install -c -m 644 '../../../unpack/binutils-2.16.1/gas/doc/as.info-3' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/info/as.info-3'
+ install-info --info-dir='/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/info' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/info/as.info'
+test -z "/usr/share/man/man1" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/man/man1"
+ /usr/bin/install -c -m 644 '../../../unpack/binutils-2.16.1/gas/doc/as.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/man/man1/as.1'
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/gas/doc'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/gas/doc'
+Making install in po
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/gas/po'
+if test -r ../../../unpack/binutils-2.16.1/gas/po/../../mkinstalldirs; then \
+  ../../../unpack/binutils-2.16.1/gas/po/../../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share; \
+else \
+  ../../../unpack/binutils-2.16.1/gas/mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share; \
+fi
+installing ../../../unpack/binutils-2.16.1/gas/po/fr.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/locale/fr/LC_MESSAGES/gas.mo
+installing ../../../unpack/binutils-2.16.1/gas/po/tr.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/locale/tr/LC_MESSAGES/gas.mo
+installing ../../../unpack/binutils-2.16.1/gas/po/es.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/locale/es/LC_MESSAGES/gas.mo
+if test "gas" = "gettext"; then \
+  if test -r ../../../unpack/binutils-2.16.1/gas/po/../../mkinstalldirs; then \
+    ../../../unpack/binutils-2.16.1/gas/po/../../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/gettext/po; \
+  else \
+    ../../../unpack/binutils-2.16.1/gas/mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/gettext/po; \
+  fi; \
+  /usr/bin/install -c -m 644 ../../../unpack/binutils-2.16.1/gas/po/Makefile.in.in \
+		  /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/gettext/po/Makefile.in.in; \
+else \
+  : ; \
+fi
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/gas/po'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/gas'
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/gas'
+/bin/sh ../../unpack/binutils-2.16.1/gas/../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/bin
+ /bin/sh ./libtool  --mode=install /usr/bin/install -c as-new /usr/bin/as
+/usr/bin/install -c .libs/as-new /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/bin/as
+/bin/sh ../../unpack/binutils-2.16.1/gas/../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/bin
+n=`echo as | sed 's,y,y,'`; \
+if [ "/usr/bin/$n" != "/usr/bin/as" ]; then \
+  rm -f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/bin/as; \
+  ln /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/bin/$n /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/bin/as >/dev/null 2>/dev/null \
+    || /bin/sh ./libtool --mode=install /usr/bin/install -c as-new /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/bin/as; \
+else \
+  true ; \
+fi
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/gas'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/gas'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/gas'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/gprof'
+make  install-recursive
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/gprof'
+Making install in po
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/gprof/po'
+if test -r ../../../unpack/binutils-2.16.1/gprof/po/../../mkinstalldirs; then \
+  ../../../unpack/binutils-2.16.1/gprof/po/../../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share; \
+else \
+  ../../../unpack/binutils-2.16.1/gprof/mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share; \
+fi
+installing ../../../unpack/binutils-2.16.1/gprof/po/fr.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/locale/fr/LC_MESSAGES/gprof.mo
+installing ../../../unpack/binutils-2.16.1/gprof/po/tr.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/locale/tr/LC_MESSAGES/gprof.mo
+installing ../../../unpack/binutils-2.16.1/gprof/po/sv.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/locale/sv/LC_MESSAGES/gprof.mo
+installing ../../../unpack/binutils-2.16.1/gprof/po/es.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/locale/es/LC_MESSAGES/gprof.mo
+installing ../../../unpack/binutils-2.16.1/gprof/po/id.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/locale/id/LC_MESSAGES/gprof.mo
+installing ../../../unpack/binutils-2.16.1/gprof/po/da.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/locale/da/LC_MESSAGES/gprof.mo
+installing ../../../unpack/binutils-2.16.1/gprof/po/pt_BR.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/locale/pt_BR/LC_MESSAGES/gprof.mo
+installing ../../../unpack/binutils-2.16.1/gprof/po/de.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/locale/de/LC_MESSAGES/gprof.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/locale/vi/LC_MESSAGES
+installing ../../../unpack/binutils-2.16.1/gprof/po/vi.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/locale/vi/LC_MESSAGES/gprof.mo
+if test "gprof" = "gettext"; then \
+  if test -r ../../../unpack/binutils-2.16.1/gprof/po/../../mkinstalldirs; then \
+    ../../../unpack/binutils-2.16.1/gprof/po/../../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/gettext/po; \
+  else \
+    ../../../unpack/binutils-2.16.1/gprof/mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/gettext/po; \
+  fi; \
+  /usr/bin/install -c -m 644 ../../../unpack/binutils-2.16.1/gprof/po/Makefile.in.in \
+		  /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/gettext/po/Makefile.in.in; \
+else \
+  : ; \
+fi
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/gprof/po'
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/gprof'
+make[4]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/gprof'
+test -z "/usr/bin" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/bin"
+  /bin/sh ./libtool --mode=install /usr/bin/install -c 'gprof' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/bin/gprof'
+/usr/bin/install -c .libs/gprof /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/bin/gprof
+Making install-info in po
+make[5]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/gprof/po'
+make[5]: Nothing to be done for `install-info'.
+make[5]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/gprof/po'
+make[5]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/gprof'
+test -z "/usr/share/info" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/info"
+ /usr/bin/install -c -m 644 '../../unpack/binutils-2.16.1/gprof/gprof.info' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/info/gprof.info'
+ install-info --info-dir='/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/info' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/info/gprof.info'
+make[5]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/gprof'
+test -z "/usr/share/man/man1" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/man/man1"
+ /usr/bin/install -c -m 644 '../../unpack/binutils-2.16.1/gprof/gprof.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/man/man1/gprof.1'
+make[4]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/gprof'
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/gprof'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/gprof'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/gprof'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/intl'
+if test "@PACKAGE@" = "gettext" \
+   && test '' = 'intl-compat.o'; then \
+  if test -r ../../unpack/binutils-2.16.1/intl/../../mkinstalldirs; then \
+    ../../unpack/binutils-2.16.1/intl/../../mkinstalldirs /usr/lib /usr/include; \
+  else \
+    ../../unpack/binutils-2.16.1/intl/mkinstalldirs /usr/lib /usr/include; \
+  fi; \
+  /usr/bin/install -c -m 644 intlh.inst /usr/include/libintl.h; \
+  /usr/bin/install -c -m 644 libintl.a /usr/lib/libintl.a; \
+else \
+  : ; \
+fi
+if test "@PACKAGE@" = "gettext"; then \
+  if test -r ../../unpack/binutils-2.16.1/intl/../../mkinstalldirs; then \
+    ../../unpack/binutils-2.16.1/intl/../../mkinstalldirs /usr/share/gettext/intl; \
+  else \
+    ../../unpack/binutils-2.16.1/intl/mkinstalldirs /usr/share/gettext/intl; \
+  fi; \
+  /usr/bin/install -c -m 644 VERSION /usr/share/gettext/intl/VERSION; \
+  dists="ChangeLog Makefile.in linux-msg.sed po2tbl.sed.in xopen-msg.sed gettext.h gettextP.h hash-string.h libgettext.h loadinfo.h bindtextdom.c dcgettext.c dgettext.c gettext.c finddomain.c loadmsgcat.c localealias.c textdomain.c l10nflist.c explodename.c intl-compat.c cat-compat.c"; \
+  for file in $dists; do \
+    /usr/bin/install -c -m 644 ../../unpack/binutils-2.16.1/intl/$file /usr/share/gettext/intl/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/intl'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/ld'
+Making install in po
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/ld/po'
+if test -r ../../../unpack/binutils-2.16.1/ld/po/../../mkinstalldirs; then \
+  ../../../unpack/binutils-2.16.1/ld/po/../../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share; \
+else \
+  ../../../unpack/binutils-2.16.1/ld/mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share; \
+fi
+installing ../../../unpack/binutils-2.16.1/ld/po/fr.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/locale/fr/LC_MESSAGES/ld.mo
+installing ../../../unpack/binutils-2.16.1/ld/po/sv.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/locale/sv/LC_MESSAGES/ld.mo
+installing ../../../unpack/binutils-2.16.1/ld/po/tr.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/locale/tr/LC_MESSAGES/ld.mo
+installing ../../../unpack/binutils-2.16.1/ld/po/es.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/locale/es/LC_MESSAGES/ld.mo
+installing ../../../unpack/binutils-2.16.1/ld/po/da.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/locale/da/LC_MESSAGES/ld.mo
+if test "ld" = "gettext"; then \
+  if test -r ../../../unpack/binutils-2.16.1/ld/po/../../mkinstalldirs; then \
+    ../../../unpack/binutils-2.16.1/ld/po/../../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/gettext/po; \
+  else \
+    ../../../unpack/binutils-2.16.1/ld/mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/gettext/po; \
+  fi; \
+  /usr/bin/install -c -m 644 ../../../unpack/binutils-2.16.1/ld/po/Makefile.in.in \
+		  /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/gettext/po/Makefile.in.in; \
+else \
+  : ; \
+fi
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/ld/po'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/ld'
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/ld'
+/bin/sh ../../unpack/binutils-2.16.1/ld/../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/bin /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/bin
+ /bin/sh ./libtool  --mode=install /usr/bin/install -c ld-new /usr/bin/ld
+/usr/bin/install -c .libs/ld-new /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/bin/ld
+n=`echo ld | sed 's,y,y,'`; \
+if [ "/usr/bin/$n" != "/usr/bin/ld" ]; then \
+  rm -f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/bin/ld; \
+  ln /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/bin/$n /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/bin/ld >/dev/null 2>/dev/null \
+  || /bin/sh ./libtool --mode=install /usr/bin/install -c ld-new /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/bin/ld; \
+fi
+make  install-man1
+make[4]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/ld'
+/bin/sh ../../unpack/binutils-2.16.1/ld/../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/man/man1
+ /usr/bin/install -c -m 644 ../../unpack/binutils-2.16.1/ld/ld.1 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/man/man1/ld.1
+make[4]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/ld'
+/bin/sh ../../unpack/binutils-2.16.1/ld/../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/lib/ldscripts
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/lib/ldscripts
+for f in ldscripts/*; do \
+  /usr/bin/install -c -m 644 $f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/lib/$f ; \
+done
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/ld'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/ld'
+Making install-info in po
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/ld/po'
+make[2]: Nothing to be done for `install-info'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/ld/po'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/ld'
+makeinfo --split-size=5000000 -I ../../unpack/binutils-2.16.1/ld -I ../../unpack/binutils-2.16.1/ld/../bfd/doc ../../unpack/binutils-2.16.1/ld/ld.texinfo
+/bin/sh ../../unpack/binutils-2.16.1/ld/../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/info
+ /usr/bin/install -c -m 644 ./ld.info /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/info/ld.info
+ install-info --info-dir=/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/info /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/share/info/ld.info
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/ld'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/ld'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/libiberty'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/libiberty/testsuite'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/libiberty/testsuite'
+/bin/sh ../../unpack/binutils-2.16.1/libiberty/../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/lib
+/usr/bin/install -c -m 644 ./libiberty.a /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/lib/./libiberty.an
+( cd /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/lib ; ranlib ./libiberty.an )
+mv -f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/lib/./libiberty.an /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian/usr/lib/./libiberty.a
+if test -n ""; then \
+  case "" in \
+    /*)    thd=;; \
+    *)     thd=/usr/include/;; \
+  esac; \
+  /bin/sh ../../unpack/binutils-2.16.1/libiberty/../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian${thd}; \
+  for h in ../../unpack/binutils-2.16.1/libiberty/../include/ansidecl.h ../../unpack/binutils-2.16.1/libiberty/../include/demangle.h ../../unpack/binutils-2.16.1/libiberty/../include/dyn-string.h ../../unpack/binutils-2.16.1/libiberty/../include/fibheap.h ../../unpack/binutils-2.16.1/libiberty/../include/floatformat.h ../../unpack/binutils-2.16.1/libiberty/../include/hashtab.h ../../unpack/binutils-2.16.1/libiberty/../include/libiberty.h ../../unpack/binutils-2.16.1/libiberty/../include/objalloc.h ../../unpack/binutils-2.16.1/libiberty/../include/partition.h ../../unpack/binutils-2.16.1/libiberty/../include/safe-ctype.h ../../unpack/binutils-2.16.1/libiberty/../include/sort.h ../../unpack/binutils-2.16.1/libiberty/../include/splay-tree.h ../../unpack/binutils-2.16.1/libiberty/../include/ternary.h; do \
+    /usr/bin/install -c -m 644 $h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian${thd}; \
+  done; \
+fi
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/libiberty/testsuite'
+make[2]: Nothing to be done for `install'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/libiberty/testsuite'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/libiberty'
+`../unpack/binutils-2.16.1/include/libiberty.h' -> `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/binutils/binutils-2.16.1/unpack/../pkg/debian//usr/include/libiberty.h'

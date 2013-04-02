@@ -1,0 +1,10 @@
+#!/bin/bash
+
+source configure
+
+pushd ../pkg/debian
+
+{
+rm -v usr/share/info/dir
+} | tee ../../logs/080-remove-info-dir.log
+popd

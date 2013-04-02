@@ -1,0 +1,20 @@
+#!/bin/bash
+
+source configure
+
+pushd ../pkg/debian
+
+# The following man pages are removed as we wish to keep those 
+# installed earlier by the coreutils package:
+#
+#   coreutils-5.96: /usr/share/man/man1/dir.1
+#   coreutils-5.96: /usr/share/man/man1/ls.1
+#   coreutils-5.96: /usr/share/man/man1/mkfifo.1
+
+{
+rm -v usr/share/man/man1/dir.1
+rm -v usr/share/man/man1/ls.1
+rm -v usr/share/man/man1/mkfifo.1
+} | tee ../../logs/030-fix-files.log
+
+popd

@@ -1,0 +1,9 @@
+#!/bin/bash
+
+source configure
+
+pushd ../unpack/*
+
+patch -p1 < ../../source/linux-2.6.23.12-dm-snap.patch
+
+popd

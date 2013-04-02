@@ -1,0 +1,17 @@
+#!/bin/bash
+
+source configure
+
+pushd ../unpack
+
+{
+make \
+    tooldir=$AB_PACKAGE_CONFIGURE_PREFIX \
+    DESTDIR=$PWD/../pkg/debian \
+    install
+
+cp -v ../unpack/*/include/libiberty.h $PWD/../pkg/debian/$AB_PACKAGE_CONFIGURE_PREFIX/include
+
+} | tee ../logs/050-make-install.log
+
+popd

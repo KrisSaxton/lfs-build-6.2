@@ -1,0 +1,11 @@
+#!/bin/bash
+
+source configure
+
+pushd ../build
+
+# Install the package
+make install \
+    DESTDIR=$PWD/../pkg/debian \
+    | tee ../logs/060-make-install.log
+popd

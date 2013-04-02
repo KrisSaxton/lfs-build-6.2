@@ -1,0 +1,89 @@
+Making install in netboot
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grub/grub-0.97/unpack/grub-0.97/netboot'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grub/grub-0.97/unpack/grub-0.97/netboot'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grub/grub-0.97/unpack/grub-0.97/netboot'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grub/grub-0.97/unpack/grub-0.97/netboot'
+Making install in stage2
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grub/grub-0.97/unpack/grub-0.97/stage2'
+make  install-am
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grub/grub-0.97/unpack/grub-0.97/stage2'
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grub/grub-0.97/unpack/grub-0.97/stage2'
+test -z "../../debian/usr/lib/grub" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/grub/grub-0.97/unpack/grub-0.97/../../pkg/debian../../debian/usr/lib/grub"
+ /usr/bin/install -c -m 644 'stage2' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/grub/grub-0.97/unpack/grub-0.97/../../pkg/debian../../debian/usr/lib/grub/stage2'
+ /usr/bin/install -c -m 644 'stage2_eltorito' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/grub/grub-0.97/unpack/grub-0.97/../../pkg/debian../../debian/usr/lib/grub/stage2_eltorito'
+ /usr/bin/install -c -m 644 'e2fs_stage1_5' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/grub/grub-0.97/unpack/grub-0.97/../../pkg/debian../../debian/usr/lib/grub/e2fs_stage1_5'
+ /usr/bin/install -c -m 644 'fat_stage1_5' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/grub/grub-0.97/unpack/grub-0.97/../../pkg/debian../../debian/usr/lib/grub/fat_stage1_5'
+ /usr/bin/install -c -m 644 'ffs_stage1_5' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/grub/grub-0.97/unpack/grub-0.97/../../pkg/debian../../debian/usr/lib/grub/ffs_stage1_5'
+ /usr/bin/install -c -m 644 'iso9660_stage1_5' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/grub/grub-0.97/unpack/grub-0.97/../../pkg/debian../../debian/usr/lib/grub/iso9660_stage1_5'
+ /usr/bin/install -c -m 644 'jfs_stage1_5' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/grub/grub-0.97/unpack/grub-0.97/../../pkg/debian../../debian/usr/lib/grub/jfs_stage1_5'
+ /usr/bin/install -c -m 644 'minix_stage1_5' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/grub/grub-0.97/unpack/grub-0.97/../../pkg/debian../../debian/usr/lib/grub/minix_stage1_5'
+ /usr/bin/install -c -m 644 'reiserfs_stage1_5' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/grub/grub-0.97/unpack/grub-0.97/../../pkg/debian../../debian/usr/lib/grub/reiserfs_stage1_5'
+ /usr/bin/install -c -m 644 'ufs2_stage1_5' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/grub/grub-0.97/unpack/grub-0.97/../../pkg/debian../../debian/usr/lib/grub/ufs2_stage1_5'
+ /usr/bin/install -c -m 644 'vstafs_stage1_5' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/grub/grub-0.97/unpack/grub-0.97/../../pkg/debian../../debian/usr/lib/grub/vstafs_stage1_5'
+ /usr/bin/install -c -m 644 'xfs_stage1_5' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/grub/grub-0.97/unpack/grub-0.97/../../pkg/debian../../debian/usr/lib/grub/xfs_stage1_5'
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grub/grub-0.97/unpack/grub-0.97/stage2'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grub/grub-0.97/unpack/grub-0.97/stage2'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grub/grub-0.97/unpack/grub-0.97/stage2'
+Making install in stage1
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grub/grub-0.97/unpack/grub-0.97/stage1'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grub/grub-0.97/unpack/grub-0.97/stage1'
+test -z "../../debian/usr/lib/grub" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/grub/grub-0.97/unpack/grub-0.97/../../pkg/debian../../debian/usr/lib/grub"
+ /usr/bin/install -c -m 644 'stage1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/grub/grub-0.97/unpack/grub-0.97/../../pkg/debian../../debian/usr/lib/grub/stage1'
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grub/grub-0.97/unpack/grub-0.97/stage1'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grub/grub-0.97/unpack/grub-0.97/stage1'
+Making install in lib
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grub/grub-0.97/unpack/grub-0.97/lib'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grub/grub-0.97/unpack/grub-0.97/lib'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grub/grub-0.97/unpack/grub-0.97/lib'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grub/grub-0.97/unpack/grub-0.97/lib'
+Making install in grub
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grub/grub-0.97/unpack/grub-0.97/grub'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grub/grub-0.97/unpack/grub-0.97/grub'
+test -z "/usr/sbin" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/grub/grub-0.97/unpack/grub-0.97/../../pkg/debian/usr/sbin"
+  /usr/bin/install -c 'grub' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/grub/grub-0.97/unpack/grub-0.97/../../pkg/debian/usr/sbin/grub'
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grub/grub-0.97/unpack/grub-0.97/grub'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grub/grub-0.97/unpack/grub-0.97/grub'
+Making install in util
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grub/grub-0.97/unpack/grub-0.97/util'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grub/grub-0.97/unpack/grub-0.97/util'
+test -z "/usr/bin" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/grub/grub-0.97/unpack/grub-0.97/../../pkg/debian/usr/bin"
+  /usr/bin/install -c 'mbchk' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/grub/grub-0.97/unpack/grub-0.97/../../pkg/debian/usr/bin/mbchk'
+test -z "/usr/sbin" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/grub/grub-0.97/unpack/grub-0.97/../../pkg/debian/usr/sbin"
+ /usr/bin/install -c 'grub-install' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/grub/grub-0.97/unpack/grub-0.97/../../pkg/debian/usr/sbin/grub-install'
+ /usr/bin/install -c 'grub-md5-crypt' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/grub/grub-0.97/unpack/grub-0.97/../../pkg/debian/usr/sbin/grub-md5-crypt'
+ /usr/bin/install -c 'grub-terminfo' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/grub/grub-0.97/unpack/grub-0.97/../../pkg/debian/usr/sbin/grub-terminfo'
+ /usr/bin/install -c 'grub-set-default' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/grub/grub-0.97/unpack/grub-0.97/../../pkg/debian/usr/sbin/grub-set-default'
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grub/grub-0.97/unpack/grub-0.97/util'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grub/grub-0.97/unpack/grub-0.97/util'
+Making install in docs
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grub/grub-0.97/unpack/grub-0.97/docs'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grub/grub-0.97/unpack/grub-0.97/docs'
+make[2]: Nothing to be done for `install-exec-am'.
+test -z "/usr/share/info" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/grub/grub-0.97/unpack/grub-0.97/../../pkg/debian/usr/share/info"
+ /usr/bin/install -c -m 644 './grub.info' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/grub/grub-0.97/unpack/grub-0.97/../../pkg/debian/usr/share/info/grub.info'
+ /usr/bin/install -c -m 644 './multiboot.info' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/grub/grub-0.97/unpack/grub-0.97/../../pkg/debian/usr/share/info/multiboot.info'
+ install-info --info-dir='/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/grub/grub-0.97/unpack/grub-0.97/../../pkg/debian/usr/share/info' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/grub/grub-0.97/unpack/grub-0.97/../../pkg/debian/usr/share/info/grub.info'
+ install-info --info-dir='/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/grub/grub-0.97/unpack/grub-0.97/../../pkg/debian/usr/share/info' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/grub/grub-0.97/unpack/grub-0.97/../../pkg/debian/usr/share/info/multiboot.info'
+test -z "/usr/share/man/man1" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/grub/grub-0.97/unpack/grub-0.97/../../pkg/debian/usr/share/man/man1"
+ /usr/bin/install -c -m 644 './mbchk.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/grub/grub-0.97/unpack/grub-0.97/../../pkg/debian/usr/share/man/man1/mbchk.1'
+test -z "/usr/share/man/man8" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/grub/grub-0.97/unpack/grub-0.97/../../pkg/debian/usr/share/man/man8"
+ /usr/bin/install -c -m 644 './grub.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/grub/grub-0.97/unpack/grub-0.97/../../pkg/debian/usr/share/man/man8/grub.8'
+ /usr/bin/install -c -m 644 './grub-install.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/grub/grub-0.97/unpack/grub-0.97/../../pkg/debian/usr/share/man/man8/grub-install.8'
+ /usr/bin/install -c -m 644 './grub-md5-crypt.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/grub/grub-0.97/unpack/grub-0.97/../../pkg/debian/usr/share/man/man8/grub-md5-crypt.8'
+ /usr/bin/install -c -m 644 './grub-terminfo.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/grub/grub-0.97/unpack/grub-0.97/../../pkg/debian/usr/share/man/man8/grub-terminfo.8'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grub/grub-0.97/unpack/grub-0.97/docs'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grub/grub-0.97/unpack/grub-0.97/docs'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grub/grub-0.97/unpack/grub-0.97'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grub/grub-0.97/unpack/grub-0.97'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grub/grub-0.97/unpack/grub-0.97'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/grub/grub-0.97/unpack/grub-0.97'

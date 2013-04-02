@@ -1,0 +1,16 @@
+#!/bin/bash
+
+source configure
+
+pushd ../unpack/*
+
+{
+ABPatch
+
+chmod +x tests/sort/sort-mb-tests
+sed -i 's/_LEN 6/_LEN 20/' src/who.c
+
+} | tee ../../logs/020-patch.log
+
+popd
+

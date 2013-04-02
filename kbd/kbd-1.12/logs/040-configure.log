@@ -1,0 +1,10 @@
+Configuring for PREFIX=/usr
+Configuring for DATADIR=/lib/kbd
+checking for gcc
+gcc is /usr/bin/gcc
+You have <locale.h>
+You have <libintl.h> and gettext()
+Assuming that you want to enable NLS support.
+(Otherwise, edit defines.h and delete the line with ENABLE_NLS)
+
+Done. You can run make now.

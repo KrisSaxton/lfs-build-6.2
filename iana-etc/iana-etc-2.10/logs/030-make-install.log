@@ -1,0 +1,3 @@
+install -d /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/iana-etc/iana-etc-2.10/unpack/iana-etc-2.10/../../pkg/debian/etc
+install -m 644 protocols /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/iana-etc/iana-etc-2.10/unpack/iana-etc-2.10/../../pkg/debian/etc
+install -m 644 services /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/iana-etc/iana-etc-2.10/unpack/iana-etc-2.10/../../pkg/debian/etc

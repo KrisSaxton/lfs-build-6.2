@@ -1,0 +1,7 @@
+#!/bin/bash
+
+source configure
+
+# Uncommnet and sub in the package names of your dependencies
+# or just leave this file if there are none.
+# ABInstallDepends <pkgdependsname>

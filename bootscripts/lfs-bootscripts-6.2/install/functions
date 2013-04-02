@@ -1,0 +1,282 @@
+#!/bin/bash
+
+################################################################################
+# ABSetDefault
+################################################################################
+
+function ABSetDefault {
+    eval deref=\$"$1"
+    [ -z "$deref" ] && eval "$1='$2'"
+}
+
+################################################################################
+# ABInstallDepends
+################################################################################
+
+function ABInstallDepends() {
+
+    local XXXXX=$(echo "$1" | tr [a-z] [A-Z])
+
+    eval AB_PACKAGE_XXXXX_INSTALL_ENABLE=\${AB_PACKAGE_"$XXXXX"_INSTALL_ENABLE}
+    eval AB_PACKAGE_XXXXX_INSTALL_FORCE=\${AB_PACKAGE_"$XXXXX"_INSTALL_FORCE}
+    eval AB_PACKAGE_XXXXX_INSTALL_NAME=\${AB_PACKAGE_"$XXXXX"_INSTALL_NAME}
+    eval AB_PACKAGE_XXXXX_INSTALL_DIR=\${AB_PACKAGE_"$XXXXX"_INSTALL_DIR}
+    eval AB_PACKAGE_XXXXX_INCLUDE_DIR=\${AB_PACKAGE_"$XXXXX"_INCLUDE_DIR}
+    eval AB_PACKAGE_XXXXX_LIB_DIR=\${AB_PACKAGE_"$XXXXX"_LIB_DIR}
+
+    if [ "$AB_PACKAGE_XXXXX_INSTALL_ENABLE" == "yes" ]; then
+        if [ "$AB_PACKAGE_XXXXX_INSTALL_FORCE" == "yes" ] || [ ! -d $AB_PACKAGE_XXXXX_INSTALL_DIR ]; then
+            (
+                pushd ../depends/$AB_PACKAGE_XXXXX_INSTALL_NAME/install;
+                source autobuild;
+                popd;
+            )
+        fi
+    fi
+}
+
+################################################################################
+# ABSetCompileFlags
+################################################################################
+
+function ABSetCompileFlags() {
+    local XXXXX_LIST=$1
+    local XXXXX
+    
+    if [ "$XXXXX_LIST" != "" ]; then
+
+        CPATH=''
+        LIBRARY_PATH=""
+
+        while true; do
+            XXXXX=${XXXXX_LIST%%:*}
+            eval CPATH="$CPATH\${AB_PACKAGE_"$XXXXX"_INCLUDE_DIR}:"
+            eval LIBRARY_PATH="$LIBRARY_PATH\${AB_PACKAGE_"$XXXXX"_LIB_DIR}:"
+            if [ "$XXXXX_LIST" == "${XXXXX_LIST%%:*}" ]; then break; else XXXXX_LIST=${XXXXX_LIST#*:}; fi
+        done
+
+        export CPATH
+        export LIBRARY_PATH
+        export LD_LIBRARY_PATH=$LIBRARY_PATH
+        export LD_RUN_PATH=$LIBRARY_PATH
+    fi
+}
+
+################################################################################
+# ABUnpack
+################################################################################
+
+function ABUnpack() {
+    for FILE in $(ls ../source/*); do
+
+    if echo $FILE | grep '.tar.gz' &>/dev/null ; then
+	tar zxvf ../source/$FILE -C ../unpack
+    elif echo $FILE | grep '.tgz' &>/dev/null ; then
+	tar zxvf ../source/$FILE -C ../unpack
+    elif echo $FILE | grep '.tar.bz2' &>/dev/null ; then
+	tar jxvf ../source/$FILE -C ../unpack
+    elif echo $FILE | grep '.tar' &>/dev/null ; then
+	tar xvf ../source/$FILE -C ../unpack
+    elif echo $FILE | grep '.gz' &>/dev/null ; then
+	gunzip ../source/$FILE -C ../unpack
+    elif echo $FILE | grep '.bz2' &>/dev/null ; then
+	bzip2 -d ../source/$FILE -C ../unpack
+    elif echo $FILE | grep '.patch' &>/dev/null ; then
+	echo "Found a patch, skipping..."
+    else echo "Failed to unpack, unknown archive type"
+    fi
+
+    done
+}
+
+################################################################################
+# ABPatch
+################################################################################
+
+function ABPatch() {
+    for FILE in $(ls ../../source/*.patch); do
+
+    patch -Np1 -i $FILE
+
+    done
+}
+
+################################################################################
+# ABGroupExists
+################################################################################
+
+function ABGroupExists() {
+    local GROUP=$1
+
+    if [ "$(getent group | grep $GROUP)" != "" ]; then
+        return 0
+    else
+        return 1
+    fi
+}
+
+################################################################################
+# ABUserExists
+################################################################################
+
+function ABUserExists() {
+    local USER=$1
+
+    if [ "$(getent passwd | grep $USER)" != "" ]; then
+        return 0
+    else
+        return 1
+    fi
+}
+
+################################################################################
+# ABCreateRunlevelSymlinks
+################################################################################
+
+function ABCreateRunlevelsSymlinks() {
+    local RUNLEVELS=$1
+
+    local RC0
+    local RC1
+    local RC2
+    local RC3
+    local RC4
+    local RC5
+    local RC6
+    local RCSYSINIT
+
+    RC0=${RUNLEVELS%%:*}
+    RUNLEVELS=${RUNLEVELS#*:}
+
+    RC1=${RUNLEVELS%%:*}
+    RUNLEVELS=${RUNLEVELS#*:}
+
+    RC2=${RUNLEVELS%%:*}
+    RUNLEVELS=${RUNLEVELS#*:}
+
+    RC3=${RUNLEVELS%%:*}
+    RUNLEVELS=${RUNLEVELS#*:}
+
+    RC4=${RUNLEVELS%%:*}
+    RUNLEVELS=${RUNLEVELS#*:}
+
+    RC5=${RUNLEVELS%%:*}
+    RUNLEVELS=${RUNLEVELS#*:}
+
+    RC6=${RUNLEVELS%%:*}
+    RUNLEVELS=${RUNLEVELS#*:}
+
+    RCSYSINIT=${RUNLEVELS%%:*}
+    RUNLEVELS=${RUNLEVELS#*:}
+
+    [ "$RC0" != "" ]        && rm -f /etc/rc.d/rc0.d/*${RC0:3} && ln -sf ../init.d/${RC0:3} /etc/rc.d/rc0.d/$RC0
+    [ "$RC1" != "" ]        && rm -f /etc/rc.d/rc1.d/*${RC1:3} && ln -sf ../init.d/${RC1:3} /etc/rc.d/rc1.d/$RC1
+    [ "$RC2" != "" ]        && rm -f /etc/rc.d/rc2.d/*${RC2:3} && ln -sf ../init.d/${RC2:3} /etc/rc.d/rc2.d/$RC2
+    [ "$RC3" != "" ]        && rm -f /etc/rc.d/rc3.d/*${RC3:3} && ln -sf ../init.d/${RC3:3} /etc/rc.d/rc3.d/$RC3
+    [ "$RC4" != "" ]        && rm -f /etc/rc.d/rc4.d/*${RC4:3} && ln -sf ../init.d/${RC4:3} /etc/rc.d/rc4.d/$RC4
+    [ "$RC5" != "" ]        && rm -f /etc/rc.d/rc5.d/*${RC5:3} && ln -sf ../init.d/${RC5:3} /etc/rc.d/rc5.d/$RC5
+    [ "$RC6" != "" ]        && rm -f /etc/rc.d/rc6.d/*${RC6:3} && ln -sf ../init.d/${RC6:3} /etc/rc.d/rc6.d/$RC6
+    [ "$RCSYSINIT" != "" ]  && rm -f /etc/rc.d/rcsysinit.d/*${RCSYSINIT:3} && ln -sf ../init.d/${RCSYSINT:3} /etc/rc.d/rcsysinit.d/$RCSYSINIT
+
+}
+
+################################################################################
+# ABCheckImRoot
+################################################################################
+
+function ABCheckImRoot() {
+if [ $(id -u) != '0' ]; then
+  echo "This needs to be run as root!"
+  exit 1
+fi
+}
+
+################################################################################
+# ABCleanDirUnpack
+################################################################################
+
+function ABCleanDirUnpack() {
+    rm -rf ../unpack/*
+}
+
+################################################################################
+# ABCleanDirBuild
+################################################################################
+
+function ABCleanDirBuild() {
+    rm -rf ../build/*
+}
+
+################################################################################
+# ABCleanDirLogs
+################################################################################
+
+function ABCleanDirLogs() {
+    rm -rf ../logs/*
+}
+
+################################################################################
+# ABCleanDirPkg
+################################################################################
+
+function ABCleanDirPkg() {
+    rm -rf ../pkg/debian/*
+}
+
+################################################################################
+# ABFixPkgPerms
+################################################################################
+
+function ABFixPkgPerms() {
+  find . -type f -exec chmod 644 {} \;
+  find . -type d -exec chmod 755 {} \;
+}
+
+################################################################################
+# ABMakeMd5s
+################################################################################
+function ABMakeMd5s() {
+  md5sum `find . -type f | grep -v DEBIAN | awk '/.\// \
+  { print substr($0, 3) }'` > DEBIAN/md5sums
+  cat DEBIAN/md5sums
+}
+
+################################################################################
+# ABPrepPkg
+################################################################################
+function ABPrepPkg() {
+  if [ ! -d ./DEBIAN ]; then
+    mkdir -p ./DEBIAN
+    chmod 755 ./DEBIAN
+  fi
+
+  for i  in $(ls ../../files/DEBIAN);do
+    sed -e "s/AB_PACKAGE_NAME/${AB_PACKAGE_NAME}/g" ../../files/DEBIAN/$i \
+    > ./DEBIAN/$i
+    sed -i -e "s/AB_PACKAGE_VERSION/${AB_PACKAGE_VERSION}/g" ./DEBIAN/$i
+    sed -i -e "s/AB_PACKAGE_DESC/${AB_PACKAGE_DESC}/g" ./DEBIAN/$i
+    sed -i -e "s:AB_PACKAGE_INSTALL_DIR:${AB_PACKAGE_INSTALL_DIR}:g" ./DEBIAN/$i
+  done
+    chmod 755 ./DEBIAN/p*
+}
+
+################################################################################
+# ABPrepDeb
+################################################################################
+function ABPrepDebControl() {
+    ABPrepPkg
+}
+
+################################################################################
+# ABMakePkg
+################################################################################
+function ABMakePkg() {
+    [ -e *.deb ] && rm *.deb
+    fakeroot dpkg-deb --build debian
+    mv debian.deb ${1}.deb
+    dpkg --info *.deb
+}
+
+################################################################################
+# end
+################################################################################

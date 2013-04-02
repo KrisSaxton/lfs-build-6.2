@@ -1,0 +1,23 @@
+mode of `usr/lib/libformw.so.5.5' changed to 0755 (rwxr-xr-x)
+mode of `usr/lib/libmenuw.so.5.5' changed to 0755 (rwxr-xr-x)
+mode of `usr/lib/libncursesw.so.5.5' changed to 0755 (rwxr-xr-x)
+mode of `usr/lib/libpanelw.so.5.5' changed to 0755 (rwxr-xr-x)
+mode of `usr/lib/libncurses++w.a' changed to 0644 (rw-r--r--)
+`usr/lib/libncursesw.so.5' -> `lib/libncursesw.so.5'
+`usr/lib/libncursesw.so.5.5' -> `lib/libncursesw.so.5.5'
+create symbolic link `usr/lib/libncursesw.so' to `../../lib/libncursesw.so.5'
+create symbolic link `usr/lib/libcurses.a' to `libcursesw.a'
+create symbolic link `usr/lib/libncurses.a' to `libncursesw.a'
+create symbolic link `usr/lib/libform.a' to `libformw.a'
+create symbolic link `usr/lib/libpanel.a' to `libpanelw.a'
+create symbolic link `usr/lib/libmenu.a' to `libmenuw.a'
+create symbolic link `usr/lib/libncurses++.a' to `libncurses++w.a'
+create symbolic link `usr/lib/libcurses.so' to `libncurses.so'
+create symbolic link `usr/lib/libcursesw.a' to `libncursesw.a'
+create symbolic link `usr/lib/libcurses.a' to `libncurses.a'
+removed `usr/bin/infotocap'
+create hard link `usr/bin/infotocap' to `usr/bin/tic'
+removed `usr/bin/reset'
+create hard link `usr/bin/reset' to `usr/bin/tset'
+removed `usr/bin/captoinfo'
+create hard link `usr/bin/captoinfo' to `usr/bin/tic'

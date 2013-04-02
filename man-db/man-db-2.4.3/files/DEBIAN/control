@@ -1,0 +1,10 @@
+Package: AB_PACKAGE_NAME-AB_PACKAGE_VERSION
+Version: AB_PACKAGE_VERSION
+Section: unknown
+Priority: optional
+Architecture: all
+Essential: no
+Depends: aaa-base
+Maintainer: Aethernet support team [support@aethernet.co.uk]
+Provides: AB_PACKAGE_NAME
+Description: AB_PACKAGE_DESC

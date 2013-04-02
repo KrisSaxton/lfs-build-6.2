@@ -1,0 +1,422 @@
+make  all-recursive
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15'
+Making all in po
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/po'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/po'
+Making all in man
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/man'
+Making all in cs
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/man/cs'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/man/cs'
+Making all in de
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/man/de'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/man/de'
+Making all in es
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/man/es'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/man/es'
+Making all in fi
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/man/fi'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/man/fi'
+Making all in fr
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/man/fr'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/man/fr'
+Making all in hu
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/man/hu'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/man/hu'
+Making all in id
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/man/id'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/man/id'
+Making all in it
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/man/it'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/man/it'
+Making all in ja
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/man/ja'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/man/ja'
+Making all in pl
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/man/pl'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/man/pl'
+Making all in pt_BR
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/man/pt_BR'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/man/pt_BR'
+Making all in ru
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/man/ru'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/man/ru'
+Making all in tr
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/man/tr'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/man/tr'
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/man'
+make[3]: Nothing to be done for `all-am'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/man'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/man'
+Making all in libmisc
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/libmisc'
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib    -g -O2 -MT addgrps.o -MD -MP -MF ".deps/addgrps.Tpo" -c -o addgrps.o addgrps.c; \
+then mv -f ".deps/addgrps.Tpo" ".deps/addgrps.Po"; else rm -f ".deps/addgrps.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib    -g -O2 -MT age.o -MD -MP -MF ".deps/age.Tpo" -c -o age.o age.c; \
+then mv -f ".deps/age.Tpo" ".deps/age.Po"; else rm -f ".deps/age.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib    -g -O2 -MT audit_help.o -MD -MP -MF ".deps/audit_help.Tpo" -c -o audit_help.o audit_help.c; \
+then mv -f ".deps/audit_help.Tpo" ".deps/audit_help.Po"; else rm -f ".deps/audit_help.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib    -g -O2 -MT basename.o -MD -MP -MF ".deps/basename.Tpo" -c -o basename.o basename.c; \
+then mv -f ".deps/basename.Tpo" ".deps/basename.Po"; else rm -f ".deps/basename.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib    -g -O2 -MT chkname.o -MD -MP -MF ".deps/chkname.Tpo" -c -o chkname.o chkname.c; \
+then mv -f ".deps/chkname.Tpo" ".deps/chkname.Po"; else rm -f ".deps/chkname.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib    -g -O2 -MT chowndir.o -MD -MP -MF ".deps/chowndir.Tpo" -c -o chowndir.o chowndir.c; \
+then mv -f ".deps/chowndir.Tpo" ".deps/chowndir.Po"; else rm -f ".deps/chowndir.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib    -g -O2 -MT chowntty.o -MD -MP -MF ".deps/chowntty.Tpo" -c -o chowntty.o chowntty.c; \
+then mv -f ".deps/chowntty.Tpo" ".deps/chowntty.Po"; else rm -f ".deps/chowntty.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib    -g -O2 -MT console.o -MD -MP -MF ".deps/console.Tpo" -c -o console.o console.c; \
+then mv -f ".deps/console.Tpo" ".deps/console.Po"; else rm -f ".deps/console.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib    -g -O2 -MT copydir.o -MD -MP -MF ".deps/copydir.Tpo" -c -o copydir.o copydir.c; \
+then mv -f ".deps/copydir.Tpo" ".deps/copydir.Po"; else rm -f ".deps/copydir.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib    -g -O2 -MT entry.o -MD -MP -MF ".deps/entry.Tpo" -c -o entry.o entry.c; \
+then mv -f ".deps/entry.Tpo" ".deps/entry.Po"; else rm -f ".deps/entry.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib    -g -O2 -MT env.o -MD -MP -MF ".deps/env.Tpo" -c -o env.o env.c; \
+then mv -f ".deps/env.Tpo" ".deps/env.Po"; else rm -f ".deps/env.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib    -g -O2 -MT failure.o -MD -MP -MF ".deps/failure.Tpo" -c -o failure.o failure.c; \
+then mv -f ".deps/failure.Tpo" ".deps/failure.Po"; else rm -f ".deps/failure.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib    -g -O2 -MT fields.o -MD -MP -MF ".deps/fields.Tpo" -c -o fields.o fields.c; \
+then mv -f ".deps/fields.Tpo" ".deps/fields.Po"; else rm -f ".deps/fields.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib    -g -O2 -MT getdate.o -MD -MP -MF ".deps/getdate.Tpo" -c -o getdate.o getdate.c; \
+then mv -f ".deps/getdate.Tpo" ".deps/getdate.Po"; else rm -f ".deps/getdate.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib    -g -O2 -MT hushed.o -MD -MP -MF ".deps/hushed.Tpo" -c -o hushed.o hushed.c; \
+then mv -f ".deps/hushed.Tpo" ".deps/hushed.Po"; else rm -f ".deps/hushed.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib    -g -O2 -MT isexpired.o -MD -MP -MF ".deps/isexpired.Tpo" -c -o isexpired.o isexpired.c; \
+then mv -f ".deps/isexpired.Tpo" ".deps/isexpired.Po"; else rm -f ".deps/isexpired.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib    -g -O2 -MT limits.o -MD -MP -MF ".deps/limits.Tpo" -c -o limits.o limits.c; \
+then mv -f ".deps/limits.Tpo" ".deps/limits.Po"; else rm -f ".deps/limits.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib    -g -O2 -MT list.o -MD -MP -MF ".deps/list.Tpo" -c -o list.o list.c; \
+then mv -f ".deps/list.Tpo" ".deps/list.Po"; else rm -f ".deps/list.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib    -g -O2 -MT log.o -MD -MP -MF ".deps/log.Tpo" -c -o log.o log.c; \
+then mv -f ".deps/log.Tpo" ".deps/log.Po"; else rm -f ".deps/log.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib    -g -O2 -MT loginprompt.o -MD -MP -MF ".deps/loginprompt.Tpo" -c -o loginprompt.o loginprompt.c; \
+then mv -f ".deps/loginprompt.Tpo" ".deps/loginprompt.Po"; else rm -f ".deps/loginprompt.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib    -g -O2 -MT mail.o -MD -MP -MF ".deps/mail.Tpo" -c -o mail.o mail.c; \
+then mv -f ".deps/mail.Tpo" ".deps/mail.Po"; else rm -f ".deps/mail.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib    -g -O2 -MT motd.o -MD -MP -MF ".deps/motd.Tpo" -c -o motd.o motd.c; \
+then mv -f ".deps/motd.Tpo" ".deps/motd.Po"; else rm -f ".deps/motd.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib    -g -O2 -MT myname.o -MD -MP -MF ".deps/myname.Tpo" -c -o myname.o myname.c; \
+then mv -f ".deps/myname.Tpo" ".deps/myname.Po"; else rm -f ".deps/myname.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib    -g -O2 -MT obscure.o -MD -MP -MF ".deps/obscure.Tpo" -c -o obscure.o obscure.c; \
+then mv -f ".deps/obscure.Tpo" ".deps/obscure.Po"; else rm -f ".deps/obscure.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib    -g -O2 -MT pam_pass.o -MD -MP -MF ".deps/pam_pass.Tpo" -c -o pam_pass.o pam_pass.c; \
+then mv -f ".deps/pam_pass.Tpo" ".deps/pam_pass.Po"; else rm -f ".deps/pam_pass.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib    -g -O2 -MT pwd2spwd.o -MD -MP -MF ".deps/pwd2spwd.Tpo" -c -o pwd2spwd.o pwd2spwd.c; \
+then mv -f ".deps/pwd2spwd.Tpo" ".deps/pwd2spwd.Po"; else rm -f ".deps/pwd2spwd.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib    -g -O2 -MT pwdcheck.o -MD -MP -MF ".deps/pwdcheck.Tpo" -c -o pwdcheck.o pwdcheck.c; \
+then mv -f ".deps/pwdcheck.Tpo" ".deps/pwdcheck.Po"; else rm -f ".deps/pwdcheck.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib    -g -O2 -MT pwd_init.o -MD -MP -MF ".deps/pwd_init.Tpo" -c -o pwd_init.o pwd_init.c; \
+then mv -f ".deps/pwd_init.Tpo" ".deps/pwd_init.Po"; else rm -f ".deps/pwd_init.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib    -g -O2 -MT rlogin.o -MD -MP -MF ".deps/rlogin.Tpo" -c -o rlogin.o rlogin.c; \
+then mv -f ".deps/rlogin.Tpo" ".deps/rlogin.Po"; else rm -f ".deps/rlogin.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib    -g -O2 -MT salt.o -MD -MP -MF ".deps/salt.Tpo" -c -o salt.o salt.c; \
+then mv -f ".deps/salt.Tpo" ".deps/salt.Po"; else rm -f ".deps/salt.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib    -g -O2 -MT setugid.o -MD -MP -MF ".deps/setugid.Tpo" -c -o setugid.o setugid.c; \
+then mv -f ".deps/setugid.Tpo" ".deps/setugid.Po"; else rm -f ".deps/setugid.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib    -g -O2 -MT setupenv.o -MD -MP -MF ".deps/setupenv.Tpo" -c -o setupenv.o setupenv.c; \
+then mv -f ".deps/setupenv.Tpo" ".deps/setupenv.Po"; else rm -f ".deps/setupenv.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib    -g -O2 -MT shell.o -MD -MP -MF ".deps/shell.Tpo" -c -o shell.o shell.c; \
+then mv -f ".deps/shell.Tpo" ".deps/shell.Po"; else rm -f ".deps/shell.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib    -g -O2 -MT strtoday.o -MD -MP -MF ".deps/strtoday.Tpo" -c -o strtoday.o strtoday.c; \
+then mv -f ".deps/strtoday.Tpo" ".deps/strtoday.Po"; else rm -f ".deps/strtoday.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib    -g -O2 -MT sub.o -MD -MP -MF ".deps/sub.Tpo" -c -o sub.o sub.c; \
+then mv -f ".deps/sub.Tpo" ".deps/sub.Po"; else rm -f ".deps/sub.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib    -g -O2 -MT sulog.o -MD -MP -MF ".deps/sulog.Tpo" -c -o sulog.o sulog.c; \
+then mv -f ".deps/sulog.Tpo" ".deps/sulog.Po"; else rm -f ".deps/sulog.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib    -g -O2 -MT ttytype.o -MD -MP -MF ".deps/ttytype.Tpo" -c -o ttytype.o ttytype.c; \
+then mv -f ".deps/ttytype.Tpo" ".deps/ttytype.Po"; else rm -f ".deps/ttytype.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib    -g -O2 -MT tz.o -MD -MP -MF ".deps/tz.Tpo" -c -o tz.o tz.c; \
+then mv -f ".deps/tz.Tpo" ".deps/tz.Po"; else rm -f ".deps/tz.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib    -g -O2 -MT ulimit.o -MD -MP -MF ".deps/ulimit.Tpo" -c -o ulimit.o ulimit.c; \
+then mv -f ".deps/ulimit.Tpo" ".deps/ulimit.Po"; else rm -f ".deps/ulimit.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib    -g -O2 -MT utmp.o -MD -MP -MF ".deps/utmp.Tpo" -c -o utmp.o utmp.c; \
+then mv -f ".deps/utmp.Tpo" ".deps/utmp.Po"; else rm -f ".deps/utmp.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib    -g -O2 -MT valid.o -MD -MP -MF ".deps/valid.Tpo" -c -o valid.o valid.c; \
+then mv -f ".deps/valid.Tpo" ".deps/valid.Po"; else rm -f ".deps/valid.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib    -g -O2 -MT xmalloc.o -MD -MP -MF ".deps/xmalloc.Tpo" -c -o xmalloc.o xmalloc.c; \
+then mv -f ".deps/xmalloc.Tpo" ".deps/xmalloc.Po"; else rm -f ".deps/xmalloc.Tpo"; exit 1; fi
+rm -f libmisc.a
+ar cru libmisc.a addgrps.o age.o audit_help.o basename.o chkname.o chowndir.o chowntty.o console.o copydir.o entry.o env.o failure.o fields.o getdate.o hushed.o isexpired.o limits.o list.o log.o loginprompt.o mail.o motd.o myname.o obscure.o pam_pass.o pwd2spwd.o pwdcheck.o pwd_init.o rlogin.o salt.o setugid.o setupenv.o shell.o strtoday.o sub.o sulog.o ttytype.o tz.o ulimit.o utmp.o valid.o xmalloc.o 
+ranlib libmisc.a
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/libmisc'
+Making all in lib
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/lib'
+if /bin/sh ../libtool --tag=CC --mode=compile gcc  -I. -I. -I..     -g -O2 -MT commonio.lo -MD -MP -MF ".deps/commonio.Tpo" -c -o commonio.lo commonio.c; \
+then mv -f ".deps/commonio.Tpo" ".deps/commonio.Plo"; else rm -f ".deps/commonio.Tpo"; exit 1; fi
+mkdir .libs
+ gcc -I. -I. -I.. -g -O2 -MT commonio.lo -MD -MP -MF .deps/commonio.Tpo -c commonio.c  -fPIC -DPIC -o .libs/commonio.o
+ gcc -I. -I. -I.. -g -O2 -MT commonio.lo -MD -MP -MF .deps/commonio.Tpo -c commonio.c -o commonio.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc  -I. -I. -I..     -g -O2 -MT encrypt.lo -MD -MP -MF ".deps/encrypt.Tpo" -c -o encrypt.lo encrypt.c; \
+then mv -f ".deps/encrypt.Tpo" ".deps/encrypt.Plo"; else rm -f ".deps/encrypt.Tpo"; exit 1; fi
+ gcc -I. -I. -I.. -g -O2 -MT encrypt.lo -MD -MP -MF .deps/encrypt.Tpo -c encrypt.c  -fPIC -DPIC -o .libs/encrypt.o
+ gcc -I. -I. -I.. -g -O2 -MT encrypt.lo -MD -MP -MF .deps/encrypt.Tpo -c encrypt.c -o encrypt.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc  -I. -I. -I..     -g -O2 -MT fputsx.lo -MD -MP -MF ".deps/fputsx.Tpo" -c -o fputsx.lo fputsx.c; \
+then mv -f ".deps/fputsx.Tpo" ".deps/fputsx.Plo"; else rm -f ".deps/fputsx.Tpo"; exit 1; fi
+ gcc -I. -I. -I.. -g -O2 -MT fputsx.lo -MD -MP -MF .deps/fputsx.Tpo -c fputsx.c  -fPIC -DPIC -o .libs/fputsx.o
+ gcc -I. -I. -I.. -g -O2 -MT fputsx.lo -MD -MP -MF .deps/fputsx.Tpo -c fputsx.c -o fputsx.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc  -I. -I. -I..     -g -O2 -MT getdef.lo -MD -MP -MF ".deps/getdef.Tpo" -c -o getdef.lo getdef.c; \
+then mv -f ".deps/getdef.Tpo" ".deps/getdef.Plo"; else rm -f ".deps/getdef.Tpo"; exit 1; fi
+ gcc -I. -I. -I.. -g -O2 -MT getdef.lo -MD -MP -MF .deps/getdef.Tpo -c getdef.c  -fPIC -DPIC -o .libs/getdef.o
+ gcc -I. -I. -I.. -g -O2 -MT getdef.lo -MD -MP -MF .deps/getdef.Tpo -c getdef.c -o getdef.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc  -I. -I. -I..     -g -O2 -MT getpass.lo -MD -MP -MF ".deps/getpass.Tpo" -c -o getpass.lo getpass.c; \
+then mv -f ".deps/getpass.Tpo" ".deps/getpass.Plo"; else rm -f ".deps/getpass.Tpo"; exit 1; fi
+ gcc -I. -I. -I.. -g -O2 -MT getpass.lo -MD -MP -MF .deps/getpass.Tpo -c getpass.c  -fPIC -DPIC -o .libs/getpass.o
+ gcc -I. -I. -I.. -g -O2 -MT getpass.lo -MD -MP -MF .deps/getpass.Tpo -c getpass.c -o getpass.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc  -I. -I. -I..     -g -O2 -MT groupio.lo -MD -MP -MF ".deps/groupio.Tpo" -c -o groupio.lo groupio.c; \
+then mv -f ".deps/groupio.Tpo" ".deps/groupio.Plo"; else rm -f ".deps/groupio.Tpo"; exit 1; fi
+ gcc -I. -I. -I.. -g -O2 -MT groupio.lo -MD -MP -MF .deps/groupio.Tpo -c groupio.c  -fPIC -DPIC -o .libs/groupio.o
+ gcc -I. -I. -I.. -g -O2 -MT groupio.lo -MD -MP -MF .deps/groupio.Tpo -c groupio.c -o groupio.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc  -I. -I. -I..     -g -O2 -MT gshadow.lo -MD -MP -MF ".deps/gshadow.Tpo" -c -o gshadow.lo gshadow.c; \
+then mv -f ".deps/gshadow.Tpo" ".deps/gshadow.Plo"; else rm -f ".deps/gshadow.Tpo"; exit 1; fi
+ gcc -I. -I. -I.. -g -O2 -MT gshadow.lo -MD -MP -MF .deps/gshadow.Tpo -c gshadow.c  -fPIC -DPIC -o .libs/gshadow.o
+ gcc -I. -I. -I.. -g -O2 -MT gshadow.lo -MD -MP -MF .deps/gshadow.Tpo -c gshadow.c -o gshadow.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc  -I. -I. -I..     -g -O2 -MT lockpw.lo -MD -MP -MF ".deps/lockpw.Tpo" -c -o lockpw.lo lockpw.c; \
+then mv -f ".deps/lockpw.Tpo" ".deps/lockpw.Plo"; else rm -f ".deps/lockpw.Tpo"; exit 1; fi
+ gcc -I. -I. -I.. -g -O2 -MT lockpw.lo -MD -MP -MF .deps/lockpw.Tpo -c lockpw.c  -fPIC -DPIC -o .libs/lockpw.o
+ gcc -I. -I. -I.. -g -O2 -MT lockpw.lo -MD -MP -MF .deps/lockpw.Tpo -c lockpw.c -o lockpw.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc  -I. -I. -I..     -g -O2 -MT nscd.lo -MD -MP -MF ".deps/nscd.Tpo" -c -o nscd.lo nscd.c; \
+then mv -f ".deps/nscd.Tpo" ".deps/nscd.Plo"; else rm -f ".deps/nscd.Tpo"; exit 1; fi
+ gcc -I. -I. -I.. -g -O2 -MT nscd.lo -MD -MP -MF .deps/nscd.Tpo -c nscd.c  -fPIC -DPIC -o .libs/nscd.o
+ gcc -I. -I. -I.. -g -O2 -MT nscd.lo -MD -MP -MF .deps/nscd.Tpo -c nscd.c -o nscd.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc  -I. -I. -I..     -g -O2 -MT port.lo -MD -MP -MF ".deps/port.Tpo" -c -o port.lo port.c; \
+then mv -f ".deps/port.Tpo" ".deps/port.Plo"; else rm -f ".deps/port.Tpo"; exit 1; fi
+ gcc -I. -I. -I.. -g -O2 -MT port.lo -MD -MP -MF .deps/port.Tpo -c port.c  -fPIC -DPIC -o .libs/port.o
+ gcc -I. -I. -I.. -g -O2 -MT port.lo -MD -MP -MF .deps/port.Tpo -c port.c -o port.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc  -I. -I. -I..     -g -O2 -MT pwauth.lo -MD -MP -MF ".deps/pwauth.Tpo" -c -o pwauth.lo pwauth.c; \
+then mv -f ".deps/pwauth.Tpo" ".deps/pwauth.Plo"; else rm -f ".deps/pwauth.Tpo"; exit 1; fi
+ gcc -I. -I. -I.. -g -O2 -MT pwauth.lo -MD -MP -MF .deps/pwauth.Tpo -c pwauth.c  -fPIC -DPIC -o .libs/pwauth.o
+ gcc -I. -I. -I.. -g -O2 -MT pwauth.lo -MD -MP -MF .deps/pwauth.Tpo -c pwauth.c -o pwauth.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc  -I. -I. -I..     -g -O2 -MT pwio.lo -MD -MP -MF ".deps/pwio.Tpo" -c -o pwio.lo pwio.c; \
+then mv -f ".deps/pwio.Tpo" ".deps/pwio.Plo"; else rm -f ".deps/pwio.Tpo"; exit 1; fi
+ gcc -I. -I. -I.. -g -O2 -MT pwio.lo -MD -MP -MF .deps/pwio.Tpo -c pwio.c  -fPIC -DPIC -o .libs/pwio.o
+ gcc -I. -I. -I.. -g -O2 -MT pwio.lo -MD -MP -MF .deps/pwio.Tpo -c pwio.c -o pwio.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc  -I. -I. -I..     -g -O2 -MT sgetgrent.lo -MD -MP -MF ".deps/sgetgrent.Tpo" -c -o sgetgrent.lo sgetgrent.c; \
+then mv -f ".deps/sgetgrent.Tpo" ".deps/sgetgrent.Plo"; else rm -f ".deps/sgetgrent.Tpo"; exit 1; fi
+ gcc -I. -I. -I.. -g -O2 -MT sgetgrent.lo -MD -MP -MF .deps/sgetgrent.Tpo -c sgetgrent.c  -fPIC -DPIC -o .libs/sgetgrent.o
+ gcc -I. -I. -I.. -g -O2 -MT sgetgrent.lo -MD -MP -MF .deps/sgetgrent.Tpo -c sgetgrent.c -o sgetgrent.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc  -I. -I. -I..     -g -O2 -MT sgetpwent.lo -MD -MP -MF ".deps/sgetpwent.Tpo" -c -o sgetpwent.lo sgetpwent.c; \
+then mv -f ".deps/sgetpwent.Tpo" ".deps/sgetpwent.Plo"; else rm -f ".deps/sgetpwent.Tpo"; exit 1; fi
+ gcc -I. -I. -I.. -g -O2 -MT sgetpwent.lo -MD -MP -MF .deps/sgetpwent.Tpo -c sgetpwent.c  -fPIC -DPIC -o .libs/sgetpwent.o
+ gcc -I. -I. -I.. -g -O2 -MT sgetpwent.lo -MD -MP -MF .deps/sgetpwent.Tpo -c sgetpwent.c -o sgetpwent.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc  -I. -I. -I..     -g -O2 -MT sgroupio.lo -MD -MP -MF ".deps/sgroupio.Tpo" -c -o sgroupio.lo sgroupio.c; \
+then mv -f ".deps/sgroupio.Tpo" ".deps/sgroupio.Plo"; else rm -f ".deps/sgroupio.Tpo"; exit 1; fi
+ gcc -I. -I. -I.. -g -O2 -MT sgroupio.lo -MD -MP -MF .deps/sgroupio.Tpo -c sgroupio.c  -fPIC -DPIC -o .libs/sgroupio.o
+ gcc -I. -I. -I.. -g -O2 -MT sgroupio.lo -MD -MP -MF .deps/sgroupio.Tpo -c sgroupio.c -o sgroupio.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc  -I. -I. -I..     -g -O2 -MT shadow.lo -MD -MP -MF ".deps/shadow.Tpo" -c -o shadow.lo shadow.c; \
+then mv -f ".deps/shadow.Tpo" ".deps/shadow.Plo"; else rm -f ".deps/shadow.Tpo"; exit 1; fi
+ gcc -I. -I. -I.. -g -O2 -MT shadow.lo -MD -MP -MF .deps/shadow.Tpo -c shadow.c  -fPIC -DPIC -o .libs/shadow.o
+ gcc -I. -I. -I.. -g -O2 -MT shadow.lo -MD -MP -MF .deps/shadow.Tpo -c shadow.c -o shadow.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc  -I. -I. -I..     -g -O2 -MT shadowio.lo -MD -MP -MF ".deps/shadowio.Tpo" -c -o shadowio.lo shadowio.c; \
+then mv -f ".deps/shadowio.Tpo" ".deps/shadowio.Plo"; else rm -f ".deps/shadowio.Tpo"; exit 1; fi
+ gcc -I. -I. -I.. -g -O2 -MT shadowio.lo -MD -MP -MF .deps/shadowio.Tpo -c shadowio.c  -fPIC -DPIC -o .libs/shadowio.o
+ gcc -I. -I. -I.. -g -O2 -MT shadowio.lo -MD -MP -MF .deps/shadowio.Tpo -c shadowio.c -o shadowio.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc  -I. -I. -I..     -g -O2 -MT utent.lo -MD -MP -MF ".deps/utent.Tpo" -c -o utent.lo utent.c; \
+then mv -f ".deps/utent.Tpo" ".deps/utent.Plo"; else rm -f ".deps/utent.Tpo"; exit 1; fi
+ gcc -I. -I. -I.. -g -O2 -MT utent.lo -MD -MP -MF .deps/utent.Tpo -c utent.c  -fPIC -DPIC -o .libs/utent.o
+ gcc -I. -I. -I.. -g -O2 -MT utent.lo -MD -MP -MF .deps/utent.Tpo -c utent.c -o utent.o >/dev/null 2>&1
+/bin/sh ../libtool --tag=CC --mode=link gcc  -g -O2   -o libshadow.la -rpath /lib -version-info 0:0:0 commonio.lo encrypt.lo fputsx.lo getdef.lo getpass.lo groupio.lo gshadow.lo lockpw.lo nscd.lo port.lo pwauth.lo pwio.lo sgetgrent.lo sgetpwent.lo sgroupio.lo shadow.lo shadowio.lo utent.lo  -lcrypt   
+gcc -shared  .libs/commonio.o .libs/encrypt.o .libs/fputsx.o .libs/getdef.o .libs/getpass.o .libs/groupio.o .libs/gshadow.o .libs/lockpw.o .libs/nscd.o .libs/port.o .libs/pwauth.o .libs/pwio.o .libs/sgetgrent.o .libs/sgetpwent.o .libs/sgroupio.o .libs/shadow.o .libs/shadowio.o .libs/utent.o  -lcrypt  -Wl,-soname -Wl,libshadow.so.0 -o .libs/libshadow.so.0.0.0
+(cd .libs && rm -f libshadow.so.0 && ln -s libshadow.so.0.0.0 libshadow.so.0)
+(cd .libs && rm -f libshadow.so && ln -s libshadow.so.0.0.0 libshadow.so)
+ar cru .libs/libshadow.a  commonio.o encrypt.o fputsx.o getdef.o getpass.o groupio.o gshadow.o lockpw.o nscd.o port.o pwauth.o pwio.o sgetgrent.o sgetpwent.o sgroupio.o shadow.o shadowio.o utent.o
+ranlib .libs/libshadow.a
+creating libshadow.la
+(cd .libs && rm -f libshadow.la && ln -s ../libshadow.la libshadow.la)
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/lib'
+Making all in src
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/src'
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib -I../libmisc -DLOCALEDIR=\"/usr/share/locale\"   -g -O2 -MT login.o -MD -MP -MF ".deps/login.Tpo" -c -o login.o login.c; \
+then mv -f ".deps/login.Tpo" ".deps/login.Po"; else rm -f ".deps/login.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib -I../libmisc -DLOCALEDIR=\"/usr/share/locale\"   -g -O2 -MT login_nopam.o -MD -MP -MF ".deps/login_nopam.Tpo" -c -o login_nopam.o login_nopam.c; \
+then mv -f ".deps/login_nopam.Tpo" ".deps/login_nopam.Po"; else rm -f ".deps/login_nopam.Tpo"; exit 1; fi
+/bin/sh ../libtool --tag=CC --mode=link gcc  -g -O2   -o login  login.o login_nopam.o ../libmisc/libmisc.a ../lib/libshadow.la -lpam -lpam_misc  
+mkdir .libs
+gcc -g -O2 -o .libs/login login.o login_nopam.o  ../libmisc/libmisc.a ../lib/.libs/libshadow.so -lcrypt /usr/lib/libpam_misc.so /usr/lib/libpam.so -ldl
+creating login
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib -I../libmisc -DLOCALEDIR=\"/usr/share/locale\"   -g -O2 -MT su.o -MD -MP -MF ".deps/su.Tpo" -c -o su.o su.c; \
+then mv -f ".deps/su.Tpo" ".deps/su.Po"; else rm -f ".deps/su.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib -I../libmisc -DLOCALEDIR=\"/usr/share/locale\"   -g -O2 -MT suauth.o -MD -MP -MF ".deps/suauth.Tpo" -c -o suauth.o suauth.c; \
+then mv -f ".deps/suauth.Tpo" ".deps/suauth.Po"; else rm -f ".deps/suauth.Tpo"; exit 1; fi
+/bin/sh ../libtool --tag=CC --mode=link gcc  -g -O2   -o su  su.o suauth.o ../libmisc/libmisc.a ../lib/libshadow.la -lpam -lpam_misc 
+gcc -g -O2 -o .libs/su su.o suauth.o  ../libmisc/libmisc.a ../lib/.libs/libshadow.so -lcrypt /usr/lib/libpam_misc.so /usr/lib/libpam.so -ldl
+creating su
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib -I../libmisc -DLOCALEDIR=\"/usr/share/locale\"   -g -O2 -MT id.o -MD -MP -MF ".deps/id.Tpo" -c -o id.o id.c; \
+then mv -f ".deps/id.Tpo" ".deps/id.Po"; else rm -f ".deps/id.Tpo"; exit 1; fi
+/bin/sh ../libtool --tag=CC --mode=link gcc  -g -O2   -o id  id.o ../libmisc/libmisc.a ../lib/libshadow.la 
+gcc -g -O2 -o .libs/id id.o  ../libmisc/libmisc.a ../lib/.libs/libshadow.so -lcrypt
+creating id
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib -I../libmisc -DLOCALEDIR=\"/usr/share/locale\"   -g -O2 -MT sulogin.o -MD -MP -MF ".deps/sulogin.Tpo" -c -o sulogin.o sulogin.c; \
+then mv -f ".deps/sulogin.Tpo" ".deps/sulogin.Po"; else rm -f ".deps/sulogin.Tpo"; exit 1; fi
+/bin/sh ../libtool --tag=CC --mode=link gcc  -g -O2   -o sulogin  sulogin.o ../libmisc/libmisc.a ../lib/libshadow.la 
+gcc -g -O2 -o .libs/sulogin sulogin.o  ../libmisc/libmisc.a ../lib/.libs/libshadow.so -lcrypt
+creating sulogin
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib -I../libmisc -DLOCALEDIR=\"/usr/share/locale\"   -g -O2 -MT faillog.o -MD -MP -MF ".deps/faillog.Tpo" -c -o faillog.o faillog.c; \
+then mv -f ".deps/faillog.Tpo" ".deps/faillog.Po"; else rm -f ".deps/faillog.Tpo"; exit 1; fi
+/bin/sh ../libtool --tag=CC --mode=link gcc  -g -O2   -o faillog  faillog.o ../libmisc/libmisc.a ../lib/libshadow.la 
+gcc -g -O2 -o .libs/faillog faillog.o  ../libmisc/libmisc.a ../lib/.libs/libshadow.so -lcrypt
+creating faillog
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib -I../libmisc -DLOCALEDIR=\"/usr/share/locale\"   -g -O2 -MT lastlog.o -MD -MP -MF ".deps/lastlog.Tpo" -c -o lastlog.o lastlog.c; \
+then mv -f ".deps/lastlog.Tpo" ".deps/lastlog.Po"; else rm -f ".deps/lastlog.Tpo"; exit 1; fi
+/bin/sh ../libtool --tag=CC --mode=link gcc  -g -O2   -o lastlog  lastlog.o ../libmisc/libmisc.a ../lib/libshadow.la 
+gcc -g -O2 -o .libs/lastlog lastlog.o  ../libmisc/libmisc.a ../lib/.libs/libshadow.so -lcrypt
+creating lastlog
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib -I../libmisc -DLOCALEDIR=\"/usr/share/locale\"   -g -O2 -MT chage.o -MD -MP -MF ".deps/chage.Tpo" -c -o chage.o chage.c; \
+then mv -f ".deps/chage.Tpo" ".deps/chage.Po"; else rm -f ".deps/chage.Tpo"; exit 1; fi
+/bin/sh ../libtool --tag=CC --mode=link gcc  -g -O2   -o chage  chage.o ../libmisc/libmisc.a ../lib/libshadow.la -lpam -lpam_misc   
+gcc -g -O2 -o .libs/chage chage.o  ../libmisc/libmisc.a ../lib/.libs/libshadow.so -lcrypt /usr/lib/libpam_misc.so /usr/lib/libpam.so -ldl
+creating chage
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib -I../libmisc -DLOCALEDIR=\"/usr/share/locale\"   -g -O2 -MT chfn.o -MD -MP -MF ".deps/chfn.Tpo" -c -o chfn.o chfn.c; \
+then mv -f ".deps/chfn.Tpo" ".deps/chfn.Po"; else rm -f ".deps/chfn.Tpo"; exit 1; fi
+/bin/sh ../libtool --tag=CC --mode=link gcc  -g -O2   -o chfn  chfn.o ../libmisc/libmisc.a ../lib/libshadow.la -lpam -lpam_misc  
+gcc -g -O2 -o .libs/chfn chfn.o  ../libmisc/libmisc.a ../lib/.libs/libshadow.so -lcrypt /usr/lib/libpam_misc.so /usr/lib/libpam.so -ldl
+creating chfn
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib -I../libmisc -DLOCALEDIR=\"/usr/share/locale\"   -g -O2 -MT chsh.o -MD -MP -MF ".deps/chsh.Tpo" -c -o chsh.o chsh.c; \
+then mv -f ".deps/chsh.Tpo" ".deps/chsh.Po"; else rm -f ".deps/chsh.Tpo"; exit 1; fi
+/bin/sh ../libtool --tag=CC --mode=link gcc  -g -O2   -o chsh  chsh.o ../libmisc/libmisc.a ../lib/libshadow.la -lpam -lpam_misc  
+gcc -g -O2 -o .libs/chsh chsh.o  ../libmisc/libmisc.a ../lib/.libs/libshadow.so -lcrypt /usr/lib/libpam_misc.so /usr/lib/libpam.so -ldl
+creating chsh
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib -I../libmisc -DLOCALEDIR=\"/usr/share/locale\"   -g -O2 -MT expiry.o -MD -MP -MF ".deps/expiry.Tpo" -c -o expiry.o expiry.c; \
+then mv -f ".deps/expiry.Tpo" ".deps/expiry.Po"; else rm -f ".deps/expiry.Tpo"; exit 1; fi
+/bin/sh ../libtool --tag=CC --mode=link gcc  -g -O2   -o expiry  expiry.o ../libmisc/libmisc.a ../lib/libshadow.la 
+gcc -g -O2 -o .libs/expiry expiry.o  ../libmisc/libmisc.a ../lib/.libs/libshadow.so -lcrypt
+creating expiry
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib -I../libmisc -DLOCALEDIR=\"/usr/share/locale\"   -g -O2 -MT gpasswd.o -MD -MP -MF ".deps/gpasswd.Tpo" -c -o gpasswd.o gpasswd.c; \
+then mv -f ".deps/gpasswd.Tpo" ".deps/gpasswd.Po"; else rm -f ".deps/gpasswd.Tpo"; exit 1; fi
+/bin/sh ../libtool --tag=CC --mode=link gcc  -g -O2   -o gpasswd  gpasswd.o ../libmisc/libmisc.a ../lib/libshadow.la   
+gcc -g -O2 -o .libs/gpasswd gpasswd.o  ../libmisc/libmisc.a ../lib/.libs/libshadow.so -lcrypt
+creating gpasswd
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib -I../libmisc -DLOCALEDIR=\"/usr/share/locale\"   -g -O2 -MT newgrp.o -MD -MP -MF ".deps/newgrp.Tpo" -c -o newgrp.o newgrp.c; \
+then mv -f ".deps/newgrp.Tpo" ".deps/newgrp.Po"; else rm -f ".deps/newgrp.Tpo"; exit 1; fi
+/bin/sh ../libtool --tag=CC --mode=link gcc  -g -O2   -o newgrp  newgrp.o ../libmisc/libmisc.a ../lib/libshadow.la -lpam -lpam_misc  
+gcc -g -O2 -o .libs/newgrp newgrp.o  ../libmisc/libmisc.a ../lib/.libs/libshadow.so -lcrypt /usr/lib/libpam_misc.so /usr/lib/libpam.so -ldl
+creating newgrp
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib -I../libmisc -DLOCALEDIR=\"/usr/share/locale\"   -g -O2 -MT passwd.o -MD -MP -MF ".deps/passwd.Tpo" -c -o passwd.o passwd.c; \
+then mv -f ".deps/passwd.Tpo" ".deps/passwd.Po"; else rm -f ".deps/passwd.Tpo"; exit 1; fi
+/bin/sh ../libtool --tag=CC --mode=link gcc  -g -O2   -o passwd  passwd.o ../libmisc/libmisc.a ../lib/libshadow.la -lpam -lpam_misc    
+gcc -g -O2 -o .libs/passwd passwd.o  ../libmisc/libmisc.a ../lib/.libs/libshadow.so -lcrypt /usr/lib/libpam_misc.so /usr/lib/libpam.so -ldl
+creating passwd
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib -I../libmisc -DLOCALEDIR=\"/usr/share/locale\"   -g -O2 -MT chgpasswd.o -MD -MP -MF ".deps/chgpasswd.Tpo" -c -o chgpasswd.o chgpasswd.c; \
+then mv -f ".deps/chgpasswd.Tpo" ".deps/chgpasswd.Po"; else rm -f ".deps/chgpasswd.Tpo"; exit 1; fi
+/bin/sh ../libtool --tag=CC --mode=link gcc  -g -O2   -o chgpasswd  chgpasswd.o ../libmisc/libmisc.a ../lib/libshadow.la -lpam -lpam_misc  
+gcc -g -O2 -o .libs/chgpasswd chgpasswd.o  ../libmisc/libmisc.a ../lib/.libs/libshadow.so -lcrypt /usr/lib/libpam_misc.so /usr/lib/libpam.so -ldl
+creating chgpasswd
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib -I../libmisc -DLOCALEDIR=\"/usr/share/locale\"   -g -O2 -MT chpasswd.o -MD -MP -MF ".deps/chpasswd.Tpo" -c -o chpasswd.o chpasswd.c; \
+then mv -f ".deps/chpasswd.Tpo" ".deps/chpasswd.Po"; else rm -f ".deps/chpasswd.Tpo"; exit 1; fi
+/bin/sh ../libtool --tag=CC --mode=link gcc  -g -O2   -o chpasswd  chpasswd.o ../libmisc/libmisc.a ../lib/libshadow.la -lpam -lpam_misc  
+gcc -g -O2 -o .libs/chpasswd chpasswd.o  ../libmisc/libmisc.a ../lib/.libs/libshadow.so -lcrypt /usr/lib/libpam_misc.so /usr/lib/libpam.so -ldl
+creating chpasswd
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib -I../libmisc -DLOCALEDIR=\"/usr/share/locale\"   -g -O2 -MT groupadd.o -MD -MP -MF ".deps/groupadd.Tpo" -c -o groupadd.o groupadd.c; \
+then mv -f ".deps/groupadd.Tpo" ".deps/groupadd.Po"; else rm -f ".deps/groupadd.Tpo"; exit 1; fi
+/bin/sh ../libtool --tag=CC --mode=link gcc  -g -O2   -o groupadd  groupadd.o ../libmisc/libmisc.a ../lib/libshadow.la -lpam -lpam_misc   
+gcc -g -O2 -o .libs/groupadd groupadd.o  ../libmisc/libmisc.a ../lib/.libs/libshadow.so -lcrypt /usr/lib/libpam_misc.so /usr/lib/libpam.so -ldl
+creating groupadd
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib -I../libmisc -DLOCALEDIR=\"/usr/share/locale\"   -g -O2 -MT groupdel.o -MD -MP -MF ".deps/groupdel.Tpo" -c -o groupdel.o groupdel.c; \
+then mv -f ".deps/groupdel.Tpo" ".deps/groupdel.Po"; else rm -f ".deps/groupdel.Tpo"; exit 1; fi
+/bin/sh ../libtool --tag=CC --mode=link gcc  -g -O2   -o groupdel  groupdel.o ../libmisc/libmisc.a ../lib/libshadow.la -lpam -lpam_misc   
+gcc -g -O2 -o .libs/groupdel groupdel.o  ../libmisc/libmisc.a ../lib/.libs/libshadow.so -lcrypt /usr/lib/libpam_misc.so /usr/lib/libpam.so -ldl
+creating groupdel
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib -I../libmisc -DLOCALEDIR=\"/usr/share/locale\"   -g -O2 -MT groupmod.o -MD -MP -MF ".deps/groupmod.Tpo" -c -o groupmod.o groupmod.c; \
+then mv -f ".deps/groupmod.Tpo" ".deps/groupmod.Po"; else rm -f ".deps/groupmod.Tpo"; exit 1; fi
+/bin/sh ../libtool --tag=CC --mode=link gcc  -g -O2   -o groupmod  groupmod.o ../libmisc/libmisc.a ../lib/libshadow.la -lpam -lpam_misc   
+gcc -g -O2 -o .libs/groupmod groupmod.o  ../libmisc/libmisc.a ../lib/.libs/libshadow.so -lcrypt /usr/lib/libpam_misc.so /usr/lib/libpam.so -ldl
+creating groupmod
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib -I../libmisc -DLOCALEDIR=\"/usr/share/locale\"   -g -O2 -MT grpck.o -MD -MP -MF ".deps/grpck.Tpo" -c -o grpck.o grpck.c; \
+then mv -f ".deps/grpck.Tpo" ".deps/grpck.Po"; else rm -f ".deps/grpck.Tpo"; exit 1; fi
+/bin/sh ../libtool --tag=CC --mode=link gcc  -g -O2   -o grpck  grpck.o ../libmisc/libmisc.a ../lib/libshadow.la  
+gcc -g -O2 -o .libs/grpck grpck.o  ../libmisc/libmisc.a ../lib/.libs/libshadow.so -lcrypt
+creating grpck
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib -I../libmisc -DLOCALEDIR=\"/usr/share/locale\"   -g -O2 -MT grpconv.o -MD -MP -MF ".deps/grpconv.Tpo" -c -o grpconv.o grpconv.c; \
+then mv -f ".deps/grpconv.Tpo" ".deps/grpconv.Po"; else rm -f ".deps/grpconv.Tpo"; exit 1; fi
+/bin/sh ../libtool --tag=CC --mode=link gcc  -g -O2   -o grpconv  grpconv.o ../libmisc/libmisc.a ../lib/libshadow.la  
+gcc -g -O2 -o .libs/grpconv grpconv.o  ../libmisc/libmisc.a ../lib/.libs/libshadow.so -lcrypt
+creating grpconv
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib -I../libmisc -DLOCALEDIR=\"/usr/share/locale\"   -g -O2 -MT grpunconv.o -MD -MP -MF ".deps/grpunconv.Tpo" -c -o grpunconv.o grpunconv.c; \
+then mv -f ".deps/grpunconv.Tpo" ".deps/grpunconv.Po"; else rm -f ".deps/grpunconv.Tpo"; exit 1; fi
+/bin/sh ../libtool --tag=CC --mode=link gcc  -g -O2   -o grpunconv  grpunconv.o ../libmisc/libmisc.a ../lib/libshadow.la  
+gcc -g -O2 -o .libs/grpunconv grpunconv.o  ../libmisc/libmisc.a ../lib/.libs/libshadow.so -lcrypt
+creating grpunconv
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib -I../libmisc -DLOCALEDIR=\"/usr/share/locale\"   -g -O2 -MT logoutd.o -MD -MP -MF ".deps/logoutd.Tpo" -c -o logoutd.o logoutd.c; \
+then mv -f ".deps/logoutd.Tpo" ".deps/logoutd.Po"; else rm -f ".deps/logoutd.Tpo"; exit 1; fi
+/bin/sh ../libtool --tag=CC --mode=link gcc  -g -O2   -o logoutd  logoutd.o ../libmisc/libmisc.a ../lib/libshadow.la 
+gcc -g -O2 -o .libs/logoutd logoutd.o  ../libmisc/libmisc.a ../lib/.libs/libshadow.so -lcrypt
+creating logoutd
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib -I../libmisc -DLOCALEDIR=\"/usr/share/locale\"   -g -O2 -MT newusers.o -MD -MP -MF ".deps/newusers.Tpo" -c -o newusers.o newusers.c; \
+then mv -f ".deps/newusers.Tpo" ".deps/newusers.Po"; else rm -f ".deps/newusers.Tpo"; exit 1; fi
+/bin/sh ../libtool --tag=CC --mode=link gcc  -g -O2   -o newusers  newusers.o ../libmisc/libmisc.a ../lib/libshadow.la -lpam -lpam_misc  
+gcc -g -O2 -o .libs/newusers newusers.o  ../libmisc/libmisc.a ../lib/.libs/libshadow.so -lcrypt /usr/lib/libpam_misc.so /usr/lib/libpam.so -ldl
+creating newusers
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib -I../libmisc -DLOCALEDIR=\"/usr/share/locale\"   -g -O2 -MT nologin.o -MD -MP -MF ".deps/nologin.Tpo" -c -o nologin.o nologin.c; \
+then mv -f ".deps/nologin.Tpo" ".deps/nologin.Po"; else rm -f ".deps/nologin.Tpo"; exit 1; fi
+/bin/sh ../libtool --tag=CC --mode=link gcc  -g -O2   -o nologin  nologin.o  
+gcc -g -O2 -o nologin nologin.o 
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib -I../libmisc -DLOCALEDIR=\"/usr/share/locale\"   -g -O2 -MT pwck.o -MD -MP -MF ".deps/pwck.Tpo" -c -o pwck.o pwck.c; \
+then mv -f ".deps/pwck.Tpo" ".deps/pwck.Po"; else rm -f ".deps/pwck.Tpo"; exit 1; fi
+/bin/sh ../libtool --tag=CC --mode=link gcc  -g -O2   -o pwck  pwck.o ../libmisc/libmisc.a ../lib/libshadow.la  
+gcc -g -O2 -o .libs/pwck pwck.o  ../libmisc/libmisc.a ../lib/.libs/libshadow.so -lcrypt
+creating pwck
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib -I../libmisc -DLOCALEDIR=\"/usr/share/locale\"   -g -O2 -MT pwconv.o -MD -MP -MF ".deps/pwconv.Tpo" -c -o pwconv.o pwconv.c; \
+then mv -f ".deps/pwconv.Tpo" ".deps/pwconv.Po"; else rm -f ".deps/pwconv.Tpo"; exit 1; fi
+/bin/sh ../libtool --tag=CC --mode=link gcc  -g -O2   -o pwconv  pwconv.o ../libmisc/libmisc.a ../lib/libshadow.la  
+gcc -g -O2 -o .libs/pwconv pwconv.o  ../libmisc/libmisc.a ../lib/.libs/libshadow.so -lcrypt
+creating pwconv
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib -I../libmisc -DLOCALEDIR=\"/usr/share/locale\"   -g -O2 -MT pwunconv.o -MD -MP -MF ".deps/pwunconv.Tpo" -c -o pwunconv.o pwunconv.c; \
+then mv -f ".deps/pwunconv.Tpo" ".deps/pwunconv.Po"; else rm -f ".deps/pwunconv.Tpo"; exit 1; fi
+/bin/sh ../libtool --tag=CC --mode=link gcc  -g -O2   -o pwunconv  pwunconv.o ../libmisc/libmisc.a ../lib/libshadow.la  
+gcc -g -O2 -o .libs/pwunconv pwunconv.o  ../libmisc/libmisc.a ../lib/.libs/libshadow.so -lcrypt
+creating pwunconv
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib -I../libmisc -DLOCALEDIR=\"/usr/share/locale\"   -g -O2 -MT useradd.o -MD -MP -MF ".deps/useradd.Tpo" -c -o useradd.o useradd.c; \
+then mv -f ".deps/useradd.Tpo" ".deps/useradd.Po"; else rm -f ".deps/useradd.Tpo"; exit 1; fi
+/bin/sh ../libtool --tag=CC --mode=link gcc  -g -O2   -o useradd  useradd.o ../libmisc/libmisc.a ../lib/libshadow.la -lpam -lpam_misc   
+gcc -g -O2 -o .libs/useradd useradd.o  ../libmisc/libmisc.a ../lib/.libs/libshadow.so -lcrypt /usr/lib/libpam_misc.so /usr/lib/libpam.so -ldl
+creating useradd
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib -I../libmisc -DLOCALEDIR=\"/usr/share/locale\"   -g -O2 -MT userdel.o -MD -MP -MF ".deps/userdel.Tpo" -c -o userdel.o userdel.c; \
+then mv -f ".deps/userdel.Tpo" ".deps/userdel.Po"; else rm -f ".deps/userdel.Tpo"; exit 1; fi
+/bin/sh ../libtool --tag=CC --mode=link gcc  -g -O2   -o userdel  userdel.o ../libmisc/libmisc.a ../lib/libshadow.la -lpam -lpam_misc   
+gcc -g -O2 -o .libs/userdel userdel.o  ../libmisc/libmisc.a ../lib/.libs/libshadow.so -lcrypt /usr/lib/libpam_misc.so /usr/lib/libpam.so -ldl
+creating userdel
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib -I../libmisc -DLOCALEDIR=\"/usr/share/locale\"   -g -O2 -MT usermod.o -MD -MP -MF ".deps/usermod.Tpo" -c -o usermod.o usermod.c; \
+then mv -f ".deps/usermod.Tpo" ".deps/usermod.Po"; else rm -f ".deps/usermod.Tpo"; exit 1; fi
+/bin/sh ../libtool --tag=CC --mode=link gcc  -g -O2   -o usermod  usermod.o ../libmisc/libmisc.a ../lib/libshadow.la -lpam -lpam_misc   
+gcc -g -O2 -o .libs/usermod usermod.o  ../libmisc/libmisc.a ../lib/.libs/libshadow.so -lcrypt /usr/lib/libpam_misc.so /usr/lib/libpam.so -ldl
+creating usermod
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../lib -I../libmisc -DLOCALEDIR=\"/usr/share/locale\"   -g -O2 -MT vipw.o -MD -MP -MF ".deps/vipw.Tpo" -c -o vipw.o vipw.c; \
+then mv -f ".deps/vipw.Tpo" ".deps/vipw.Po"; else rm -f ".deps/vipw.Tpo"; exit 1; fi
+/bin/sh ../libtool --tag=CC --mode=link gcc  -g -O2   -o vipw  vipw.o ../libmisc/libmisc.a ../lib/libshadow.la  
+gcc -g -O2 -o .libs/vipw vipw.o  ../libmisc/libmisc.a ../lib/.libs/libshadow.so -lcrypt
+creating vipw
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/src'
+Making all in contrib
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/contrib'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/contrib'
+Making all in doc
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/doc'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/doc'
+Making all in etc
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/etc'
+Making all in pam.d
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/etc/pam.d'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/etc/pam.d'
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/etc'
+make[3]: Nothing to be done for `all-am'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/etc'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/etc'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15'
+make[2]: Nothing to be done for `all-am'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15'

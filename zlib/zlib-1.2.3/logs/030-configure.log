@@ -1,0 +1,9 @@
+Checking for gcc...
+Checking for shared library support...
+Building shared library libz.so.1.2.3 with gcc.
+Checking for unistd.h... Yes.
+Checking whether to use vs[n]printf() or s[n]printf()... using vs[n]printf()
+Checking for vsnprintf() in stdio.h... Yes.
+Checking for return value of vsnprintf()... Yes.
+Checking for errno.h... Yes.
+Checking for mmap support... Yes.

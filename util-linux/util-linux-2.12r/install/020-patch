@@ -1,0 +1,14 @@
+#!/bin/bash
+
+source configure
+
+pushd ../unpack/*
+
+# make the hwclock program FHS-compliant
+sed -i 's@etc/adjtime@var/lib/hwclock/adjtime@g' \
+	hwclock/hwclock.c
+
+ABPatch | tee ../../logs/020-patch.log
+
+popd
+

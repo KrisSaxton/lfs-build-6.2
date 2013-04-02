@@ -1,0 +1,23 @@
+Found a patch, skipping...
+mktemp-1.5/INSTALL
+mktemp-1.5/INSTALL.configure
+mktemp-1.5/LICENSE
+mktemp-1.5/Makefile.in
+mktemp-1.5/README
+mktemp-1.5/RELEASE_NOTES
+mktemp-1.5/config.guess
+mktemp-1.5/config.h.in
+mktemp-1.5/config.sub
+mktemp-1.5/configure
+mktemp-1.5/configure.in
+mktemp-1.5/extern.h
+mktemp-1.5/install-sh
+mktemp-1.5/mkdtemp.c
+mktemp-1.5/mkinstalldirs
+mktemp-1.5/mktemp.c
+mktemp-1.5/mktemp.man
+mktemp-1.5/mktemp.mdoc
+mktemp-1.5/priv_mktemp.c
+mktemp-1.5/random.c
+mktemp-1.5/strdup.c
+mktemp-1.5/strerror.c

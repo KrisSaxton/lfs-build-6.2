@@ -1,0 +1,14 @@
+#!/bin/bash
+
+source configure
+
+pushd ../unpack/*
+
+# Miguel: We unset SHLIB_XLDFLAGS so that rpath in not embeded in shared libs
+
+make \
+    SHLIB_LIBS=-lncurses \
+    SHLIB_XLDFLAGS='' \
+    | tee ../../logs/050-make.log
+
+popd

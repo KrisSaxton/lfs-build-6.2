@@ -1,0 +1,135 @@
+`configure' configures GRUB 0.97 to adapt to many kinds of systems.
+
+Usage: ./configure [OPTION]... [VAR=VALUE]...
+
+To assign environment variables (e.g., CC, CFLAGS...), specify them as
+VAR=VALUE.  See below for descriptions of some of the useful variables.
+
+Defaults for the options are specified in brackets.
+
+Configuration:
+  -h, --help              display this help and exit
+      --help=short        display options specific to this package
+      --help=recursive    display the short help of all the included packages
+  -V, --version           display version information and exit
+  -q, --quiet, --silent   do not print `checking...' messages
+      --cache-file=FILE   cache test results in FILE [disabled]
+  -C, --config-cache      alias for `--cache-file=config.cache'
+  -n, --no-create         do not create output files
+      --srcdir=DIR        find the sources in DIR [configure dir or `..']
+
+Installation directories:
+  --prefix=PREFIX         install architecture-independent files in PREFIX
+			  [/usr/local]
+  --exec-prefix=EPREFIX   install architecture-dependent files in EPREFIX
+			  [PREFIX]
+
+By default, `make install' will install all the files in
+`/usr/local/bin', `/usr/local/lib' etc.  You can specify
+an installation prefix other than `/usr/local' using `--prefix',
+for instance `--prefix=$HOME'.
+
+For better control, use the options below.
+
+Fine tuning of the installation directories:
+  --bindir=DIR           user executables [EPREFIX/bin]
+  --sbindir=DIR          system admin executables [EPREFIX/sbin]
+  --libexecdir=DIR       program executables [EPREFIX/libexec]
+  --datadir=DIR          read-only architecture-independent data [PREFIX/share]
+  --sysconfdir=DIR       read-only single-machine data [PREFIX/etc]
+  --sharedstatedir=DIR   modifiable architecture-independent data [PREFIX/com]
+  --localstatedir=DIR    modifiable single-machine data [PREFIX/var]
+  --libdir=DIR           object code libraries [EPREFIX/lib]
+  --includedir=DIR       C header files [PREFIX/include]
+  --oldincludedir=DIR    C header files for non-gcc [/usr/include]
+  --infodir=DIR          info documentation [PREFIX/info]
+  --mandir=DIR           man documentation [PREFIX/man]
+
+Program names:
+  --program-prefix=PREFIX            prepend PREFIX to installed program names
+  --program-suffix=SUFFIX            append SUFFIX to installed program names
+  --program-transform-name=PROGRAM   run sed PROGRAM on installed program names
+
+System types:
+  --build=BUILD     configure for building on BUILD [guessed]
+  --host=HOST       cross-compile to build programs to run on HOST [BUILD]
+
+Optional Features:
+  --disable-FEATURE       do not include FEATURE (same as --enable-FEATURE=no)
+  --enable-FEATURE[=ARG]  include FEATURE [ARG=yes]
+  --enable-maintainer-mode  enable make rules and dependencies not useful
+			  (and sometimes confusing) to the casual installer
+  --disable-dependency-tracking  speeds up one-time build
+  --enable-dependency-tracking   do not reject slow dependency extractors
+  --disable-ext2fs        disable ext2fs support in Stage 2
+  --disable-fat           disable FAT support in Stage 2
+  --disable-ffs           disable FFS support in Stage 2
+  --disable-ufs2          disable UFS2 support in Stage 2
+  --disable-minix         disable Minix fs support in Stage 2
+  --disable-reiserfs      disable ReiserFS support in Stage 2
+  --disable-vstafs        disable VSTa FS support in Stage 2
+  --disable-jfs           disable IBM JFS support in Stage 2
+  --disable-xfs           disable SGI XFS support in Stage 2
+  --disable-iso9660       disable ISO9660 support in Stage 2
+  --disable-gunzip        disable decompression in Stage 2
+  --disable-md5-password  disable MD5 password support in Stage 2
+  --disable-packet-retransmission
+                          turn off packet retransmission
+  --enable-pci-direct     access PCI directly instead of using BIOS
+  --enable-3c595          enable 3Com595 driver
+  --enable-3c90x          enable 3Com90x driver
+  --enable-davicom        enable Davicom driver
+  --enable-e1000          enable Etherexpress Pro/1000 driver
+  --enable-eepro100       enable Etherexpress Pro/100 driver
+  --enable-epic100        enable SMC 83c170 EPIC/100 driver
+  --enable-forcedeth      enable Nvidia Geforce driver
+  --enable-natsemi        enable NatSemi DP8381x driver
+  --enable-ns83820        enable NS83820 driver
+  --enable-ns8390         enable NE2000 PCI driver
+  --enable-pcnet32        enable AMD Lance/PCI PCNet/32 driver
+  --enable-pnic           enable Bochs Pseudo Nic driver
+  --enable-rtl8139        enable Realtek 8139 driver
+  --enable-r8169          enable Realtek 8169 driver
+  --enable-sis900         enable SIS 900 and SIS 7016 driver
+  --enable-tg3            enable Broadcom Tigon3 driver
+  --enable-tulip          enable Tulip driver
+  --enable-tlan           enable TI ThunderLAN driver
+  --enable-undi           enable PXE UNDI driver
+  --enable-via-rhine      enable Rhine-I/II driver
+  --enable-w89c840        enable Winbond W89c840 driver
+  --enable-compex-rl2000-fix
+                          specify this if you have a Compex RL2000 PCI
+  --enable-ne-scan=LIST   probe for NE base address using LIST
+  --enable-wd-default-mem=MEM
+                          set the default memory location for WD/SMC
+  --enable-diskless       enable diskless support
+  --disable-hercules      disable hercules terminal support
+  --disable-serial        disable serial terminal support
+  --enable-serial-speed-simulation
+                          simulate the slowness of a serial device
+  --enable-preset-menu=FILE
+                          preset a menu file FILE in Stage 2
+  --enable-example-kernel
+                          build the example Multiboot kernel
+  --disable-auto-linux-mem-opt
+                          don't pass Linux mem= option automatically
+
+Optional Packages:
+  --with-PACKAGE[=ARG]    use PACKAGE [ARG=yes]
+  --without-PACKAGE       do not use PACKAGE (same as --with-PACKAGE=no)
+  --with-binutils=DIR     search the directory DIR to find binutils
+  --without-curses        do not use curses
+
+Some influential environment variables:
+  CC          C compiler command
+  CFLAGS      C compiler flags
+  LDFLAGS     linker flags, e.g. -L<lib dir> if you have libraries in a
+              nonstandard directory <lib dir>
+  CPPFLAGS    C/C++ preprocessor flags, e.g. -I<include dir> if you have
+              headers in a nonstandard directory <include dir>
+  CPP         C preprocessor
+
+Use these variables to override the choices made by `configure' or to help
+it to find libraries and programs with nonstandard names/locations.
+
+Report bugs to <bug-grub@gnu.org>.

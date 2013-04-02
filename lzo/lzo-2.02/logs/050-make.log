@@ -1,0 +1,407 @@
+make  all-recursive
+make[1]: Entering directory `/home/kris/svn/packages/lzo/lzo-2.02/unpack/lzo-2.02'
+Making all in include
+make[2]: Entering directory `/home/kris/svn/packages/lzo/lzo-2.02/unpack/lzo-2.02/include'
+Making all in lzo
+make[3]: Entering directory `/home/kris/svn/packages/lzo/lzo-2.02/unpack/lzo-2.02/include/lzo'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/home/kris/svn/packages/lzo/lzo-2.02/unpack/lzo-2.02/include/lzo'
+make[3]: Entering directory `/home/kris/svn/packages/lzo/lzo-2.02/unpack/lzo-2.02/include'
+make[3]: Nothing to be done for `all-am'.
+make[3]: Leaving directory `/home/kris/svn/packages/lzo/lzo-2.02/unpack/lzo-2.02/include'
+make[2]: Leaving directory `/home/kris/svn/packages/lzo/lzo-2.02/unpack/lzo-2.02/include'
+Making all in src
+make[2]: Entering directory `/home/kris/svn/packages/lzo/lzo-2.02/unpack/lzo-2.02/src'
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I..   -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM    -g -O2  -MT lzo_crc.lo -MD -MP -MF ".deps/lzo_crc.Tpo" -c -o lzo_crc.lo lzo_crc.c; \
+then mv -f ".deps/lzo_crc.Tpo" ".deps/lzo_crc.Plo"; else rm -f ".deps/lzo_crc.Tpo"; exit 1; fi
+mkdir .libs
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo_crc.lo -MD -MP -MF .deps/lzo_crc.Tpo -c lzo_crc.c  -fPIC -DPIC -o .libs/lzo_crc.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo_crc.lo -MD -MP -MF .deps/lzo_crc.Tpo -c lzo_crc.c -o lzo_crc.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I..   -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM    -g -O2  -MT lzo_init.lo -MD -MP -MF ".deps/lzo_init.Tpo" -c -o lzo_init.lo lzo_init.c; \
+then mv -f ".deps/lzo_init.Tpo" ".deps/lzo_init.Plo"; else rm -f ".deps/lzo_init.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo_init.lo -MD -MP -MF .deps/lzo_init.Tpo -c lzo_init.c  -fPIC -DPIC -o .libs/lzo_init.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo_init.lo -MD -MP -MF .deps/lzo_init.Tpo -c lzo_init.c -o lzo_init.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I..   -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM    -g -O2  -MT lzo_ptr.lo -MD -MP -MF ".deps/lzo_ptr.Tpo" -c -o lzo_ptr.lo lzo_ptr.c; \
+then mv -f ".deps/lzo_ptr.Tpo" ".deps/lzo_ptr.Plo"; else rm -f ".deps/lzo_ptr.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo_ptr.lo -MD -MP -MF .deps/lzo_ptr.Tpo -c lzo_ptr.c  -fPIC -DPIC -o .libs/lzo_ptr.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo_ptr.lo -MD -MP -MF .deps/lzo_ptr.Tpo -c lzo_ptr.c -o lzo_ptr.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I..   -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM    -g -O2  -MT lzo_str.lo -MD -MP -MF ".deps/lzo_str.Tpo" -c -o lzo_str.lo lzo_str.c; \
+then mv -f ".deps/lzo_str.Tpo" ".deps/lzo_str.Plo"; else rm -f ".deps/lzo_str.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo_str.lo -MD -MP -MF .deps/lzo_str.Tpo -c lzo_str.c  -fPIC -DPIC -o .libs/lzo_str.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo_str.lo -MD -MP -MF .deps/lzo_str.Tpo -c lzo_str.c -o lzo_str.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I..   -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM    -g -O2  -MT lzo_util.lo -MD -MP -MF ".deps/lzo_util.Tpo" -c -o lzo_util.lo lzo_util.c; \
+then mv -f ".deps/lzo_util.Tpo" ".deps/lzo_util.Plo"; else rm -f ".deps/lzo_util.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo_util.lo -MD -MP -MF .deps/lzo_util.Tpo -c lzo_util.c  -fPIC -DPIC -o .libs/lzo_util.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo_util.lo -MD -MP -MF .deps/lzo_util.Tpo -c lzo_util.c -o lzo_util.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I..   -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM    -g -O2  -MT lzo1.lo -MD -MP -MF ".deps/lzo1.Tpo" -c -o lzo1.lo lzo1.c; \
+then mv -f ".deps/lzo1.Tpo" ".deps/lzo1.Plo"; else rm -f ".deps/lzo1.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1.lo -MD -MP -MF .deps/lzo1.Tpo -c lzo1.c  -fPIC -DPIC -o .libs/lzo1.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1.lo -MD -MP -MF .deps/lzo1.Tpo -c lzo1.c -o lzo1.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I..   -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM    -g -O2  -MT lzo1_99.lo -MD -MP -MF ".deps/lzo1_99.Tpo" -c -o lzo1_99.lo lzo1_99.c; \
+then mv -f ".deps/lzo1_99.Tpo" ".deps/lzo1_99.Plo"; else rm -f ".deps/lzo1_99.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1_99.lo -MD -MP -MF .deps/lzo1_99.Tpo -c lzo1_99.c  -fPIC -DPIC -o .libs/lzo1_99.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1_99.lo -MD -MP -MF .deps/lzo1_99.Tpo -c lzo1_99.c -o lzo1_99.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I..   -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM    -g -O2  -MT lzo1a.lo -MD -MP -MF ".deps/lzo1a.Tpo" -c -o lzo1a.lo lzo1a.c; \
+then mv -f ".deps/lzo1a.Tpo" ".deps/lzo1a.Plo"; else rm -f ".deps/lzo1a.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1a.lo -MD -MP -MF .deps/lzo1a.Tpo -c lzo1a.c  -fPIC -DPIC -o .libs/lzo1a.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1a.lo -MD -MP -MF .deps/lzo1a.Tpo -c lzo1a.c -o lzo1a.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I..   -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM    -g -O2  -MT lzo1a_99.lo -MD -MP -MF ".deps/lzo1a_99.Tpo" -c -o lzo1a_99.lo lzo1a_99.c; \
+then mv -f ".deps/lzo1a_99.Tpo" ".deps/lzo1a_99.Plo"; else rm -f ".deps/lzo1a_99.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1a_99.lo -MD -MP -MF .deps/lzo1a_99.Tpo -c lzo1a_99.c  -fPIC -DPIC -o .libs/lzo1a_99.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1a_99.lo -MD -MP -MF .deps/lzo1a_99.Tpo -c lzo1a_99.c -o lzo1a_99.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I..   -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM    -g -O2  -MT lzo1b_1.lo -MD -MP -MF ".deps/lzo1b_1.Tpo" -c -o lzo1b_1.lo lzo1b_1.c; \
+then mv -f ".deps/lzo1b_1.Tpo" ".deps/lzo1b_1.Plo"; else rm -f ".deps/lzo1b_1.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1b_1.lo -MD -MP -MF .deps/lzo1b_1.Tpo -c lzo1b_1.c  -fPIC -DPIC -o .libs/lzo1b_1.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1b_1.lo -MD -MP -MF .deps/lzo1b_1.Tpo -c lzo1b_1.c -o lzo1b_1.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I..   -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM    -g -O2  -MT lzo1b_2.lo -MD -MP -MF ".deps/lzo1b_2.Tpo" -c -o lzo1b_2.lo lzo1b_2.c; \
+then mv -f ".deps/lzo1b_2.Tpo" ".deps/lzo1b_2.Plo"; else rm -f ".deps/lzo1b_2.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1b_2.lo -MD -MP -MF .deps/lzo1b_2.Tpo -c lzo1b_2.c  -fPIC -DPIC -o .libs/lzo1b_2.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1b_2.lo -MD -MP -MF .deps/lzo1b_2.Tpo -c lzo1b_2.c -o lzo1b_2.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I..   -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM    -g -O2  -MT lzo1b_3.lo -MD -MP -MF ".deps/lzo1b_3.Tpo" -c -o lzo1b_3.lo lzo1b_3.c; \
+then mv -f ".deps/lzo1b_3.Tpo" ".deps/lzo1b_3.Plo"; else rm -f ".deps/lzo1b_3.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1b_3.lo -MD -MP -MF .deps/lzo1b_3.Tpo -c lzo1b_3.c  -fPIC -DPIC -o .libs/lzo1b_3.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1b_3.lo -MD -MP -MF .deps/lzo1b_3.Tpo -c lzo1b_3.c -o lzo1b_3.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I..   -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM    -g -O2  -MT lzo1b_4.lo -MD -MP -MF ".deps/lzo1b_4.Tpo" -c -o lzo1b_4.lo lzo1b_4.c; \
+then mv -f ".deps/lzo1b_4.Tpo" ".deps/lzo1b_4.Plo"; else rm -f ".deps/lzo1b_4.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1b_4.lo -MD -MP -MF .deps/lzo1b_4.Tpo -c lzo1b_4.c  -fPIC -DPIC -o .libs/lzo1b_4.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1b_4.lo -MD -MP -MF .deps/lzo1b_4.Tpo -c lzo1b_4.c -o lzo1b_4.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I..   -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM    -g -O2  -MT lzo1b_5.lo -MD -MP -MF ".deps/lzo1b_5.Tpo" -c -o lzo1b_5.lo lzo1b_5.c; \
+then mv -f ".deps/lzo1b_5.Tpo" ".deps/lzo1b_5.Plo"; else rm -f ".deps/lzo1b_5.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1b_5.lo -MD -MP -MF .deps/lzo1b_5.Tpo -c lzo1b_5.c  -fPIC -DPIC -o .libs/lzo1b_5.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1b_5.lo -MD -MP -MF .deps/lzo1b_5.Tpo -c lzo1b_5.c -o lzo1b_5.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I..   -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM    -g -O2  -MT lzo1b_6.lo -MD -MP -MF ".deps/lzo1b_6.Tpo" -c -o lzo1b_6.lo lzo1b_6.c; \
+then mv -f ".deps/lzo1b_6.Tpo" ".deps/lzo1b_6.Plo"; else rm -f ".deps/lzo1b_6.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1b_6.lo -MD -MP -MF .deps/lzo1b_6.Tpo -c lzo1b_6.c  -fPIC -DPIC -o .libs/lzo1b_6.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1b_6.lo -MD -MP -MF .deps/lzo1b_6.Tpo -c lzo1b_6.c -o lzo1b_6.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I..   -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM    -g -O2  -MT lzo1b_7.lo -MD -MP -MF ".deps/lzo1b_7.Tpo" -c -o lzo1b_7.lo lzo1b_7.c; \
+then mv -f ".deps/lzo1b_7.Tpo" ".deps/lzo1b_7.Plo"; else rm -f ".deps/lzo1b_7.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1b_7.lo -MD -MP -MF .deps/lzo1b_7.Tpo -c lzo1b_7.c  -fPIC -DPIC -o .libs/lzo1b_7.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1b_7.lo -MD -MP -MF .deps/lzo1b_7.Tpo -c lzo1b_7.c -o lzo1b_7.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I..   -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM    -g -O2  -MT lzo1b_8.lo -MD -MP -MF ".deps/lzo1b_8.Tpo" -c -o lzo1b_8.lo lzo1b_8.c; \
+then mv -f ".deps/lzo1b_8.Tpo" ".deps/lzo1b_8.Plo"; else rm -f ".deps/lzo1b_8.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1b_8.lo -MD -MP -MF .deps/lzo1b_8.Tpo -c lzo1b_8.c  -fPIC -DPIC -o .libs/lzo1b_8.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1b_8.lo -MD -MP -MF .deps/lzo1b_8.Tpo -c lzo1b_8.c -o lzo1b_8.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I..   -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM    -g -O2  -MT lzo1b_9.lo -MD -MP -MF ".deps/lzo1b_9.Tpo" -c -o lzo1b_9.lo lzo1b_9.c; \
+then mv -f ".deps/lzo1b_9.Tpo" ".deps/lzo1b_9.Plo"; else rm -f ".deps/lzo1b_9.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1b_9.lo -MD -MP -MF .deps/lzo1b_9.Tpo -c lzo1b_9.c  -fPIC -DPIC -o .libs/lzo1b_9.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1b_9.lo -MD -MP -MF .deps/lzo1b_9.Tpo -c lzo1b_9.c -o lzo1b_9.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I..   -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM    -g -O2  -MT lzo1b_99.lo -MD -MP -MF ".deps/lzo1b_99.Tpo" -c -o lzo1b_99.lo lzo1b_99.c; \
+then mv -f ".deps/lzo1b_99.Tpo" ".deps/lzo1b_99.Plo"; else rm -f ".deps/lzo1b_99.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1b_99.lo -MD -MP -MF .deps/lzo1b_99.Tpo -c lzo1b_99.c  -fPIC -DPIC -o .libs/lzo1b_99.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1b_99.lo -MD -MP -MF .deps/lzo1b_99.Tpo -c lzo1b_99.c -o lzo1b_99.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I..   -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM    -g -O2  -MT lzo1b_9x.lo -MD -MP -MF ".deps/lzo1b_9x.Tpo" -c -o lzo1b_9x.lo lzo1b_9x.c; \
+then mv -f ".deps/lzo1b_9x.Tpo" ".deps/lzo1b_9x.Plo"; else rm -f ".deps/lzo1b_9x.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1b_9x.lo -MD -MP -MF .deps/lzo1b_9x.Tpo -c lzo1b_9x.c  -fPIC -DPIC -o .libs/lzo1b_9x.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1b_9x.lo -MD -MP -MF .deps/lzo1b_9x.Tpo -c lzo1b_9x.c -o lzo1b_9x.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I..   -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM    -g -O2  -MT lzo1b_cc.lo -MD -MP -MF ".deps/lzo1b_cc.Tpo" -c -o lzo1b_cc.lo lzo1b_cc.c; \
+then mv -f ".deps/lzo1b_cc.Tpo" ".deps/lzo1b_cc.Plo"; else rm -f ".deps/lzo1b_cc.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1b_cc.lo -MD -MP -MF .deps/lzo1b_cc.Tpo -c lzo1b_cc.c  -fPIC -DPIC -o .libs/lzo1b_cc.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1b_cc.lo -MD -MP -MF .deps/lzo1b_cc.Tpo -c lzo1b_cc.c -o lzo1b_cc.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I..   -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM    -g -O2  -MT lzo1b_d1.lo -MD -MP -MF ".deps/lzo1b_d1.Tpo" -c -o lzo1b_d1.lo lzo1b_d1.c; \
+then mv -f ".deps/lzo1b_d1.Tpo" ".deps/lzo1b_d1.Plo"; else rm -f ".deps/lzo1b_d1.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1b_d1.lo -MD -MP -MF .deps/lzo1b_d1.Tpo -c lzo1b_d1.c  -fPIC -DPIC -o .libs/lzo1b_d1.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1b_d1.lo -MD -MP -MF .deps/lzo1b_d1.Tpo -c lzo1b_d1.c -o lzo1b_d1.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I..   -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM    -g -O2  -MT lzo1b_d2.lo -MD -MP -MF ".deps/lzo1b_d2.Tpo" -c -o lzo1b_d2.lo lzo1b_d2.c; \
+then mv -f ".deps/lzo1b_d2.Tpo" ".deps/lzo1b_d2.Plo"; else rm -f ".deps/lzo1b_d2.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1b_d2.lo -MD -MP -MF .deps/lzo1b_d2.Tpo -c lzo1b_d2.c  -fPIC -DPIC -o .libs/lzo1b_d2.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1b_d2.lo -MD -MP -MF .deps/lzo1b_d2.Tpo -c lzo1b_d2.c -o lzo1b_d2.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I..   -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM    -g -O2  -MT lzo1b_rr.lo -MD -MP -MF ".deps/lzo1b_rr.Tpo" -c -o lzo1b_rr.lo lzo1b_rr.c; \
+then mv -f ".deps/lzo1b_rr.Tpo" ".deps/lzo1b_rr.Plo"; else rm -f ".deps/lzo1b_rr.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1b_rr.lo -MD -MP -MF .deps/lzo1b_rr.Tpo -c lzo1b_rr.c  -fPIC -DPIC -o .libs/lzo1b_rr.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1b_rr.lo -MD -MP -MF .deps/lzo1b_rr.Tpo -c lzo1b_rr.c -o lzo1b_rr.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I..   -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM    -g -O2  -MT lzo1b_xx.lo -MD -MP -MF ".deps/lzo1b_xx.Tpo" -c -o lzo1b_xx.lo lzo1b_xx.c; \
+then mv -f ".deps/lzo1b_xx.Tpo" ".deps/lzo1b_xx.Plo"; else rm -f ".deps/lzo1b_xx.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1b_xx.lo -MD -MP -MF .deps/lzo1b_xx.Tpo -c lzo1b_xx.c  -fPIC -DPIC -o .libs/lzo1b_xx.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1b_xx.lo -MD -MP -MF .deps/lzo1b_xx.Tpo -c lzo1b_xx.c -o lzo1b_xx.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I..   -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM    -g -O2  -MT lzo1c_1.lo -MD -MP -MF ".deps/lzo1c_1.Tpo" -c -o lzo1c_1.lo lzo1c_1.c; \
+then mv -f ".deps/lzo1c_1.Tpo" ".deps/lzo1c_1.Plo"; else rm -f ".deps/lzo1c_1.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1c_1.lo -MD -MP -MF .deps/lzo1c_1.Tpo -c lzo1c_1.c  -fPIC -DPIC -o .libs/lzo1c_1.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1c_1.lo -MD -MP -MF .deps/lzo1c_1.Tpo -c lzo1c_1.c -o lzo1c_1.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I..   -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM    -g -O2  -MT lzo1c_2.lo -MD -MP -MF ".deps/lzo1c_2.Tpo" -c -o lzo1c_2.lo lzo1c_2.c; \
+then mv -f ".deps/lzo1c_2.Tpo" ".deps/lzo1c_2.Plo"; else rm -f ".deps/lzo1c_2.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1c_2.lo -MD -MP -MF .deps/lzo1c_2.Tpo -c lzo1c_2.c  -fPIC -DPIC -o .libs/lzo1c_2.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1c_2.lo -MD -MP -MF .deps/lzo1c_2.Tpo -c lzo1c_2.c -o lzo1c_2.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I..   -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM    -g -O2  -MT lzo1c_3.lo -MD -MP -MF ".deps/lzo1c_3.Tpo" -c -o lzo1c_3.lo lzo1c_3.c; \
+then mv -f ".deps/lzo1c_3.Tpo" ".deps/lzo1c_3.Plo"; else rm -f ".deps/lzo1c_3.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1c_3.lo -MD -MP -MF .deps/lzo1c_3.Tpo -c lzo1c_3.c  -fPIC -DPIC -o .libs/lzo1c_3.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1c_3.lo -MD -MP -MF .deps/lzo1c_3.Tpo -c lzo1c_3.c -o lzo1c_3.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I..   -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM    -g -O2  -MT lzo1c_4.lo -MD -MP -MF ".deps/lzo1c_4.Tpo" -c -o lzo1c_4.lo lzo1c_4.c; \
+then mv -f ".deps/lzo1c_4.Tpo" ".deps/lzo1c_4.Plo"; else rm -f ".deps/lzo1c_4.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1c_4.lo -MD -MP -MF .deps/lzo1c_4.Tpo -c lzo1c_4.c  -fPIC -DPIC -o .libs/lzo1c_4.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1c_4.lo -MD -MP -MF .deps/lzo1c_4.Tpo -c lzo1c_4.c -o lzo1c_4.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I..   -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM    -g -O2  -MT lzo1c_5.lo -MD -MP -MF ".deps/lzo1c_5.Tpo" -c -o lzo1c_5.lo lzo1c_5.c; \
+then mv -f ".deps/lzo1c_5.Tpo" ".deps/lzo1c_5.Plo"; else rm -f ".deps/lzo1c_5.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1c_5.lo -MD -MP -MF .deps/lzo1c_5.Tpo -c lzo1c_5.c  -fPIC -DPIC -o .libs/lzo1c_5.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1c_5.lo -MD -MP -MF .deps/lzo1c_5.Tpo -c lzo1c_5.c -o lzo1c_5.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I..   -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM    -g -O2  -MT lzo1c_6.lo -MD -MP -MF ".deps/lzo1c_6.Tpo" -c -o lzo1c_6.lo lzo1c_6.c; \
+then mv -f ".deps/lzo1c_6.Tpo" ".deps/lzo1c_6.Plo"; else rm -f ".deps/lzo1c_6.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1c_6.lo -MD -MP -MF .deps/lzo1c_6.Tpo -c lzo1c_6.c  -fPIC -DPIC -o .libs/lzo1c_6.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1c_6.lo -MD -MP -MF .deps/lzo1c_6.Tpo -c lzo1c_6.c -o lzo1c_6.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I..   -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM    -g -O2  -MT lzo1c_7.lo -MD -MP -MF ".deps/lzo1c_7.Tpo" -c -o lzo1c_7.lo lzo1c_7.c; \
+then mv -f ".deps/lzo1c_7.Tpo" ".deps/lzo1c_7.Plo"; else rm -f ".deps/lzo1c_7.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1c_7.lo -MD -MP -MF .deps/lzo1c_7.Tpo -c lzo1c_7.c  -fPIC -DPIC -o .libs/lzo1c_7.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1c_7.lo -MD -MP -MF .deps/lzo1c_7.Tpo -c lzo1c_7.c -o lzo1c_7.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I..   -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM    -g -O2  -MT lzo1c_8.lo -MD -MP -MF ".deps/lzo1c_8.Tpo" -c -o lzo1c_8.lo lzo1c_8.c; \
+then mv -f ".deps/lzo1c_8.Tpo" ".deps/lzo1c_8.Plo"; else rm -f ".deps/lzo1c_8.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1c_8.lo -MD -MP -MF .deps/lzo1c_8.Tpo -c lzo1c_8.c  -fPIC -DPIC -o .libs/lzo1c_8.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1c_8.lo -MD -MP -MF .deps/lzo1c_8.Tpo -c lzo1c_8.c -o lzo1c_8.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I..   -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM    -g -O2  -MT lzo1c_9.lo -MD -MP -MF ".deps/lzo1c_9.Tpo" -c -o lzo1c_9.lo lzo1c_9.c; \
+then mv -f ".deps/lzo1c_9.Tpo" ".deps/lzo1c_9.Plo"; else rm -f ".deps/lzo1c_9.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1c_9.lo -MD -MP -MF .deps/lzo1c_9.Tpo -c lzo1c_9.c  -fPIC -DPIC -o .libs/lzo1c_9.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1c_9.lo -MD -MP -MF .deps/lzo1c_9.Tpo -c lzo1c_9.c -o lzo1c_9.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I..   -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM    -g -O2  -MT lzo1c_99.lo -MD -MP -MF ".deps/lzo1c_99.Tpo" -c -o lzo1c_99.lo lzo1c_99.c; \
+then mv -f ".deps/lzo1c_99.Tpo" ".deps/lzo1c_99.Plo"; else rm -f ".deps/lzo1c_99.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1c_99.lo -MD -MP -MF .deps/lzo1c_99.Tpo -c lzo1c_99.c  -fPIC -DPIC -o .libs/lzo1c_99.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1c_99.lo -MD -MP -MF .deps/lzo1c_99.Tpo -c lzo1c_99.c -o lzo1c_99.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I..   -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM    -g -O2  -MT lzo1c_9x.lo -MD -MP -MF ".deps/lzo1c_9x.Tpo" -c -o lzo1c_9x.lo lzo1c_9x.c; \
+then mv -f ".deps/lzo1c_9x.Tpo" ".deps/lzo1c_9x.Plo"; else rm -f ".deps/lzo1c_9x.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1c_9x.lo -MD -MP -MF .deps/lzo1c_9x.Tpo -c lzo1c_9x.c  -fPIC -DPIC -o .libs/lzo1c_9x.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1c_9x.lo -MD -MP -MF .deps/lzo1c_9x.Tpo -c lzo1c_9x.c -o lzo1c_9x.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I..   -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM    -g -O2  -MT lzo1c_cc.lo -MD -MP -MF ".deps/lzo1c_cc.Tpo" -c -o lzo1c_cc.lo lzo1c_cc.c; \
+then mv -f ".deps/lzo1c_cc.Tpo" ".deps/lzo1c_cc.Plo"; else rm -f ".deps/lzo1c_cc.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1c_cc.lo -MD -MP -MF .deps/lzo1c_cc.Tpo -c lzo1c_cc.c  -fPIC -DPIC -o .libs/lzo1c_cc.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1c_cc.lo -MD -MP -MF .deps/lzo1c_cc.Tpo -c lzo1c_cc.c -o lzo1c_cc.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I..   -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM    -g -O2  -MT lzo1c_d1.lo -MD -MP -MF ".deps/lzo1c_d1.Tpo" -c -o lzo1c_d1.lo lzo1c_d1.c; \
+then mv -f ".deps/lzo1c_d1.Tpo" ".deps/lzo1c_d1.Plo"; else rm -f ".deps/lzo1c_d1.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1c_d1.lo -MD -MP -MF .deps/lzo1c_d1.Tpo -c lzo1c_d1.c  -fPIC -DPIC -o .libs/lzo1c_d1.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1c_d1.lo -MD -MP -MF .deps/lzo1c_d1.Tpo -c lzo1c_d1.c -o lzo1c_d1.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I..   -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM    -g -O2  -MT lzo1c_d2.lo -MD -MP -MF ".deps/lzo1c_d2.Tpo" -c -o lzo1c_d2.lo lzo1c_d2.c; \
+then mv -f ".deps/lzo1c_d2.Tpo" ".deps/lzo1c_d2.Plo"; else rm -f ".deps/lzo1c_d2.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1c_d2.lo -MD -MP -MF .deps/lzo1c_d2.Tpo -c lzo1c_d2.c  -fPIC -DPIC -o .libs/lzo1c_d2.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1c_d2.lo -MD -MP -MF .deps/lzo1c_d2.Tpo -c lzo1c_d2.c -o lzo1c_d2.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I..   -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM    -g -O2  -MT lzo1c_rr.lo -MD -MP -MF ".deps/lzo1c_rr.Tpo" -c -o lzo1c_rr.lo lzo1c_rr.c; \
+then mv -f ".deps/lzo1c_rr.Tpo" ".deps/lzo1c_rr.Plo"; else rm -f ".deps/lzo1c_rr.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1c_rr.lo -MD -MP -MF .deps/lzo1c_rr.Tpo -c lzo1c_rr.c  -fPIC -DPIC -o .libs/lzo1c_rr.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1c_rr.lo -MD -MP -MF .deps/lzo1c_rr.Tpo -c lzo1c_rr.c -o lzo1c_rr.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I..   -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM    -g -O2  -MT lzo1c_xx.lo -MD -MP -MF ".deps/lzo1c_xx.Tpo" -c -o lzo1c_xx.lo lzo1c_xx.c; \
+then mv -f ".deps/lzo1c_xx.Tpo" ".deps/lzo1c_xx.Plo"; else rm -f ".deps/lzo1c_xx.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1c_xx.lo -MD -MP -MF .deps/lzo1c_xx.Tpo -c lzo1c_xx.c  -fPIC -DPIC -o .libs/lzo1c_xx.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1c_xx.lo -MD -MP -MF .deps/lzo1c_xx.Tpo -c lzo1c_xx.c -o lzo1c_xx.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I..   -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM    -g -O2  -MT lzo1f_1.lo -MD -MP -MF ".deps/lzo1f_1.Tpo" -c -o lzo1f_1.lo lzo1f_1.c; \
+then mv -f ".deps/lzo1f_1.Tpo" ".deps/lzo1f_1.Plo"; else rm -f ".deps/lzo1f_1.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1f_1.lo -MD -MP -MF .deps/lzo1f_1.Tpo -c lzo1f_1.c  -fPIC -DPIC -o .libs/lzo1f_1.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1f_1.lo -MD -MP -MF .deps/lzo1f_1.Tpo -c lzo1f_1.c -o lzo1f_1.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I..   -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM    -g -O2  -MT lzo1f_9x.lo -MD -MP -MF ".deps/lzo1f_9x.Tpo" -c -o lzo1f_9x.lo lzo1f_9x.c; \
+then mv -f ".deps/lzo1f_9x.Tpo" ".deps/lzo1f_9x.Plo"; else rm -f ".deps/lzo1f_9x.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1f_9x.lo -MD -MP -MF .deps/lzo1f_9x.Tpo -c lzo1f_9x.c  -fPIC -DPIC -o .libs/lzo1f_9x.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1f_9x.lo -MD -MP -MF .deps/lzo1f_9x.Tpo -c lzo1f_9x.c -o lzo1f_9x.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I..   -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM    -g -O2  -MT lzo1f_d1.lo -MD -MP -MF ".deps/lzo1f_d1.Tpo" -c -o lzo1f_d1.lo lzo1f_d1.c; \
+then mv -f ".deps/lzo1f_d1.Tpo" ".deps/lzo1f_d1.Plo"; else rm -f ".deps/lzo1f_d1.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1f_d1.lo -MD -MP -MF .deps/lzo1f_d1.Tpo -c lzo1f_d1.c  -fPIC -DPIC -o .libs/lzo1f_d1.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1f_d1.lo -MD -MP -MF .deps/lzo1f_d1.Tpo -c lzo1f_d1.c -o lzo1f_d1.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I..   -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM    -g -O2  -MT lzo1f_d2.lo -MD -MP -MF ".deps/lzo1f_d2.Tpo" -c -o lzo1f_d2.lo lzo1f_d2.c; \
+then mv -f ".deps/lzo1f_d2.Tpo" ".deps/lzo1f_d2.Plo"; else rm -f ".deps/lzo1f_d2.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1f_d2.lo -MD -MP -MF .deps/lzo1f_d2.Tpo -c lzo1f_d2.c  -fPIC -DPIC -o .libs/lzo1f_d2.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1f_d2.lo -MD -MP -MF .deps/lzo1f_d2.Tpo -c lzo1f_d2.c -o lzo1f_d2.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I..   -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM    -g -O2  -MT lzo1x_1.lo -MD -MP -MF ".deps/lzo1x_1.Tpo" -c -o lzo1x_1.lo lzo1x_1.c; \
+then mv -f ".deps/lzo1x_1.Tpo" ".deps/lzo1x_1.Plo"; else rm -f ".deps/lzo1x_1.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1x_1.lo -MD -MP -MF .deps/lzo1x_1.Tpo -c lzo1x_1.c  -fPIC -DPIC -o .libs/lzo1x_1.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1x_1.lo -MD -MP -MF .deps/lzo1x_1.Tpo -c lzo1x_1.c -o lzo1x_1.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I..   -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM    -g -O2  -MT lzo1x_9x.lo -MD -MP -MF ".deps/lzo1x_9x.Tpo" -c -o lzo1x_9x.lo lzo1x_9x.c; \
+then mv -f ".deps/lzo1x_9x.Tpo" ".deps/lzo1x_9x.Plo"; else rm -f ".deps/lzo1x_9x.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1x_9x.lo -MD -MP -MF .deps/lzo1x_9x.Tpo -c lzo1x_9x.c  -fPIC -DPIC -o .libs/lzo1x_9x.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1x_9x.lo -MD -MP -MF .deps/lzo1x_9x.Tpo -c lzo1x_9x.c -o lzo1x_9x.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I..   -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM    -g -O2  -MT lzo1x_d1.lo -MD -MP -MF ".deps/lzo1x_d1.Tpo" -c -o lzo1x_d1.lo lzo1x_d1.c; \
+then mv -f ".deps/lzo1x_d1.Tpo" ".deps/lzo1x_d1.Plo"; else rm -f ".deps/lzo1x_d1.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1x_d1.lo -MD -MP -MF .deps/lzo1x_d1.Tpo -c lzo1x_d1.c  -fPIC -DPIC -o .libs/lzo1x_d1.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1x_d1.lo -MD -MP -MF .deps/lzo1x_d1.Tpo -c lzo1x_d1.c -o lzo1x_d1.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I..   -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM    -g -O2  -MT lzo1x_d2.lo -MD -MP -MF ".deps/lzo1x_d2.Tpo" -c -o lzo1x_d2.lo lzo1x_d2.c; \
+then mv -f ".deps/lzo1x_d2.Tpo" ".deps/lzo1x_d2.Plo"; else rm -f ".deps/lzo1x_d2.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1x_d2.lo -MD -MP -MF .deps/lzo1x_d2.Tpo -c lzo1x_d2.c  -fPIC -DPIC -o .libs/lzo1x_d2.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1x_d2.lo -MD -MP -MF .deps/lzo1x_d2.Tpo -c lzo1x_d2.c -o lzo1x_d2.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I..   -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM    -g -O2  -MT lzo1x_d3.lo -MD -MP -MF ".deps/lzo1x_d3.Tpo" -c -o lzo1x_d3.lo lzo1x_d3.c; \
+then mv -f ".deps/lzo1x_d3.Tpo" ".deps/lzo1x_d3.Plo"; else rm -f ".deps/lzo1x_d3.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1x_d3.lo -MD -MP -MF .deps/lzo1x_d3.Tpo -c lzo1x_d3.c  -fPIC -DPIC -o .libs/lzo1x_d3.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1x_d3.lo -MD -MP -MF .deps/lzo1x_d3.Tpo -c lzo1x_d3.c -o lzo1x_d3.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I..   -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM    -g -O2  -MT lzo1x_o.lo -MD -MP -MF ".deps/lzo1x_o.Tpo" -c -o lzo1x_o.lo lzo1x_o.c; \
+then mv -f ".deps/lzo1x_o.Tpo" ".deps/lzo1x_o.Plo"; else rm -f ".deps/lzo1x_o.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1x_o.lo -MD -MP -MF .deps/lzo1x_o.Tpo -c lzo1x_o.c  -fPIC -DPIC -o .libs/lzo1x_o.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1x_o.lo -MD -MP -MF .deps/lzo1x_o.Tpo -c lzo1x_o.c -o lzo1x_o.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I..   -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM    -g -O2  -MT lzo1x_1k.lo -MD -MP -MF ".deps/lzo1x_1k.Tpo" -c -o lzo1x_1k.lo lzo1x_1k.c; \
+then mv -f ".deps/lzo1x_1k.Tpo" ".deps/lzo1x_1k.Plo"; else rm -f ".deps/lzo1x_1k.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1x_1k.lo -MD -MP -MF .deps/lzo1x_1k.Tpo -c lzo1x_1k.c  -fPIC -DPIC -o .libs/lzo1x_1k.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1x_1k.lo -MD -MP -MF .deps/lzo1x_1k.Tpo -c lzo1x_1k.c -o lzo1x_1k.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I..   -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM    -g -O2  -MT lzo1x_1l.lo -MD -MP -MF ".deps/lzo1x_1l.Tpo" -c -o lzo1x_1l.lo lzo1x_1l.c; \
+then mv -f ".deps/lzo1x_1l.Tpo" ".deps/lzo1x_1l.Plo"; else rm -f ".deps/lzo1x_1l.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1x_1l.lo -MD -MP -MF .deps/lzo1x_1l.Tpo -c lzo1x_1l.c  -fPIC -DPIC -o .libs/lzo1x_1l.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1x_1l.lo -MD -MP -MF .deps/lzo1x_1l.Tpo -c lzo1x_1l.c -o lzo1x_1l.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I..   -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM    -g -O2  -MT lzo1x_1o.lo -MD -MP -MF ".deps/lzo1x_1o.Tpo" -c -o lzo1x_1o.lo lzo1x_1o.c; \
+then mv -f ".deps/lzo1x_1o.Tpo" ".deps/lzo1x_1o.Plo"; else rm -f ".deps/lzo1x_1o.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1x_1o.lo -MD -MP -MF .deps/lzo1x_1o.Tpo -c lzo1x_1o.c  -fPIC -DPIC -o .libs/lzo1x_1o.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1x_1o.lo -MD -MP -MF .deps/lzo1x_1o.Tpo -c lzo1x_1o.c -o lzo1x_1o.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I..   -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM    -g -O2  -MT lzo1y_1.lo -MD -MP -MF ".deps/lzo1y_1.Tpo" -c -o lzo1y_1.lo lzo1y_1.c; \
+then mv -f ".deps/lzo1y_1.Tpo" ".deps/lzo1y_1.Plo"; else rm -f ".deps/lzo1y_1.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1y_1.lo -MD -MP -MF .deps/lzo1y_1.Tpo -c lzo1y_1.c  -fPIC -DPIC -o .libs/lzo1y_1.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1y_1.lo -MD -MP -MF .deps/lzo1y_1.Tpo -c lzo1y_1.c -o lzo1y_1.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I..   -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM    -g -O2  -MT lzo1y_9x.lo -MD -MP -MF ".deps/lzo1y_9x.Tpo" -c -o lzo1y_9x.lo lzo1y_9x.c; \
+then mv -f ".deps/lzo1y_9x.Tpo" ".deps/lzo1y_9x.Plo"; else rm -f ".deps/lzo1y_9x.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1y_9x.lo -MD -MP -MF .deps/lzo1y_9x.Tpo -c lzo1y_9x.c  -fPIC -DPIC -o .libs/lzo1y_9x.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1y_9x.lo -MD -MP -MF .deps/lzo1y_9x.Tpo -c lzo1y_9x.c -o lzo1y_9x.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I..   -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM    -g -O2  -MT lzo1y_d1.lo -MD -MP -MF ".deps/lzo1y_d1.Tpo" -c -o lzo1y_d1.lo lzo1y_d1.c; \
+then mv -f ".deps/lzo1y_d1.Tpo" ".deps/lzo1y_d1.Plo"; else rm -f ".deps/lzo1y_d1.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1y_d1.lo -MD -MP -MF .deps/lzo1y_d1.Tpo -c lzo1y_d1.c  -fPIC -DPIC -o .libs/lzo1y_d1.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1y_d1.lo -MD -MP -MF .deps/lzo1y_d1.Tpo -c lzo1y_d1.c -o lzo1y_d1.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I..   -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM    -g -O2  -MT lzo1y_d2.lo -MD -MP -MF ".deps/lzo1y_d2.Tpo" -c -o lzo1y_d2.lo lzo1y_d2.c; \
+then mv -f ".deps/lzo1y_d2.Tpo" ".deps/lzo1y_d2.Plo"; else rm -f ".deps/lzo1y_d2.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1y_d2.lo -MD -MP -MF .deps/lzo1y_d2.Tpo -c lzo1y_d2.c  -fPIC -DPIC -o .libs/lzo1y_d2.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1y_d2.lo -MD -MP -MF .deps/lzo1y_d2.Tpo -c lzo1y_d2.c -o lzo1y_d2.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I..   -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM    -g -O2  -MT lzo1y_d3.lo -MD -MP -MF ".deps/lzo1y_d3.Tpo" -c -o lzo1y_d3.lo lzo1y_d3.c; \
+then mv -f ".deps/lzo1y_d3.Tpo" ".deps/lzo1y_d3.Plo"; else rm -f ".deps/lzo1y_d3.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1y_d3.lo -MD -MP -MF .deps/lzo1y_d3.Tpo -c lzo1y_d3.c  -fPIC -DPIC -o .libs/lzo1y_d3.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1y_d3.lo -MD -MP -MF .deps/lzo1y_d3.Tpo -c lzo1y_d3.c -o lzo1y_d3.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I..   -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM    -g -O2  -MT lzo1y_o.lo -MD -MP -MF ".deps/lzo1y_o.Tpo" -c -o lzo1y_o.lo lzo1y_o.c; \
+then mv -f ".deps/lzo1y_o.Tpo" ".deps/lzo1y_o.Plo"; else rm -f ".deps/lzo1y_o.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1y_o.lo -MD -MP -MF .deps/lzo1y_o.Tpo -c lzo1y_o.c  -fPIC -DPIC -o .libs/lzo1y_o.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1y_o.lo -MD -MP -MF .deps/lzo1y_o.Tpo -c lzo1y_o.c -o lzo1y_o.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I..   -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM    -g -O2  -MT lzo1z_9x.lo -MD -MP -MF ".deps/lzo1z_9x.Tpo" -c -o lzo1z_9x.lo lzo1z_9x.c; \
+then mv -f ".deps/lzo1z_9x.Tpo" ".deps/lzo1z_9x.Plo"; else rm -f ".deps/lzo1z_9x.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1z_9x.lo -MD -MP -MF .deps/lzo1z_9x.Tpo -c lzo1z_9x.c  -fPIC -DPIC -o .libs/lzo1z_9x.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1z_9x.lo -MD -MP -MF .deps/lzo1z_9x.Tpo -c lzo1z_9x.c -o lzo1z_9x.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I..   -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM    -g -O2  -MT lzo1z_d1.lo -MD -MP -MF ".deps/lzo1z_d1.Tpo" -c -o lzo1z_d1.lo lzo1z_d1.c; \
+then mv -f ".deps/lzo1z_d1.Tpo" ".deps/lzo1z_d1.Plo"; else rm -f ".deps/lzo1z_d1.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1z_d1.lo -MD -MP -MF .deps/lzo1z_d1.Tpo -c lzo1z_d1.c  -fPIC -DPIC -o .libs/lzo1z_d1.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1z_d1.lo -MD -MP -MF .deps/lzo1z_d1.Tpo -c lzo1z_d1.c -o lzo1z_d1.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I..   -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM    -g -O2  -MT lzo1z_d2.lo -MD -MP -MF ".deps/lzo1z_d2.Tpo" -c -o lzo1z_d2.lo lzo1z_d2.c; \
+then mv -f ".deps/lzo1z_d2.Tpo" ".deps/lzo1z_d2.Plo"; else rm -f ".deps/lzo1z_d2.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1z_d2.lo -MD -MP -MF .deps/lzo1z_d2.Tpo -c lzo1z_d2.c  -fPIC -DPIC -o .libs/lzo1z_d2.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1z_d2.lo -MD -MP -MF .deps/lzo1z_d2.Tpo -c lzo1z_d2.c -o lzo1z_d2.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I..   -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM    -g -O2  -MT lzo1z_d3.lo -MD -MP -MF ".deps/lzo1z_d3.Tpo" -c -o lzo1z_d3.lo lzo1z_d3.c; \
+then mv -f ".deps/lzo1z_d3.Tpo" ".deps/lzo1z_d3.Plo"; else rm -f ".deps/lzo1z_d3.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1z_d3.lo -MD -MP -MF .deps/lzo1z_d3.Tpo -c lzo1z_d3.c  -fPIC -DPIC -o .libs/lzo1z_d3.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo1z_d3.lo -MD -MP -MF .deps/lzo1z_d3.Tpo -c lzo1z_d3.c -o lzo1z_d3.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I..   -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM    -g -O2  -MT lzo2a_9x.lo -MD -MP -MF ".deps/lzo2a_9x.Tpo" -c -o lzo2a_9x.lo lzo2a_9x.c; \
+then mv -f ".deps/lzo2a_9x.Tpo" ".deps/lzo2a_9x.Plo"; else rm -f ".deps/lzo2a_9x.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo2a_9x.lo -MD -MP -MF .deps/lzo2a_9x.Tpo -c lzo2a_9x.c  -fPIC -DPIC -o .libs/lzo2a_9x.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo2a_9x.lo -MD -MP -MF .deps/lzo2a_9x.Tpo -c lzo2a_9x.c -o lzo2a_9x.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I..   -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM    -g -O2  -MT lzo2a_d1.lo -MD -MP -MF ".deps/lzo2a_d1.Tpo" -c -o lzo2a_d1.lo lzo2a_d1.c; \
+then mv -f ".deps/lzo2a_d1.Tpo" ".deps/lzo2a_d1.Plo"; else rm -f ".deps/lzo2a_d1.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo2a_d1.lo -MD -MP -MF .deps/lzo2a_d1.Tpo -c lzo2a_d1.c  -fPIC -DPIC -o .libs/lzo2a_d1.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo2a_d1.lo -MD -MP -MF .deps/lzo2a_d1.Tpo -c lzo2a_d1.c -o lzo2a_d1.o >/dev/null 2>&1
+if /bin/sh ../libtool --tag=CC --mode=compile gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I..   -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM    -g -O2  -MT lzo2a_d2.lo -MD -MP -MF ".deps/lzo2a_d2.Tpo" -c -o lzo2a_d2.lo lzo2a_d2.c; \
+then mv -f ".deps/lzo2a_d2.Tpo" ".deps/lzo2a_d2.Plo"; else rm -f ".deps/lzo2a_d2.Tpo"; exit 1; fi
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo2a_d2.lo -MD -MP -MF .deps/lzo2a_d2.Tpo -c lzo2a_d2.c  -fPIC -DPIC -o .libs/lzo2a_d2.o
+ gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I.. -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM -g -O2 -MT lzo2a_d2.lo -MD -MP -MF .deps/lzo2a_d2.Tpo -c lzo2a_d2.c -o lzo2a_d2.o >/dev/null 2>&1
+/bin/sh ../libtool --mode=compile gcc -c /home/kris/svn/packages/lzo/lzo-2.02/unpack/lzo-2.02/asm/i386/src_gas/lzo1c_s1.S
+ gcc -c /home/kris/svn/packages/lzo/lzo-2.02/unpack/lzo-2.02/asm/i386/src_gas/lzo1c_s1.S  -fPIC -DPIC -o .libs/lzo1c_s1.o
+ gcc -c /home/kris/svn/packages/lzo/lzo-2.02/unpack/lzo-2.02/asm/i386/src_gas/lzo1c_s1.S -o lzo1c_s1.o >/dev/null 2>&1
+/bin/sh ../libtool --mode=compile gcc -c /home/kris/svn/packages/lzo/lzo-2.02/unpack/lzo-2.02/asm/i386/src_gas/lzo1c_s2.S
+ gcc -c /home/kris/svn/packages/lzo/lzo-2.02/unpack/lzo-2.02/asm/i386/src_gas/lzo1c_s2.S  -fPIC -DPIC -o .libs/lzo1c_s2.o
+ gcc -c /home/kris/svn/packages/lzo/lzo-2.02/unpack/lzo-2.02/asm/i386/src_gas/lzo1c_s2.S -o lzo1c_s2.o >/dev/null 2>&1
+/bin/sh ../libtool --mode=compile gcc -c /home/kris/svn/packages/lzo/lzo-2.02/unpack/lzo-2.02/asm/i386/src_gas/lzo1f_f1.S
+ gcc -c /home/kris/svn/packages/lzo/lzo-2.02/unpack/lzo-2.02/asm/i386/src_gas/lzo1f_f1.S  -fPIC -DPIC -o .libs/lzo1f_f1.o
+ gcc -c /home/kris/svn/packages/lzo/lzo-2.02/unpack/lzo-2.02/asm/i386/src_gas/lzo1f_f1.S -o lzo1f_f1.o >/dev/null 2>&1
+/bin/sh ../libtool --mode=compile gcc -c /home/kris/svn/packages/lzo/lzo-2.02/unpack/lzo-2.02/asm/i386/src_gas/lzo1f_f2.S
+ gcc -c /home/kris/svn/packages/lzo/lzo-2.02/unpack/lzo-2.02/asm/i386/src_gas/lzo1f_f2.S  -fPIC -DPIC -o .libs/lzo1f_f2.o
+ gcc -c /home/kris/svn/packages/lzo/lzo-2.02/unpack/lzo-2.02/asm/i386/src_gas/lzo1f_f2.S -o lzo1f_f2.o >/dev/null 2>&1
+/bin/sh ../libtool --mode=compile gcc -c /home/kris/svn/packages/lzo/lzo-2.02/unpack/lzo-2.02/asm/i386/src_gas/lzo1x_f1.S
+ gcc -c /home/kris/svn/packages/lzo/lzo-2.02/unpack/lzo-2.02/asm/i386/src_gas/lzo1x_f1.S  -fPIC -DPIC -o .libs/lzo1x_f1.o
+ gcc -c /home/kris/svn/packages/lzo/lzo-2.02/unpack/lzo-2.02/asm/i386/src_gas/lzo1x_f1.S -o lzo1x_f1.o >/dev/null 2>&1
+/bin/sh ../libtool --mode=compile gcc -c /home/kris/svn/packages/lzo/lzo-2.02/unpack/lzo-2.02/asm/i386/src_gas/lzo1x_f2.S
+ gcc -c /home/kris/svn/packages/lzo/lzo-2.02/unpack/lzo-2.02/asm/i386/src_gas/lzo1x_f2.S  -fPIC -DPIC -o .libs/lzo1x_f2.o
+ gcc -c /home/kris/svn/packages/lzo/lzo-2.02/unpack/lzo-2.02/asm/i386/src_gas/lzo1x_f2.S -o lzo1x_f2.o >/dev/null 2>&1
+/bin/sh ../libtool --mode=compile gcc -c /home/kris/svn/packages/lzo/lzo-2.02/unpack/lzo-2.02/asm/i386/src_gas/lzo1x_s1.S
+ gcc -c /home/kris/svn/packages/lzo/lzo-2.02/unpack/lzo-2.02/asm/i386/src_gas/lzo1x_s1.S  -fPIC -DPIC -o .libs/lzo1x_s1.o
+ gcc -c /home/kris/svn/packages/lzo/lzo-2.02/unpack/lzo-2.02/asm/i386/src_gas/lzo1x_s1.S -o lzo1x_s1.o >/dev/null 2>&1
+/bin/sh ../libtool --mode=compile gcc -c /home/kris/svn/packages/lzo/lzo-2.02/unpack/lzo-2.02/asm/i386/src_gas/lzo1x_s2.S
+ gcc -c /home/kris/svn/packages/lzo/lzo-2.02/unpack/lzo-2.02/asm/i386/src_gas/lzo1x_s2.S  -fPIC -DPIC -o .libs/lzo1x_s2.o
+ gcc -c /home/kris/svn/packages/lzo/lzo-2.02/unpack/lzo-2.02/asm/i386/src_gas/lzo1x_s2.S -o lzo1x_s2.o >/dev/null 2>&1
+/bin/sh ../libtool --mode=compile gcc -c /home/kris/svn/packages/lzo/lzo-2.02/unpack/lzo-2.02/asm/i386/src_gas/lzo1y_f1.S
+ gcc -c /home/kris/svn/packages/lzo/lzo-2.02/unpack/lzo-2.02/asm/i386/src_gas/lzo1y_f1.S  -fPIC -DPIC -o .libs/lzo1y_f1.o
+ gcc -c /home/kris/svn/packages/lzo/lzo-2.02/unpack/lzo-2.02/asm/i386/src_gas/lzo1y_f1.S -o lzo1y_f1.o >/dev/null 2>&1
+/bin/sh ../libtool --mode=compile gcc -c /home/kris/svn/packages/lzo/lzo-2.02/unpack/lzo-2.02/asm/i386/src_gas/lzo1y_f2.S
+ gcc -c /home/kris/svn/packages/lzo/lzo-2.02/unpack/lzo-2.02/asm/i386/src_gas/lzo1y_f2.S  -fPIC -DPIC -o .libs/lzo1y_f2.o
+ gcc -c /home/kris/svn/packages/lzo/lzo-2.02/unpack/lzo-2.02/asm/i386/src_gas/lzo1y_f2.S -o lzo1y_f2.o >/dev/null 2>&1
+/bin/sh ../libtool --mode=compile gcc -c /home/kris/svn/packages/lzo/lzo-2.02/unpack/lzo-2.02/asm/i386/src_gas/lzo1y_s1.S
+ gcc -c /home/kris/svn/packages/lzo/lzo-2.02/unpack/lzo-2.02/asm/i386/src_gas/lzo1y_s1.S  -fPIC -DPIC -o .libs/lzo1y_s1.o
+ gcc -c /home/kris/svn/packages/lzo/lzo-2.02/unpack/lzo-2.02/asm/i386/src_gas/lzo1y_s1.S -o lzo1y_s1.o >/dev/null 2>&1
+/bin/sh ../libtool --mode=compile gcc -c /home/kris/svn/packages/lzo/lzo-2.02/unpack/lzo-2.02/asm/i386/src_gas/lzo1y_s2.S
+ gcc -c /home/kris/svn/packages/lzo/lzo-2.02/unpack/lzo-2.02/asm/i386/src_gas/lzo1y_s2.S  -fPIC -DPIC -o .libs/lzo1y_s2.o
+ gcc -c /home/kris/svn/packages/lzo/lzo-2.02/unpack/lzo-2.02/asm/i386/src_gas/lzo1y_s2.S -o lzo1y_s2.o >/dev/null 2>&1
+/bin/sh ../libtool --tag=CC --mode=link gcc   -g -O2    -o liblzo2.la -rpath /usr/pkg/lzo-2.02/lib -version-info 2:0:0 lzo_crc.lo lzo_init.lo lzo_ptr.lo lzo_str.lo lzo_util.lo lzo1.lo lzo1_99.lo lzo1a.lo lzo1a_99.lo lzo1b_1.lo lzo1b_2.lo lzo1b_3.lo lzo1b_4.lo lzo1b_5.lo lzo1b_6.lo lzo1b_7.lo lzo1b_8.lo lzo1b_9.lo lzo1b_99.lo lzo1b_9x.lo lzo1b_cc.lo lzo1b_d1.lo lzo1b_d2.lo lzo1b_rr.lo lzo1b_xx.lo lzo1c_1.lo lzo1c_2.lo lzo1c_3.lo lzo1c_4.lo lzo1c_5.lo lzo1c_6.lo lzo1c_7.lo lzo1c_8.lo lzo1c_9.lo lzo1c_99.lo lzo1c_9x.lo lzo1c_cc.lo lzo1c_d1.lo lzo1c_d2.lo lzo1c_rr.lo lzo1c_xx.lo lzo1f_1.lo lzo1f_9x.lo lzo1f_d1.lo lzo1f_d2.lo lzo1x_1.lo lzo1x_9x.lo lzo1x_d1.lo lzo1x_d2.lo lzo1x_d3.lo lzo1x_o.lo lzo1x_1k.lo lzo1x_1l.lo lzo1x_1o.lo lzo1y_1.lo lzo1y_9x.lo lzo1y_d1.lo lzo1y_d2.lo lzo1y_d3.lo lzo1y_o.lo lzo1z_9x.lo lzo1z_d1.lo lzo1z_d2.lo lzo1z_d3.lo lzo2a_9x.lo lzo2a_d1.lo lzo2a_d2.lo lzo1c_s1.lo lzo1c_s2.lo lzo1f_f1.lo lzo1f_f2.lo lzo1x_f1.lo lzo1x_f2.lo lzo1x_s1.lo lzo1x_s2.lo lzo1y_f1.lo lzo1y_f2.lo lzo1y_s1.lo lzo1y_s2.lo 
+gcc -shared  .libs/lzo_crc.o .libs/lzo_init.o .libs/lzo_ptr.o .libs/lzo_str.o .libs/lzo_util.o .libs/lzo1.o .libs/lzo1_99.o .libs/lzo1a.o .libs/lzo1a_99.o .libs/lzo1b_1.o .libs/lzo1b_2.o .libs/lzo1b_3.o .libs/lzo1b_4.o .libs/lzo1b_5.o .libs/lzo1b_6.o .libs/lzo1b_7.o .libs/lzo1b_8.o .libs/lzo1b_9.o .libs/lzo1b_99.o .libs/lzo1b_9x.o .libs/lzo1b_cc.o .libs/lzo1b_d1.o .libs/lzo1b_d2.o .libs/lzo1b_rr.o .libs/lzo1b_xx.o .libs/lzo1c_1.o .libs/lzo1c_2.o .libs/lzo1c_3.o .libs/lzo1c_4.o .libs/lzo1c_5.o .libs/lzo1c_6.o .libs/lzo1c_7.o .libs/lzo1c_8.o .libs/lzo1c_9.o .libs/lzo1c_99.o .libs/lzo1c_9x.o .libs/lzo1c_cc.o .libs/lzo1c_d1.o .libs/lzo1c_d2.o .libs/lzo1c_rr.o .libs/lzo1c_xx.o .libs/lzo1f_1.o .libs/lzo1f_9x.o .libs/lzo1f_d1.o .libs/lzo1f_d2.o .libs/lzo1x_1.o .libs/lzo1x_9x.o .libs/lzo1x_d1.o .libs/lzo1x_d2.o .libs/lzo1x_d3.o .libs/lzo1x_o.o .libs/lzo1x_1k.o .libs/lzo1x_1l.o .libs/lzo1x_1o.o .libs/lzo1y_1.o .libs/lzo1y_9x.o .libs/lzo1y_d1.o .libs/lzo1y_d2.o .libs/lzo1y_d3.o .libs/lzo1y_o.o .libs/lzo1z_9x.o .libs/lzo1z_d1.o .libs/lzo1z_d2.o .libs/lzo1z_d3.o .libs/lzo2a_9x.o .libs/lzo2a_d1.o .libs/lzo2a_d2.o .libs/lzo1c_s1.o .libs/lzo1c_s2.o .libs/lzo1f_f1.o .libs/lzo1f_f2.o .libs/lzo1x_f1.o .libs/lzo1x_f2.o .libs/lzo1x_s1.o .libs/lzo1x_s2.o .libs/lzo1y_f1.o .libs/lzo1y_f2.o .libs/lzo1y_s1.o .libs/lzo1y_s2.o   -Wl,-soname -Wl,liblzo2.so.2 -o .libs/liblzo2.so.2.0.0
+(cd .libs && rm -f liblzo2.so.2 && ln -s liblzo2.so.2.0.0 liblzo2.so.2)
+(cd .libs && rm -f liblzo2.so && ln -s liblzo2.so.2.0.0 liblzo2.so)
+ar cru .libs/liblzo2.a  lzo_crc.o lzo_init.o lzo_ptr.o lzo_str.o lzo_util.o lzo1.o lzo1_99.o lzo1a.o lzo1a_99.o lzo1b_1.o lzo1b_2.o lzo1b_3.o lzo1b_4.o lzo1b_5.o lzo1b_6.o lzo1b_7.o lzo1b_8.o lzo1b_9.o lzo1b_99.o lzo1b_9x.o lzo1b_cc.o lzo1b_d1.o lzo1b_d2.o lzo1b_rr.o lzo1b_xx.o lzo1c_1.o lzo1c_2.o lzo1c_3.o lzo1c_4.o lzo1c_5.o lzo1c_6.o lzo1c_7.o lzo1c_8.o lzo1c_9.o lzo1c_99.o lzo1c_9x.o lzo1c_cc.o lzo1c_d1.o lzo1c_d2.o lzo1c_rr.o lzo1c_xx.o lzo1f_1.o lzo1f_9x.o lzo1f_d1.o lzo1f_d2.o lzo1x_1.o lzo1x_9x.o lzo1x_d1.o lzo1x_d2.o lzo1x_d3.o lzo1x_o.o lzo1x_1k.o lzo1x_1l.o lzo1x_1o.o lzo1y_1.o lzo1y_9x.o lzo1y_d1.o lzo1y_d2.o lzo1y_d3.o lzo1y_o.o lzo1z_9x.o lzo1z_d1.o lzo1z_d2.o lzo1z_d3.o lzo2a_9x.o lzo2a_d1.o lzo2a_d2.o lzo1c_s1.o lzo1c_s2.o lzo1f_f1.o lzo1f_f2.o lzo1x_f1.o lzo1x_f2.o lzo1x_s1.o lzo1x_s2.o lzo1y_f1.o lzo1y_f2.o lzo1y_s1.o lzo1y_s2.o
+ranlib .libs/liblzo2.a
+creating liblzo2.la
+(cd .libs && rm -f liblzo2.la && ln -s ../liblzo2.la liblzo2.la)
+make[2]: Leaving directory `/home/kris/svn/packages/lzo/lzo-2.02/unpack/lzo-2.02/src'
+Making all in lzotest
+make[2]: Entering directory `/home/kris/svn/packages/lzo/lzo-2.02/unpack/lzo-2.02/lzotest'
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I..  -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM  -g -O2 -MT lzotest.o -MD -MP -MF ".deps/lzotest.Tpo" -c -o lzotest.o lzotest.c; \
+then mv -f ".deps/lzotest.Tpo" ".deps/lzotest.Po"; else rm -f ".deps/lzotest.Tpo"; exit 1; fi
+/bin/sh ../libtool --tag=CC --mode=link gcc  -g -O2   -o lzotest  lzotest.o ../src/liblzo2.la 
+mkdir .libs
+gcc -g -O2 -o .libs/lzotest lzotest.o  ../src/.libs/liblzo2.so -Wl,--rpath -Wl,/usr/pkg/lzo-2.02/lib
+creating lzotest
+make[2]: Leaving directory `/home/kris/svn/packages/lzo/lzo-2.02/unpack/lzo-2.02/lzotest'
+Making all in examples
+make[2]: Entering directory `/home/kris/svn/packages/lzo/lzo-2.02/unpack/lzo-2.02/examples'
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I..  -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM  -g -O2 -MT dict.o -MD -MP -MF ".deps/dict.Tpo" -c -o dict.o dict.c; \
+then mv -f ".deps/dict.Tpo" ".deps/dict.Po"; else rm -f ".deps/dict.Tpo"; exit 1; fi
+/bin/sh ../libtool --tag=CC --mode=link gcc  -g -O2   -o dict  dict.o ../src/liblzo2.la 
+mkdir .libs
+gcc -g -O2 -o .libs/dict dict.o  ../src/.libs/liblzo2.so -Wl,--rpath -Wl,/usr/pkg/lzo-2.02/lib
+creating dict
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I..  -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM  -g -O2 -MT lzopack.o -MD -MP -MF ".deps/lzopack.Tpo" -c -o lzopack.o lzopack.c; \
+then mv -f ".deps/lzopack.Tpo" ".deps/lzopack.Po"; else rm -f ".deps/lzopack.Tpo"; exit 1; fi
+/bin/sh ../libtool --tag=CC --mode=link gcc  -g -O2   -o lzopack  lzopack.o ../src/liblzo2.la 
+gcc -g -O2 -o .libs/lzopack lzopack.o  ../src/.libs/liblzo2.so -Wl,--rpath -Wl,/usr/pkg/lzo-2.02/lib
+creating lzopack
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I..  -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM  -g -O2 -MT overlap.o -MD -MP -MF ".deps/overlap.Tpo" -c -o overlap.o overlap.c; \
+then mv -f ".deps/overlap.Tpo" ".deps/overlap.Po"; else rm -f ".deps/overlap.Tpo"; exit 1; fi
+/bin/sh ../libtool --tag=CC --mode=link gcc  -g -O2   -o overlap  overlap.o ../src/liblzo2.la 
+gcc -g -O2 -o .libs/overlap overlap.o  ../src/.libs/liblzo2.so -Wl,--rpath -Wl,/usr/pkg/lzo-2.02/lib
+creating overlap
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I..  -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM  -g -O2 -MT precomp.o -MD -MP -MF ".deps/precomp.Tpo" -c -o precomp.o precomp.c; \
+then mv -f ".deps/precomp.Tpo" ".deps/precomp.Po"; else rm -f ".deps/precomp.Tpo"; exit 1; fi
+/bin/sh ../libtool --tag=CC --mode=link gcc  -g -O2   -o precomp  precomp.o ../src/liblzo2.la 
+gcc -g -O2 -o .libs/precomp precomp.o  ../src/.libs/liblzo2.so -Wl,--rpath -Wl,/usr/pkg/lzo-2.02/lib
+creating precomp
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I..  -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM  -g -O2 -MT precomp2.o -MD -MP -MF ".deps/precomp2.Tpo" -c -o precomp2.o precomp2.c; \
+then mv -f ".deps/precomp2.Tpo" ".deps/precomp2.Po"; else rm -f ".deps/precomp2.Tpo"; exit 1; fi
+/bin/sh ../libtool --tag=CC --mode=link gcc  -g -O2   -o precomp2  precomp2.o ../src/liblzo2.la 
+gcc -g -O2 -o .libs/precomp2 precomp2.o  ../src/.libs/liblzo2.so -Wl,--rpath -Wl,/usr/pkg/lzo-2.02/lib
+creating precomp2
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I..  -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM  -g -O2 -MT simple.o -MD -MP -MF ".deps/simple.Tpo" -c -o simple.o simple.c; \
+then mv -f ".deps/simple.Tpo" ".deps/simple.Po"; else rm -f ".deps/simple.Tpo"; exit 1; fi
+/bin/sh ../libtool --tag=CC --mode=link gcc  -g -O2   -o simple  simple.o ../src/liblzo2.la 
+gcc -g -O2 -o .libs/simple simple.o  ../src/.libs/liblzo2.so -Wl,--rpath -Wl,/usr/pkg/lzo-2.02/lib
+creating simple
+make[2]: Leaving directory `/home/kris/svn/packages/lzo/lzo-2.02/unpack/lzo-2.02/examples'
+Making all in tests
+make[2]: Entering directory `/home/kris/svn/packages/lzo/lzo-2.02/unpack/lzo-2.02/tests'
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I..  -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM  -g -O2 -MT align.o -MD -MP -MF ".deps/align.Tpo" -c -o align.o align.c; \
+then mv -f ".deps/align.Tpo" ".deps/align.Po"; else rm -f ".deps/align.Tpo"; exit 1; fi
+/bin/sh ../libtool --tag=CC --mode=link gcc  -g -O2   -o align  align.o ../src/liblzo2.la 
+mkdir .libs
+gcc -g -O2 -o .libs/align align.o  ../src/.libs/liblzo2.so -Wl,--rpath -Wl,/usr/pkg/lzo-2.02/lib
+creating align
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I..  -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM  -g -O2 -MT chksum.o -MD -MP -MF ".deps/chksum.Tpo" -c -o chksum.o chksum.c; \
+then mv -f ".deps/chksum.Tpo" ".deps/chksum.Po"; else rm -f ".deps/chksum.Tpo"; exit 1; fi
+/bin/sh ../libtool --tag=CC --mode=link gcc  -g -O2   -o chksum  chksum.o ../src/liblzo2.la 
+gcc -g -O2 -o .libs/chksum chksum.o  ../src/.libs/liblzo2.so -Wl,--rpath -Wl,/usr/pkg/lzo-2.02/lib
+creating chksum
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I..  -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM  -g -O2 -MT promote.o -MD -MP -MF ".deps/promote.Tpo" -c -o promote.o promote.c; \
+then mv -f ".deps/promote.Tpo" ".deps/promote.Po"; else rm -f ".deps/promote.Tpo"; exit 1; fi
+/bin/sh ../libtool --tag=CC --mode=link gcc  -g -O2   -o promote  promote.o  
+gcc -g -O2 -o promote promote.o 
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include -I..  -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM  -g -O2 -MT sizes.o -MD -MP -MF ".deps/sizes.Tpo" -c -o sizes.o sizes.c; \
+then mv -f ".deps/sizes.Tpo" ".deps/sizes.Po"; else rm -f ".deps/sizes.Tpo"; exit 1; fi
+/bin/sh ../libtool --tag=CC --mode=link gcc  -g -O2   -o sizes  sizes.o  
+gcc -g -O2 -o sizes sizes.o 
+make[2]: Leaving directory `/home/kris/svn/packages/lzo/lzo-2.02/unpack/lzo-2.02/tests'
+Making all in minilzo
+make[2]: Entering directory `/home/kris/svn/packages/lzo/lzo-2.02/unpack/lzo-2.02/minilzo'
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include/lzo -I../include -DMINILZO_HAVE_CONFIG_H -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM  -g -O2 -MT testmini.o -MD -MP -MF ".deps/testmini.Tpo" -c -o testmini.o testmini.c; \
+then mv -f ".deps/testmini.Tpo" ".deps/testmini.Po"; else rm -f ".deps/testmini.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I.. -I../include/lzo -I../include -DMINILZO_HAVE_CONFIG_H -DLZO_HAVE_CONFIG_H -DLZO_USE_ASM  -g -O2 -MT minilzo.o -MD -MP -MF ".deps/minilzo.Tpo" -c -o minilzo.o minilzo.c; \
+then mv -f ".deps/minilzo.Tpo" ".deps/minilzo.Po"; else rm -f ".deps/minilzo.Tpo"; exit 1; fi
+/bin/sh ../libtool --tag=CC --mode=link gcc  -g -O2   -o testmini  testmini.o minilzo.o  
+mkdir .libs
+gcc -g -O2 -o testmini testmini.o minilzo.o 
+make[2]: Leaving directory `/home/kris/svn/packages/lzo/lzo-2.02/unpack/lzo-2.02/minilzo'
+make[2]: Entering directory `/home/kris/svn/packages/lzo/lzo-2.02/unpack/lzo-2.02'
+make[2]: Nothing to be done for `all-am'.
+make[2]: Leaving directory `/home/kris/svn/packages/lzo/lzo-2.02/unpack/lzo-2.02'
+make[1]: Leaving directory `/home/kris/svn/packages/lzo/lzo-2.02/unpack/lzo-2.02'

@@ -1,0 +1,19 @@
+#!/bin/bash
+
+source configure
+
+pushd ../unpack/*
+
+{
+PREFIX=$PWD/../../pkg/debian/$AB_PACKAGE_CONFIGURE_PREFIX
+mkdir -vp $PREFIX
+
+make \
+    prefix=$PREFIX \
+    infodir=$PREFIX/share/info \
+    mandir=$PREFIX/share/man \
+    install
+    
+} | tee ../../logs/060-make-install.log
+
+popd

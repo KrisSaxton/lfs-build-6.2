@@ -1,0 +1,11 @@
+--- linux-2.6.23.12/drivers/md/dm-snap.c.orig	2008-04-22 15:08:01.889205235 +0000
++++ linux-2.6.23.12/drivers/md/dm-snap.c	2008-04-22 15:09:19.030368892 +0000
+@@ -444,7 +444,7 @@
+ 	char *origin_path;
+ 	char *cow_path;
+ 
+-	if (argc != 4) {
++	if (argc < 4) {
+ 		ti->error = "requires exactly 4 arguments";
+ 		r = -EINVAL;
+ 		goto bad1;

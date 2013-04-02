@@ -1,0 +1,20 @@
+dpkg-deb: building package `linux-libc-headers-2.6.12.0' in `debian.deb'.
+ new debian package, version 2.0.
+ size 934438 bytes: control archive= 999 bytes.
+     313 bytes,    10 lines      control              
+     789 bytes,    18 lines      copyright            
+       6 bytes,     1 lines      debian-binary        
+     110 bytes,     3 lines   *  postinst             #!/bin/bash
+     108 bytes,     3 lines   *  postrm               #!/bin/bash
+     111 bytes,     3 lines   *  preinst              #!/bin/bash
+     109 bytes,     3 lines   *  prerm                #!/bin/bash
+ Package: linux-libc-headers-2.6.12.0
+ Version: 2.6.12.0
+ Section: unknown
+ Priority: required
+ Architecture: all
+ Essential: no
+ Depends: aaa-base
+ Maintainer: Aethernet support team [support@aethernet.co.uk]
+ Provides: linux-libc-headers
+ Description: The Linux-Libc-Headers package contains the sanitised kernel headers

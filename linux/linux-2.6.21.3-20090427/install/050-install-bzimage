@@ -1,0 +1,15 @@
+#!/bin/bash
+
+source configure
+
+pushd ../unpack/*
+
+{
+#DESTDIR=../../pkg/debian
+#mkdir -vp $DESTDIR/boot
+
+cp -av arch/i386/boot/bzImage   /boot/linux-$AB_PACKAGE_VERSION
+cp -av System.map               /boot/System.map-$AB_PACKAGE_VERSION
+} |  tee ../../logs/050-install-bzImage.log
+
+popd

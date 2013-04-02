@@ -1,0 +1,86 @@
+Making install in doc
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/psmisc/psmisc-22.2/unpack/psmisc-22.2/doc'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/psmisc/psmisc-22.2/unpack/psmisc-22.2/doc'
+make[2]: Nothing to be done for `install-exec-am'.
+test -z "/usr/share/man/man1" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/psmisc/psmisc-22.2/unpack/psmisc-22.2/../../pkg/debian/usr/share/man/man1"
+ /usr/bin/install -c -m 644 './fuser.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/psmisc/psmisc-22.2/unpack/psmisc-22.2/../../pkg/debian/usr/share/man/man1/fuser.1'
+ /usr/bin/install -c -m 644 './killall.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/psmisc/psmisc-22.2/unpack/psmisc-22.2/../../pkg/debian/usr/share/man/man1/killall.1'
+ /usr/bin/install -c -m 644 './pstree.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/psmisc/psmisc-22.2/unpack/psmisc-22.2/../../pkg/debian/usr/share/man/man1/pstree.1'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/psmisc/psmisc-22.2/unpack/psmisc-22.2/doc'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/psmisc/psmisc-22.2/unpack/psmisc-22.2/doc'
+Making install in src
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/psmisc/psmisc-22.2/unpack/psmisc-22.2/src'
+make  install-am
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/psmisc/psmisc-22.2/unpack/psmisc-22.2/src'
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/psmisc/psmisc-22.2/unpack/psmisc-22.2/src'
+test -z "/bin" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/psmisc/psmisc-22.2/unpack/psmisc-22.2/../../pkg/debian/bin"
+  /usr/bin/install -c 'fuser' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/psmisc/psmisc-22.2/unpack/psmisc-22.2/../../pkg/debian/bin/fuser'
+  /usr/bin/install -c 'killall' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/psmisc/psmisc-22.2/unpack/psmisc-22.2/../../pkg/debian/bin/killall'
+  /usr/bin/install -c 'pstree' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/psmisc/psmisc-22.2/unpack/psmisc-22.2/../../pkg/debian/bin/pstree'
+  /usr/bin/install -c 'oldfuser' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/psmisc/psmisc-22.2/unpack/psmisc-22.2/../../pkg/debian/bin/oldfuser'
+make  install-exec-hook
+make[4]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/psmisc/psmisc-22.2/unpack/psmisc-22.2/src'
+cd /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/psmisc/psmisc-22.2/unpack/psmisc-22.2/../../pkg/debian/bin && \
+		( [ -h pstree.x11 ]  || ln -s pstree pstree.x11)
+make[4]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/psmisc/psmisc-22.2/unpack/psmisc-22.2/src'
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/psmisc/psmisc-22.2/unpack/psmisc-22.2/src'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/psmisc/psmisc-22.2/unpack/psmisc-22.2/src'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/psmisc/psmisc-22.2/unpack/psmisc-22.2/src'
+Making install in po
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/psmisc/psmisc-22.2/unpack/psmisc-22.2/po'
+/bin/sh ../config/mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/psmisc/psmisc-22.2/unpack/psmisc-22.2/../../pkg/debian/usr/share
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/psmisc/psmisc-22.2/unpack/psmisc-22.2/../../pkg/debian/usr/share/locale/bg/LC_MESSAGES
+installing bg.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/psmisc/psmisc-22.2/unpack/psmisc-22.2/../../pkg/debian/usr/share/locale/bg/LC_MESSAGES/psmisc.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/psmisc/psmisc-22.2/unpack/psmisc-22.2/../../pkg/debian/usr/share/locale/ca/LC_MESSAGES
+installing ca.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/psmisc/psmisc-22.2/unpack/psmisc-22.2/../../pkg/debian/usr/share/locale/ca/LC_MESSAGES/psmisc.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/psmisc/psmisc-22.2/unpack/psmisc-22.2/../../pkg/debian/usr/share/locale/de/LC_MESSAGES
+installing de.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/psmisc/psmisc-22.2/unpack/psmisc-22.2/../../pkg/debian/usr/share/locale/de/LC_MESSAGES/psmisc.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/psmisc/psmisc-22.2/unpack/psmisc-22.2/../../pkg/debian/usr/share/locale/eu/LC_MESSAGES
+installing eu.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/psmisc/psmisc-22.2/unpack/psmisc-22.2/../../pkg/debian/usr/share/locale/eu/LC_MESSAGES/psmisc.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/psmisc/psmisc-22.2/unpack/psmisc-22.2/../../pkg/debian/usr/share/locale/fi/LC_MESSAGES
+installing fi.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/psmisc/psmisc-22.2/unpack/psmisc-22.2/../../pkg/debian/usr/share/locale/fi/LC_MESSAGES/psmisc.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/psmisc/psmisc-22.2/unpack/psmisc-22.2/../../pkg/debian/usr/share/locale/fr/LC_MESSAGES
+installing fr.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/psmisc/psmisc-22.2/unpack/psmisc-22.2/../../pkg/debian/usr/share/locale/fr/LC_MESSAGES/psmisc.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/psmisc/psmisc-22.2/unpack/psmisc-22.2/../../pkg/debian/usr/share/locale/it/LC_MESSAGES
+installing it.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/psmisc/psmisc-22.2/unpack/psmisc-22.2/../../pkg/debian/usr/share/locale/it/LC_MESSAGES/psmisc.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/psmisc/psmisc-22.2/unpack/psmisc-22.2/../../pkg/debian/usr/share/locale/nb/LC_MESSAGES
+installing nb.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/psmisc/psmisc-22.2/unpack/psmisc-22.2/../../pkg/debian/usr/share/locale/nb/LC_MESSAGES/psmisc.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/psmisc/psmisc-22.2/unpack/psmisc-22.2/../../pkg/debian/usr/share/locale/nl/LC_MESSAGES
+installing nl.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/psmisc/psmisc-22.2/unpack/psmisc-22.2/../../pkg/debian/usr/share/locale/nl/LC_MESSAGES/psmisc.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/psmisc/psmisc-22.2/unpack/psmisc-22.2/../../pkg/debian/usr/share/locale/pl/LC_MESSAGES
+installing pl.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/psmisc/psmisc-22.2/unpack/psmisc-22.2/../../pkg/debian/usr/share/locale/pl/LC_MESSAGES/psmisc.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/psmisc/psmisc-22.2/unpack/psmisc-22.2/../../pkg/debian/usr/share/locale/pt/LC_MESSAGES
+installing pt.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/psmisc/psmisc-22.2/unpack/psmisc-22.2/../../pkg/debian/usr/share/locale/pt/LC_MESSAGES/psmisc.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/psmisc/psmisc-22.2/unpack/psmisc-22.2/../../pkg/debian/usr/share/locale/ro/LC_MESSAGES
+installing ro.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/psmisc/psmisc-22.2/unpack/psmisc-22.2/../../pkg/debian/usr/share/locale/ro/LC_MESSAGES/psmisc.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/psmisc/psmisc-22.2/unpack/psmisc-22.2/../../pkg/debian/usr/share/locale/sv/LC_MESSAGES
+installing sv.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/psmisc/psmisc-22.2/unpack/psmisc-22.2/../../pkg/debian/usr/share/locale/sv/LC_MESSAGES/psmisc.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/psmisc/psmisc-22.2/unpack/psmisc-22.2/../../pkg/debian/usr/share/locale/vi/LC_MESSAGES
+installing vi.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/psmisc/psmisc-22.2/unpack/psmisc-22.2/../../pkg/debian/usr/share/locale/vi/LC_MESSAGES/psmisc.mo
+if test "psmisc" = "gettext-tools"; then \
+  /bin/sh ../config/mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/psmisc/psmisc-22.2/unpack/psmisc-22.2/../../pkg/debian/usr/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /usr/bin/install -c -m 644 ./$file \
+		    /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/psmisc/psmisc-22.2/unpack/psmisc-22.2/../../pkg/debian/usr/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/psmisc/psmisc-22.2/unpack/psmisc-22.2/../../pkg/debian/usr/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/psmisc/psmisc-22.2/unpack/psmisc-22.2/po'
+Making install in icons
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/psmisc/psmisc-22.2/unpack/psmisc-22.2/icons'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/psmisc/psmisc-22.2/unpack/psmisc-22.2/icons'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/psmisc/psmisc-22.2/unpack/psmisc-22.2/icons'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/psmisc/psmisc-22.2/unpack/psmisc-22.2/icons'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/psmisc/psmisc-22.2/unpack/psmisc-22.2'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/psmisc/psmisc-22.2/unpack/psmisc-22.2'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/psmisc/psmisc-22.2/unpack/psmisc-22.2'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/psmisc/psmisc-22.2/unpack/psmisc-22.2'

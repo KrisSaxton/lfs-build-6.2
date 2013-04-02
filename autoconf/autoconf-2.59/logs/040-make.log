@@ -1,0 +1,135 @@
+Making all in bin
+make[1]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/bin'
+rm -f autom4te autom4te.tmp
+sed -e 's,@SHELL\@,/bin/sh,g' -e 's,@PERL\@,/usr/bin/perl,g' -e 's,@bindir\@,/usr/bin,g' -e 's,@datadir\@,/usr/share/autoconf,g' -e 's,@prefix\@,/usr,g' -e 's,@autoconf-name\@,'`echo autoconf | sed 's,x,x,'`',g' -e 's,@autoheader-name\@,'`echo autoheader | sed 's,x,x,'`',g' -e 's,@autom4te-name\@,'`echo autom4te | sed 's,x,x,'`',g' -e 's,@M4\@,/usr/bin/m4,g' -e 's,@AWK\@,gawk,g' -e 's,@VERSION\@,2.59,g' -e 's,@PACKAGE_NAME\@,GNU Autoconf,g' -e 's,@configure_input\@,Generated from autom4te.in; do not edit by hand.,g' ./autom4te.in >autom4te.tmp
+chmod +x autom4te.tmp
+chmod -w autom4te.tmp
+mv -f autom4te.tmp autom4te
+rm -f autoconf autoconf.tmp
+sed -e 's,@SHELL\@,/bin/sh,g' -e 's,@PERL\@,/usr/bin/perl,g' -e 's,@bindir\@,/usr/bin,g' -e 's,@datadir\@,/usr/share/autoconf,g' -e 's,@prefix\@,/usr,g' -e 's,@autoconf-name\@,'`echo autoconf | sed 's,x,x,'`',g' -e 's,@autoheader-name\@,'`echo autoheader | sed 's,x,x,'`',g' -e 's,@autom4te-name\@,'`echo autom4te | sed 's,x,x,'`',g' -e 's,@M4\@,/usr/bin/m4,g' -e 's,@AWK\@,gawk,g' -e 's,@VERSION\@,2.59,g' -e 's,@PACKAGE_NAME\@,GNU Autoconf,g' -e 's,@configure_input\@,Generated from autoconf.in; do not edit by hand.,g' ./autoconf.in >autoconf.tmp
+chmod +x autoconf.tmp
+chmod -w autoconf.tmp
+mv -f autoconf.tmp autoconf
+rm -f autoheader autoheader.tmp
+sed -e 's,@SHELL\@,/bin/sh,g' -e 's,@PERL\@,/usr/bin/perl,g' -e 's,@bindir\@,/usr/bin,g' -e 's,@datadir\@,/usr/share/autoconf,g' -e 's,@prefix\@,/usr,g' -e 's,@autoconf-name\@,'`echo autoconf | sed 's,x,x,'`',g' -e 's,@autoheader-name\@,'`echo autoheader | sed 's,x,x,'`',g' -e 's,@autom4te-name\@,'`echo autom4te | sed 's,x,x,'`',g' -e 's,@M4\@,/usr/bin/m4,g' -e 's,@AWK\@,gawk,g' -e 's,@VERSION\@,2.59,g' -e 's,@PACKAGE_NAME\@,GNU Autoconf,g' -e 's,@configure_input\@,Generated from autoheader.in; do not edit by hand.,g' ./autoheader.in >autoheader.tmp
+chmod +x autoheader.tmp
+chmod -w autoheader.tmp
+mv -f autoheader.tmp autoheader
+rm -f autoreconf autoreconf.tmp
+sed -e 's,@SHELL\@,/bin/sh,g' -e 's,@PERL\@,/usr/bin/perl,g' -e 's,@bindir\@,/usr/bin,g' -e 's,@datadir\@,/usr/share/autoconf,g' -e 's,@prefix\@,/usr,g' -e 's,@autoconf-name\@,'`echo autoconf | sed 's,x,x,'`',g' -e 's,@autoheader-name\@,'`echo autoheader | sed 's,x,x,'`',g' -e 's,@autom4te-name\@,'`echo autom4te | sed 's,x,x,'`',g' -e 's,@M4\@,/usr/bin/m4,g' -e 's,@AWK\@,gawk,g' -e 's,@VERSION\@,2.59,g' -e 's,@PACKAGE_NAME\@,GNU Autoconf,g' -e 's,@configure_input\@,Generated from autoreconf.in; do not edit by hand.,g' ./autoreconf.in >autoreconf.tmp
+chmod +x autoreconf.tmp
+chmod -w autoreconf.tmp
+mv -f autoreconf.tmp autoreconf
+rm -f ifnames ifnames.tmp
+sed -e 's,@SHELL\@,/bin/sh,g' -e 's,@PERL\@,/usr/bin/perl,g' -e 's,@bindir\@,/usr/bin,g' -e 's,@datadir\@,/usr/share/autoconf,g' -e 's,@prefix\@,/usr,g' -e 's,@autoconf-name\@,'`echo autoconf | sed 's,x,x,'`',g' -e 's,@autoheader-name\@,'`echo autoheader | sed 's,x,x,'`',g' -e 's,@autom4te-name\@,'`echo autom4te | sed 's,x,x,'`',g' -e 's,@M4\@,/usr/bin/m4,g' -e 's,@AWK\@,gawk,g' -e 's,@VERSION\@,2.59,g' -e 's,@PACKAGE_NAME\@,GNU Autoconf,g' -e 's,@configure_input\@,Generated from ifnames.in; do not edit by hand.,g' ./ifnames.in >ifnames.tmp
+chmod +x ifnames.tmp
+chmod -w ifnames.tmp
+mv -f ifnames.tmp ifnames
+rm -f autoscan autoscan.tmp
+sed -e 's,@SHELL\@,/bin/sh,g' -e 's,@PERL\@,/usr/bin/perl,g' -e 's,@bindir\@,/usr/bin,g' -e 's,@datadir\@,/usr/share/autoconf,g' -e 's,@prefix\@,/usr,g' -e 's,@autoconf-name\@,'`echo autoconf | sed 's,x,x,'`',g' -e 's,@autoheader-name\@,'`echo autoheader | sed 's,x,x,'`',g' -e 's,@autom4te-name\@,'`echo autom4te | sed 's,x,x,'`',g' -e 's,@M4\@,/usr/bin/m4,g' -e 's,@AWK\@,gawk,g' -e 's,@VERSION\@,2.59,g' -e 's,@PACKAGE_NAME\@,GNU Autoconf,g' -e 's,@configure_input\@,Generated from autoscan.in; do not edit by hand.,g' ./autoscan.in >autoscan.tmp
+chmod +x autoscan.tmp
+chmod -w autoscan.tmp
+mv -f autoscan.tmp autoscan
+rm -f autoupdate autoupdate.tmp
+sed -e 's,@SHELL\@,/bin/sh,g' -e 's,@PERL\@,/usr/bin/perl,g' -e 's,@bindir\@,/usr/bin,g' -e 's,@datadir\@,/usr/share/autoconf,g' -e 's,@prefix\@,/usr,g' -e 's,@autoconf-name\@,'`echo autoconf | sed 's,x,x,'`',g' -e 's,@autoheader-name\@,'`echo autoheader | sed 's,x,x,'`',g' -e 's,@autom4te-name\@,'`echo autom4te | sed 's,x,x,'`',g' -e 's,@M4\@,/usr/bin/m4,g' -e 's,@AWK\@,gawk,g' -e 's,@VERSION\@,2.59,g' -e 's,@PACKAGE_NAME\@,GNU Autoconf,g' -e 's,@configure_input\@,Generated from autoupdate.in; do not edit by hand.,g' ./autoupdate.in >autoupdate.tmp
+chmod +x autoupdate.tmp
+chmod -w autoupdate.tmp
+mv -f autoupdate.tmp autoupdate
+make[1]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/bin'
+Making all in tests
+make[1]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/tests'
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/tests'
+Making all in .
+make[1]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59'
+make[1]: Nothing to be done for `all-am'.
+make[1]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59'
+Making all in lib
+make[1]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/lib'
+Making all in Autom4te
+make[2]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/lib/Autom4te'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/lib/Autom4te'
+Making all in m4sugar
+make[2]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/lib/m4sugar'
+{					\
+  echo '# This file is part of -*- Autoconf -*-.'; \
+  echo '# Version of Autoconf.'; \
+  echo '# Copyright (C) 1999, 2000, 2001, 2002'; \
+  echo '# Free Software Foundation, Inc.'; \
+  echo ;\
+  echo 'm4_define([m4_PACKAGE_NAME],      [GNU Autoconf])'; \
+  echo 'm4_define([m4_PACKAGE_TARNAME],   [autoconf])'; \
+  echo 'm4_define([m4_PACKAGE_VERSION],   [2.59])'; \
+  echo 'm4_define([m4_PACKAGE_STRING],    [GNU Autoconf 2.59])'; \
+  echo 'm4_define([m4_PACKAGE_BUGREPORT], [bug-autoconf@gnu.org])'; \
+} >version.m4
+cd ../../lib && make  autom4te.cfg
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/lib'
+rm -f autom4te.cfg autom4te.tmp
+sed -e 's,@SHELL\@,/bin/sh,g' -e 's,@PERL\@,/usr/bin/perl,g' -e 's,@bindir\@,/usr/bin,g' -e 's,@datadir\@,/usr/share/autoconf,g' -e 's,@prefix\@,/usr,g' -e 's,@autoconf-name\@,'`echo autoconf | sed 's,x,x,'`',g' -e 's,@autoheader-name\@,'`echo autoheader | sed 's,x,x,'`',g' -e 's,@autom4te-name\@,'`echo autom4te | sed 's,x,x,'`',g' -e 's,@M4\@,/usr/bin/m4,g' -e 's,@AWK\@,gawk,g' -e 's,@VERSION\@,2.59,g' -e 's,@PACKAGE_NAME\@,GNU Autoconf,g' ./autom4te.in >autom4te.tmp
+chmod -w autom4te.tmp
+mv autom4te.tmp autom4te.cfg
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/lib'
+../../tests/autom4te				\
+	--language=m4sugar			\
+	--freeze			\
+	--output=m4sugar.m4f
+../../tests/autom4te				\
+	--language=m4sh			\
+	--freeze			\
+	--output=m4sh.m4f
+make[2]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/lib/m4sugar'
+Making all in autoconf
+make[2]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/lib/autoconf'
+../../tests/autom4te				\
+	--language=autoconf			\
+	--freeze			\
+	--output=autoconf.m4f
+make[2]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/lib/autoconf'
+Making all in autotest
+make[2]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/lib/autotest'
+../../tests/autom4te				\
+	--language=autotest			\
+	--freeze			\
+	--output=autotest.m4f
+make[2]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/lib/autotest'
+Making all in autoscan
+make[2]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/lib/autoscan'
+echo '# Automatically Generated: do not edit this file' >autoscan.list
+sed '/^[#]/!q' ./autoscan.pre                  >>autoscan.list
+( \
+  sed -n '/^[^#]/p' ./autoscan.pre; \
+  ../../tests/autom4te --cache '' -M -l autoconf -t'AN_OUTPUT:$1: $2		$3' \
+) | LC_ALL=C sort                                      >>autoscan.list
+make[2]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/lib/autoscan'
+Making all in emacs
+make[2]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/lib/emacs'
+WARNING: Warnings can be ignored. :-)
+if test emacs != no; then \
+  set x; \
+  list='autoconf-mode.el autotest-mode.el'; for p in $list; do \
+    if test -f "$p"; then d=; else d="./"; fi; \
+    set x "$@" "$d$p"; shift; \
+  done; \
+  shift; \
+  EMACS=emacs /bin/sh ../../config/elisp-comp "$@" || exit 1; \
+else : ; fi
+touch elc-stamp
+make[2]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/lib/emacs'
+make[2]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/lib'
+make[2]: Nothing to be done for `all-am'.
+make[2]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/lib'
+make[1]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/lib'
+Making all in config
+make[1]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/config'
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/config'
+Making all in man
+make[1]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/man'
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/man'
+Making all in doc
+make[1]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/doc'
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/autoconf/autoconf-2.59/unpack/autoconf-2.59/doc'

@@ -1,0 +1,29 @@
+#!/bin/bash
+
+source configure
+
+pushd ../pkg/debian
+
+{
+# Remember to make any paths relative (i.e. ./usr rather than /usr)
+rm -v usr/share/info/dir
+
+# Setup runtime library and shell configuration files
+mkdir -vp etc/profile.d/env/path
+mkdir -vp etc/ld.so.conf.d
+mkdir -vp etc/sysconfig
+
+# Setup the timezone files
+mkdir -vp etc/localtime.d
+cp    -v  usr/share/zoneinfo/UTC etc/localtime.d
+rm    -v  etc/localtime
+ln    -vs localtime.d/UTC etc/localtime
+
+# Setup some basic files that need to exist if we are installing into a chroot
+cp -v ../../files/group      etc
+cp -v ../../files/passwd     etc
+cp -v ../../files/ld.so.conf etc
+
+} | tee ../../logs/070-fix-files.log
+
+popd

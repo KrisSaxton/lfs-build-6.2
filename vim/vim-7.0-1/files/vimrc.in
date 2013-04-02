@@ -1,0 +1,7 @@
+set nocompatible
+set backspace=2
+if (&term == "iterm") || (&term == "putty")
+set background=dark
+endif
+set ts=4
+set expandtab

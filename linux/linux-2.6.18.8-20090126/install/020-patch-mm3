@@ -1,0 +1,7 @@
+#!/bin/bash
+
+source configure
+
+cd ../unpack/*
+
+patch -p1 -N -i ../../source/2.6.18-mm3

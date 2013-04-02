@@ -1,0 +1,11 @@
+#!/bin/bash
+# Place in this file any commands you would like to be run
+# before the package has been removed
+
+LDCONFDIR=/etc/ld.so.conf.d
+PROFILEPATH=/etc/profile.d/env/path
+MYPKGROOT=AB_PACKAGE_INSTALL_DIR
+
+# Remove any paths relating to this package from the PATH variable
+echo "Removing any entries from under $PROFILEPATH..."
+rm $PROFILEPATH/AB_PACKAGE_NAME-AB_PACKAGE_VERSION.[a-z]*

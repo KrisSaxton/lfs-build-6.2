@@ -1,0 +1,4 @@
+`bin/pstree' -> `usr/bin/pstree'
+`bin/pstree.x11' -> `usr/bin/pstree.x11'
+removed `usr/bin/pstree.x11'
+create hard link `usr/bin/pstree.x11' to `usr/bin/pstree'

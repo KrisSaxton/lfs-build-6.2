@@ -1,0 +1,15 @@
+patching file arrayfunc.c
+patching file doc/bash.1
+patching file doc/bashref.texi
+patching file doc/version.texi
+patching file jobs.c
+patching file lib/glob/glob.c
+patching file lib/glob/sm_loop.c
+patching file lib/readline/display.c
+patching file lib/readline/readline.c
+patching file lib/readline/terminal.c
+patching file parse.y
+patching file patchlevel.h
+patching file subst.c
+patching file subst.h
+patching file variables.c

@@ -1,0 +1,4 @@
+#define WEB_BROWSER "exec /usr/bin/lynx"
+#define COL "/usr/bin/col"
+#define VGRIND "/usr/bin/vgrind"
+#define GRAP "/usr/bin/grap"

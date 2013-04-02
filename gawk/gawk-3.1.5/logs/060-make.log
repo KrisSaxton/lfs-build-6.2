@@ -1,0 +1,72 @@
+make 'CFLAGS=-g -O2' 'LDFLAGS=-export-dynamic' all-recursive
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5'
+Making all in .
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5'
+if gcc -DDEFPATH="\".:/usr/share/awk\"" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR="\"/usr/share/locale\"" -I. -I. -I.     -g -O2 -MT array.o -MD -MP -MF ".deps/array.Tpo" -c -o array.o array.c; \
+then mv -f ".deps/array.Tpo" ".deps/array.Po"; else rm -f ".deps/array.Tpo"; exit 1; fi
+if gcc -DDEFPATH="\".:/usr/share/awk\"" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR="\"/usr/share/locale\"" -I. -I. -I.     -g -O2 -MT awkgram.o -MD -MP -MF ".deps/awkgram.Tpo" -c -o awkgram.o awkgram.c; \
+then mv -f ".deps/awkgram.Tpo" ".deps/awkgram.Po"; else rm -f ".deps/awkgram.Tpo"; exit 1; fi
+if gcc -DDEFPATH="\".:/usr/share/awk\"" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR="\"/usr/share/locale\"" -I. -I. -I.     -g -O2 -MT builtin.o -MD -MP -MF ".deps/builtin.Tpo" -c -o builtin.o builtin.c; \
+then mv -f ".deps/builtin.Tpo" ".deps/builtin.Po"; else rm -f ".deps/builtin.Tpo"; exit 1; fi
+if gcc -DDEFPATH="\".:/usr/share/awk\"" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR="\"/usr/share/locale\"" -I. -I. -I.     -g -O2 -MT dfa.o -MD -MP -MF ".deps/dfa.Tpo" -c -o dfa.o dfa.c; \
+then mv -f ".deps/dfa.Tpo" ".deps/dfa.Po"; else rm -f ".deps/dfa.Tpo"; exit 1; fi
+if gcc -DDEFPATH="\".:/usr/share/awk\"" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR="\"/usr/share/locale\"" -I. -I. -I.     -g -O2 -MT ext.o -MD -MP -MF ".deps/ext.Tpo" -c -o ext.o ext.c; \
+then mv -f ".deps/ext.Tpo" ".deps/ext.Po"; else rm -f ".deps/ext.Tpo"; exit 1; fi
+if gcc -DDEFPATH="\".:/usr/share/awk\"" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR="\"/usr/share/locale\"" -I. -I. -I.     -g -O2 -MT field.o -MD -MP -MF ".deps/field.Tpo" -c -o field.o field.c; \
+then mv -f ".deps/field.Tpo" ".deps/field.Po"; else rm -f ".deps/field.Tpo"; exit 1; fi
+if gcc -DDEFPATH="\".:/usr/share/awk\"" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR="\"/usr/share/locale\"" -I. -I. -I.     -g -O2 -MT gawkmisc.o -MD -MP -MF ".deps/gawkmisc.Tpo" -c -o gawkmisc.o gawkmisc.c; \
+then mv -f ".deps/gawkmisc.Tpo" ".deps/gawkmisc.Po"; else rm -f ".deps/gawkmisc.Tpo"; exit 1; fi
+if gcc -DDEFPATH="\".:/usr/share/awk\"" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR="\"/usr/share/locale\"" -I. -I. -I.     -g -O2 -MT getopt.o -MD -MP -MF ".deps/getopt.Tpo" -c -o getopt.o getopt.c; \
+then mv -f ".deps/getopt.Tpo" ".deps/getopt.Po"; else rm -f ".deps/getopt.Tpo"; exit 1; fi
+if gcc -DDEFPATH="\".:/usr/share/awk\"" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR="\"/usr/share/locale\"" -I. -I. -I.     -g -O2 -MT getopt1.o -MD -MP -MF ".deps/getopt1.Tpo" -c -o getopt1.o getopt1.c; \
+then mv -f ".deps/getopt1.Tpo" ".deps/getopt1.Po"; else rm -f ".deps/getopt1.Tpo"; exit 1; fi
+if gcc -DDEFPATH="\".:/usr/share/awk\"" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR="\"/usr/share/locale\"" -I. -I. -I.     -g -O2 -MT io.o -MD -MP -MF ".deps/io.Tpo" -c -o io.o io.c; \
+then mv -f ".deps/io.Tpo" ".deps/io.Po"; else rm -f ".deps/io.Tpo"; exit 1; fi
+if gcc -DDEFPATH="\".:/usr/share/awk\"" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR="\"/usr/share/locale\"" -I. -I. -I.     -g -O2 -MT main.o -MD -MP -MF ".deps/main.Tpo" -c -o main.o main.c; \
+then mv -f ".deps/main.Tpo" ".deps/main.Po"; else rm -f ".deps/main.Tpo"; exit 1; fi
+if gcc -DDEFPATH="\".:/usr/share/awk\"" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR="\"/usr/share/locale\"" -I. -I. -I.     -g -O2 -MT msg.o -MD -MP -MF ".deps/msg.Tpo" -c -o msg.o msg.c; \
+then mv -f ".deps/msg.Tpo" ".deps/msg.Po"; else rm -f ".deps/msg.Tpo"; exit 1; fi
+if gcc -DDEFPATH="\".:/usr/share/awk\"" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR="\"/usr/share/locale\"" -I. -I. -I.     -g -O2 -MT node.o -MD -MP -MF ".deps/node.Tpo" -c -o node.o node.c; \
+then mv -f ".deps/node.Tpo" ".deps/node.Po"; else rm -f ".deps/node.Tpo"; exit 1; fi
+if gcc -DDEFPATH="\".:/usr/share/awk\"" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR="\"/usr/share/locale\"" -I. -I. -I.     -g -O2 -MT random.o -MD -MP -MF ".deps/random.Tpo" -c -o random.o random.c; \
+then mv -f ".deps/random.Tpo" ".deps/random.Po"; else rm -f ".deps/random.Tpo"; exit 1; fi
+if gcc -DDEFPATH="\".:/usr/share/awk\"" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR="\"/usr/share/locale\"" -I. -I. -I.     -g -O2 -MT re.o -MD -MP -MF ".deps/re.Tpo" -c -o re.o re.c; \
+then mv -f ".deps/re.Tpo" ".deps/re.Po"; else rm -f ".deps/re.Tpo"; exit 1; fi
+if gcc -DDEFPATH="\".:/usr/share/awk\"" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR="\"/usr/share/locale\"" -I. -I. -I.     -g -O2 -MT regex.o -MD -MP -MF ".deps/regex.Tpo" -c -o regex.o regex.c; \
+then mv -f ".deps/regex.Tpo" ".deps/regex.Po"; else rm -f ".deps/regex.Tpo"; exit 1; fi
+if gcc -DDEFPATH="\".:/usr/share/awk\"" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR="\"/usr/share/locale\"" -I. -I. -I.     -g -O2 -MT replace.o -MD -MP -MF ".deps/replace.Tpo" -c -o replace.o replace.c; \
+then mv -f ".deps/replace.Tpo" ".deps/replace.Po"; else rm -f ".deps/replace.Tpo"; exit 1; fi
+if gcc -DDEFPATH="\".:/usr/share/awk\"" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR="\"/usr/share/locale\"" -I. -I. -I.     -g -O2 -MT version.o -MD -MP -MF ".deps/version.Tpo" -c -o version.o version.c; \
+then mv -f ".deps/version.Tpo" ".deps/version.Po"; else rm -f ".deps/version.Tpo"; exit 1; fi
+if gcc -DDEFPATH="\".:/usr/share/awk\"" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR="\"/usr/share/locale\"" -I. -I. -I.     -g -O2 -MT eval.o -MD -MP -MF ".deps/eval.Tpo" -c -o eval.o eval.c; \
+then mv -f ".deps/eval.Tpo" ".deps/eval.Po"; else rm -f ".deps/eval.Tpo"; exit 1; fi
+if gcc -DDEFPATH="\".:/usr/share/awk\"" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR="\"/usr/share/locale\"" -I. -I. -I.     -g -O2 -MT profile.o -MD -MP -MF ".deps/profile.Tpo" -c -o profile.o profile.c; \
+then mv -f ".deps/profile.Tpo" ".deps/profile.Po"; else rm -f ".deps/profile.Tpo"; exit 1; fi
+gcc  -g -O2  -export-dynamic -o gawk  array.o awkgram.o builtin.o dfa.o ext.o field.o gawkmisc.o getopt.o getopt1.o io.o main.o msg.o node.o random.o re.o regex.o replace.o version.o eval.o profile.o   -ldl -lm 
+if gcc -DDEFPATH="\".:/usr/share/awk\"" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR="\"/usr/share/locale\"" -I. -I. -I.     -g -O2 -MT eval_p.o -MD -MP -MF ".deps/eval_p.Tpo" -c -o eval_p.o eval_p.c; \
+then mv -f ".deps/eval_p.Tpo" ".deps/eval_p.Po"; else rm -f ".deps/eval_p.Tpo"; exit 1; fi
+if gcc -DDEFPATH="\".:/usr/share/awk\"" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR="\"/usr/share/locale\"" -I. -I. -I.     -g -O2 -MT profile_p.o -MD -MP -MF ".deps/profile_p.Tpo" -c -o profile_p.o profile_p.c; \
+then mv -f ".deps/profile_p.Tpo" ".deps/profile_p.Po"; else rm -f ".deps/profile_p.Tpo"; exit 1; fi
+gcc  -g -O2  -export-dynamic -o pgawk  array.o awkgram.o builtin.o dfa.o ext.o field.o gawkmisc.o getopt.o getopt1.o io.o main.o msg.o node.o random.o re.o regex.o replace.o version.o eval_p.o profile_p.o   -ldl -lm 
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5'
+Making all in awklib
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5/awklib'
+gcc -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I..   -g -O2 ./eg/lib/pwcat.c -export-dynamic -o pwcat
+gcc -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I..   -g -O2 ./eg/lib/grcat.c -export-dynamic -o grcat
+cp ./eg/prog/igawk.sh igawk ; chmod 755 igawk
+sed 's;/usr/local/libexec/awk;/usr/lib/awk;' < ./eg/lib/passwdawk.in > passwd.awk
+sed 's;/usr/local/libexec/awk;/usr/lib/awk;' < ./eg/lib/groupawk.in > group.awk
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5/awklib'
+Making all in doc
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5/doc'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5/doc'
+Making all in po
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5/po'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5/po'
+Making all in test
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5/test'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5/test'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/gawk/gawk-3.1.5/unpack/gawk-3.1.5'

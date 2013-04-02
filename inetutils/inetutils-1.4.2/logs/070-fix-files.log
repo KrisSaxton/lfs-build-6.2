@@ -1,0 +1,3 @@
+`usr/bin/ping' -> `bin/ping'
+mode of `bin/ping' changed to 0755 (rwxr-xr-x)
+removed `usr/share/info/dir'

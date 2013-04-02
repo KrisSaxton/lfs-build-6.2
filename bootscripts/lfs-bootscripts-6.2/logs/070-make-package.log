@@ -1,0 +1,20 @@
+dpkg-deb: building package `lfs-bootscripts-6.2' in `debian.deb'.
+ new debian package, version 2.0.
+ size 15514 bytes: control archive= 1435 bytes.
+     304 bytes,    10 lines      control              
+     789 bytes,    18 lines      copyright            
+       6 bytes,     1 lines      debian-binary        
+     927 bytes,    38 lines   *  postinst             #!/bin/bash
+     108 bytes,     3 lines   *  postrm               #!/bin/bash
+     111 bytes,     3 lines   *  preinst              #!/bin/bash
+     515 bytes,    17 lines   *  prerm                #!/bin/bash
+ Package: lfs-bootscripts-6.2
+ Version: 6.2
+ Section: unknown
+ Priority: required
+ Architecture: all
+ Essential: no
+ Depends: aaa-base
+ Maintainer: Aethernet support team [support@aethernet.co.uk]
+ Provides: lfs-bootscripts
+ Description: A collection of scripts to start and stop the system at bootup and shutdown

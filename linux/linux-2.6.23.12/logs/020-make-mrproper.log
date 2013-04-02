@@ -1,0 +1,4 @@
+  CLEAN   scripts/basic
+  CLEAN   scripts/kconfig
+  CLEAN   include/config
+  CLEAN   .config

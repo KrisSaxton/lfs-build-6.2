@@ -1,0 +1,184 @@
+make  all-recursive
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1'
+Making all in doc
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/doc'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/doc'
+Making all in lib
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/lib'
+Making all in posix
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/lib/posix'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/lib/posix'
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/lib'
+source='basename.c' object='basename.o' libtool=no \
+depfile='.deps/basename.Po' tmpdepfile='.deps/basename.TPo' \
+depmode=gcc3 /bin/sh ../config/depcomp \
+gcc -DHAVE_CONFIG_H -I. -I. -I..     -g -O2 -c `test -f basename.c || echo './'`basename.c
+source='c-stack.c' object='c-stack.o' libtool=no \
+depfile='.deps/c-stack.Po' tmpdepfile='.deps/c-stack.TPo' \
+depmode=gcc3 /bin/sh ../config/depcomp \
+gcc -DHAVE_CONFIG_H -I. -I. -I..     -g -O2 -c `test -f c-stack.c || echo './'`c-stack.c
+source='cmpbuf.c' object='cmpbuf.o' libtool=no \
+depfile='.deps/cmpbuf.Po' tmpdepfile='.deps/cmpbuf.TPo' \
+depmode=gcc3 /bin/sh ../config/depcomp \
+gcc -DHAVE_CONFIG_H -I. -I. -I..     -g -O2 -c `test -f cmpbuf.c || echo './'`cmpbuf.c
+source='error.c' object='error.o' libtool=no \
+depfile='.deps/error.Po' tmpdepfile='.deps/error.TPo' \
+depmode=gcc3 /bin/sh ../config/depcomp \
+gcc -DHAVE_CONFIG_H -I. -I. -I..     -g -O2 -c `test -f error.c || echo './'`error.c
+source='exclude.c' object='exclude.o' libtool=no \
+depfile='.deps/exclude.Po' tmpdepfile='.deps/exclude.TPo' \
+depmode=gcc3 /bin/sh ../config/depcomp \
+gcc -DHAVE_CONFIG_H -I. -I. -I..     -g -O2 -c `test -f exclude.c || echo './'`exclude.c
+source='exitfail.c' object='exitfail.o' libtool=no \
+depfile='.deps/exitfail.Po' tmpdepfile='.deps/exitfail.TPo' \
+depmode=gcc3 /bin/sh ../config/depcomp \
+gcc -DHAVE_CONFIG_H -I. -I. -I..     -g -O2 -c `test -f exitfail.c || echo './'`exitfail.c
+source='freesoft.c' object='freesoft.o' libtool=no \
+depfile='.deps/freesoft.Po' tmpdepfile='.deps/freesoft.TPo' \
+depmode=gcc3 /bin/sh ../config/depcomp \
+gcc -DHAVE_CONFIG_H -I. -I. -I..     -g -O2 -c `test -f freesoft.c || echo './'`freesoft.c
+source='getopt.c' object='getopt.o' libtool=no \
+depfile='.deps/getopt.Po' tmpdepfile='.deps/getopt.TPo' \
+depmode=gcc3 /bin/sh ../config/depcomp \
+gcc -DHAVE_CONFIG_H -I. -I. -I..     -g -O2 -c `test -f getopt.c || echo './'`getopt.c
+source='getopt1.c' object='getopt1.o' libtool=no \
+depfile='.deps/getopt1.Po' tmpdepfile='.deps/getopt1.TPo' \
+depmode=gcc3 /bin/sh ../config/depcomp \
+gcc -DHAVE_CONFIG_H -I. -I. -I..     -g -O2 -c `test -f getopt1.c || echo './'`getopt1.c
+source='hard-locale.c' object='hard-locale.o' libtool=no \
+depfile='.deps/hard-locale.Po' tmpdepfile='.deps/hard-locale.TPo' \
+depmode=gcc3 /bin/sh ../config/depcomp \
+gcc -DHAVE_CONFIG_H -I. -I. -I..     -g -O2 -c `test -f hard-locale.c || echo './'`hard-locale.c
+source='imaxtostr.c' object='imaxtostr.o' libtool=no \
+depfile='.deps/imaxtostr.Po' tmpdepfile='.deps/imaxtostr.TPo' \
+depmode=gcc3 /bin/sh ../config/depcomp \
+gcc -DHAVE_CONFIG_H -I. -I. -I..     -g -O2 -c `test -f imaxtostr.c || echo './'`imaxtostr.c
+source='offtostr.c' object='offtostr.o' libtool=no \
+depfile='.deps/offtostr.Po' tmpdepfile='.deps/offtostr.TPo' \
+depmode=gcc3 /bin/sh ../config/depcomp \
+gcc -DHAVE_CONFIG_H -I. -I. -I..     -g -O2 -c `test -f offtostr.c || echo './'`offtostr.c
+source='prepargs.c' object='prepargs.o' libtool=no \
+depfile='.deps/prepargs.Po' tmpdepfile='.deps/prepargs.TPo' \
+depmode=gcc3 /bin/sh ../config/depcomp \
+gcc -DHAVE_CONFIG_H -I. -I. -I..     -g -O2 -c `test -f prepargs.c || echo './'`prepargs.c
+source='posixver.c' object='posixver.o' libtool=no \
+depfile='.deps/posixver.Po' tmpdepfile='.deps/posixver.TPo' \
+depmode=gcc3 /bin/sh ../config/depcomp \
+gcc -DHAVE_CONFIG_H -I. -I. -I..     -g -O2 -c `test -f posixver.c || echo './'`posixver.c
+source='quotesys.c' object='quotesys.o' libtool=no \
+depfile='.deps/quotesys.Po' tmpdepfile='.deps/quotesys.TPo' \
+depmode=gcc3 /bin/sh ../config/depcomp \
+gcc -DHAVE_CONFIG_H -I. -I. -I..     -g -O2 -c `test -f quotesys.c || echo './'`quotesys.c
+source='setmode.c' object='setmode.o' libtool=no \
+depfile='.deps/setmode.Po' tmpdepfile='.deps/setmode.TPo' \
+depmode=gcc3 /bin/sh ../config/depcomp \
+gcc -DHAVE_CONFIG_H -I. -I. -I..     -g -O2 -c `test -f setmode.c || echo './'`setmode.c
+source='strftime.c' object='strftime.o' libtool=no \
+depfile='.deps/strftime.Po' tmpdepfile='.deps/strftime.TPo' \
+depmode=gcc3 /bin/sh ../config/depcomp \
+gcc -DHAVE_CONFIG_H -I. -I. -I..     -g -O2 -c `test -f strftime.c || echo './'`strftime.c
+source='umaxtostr.c' object='umaxtostr.o' libtool=no \
+depfile='.deps/umaxtostr.Po' tmpdepfile='.deps/umaxtostr.TPo' \
+depmode=gcc3 /bin/sh ../config/depcomp \
+gcc -DHAVE_CONFIG_H -I. -I. -I..     -g -O2 -c `test -f umaxtostr.c || echo './'`umaxtostr.c
+source='xmalloc.c' object='xmalloc.o' libtool=no \
+depfile='.deps/xmalloc.Po' tmpdepfile='.deps/xmalloc.TPo' \
+depmode=gcc3 /bin/sh ../config/depcomp \
+gcc -DHAVE_CONFIG_H -I. -I. -I..     -g -O2 -c `test -f xmalloc.c || echo './'`xmalloc.c
+source='xstrtoumax.c' object='xstrtoumax.o' libtool=no \
+depfile='.deps/xstrtoumax.Po' tmpdepfile='.deps/xstrtoumax.TPo' \
+depmode=gcc3 /bin/sh ../config/depcomp \
+gcc -DHAVE_CONFIG_H -I. -I. -I..     -g -O2 -c `test -f xstrtoumax.c || echo './'`xstrtoumax.c
+rm -f libdiffutils.a
+ar cru libdiffutils.a basename.o c-stack.o cmpbuf.o error.o exclude.o exitfail.o freesoft.o getopt.o getopt1.o hard-locale.o imaxtostr.o offtostr.o prepargs.o posixver.o quotesys.o setmode.o strftime.o umaxtostr.o xmalloc.o xstrtoumax.o 
+ranlib libdiffutils.a
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/lib'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/lib'
+Making all in m4
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/m4'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/m4'
+Making all in ms
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/ms'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/ms'
+Making all in src
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/src'
+source='cmp.c' object='cmp.o' libtool=no \
+depfile='.deps/cmp.Po' tmpdepfile='.deps/cmp.TPo' \
+depmode=gcc3 /bin/sh ../config/depcomp \
+gcc -DLOCALEDIR=\"/usr/share/locale\" -DHAVE_CONFIG_H -I. -I. -I..  -I../lib -I../lib   -g -O2 -c `test -f cmp.c || echo './'`cmp.c
+source='version.c' object='version.o' libtool=no \
+depfile='.deps/version.Po' tmpdepfile='.deps/version.TPo' \
+depmode=gcc3 /bin/sh ../config/depcomp \
+gcc -DLOCALEDIR=\"/usr/share/locale\" -DHAVE_CONFIG_H -I. -I. -I..  -I../lib -I../lib   -g -O2 -c `test -f version.c || echo './'`version.c
+gcc  -g -O2   -o cmp  cmp.o version.o ../lib/libdiffutils.a  
+source='analyze.c' object='analyze.o' libtool=no \
+depfile='.deps/analyze.Po' tmpdepfile='.deps/analyze.TPo' \
+depmode=gcc3 /bin/sh ../config/depcomp \
+gcc -DLOCALEDIR=\"/usr/share/locale\" -DHAVE_CONFIG_H -I. -I. -I..  -I../lib -I../lib   -g -O2 -c `test -f analyze.c || echo './'`analyze.c
+source='context.c' object='context.o' libtool=no \
+depfile='.deps/context.Po' tmpdepfile='.deps/context.TPo' \
+depmode=gcc3 /bin/sh ../config/depcomp \
+gcc -DLOCALEDIR=\"/usr/share/locale\" -DHAVE_CONFIG_H -I. -I. -I..  -I../lib -I../lib   -g -O2 -c `test -f context.c || echo './'`context.c
+source='diff.c' object='diff.o' libtool=no \
+depfile='.deps/diff.Po' tmpdepfile='.deps/diff.TPo' \
+depmode=gcc3 /bin/sh ../config/depcomp \
+gcc -DLOCALEDIR=\"/usr/share/locale\" -DHAVE_CONFIG_H -I. -I. -I..  -I../lib -I../lib   -g -O2 -c `test -f diff.c || echo './'`diff.c
+source='dir.c' object='dir.o' libtool=no \
+depfile='.deps/dir.Po' tmpdepfile='.deps/dir.TPo' \
+depmode=gcc3 /bin/sh ../config/depcomp \
+gcc -DLOCALEDIR=\"/usr/share/locale\" -DHAVE_CONFIG_H -I. -I. -I..  -I../lib -I../lib   -g -O2 -c `test -f dir.c || echo './'`dir.c
+source='ed.c' object='ed.o' libtool=no \
+depfile='.deps/ed.Po' tmpdepfile='.deps/ed.TPo' \
+depmode=gcc3 /bin/sh ../config/depcomp \
+gcc -DLOCALEDIR=\"/usr/share/locale\" -DHAVE_CONFIG_H -I. -I. -I..  -I../lib -I../lib   -g -O2 -c `test -f ed.c || echo './'`ed.c
+source='ifdef.c' object='ifdef.o' libtool=no \
+depfile='.deps/ifdef.Po' tmpdepfile='.deps/ifdef.TPo' \
+depmode=gcc3 /bin/sh ../config/depcomp \
+gcc -DLOCALEDIR=\"/usr/share/locale\" -DHAVE_CONFIG_H -I. -I. -I..  -I../lib -I../lib   -g -O2 -c `test -f ifdef.c || echo './'`ifdef.c
+source='io.c' object='io.o' libtool=no \
+depfile='.deps/io.Po' tmpdepfile='.deps/io.TPo' \
+depmode=gcc3 /bin/sh ../config/depcomp \
+gcc -DLOCALEDIR=\"/usr/share/locale\" -DHAVE_CONFIG_H -I. -I. -I..  -I../lib -I../lib   -g -O2 -c `test -f io.c || echo './'`io.c
+source='normal.c' object='normal.o' libtool=no \
+depfile='.deps/normal.Po' tmpdepfile='.deps/normal.TPo' \
+depmode=gcc3 /bin/sh ../config/depcomp \
+gcc -DLOCALEDIR=\"/usr/share/locale\" -DHAVE_CONFIG_H -I. -I. -I..  -I../lib -I../lib   -g -O2 -c `test -f normal.c || echo './'`normal.c
+source='side.c' object='side.o' libtool=no \
+depfile='.deps/side.Po' tmpdepfile='.deps/side.TPo' \
+depmode=gcc3 /bin/sh ../config/depcomp \
+gcc -DLOCALEDIR=\"/usr/share/locale\" -DHAVE_CONFIG_H -I. -I. -I..  -I../lib -I../lib   -g -O2 -c `test -f side.c || echo './'`side.c
+source='util.c' object='util.o' libtool=no \
+depfile='.deps/util.Po' tmpdepfile='.deps/util.TPo' \
+depmode=gcc3 /bin/sh ../config/depcomp \
+gcc -DLOCALEDIR=\"/usr/share/locale\" -DHAVE_CONFIG_H -I. -I. -I..  -I../lib -I../lib   -g -O2 -c `test -f util.c || echo './'`util.c
+gcc  -g -O2   -o diff  analyze.o context.o diff.o dir.o ed.o ifdef.o io.o normal.o side.o util.o version.o ../lib/libdiffutils.a  -lrt 
+source='diff3.c' object='diff3.o' libtool=no \
+depfile='.deps/diff3.Po' tmpdepfile='.deps/diff3.TPo' \
+depmode=gcc3 /bin/sh ../config/depcomp \
+gcc -DLOCALEDIR=\"/usr/share/locale\" -DHAVE_CONFIG_H -I. -I. -I..  -I../lib -I../lib   -g -O2 -c `test -f diff3.c || echo './'`diff3.c
+gcc  -g -O2   -o diff3  diff3.o version.o ../lib/libdiffutils.a  
+source='sdiff.c' object='sdiff.o' libtool=no \
+depfile='.deps/sdiff.Po' tmpdepfile='.deps/sdiff.TPo' \
+depmode=gcc3 /bin/sh ../config/depcomp \
+gcc -DLOCALEDIR=\"/usr/share/locale\" -DHAVE_CONFIG_H -I. -I. -I..  -I../lib -I../lib   -g -O2 -c `test -f sdiff.c || echo './'`sdiff.c
+gcc  -g -O2   -o sdiff  sdiff.o version.o ../lib/libdiffutils.a  
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/src'
+Making all in man
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/man'
+base=`expr diff.1 : '\(.*\).1'` && \
+  (echo '[NAME]' && sed 's@/\* *@@; s/-/\\-/; q' ../src/$base.c) | \
+  /bin/sh /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/config/missing --run help2man -i - -S 'diffutils 2.8.1' ../src/$base | \
+  sed 's/^\.B info .*/.B info diff/' >diff.1
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/man'
+Making all in po
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/po'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1/po'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1'
+make[2]: Nothing to be done for `all-am'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/diffutils/diffutils-2.8.1/unpack/diffutils-2.8.1'

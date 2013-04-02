@@ -1,0 +1,16 @@
+gcc -c  -DHAVE_CONFIG_H -Ded_PROGRAM=\"ed\" -I. -I. -g -O2 addext.c
+gcc -c  -DHAVE_CONFIG_H -Ded_PROGRAM=\"ed\" -I. -I. -g -O2 argmatch.c
+gcc -c  -DHAVE_CONFIG_H -Ded_PROGRAM=\"ed\" -I. -I. -g -O2 backupfile.c
+gcc -c  -DHAVE_CONFIG_H -Ded_PROGRAM=\"ed\" -I. -I. -g -O2 basename.c
+gcc -c  -DHAVE_CONFIG_H -Ded_PROGRAM=\"ed\" -I. -I. -g -O2 error.c
+gcc -c  -DHAVE_CONFIG_H -Ded_PROGRAM=\"ed\" -I. -I. -g -O2 inp.c
+gcc -c  -DHAVE_CONFIG_H -Ded_PROGRAM=\"ed\" -I. -I. -g -O2 maketime.c
+gcc -c  -DHAVE_CONFIG_H -Ded_PROGRAM=\"ed\" -I. -I. -g -O2 partime.c
+gcc -c  -DHAVE_CONFIG_H -Ded_PROGRAM=\"ed\" -I. -I. -g -O2 patch.c
+gcc -c  -DHAVE_CONFIG_H -Ded_PROGRAM=\"ed\" -I. -I. -g -O2 pch.c
+gcc -c  -DHAVE_CONFIG_H -Ded_PROGRAM=\"ed\" -I. -I. -g -O2 quotearg.c
+gcc -c  -DHAVE_CONFIG_H -Ded_PROGRAM=\"ed\" -I. -I. -g -O2 quotesys.c
+gcc -c  -DHAVE_CONFIG_H -Ded_PROGRAM=\"ed\" -I. -I. -g -O2 util.c
+gcc -c  -DHAVE_CONFIG_H -Ded_PROGRAM=\"ed\" -I. -I. -g -O2 version.c
+gcc -c  -DHAVE_CONFIG_H -Ded_PROGRAM=\"ed\" -I. -I. -g -O2 xmalloc.c
+gcc -o patch -g -O2  addext.o argmatch.o backupfile.o basename.o error.o inp.o maketime.o partime.o patch.o pch.o quotearg.o quotesys.o util.o version.o xmalloc.o  

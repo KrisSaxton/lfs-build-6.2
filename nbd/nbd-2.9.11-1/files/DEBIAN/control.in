@@ -1,0 +1,10 @@
+Package: AB_PACKAGE_INSTALL_NAME
+Version: 1.unpublished
+Section: unknown
+Priority: optional
+Architecture: all
+Essential: no
+Depends: glib-2.15.5-1
+Maintainer: Aethernet support team [support@aethernet.co.uk]
+Provides: AB_PACKAGE_NAME
+Description: AB_PACKAGE_DESC

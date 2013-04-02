@@ -1,0 +1,13 @@
+#!/bin/bash
+
+source configure
+
+pushd ../unpack/*
+
+{
+ABPatch
+sed -i 's@"BINDIR"@/bin@g' gzexe.in
+} | tee ../../logs/020-patch.log
+
+popd
+

@@ -1,0 +1,43 @@
+source='lsmod.c' object='lsmod.o' libtool=no \
+depfile='.deps/lsmod.Po' tmpdepfile='.deps/lsmod.TPo' \
+depmode=gcc3 /bin/sh ./depcomp \
+gcc -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE=\"module-init-tools\" -DVERSION=\"3.2.2\" -DCONFIG_USE_ZLIB=1  -I. -I.     -g -O2 -Wunused -Wall -c `test -f 'lsmod.c' || echo './'`lsmod.c
+gcc  -g -O2 -Wunused -Wall   -o lsmod  lsmod.o -Wl,-Bstatic -lz -Wl,-Bdynamic 
+source='insmod.c' object='insmod.o' libtool=no \
+depfile='.deps/insmod.Po' tmpdepfile='.deps/insmod.TPo' \
+depmode=gcc3 /bin/sh ./depcomp \
+gcc -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE=\"module-init-tools\" -DVERSION=\"3.2.2\" -DCONFIG_USE_ZLIB=1  -I. -I.     -g -O2 -Wunused -Wall -c `test -f 'insmod.c' || echo './'`insmod.c
+gcc  -g -O2 -Wunused -Wall   -o insmod  insmod.o -Wl,-Bstatic -lz -Wl,-Bdynamic 
+source='modprobe.c' object='modprobe.o' libtool=no \
+depfile='.deps/modprobe.Po' tmpdepfile='.deps/modprobe.TPo' \
+depmode=gcc3 /bin/sh ./depcomp \
+gcc -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE=\"module-init-tools\" -DVERSION=\"3.2.2\" -DCONFIG_USE_ZLIB=1  -I. -I.     -g -O2 -Wunused -Wall -c `test -f 'modprobe.c' || echo './'`modprobe.c
+source='zlibsupport.c' object='zlibsupport.o' libtool=no \
+depfile='.deps/zlibsupport.Po' tmpdepfile='.deps/zlibsupport.TPo' \
+depmode=gcc3 /bin/sh ./depcomp \
+gcc -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE=\"module-init-tools\" -DVERSION=\"3.2.2\" -DCONFIG_USE_ZLIB=1  -I. -I.     -g -O2 -Wunused -Wall -c `test -f 'zlibsupport.c' || echo './'`zlibsupport.c
+gcc  -g -O2 -Wunused -Wall   -o modprobe  modprobe.o zlibsupport.o -Wl,-Bstatic -lz -Wl,-Bdynamic 
+source='rmmod.c' object='rmmod.o' libtool=no \
+depfile='.deps/rmmod.Po' tmpdepfile='.deps/rmmod.TPo' \
+depmode=gcc3 /bin/sh ./depcomp \
+gcc -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE=\"module-init-tools\" -DVERSION=\"3.2.2\" -DCONFIG_USE_ZLIB=1  -I. -I.     -g -O2 -Wunused -Wall -c `test -f 'rmmod.c' || echo './'`rmmod.c
+gcc  -g -O2 -Wunused -Wall   -o rmmod  rmmod.o -Wl,-Bstatic -lz -Wl,-Bdynamic 
+source='depmod.c' object='depmod.o' libtool=no \
+depfile='.deps/depmod.Po' tmpdepfile='.deps/depmod.TPo' \
+depmode=gcc3 /bin/sh ./depcomp \
+gcc -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE=\"module-init-tools\" -DVERSION=\"3.2.2\" -DCONFIG_USE_ZLIB=1  -I. -I.     -g -O2 -Wunused -Wall -c `test -f 'depmod.c' || echo './'`depmod.c
+source='moduleops.c' object='moduleops.o' libtool=no \
+depfile='.deps/moduleops.Po' tmpdepfile='.deps/moduleops.TPo' \
+depmode=gcc3 /bin/sh ./depcomp \
+gcc -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE=\"module-init-tools\" -DVERSION=\"3.2.2\" -DCONFIG_USE_ZLIB=1  -I. -I.     -g -O2 -Wunused -Wall -c `test -f 'moduleops.c' || echo './'`moduleops.c
+source='tables.c' object='tables.o' libtool=no \
+depfile='.deps/tables.Po' tmpdepfile='.deps/tables.TPo' \
+depmode=gcc3 /bin/sh ./depcomp \
+gcc -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE=\"module-init-tools\" -DVERSION=\"3.2.2\" -DCONFIG_USE_ZLIB=1  -I. -I.     -g -O2 -Wunused -Wall -c `test -f 'tables.c' || echo './'`tables.c
+gcc  -g -O2 -Wunused -Wall   -o depmod  depmod.o moduleops.o tables.o zlibsupport.o -Wl,-Bstatic -lz -Wl,-Bdynamic 
+source='modinfo.c' object='modinfo.o' libtool=no \
+depfile='.deps/modinfo.Po' tmpdepfile='.deps/modinfo.TPo' \
+depmode=gcc3 /bin/sh ./depcomp \
+gcc -DPACKAGE_NAME=\"\" -DPACKAGE_TARNAME=\"\" -DPACKAGE_VERSION=\"\" -DPACKAGE_STRING=\"\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE=\"module-init-tools\" -DVERSION=\"3.2.2\" -DCONFIG_USE_ZLIB=1  -I. -I.     -g -O2 -Wunused -Wall -c `test -f 'modinfo.c' || echo './'`modinfo.c
+gcc  -g -O2 -Wunused -Wall   -o modinfo  modinfo.o zlibsupport.o -Wl,-Bstatic -lz -Wl,-Bdynamic 
+gcc  -g -O2 -Wunused -Wall   -o insmod.static -static insmod.o  

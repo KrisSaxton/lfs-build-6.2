@@ -1,0 +1,6 @@
+#!/bin/bash
+
+source configure
+
+cd ../unpack/* && \
+cp ../../files/config .config

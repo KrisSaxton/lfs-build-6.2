@@ -1,0 +1,37 @@
+#!/bin/bash
+
+source configure
+
+pushd ../pkg/debian
+
+{
+# Move a misplaced program to its proper location
+mv -v usr/bin/passwd bin
+
+# Move Shadow's libraries to more appropriate locations
+mkdir -v usr/lib
+mv -v lib/libshadow.*a usr/lib
+rm -v lib/libshadow.so
+ln -sfv ../../lib/libshadow.so.0 usr/lib/libshadow.so
+
+# The -D option of the useradd program requires the /etc/default directory for it to work properly
+mkdir -v etc/default
+
+# This passes control of certain funtions over to PAM
+for FUNCTION in LASTLOG_ENAB MAIL_CHECK_ENAB \
+  PORTTIME_CHECKS_ENAB CONSOLE \
+  MOTD_FILE NOLOGINS_FILE PASS_MIN_LEN \
+  SU_WHEEL_ONLY MD5_CRYPT_ENAB \
+  CONSOLE_GROUPS ENVIRON_FILE \
+  ULIMIT ENV_TZ ENV_HZ ENV_SUPATH \
+  ENV_PATH QMAIL_DIR MAIL_DIR MAIL_FILE \
+  CHFN_AUTH FAILLOG_ENAB QUOTAS_ENAB FTMP_FILE \
+  OBSCURE_CHECKS_ENAB CRACKLIB_DICTPATH \
+  PASS_CHANGE_TRIES PASS_ALWAYS_WARN
+do
+    sed -i "s/^$FUNCTION/# &/" etc/login.defs 
+done
+
+} | tee ../../logs/070-fix-files.log
+
+popd

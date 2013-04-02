@@ -1,0 +1,14 @@
+#!/bin/bash
+
+source configure
+
+#unset LD_LIBRARY_PATH
+#unset CPATH
+#unset LIBRARY_PATH
+#unset LD_RUN_PATH
+
+pushd ../build
+
+make | tee ../logs/050-make.log
+
+popd

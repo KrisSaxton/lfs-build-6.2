@@ -1,0 +1,26 @@
+checking build system type... i686-pc-linux-gnu
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking for perl... /usr/bin/perl
+checking for tex... no
+checking whether autoconf is installed... yes
+checking whether autoconf works... yes
+checking whether autoconf is recent enough... yes
+checking whether ln works... yes
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating doc/Makefile
+config.status: creating lib/Automake/Makefile
+config.status: creating lib/Automake/tests/Makefile
+config.status: creating lib/Makefile
+config.status: creating lib/am/Makefile
+config.status: creating m4/Makefile
+config.status: creating tests/Makefile
+config.status: creating tests/defs
+config.status: creating tests/aclocal-1.9
+config.status: creating tests/automake-1.9

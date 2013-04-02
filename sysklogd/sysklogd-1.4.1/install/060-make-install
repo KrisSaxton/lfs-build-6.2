@@ -1,0 +1,18 @@
+#!/bin/bash
+
+source configure
+
+pushd ../unpack/*
+
+DESTDIR=$PWD/../../pkg/debian
+
+mkdir -pv ${DESTDIR}/usr/sbin
+mkdir -pv ${DESTDIR}/usr/share/man/man5
+mkdir -pv ${DESTDIR}/usr/share/man/man8
+
+make \
+    prefix=$DESTDIR \
+    install \
+    | tee ../../logs/060-make-install.log
+
+popd

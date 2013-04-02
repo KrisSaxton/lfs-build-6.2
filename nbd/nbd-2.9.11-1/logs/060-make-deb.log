@@ -1,0 +1,24 @@
+/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/nbd/nbd-2.9.11-1/pkg/debian /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/nbd/nbd-2.9.11-1/install
+/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/nbd/nbd-2.9.11-1/install
+/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/nbd/nbd-2.9.11-1/pkg /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/nbd/nbd-2.9.11-1/install
+dpkg-deb: building package `nbd-2.9.11-1' in `debian.deb'.
+ new debian package, version 2.0.
+ size 34752 bytes: control archive= 1727 bytes.
+     257 bytes,    10 lines      control              
+     789 bytes,    18 lines      copyright            
+       6 bytes,     1 lines      debian-binary        
+    3502 bytes,   115 lines   *  postinst             #!/bin/bash
+     662 bytes,    24 lines   *  postrm               #!/bin/bash
+     663 bytes,    24 lines   *  preinst              #!/bin/bash
+    2477 bytes,    88 lines   *  prerm                #!/bin/bash
+ Package: nbd-2.9.11-1
+ Version: 1.unpublished
+ Section: unknown
+ Priority: optional
+ Architecture: all
+ Essential: no
+ Depends: glib-2.15.5-1
+ Maintainer: Aethernet support team [support@aethernet.co.uk]
+ Provides: nbd
+ Description: NBD - Network Block Device tools
+/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/nbd/nbd-2.9.11-1/install

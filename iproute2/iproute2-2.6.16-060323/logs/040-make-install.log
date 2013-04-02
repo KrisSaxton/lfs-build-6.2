@@ -1,0 +1,59 @@
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/iproute2/iproute2-2.6.16-060323/unpack/iproute2-2.6.16-060323/lib'
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/iproute2/iproute2-2.6.16-060323/unpack/iproute2-2.6.16-060323/lib'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/iproute2/iproute2-2.6.16-060323/unpack/iproute2-2.6.16-060323/ip'
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/iproute2/iproute2-2.6.16-060323/unpack/iproute2-2.6.16-060323/ip'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/iproute2/iproute2-2.6.16-060323/unpack/iproute2-2.6.16-060323/tc'
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/iproute2/iproute2-2.6.16-060323/unpack/iproute2-2.6.16-060323/tc'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/iproute2/iproute2-2.6.16-060323/unpack/iproute2-2.6.16-060323/misc'
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/iproute2/iproute2-2.6.16-060323/unpack/iproute2-2.6.16-060323/misc'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/iproute2/iproute2-2.6.16-060323/unpack/iproute2-2.6.16-060323/netem'
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/iproute2/iproute2-2.6.16-060323/unpack/iproute2-2.6.16-060323/netem'
+install -m 0755 -d /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/iproute2/iproute2-2.6.16-060323/unpack/iproute2-2.6.16-060323/../../pkg/debian/sbin
+install -m 0755 -d /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/iproute2/iproute2-2.6.16-060323/unpack/iproute2-2.6.16-060323/../../pkg/debian/etc/iproute2
+install -m 0755 -d /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/iproute2/iproute2-2.6.16-060323/unpack/iproute2-2.6.16-060323/../../pkg/debian/usr/share/doc/iproute2/examples
+install -m 0755 -d /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/iproute2/iproute2-2.6.16-060323/unpack/iproute2-2.6.16-060323/../../pkg/debian/usr/share/doc/iproute2/examples/diffserv
+install -m 0644 README.iproute2+tc examples/cbq.init-v0.7.3 examples/dhcp-client-script examples/README.cbq examples/SYN-DoS.rate.limit examples/cbqinit.eth1 \
+	/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/iproute2/iproute2-2.6.16-060323/unpack/iproute2-2.6.16-060323/../../pkg/debian/usr/share/doc/iproute2/examples
+install -m 0644 examples/diffserv/Edge32-cb-chains examples/diffserv/Edge2 examples/diffserv/README examples/diffserv/Edge31-ca-u32 examples/diffserv/afcbq examples/diffserv/Edge32-ca-u32 examples/diffserv/efcbq examples/diffserv/Edge31-cb-chains examples/diffserv/ef-prio examples/diffserv/regression-testing examples/diffserv/Edge32-cb-u32 examples/diffserv/Edge1 \
+	/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/iproute2/iproute2-2.6.16-060323/unpack/iproute2-2.6.16-060323/../../pkg/debian/usr/share/doc/iproute2/examples/diffserv
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/iproute2/iproute2-2.6.16-060323/unpack/iproute2-2.6.16-060323/lib'
+make[1]: Nothing to be done for `install'.
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/iproute2/iproute2-2.6.16-060323/unpack/iproute2-2.6.16-060323/lib'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/iproute2/iproute2-2.6.16-060323/unpack/iproute2-2.6.16-060323/ip'
+install -m 0755 -s ip rtmon /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/iproute2/iproute2-2.6.16-060323/unpack/iproute2-2.6.16-060323/../../pkg/debian/sbin
+install -m 0755 ifcfg rtpr routel routef /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/iproute2/iproute2-2.6.16-060323/unpack/iproute2-2.6.16-060323/../../pkg/debian/sbin
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/iproute2/iproute2-2.6.16-060323/unpack/iproute2-2.6.16-060323/ip'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/iproute2/iproute2-2.6.16-060323/unpack/iproute2-2.6.16-060323/tc'
+mkdir -p /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/iproute2/iproute2-2.6.16-060323/unpack/iproute2-2.6.16-060323/../../pkg/debian/usr/lib/tc
+install -m 0755 -s tc /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/iproute2/iproute2-2.6.16-060323/unpack/iproute2-2.6.16-060323/../../pkg/debian/sbin
+for i in  q_netem.so; \
+do install -m 755 -s $i /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/iproute2/iproute2-2.6.16-060323/unpack/iproute2-2.6.16-060323/../../pkg/debian/usr/lib/tc; \
+done
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/iproute2/iproute2-2.6.16-060323/unpack/iproute2-2.6.16-060323/tc'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/iproute2/iproute2-2.6.16-060323/unpack/iproute2-2.6.16-060323/misc'
+install -m 0755 -s ss nstat ifstat rtacct lnstat /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/iproute2/iproute2-2.6.16-060323/unpack/iproute2-2.6.16-060323/../../pkg/debian/sbin
+ln -sf lnstat /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/iproute2/iproute2-2.6.16-060323/unpack/iproute2-2.6.16-060323/../../pkg/debian/sbin/rtstat
+ln -sf lnstat /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/iproute2/iproute2-2.6.16-060323/unpack/iproute2-2.6.16-060323/../../pkg/debian/sbin/ctstat
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/iproute2/iproute2-2.6.16-060323/unpack/iproute2-2.6.16-060323/misc'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/iproute2/iproute2-2.6.16-060323/unpack/iproute2-2.6.16-060323/netem'
+mkdir -p /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/iproute2/iproute2-2.6.16-060323/unpack/iproute2-2.6.16-060323/../../pkg/debian/usr/lib/tc
+for i in normal.dist pareto.dist paretonormal.dist experimental.dist; \
+do install -m 755 $i /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/iproute2/iproute2-2.6.16-060323/unpack/iproute2-2.6.16-060323/../../pkg/debian/usr/lib/tc; \
+done
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/iproute2/iproute2-2.6.16-060323/unpack/iproute2-2.6.16-060323/netem'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/iproute2/iproute2-2.6.16-060323/unpack/iproute2-2.6.16-060323/doc'
+install -m 0644 SNAPSHOT.tex api-ip6-flowlabels.tex ip-cref.tex ip-tunnels.tex preamble.tex /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/iproute2/iproute2-2.6.16-060323/unpack/iproute2-2.6.16-060323/../../pkg/debian/usr/share/doc/iproute2
+install -m 0644 arpd.sgml nstat.sgml rtstat.sgml ss.sgml /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/iproute2/iproute2-2.6.16-060323/unpack/iproute2-2.6.16-060323/../../pkg/debian/usr/share/doc/iproute2
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/iproute2/iproute2-2.6.16-060323/unpack/iproute2-2.6.16-060323/doc'
+install -m 0644 etc/iproute2/rt_dsfield etc/iproute2/rt_protos etc/iproute2/ematch_map etc/iproute2/rt_scopes etc/iproute2/rt_tables etc/iproute2/rt_realms /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/iproute2/iproute2-2.6.16-060323/unpack/iproute2-2.6.16-060323/../../pkg/debian/etc/iproute2
+install -m 0755 -d /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/iproute2/iproute2-2.6.16-060323/unpack/iproute2-2.6.16-060323/../../pkg/debian/usr/share/man/man8
+install -m 0644 man/man8/tc-cbq.8 man/man8/tc-htb.8 man/man8/tc-pfifo.8 man/man8/ip.8 man/man8/tc-sfq.8 man/man8/tc-pbfifo.8 man/man8/tc.8 man/man8/tc-prio.8 man/man8/tc-cbq-details.8 man/man8/tc-pfifo_fast.8 man/man8/tc-tbf.8 man/man8/tc-red.8 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/iproute2/iproute2-2.6.16-060323/unpack/iproute2-2.6.16-060323/../../pkg/debian/usr/share/man/man8
+ln -sf tc-pbfifo.8  /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/iproute2/iproute2-2.6.16-060323/unpack/iproute2-2.6.16-060323/../../pkg/debian/usr/share/man/man8/tc-bfifo.8
+ln -sf tc-pbfifo.8  /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/iproute2/iproute2-2.6.16-060323/unpack/iproute2-2.6.16-060323/../../pkg/debian/usr/share/man/man8/tc-pfifo.8
+install -m 0755 -d /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/iproute2/iproute2-2.6.16-060323/unpack/iproute2-2.6.16-060323/../../pkg/debian/usr/share/man/man3
+install -m 0644 man/man3/libnetlink.3 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/iproute2/iproute2-2.6.16-060323/unpack/iproute2-2.6.16-060323/../../pkg/debian/usr/share/man/man3

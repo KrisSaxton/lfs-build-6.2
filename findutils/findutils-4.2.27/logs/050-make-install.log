@@ -1,0 +1,205 @@
+Making install in gnulib
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/gnulib'
+Making install in lib
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/gnulib/lib'
+make  install-am
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/gnulib/lib'
+make[4]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/gnulib/lib'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/gnulib/lib'
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/gnulib/lib'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/gnulib/lib'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/gnulib'
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/gnulib'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/gnulib'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/gnulib'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/gnulib'
+Making install in lib
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/lib'
+make  install-am
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/lib'
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/lib'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/lib'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/lib'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/lib'
+Making install in find
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/find'
+Making install in testsuite
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/find/testsuite'
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/find/testsuite'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/find/testsuite'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/find/testsuite'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/find'
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/find'
+test -z "/usr/bin" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/bin"
+  /usr/bin/install -c 'find' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/bin/find'
+test -z "/usr/share/man/man1" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/share/man/man1"
+ /usr/bin/install -c -m 644 './find.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/share/man/man1/find.1'
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/find'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/find'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/find'
+Making install in xargs
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/xargs'
+Making install in testsuite
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/xargs/testsuite'
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/xargs/testsuite'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/xargs/testsuite'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/xargs/testsuite'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/xargs'
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/xargs'
+test -z "/usr/bin" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/bin"
+  /usr/bin/install -c 'xargs' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/bin/xargs'
+test -z "/usr/share/man/man1" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/share/man/man1"
+ /usr/bin/install -c -m 644 './xargs.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/share/man/man1/xargs.1'
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/xargs'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/xargs'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/xargs'
+Making install in locate
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/locate'
+Making install in testsuite
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/locate/testsuite'
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/locate/testsuite'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/locate/testsuite'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/locate/testsuite'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/locate'
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/locate'
+test -z "/usr/bin" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/bin"
+  /usr/bin/install -c 'locate' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/bin/locate'
+test -z "/usr/bin" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/bin"
+ /usr/bin/install -c 'updatedb' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/bin/updatedb'
+test -z "/usr/lib/findutils" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/lib/findutils"
+  /usr/bin/install -c 'frcode' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/lib/findutils/frcode'
+  /usr/bin/install -c 'code' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/lib/findutils/code'
+  /usr/bin/install -c 'bigram' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/lib/findutils/bigram'
+test -z "/usr/share/man/man1" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/share/man/man1"
+ /usr/bin/install -c -m 644 './locate.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/share/man/man1/locate.1'
+ /usr/bin/install -c -m 644 './updatedb.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/share/man/man1/updatedb.1'
+test -z "/usr/share/man/man5" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/share/man/man5"
+ /usr/bin/install -c -m 644 './locatedb.5' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/share/man/man5/locatedb.5'
+make  install-data-hook
+make[4]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/locate'
+../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/var/lib/locate
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/var/lib/locate
+make[4]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/locate'
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/locate'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/locate'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/locate'
+Making install in doc
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/doc'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/doc'
+make[2]: Nothing to be done for `install-exec-am'.
+test -z "/usr/share/info" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/share/info"
+ /usr/bin/install -c -m 644 './find.info' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/share/info/find.info'
+ install-info --info-dir='/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/share/info' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/share/info/find.info'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/doc'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/doc'
+Making install in po
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/po'
+/bin/sh .././mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/share
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/share/locale/be/LC_MESSAGES
+installing be.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/share/locale/be/LC_MESSAGES/findutils.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/share/locale/ca/LC_MESSAGES
+installing ca.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/share/locale/ca/LC_MESSAGES/findutils.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/share/locale/da/LC_MESSAGES
+installing da.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/share/locale/da/LC_MESSAGES/findutils.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/share/locale/de/LC_MESSAGES
+installing de.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/share/locale/de/LC_MESSAGES/findutils.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/share/locale/el/LC_MESSAGES
+installing el.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/share/locale/el/LC_MESSAGES/findutils.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/share/locale/eo/LC_MESSAGES
+installing eo.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/share/locale/eo/LC_MESSAGES/findutils.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/share/locale/es/LC_MESSAGES
+installing es.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/share/locale/es/LC_MESSAGES/findutils.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/share/locale/et/LC_MESSAGES
+installing et.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/share/locale/et/LC_MESSAGES/findutils.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/share/locale/fi/LC_MESSAGES
+installing fi.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/share/locale/fi/LC_MESSAGES/findutils.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/share/locale/fr/LC_MESSAGES
+installing fr.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/share/locale/fr/LC_MESSAGES/findutils.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/share/locale/ga/LC_MESSAGES
+installing ga.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/share/locale/ga/LC_MESSAGES/findutils.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/share/locale/gl/LC_MESSAGES
+installing gl.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/share/locale/gl/LC_MESSAGES/findutils.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/share/locale/hr/LC_MESSAGES
+installing hr.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/share/locale/hr/LC_MESSAGES/findutils.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/share/locale/hu/LC_MESSAGES
+installing hu.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/share/locale/hu/LC_MESSAGES/findutils.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/share/locale/id/LC_MESSAGES
+installing id.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/share/locale/id/LC_MESSAGES/findutils.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/share/locale/it/LC_MESSAGES
+installing it.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/share/locale/it/LC_MESSAGES/findutils.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/share/locale/ja/LC_MESSAGES
+installing ja.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/share/locale/ja/LC_MESSAGES/findutils.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/share/locale/ko/LC_MESSAGES
+installing ko.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/share/locale/ko/LC_MESSAGES/findutils.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/share/locale/lg/LC_MESSAGES
+installing lg.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/share/locale/lg/LC_MESSAGES/findutils.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/share/locale/ms/LC_MESSAGES
+installing ms.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/share/locale/ms/LC_MESSAGES/findutils.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/share/locale/nl/LC_MESSAGES
+installing nl.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/share/locale/nl/LC_MESSAGES/findutils.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/share/locale/pl/LC_MESSAGES
+installing pl.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/share/locale/pl/LC_MESSAGES/findutils.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/share/locale/pt/LC_MESSAGES
+installing pt.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/share/locale/pt/LC_MESSAGES/findutils.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/share/locale/pt_BR/LC_MESSAGES
+installing pt_BR.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/share/locale/pt_BR/LC_MESSAGES/findutils.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/share/locale/ro/LC_MESSAGES
+installing ro.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/share/locale/ro/LC_MESSAGES/findutils.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/share/locale/ru/LC_MESSAGES
+installing ru.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/share/locale/ru/LC_MESSAGES/findutils.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/share/locale/sk/LC_MESSAGES
+installing sk.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/share/locale/sk/LC_MESSAGES/findutils.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/share/locale/sl/LC_MESSAGES
+installing sl.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/share/locale/sl/LC_MESSAGES/findutils.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/share/locale/sr/LC_MESSAGES
+installing sr.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/share/locale/sr/LC_MESSAGES/findutils.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/share/locale/sv/LC_MESSAGES
+installing sv.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/share/locale/sv/LC_MESSAGES/findutils.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/share/locale/tr/LC_MESSAGES
+installing tr.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/share/locale/tr/LC_MESSAGES/findutils.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/share/locale/vi/LC_MESSAGES
+installing vi.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/share/locale/vi/LC_MESSAGES/findutils.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/share/locale/zh_CN/LC_MESSAGES
+installing zh_CN.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/share/locale/zh_CN/LC_MESSAGES/findutils.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/share/locale/zh_TW/LC_MESSAGES
+installing zh_TW.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/share/locale/zh_TW/LC_MESSAGES/findutils.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/share/locale/rw/LC_MESSAGES
+installing rw.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/share/locale/rw/LC_MESSAGES/findutils.mo
+if test "findutils" = "gettext-tools"; then \
+  /bin/sh .././mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /usr/bin/install -c -m 644 ./$file \
+		    /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/../../pkg/debian/usr/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/po'
+Making install in m4
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/m4'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/m4'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/m4'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27/m4'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/findutils/findutils-4.2.27/unpack/findutils-4.2.27'

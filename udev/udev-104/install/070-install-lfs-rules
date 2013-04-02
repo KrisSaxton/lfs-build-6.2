@@ -1,0 +1,10 @@
+#!/bin/bash
+
+source configure
+
+pushd ../unpack/*
+
+cp -v ../udev-config-6.2/[0-9]* $PWD/../../pkg/debian/etc/udev/rules.d \
+    | tee ../../logs/070-install-lfs-rules.log
+
+popd

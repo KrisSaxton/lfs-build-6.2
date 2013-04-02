@@ -1,0 +1,38 @@
+test ! -f stamp-h || CONFIG_FILES= CONFIG_HEADERS=defines.h ./config.status
+touch stamp-h
+gcc -I. -c -DBINDIR=\"/usr/bin\" -DSYSDIR=\"/etc\"  -g -O2 main.c
+gcc -I. -c -DBINDIR=\"/usr/bin\" -DSYSDIR=\"/etc\"  -g -O2 screen.c
+gcc -I. -c -DBINDIR=\"/usr/bin\" -DSYSDIR=\"/etc\"  -g -O2 brac.c
+gcc -I. -c -DBINDIR=\"/usr/bin\" -DSYSDIR=\"/etc\"  -g -O2 ch.c
+gcc -I. -c -DBINDIR=\"/usr/bin\" -DSYSDIR=\"/etc\"  -g -O2 charset.c
+gcc -I. -c -DBINDIR=\"/usr/bin\" -DSYSDIR=\"/etc\"  -g -O2 cmdbuf.c
+gcc -I. -c -DBINDIR=\"/usr/bin\" -DSYSDIR=\"/etc\"  -g -O2 command.c
+gcc -I. -c -DBINDIR=\"/usr/bin\" -DSYSDIR=\"/etc\"  -g -O2 decode.c
+gcc -I. -c -DBINDIR=\"/usr/bin\" -DSYSDIR=\"/etc\"  -g -O2 edit.c
+gcc -I. -c -DBINDIR=\"/usr/bin\" -DSYSDIR=\"/etc\"  -g -O2 filename.c
+gcc -I. -c -DBINDIR=\"/usr/bin\" -DSYSDIR=\"/etc\"  -g -O2 forwback.c
+gcc -I. -c -DBINDIR=\"/usr/bin\" -DSYSDIR=\"/etc\"  -g -O2 help.c
+gcc -I. -c -DBINDIR=\"/usr/bin\" -DSYSDIR=\"/etc\"  -g -O2 ifile.c
+gcc -I. -c -DBINDIR=\"/usr/bin\" -DSYSDIR=\"/etc\"  -g -O2 input.c
+gcc -I. -c -DBINDIR=\"/usr/bin\" -DSYSDIR=\"/etc\"  -g -O2 jump.c
+gcc -I. -c -DBINDIR=\"/usr/bin\" -DSYSDIR=\"/etc\"  -g -O2 line.c
+gcc -I. -c -DBINDIR=\"/usr/bin\" -DSYSDIR=\"/etc\"  -g -O2 linenum.c
+gcc -I. -c -DBINDIR=\"/usr/bin\" -DSYSDIR=\"/etc\"  -g -O2 lsystem.c
+gcc -I. -c -DBINDIR=\"/usr/bin\" -DSYSDIR=\"/etc\"  -g -O2 mark.c
+gcc -I. -c -DBINDIR=\"/usr/bin\" -DSYSDIR=\"/etc\"  -g -O2 optfunc.c
+gcc -I. -c -DBINDIR=\"/usr/bin\" -DSYSDIR=\"/etc\"  -g -O2 option.c
+gcc -I. -c -DBINDIR=\"/usr/bin\" -DSYSDIR=\"/etc\"  -g -O2 opttbl.c
+gcc -I. -c -DBINDIR=\"/usr/bin\" -DSYSDIR=\"/etc\"  -g -O2 os.c
+gcc -I. -c -DBINDIR=\"/usr/bin\" -DSYSDIR=\"/etc\"  -g -O2 output.c
+gcc -I. -c -DBINDIR=\"/usr/bin\" -DSYSDIR=\"/etc\"  -g -O2 position.c
+gcc -I. -c -DBINDIR=\"/usr/bin\" -DSYSDIR=\"/etc\"  -g -O2 prompt.c
+gcc -I. -c -DBINDIR=\"/usr/bin\" -DSYSDIR=\"/etc\"  -g -O2 search.c
+gcc -I. -c -DBINDIR=\"/usr/bin\" -DSYSDIR=\"/etc\"  -g -O2 signal.c
+gcc -I. -c -DBINDIR=\"/usr/bin\" -DSYSDIR=\"/etc\"  -g -O2 tags.c
+gcc -I. -c -DBINDIR=\"/usr/bin\" -DSYSDIR=\"/etc\"  -g -O2 ttyin.c
+gcc -I. -c -DBINDIR=\"/usr/bin\" -DSYSDIR=\"/etc\"  -g -O2 version.c
+gcc  -o less main.o screen.o brac.o ch.o charset.o cmdbuf.o command.o decode.o edit.o filename.o forwback.o help.o ifile.o input.o jump.o line.o linenum.o lsystem.o mark.o optfunc.o option.o opttbl.o os.o output.o position.o prompt.o search.o signal.o tags.o ttyin.o version.o   -lncursesw
+gcc -I. -c -DBINDIR=\"/usr/bin\" -DSYSDIR=\"/etc\"  -g -O2 lesskey.c
+gcc  -o lesskey lesskey.o version.o
+gcc -I. -c -DBINDIR=\"/usr/bin\" -DSYSDIR=\"/etc\"  -g -O2 lessecho.c
+gcc  -o lessecho lessecho.o version.o

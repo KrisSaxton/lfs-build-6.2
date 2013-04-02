@@ -1,0 +1,12 @@
+cp zlib.h zconf.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/zlib/zlib-1.2.3/unpack/zlib-1.2.3/../../pkg/debian/usr/include
+chmod 644 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/zlib/zlib-1.2.3/unpack/zlib-1.2.3/../../pkg/debian/usr/include/zlib.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/zlib/zlib-1.2.3/unpack/zlib-1.2.3/../../pkg/debian/usr/include/zconf.h
+cp libz.a /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/zlib/zlib-1.2.3/unpack/zlib-1.2.3/../../pkg/debian/usr/lib
+cd /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/zlib/zlib-1.2.3/unpack/zlib-1.2.3/../../pkg/debian/usr/lib; chmod 755 libz.a
+cd /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/zlib/zlib-1.2.3/unpack/zlib-1.2.3/../../pkg/debian/usr/lib; if test -f libz.so.1.2.3; then \
+  rm -f libz.so libz.so.1; \
+  ln -s libz.so.1.2.3 libz.so; \
+  ln -s libz.so.1.2.3 libz.so.1; \
+  (ldconfig || true)  >/dev/null 2>&1; \
+fi
+cp zlib.3 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/zlib/zlib-1.2.3/unpack/zlib-1.2.3/../../pkg/debian/usr/share/man/man3
+chmod 644 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/zlib/zlib-1.2.3/unpack/zlib-1.2.3/../../pkg/debian/usr/share/man/man3/zlib.3

@@ -1,0 +1,9 @@
+patching file doc/grep.1
+patching file lib/posix/regex.h
+patching file src/dfa.c
+patching file src/grep.c
+patching file src/search.c
+patching file src/search.c.orig
+patching file tests/fmbtest.sh
+patching file tests/Makefile.am
+patching file tests/Makefile.in

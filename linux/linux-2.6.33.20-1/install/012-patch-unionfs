@@ -1,0 +1,10 @@
+#!/bin/bash
+
+source configure
+
+pushd ../unpack/linux-* >/dev/null
+
+patch -Np1 -i ../../source/unionfs-*.diff | ABLog
+
+popd >/dev/null
+

@@ -1,0 +1,27 @@
+#!/bin/bash
+
+source configure
+
+pushd ../unpack/*
+
+{
+cat <<'__PATCH__'
+--- nbd-2.9.11/nbd-server.c.0	2009-03-05 14:51:19.000000000 +0000
++++ nbd-2.9.11/nbd-server.c	2009-03-05 14:52:46.000000000 +0000
+@@ -1570,9 +1570,9 @@
+ 	}
+ 	if(!*pidftemplate) {
+ 		if(serve) {
+-			strncpy(pidftemplate, "/var/run/nbd-server.%d.pid", 255);
++			strncpy(pidftemplate, "@AB_PACKAGE_INSTALL_DIR@/var/run/nbd-server.%d.pid", 255);
+ 		} else {
+-			strncpy(pidftemplate, "/var/run/nbd-server.pid", 255);
++			strncpy(pidftemplate, "@AB_PACKAGE_INSTALL_DIR@/var/run/nbd-server.pid", 255);
+ 		}
+ 	}
+ 	snprintf(pidfname, 255, pidftemplate, serve ? serve->port : 0);
+__PATCH__
+} | sed "s:@AB_PACKAGE_INSTALL_DIR@:$AB_PACKAGE_INSTALL_DIR:g" | patch -p1
+
+popd
+

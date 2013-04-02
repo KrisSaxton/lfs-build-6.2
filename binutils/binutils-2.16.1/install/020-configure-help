@@ -1,0 +1,10 @@
+#!/bin/bash
+
+source configure
+
+pushd ../unpack
+
+../unpack/*/configure --help | tee ../logs/020-configure-help.log
+
+popd
+

@@ -1,0 +1,10 @@
+#!/bin/bash
+
+source configure
+
+pushd ../unpack/*
+
+ABPatch | tee ../../logs/025-patch.log
+
+popd
+

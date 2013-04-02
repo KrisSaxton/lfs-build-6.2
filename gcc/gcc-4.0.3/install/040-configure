@@ -1,0 +1,19 @@
+#!/bin/bash
+
+source configure
+
+pushd ../build
+
+../unpack/*/configure \
+    --prefix=$AB_PACKAGE_CONFIGURE_PREFIX \
+    --libexecdir=/usr/lib \
+    --infodir=/usr/share/info \
+    --mandir=/usr/share/man \
+    --enable-shared \
+    --enable-threads-posix \
+    --enable-__cxa_atexit \
+    --enable-clocale-gnu \
+    --enable-languages=c,c++ \
+    | tee ../logs/040-configure.log
+
+popd

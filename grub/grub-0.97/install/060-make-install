@@ -1,0 +1,14 @@
+#!/bin/bash
+
+source configure
+
+pushd ../unpack/*
+
+DESTDIR=$PWD/../../pkg/debian
+
+make install \
+    DESTDIR=$DESTDIR \
+    pkglibdir=../../debian/usr/lib/grub \
+    | tee ../../logs/060-make-install.log
+
+popd

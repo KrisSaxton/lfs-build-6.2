@@ -1,0 +1,4 @@
+patching file db/db_cam.c
+patching file mp/mp_fget.c
+patching file qam/qam_files.c
+patching file txn/txn.c

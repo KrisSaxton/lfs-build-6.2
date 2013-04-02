@@ -1,0 +1,5 @@
+`usr/bin/passwd' -> `bin/passwd'
+`lib/libshadow.a' -> `usr/lib/libshadow.a'
+`lib/libshadow.la' -> `usr/lib/libshadow.la'
+removed `lib/libshadow.so'
+create symbolic link `usr/lib/libshadow.so' to `../../lib/libshadow.so.0'

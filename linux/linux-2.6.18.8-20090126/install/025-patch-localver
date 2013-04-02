@@ -1,0 +1,24 @@
+#!/bin/bash
+
+source configure
+
+pushd ../unpack/*
+
+{
+cat <<'__PATCH__'
+--- linux-2.6.18.8/Makefile.0	2008-11-11 14:18:30.000000000 +0000
++++ linux-2.6.18.8/Makefile	2008-11-11 14:22:35.000000000 +0000
+@@ -772,6 +772,8 @@
+ 	   $(shell cat /dev/null $(_localver)) \
+ 	   $(patsubst "%",%,$(CONFIG_LOCALVERSION)))
+ 
++localver =
++
+ # If CONFIG_LOCALVERSION_AUTO is set scripts/setlocalversion is called
+ # and if the SCM is know a tag from the SCM is appended.
+ # The appended tag is determined by the SCM used.
+__PATCH__
+} | patch -p1
+
+popd
+

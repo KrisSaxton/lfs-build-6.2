@@ -1,0 +1,18 @@
+#!/bin/bash
+
+source configure
+
+pushd ../unpack/*/build_unix
+
+{
+make \
+    docdir=/tmp/db \
+    DESTDIR=$PWD/../../../pkg/debian \
+    install
+
+# No documentation thanks
+rm -rvf ../../../pkg/debian/tmp
+
+} | tee ../../../logs/060-make-install.log
+
+popd

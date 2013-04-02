@@ -1,0 +1,56 @@
+Making install in src
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/file/file-4.17/unpack/file-4.17/src'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/file/file-4.17/unpack/file-4.17/src'
+test -z "/usr/lib" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/file/file-4.17/pkg/debian/usr/lib"
+ /bin/sh ../libtool --mode=install /usr/bin/install -c  'libmagic.la' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/file/file-4.17/pkg/debian/usr/lib/libmagic.la'
+/usr/bin/install -c .libs/libmagic.so.1.0.0 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/file/file-4.17/pkg/debian/usr/lib/libmagic.so.1.0.0
+(cd /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/file/file-4.17/pkg/debian/usr/lib && rm -f libmagic.so.1 && ln -s libmagic.so.1.0.0 libmagic.so.1)
+(cd /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/file/file-4.17/pkg/debian/usr/lib && rm -f libmagic.so && ln -s libmagic.so.1.0.0 libmagic.so)
+/usr/bin/install -c .libs/libmagic.lai /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/file/file-4.17/pkg/debian/usr/lib/libmagic.la
+/usr/bin/install -c .libs/libmagic.a /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/file/file-4.17/pkg/debian/usr/lib/libmagic.a
+ranlib /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/file/file-4.17/pkg/debian/usr/lib/libmagic.a
+chmod 644 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/file/file-4.17/pkg/debian/usr/lib/libmagic.a
+test -z "/usr/bin" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/file/file-4.17/pkg/debian/usr/bin"
+  /bin/sh ../libtool --mode=install /usr/bin/install -c 'file' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/file/file-4.17/pkg/debian/usr/bin/file'
+/usr/bin/install -c .libs/file /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/file/file-4.17/pkg/debian/usr/bin/file
+test -z "/usr/include" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/file/file-4.17/pkg/debian/usr/include"
+ /usr/bin/install -c -m 644 'magic.h' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/file/file-4.17/pkg/debian/usr/include/magic.h'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/file/file-4.17/unpack/file-4.17/src'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/file/file-4.17/unpack/file-4.17/src'
+Making install in magic
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/file/file-4.17/unpack/file-4.17/magic'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/file/file-4.17/unpack/file-4.17/magic'
+make[2]: Nothing to be done for `install-exec-am'.
+test -z "/usr/share/file" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/file/file-4.17/pkg/debian/usr/share/file"
+ /usr/bin/install -c -m 644 'magic' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/file/file-4.17/pkg/debian/usr/share/file/magic'
+ /usr/bin/install -c -m 644 'magic.mime' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/file/file-4.17/pkg/debian/usr/share/file/magic.mime'
+ /usr/bin/install -c -m 644 'magic.mgc' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/file/file-4.17/pkg/debian/usr/share/file/magic.mgc'
+ /usr/bin/install -c -m 644 'magic.mime.mgc' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/file/file-4.17/pkg/debian/usr/share/file/magic.mime.mgc'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/file/file-4.17/unpack/file-4.17/magic'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/file/file-4.17/unpack/file-4.17/magic'
+Making install in doc
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/file/file-4.17/unpack/file-4.17/doc'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/file/file-4.17/unpack/file-4.17/doc'
+make[2]: Nothing to be done for `install-exec-am'.
+test -z "/usr/man/man1" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/file/file-4.17/pkg/debian/usr/man/man1"
+ /usr/bin/install -c -m 644 './file.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/file/file-4.17/pkg/debian/usr/man/man1/file.1'
+test -z "/usr/man/man3" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/file/file-4.17/pkg/debian/usr/man/man3"
+ /usr/bin/install -c -m 644 './libmagic.3' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/file/file-4.17/pkg/debian/usr/man/man3/libmagic.3'
+test -z "/usr/man/man4" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/file/file-4.17/pkg/debian/usr/man/man4"
+ /usr/bin/install -c -m 644 './magic.4' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/file/file-4.17/pkg/debian/usr/man/man4/magic.4'
+test -z "/usr/man/man5" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/file/file-4.17/pkg/debian/usr/man/man5"
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/file/file-4.17/unpack/file-4.17/doc'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/file/file-4.17/unpack/file-4.17/doc'
+Making install in python
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/file/file-4.17/unpack/file-4.17/python'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/file/file-4.17/unpack/file-4.17/python'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/file/file-4.17/unpack/file-4.17/python'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/file/file-4.17/unpack/file-4.17/python'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/file/file-4.17/unpack/file-4.17'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/file/file-4.17/unpack/file-4.17'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/file/file-4.17/unpack/file-4.17'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/file/file-4.17/unpack/file-4.17'

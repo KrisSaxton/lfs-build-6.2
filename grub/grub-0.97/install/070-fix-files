@@ -1,0 +1,22 @@
+#!/bin/bash
+
+source configure
+
+pushd ../pkg/debian
+
+{
+# Remove info dir file
+rm -v usr/share/info/dir
+
+# Create boot directory
+GRUB_DIR=boot/grub
+mkdir -vp $GRUB_DIR
+
+# Link grub stage files
+ln -v usr/lib/grub/stage1           $GRUB_DIR/stage1
+ln -v usr/lib/grub/stage2           $GRUB_DIR/stage2
+ln -v usr/lib/grub/e2fs_stage1_5    $GRUB_DIR/e2fs_stage1_5
+
+} | tee ../../logs/070-fix-files.log
+
+popd

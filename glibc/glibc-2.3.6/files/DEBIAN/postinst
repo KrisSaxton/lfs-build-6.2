@@ -1,0 +1,127 @@
+#!/bin/bash
+# Place in this file any commands you would like to be run
+# after the package has been installed
+
+# Set up a basic /etc/passwd if none is found
+if [ ! -f /etc/passwd ]; then
+  cat > /etc/passwd << "EOF" 
+root:x:0:0:root:/root:/bin/bash
+EOF
+fi
+
+# Set up a basic /etc/group if none is found
+if [ ! -f /etc/group ]; then
+  cat > /etc/group << "EOF" 
+root:x:0:
+tty:x:4:
+EOF
+fi
+
+# Set up a basic /etc/hosts if none is found
+if [ ! -f /etc/hosts ]; then
+  cat > /etc/hosts << "EOF" 
+# Begin /etc/hosts (no network card version) 
+127.0.0.1 localhost 
+# End /etc/hosts (no network card version) 
+EOF
+fi
+
+# Put down an /etc/profile if one is not found
+if [ ! -f /etc/profile ]; then
+  cat > /etc/profile << "EOF"
+# /etc/profile system wide bash settings
+#
+# The following lines allow the use of bash history but 
+# the history is lost on logout
+export HISTFILESIZE=0
+export HISTFILE=/dev/null
+export HISTSIZE=100
+export PS1="\t \h\\$"
+
+# Set the default umask
+umask 022
+
+# Set up the basic PATH
+PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin
+
+# Now parse the path directory for additional paths
+for i in $(find /etc/profile.d/env/path -type f -name '*' -exec /bin/cat {} \;);
+  do PATH=$PATH:$i;
+done
+
+export PATH
+
+# End /etc/profile
+EOF
+fi
+
+# Put down an /etc/sysconfig/network if one is not found
+if [ ! -f /etc/sysconfig/network ]; then
+  cat > /etc/sysconfig/network << "EOF"
+# Begin /etc/sysconfig/network
+
+# End /etc/sysconfig/network
+EOF
+fi
+
+# Setup a basic /etc/resolv.conf if none is found
+if [ ! -f /etc/resolv.conf ]; then
+  cat > /etc/resolv.conf << "EOF"
+# Begin /etc/resolv.conf
+
+#domain {<Your Domain Name>}
+#nameserver <IP address of your primary nameserver>
+#nameserver <IP address of your secondary nameserver>
+
+# End /etc/resolv.conf
+EOF
+fi
+
+# Put down an nsswitch.conf if one is not found
+if [ ! -e /etc/nsswitch.conf ]; then
+  cat > /etc/nsswitch.conf << "EOF"
+# Begin /etc/nsswitch.conf
+
+passwd: files
+group: files
+shadow: files
+
+hosts: files dns
+networks: files
+
+protocols: files
+services: files
+ethers: files
+rpc: files
+
+# End of /etc/nsswitch.conf
+EOF
+fi
+
+# Put down an ld.so.conf if one is not found
+if [ ! -e /etc/ld.so.conf ]; then
+  cat > /etc/ld.so.conf << "EOF"
+# Begin /etc/ld.so.conf
+
+include /etc/ld.so.conf.d/*
+
+# End /etc/ld.so.conf
+EOF
+fi
+
+# Put down an /etc/localtime if one is not found
+if [ ! -e /etc/localtime ]; then
+  cp -v --remove-destination /usr/share/zoneinfo/UTC \
+    /etc/localtime
+fi
+
+# Put down an /etc/sysconfig/clock if one is not found
+if [ ! -e /etc/sysconfig/clock ]; then
+  cat > /etc/sysconfig/clock << "EOF"
+# Begin /etc/sysconfig/clock
+
+UTC=1
+
+# End /etc/sysconfig/clock
+EOF
+fi

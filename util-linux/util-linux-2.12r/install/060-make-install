@@ -1,0 +1,16 @@
+#!/bin/bash
+
+source configure
+
+pushd ../unpack/*
+
+make \
+    HAVE_KILL=yes \
+    HAVE_SLN=yes \
+    USE_TTY_GROUP=no \
+    HAVE_PIVOT_ROOT=yes \
+    DESTDIR=$PWD/../../pkg/debian \
+    install \
+    | tee ../../logs/060-make-install.log
+
+popd

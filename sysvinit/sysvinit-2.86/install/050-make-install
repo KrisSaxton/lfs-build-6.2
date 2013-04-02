@@ -1,0 +1,16 @@
+#!/bin/bash
+
+source configure
+
+pushd ../unpack/*
+
+# Create our base directories
+DESTDIR=$PWD/../../pkg/debian
+mkdir -p $DESTDIR/{etc,bin,sbin,usr/bin,usr/include,usr/share/man/man{1,5,8}}
+
+make -C src \
+    ROOT=$DESTDIR \
+    install \
+    | tee ../../logs/060-make-install.log
+
+popd

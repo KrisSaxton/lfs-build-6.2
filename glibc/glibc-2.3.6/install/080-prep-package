@@ -1,0 +1,12 @@
+#!/bin/bash
+
+source configure
+
+# NB the ABFixPkgPerms is optional, it ensures all the binaries under
+# pkg have modes of 644 and 755 for, respecively, files and directories.
+
+pushd ../pkg/debian
+
+ABPrepPkg | tee ../../logs/080-prep-package.log
+
+popd

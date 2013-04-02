@@ -1,0 +1,18 @@
+#!/bin/bash
+
+source configure
+
+pushd ../pkg/debian
+
+{
+rm -vrf usr/share/locale
+
+mv -v   usr/bin/{kbd_mode,openvt,setfont} bin
+
+rm -v usr/bin/psfstriptable && ln -v usr/bin/psfxtable usr/bin/psfstriptable
+rm -v usr/bin/psfaddtable   && ln -v usr/bin/psfxtable usr/bin/psfaddtable
+rm -v usr/bin/psfgettable   && ln -v usr/bin/psfxtable usr/bin/psfgettable
+
+} | tee ../../logs/070-fix-files.log
+
+popd

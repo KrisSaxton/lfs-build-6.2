@@ -1,0 +1,13 @@
+#!/bin/bash
+
+source configure
+
+pushd ../pkg/debian
+
+{
+mkdir usr/lib
+rm -v lib/libz.so
+ln -sfv ../../lib/libz.so.1.2.3 usr/lib/libz.so
+} | tee ../../logs/060-fix-files.log
+
+popd

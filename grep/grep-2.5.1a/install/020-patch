@@ -1,0 +1,12 @@
+#!/bin/bash
+
+source configure
+
+pushd ../unpack/*
+
+ABPatch | tee ../../logs/020-patch.log
+
+chmod +x tests/fmbtest.sh | tee -a ../../logs/020-patch.log
+
+popd
+

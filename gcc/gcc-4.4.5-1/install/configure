@@ -1,0 +1,57 @@
+#!/bin/bash
+
+################################################################################
+# BEGIN
+################################################################################
+
+source functions
+
+################################################################################
+# GLOBALS
+################################################################################
+
+ABSetDefault AB_SYSTEM_INSTALL_DIR                              /usr
+ABSetDefault AB_SYSTEM_DATA_DIR                                 /usr/local/data
+
+################################################################################
+# DEPENDENCIES
+################################################################################
+
+ABSetDefault AB_PACKAGE_GMP_INSTALL_DIR                 /usr/local/pkg/gmp-4.3.2-1
+ABSetDefault AB_PACKAGE_MPFR_INSTALL_DIR                 /usr/local/pkg/mpfr-2.4.2-1
+
+################################################################################
+# CONFIGURATION
+################################################################################
+
+ABSetDefault AB_PACKAGE_GCC_NAME                      gcc
+ABSetDefault AB_PACKAGE_GCC_VERSION                   4.4.5-1
+ABSetDefault AB_PACKAGE_GCC_DESC                      'The GNU compiler collection'
+ABSetDefault AB_PACKAGE_GCC_SOURCES               'gcc-4.4.5.tar.bz2'
+
+ABSetDefault AB_PACKAGE_GCC_INSTALL_NAME              ${AB_PACKAGE_GCC_NAME}-${AB_PACKAGE_GCC_VERSION}
+
+ABSetDefault AB_PACKAGE_GCC_INSTALL_DIR               $AB_SYSTEM_INSTALL_DIR
+ABSetDefault AB_PACKAGE_GCC_INCLUDE_DIR               $AB_PACKAGE_GCC_INSTALL_DIR/include
+ABSetDefault AB_PACKAGE_GCC_LIB_DIR                   $AB_PACKAGE_GCC_INSTALL_DIR/lib
+
+ABSetDefault AB_PACKAGE_GCC_CONFIGURE_PREFIX          $AB_PACKAGE_GCC_INSTALL_DIR
+ABSetDefault AB_PACKAGE_GCC_CONFIGURE_WITH_EDITOR     /usr/bin/nano
+
+AB_PACKAGE_NAME=$AB_PACKAGE_GCC_NAME
+AB_PACKAGE_VERSION=$AB_PACKAGE_GCC_VERSION
+AB_PACKAGE_DESC=$AB_PACKAGE_GCC_DESC
+AB_PACKAGE_SOURCES=$AB_PACKAGE_GCC_SOURCES
+
+AB_PACKAGE_INSTALL_NAME=$AB_PACKAGE_GCC_INSTALL_NAME
+
+AB_PACKAGE_INSTALL_DIR=$AB_PACKAGE_GCC_INSTALL_DIR
+AB_PACKAGE_INCLUDE_DIR=$AB_PACKAGE_GCC_INCLUDE_DIR
+AB_PACKAGE_LIB_DIR=$AB_PACKAGE_GCC_LIB_DIR
+
+AB_PACKAGE_CONFIGURE_PREFIX=$AB_PACKAGE_GCC_CONFIGURE_PREFIX
+AB_PACKAGE_CONFIGURE_WITH_EDITOR=$AB_PACKAGE_GCC_CONFIGURE_WITH_EDITOR
+
+################################################################################
+# END
+################################################################################

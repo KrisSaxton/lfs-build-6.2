@@ -1,0 +1,73 @@
+creating cache ./config.cache
+checking host system type... i686-pc-linux-gnu
+checking for gcc... gcc
+checking whether the C compiler (gcc  ) works... yes
+checking whether the C compiler (gcc  ) is a cross-compiler... no
+checking whether we are using GNU C... yes
+checking whether gcc accepts -g... yes
+checking how to run the C preprocessor... gcc -E
+checking for a BSD compatible install... /usr/bin/install -c
+checking whether make sets ${MAKE}... yes
+checking for ed... ed
+checking build system type... i686-pc-linux-gnu
+checking for getconf... getconf
+checking for CFLAGS value to request large file support... -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64
+checking for LDFLAGS value to request large file support... 
+checking for LIBS value to request large file support... 
+checking for _FILE_OFFSET_BITS... 64
+checking for _LARGEFILE_SOURCE... 1
+checking for _LARGE_FILES... no
+checking for AIX... no
+checking for minix/config.h... no
+checking for POSIXized ISC... no
+checking for Cygwin environment... no
+checking for mingw32 environment... no
+checking for executable suffix... no
+checking for gcc option to accept ANSI C... none needed
+checking for function prototypes... yes
+checking for working const... yes
+checking for dirent.h that defines DIR... yes
+checking for opendir in -ldir... no
+checking for ANSI C header files... yes
+checking for fcntl.h... yes
+checking for limits.h... yes
+checking for string.h... yes
+checking for unistd.h... yes
+checking for utime.h... yes
+checking for varargs.h... no
+checking for inttypes.h... yes
+checking for mode_t... yes
+checking for off_t... yes
+checking for pid_t... yes
+checking return type of signal handlers... void
+checking for size_t... yes
+checking whether time.h and sys/time.h may both be included... yes
+checking for utime.h... (cached) yes
+checking for struct utimbuf... yes
+checking for getopt_long... yes
+checking for _doprintf... no
+checking for isascii... yes
+checking for fseeko... yes
+checking for memcmp... yes
+checking for mktemp... yes
+checking for pathconf... yes
+checking for raise... yes
+checking for setmode... no
+checking for sigaction... yes
+checking for sigprocmask... yes
+checking for sigsetmask... yes
+checking for strerror... yes
+checking for memchr... yes
+checking for mkdir... yes
+checking for rename... yes
+checking for rmdir... yes
+checking for working malloc... yes
+checking for working realloc... yes
+checking whether closedir returns void... no
+checking for vprintf... yes
+checking for long file names... yes
+checking for d_ino member in directory struct... yes
+updating cache ./config.cache
+creating ./config.status
+creating Makefile
+creating config.h

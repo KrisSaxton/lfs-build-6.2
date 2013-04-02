@@ -1,0 +1,11 @@
+#!/bin/bash
+
+source configure
+
+pushd ../unpack/*
+
+{
+make menuconfig
+} | tee ../../logs/035-make-menuconfig.log
+
+popd

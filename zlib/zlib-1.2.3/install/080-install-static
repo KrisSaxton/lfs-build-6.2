@@ -1,0 +1,11 @@
+#!/bin/bash
+
+source configure
+
+pushd ../unpack/*
+
+make install \
+    prefix=$PWD/../../pkg/debian/usr \
+    | tee ../../logs/080-install-static.log
+
+popd

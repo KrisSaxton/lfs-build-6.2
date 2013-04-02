@@ -1,0 +1,22 @@
+#!/bin/bash
+
+source configure
+
+pushd ../unpack/*
+
+export PKG_CONFIG_PATH=$AB_PACKAGE_GLIB_INSTALL_DIR/lib/pkgconfig
+
+CFLAGS="\
+-I$AB_PACKAGE_GLIB_INCLUDE_DIR \
+" \
+LDFLAGS="\
+-L$AB_PACKAGE_GLIB_LIB_DIR \
+" \
+./configure \
+    --prefix=$AB_PACKAGE_INSTALL_DIR \
+    --mandir=$AB_PACKAGE_INSTALL_DIR/share/man \
+    --enable-syslog \
+    --disable-glibtest \
+    | tee ../../logs/030-configure.log
+
+popd

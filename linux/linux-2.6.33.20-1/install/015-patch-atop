@@ -1,0 +1,12 @@
+#/bin/bash
+
+source configure
+
+pushd ../unpack/linux-*
+
+patch -p1 < ../atoppatch-kernel-2.6.33/01patch-2.6.33_atopcnt.patch
+patch -p1 < ../atoppatch-kernel-2.6.33/02patch-2.6.33_atopacct
+
+rm -rf ../../unpack/atoppatch-kernel-2.6.33
+
+popd

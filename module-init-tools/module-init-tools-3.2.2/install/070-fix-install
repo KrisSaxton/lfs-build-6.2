@@ -1,0 +1,13 @@
+#!/bin/bash
+
+source configure
+
+pushd ../pkg/debian
+
+{
+rm -v sbin/generate-modprobe.conf
+rm -v sbin/insmod
+mv -v sbin/insmod.static sbin/insmod
+} | tee ../../logs/070-fix-install
+
+popd

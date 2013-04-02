@@ -1,0 +1,15 @@
+#!/bin/bash
+
+source configure
+
+pushd ../unpack/*
+
+{
+sed -i 's@tempfile -d /tmp -p bz@mktemp -p /tmp@' bzdiff
+make -f Makefile-libbz2_so
+make clean
+make
+} | tee ../../logs/040-make.log
+
+popd
+

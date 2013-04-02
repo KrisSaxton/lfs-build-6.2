@@ -1,0 +1,110 @@
+Making install in glob
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/glob'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/glob'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/glob'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/glob'
+Making install in config
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/config'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/config'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/config'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/config'
+Making install in po
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/po'
+/bin/sh `case "config/mkinstalldirs" in /*) echo "config/mkinstalldirs" ;; *) echo "../config/mkinstalldirs" ;; esac` /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/../../pkg/debian/usr/share
+mkdir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/../../pkg/debian/usr
+mkdir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/../../pkg/debian/usr/share
+mkdir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/../../pkg/debian/usr/share/locale
+mkdir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/../../pkg/debian/usr/share/locale/da
+mkdir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/../../pkg/debian/usr/share/locale/da/LC_MESSAGES
+installing da.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/../../pkg/debian/usr/share/locale/da/LC_MESSAGES/make.mo
+mkdir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/../../pkg/debian/usr/share/locale/de
+mkdir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/../../pkg/debian/usr/share/locale/de/LC_MESSAGES
+installing de.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/../../pkg/debian/usr/share/locale/de/LC_MESSAGES/make.mo
+mkdir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/../../pkg/debian/usr/share/locale/es
+mkdir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/../../pkg/debian/usr/share/locale/es/LC_MESSAGES
+installing es.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/../../pkg/debian/usr/share/locale/es/LC_MESSAGES/make.mo
+mkdir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/../../pkg/debian/usr/share/locale/fr
+mkdir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/../../pkg/debian/usr/share/locale/fr/LC_MESSAGES
+installing fr.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/../../pkg/debian/usr/share/locale/fr/LC_MESSAGES/make.mo
+mkdir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/../../pkg/debian/usr/share/locale/gl
+mkdir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/../../pkg/debian/usr/share/locale/gl/LC_MESSAGES
+installing gl.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/../../pkg/debian/usr/share/locale/gl/LC_MESSAGES/make.mo
+mkdir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/../../pkg/debian/usr/share/locale/he
+mkdir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/../../pkg/debian/usr/share/locale/he/LC_MESSAGES
+installing he.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/../../pkg/debian/usr/share/locale/he/LC_MESSAGES/make.mo
+mkdir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/../../pkg/debian/usr/share/locale/hr
+mkdir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/../../pkg/debian/usr/share/locale/hr/LC_MESSAGES
+installing hr.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/../../pkg/debian/usr/share/locale/hr/LC_MESSAGES/make.mo
+mkdir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/../../pkg/debian/usr/share/locale/ja
+mkdir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/../../pkg/debian/usr/share/locale/ja/LC_MESSAGES
+installing ja.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/../../pkg/debian/usr/share/locale/ja/LC_MESSAGES/make.mo
+mkdir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/../../pkg/debian/usr/share/locale/ko
+mkdir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/../../pkg/debian/usr/share/locale/ko/LC_MESSAGES
+installing ko.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/../../pkg/debian/usr/share/locale/ko/LC_MESSAGES/make.mo
+mkdir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/../../pkg/debian/usr/share/locale/nl
+mkdir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/../../pkg/debian/usr/share/locale/nl/LC_MESSAGES
+installing nl.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/../../pkg/debian/usr/share/locale/nl/LC_MESSAGES/make.mo
+mkdir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/../../pkg/debian/usr/share/locale/pl
+mkdir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/../../pkg/debian/usr/share/locale/pl/LC_MESSAGES
+installing pl.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/../../pkg/debian/usr/share/locale/pl/LC_MESSAGES/make.mo
+mkdir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/../../pkg/debian/usr/share/locale/pt_BR
+mkdir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/../../pkg/debian/usr/share/locale/pt_BR/LC_MESSAGES
+installing pt_BR.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/../../pkg/debian/usr/share/locale/pt_BR/LC_MESSAGES/make.mo
+mkdir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/../../pkg/debian/usr/share/locale/sv
+mkdir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/../../pkg/debian/usr/share/locale/sv/LC_MESSAGES
+installing sv.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/../../pkg/debian/usr/share/locale/sv/LC_MESSAGES/make.mo
+mkdir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/../../pkg/debian/usr/share/locale/ru
+mkdir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/../../pkg/debian/usr/share/locale/ru/LC_MESSAGES
+installing ru.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/../../pkg/debian/usr/share/locale/ru/LC_MESSAGES/make.mo
+mkdir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/../../pkg/debian/usr/share/locale/tr
+mkdir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/../../pkg/debian/usr/share/locale/tr/LC_MESSAGES
+installing tr.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/../../pkg/debian/usr/share/locale/tr/LC_MESSAGES/make.mo
+mkdir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/../../pkg/debian/usr/share/locale/zh_CN
+mkdir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/../../pkg/debian/usr/share/locale/zh_CN/LC_MESSAGES
+installing zh_CN.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/../../pkg/debian/usr/share/locale/zh_CN/LC_MESSAGES/make.mo
+if test "make" = "gettext"; then \
+  /bin/sh `case "config/mkinstalldirs" in /*) echo "config/mkinstalldirs" ;; *) echo "../config/mkinstalldirs" ;; esac` /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/../../pkg/debian/usr/share/gettext/po; \
+  for file in Makefile.in.in Makevars remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot  ; do \
+    /usr/bin/install -c -m 644 ./$file \
+		    /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/../../pkg/debian/usr/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/po'
+Making install in doc
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/doc'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/doc'
+make[2]: Nothing to be done for `install-exec-am'.
+/bin/sh ../config/mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/../../pkg/debian/usr/share/info
+mkdir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/../../pkg/debian/usr/share/info
+ /usr/bin/install -c -m 644 ./make.info /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/../../pkg/debian/usr/share/info/make.info
+ /usr/bin/install -c -m 644 ./make.info-1 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/../../pkg/debian/usr/share/info/make.info-1
+ /usr/bin/install -c -m 644 ./make.info-2 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/../../pkg/debian/usr/share/info/make.info-2
+ /usr/bin/install -c -m 644 ./make.info-3 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/../../pkg/debian/usr/share/info/make.info-3
+ /usr/bin/install -c -m 644 ./make.info-4 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/../../pkg/debian/usr/share/info/make.info-4
+ /usr/bin/install -c -m 644 ./make.info-5 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/../../pkg/debian/usr/share/info/make.info-5
+ /usr/bin/install -c -m 644 ./make.info-6 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/../../pkg/debian/usr/share/info/make.info-6
+ /usr/bin/install -c -m 644 ./make.info-7 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/../../pkg/debian/usr/share/info/make.info-7
+ /usr/bin/install -c -m 644 ./make.info-8 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/../../pkg/debian/usr/share/info/make.info-8
+ /usr/bin/install -c -m 644 ./make.info-9 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/../../pkg/debian/usr/share/info/make.info-9
+ /usr/bin/install -c -m 644 ./make.info-10 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/../../pkg/debian/usr/share/info/make.info-10
+ /usr/bin/install -c -m 644 ./make.info-11 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/../../pkg/debian/usr/share/info/make.info-11
+ install-info --info-dir=/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/../../pkg/debian/usr/share/info /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/../../pkg/debian/usr/share/info/make.info
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/doc'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/doc'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80'
+/bin/sh ./config/mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/../../pkg/debian/usr/bin
+mkdir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/../../pkg/debian/usr/bin
+  /usr/bin/install -c make /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/../../pkg/debian/usr/bin/make
+/bin/sh ./config/mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/../../pkg/debian/usr/share/man/man1
+mkdir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/../../pkg/debian/usr/share/man
+mkdir /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/../../pkg/debian/usr/share/man/man1
+ /usr/bin/install -c -m 644 ./make.1 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80/../../pkg/debian/usr/share/man/man1/make.1
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/make/make-3.80/unpack/make-3.80'

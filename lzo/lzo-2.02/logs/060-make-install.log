@@ -1,0 +1,78 @@
+Making install in include
+make[1]: Entering directory `/home/kris/svn/packages/lzo/lzo-2.02/unpack/lzo-2.02/include'
+Making install in lzo
+make[2]: Entering directory `/home/kris/svn/packages/lzo/lzo-2.02/unpack/lzo-2.02/include/lzo'
+make[3]: Entering directory `/home/kris/svn/packages/lzo/lzo-2.02/unpack/lzo-2.02/include/lzo'
+make[3]: Nothing to be done for `install-exec-am'.
+test -z "/usr/pkg/lzo-2.02/include/lzo" || mkdir -p -- "/home/kris/svn/packages/lzo/lzo-2.02/pkg/debian/usr/pkg/lzo-2.02/include/lzo"
+ /usr/bin/install -c -m 644 'lzoconf.h' '/home/kris/svn/packages/lzo/lzo-2.02/pkg/debian/usr/pkg/lzo-2.02/include/lzo/lzoconf.h'
+ /usr/bin/install -c -m 644 'lzodefs.h' '/home/kris/svn/packages/lzo/lzo-2.02/pkg/debian/usr/pkg/lzo-2.02/include/lzo/lzodefs.h'
+ /usr/bin/install -c -m 644 'lzoutil.h' '/home/kris/svn/packages/lzo/lzo-2.02/pkg/debian/usr/pkg/lzo-2.02/include/lzo/lzoutil.h'
+ /usr/bin/install -c -m 644 'lzo_asm.h' '/home/kris/svn/packages/lzo/lzo-2.02/pkg/debian/usr/pkg/lzo-2.02/include/lzo/lzo_asm.h'
+ /usr/bin/install -c -m 644 'lzo1.h' '/home/kris/svn/packages/lzo/lzo-2.02/pkg/debian/usr/pkg/lzo-2.02/include/lzo/lzo1.h'
+ /usr/bin/install -c -m 644 'lzo1a.h' '/home/kris/svn/packages/lzo/lzo-2.02/pkg/debian/usr/pkg/lzo-2.02/include/lzo/lzo1a.h'
+ /usr/bin/install -c -m 644 'lzo1b.h' '/home/kris/svn/packages/lzo/lzo-2.02/pkg/debian/usr/pkg/lzo-2.02/include/lzo/lzo1b.h'
+ /usr/bin/install -c -m 644 'lzo1c.h' '/home/kris/svn/packages/lzo/lzo-2.02/pkg/debian/usr/pkg/lzo-2.02/include/lzo/lzo1c.h'
+ /usr/bin/install -c -m 644 'lzo1f.h' '/home/kris/svn/packages/lzo/lzo-2.02/pkg/debian/usr/pkg/lzo-2.02/include/lzo/lzo1f.h'
+ /usr/bin/install -c -m 644 'lzo1x.h' '/home/kris/svn/packages/lzo/lzo-2.02/pkg/debian/usr/pkg/lzo-2.02/include/lzo/lzo1x.h'
+ /usr/bin/install -c -m 644 'lzo1y.h' '/home/kris/svn/packages/lzo/lzo-2.02/pkg/debian/usr/pkg/lzo-2.02/include/lzo/lzo1y.h'
+ /usr/bin/install -c -m 644 'lzo1z.h' '/home/kris/svn/packages/lzo/lzo-2.02/pkg/debian/usr/pkg/lzo-2.02/include/lzo/lzo1z.h'
+ /usr/bin/install -c -m 644 'lzo2a.h' '/home/kris/svn/packages/lzo/lzo-2.02/pkg/debian/usr/pkg/lzo-2.02/include/lzo/lzo2a.h'
+make[3]: Leaving directory `/home/kris/svn/packages/lzo/lzo-2.02/unpack/lzo-2.02/include/lzo'
+make[2]: Leaving directory `/home/kris/svn/packages/lzo/lzo-2.02/unpack/lzo-2.02/include/lzo'
+make[2]: Entering directory `/home/kris/svn/packages/lzo/lzo-2.02/unpack/lzo-2.02/include'
+make[3]: Entering directory `/home/kris/svn/packages/lzo/lzo-2.02/unpack/lzo-2.02/include'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/home/kris/svn/packages/lzo/lzo-2.02/unpack/lzo-2.02/include'
+make[2]: Leaving directory `/home/kris/svn/packages/lzo/lzo-2.02/unpack/lzo-2.02/include'
+make[1]: Leaving directory `/home/kris/svn/packages/lzo/lzo-2.02/unpack/lzo-2.02/include'
+Making install in src
+make[1]: Entering directory `/home/kris/svn/packages/lzo/lzo-2.02/unpack/lzo-2.02/src'
+make[2]: Entering directory `/home/kris/svn/packages/lzo/lzo-2.02/unpack/lzo-2.02/src'
+test -z "/usr/pkg/lzo-2.02/lib" || mkdir -p -- "/home/kris/svn/packages/lzo/lzo-2.02/pkg/debian/usr/pkg/lzo-2.02/lib"
+ /bin/sh ../libtool --mode=install /usr/bin/install -c  'liblzo2.la' '/home/kris/svn/packages/lzo/lzo-2.02/pkg/debian/usr/pkg/lzo-2.02/lib/liblzo2.la'
+/usr/bin/install -c .libs/liblzo2.so.2.0.0 /home/kris/svn/packages/lzo/lzo-2.02/pkg/debian/usr/pkg/lzo-2.02/lib/liblzo2.so.2.0.0
+(cd /home/kris/svn/packages/lzo/lzo-2.02/pkg/debian/usr/pkg/lzo-2.02/lib && rm -f liblzo2.so.2 && ln -s liblzo2.so.2.0.0 liblzo2.so.2)
+(cd /home/kris/svn/packages/lzo/lzo-2.02/pkg/debian/usr/pkg/lzo-2.02/lib && rm -f liblzo2.so && ln -s liblzo2.so.2.0.0 liblzo2.so)
+/usr/bin/install -c .libs/liblzo2.lai /home/kris/svn/packages/lzo/lzo-2.02/pkg/debian/usr/pkg/lzo-2.02/lib/liblzo2.la
+/usr/bin/install -c .libs/liblzo2.a /home/kris/svn/packages/lzo/lzo-2.02/pkg/debian/usr/pkg/lzo-2.02/lib/liblzo2.a
+ranlib /home/kris/svn/packages/lzo/lzo-2.02/pkg/debian/usr/pkg/lzo-2.02/lib/liblzo2.a
+chmod 644 /home/kris/svn/packages/lzo/lzo-2.02/pkg/debian/usr/pkg/lzo-2.02/lib/liblzo2.a
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/home/kris/svn/packages/lzo/lzo-2.02/unpack/lzo-2.02/src'
+make[1]: Leaving directory `/home/kris/svn/packages/lzo/lzo-2.02/unpack/lzo-2.02/src'
+Making install in lzotest
+make[1]: Entering directory `/home/kris/svn/packages/lzo/lzo-2.02/unpack/lzo-2.02/lzotest'
+make[2]: Entering directory `/home/kris/svn/packages/lzo/lzo-2.02/unpack/lzo-2.02/lzotest'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/home/kris/svn/packages/lzo/lzo-2.02/unpack/lzo-2.02/lzotest'
+make[1]: Leaving directory `/home/kris/svn/packages/lzo/lzo-2.02/unpack/lzo-2.02/lzotest'
+Making install in examples
+make[1]: Entering directory `/home/kris/svn/packages/lzo/lzo-2.02/unpack/lzo-2.02/examples'
+make[2]: Entering directory `/home/kris/svn/packages/lzo/lzo-2.02/unpack/lzo-2.02/examples'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/home/kris/svn/packages/lzo/lzo-2.02/unpack/lzo-2.02/examples'
+make[1]: Leaving directory `/home/kris/svn/packages/lzo/lzo-2.02/unpack/lzo-2.02/examples'
+Making install in tests
+make[1]: Entering directory `/home/kris/svn/packages/lzo/lzo-2.02/unpack/lzo-2.02/tests'
+make[2]: Entering directory `/home/kris/svn/packages/lzo/lzo-2.02/unpack/lzo-2.02/tests'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/home/kris/svn/packages/lzo/lzo-2.02/unpack/lzo-2.02/tests'
+make[1]: Leaving directory `/home/kris/svn/packages/lzo/lzo-2.02/unpack/lzo-2.02/tests'
+Making install in minilzo
+make[1]: Entering directory `/home/kris/svn/packages/lzo/lzo-2.02/unpack/lzo-2.02/minilzo'
+make[2]: Entering directory `/home/kris/svn/packages/lzo/lzo-2.02/unpack/lzo-2.02/minilzo'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/home/kris/svn/packages/lzo/lzo-2.02/unpack/lzo-2.02/minilzo'
+make[1]: Leaving directory `/home/kris/svn/packages/lzo/lzo-2.02/unpack/lzo-2.02/minilzo'
+make[1]: Entering directory `/home/kris/svn/packages/lzo/lzo-2.02/unpack/lzo-2.02'
+make[2]: Entering directory `/home/kris/svn/packages/lzo/lzo-2.02/unpack/lzo-2.02'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/home/kris/svn/packages/lzo/lzo-2.02/unpack/lzo-2.02'
+make[1]: Leaving directory `/home/kris/svn/packages/lzo/lzo-2.02/unpack/lzo-2.02'

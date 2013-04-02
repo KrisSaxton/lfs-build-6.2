@@ -1,0 +1,17 @@
+#!/bin/bash
+
+source configure
+
+pushd ../pkg/debian
+
+{
+
+rm -v lib/modules/$AB_PACKAGE_LINUX_VERSION/source
+rm -v lib/modules/$AB_PACKAGE_LINUX_VERSION/build
+
+ln -s /path/to/linux/source     lib/modules/$AB_PACKAGE_LINUX_VERSION/source
+ln -s /path/to/linux/build      lib/modules/$AB_PACKAGE_LINUX_VERSION/build
+
+} | tee ../../logs/070-fix-lib-modules
+
+popd

@@ -1,0 +1,20 @@
+dpkg-deb: building package `ncurses-5.5' in `debian.deb'.
+ new debian package, version 2.0.
+ size 1201752 bytes: control archive= 990 bytes.
+     277 bytes,    10 lines      control              
+     789 bytes,    18 lines      copyright            
+       6 bytes,     1 lines      debian-binary        
+     110 bytes,     3 lines   *  postinst             #!/bin/bash
+     108 bytes,     3 lines   *  postrm               #!/bin/bash
+     111 bytes,     3 lines   *  preinst              #!/bin/bash
+     109 bytes,     3 lines   *  prerm                #!/bin/bash
+ Package: ncurses-5.5
+ Version: 5.5
+ Section: unknown
+ Priority: required
+ Architecture: all
+ Essential: no
+ Depends: aaa-base
+ Maintainer: Aethernet support team [support@aethernet.co.uk]
+ Provides: ncurses
+ Description: Libraries for terminal-independent handling of character screens

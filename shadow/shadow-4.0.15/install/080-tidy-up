@@ -1,0 +1,29 @@
+#!/bin/bash
+
+source configure
+
+pushd ../pkg/debian
+
+{
+rm -vrf usr/share/man/pt_BR
+rm -vrf usr/share/man/ru
+rm -vrf usr/share/man/it
+rm -vrf usr/share/man/cs
+rm -vrf usr/share/man/hu
+rm -vrf usr/share/man/pl
+rm -vrf usr/share/man/id
+rm -vrf usr/share/man/ja
+rm -vrf usr/share/man/es
+rm -vrf usr/share/man/fr
+rm -vrf usr/share/man/tr
+rm -vrf usr/share/man/fi
+rm -vrf usr/share/man/de
+
+rm -vrf usr/share/locale
+
+rm -v usr/bin/sg    && ln usr/bin/newgrp    usr/bin/sg
+rm -v usr/sbin/vigr && ln usr/sbin/vipw     usr/sbin/vigr
+
+} | tee ../../logs/080-tidy-up.log
+
+popd

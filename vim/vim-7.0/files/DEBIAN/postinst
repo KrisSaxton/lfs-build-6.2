@@ -1,0 +1,43 @@
+#!/bin/bash
+# Place in this file any commands you would like to be run
+# after the package has been installed
+
+## Put down an vimrc if none is found
+#if [ ! -f /etc/vimrc ]; then
+#  cat > /etc/vimrc << "EOF"
+## Begin /etc/vimrc
+#
+#set nocompatible
+#set backspace=2
+#syntax on
+#if (&term == "iterm") || (&term == "putty")
+#set background=dark
+#endif
+#set ts=4
+#set expandtab
+#
+## End /etc/vimrc
+#EOF
+#fi
+
+# Create symlink
+ln -s vim-7.0 /usr/local/pkg/vim
+
+# Place the following file(s) containing the additional path for this
+# application into the directory that will be parsed by shell when
+# setting the PATH variable.
+LDCONFDIR=/etc/ld.so.conf.d
+PROFILEPATH=/etc/profile.d/env/path
+MYPKGROOT=AB_PACKAGE_INSTALL_DIR
+
+if [ ! -d $PROFILEPATH ]; then
+  mkdir -p $PROFILEPATH
+fi
+
+for i in bin sbin; do
+  if [ -d $MYPKGROOT/$i ]; then
+    echo "Path $MYPKGROOT/$i not found, adding..."
+    echo "$MYPKGROOT/$i" \
+    > $PROFILEPATH/AB_PACKAGE_NAME-AB_PACKAGE_VERSION.$i
+  fi
+done

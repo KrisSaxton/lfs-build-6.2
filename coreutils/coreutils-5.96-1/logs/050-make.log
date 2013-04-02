@@ -1,0 +1,749 @@
+make  all-recursive
+make[1]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96'
+Making all in lib
+make[2]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/lib'
+cp ./alloca_.h alloca.h-t
+mv alloca.h-t alloca.h
+make  all-am
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/lib'
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT allocsa.o -MD -MP -MF ".deps/allocsa.Tpo" -c -o allocsa.o allocsa.c; \
+then mv -f ".deps/allocsa.Tpo" ".deps/allocsa.Po"; else rm -f ".deps/allocsa.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT fprintftime.o -MD -MP -MF ".deps/fprintftime.Tpo" -c -o fprintftime.o fprintftime.c; \
+then mv -f ".deps/fprintftime.Tpo" ".deps/fprintftime.Po"; else rm -f ".deps/fprintftime.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT full-read.o -MD -MP -MF ".deps/full-read.Tpo" -c -o full-read.o full-read.c; \
+then mv -f ".deps/full-read.Tpo" ".deps/full-read.Po"; else rm -f ".deps/full-read.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT full-write.o -MD -MP -MF ".deps/full-write.Tpo" -c -o full-write.o full-write.c; \
+then mv -f ".deps/full-write.Tpo" ".deps/full-write.Po"; else rm -f ".deps/full-write.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT localcharset.o -MD -MP -MF ".deps/localcharset.Tpo" -c -o localcharset.o localcharset.c; \
+then mv -f ".deps/localcharset.Tpo" ".deps/localcharset.Po"; else rm -f ".deps/localcharset.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT mbswidth.o -MD -MP -MF ".deps/mbswidth.Tpo" -c -o mbswidth.o mbswidth.c; \
+then mv -f ".deps/mbswidth.Tpo" ".deps/mbswidth.Po"; else rm -f ".deps/mbswidth.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT readtokens0.o -MD -MP -MF ".deps/readtokens0.Tpo" -c -o readtokens0.o readtokens0.c; \
+then mv -f ".deps/readtokens0.Tpo" ".deps/readtokens0.Po"; else rm -f ".deps/readtokens0.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT strnlen1.o -MD -MP -MF ".deps/strnlen1.Tpo" -c -o strnlen1.o strnlen1.c; \
+then mv -f ".deps/strnlen1.Tpo" ".deps/strnlen1.Po"; else rm -f ".deps/strnlen1.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT time_r.o -MD -MP -MF ".deps/time_r.Tpo" -c -o time_r.o time_r.c; \
+then mv -f ".deps/time_r.Tpo" ".deps/time_r.Po"; else rm -f ".deps/time_r.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT unicodeio.o -MD -MP -MF ".deps/unicodeio.Tpo" -c -o unicodeio.o unicodeio.c; \
+then mv -f ".deps/unicodeio.Tpo" ".deps/unicodeio.Po"; else rm -f ".deps/unicodeio.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT xalloc-die.o -MD -MP -MF ".deps/xalloc-die.Tpo" -c -o xalloc-die.o xalloc-die.c; \
+then mv -f ".deps/xalloc-die.Tpo" ".deps/xalloc-die.Po"; else rm -f ".deps/xalloc-die.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT xgethostname.o -MD -MP -MF ".deps/xgethostname.Tpo" -c -o xgethostname.o xgethostname.c; \
+then mv -f ".deps/xgethostname.Tpo" ".deps/xgethostname.Po"; else rm -f ".deps/xgethostname.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT xmemcoll.o -MD -MP -MF ".deps/xmemcoll.Tpo" -c -o xmemcoll.o xmemcoll.c; \
+then mv -f ".deps/xmemcoll.Tpo" ".deps/xmemcoll.Po"; else rm -f ".deps/xmemcoll.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT xstrndup.o -MD -MP -MF ".deps/xstrndup.Tpo" -c -o xstrndup.o xstrndup.c; \
+then mv -f ".deps/xstrndup.Tpo" ".deps/xstrndup.Po"; else rm -f ".deps/xstrndup.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT xstrtoimax.o -MD -MP -MF ".deps/xstrtoimax.Tpo" -c -o xstrtoimax.o xstrtoimax.c; \
+then mv -f ".deps/xstrtoimax.Tpo" ".deps/xstrtoimax.Po"; else rm -f ".deps/xstrtoimax.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT xstrtoumax.o -MD -MP -MF ".deps/xstrtoumax.Tpo" -c -o xstrtoumax.o xstrtoumax.c; \
+then mv -f ".deps/xstrtoumax.Tpo" ".deps/xstrtoumax.Po"; else rm -f ".deps/xstrtoumax.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT backupfile.o -MD -MP -MF ".deps/backupfile.Tpo" -c -o backupfile.o backupfile.c; \
+then mv -f ".deps/backupfile.Tpo" ".deps/backupfile.Po"; else rm -f ".deps/backupfile.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT basename.o -MD -MP -MF ".deps/basename.Tpo" -c -o basename.o basename.c; \
+then mv -f ".deps/basename.Tpo" ".deps/basename.Po"; else rm -f ".deps/basename.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT c-strtod.o -MD -MP -MF ".deps/c-strtod.Tpo" -c -o c-strtod.o c-strtod.c; \
+then mv -f ".deps/c-strtod.Tpo" ".deps/c-strtod.Po"; else rm -f ".deps/c-strtod.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT c-strtold.o -MD -MP -MF ".deps/c-strtold.Tpo" -c -o c-strtold.o c-strtold.c; \
+then mv -f ".deps/c-strtold.Tpo" ".deps/c-strtold.Po"; else rm -f ".deps/c-strtold.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT canon-host.o -MD -MP -MF ".deps/canon-host.Tpo" -c -o canon-host.o canon-host.c; \
+then mv -f ".deps/canon-host.Tpo" ".deps/canon-host.Po"; else rm -f ".deps/canon-host.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT cloexec.o -MD -MP -MF ".deps/cloexec.Tpo" -c -o cloexec.o cloexec.c; \
+then mv -f ".deps/cloexec.Tpo" ".deps/cloexec.Po"; else rm -f ".deps/cloexec.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT closeout.o -MD -MP -MF ".deps/closeout.Tpo" -c -o closeout.o closeout.c; \
+then mv -f ".deps/closeout.Tpo" ".deps/closeout.Po"; else rm -f ".deps/closeout.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT dirname.o -MD -MP -MF ".deps/dirname.Tpo" -c -o dirname.o dirname.c; \
+then mv -f ".deps/dirname.Tpo" ".deps/dirname.Po"; else rm -f ".deps/dirname.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT exclude.o -MD -MP -MF ".deps/exclude.Tpo" -c -o exclude.o exclude.c; \
+then mv -f ".deps/exclude.Tpo" ".deps/exclude.Po"; else rm -f ".deps/exclude.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT exitfail.o -MD -MP -MF ".deps/exitfail.Tpo" -c -o exitfail.o exitfail.c; \
+then mv -f ".deps/exitfail.Tpo" ".deps/exitfail.Po"; else rm -f ".deps/exitfail.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT open-safer.o -MD -MP -MF ".deps/open-safer.Tpo" -c -o open-safer.o open-safer.c; \
+then mv -f ".deps/open-safer.Tpo" ".deps/open-safer.Po"; else rm -f ".deps/open-safer.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT creat-safer.o -MD -MP -MF ".deps/creat-safer.Tpo" -c -o creat-safer.o creat-safer.c; \
+then mv -f ".deps/creat-safer.Tpo" ".deps/creat-safer.Po"; else rm -f ".deps/creat-safer.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT fd-reopen.o -MD -MP -MF ".deps/fd-reopen.Tpo" -c -o fd-reopen.o fd-reopen.c; \
+then mv -f ".deps/fd-reopen.Tpo" ".deps/fd-reopen.Po"; else rm -f ".deps/fd-reopen.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT filemode.o -MD -MP -MF ".deps/filemode.Tpo" -c -o filemode.o filemode.c; \
+then mv -f ".deps/filemode.Tpo" ".deps/filemode.Po"; else rm -f ".deps/filemode.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT filenamecat.o -MD -MP -MF ".deps/filenamecat.Tpo" -c -o filenamecat.o filenamecat.c; \
+then mv -f ".deps/filenamecat.Tpo" ".deps/filenamecat.Po"; else rm -f ".deps/filenamecat.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT file-type.o -MD -MP -MF ".deps/file-type.Tpo" -c -o file-type.o file-type.c; \
+then mv -f ".deps/file-type.Tpo" ".deps/file-type.Po"; else rm -f ".deps/file-type.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT fsusage.o -MD -MP -MF ".deps/fsusage.Tpo" -c -o fsusage.o fsusage.c; \
+then mv -f ".deps/fsusage.Tpo" ".deps/fsusage.Po"; else rm -f ".deps/fsusage.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT getpass.o -MD -MP -MF ".deps/getpass.Tpo" -c -o getpass.o getpass.c; \
+then mv -f ".deps/getpass.Tpo" ".deps/getpass.Po"; else rm -f ".deps/getpass.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT lstat.o -MD -MP -MF ".deps/lstat.Tpo" -c -o lstat.o lstat.c; \
+then mv -f ".deps/lstat.Tpo" ".deps/lstat.Po"; else rm -f ".deps/lstat.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT sig2str.o -MD -MP -MF ".deps/sig2str.Tpo" -c -o sig2str.o sig2str.c; \
+then mv -f ".deps/sig2str.Tpo" ".deps/sig2str.Po"; else rm -f ".deps/sig2str.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT strstr.o -MD -MP -MF ".deps/strstr.Tpo" -c -o strstr.o strstr.c; \
+then mv -f ".deps/strstr.Tpo" ".deps/strstr.Po"; else rm -f ".deps/strstr.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT vasnprintf.o -MD -MP -MF ".deps/vasnprintf.Tpo" -c -o vasnprintf.o vasnprintf.c; \
+then mv -f ".deps/vasnprintf.Tpo" ".deps/vasnprintf.Po"; else rm -f ".deps/vasnprintf.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT printf-args.o -MD -MP -MF ".deps/printf-args.Tpo" -c -o printf-args.o printf-args.c; \
+then mv -f ".deps/printf-args.Tpo" ".deps/printf-args.Po"; else rm -f ".deps/printf-args.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT printf-parse.o -MD -MP -MF ".deps/printf-parse.Tpo" -c -o printf-parse.o printf-parse.c; \
+then mv -f ".deps/printf-parse.Tpo" ".deps/printf-parse.Po"; else rm -f ".deps/printf-parse.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT asnprintf.o -MD -MP -MF ".deps/asnprintf.Tpo" -c -o asnprintf.o asnprintf.c; \
+then mv -f ".deps/asnprintf.Tpo" ".deps/asnprintf.Po"; else rm -f ".deps/asnprintf.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT getdate.o -MD -MP -MF ".deps/getdate.Tpo" -c -o getdate.o getdate.c; \
+then mv -f ".deps/getdate.Tpo" ".deps/getdate.Po"; else rm -f ".deps/getdate.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT gethrxtime.o -MD -MP -MF ".deps/gethrxtime.Tpo" -c -o gethrxtime.o gethrxtime.c; \
+then mv -f ".deps/gethrxtime.Tpo" ".deps/gethrxtime.Po"; else rm -f ".deps/gethrxtime.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT getndelim2.o -MD -MP -MF ".deps/getndelim2.Tpo" -c -o getndelim2.o getndelim2.c; \
+then mv -f ".deps/getndelim2.Tpo" ".deps/getndelim2.Po"; else rm -f ".deps/getndelim2.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT gettime.o -MD -MP -MF ".deps/gettime.Tpo" -c -o gettime.o gettime.c; \
+then mv -f ".deps/gettime.Tpo" ".deps/gettime.Po"; else rm -f ".deps/gettime.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT getugroups.o -MD -MP -MF ".deps/getugroups.Tpo" -c -o getugroups.o getugroups.c; \
+then mv -f ".deps/getugroups.Tpo" ".deps/getugroups.Po"; else rm -f ".deps/getugroups.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT hard-locale.o -MD -MP -MF ".deps/hard-locale.Tpo" -c -o hard-locale.o hard-locale.c; \
+then mv -f ".deps/hard-locale.Tpo" ".deps/hard-locale.Po"; else rm -f ".deps/hard-locale.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT hash.o -MD -MP -MF ".deps/hash.Tpo" -c -o hash.o hash.c; \
+then mv -f ".deps/hash.Tpo" ".deps/hash.Po"; else rm -f ".deps/hash.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT hash-pjw.o -MD -MP -MF ".deps/hash-pjw.Tpo" -c -o hash-pjw.o hash-pjw.c; \
+then mv -f ".deps/hash-pjw.Tpo" ".deps/hash-pjw.Po"; else rm -f ".deps/hash-pjw.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT human.o -MD -MP -MF ".deps/human.Tpo" -c -o human.o human.c; \
+then mv -f ".deps/human.Tpo" ".deps/human.Po"; else rm -f ".deps/human.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT idcache.o -MD -MP -MF ".deps/idcache.Tpo" -c -o idcache.o idcache.c; \
+then mv -f ".deps/idcache.Tpo" ".deps/idcache.Po"; else rm -f ".deps/idcache.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT imaxtostr.o -MD -MP -MF ".deps/imaxtostr.Tpo" -c -o imaxtostr.o imaxtostr.c; \
+then mv -f ".deps/imaxtostr.Tpo" ".deps/imaxtostr.Po"; else rm -f ".deps/imaxtostr.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT offtostr.o -MD -MP -MF ".deps/offtostr.Tpo" -c -o offtostr.o offtostr.c; \
+then mv -f ".deps/offtostr.Tpo" ".deps/offtostr.Po"; else rm -f ".deps/offtostr.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT umaxtostr.o -MD -MP -MF ".deps/umaxtostr.Tpo" -c -o umaxtostr.o umaxtostr.c; \
+then mv -f ".deps/umaxtostr.Tpo" ".deps/umaxtostr.Po"; else rm -f ".deps/umaxtostr.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT linebuffer.o -MD -MP -MF ".deps/linebuffer.Tpo" -c -o linebuffer.o linebuffer.c; \
+then mv -f ".deps/linebuffer.Tpo" ".deps/linebuffer.Po"; else rm -f ".deps/linebuffer.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT long-options.o -MD -MP -MF ".deps/long-options.Tpo" -c -o long-options.o long-options.c; \
+then mv -f ".deps/long-options.Tpo" ".deps/long-options.Po"; else rm -f ".deps/long-options.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT mbchar.o -MD -MP -MF ".deps/mbchar.Tpo" -c -o mbchar.o mbchar.c; \
+then mv -f ".deps/mbchar.Tpo" ".deps/mbchar.Po"; else rm -f ".deps/mbchar.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT md5.o -MD -MP -MF ".deps/md5.Tpo" -c -o md5.o md5.c; \
+then mv -f ".deps/md5.Tpo" ".deps/md5.Po"; else rm -f ".deps/md5.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT memcoll.o -MD -MP -MF ".deps/memcoll.Tpo" -c -o memcoll.o memcoll.c; \
+then mv -f ".deps/memcoll.Tpo" ".deps/memcoll.Po"; else rm -f ".deps/memcoll.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT mkdir-p.o -MD -MP -MF ".deps/mkdir-p.Tpo" -c -o mkdir-p.o mkdir-p.c; \
+then mv -f ".deps/mkdir-p.Tpo" ".deps/mkdir-p.Po"; else rm -f ".deps/mkdir-p.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT modechange.o -MD -MP -MF ".deps/modechange.Tpo" -c -o modechange.o modechange.c; \
+then mv -f ".deps/modechange.Tpo" ".deps/modechange.Po"; else rm -f ".deps/modechange.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT mountlist.o -MD -MP -MF ".deps/mountlist.Tpo" -c -o mountlist.o mountlist.c; \
+then mv -f ".deps/mountlist.Tpo" ".deps/mountlist.Po"; else rm -f ".deps/mountlist.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT physmem.o -MD -MP -MF ".deps/physmem.Tpo" -c -o physmem.o physmem.c; \
+then mv -f ".deps/physmem.Tpo" ".deps/physmem.Po"; else rm -f ".deps/physmem.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT posixtm.o -MD -MP -MF ".deps/posixtm.Tpo" -c -o posixtm.o posixtm.c; \
+then mv -f ".deps/posixtm.Tpo" ".deps/posixtm.Po"; else rm -f ".deps/posixtm.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT posixver.o -MD -MP -MF ".deps/posixver.Tpo" -c -o posixver.o posixver.c; \
+then mv -f ".deps/posixver.Tpo" ".deps/posixver.Po"; else rm -f ".deps/posixver.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT quotearg.o -MD -MP -MF ".deps/quotearg.Tpo" -c -o quotearg.o quotearg.c; \
+then mv -f ".deps/quotearg.Tpo" ".deps/quotearg.Po"; else rm -f ".deps/quotearg.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT quote.o -MD -MP -MF ".deps/quote.Tpo" -c -o quote.o quote.c; \
+then mv -f ".deps/quote.Tpo" ".deps/quote.Po"; else rm -f ".deps/quote.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT readtokens.o -MD -MP -MF ".deps/readtokens.Tpo" -c -o readtokens.o readtokens.c; \
+then mv -f ".deps/readtokens.Tpo" ".deps/readtokens.Po"; else rm -f ".deps/readtokens.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT readutmp.o -MD -MP -MF ".deps/readutmp.Tpo" -c -o readutmp.o readutmp.c; \
+then mv -f ".deps/readutmp.Tpo" ".deps/readutmp.Po"; else rm -f ".deps/readutmp.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT regex.o -MD -MP -MF ".deps/regex.Tpo" -c -o regex.o regex.c; \
+then mv -f ".deps/regex.Tpo" ".deps/regex.Po"; else rm -f ".deps/regex.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT safe-read.o -MD -MP -MF ".deps/safe-read.Tpo" -c -o safe-read.o safe-read.c; \
+then mv -f ".deps/safe-read.Tpo" ".deps/safe-read.Po"; else rm -f ".deps/safe-read.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT safe-write.o -MD -MP -MF ".deps/safe-write.Tpo" -c -o safe-write.o safe-write.c; \
+then mv -f ".deps/safe-write.Tpo" ".deps/safe-write.Po"; else rm -f ".deps/safe-write.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT same.o -MD -MP -MF ".deps/same.Tpo" -c -o same.o same.c; \
+then mv -f ".deps/same.Tpo" ".deps/same.Po"; else rm -f ".deps/same.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT savedir.o -MD -MP -MF ".deps/savedir.Tpo" -c -o savedir.o savedir.c; \
+then mv -f ".deps/savedir.Tpo" ".deps/savedir.Po"; else rm -f ".deps/savedir.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT save-cwd.o -MD -MP -MF ".deps/save-cwd.Tpo" -c -o save-cwd.o save-cwd.c; \
+then mv -f ".deps/save-cwd.Tpo" ".deps/save-cwd.Po"; else rm -f ".deps/save-cwd.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT settime.o -MD -MP -MF ".deps/settime.Tpo" -c -o settime.o settime.c; \
+then mv -f ".deps/settime.Tpo" ".deps/settime.Po"; else rm -f ".deps/settime.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT sha1.o -MD -MP -MF ".deps/sha1.Tpo" -c -o sha1.o sha1.c; \
+then mv -f ".deps/sha1.Tpo" ".deps/sha1.Po"; else rm -f ".deps/sha1.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT fopen-safer.o -MD -MP -MF ".deps/fopen-safer.Tpo" -c -o fopen-safer.o fopen-safer.c; \
+then mv -f ".deps/fopen-safer.Tpo" ".deps/fopen-safer.Po"; else rm -f ".deps/fopen-safer.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT mkstemp-safer.o -MD -MP -MF ".deps/mkstemp-safer.Tpo" -c -o mkstemp-safer.o mkstemp-safer.c; \
+then mv -f ".deps/mkstemp-safer.Tpo" ".deps/mkstemp-safer.Po"; else rm -f ".deps/mkstemp-safer.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT strcasecmp.o -MD -MP -MF ".deps/strcasecmp.Tpo" -c -o strcasecmp.o strcasecmp.c; \
+then mv -f ".deps/strcasecmp.Tpo" ".deps/strcasecmp.Po"; else rm -f ".deps/strcasecmp.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT strintcmp.o -MD -MP -MF ".deps/strintcmp.Tpo" -c -o strintcmp.o strintcmp.c; \
+then mv -f ".deps/strintcmp.Tpo" ".deps/strintcmp.Po"; else rm -f ".deps/strintcmp.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT strnumcmp.o -MD -MP -MF ".deps/strnumcmp.Tpo" -c -o strnumcmp.o strnumcmp.c; \
+then mv -f ".deps/strnumcmp.Tpo" ".deps/strnumcmp.Po"; else rm -f ".deps/strnumcmp.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT stripslash.o -MD -MP -MF ".deps/stripslash.Tpo" -c -o stripslash.o stripslash.c; \
+then mv -f ".deps/stripslash.Tpo" ".deps/stripslash.Po"; else rm -f ".deps/stripslash.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT dup-safer.o -MD -MP -MF ".deps/dup-safer.Tpo" -c -o dup-safer.o dup-safer.c; \
+then mv -f ".deps/dup-safer.Tpo" ".deps/dup-safer.Po"; else rm -f ".deps/dup-safer.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT fd-safer.o -MD -MP -MF ".deps/fd-safer.Tpo" -c -o fd-safer.o fd-safer.c; \
+then mv -f ".deps/fd-safer.Tpo" ".deps/fd-safer.Po"; else rm -f ".deps/fd-safer.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT pipe-safer.o -MD -MP -MF ".deps/pipe-safer.Tpo" -c -o pipe-safer.o pipe-safer.c; \
+then mv -f ".deps/pipe-safer.Tpo" ".deps/pipe-safer.Po"; else rm -f ".deps/pipe-safer.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT unlinkdir.o -MD -MP -MF ".deps/unlinkdir.Tpo" -c -o unlinkdir.o unlinkdir.c; \
+then mv -f ".deps/unlinkdir.Tpo" ".deps/unlinkdir.Po"; else rm -f ".deps/unlinkdir.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT userspec.o -MD -MP -MF ".deps/userspec.Tpo" -c -o userspec.o userspec.c; \
+then mv -f ".deps/userspec.Tpo" ".deps/userspec.Po"; else rm -f ".deps/userspec.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT utimecmp.o -MD -MP -MF ".deps/utimecmp.Tpo" -c -o utimecmp.o utimecmp.c; \
+then mv -f ".deps/utimecmp.Tpo" ".deps/utimecmp.Po"; else rm -f ".deps/utimecmp.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT utimens.o -MD -MP -MF ".deps/utimens.Tpo" -c -o utimens.o utimens.c; \
+then mv -f ".deps/utimens.Tpo" ".deps/utimens.Po"; else rm -f ".deps/utimens.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT xmalloc.o -MD -MP -MF ".deps/xmalloc.Tpo" -c -o xmalloc.o xmalloc.c; \
+then mv -f ".deps/xmalloc.Tpo" ".deps/xmalloc.Po"; else rm -f ".deps/xmalloc.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT xgetcwd.o -MD -MP -MF ".deps/xgetcwd.Tpo" -c -o xgetcwd.o xgetcwd.c; \
+then mv -f ".deps/xgetcwd.Tpo" ".deps/xgetcwd.Po"; else rm -f ".deps/xgetcwd.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT xnanosleep.o -MD -MP -MF ".deps/xnanosleep.Tpo" -c -o xnanosleep.o xnanosleep.c; \
+then mv -f ".deps/xnanosleep.Tpo" ".deps/xnanosleep.Po"; else rm -f ".deps/xnanosleep.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT xreadlink.o -MD -MP -MF ".deps/xreadlink.Tpo" -c -o xreadlink.o xreadlink.c; \
+then mv -f ".deps/xreadlink.Tpo" ".deps/xreadlink.Po"; else rm -f ".deps/xreadlink.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT xstrtod.o -MD -MP -MF ".deps/xstrtod.Tpo" -c -o xstrtod.o xstrtod.c; \
+then mv -f ".deps/xstrtod.Tpo" ".deps/xstrtod.Po"; else rm -f ".deps/xstrtod.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT xstrtol.o -MD -MP -MF ".deps/xstrtol.Tpo" -c -o xstrtol.o xstrtol.c; \
+then mv -f ".deps/xstrtol.Tpo" ".deps/xstrtol.Po"; else rm -f ".deps/xstrtol.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT xstrtoul.o -MD -MP -MF ".deps/xstrtoul.Tpo" -c -o xstrtoul.o xstrtoul.c; \
+then mv -f ".deps/xstrtoul.Tpo" ".deps/xstrtoul.Po"; else rm -f ".deps/xstrtoul.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT yesno.o -MD -MP -MF ".deps/yesno.Tpo" -c -o yesno.o yesno.c; \
+then mv -f ".deps/yesno.Tpo" ".deps/yesno.Po"; else rm -f ".deps/yesno.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT strftime.o -MD -MP -MF ".deps/strftime.Tpo" -c -o strftime.o strftime.c; \
+then mv -f ".deps/strftime.Tpo" ".deps/strftime.Po"; else rm -f ".deps/strftime.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT fts.o -MD -MP -MF ".deps/fts.Tpo" -c -o fts.o fts.c; \
+then mv -f ".deps/fts.Tpo" ".deps/fts.Po"; else rm -f ".deps/fts.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT memcasecmp.o -MD -MP -MF ".deps/memcasecmp.Tpo" -c -o memcasecmp.o memcasecmp.c; \
+then mv -f ".deps/memcasecmp.Tpo" ".deps/memcasecmp.Po"; else rm -f ".deps/memcasecmp.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT argmatch.o -MD -MP -MF ".deps/argmatch.Tpo" -c -o argmatch.o argmatch.c; \
+then mv -f ".deps/argmatch.Tpo" ".deps/argmatch.Po"; else rm -f ".deps/argmatch.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT cycle-check.o -MD -MP -MF ".deps/cycle-check.Tpo" -c -o cycle-check.o cycle-check.c; \
+then mv -f ".deps/cycle-check.Tpo" ".deps/cycle-check.Po"; else rm -f ".deps/cycle-check.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT acl.o -MD -MP -MF ".deps/acl.Tpo" -c -o acl.o acl.c; \
+then mv -f ".deps/acl.Tpo" ".deps/acl.Po"; else rm -f ".deps/acl.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT canonicalize.o -MD -MP -MF ".deps/canonicalize.Tpo" -c -o canonicalize.o canonicalize.c; \
+then mv -f ".deps/canonicalize.Tpo" ".deps/canonicalize.Po"; else rm -f ".deps/canonicalize.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT chdir-long.o -MD -MP -MF ".deps/chdir-long.Tpo" -c -o chdir-long.o chdir-long.c; \
+then mv -f ".deps/chdir-long.Tpo" ".deps/chdir-long.Po"; else rm -f ".deps/chdir-long.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT openat-die.o -MD -MP -MF ".deps/openat-die.Tpo" -c -o openat-die.o openat-die.c; \
+then mv -f ".deps/openat-die.Tpo" ".deps/openat-die.Po"; else rm -f ".deps/openat-die.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT openat.o -MD -MP -MF ".deps/openat.Tpo" -c -o openat.o openat.c; \
+then mv -f ".deps/openat.Tpo" ".deps/openat.Po"; else rm -f ".deps/openat.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT xfts.o -MD -MP -MF ".deps/xfts.Tpo" -c -o xfts.o xfts.c; \
+then mv -f ".deps/xfts.Tpo" ".deps/xfts.Po"; else rm -f ".deps/xfts.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT root-dev-ino.o -MD -MP -MF ".deps/root-dev-ino.Tpo" -c -o root-dev-ino.o root-dev-ino.c; \
+then mv -f ".deps/root-dev-ino.Tpo" ".deps/root-dev-ino.Po"; else rm -f ".deps/root-dev-ino.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT version-etc-fsf.o -MD -MP -MF ".deps/version-etc-fsf.Tpo" -c -o version-etc-fsf.o version-etc-fsf.c; \
+then mv -f ".deps/version-etc-fsf.Tpo" ".deps/version-etc-fsf.Po"; else rm -f ".deps/version-etc-fsf.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT version-etc.o -MD -MP -MF ".deps/version-etc.Tpo" -c -o version-etc.o version-etc.c; \
+then mv -f ".deps/version-etc.Tpo" ".deps/version-etc.Po"; else rm -f ".deps/version-etc.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT diacrit.o -MD -MP -MF ".deps/diacrit.Tpo" -c -o diacrit.o diacrit.c; \
+then mv -f ".deps/diacrit.Tpo" ".deps/diacrit.Po"; else rm -f ".deps/diacrit.Tpo"; exit 1; fi
+rm -f libcoreutils.a
+ar cru libcoreutils.a allocsa.o fprintftime.o full-read.o full-write.o localcharset.o mbswidth.o readtokens0.o strnlen1.o time_r.o unicodeio.o xalloc-die.o xgethostname.o xmemcoll.o xstrndup.o xstrtoimax.o xstrtoumax.o backupfile.o basename.o c-strtod.o c-strtold.o canon-host.o cloexec.o closeout.o dirname.o exclude.o exitfail.o open-safer.o creat-safer.o fd-reopen.o filemode.o filenamecat.o file-type.o fsusage.o getpass.o lstat.o sig2str.o strstr.o vasnprintf.o printf-args.o printf-parse.o asnprintf.o getdate.o gethrxtime.o getndelim2.o gettime.o getugroups.o hard-locale.o hash.o hash-pjw.o human.o idcache.o imaxtostr.o offtostr.o umaxtostr.o linebuffer.o long-options.o mbchar.o md5.o memcoll.o mkdir-p.o modechange.o mountlist.o physmem.o posixtm.o posixver.o quotearg.o quote.o readtokens.o readutmp.o regex.o safe-read.o safe-write.o same.o savedir.o save-cwd.o settime.o sha1.o fopen-safer.o mkstemp-safer.o strcasecmp.o strintcmp.o strnumcmp.o stripslash.o dup-safer.o fd-safer.o pipe-safer.o unlinkdir.o userspec.o utimecmp.o utimens.o xmalloc.o xgetcwd.o xnanosleep.o xreadlink.o xstrtod.o xstrtol.o xstrtoul.o yesno.o strftime.o fts.o memcasecmp.o argmatch.o cycle-check.o acl.o canonicalize.o chdir-long.o openat-die.o openat.o xfts.o root-dev-ino.o version-etc-fsf.o version-etc.o diacrit.o 
+ranlib libcoreutils.a
+if gcc -std=gnu99 -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib\" -I. -I. -I..  -I.. -I.   -g -O2 -MT t-fpending.o -MD -MP -MF ".deps/t-fpending.Tpo" -c -o t-fpending.o t-fpending.c; \
+then mv -f ".deps/t-fpending.Tpo" ".deps/t-fpending.Po"; else rm -f ".deps/t-fpending.Tpo"; exit 1; fi
+gcc -std=gnu99  -g -O2   -o t-fpending  t-fpending.o libcoreutils.a 
+/bin/sh ./config.charset 'i686-pc-linux-gnu' > t-charset.alias
+mv t-charset.alias charset.alias
+sed -e '/^#/d' -e 's/@''PACKAGE''@/coreutils/g' ref-add.sin > t-ref-add.sed
+mv t-ref-add.sed ref-add.sed
+sed -e '/^#/d' -e 's/@''PACKAGE''@/coreutils/g' ref-del.sin > t-ref-del.sed
+mv t-ref-del.sed ref-del.sed
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/lib'
+make[2]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/lib'
+Making all in src
+make[2]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/src'
+echo '#define LOCALEDIR "/usr/share/locale"' >localedir.h-t
+mv localedir.h-t localedir.h
+make  all-am
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/src'
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT lbracket.o -MD -MP -MF ".deps/lbracket.Tpo" -c -o lbracket.o lbracket.c; \
+then mv -f ".deps/lbracket.Tpo" ".deps/lbracket.Po"; else rm -f ".deps/lbracket.Tpo"; exit 1; fi
+gcc -std=gnu99  -g -O2   -o [  lbracket.o ../lib/libcoreutils.a  ../lib/libcoreutils.a  
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT chgrp.o -MD -MP -MF ".deps/chgrp.Tpo" -c -o chgrp.o chgrp.c; \
+then mv -f ".deps/chgrp.Tpo" ".deps/chgrp.Po"; else rm -f ".deps/chgrp.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT chown-core.o -MD -MP -MF ".deps/chown-core.Tpo" -c -o chown-core.o chown-core.c; \
+then mv -f ".deps/chown-core.Tpo" ".deps/chown-core.Po"; else rm -f ".deps/chown-core.Tpo"; exit 1; fi
+gcc -std=gnu99  -g -O2   -o chgrp  chgrp.o chown-core.o ../lib/libcoreutils.a  ../lib/libcoreutils.a 
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT chown.o -MD -MP -MF ".deps/chown.Tpo" -c -o chown.o chown.c; \
+then mv -f ".deps/chown.Tpo" ".deps/chown.Po"; else rm -f ".deps/chown.Tpo"; exit 1; fi
+gcc -std=gnu99  -g -O2   -o chown  chown.o chown-core.o ../lib/libcoreutils.a  ../lib/libcoreutils.a 
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT chmod.o -MD -MP -MF ".deps/chmod.Tpo" -c -o chmod.o chmod.c; \
+then mv -f ".deps/chmod.Tpo" ".deps/chmod.Po"; else rm -f ".deps/chmod.Tpo"; exit 1; fi
+gcc -std=gnu99  -g -O2   -o chmod  chmod.o ../lib/libcoreutils.a  ../lib/libcoreutils.a 
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT cp.o -MD -MP -MF ".deps/cp.Tpo" -c -o cp.o cp.c; \
+then mv -f ".deps/cp.Tpo" ".deps/cp.Po"; else rm -f ".deps/cp.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT copy.o -MD -MP -MF ".deps/copy.Tpo" -c -o copy.o copy.c; \
+then mv -f ".deps/copy.Tpo" ".deps/copy.Po"; else rm -f ".deps/copy.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT cp-hash.o -MD -MP -MF ".deps/cp-hash.Tpo" -c -o cp-hash.o cp-hash.c; \
+then mv -f ".deps/cp-hash.Tpo" ".deps/cp-hash.Po"; else rm -f ".deps/cp-hash.Tpo"; exit 1; fi
+gcc -std=gnu99  -g -O2   -o cp  cp.o copy.o cp-hash.o ../lib/libcoreutils.a  ../lib/libcoreutils.a  
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT dd.o -MD -MP -MF ".deps/dd.Tpo" -c -o dd.o dd.c; \
+then mv -f ".deps/dd.Tpo" ".deps/dd.Po"; else rm -f ".deps/dd.Tpo"; exit 1; fi
+gcc -std=gnu99  -g -O2   -o dd  dd.o ../lib/libcoreutils.a  ../lib/libcoreutils.a -lrt  
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT dircolors.o -MD -MP -MF ".deps/dircolors.Tpo" -c -o dircolors.o dircolors.c; \
+then mv -f ".deps/dircolors.Tpo" ".deps/dircolors.Po"; else rm -f ".deps/dircolors.Tpo"; exit 1; fi
+gcc -std=gnu99  -g -O2   -o dircolors  dircolors.o ../lib/libcoreutils.a  ../lib/libcoreutils.a 
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT du.o -MD -MP -MF ".deps/du.Tpo" -c -o du.o du.c; \
+then mv -f ".deps/du.Tpo" ".deps/du.Po"; else rm -f ".deps/du.Tpo"; exit 1; fi
+gcc -std=gnu99  -g -O2   -o du  du.o ../lib/libcoreutils.a  ../lib/libcoreutils.a 
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT install.o -MD -MP -MF ".deps/install.Tpo" -c -o install.o install.c; \
+then mv -f ".deps/install.Tpo" ".deps/install.Po"; else rm -f ".deps/install.Tpo"; exit 1; fi
+gcc -std=gnu99  -g -O2   -o ginstall  install.o copy.o cp-hash.o ../lib/libcoreutils.a  ../lib/libcoreutils.a  
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT link.o -MD -MP -MF ".deps/link.Tpo" -c -o link.o link.c; \
+then mv -f ".deps/link.Tpo" ".deps/link.Po"; else rm -f ".deps/link.Tpo"; exit 1; fi
+gcc -std=gnu99  -g -O2   -o link  link.o ../lib/libcoreutils.a  ../lib/libcoreutils.a 
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT ln.o -MD -MP -MF ".deps/ln.Tpo" -c -o ln.o ln.c; \
+then mv -f ".deps/ln.Tpo" ".deps/ln.Po"; else rm -f ".deps/ln.Tpo"; exit 1; fi
+gcc -std=gnu99  -g -O2   -o ln  ln.o ../lib/libcoreutils.a  ../lib/libcoreutils.a 
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT ls.o -MD -MP -MF ".deps/ls.Tpo" -c -o ls.o ls.c; \
+then mv -f ".deps/ls.Tpo" ".deps/ls.Po"; else rm -f ".deps/ls.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT ls-dir.o -MD -MP -MF ".deps/ls-dir.Tpo" -c -o ls-dir.o ls-dir.c; \
+then mv -f ".deps/ls-dir.Tpo" ".deps/ls-dir.Po"; else rm -f ".deps/ls-dir.Tpo"; exit 1; fi
+gcc -std=gnu99  -g -O2   -o dir  ls.o ls-dir.o ../lib/libcoreutils.a  ../lib/libcoreutils.a -lrt 
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT ls-vdir.o -MD -MP -MF ".deps/ls-vdir.Tpo" -c -o ls-vdir.o ls-vdir.c; \
+then mv -f ".deps/ls-vdir.Tpo" ".deps/ls-vdir.Po"; else rm -f ".deps/ls-vdir.Tpo"; exit 1; fi
+gcc -std=gnu99  -g -O2   -o vdir  ls.o ls-vdir.o ../lib/libcoreutils.a  ../lib/libcoreutils.a -lrt 
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT ls-ls.o -MD -MP -MF ".deps/ls-ls.Tpo" -c -o ls-ls.o ls-ls.c; \
+then mv -f ".deps/ls-ls.Tpo" ".deps/ls-ls.Po"; else rm -f ".deps/ls-ls.Tpo"; exit 1; fi
+gcc -std=gnu99  -g -O2   -o ls  ls.o ls-ls.o ../lib/libcoreutils.a  ../lib/libcoreutils.a -lrt 
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT mkdir.o -MD -MP -MF ".deps/mkdir.Tpo" -c -o mkdir.o mkdir.c; \
+then mv -f ".deps/mkdir.Tpo" ".deps/mkdir.Po"; else rm -f ".deps/mkdir.Tpo"; exit 1; fi
+gcc -std=gnu99  -g -O2   -o mkdir  mkdir.o ../lib/libcoreutils.a  ../lib/libcoreutils.a 
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT mkfifo.o -MD -MP -MF ".deps/mkfifo.Tpo" -c -o mkfifo.o mkfifo.c; \
+then mv -f ".deps/mkfifo.Tpo" ".deps/mkfifo.Po"; else rm -f ".deps/mkfifo.Tpo"; exit 1; fi
+gcc -std=gnu99  -g -O2   -o mkfifo  mkfifo.o ../lib/libcoreutils.a  ../lib/libcoreutils.a 
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT mknod.o -MD -MP -MF ".deps/mknod.Tpo" -c -o mknod.o mknod.c; \
+then mv -f ".deps/mknod.Tpo" ".deps/mknod.Po"; else rm -f ".deps/mknod.Tpo"; exit 1; fi
+gcc -std=gnu99  -g -O2   -o mknod  mknod.o ../lib/libcoreutils.a  ../lib/libcoreutils.a 
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT mv.o -MD -MP -MF ".deps/mv.Tpo" -c -o mv.o mv.c; \
+then mv -f ".deps/mv.Tpo" ".deps/mv.Po"; else rm -f ".deps/mv.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT remove.o -MD -MP -MF ".deps/remove.Tpo" -c -o remove.o remove.c; \
+then mv -f ".deps/remove.Tpo" ".deps/remove.Po"; else rm -f ".deps/remove.Tpo"; exit 1; fi
+gcc -std=gnu99  -g -O2   -o mv  mv.o copy.o cp-hash.o remove.o ../lib/libcoreutils.a  ../lib/libcoreutils.a  
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT nohup.o -MD -MP -MF ".deps/nohup.Tpo" -c -o nohup.o nohup.c; \
+then mv -f ".deps/nohup.Tpo" ".deps/nohup.Po"; else rm -f ".deps/nohup.Tpo"; exit 1; fi
+gcc -std=gnu99  -g -O2   -o nohup  nohup.o ../lib/libcoreutils.a  ../lib/libcoreutils.a 
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT readlink.o -MD -MP -MF ".deps/readlink.Tpo" -c -o readlink.o readlink.c; \
+then mv -f ".deps/readlink.Tpo" ".deps/readlink.Po"; else rm -f ".deps/readlink.Tpo"; exit 1; fi
+gcc -std=gnu99  -g -O2   -o readlink  readlink.o ../lib/libcoreutils.a  ../lib/libcoreutils.a 
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT rm.o -MD -MP -MF ".deps/rm.Tpo" -c -o rm.o rm.c; \
+then mv -f ".deps/rm.Tpo" ".deps/rm.Po"; else rm -f ".deps/rm.Tpo"; exit 1; fi
+gcc -std=gnu99  -g -O2   -o rm  rm.o remove.o ../lib/libcoreutils.a  ../lib/libcoreutils.a  
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT rmdir.o -MD -MP -MF ".deps/rmdir.Tpo" -c -o rmdir.o rmdir.c; \
+then mv -f ".deps/rmdir.Tpo" ".deps/rmdir.Po"; else rm -f ".deps/rmdir.Tpo"; exit 1; fi
+gcc -std=gnu99  -g -O2   -o rmdir  rmdir.o ../lib/libcoreutils.a  ../lib/libcoreutils.a 
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT shred.o -MD -MP -MF ".deps/shred.Tpo" -c -o shred.o shred.c; \
+then mv -f ".deps/shred.Tpo" ".deps/shred.Po"; else rm -f ".deps/shred.Tpo"; exit 1; fi
+gcc -std=gnu99  -g -O2   -o shred  shred.o ../lib/libcoreutils.a  ../lib/libcoreutils.a -lrt  
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT stat.o -MD -MP -MF ".deps/stat.Tpo" -c -o stat.o stat.c; \
+then mv -f ".deps/stat.Tpo" ".deps/stat.Po"; else rm -f ".deps/stat.Tpo"; exit 1; fi
+gcc -std=gnu99  -g -O2   -o stat  stat.o ../lib/libcoreutils.a  ../lib/libcoreutils.a 
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT sync.o -MD -MP -MF ".deps/sync.Tpo" -c -o sync.o sync.c; \
+then mv -f ".deps/sync.Tpo" ".deps/sync.Po"; else rm -f ".deps/sync.Tpo"; exit 1; fi
+gcc -std=gnu99  -g -O2   -o sync  sync.o ../lib/libcoreutils.a  ../lib/libcoreutils.a 
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT touch.o -MD -MP -MF ".deps/touch.Tpo" -c -o touch.o touch.c; \
+then mv -f ".deps/touch.Tpo" ".deps/touch.Po"; else rm -f ".deps/touch.Tpo"; exit 1; fi
+gcc -std=gnu99  -g -O2   -o touch  touch.o ../lib/libcoreutils.a  ../lib/libcoreutils.a -lrt 
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT unlink.o -MD -MP -MF ".deps/unlink.Tpo" -c -o unlink.o unlink.c; \
+then mv -f ".deps/unlink.Tpo" ".deps/unlink.Po"; else rm -f ".deps/unlink.Tpo"; exit 1; fi
+gcc -std=gnu99  -g -O2   -o unlink  unlink.o ../lib/libcoreutils.a  ../lib/libcoreutils.a 
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT cat.o -MD -MP -MF ".deps/cat.Tpo" -c -o cat.o cat.c; \
+then mv -f ".deps/cat.Tpo" ".deps/cat.Po"; else rm -f ".deps/cat.Tpo"; exit 1; fi
+gcc -std=gnu99  -g -O2   -o cat  cat.o ../lib/libcoreutils.a  ../lib/libcoreutils.a 
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT cksum.o -MD -MP -MF ".deps/cksum.Tpo" -c -o cksum.o cksum.c; \
+then mv -f ".deps/cksum.Tpo" ".deps/cksum.Po"; else rm -f ".deps/cksum.Tpo"; exit 1; fi
+gcc -std=gnu99  -g -O2   -o cksum  cksum.o ../lib/libcoreutils.a  ../lib/libcoreutils.a 
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT comm.o -MD -MP -MF ".deps/comm.Tpo" -c -o comm.o comm.c; \
+then mv -f ".deps/comm.Tpo" ".deps/comm.Po"; else rm -f ".deps/comm.Tpo"; exit 1; fi
+gcc -std=gnu99  -g -O2   -o comm  comm.o ../lib/libcoreutils.a  ../lib/libcoreutils.a 
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT csplit.o -MD -MP -MF ".deps/csplit.Tpo" -c -o csplit.o csplit.c; \
+then mv -f ".deps/csplit.Tpo" ".deps/csplit.Po"; else rm -f ".deps/csplit.Tpo"; exit 1; fi
+gcc -std=gnu99  -g -O2   -o csplit  csplit.o ../lib/libcoreutils.a  ../lib/libcoreutils.a 
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT cut.o -MD -MP -MF ".deps/cut.Tpo" -c -o cut.o cut.c; \
+then mv -f ".deps/cut.Tpo" ".deps/cut.Po"; else rm -f ".deps/cut.Tpo"; exit 1; fi
+gcc -std=gnu99  -g -O2   -o cut  cut.o ../lib/libcoreutils.a  ../lib/libcoreutils.a 
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT expand.o -MD -MP -MF ".deps/expand.Tpo" -c -o expand.o expand.c; \
+then mv -f ".deps/expand.Tpo" ".deps/expand.Po"; else rm -f ".deps/expand.Tpo"; exit 1; fi
+gcc -std=gnu99  -g -O2   -o expand  expand.o ../lib/libcoreutils.a  ../lib/libcoreutils.a 
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT fmt.o -MD -MP -MF ".deps/fmt.Tpo" -c -o fmt.o fmt.c; \
+then mv -f ".deps/fmt.Tpo" ".deps/fmt.Po"; else rm -f ".deps/fmt.Tpo"; exit 1; fi
+gcc -std=gnu99  -g -O2   -o fmt  fmt.o ../lib/libcoreutils.a  ../lib/libcoreutils.a 
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT fold.o -MD -MP -MF ".deps/fold.Tpo" -c -o fold.o fold.c; \
+then mv -f ".deps/fold.Tpo" ".deps/fold.Po"; else rm -f ".deps/fold.Tpo"; exit 1; fi
+gcc -std=gnu99  -g -O2   -o fold  fold.o ../lib/libcoreutils.a  ../lib/libcoreutils.a 
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT head.o -MD -MP -MF ".deps/head.Tpo" -c -o head.o head.c; \
+then mv -f ".deps/head.Tpo" ".deps/head.Po"; else rm -f ".deps/head.Tpo"; exit 1; fi
+gcc -std=gnu99  -g -O2   -o head  head.o ../lib/libcoreutils.a  ../lib/libcoreutils.a 
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT join.o -MD -MP -MF ".deps/join.Tpo" -c -o join.o join.c; \
+then mv -f ".deps/join.Tpo" ".deps/join.Po"; else rm -f ".deps/join.Tpo"; exit 1; fi
+gcc -std=gnu99  -g -O2   -o join  join.o ../lib/libcoreutils.a  ../lib/libcoreutils.a 
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT md5sum.o -MD -MP -MF ".deps/md5sum.Tpo" -c -o md5sum.o md5sum.c; \
+then mv -f ".deps/md5sum.Tpo" ".deps/md5sum.Po"; else rm -f ".deps/md5sum.Tpo"; exit 1; fi
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT md5.o -MD -MP -MF ".deps/md5.Tpo" -c -o md5.o md5.c; \
+then mv -f ".deps/md5.Tpo" ".deps/md5.Po"; else rm -f ".deps/md5.Tpo"; exit 1; fi
+gcc -std=gnu99  -g -O2   -o md5sum  md5sum.o md5.o ../lib/libcoreutils.a  ../lib/libcoreutils.a 
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT nl.o -MD -MP -MF ".deps/nl.Tpo" -c -o nl.o nl.c; \
+then mv -f ".deps/nl.Tpo" ".deps/nl.Po"; else rm -f ".deps/nl.Tpo"; exit 1; fi
+gcc -std=gnu99  -g -O2   -o nl  nl.o ../lib/libcoreutils.a  ../lib/libcoreutils.a 
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT od.o -MD -MP -MF ".deps/od.Tpo" -c -o od.o od.c; \
+then mv -f ".deps/od.Tpo" ".deps/od.Po"; else rm -f ".deps/od.Tpo"; exit 1; fi
+gcc -std=gnu99  -g -O2   -o od  od.o ../lib/libcoreutils.a  ../lib/libcoreutils.a 
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT paste.o -MD -MP -MF ".deps/paste.Tpo" -c -o paste.o paste.c; \
+then mv -f ".deps/paste.Tpo" ".deps/paste.Po"; else rm -f ".deps/paste.Tpo"; exit 1; fi
+gcc -std=gnu99  -g -O2   -o paste  paste.o ../lib/libcoreutils.a  ../lib/libcoreutils.a 
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT pr.o -MD -MP -MF ".deps/pr.Tpo" -c -o pr.o pr.c; \
+then mv -f ".deps/pr.Tpo" ".deps/pr.Po"; else rm -f ".deps/pr.Tpo"; exit 1; fi
+gcc -std=gnu99  -g -O2   -o pr  pr.o ../lib/libcoreutils.a  ../lib/libcoreutils.a -lrt 
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT ptx.o -MD -MP -MF ".deps/ptx.Tpo" -c -o ptx.o ptx.c; \
+then mv -f ".deps/ptx.Tpo" ".deps/ptx.Po"; else rm -f ".deps/ptx.Tpo"; exit 1; fi
+gcc -std=gnu99  -g -O2   -o ptx  ptx.o ../lib/libcoreutils.a  ../lib/libcoreutils.a 
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT sha1sum.o -MD -MP -MF ".deps/sha1sum.Tpo" -c -o sha1sum.o sha1sum.c; \
+then mv -f ".deps/sha1sum.Tpo" ".deps/sha1sum.Po"; else rm -f ".deps/sha1sum.Tpo"; exit 1; fi
+gcc -std=gnu99  -g -O2   -o sha1sum  md5sum.o sha1sum.o ../lib/libcoreutils.a  ../lib/libcoreutils.a 
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT sort.o -MD -MP -MF ".deps/sort.Tpo" -c -o sort.o sort.c; \
+then mv -f ".deps/sort.Tpo" ".deps/sort.Po"; else rm -f ".deps/sort.Tpo"; exit 1; fi
+gcc -std=gnu99  -g -O2   -o sort  sort.o ../lib/libcoreutils.a  ../lib/libcoreutils.a  
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT split.o -MD -MP -MF ".deps/split.Tpo" -c -o split.o split.c; \
+then mv -f ".deps/split.Tpo" ".deps/split.Po"; else rm -f ".deps/split.Tpo"; exit 1; fi
+gcc -std=gnu99  -g -O2   -o split  split.o ../lib/libcoreutils.a  ../lib/libcoreutils.a 
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT sum.o -MD -MP -MF ".deps/sum.Tpo" -c -o sum.o sum.c; \
+then mv -f ".deps/sum.Tpo" ".deps/sum.Po"; else rm -f ".deps/sum.Tpo"; exit 1; fi
+gcc -std=gnu99  -g -O2   -o sum  sum.o ../lib/libcoreutils.a  ../lib/libcoreutils.a 
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT tac.o -MD -MP -MF ".deps/tac.Tpo" -c -o tac.o tac.c; \
+then mv -f ".deps/tac.Tpo" ".deps/tac.Po"; else rm -f ".deps/tac.Tpo"; exit 1; fi
+gcc -std=gnu99  -g -O2   -o tac  tac.o ../lib/libcoreutils.a  ../lib/libcoreutils.a 
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT tail.o -MD -MP -MF ".deps/tail.Tpo" -c -o tail.o tail.c; \
+then mv -f ".deps/tail.Tpo" ".deps/tail.Po"; else rm -f ".deps/tail.Tpo"; exit 1; fi
+gcc -std=gnu99  -g -O2   -o tail  tail.o ../lib/libcoreutils.a  ../lib/libcoreutils.a   
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT tr.o -MD -MP -MF ".deps/tr.Tpo" -c -o tr.o tr.c; \
+then mv -f ".deps/tr.Tpo" ".deps/tr.Po"; else rm -f ".deps/tr.Tpo"; exit 1; fi
+gcc -std=gnu99  -g -O2   -o tr  tr.o ../lib/libcoreutils.a  ../lib/libcoreutils.a 
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT tsort.o -MD -MP -MF ".deps/tsort.Tpo" -c -o tsort.o tsort.c; \
+then mv -f ".deps/tsort.Tpo" ".deps/tsort.Po"; else rm -f ".deps/tsort.Tpo"; exit 1; fi
+gcc -std=gnu99  -g -O2   -o tsort  tsort.o ../lib/libcoreutils.a  ../lib/libcoreutils.a 
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT unexpand.o -MD -MP -MF ".deps/unexpand.Tpo" -c -o unexpand.o unexpand.c; \
+then mv -f ".deps/unexpand.Tpo" ".deps/unexpand.Po"; else rm -f ".deps/unexpand.Tpo"; exit 1; fi
+gcc -std=gnu99  -g -O2   -o unexpand  unexpand.o ../lib/libcoreutils.a  ../lib/libcoreutils.a 
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT uniq.o -MD -MP -MF ".deps/uniq.Tpo" -c -o uniq.o uniq.c; \
+then mv -f ".deps/uniq.Tpo" ".deps/uniq.Po"; else rm -f ".deps/uniq.Tpo"; exit 1; fi
+gcc -std=gnu99  -g -O2   -o uniq  uniq.o ../lib/libcoreutils.a  ../lib/libcoreutils.a 
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT wc.o -MD -MP -MF ".deps/wc.Tpo" -c -o wc.o wc.c; \
+then mv -f ".deps/wc.Tpo" ".deps/wc.Po"; else rm -f ".deps/wc.Tpo"; exit 1; fi
+gcc -std=gnu99  -g -O2   -o wc  wc.o ../lib/libcoreutils.a  ../lib/libcoreutils.a 
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT basename.o -MD -MP -MF ".deps/basename.Tpo" -c -o basename.o basename.c; \
+then mv -f ".deps/basename.Tpo" ".deps/basename.Po"; else rm -f ".deps/basename.Tpo"; exit 1; fi
+gcc -std=gnu99  -g -O2   -o basename  basename.o ../lib/libcoreutils.a  ../lib/libcoreutils.a 
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT date.o -MD -MP -MF ".deps/date.Tpo" -c -o date.o date.c; \
+then mv -f ".deps/date.Tpo" ".deps/date.Po"; else rm -f ".deps/date.Tpo"; exit 1; fi
+gcc -std=gnu99  -g -O2   -o date  date.o ../lib/libcoreutils.a  ../lib/libcoreutils.a -lrt 
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT dirname.o -MD -MP -MF ".deps/dirname.Tpo" -c -o dirname.o dirname.c; \
+then mv -f ".deps/dirname.Tpo" ".deps/dirname.Po"; else rm -f ".deps/dirname.Tpo"; exit 1; fi
+gcc -std=gnu99  -g -O2   -o dirname  dirname.o ../lib/libcoreutils.a  ../lib/libcoreutils.a 
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT echo.o -MD -MP -MF ".deps/echo.Tpo" -c -o echo.o echo.c; \
+then mv -f ".deps/echo.Tpo" ".deps/echo.Po"; else rm -f ".deps/echo.Tpo"; exit 1; fi
+gcc -std=gnu99  -g -O2   -o echo  echo.o ../lib/libcoreutils.a  ../lib/libcoreutils.a 
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT env.o -MD -MP -MF ".deps/env.Tpo" -c -o env.o env.c; \
+then mv -f ".deps/env.Tpo" ".deps/env.Po"; else rm -f ".deps/env.Tpo"; exit 1; fi
+gcc -std=gnu99  -g -O2   -o env  env.o ../lib/libcoreutils.a  ../lib/libcoreutils.a 
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT expr.o -MD -MP -MF ".deps/expr.Tpo" -c -o expr.o expr.c; \
+then mv -f ".deps/expr.Tpo" ".deps/expr.Po"; else rm -f ".deps/expr.Tpo"; exit 1; fi
+gcc -std=gnu99  -g -O2   -o expr  expr.o ../lib/libcoreutils.a  ../lib/libcoreutils.a 
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT factor.o -MD -MP -MF ".deps/factor.Tpo" -c -o factor.o factor.c; \
+then mv -f ".deps/factor.Tpo" ".deps/factor.Po"; else rm -f ".deps/factor.Tpo"; exit 1; fi
+gcc -std=gnu99  -g -O2   -o factor  factor.o ../lib/libcoreutils.a  ../lib/libcoreutils.a 
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT false.o -MD -MP -MF ".deps/false.Tpo" -c -o false.o false.c; \
+then mv -f ".deps/false.Tpo" ".deps/false.Po"; else rm -f ".deps/false.Tpo"; exit 1; fi
+gcc -std=gnu99  -g -O2   -o false  false.o ../lib/libcoreutils.a  ../lib/libcoreutils.a 
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT hostname.o -MD -MP -MF ".deps/hostname.Tpo" -c -o hostname.o hostname.c; \
+then mv -f ".deps/hostname.Tpo" ".deps/hostname.Po"; else rm -f ".deps/hostname.Tpo"; exit 1; fi
+gcc -std=gnu99  -g -O2   -o hostname  hostname.o ../lib/libcoreutils.a  ../lib/libcoreutils.a 
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT id.o -MD -MP -MF ".deps/id.Tpo" -c -o id.o id.c; \
+then mv -f ".deps/id.Tpo" ".deps/id.Po"; else rm -f ".deps/id.Tpo"; exit 1; fi
+gcc -std=gnu99  -g -O2   -o id  id.o ../lib/libcoreutils.a  ../lib/libcoreutils.a 
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT logname.o -MD -MP -MF ".deps/logname.Tpo" -c -o logname.o logname.c; \
+then mv -f ".deps/logname.Tpo" ".deps/logname.Po"; else rm -f ".deps/logname.Tpo"; exit 1; fi
+gcc -std=gnu99  -g -O2   -o logname  logname.o ../lib/libcoreutils.a  ../lib/libcoreutils.a 
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT pathchk.o -MD -MP -MF ".deps/pathchk.Tpo" -c -o pathchk.o pathchk.c; \
+then mv -f ".deps/pathchk.Tpo" ".deps/pathchk.Po"; else rm -f ".deps/pathchk.Tpo"; exit 1; fi
+gcc -std=gnu99  -g -O2   -o pathchk  pathchk.o ../lib/libcoreutils.a  ../lib/libcoreutils.a  
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT printenv.o -MD -MP -MF ".deps/printenv.Tpo" -c -o printenv.o printenv.c; \
+then mv -f ".deps/printenv.Tpo" ".deps/printenv.Po"; else rm -f ".deps/printenv.Tpo"; exit 1; fi
+gcc -std=gnu99  -g -O2   -o printenv  printenv.o ../lib/libcoreutils.a  ../lib/libcoreutils.a 
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT printf.o -MD -MP -MF ".deps/printf.Tpo" -c -o printf.o printf.c; \
+then mv -f ".deps/printf.Tpo" ".deps/printf.Po"; else rm -f ".deps/printf.Tpo"; exit 1; fi
+gcc -std=gnu99  -g -O2   -o printf  printf.o ../lib/libcoreutils.a  ../lib/libcoreutils.a   
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT pwd.o -MD -MP -MF ".deps/pwd.Tpo" -c -o pwd.o pwd.c; \
+then mv -f ".deps/pwd.Tpo" ".deps/pwd.Po"; else rm -f ".deps/pwd.Tpo"; exit 1; fi
+gcc -std=gnu99  -g -O2   -o pwd  pwd.o ../lib/libcoreutils.a  ../lib/libcoreutils.a 
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT seq.o -MD -MP -MF ".deps/seq.Tpo" -c -o seq.o seq.c; \
+then mv -f ".deps/seq.Tpo" ".deps/seq.Po"; else rm -f ".deps/seq.Tpo"; exit 1; fi
+gcc -std=gnu99  -g -O2   -o seq  seq.o ../lib/libcoreutils.a  ../lib/libcoreutils.a -lm 
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT sleep.o -MD -MP -MF ".deps/sleep.Tpo" -c -o sleep.o sleep.c; \
+then mv -f ".deps/sleep.Tpo" ".deps/sleep.Po"; else rm -f ".deps/sleep.Tpo"; exit 1; fi
+gcc -std=gnu99  -g -O2   -o sleep  sleep.o ../lib/libcoreutils.a  ../lib/libcoreutils.a   
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT tee.o -MD -MP -MF ".deps/tee.Tpo" -c -o tee.o tee.c; \
+then mv -f ".deps/tee.Tpo" ".deps/tee.Po"; else rm -f ".deps/tee.Tpo"; exit 1; fi
+gcc -std=gnu99  -g -O2   -o tee  tee.o ../lib/libcoreutils.a  ../lib/libcoreutils.a 
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT test.o -MD -MP -MF ".deps/test.Tpo" -c -o test.o test.c; \
+then mv -f ".deps/test.Tpo" ".deps/test.Po"; else rm -f ".deps/test.Tpo"; exit 1; fi
+gcc -std=gnu99  -g -O2   -o test  test.o ../lib/libcoreutils.a  ../lib/libcoreutils.a  
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT true.o -MD -MP -MF ".deps/true.Tpo" -c -o true.o true.c; \
+then mv -f ".deps/true.Tpo" ".deps/true.Po"; else rm -f ".deps/true.Tpo"; exit 1; fi
+gcc -std=gnu99  -g -O2   -o true  true.o ../lib/libcoreutils.a  ../lib/libcoreutils.a 
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT tty.o -MD -MP -MF ".deps/tty.Tpo" -c -o tty.o tty.c; \
+then mv -f ".deps/tty.Tpo" ".deps/tty.Po"; else rm -f ".deps/tty.Tpo"; exit 1; fi
+gcc -std=gnu99  -g -O2   -o tty  tty.o ../lib/libcoreutils.a  ../lib/libcoreutils.a 
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT whoami.o -MD -MP -MF ".deps/whoami.Tpo" -c -o whoami.o whoami.c; \
+then mv -f ".deps/whoami.Tpo" ".deps/whoami.Po"; else rm -f ".deps/whoami.Tpo"; exit 1; fi
+gcc -std=gnu99  -g -O2   -o whoami  whoami.o ../lib/libcoreutils.a  ../lib/libcoreutils.a 
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT yes.o -MD -MP -MF ".deps/yes.Tpo" -c -o yes.o yes.c; \
+then mv -f ".deps/yes.Tpo" ".deps/yes.Po"; else rm -f ".deps/yes.Tpo"; exit 1; fi
+gcc -std=gnu99  -g -O2   -o yes  yes.o ../lib/libcoreutils.a  ../lib/libcoreutils.a 
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT uname.o -MD -MP -MF ".deps/uname.Tpo" -c -o uname.o uname.c; \
+then mv -f ".deps/uname.Tpo" ".deps/uname.Po"; else rm -f ".deps/uname.Tpo"; exit 1; fi
+gcc -std=gnu99  -g -O2   -o uname  uname.o ../lib/libcoreutils.a  ../lib/libcoreutils.a 
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT chroot.o -MD -MP -MF ".deps/chroot.Tpo" -c -o chroot.o chroot.c; \
+then mv -f ".deps/chroot.Tpo" ".deps/chroot.Po"; else rm -f ".deps/chroot.Tpo"; exit 1; fi
+gcc -std=gnu99  -g -O2   -o chroot  chroot.o ../lib/libcoreutils.a  ../lib/libcoreutils.a 
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT hostid.o -MD -MP -MF ".deps/hostid.Tpo" -c -o hostid.o hostid.c; \
+then mv -f ".deps/hostid.Tpo" ".deps/hostid.Po"; else rm -f ".deps/hostid.Tpo"; exit 1; fi
+gcc -std=gnu99  -g -O2   -o hostid  hostid.o ../lib/libcoreutils.a  ../lib/libcoreutils.a 
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT nice.o -MD -MP -MF ".deps/nice.Tpo" -c -o nice.o nice.c; \
+then mv -f ".deps/nice.Tpo" ".deps/nice.Po"; else rm -f ".deps/nice.Tpo"; exit 1; fi
+gcc -std=gnu99  -g -O2   -o nice  nice.o ../lib/libcoreutils.a  ../lib/libcoreutils.a 
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT pinky.o -MD -MP -MF ".deps/pinky.Tpo" -c -o pinky.o pinky.c; \
+then mv -f ".deps/pinky.Tpo" ".deps/pinky.Po"; else rm -f ".deps/pinky.Tpo"; exit 1; fi
+gcc -std=gnu99  -g -O2   -o pinky  pinky.o ../lib/libcoreutils.a  ../lib/libcoreutils.a 
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT users.o -MD -MP -MF ".deps/users.Tpo" -c -o users.o users.c; \
+then mv -f ".deps/users.Tpo" ".deps/users.Po"; else rm -f ".deps/users.Tpo"; exit 1; fi
+gcc -std=gnu99  -g -O2   -o users  users.o ../lib/libcoreutils.a  ../lib/libcoreutils.a 
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT who.o -MD -MP -MF ".deps/who.Tpo" -c -o who.o who.c; \
+then mv -f ".deps/who.Tpo" ".deps/who.Po"; else rm -f ".deps/who.Tpo"; exit 1; fi
+gcc -std=gnu99  -g -O2   -o who  who.o ../lib/libcoreutils.a  ../lib/libcoreutils.a 
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT stty.o -MD -MP -MF ".deps/stty.Tpo" -c -o stty.o stty.c; \
+then mv -f ".deps/stty.Tpo" ".deps/stty.Po"; else rm -f ".deps/stty.Tpo"; exit 1; fi
+gcc -std=gnu99  -g -O2   -o stty  stty.o ../lib/libcoreutils.a  ../lib/libcoreutils.a 
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT df.o -MD -MP -MF ".deps/df.Tpo" -c -o df.o df.c; \
+then mv -f ".deps/df.Tpo" ".deps/df.Po"; else rm -f ".deps/df.Tpo"; exit 1; fi
+gcc -std=gnu99  -g -O2   -o df  df.o ../lib/libcoreutils.a  ../lib/libcoreutils.a 
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT setuidgid.o -MD -MP -MF ".deps/setuidgid.Tpo" -c -o setuidgid.o setuidgid.c; \
+then mv -f ".deps/setuidgid.Tpo" ".deps/setuidgid.Po"; else rm -f ".deps/setuidgid.Tpo"; exit 1; fi
+gcc -std=gnu99  -g -O2   -o setuidgid  setuidgid.o ../lib/libcoreutils.a  ../lib/libcoreutils.a 
+rm -f groups groups-t
+sed \
+  -e 's!@''bindir''@!/usr/bin!' \
+  -e 's/@''GNU_PACKAGE''@/GNU coreutils/' \
+  -e 's/@''PACKAGE_BUGREPORT''@/bug-coreutils@gnu.org/' \
+  -e 's/@''VERSION''@/5.96/' groups.sh > groups-t
+chmod +x groups-t
+mv groups-t groups
+if gcc -std=gnu99 -DHAVE_CONFIG_H -I. -I. -I..  -I.. -I. -I../lib -I../lib   -g -O2 -MT su.o -MD -MP -MF ".deps/su.Tpo" -c -o su.o su.c; \
+then mv -f ".deps/su.Tpo" ".deps/su.Po"; else rm -f ".deps/su.Tpo"; exit 1; fi
+gcc -std=gnu99  -g -O2   -o su  su.o ../lib/libcoreutils.a  ../lib/libcoreutils.a -lcrypt 
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/src'
+make[2]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/src'
+Making all in doc
+make[2]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/doc'
+make[2]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/doc'
+Making all in man
+make[2]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/man'
+Updating man page cut.1
+Updating man page expand.1
+Updating man page fold.1
+Updating man page join.1
+Updating man page pr.1
+Updating man page sort.1
+Updating man page uname.1
+Updating man page unexpand.1
+Updating man page uniq.1
+Updating man page who.1
+make[2]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/man'
+Making all in po
+make[2]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/po'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/po'
+Making all in tests
+make[2]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests'
+Making all in basename
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/basename'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/basename'
+Making all in chgrp
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/chgrp'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/chgrp'
+Making all in chmod
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/chmod'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/chmod'
+Making all in chown
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/chown'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/chown'
+Making all in cp
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/cp'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/cp'
+Making all in cut
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/cut'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/cut'
+Making all in dd
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/dd'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/dd'
+Making all in dircolors
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/dircolors'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/dircolors'
+Making all in du
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/du'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/du'
+Making all in expr
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/expr'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/expr'
+Making all in factor
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/factor'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/factor'
+Making all in fmt
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/fmt'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/fmt'
+Making all in head
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/head'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/head'
+Making all in install
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/install'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/install'
+Making all in join
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/join'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/join'
+Making all in ln
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/ln'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/ln'
+Making all in ls
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/ls'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/ls'
+Making all in ls-2
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/ls-2'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/ls-2'
+Making all in md5sum
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/md5sum'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/md5sum'
+Making all in misc
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/misc'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/misc'
+Making all in mkdir
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/mkdir'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/mkdir'
+Making all in mv
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/mv'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/mv'
+Making all in od
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/od'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/od'
+Making all in pr
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/pr'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/pr'
+Making all in readlink
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/readlink'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/readlink'
+Making all in rm
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/rm'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/rm'
+Making all in rmdir
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/rmdir'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/rmdir'
+Making all in seq
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/seq'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/seq'
+Making all in sha1sum
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/sha1sum'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/sha1sum'
+Making all in shred
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/shred'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/shred'
+Making all in sort
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/sort'
+test 'sort' = test && prog=../../src/sort || prog=sort; \
+perl -I. -w -- ./../mk-script . $prog > sort-tests.n
+mv sort-tests.n sort-tests
+chmod 755 sort-tests
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/sort'
+Making all in stty
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/stty'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/stty'
+Making all in sum
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/sum'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/sum'
+Making all in tac
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/tac'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/tac'
+Making all in tail
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/tail'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/tail'
+Making all in tail-2
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/tail-2'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/tail-2'
+Making all in tee
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/tee'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/tee'
+Making all in test
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/test'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/test'
+Making all in touch
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/touch'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/touch'
+Making all in tr
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/tr'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/tr'
+Making all in tsort
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/tsort'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/tsort'
+Making all in unexpand
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/unexpand'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/unexpand'
+Making all in uniq
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/uniq'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/uniq'
+Making all in wc
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/wc'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/wc'
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests'
+make[3]: Nothing to be done for `all-am'.
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests'
+make[2]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests'
+make[2]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96'
+make[2]: Nothing to be done for `all-am'.
+make[2]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96'
+make[1]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96'

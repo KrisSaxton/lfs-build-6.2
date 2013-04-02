@@ -1,0 +1,18 @@
+#!/bin/bash
+
+source configure
+
+pushd ../unpack/*
+
+{
+
+ABPatch
+
+# In the vi_VN.TCVN locale, bash enters an infinite loop at startup. It is unknown 
+# whether this is a bash bug or a Glibc problem. Disable installation of this locale 
+# in order to avoid the problem
+sed -i '/vi_VN.TCVN/d' localedata/SUPPORTED
+
+} | tee ../../logs/025-patch.log
+
+popd

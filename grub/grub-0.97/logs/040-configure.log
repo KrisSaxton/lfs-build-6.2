@@ -1,0 +1,79 @@
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking build system type... i686-pc-linux-gnu
+checking host system type... i686-pc-linux-gnu
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking for gcc... gcc
+checking for gcc... (cached) gcc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ANSI C... none needed
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking dependency style of gcc... (cached) gcc3
+checking for ranlib... ranlib
+checking whether optimization for size works... yes
+checking whether gcc has -fno-stack-protector... no
+checking whether -Wundef works... yes
+checking whether -falign-loops works... yes
+checking for objcopy... objcopy
+checking if C symbols get an underscore after compilation... no
+checking whether objcopy works for absolute addresses... yes
+checking whether addr32 must be in the same line as the instruction... yes
+checking for .code16 addr32 assembler support... yes
+checking whether an absolute indirect call/jump must not be prefixed with an asterisk... no
+checking if start is defined by the compiler... no
+checking if _start is defined by the compiler... yes
+checking if __bss_start is defined by the compiler... yes
+checking if _edata is defined by the compiler... yes
+checking if edata is defined by the compiler... yes
+checking if end is defined by the compiler... yes
+checking if _end is defined by the compiler... yes
+checking for opendisk in -lutil... no
+checking for wgetch in -lncurses... yes
+checking how to run the C preprocessor... gcc -E
+checking for egrep... grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for string.h... (cached) yes
+checking for strings.h... (cached) yes
+checking ncurses/curses.h usability... no
+checking ncurses/curses.h presence... no
+checking for ncurses/curses.h... no
+checking ncurses.h usability... yes
+checking ncurses.h presence... yes
+checking for ncurses.h... yes
+checking curses.h usability... yes
+checking curses.h presence... yes
+checking for curses.h... yes
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating stage1/Makefile
+config.status: creating stage2/Makefile
+config.status: creating docs/Makefile
+config.status: creating lib/Makefile
+config.status: creating util/Makefile
+config.status: creating grub/Makefile
+config.status: creating netboot/Makefile
+config.status: creating util/grub-image
+config.status: creating util/grub-install
+config.status: creating util/grub-md5-crypt
+config.status: creating util/grub-terminfo
+config.status: creating util/grub-set-default
+config.status: creating config.h
+config.status: executing depfiles commands

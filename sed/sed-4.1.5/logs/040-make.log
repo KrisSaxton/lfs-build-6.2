@@ -1,0 +1,52 @@
+make  all-recursive
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5'
+Making all in intl
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/intl'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/intl'
+Making all in lib
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/lib'
+if gcc -DHAVE_CONFIG_H -I. -I. -I..  -I../lib -I../intl -I.. -I../lib -I../intl   -g -O2 -MT getopt1.o -MD -MP -MF ".deps/getopt1.Tpo" -c -o getopt1.o getopt1.c; \
+then mv -f ".deps/getopt1.Tpo" ".deps/getopt1.Po"; else rm -f ".deps/getopt1.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I..  -I../lib -I../intl -I.. -I../lib -I../intl   -g -O2 -MT getopt.o -MD -MP -MF ".deps/getopt.Tpo" -c -o getopt.o getopt.c; \
+then mv -f ".deps/getopt.Tpo" ".deps/getopt.Po"; else rm -f ".deps/getopt.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I..  -I../lib -I../intl -I.. -I../lib -I../intl   -g -O2 -MT utils.o -MD -MP -MF ".deps/utils.Tpo" -c -o utils.o utils.c; \
+then mv -f ".deps/utils.Tpo" ".deps/utils.Po"; else rm -f ".deps/utils.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I..  -I../lib -I../intl -I.. -I../lib -I../intl   -g -O2 -MT regex.o -MD -MP -MF ".deps/regex.Tpo" -c -o regex.o regex.c; \
+then mv -f ".deps/regex.Tpo" ".deps/regex.Po"; else rm -f ".deps/regex.Tpo"; exit 1; fi
+rm -f libsed.a
+ar cru libsed.a getopt1.o getopt.o utils.o regex.o 
+ranlib libsed.a
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/lib'
+Making all in po
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/po'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/po'
+Making all in sed
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/sed'
+if gcc -DHAVE_CONFIG_H -I. -I. -I..  -I../lib -I../intl -I.. -I../lib -I../intl -DLOCALEDIR=\"/usr/share/locale\"   -g -O2 -MT sed.o -MD -MP -MF ".deps/sed.Tpo" -c -o sed.o sed.c; \
+then mv -f ".deps/sed.Tpo" ".deps/sed.Po"; else rm -f ".deps/sed.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I..  -I../lib -I../intl -I.. -I../lib -I../intl -DLOCALEDIR=\"/usr/share/locale\"   -g -O2 -MT compile.o -MD -MP -MF ".deps/compile.Tpo" -c -o compile.o compile.c; \
+then mv -f ".deps/compile.Tpo" ".deps/compile.Po"; else rm -f ".deps/compile.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I..  -I../lib -I../intl -I.. -I../lib -I../intl -DLOCALEDIR=\"/usr/share/locale\"   -g -O2 -MT execute.o -MD -MP -MF ".deps/execute.Tpo" -c -o execute.o execute.c; \
+then mv -f ".deps/execute.Tpo" ".deps/execute.Po"; else rm -f ".deps/execute.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I..  -I../lib -I../intl -I.. -I../lib -I../intl -DLOCALEDIR=\"/usr/share/locale\"   -g -O2 -MT regexp.o -MD -MP -MF ".deps/regexp.Tpo" -c -o regexp.o regexp.c; \
+then mv -f ".deps/regexp.Tpo" ".deps/regexp.Po"; else rm -f ".deps/regexp.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I..  -I../lib -I../intl -I.. -I../lib -I../intl -DLOCALEDIR=\"/usr/share/locale\"   -g -O2 -MT fmt.o -MD -MP -MF ".deps/fmt.Tpo" -c -o fmt.o fmt.c; \
+then mv -f ".deps/fmt.Tpo" ".deps/fmt.Po"; else rm -f ".deps/fmt.Tpo"; exit 1; fi
+if gcc -DHAVE_CONFIG_H -I. -I. -I..  -I../lib -I../intl -I.. -I../lib -I../intl -DLOCALEDIR=\"/usr/share/locale\"   -g -O2 -MT mbcs.o -MD -MP -MF ".deps/mbcs.Tpo" -c -o mbcs.o mbcs.c; \
+then mv -f ".deps/mbcs.Tpo" ".deps/mbcs.Po"; else rm -f ".deps/mbcs.Tpo"; exit 1; fi
+gcc  -g -O2   -o sed  sed.o compile.o execute.o regexp.o fmt.o mbcs.o ../lib/libsed.a  
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/sed'
+Making all in doc
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/doc'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/doc'
+Making all in testsuite
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/testsuite'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/testsuite'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5'
+make[2]: Nothing to be done for `all-am'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5'

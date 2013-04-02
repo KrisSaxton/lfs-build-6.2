@@ -1,0 +1,6 @@
+#!/bin/bash
+# Place in this file any commands you would like to be run
+# after the package has been installed
+
+# Create rc.d links
+update-rc.d sysklogd defaults 10 40

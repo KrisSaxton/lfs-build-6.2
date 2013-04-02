@@ -1,0 +1,12 @@
+patching file ftp/ftp_var.h
+patching file libinetutils/ttymsg.c
+patching file ftpd/Makefile.in
+patching file inetd/Makefile.in
+patching file logger/Makefile.in
+patching file rexecd/Makefile.in
+patching file rlogind/Makefile.in
+patching file rshd/Makefile.in
+patching file syslogd/Makefile.in
+patching file talkd/Makefile.in
+patching file telnetd/Makefile.in
+patching file tftpd/Makefile.in

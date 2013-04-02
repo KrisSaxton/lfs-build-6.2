@@ -1,0 +1,23 @@
+#!/bin/bash
+
+################################################################################
+#
+# Note: The directories specified with --with-libs are passed to the makefile
+#       as -L options with /lib appended. Thus "--with-libs=:/usr" translates
+#       to "-L /lib -L /usr/lib" 
+#         
+################################################################################
+
+source configure
+
+pushd ../build
+
+#unset LD_LIBRARY_PATH
+
+../unpack/*/configure \
+    --prefix=$AB_PACKAGE_CONFIGURE_PREFIX \
+    --disable-profile --enable-add-ons \
+    --enable-kernel=2.6.0 --libexecdir=/usr/lib/glibc \
+    | tee ../logs/040-configure.log
+
+popd

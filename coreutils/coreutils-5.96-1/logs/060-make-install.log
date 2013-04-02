@@ -1,0 +1,672 @@
+Making install in lib
+make[1]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/lib'
+make  install-am
+make[2]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/lib'
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/lib'
+test yes != no || /bin/sh ../build-aux/mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/lib
+if test -f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/lib/charset.alias; then \
+  sed -f ref-add.sed /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/lib/charset.alias > /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/lib/charset.tmp ; \
+  /usr/bin/install -c -m 644 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/lib/charset.tmp /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/lib/charset.alias ; \
+  rm -f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/lib/charset.tmp ; \
+else \
+  if test yes = no; then \
+    sed -f ref-add.sed charset.alias > /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/lib/charset.tmp ; \
+    /usr/bin/install -c -m 644 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/lib/charset.tmp /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/lib/charset.alias ; \
+    rm -f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/lib/charset.tmp ; \
+  fi ; \
+fi
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/lib'
+make[2]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/lib'
+make[1]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/lib'
+Making install in src
+make[1]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/src'
+make  install-am
+make[2]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/src'
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/src'
+test -z "/usr/bin" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/bin"
+  /usr/bin/install -c '[' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/bin/['
+  /usr/bin/install -c 'chgrp' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/bin/chgrp'
+  /usr/bin/install -c 'chown' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/bin/chown'
+  /usr/bin/install -c 'chmod' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/bin/chmod'
+  /usr/bin/install -c 'cp' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/bin/cp'
+  /usr/bin/install -c 'dd' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/bin/dd'
+  /usr/bin/install -c 'dircolors' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/bin/dircolors'
+  /usr/bin/install -c 'du' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/bin/du'
+  /usr/bin/install -c 'ginstall' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/bin/install'
+  /usr/bin/install -c 'link' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/bin/link'
+  /usr/bin/install -c 'ln' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/bin/ln'
+  /usr/bin/install -c 'dir' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/bin/dir'
+  /usr/bin/install -c 'vdir' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/bin/vdir'
+  /usr/bin/install -c 'ls' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/bin/ls'
+  /usr/bin/install -c 'mkdir' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/bin/mkdir'
+  /usr/bin/install -c 'mkfifo' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/bin/mkfifo'
+  /usr/bin/install -c 'mknod' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/bin/mknod'
+  /usr/bin/install -c 'mv' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/bin/mv'
+  /usr/bin/install -c 'nohup' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/bin/nohup'
+  /usr/bin/install -c 'readlink' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/bin/readlink'
+  /usr/bin/install -c 'rm' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/bin/rm'
+  /usr/bin/install -c 'rmdir' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/bin/rmdir'
+  /usr/bin/install -c 'shred' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/bin/shred'
+  /usr/bin/install -c 'stat' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/bin/stat'
+  /usr/bin/install -c 'sync' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/bin/sync'
+  /usr/bin/install -c 'touch' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/bin/touch'
+  /usr/bin/install -c 'unlink' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/bin/unlink'
+  /usr/bin/install -c 'cat' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/bin/cat'
+  /usr/bin/install -c 'cksum' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/bin/cksum'
+  /usr/bin/install -c 'comm' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/bin/comm'
+  /usr/bin/install -c 'csplit' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/bin/csplit'
+  /usr/bin/install -c 'cut' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/bin/cut'
+  /usr/bin/install -c 'expand' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/bin/expand'
+  /usr/bin/install -c 'fmt' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/bin/fmt'
+  /usr/bin/install -c 'fold' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/bin/fold'
+  /usr/bin/install -c 'head' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/bin/head'
+  /usr/bin/install -c 'join' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/bin/join'
+  /usr/bin/install -c 'md5sum' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/bin/md5sum'
+  /usr/bin/install -c 'nl' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/bin/nl'
+  /usr/bin/install -c 'od' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/bin/od'
+  /usr/bin/install -c 'paste' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/bin/paste'
+  /usr/bin/install -c 'pr' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/bin/pr'
+  /usr/bin/install -c 'ptx' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/bin/ptx'
+  /usr/bin/install -c 'sha1sum' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/bin/sha1sum'
+  /usr/bin/install -c 'sort' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/bin/sort'
+  /usr/bin/install -c 'split' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/bin/split'
+  /usr/bin/install -c 'sum' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/bin/sum'
+  /usr/bin/install -c 'tac' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/bin/tac'
+  /usr/bin/install -c 'tail' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/bin/tail'
+  /usr/bin/install -c 'tr' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/bin/tr'
+  /usr/bin/install -c 'tsort' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/bin/tsort'
+  /usr/bin/install -c 'unexpand' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/bin/unexpand'
+  /usr/bin/install -c 'uniq' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/bin/uniq'
+  /usr/bin/install -c 'wc' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/bin/wc'
+  /usr/bin/install -c 'basename' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/bin/basename'
+  /usr/bin/install -c 'date' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/bin/date'
+  /usr/bin/install -c 'dirname' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/bin/dirname'
+  /usr/bin/install -c 'echo' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/bin/echo'
+  /usr/bin/install -c 'env' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/bin/env'
+  /usr/bin/install -c 'expr' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/bin/expr'
+  /usr/bin/install -c 'factor' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/bin/factor'
+  /usr/bin/install -c 'false' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/bin/false'
+  /usr/bin/install -c 'hostname' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/bin/hostname'
+  /usr/bin/install -c 'id' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/bin/id'
+  /usr/bin/install -c 'logname' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/bin/logname'
+  /usr/bin/install -c 'pathchk' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/bin/pathchk'
+  /usr/bin/install -c 'printenv' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/bin/printenv'
+  /usr/bin/install -c 'printf' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/bin/printf'
+  /usr/bin/install -c 'pwd' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/bin/pwd'
+  /usr/bin/install -c 'seq' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/bin/seq'
+  /usr/bin/install -c 'sleep' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/bin/sleep'
+  /usr/bin/install -c 'tee' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/bin/tee'
+  /usr/bin/install -c 'test' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/bin/test'
+  /usr/bin/install -c 'true' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/bin/true'
+  /usr/bin/install -c 'tty' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/bin/tty'
+  /usr/bin/install -c 'whoami' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/bin/whoami'
+  /usr/bin/install -c 'yes' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/bin/yes'
+  /usr/bin/install -c 'uname' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/bin/uname'
+  /usr/bin/install -c 'chroot' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/bin/chroot'
+  /usr/bin/install -c 'hostid' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/bin/hostid'
+  /usr/bin/install -c 'nice' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/bin/nice'
+  /usr/bin/install -c 'pinky' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/bin/pinky'
+  /usr/bin/install -c 'users' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/bin/users'
+  /usr/bin/install -c 'who' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/bin/who'
+  /usr/bin/install -c 'stty' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/bin/stty'
+  /usr/bin/install -c 'df' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/bin/df'
+test -z "/usr/bin" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/bin"
+ /usr/bin/install -c 'groups' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/bin/groups'
+Installation of su is suppressed
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/src'
+make[2]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/src'
+make[1]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/src'
+Making install in doc
+make[1]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/doc'
+make[2]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/doc'
+make[2]: Nothing to be done for `install-exec-am'.
+test -z "/usr/share/info" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/info"
+ /usr/bin/install -c -m 644 './coreutils.info' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/info/coreutils.info'
+ install-info --info-dir='/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/info' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/info/coreutils.info'
+make[2]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/doc'
+make[1]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/doc'
+Making install in man
+make[1]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/man'
+make[2]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/man'
+make[2]: Nothing to be done for `install-exec-am'.
+test -z "/usr/share/man/man1" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/man/man1"
+ /usr/bin/install -c -m 644 './basename.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/man/man1/basename.1'
+ /usr/bin/install -c -m 644 './cat.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/man/man1/cat.1'
+ /usr/bin/install -c -m 644 './chgrp.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/man/man1/chgrp.1'
+ /usr/bin/install -c -m 644 './chmod.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/man/man1/chmod.1'
+ /usr/bin/install -c -m 644 './chown.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/man/man1/chown.1'
+ /usr/bin/install -c -m 644 './chroot.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/man/man1/chroot.1'
+ /usr/bin/install -c -m 644 './cksum.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/man/man1/cksum.1'
+ /usr/bin/install -c -m 644 './comm.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/man/man1/comm.1'
+ /usr/bin/install -c -m 644 './cp.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/man/man1/cp.1'
+ /usr/bin/install -c -m 644 './csplit.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/man/man1/csplit.1'
+ /usr/bin/install -c -m 644 './cut.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/man/man1/cut.1'
+ /usr/bin/install -c -m 644 './date.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/man/man1/date.1'
+ /usr/bin/install -c -m 644 './dd.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/man/man1/dd.1'
+ /usr/bin/install -c -m 644 './df.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/man/man1/df.1'
+ /usr/bin/install -c -m 644 './dir.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/man/man1/dir.1'
+ /usr/bin/install -c -m 644 './dircolors.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/man/man1/dircolors.1'
+ /usr/bin/install -c -m 644 './dirname.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/man/man1/dirname.1'
+ /usr/bin/install -c -m 644 './du.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/man/man1/du.1'
+ /usr/bin/install -c -m 644 './echo.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/man/man1/echo.1'
+ /usr/bin/install -c -m 644 './env.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/man/man1/env.1'
+ /usr/bin/install -c -m 644 './expand.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/man/man1/expand.1'
+ /usr/bin/install -c -m 644 './expr.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/man/man1/expr.1'
+ /usr/bin/install -c -m 644 './factor.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/man/man1/factor.1'
+ /usr/bin/install -c -m 644 './false.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/man/man1/false.1'
+ /usr/bin/install -c -m 644 './fmt.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/man/man1/fmt.1'
+ /usr/bin/install -c -m 644 './fold.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/man/man1/fold.1'
+ /usr/bin/install -c -m 644 './groups.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/man/man1/groups.1'
+ /usr/bin/install -c -m 644 './head.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/man/man1/head.1'
+ /usr/bin/install -c -m 644 './hostid.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/man/man1/hostid.1'
+ /usr/bin/install -c -m 644 './hostname.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/man/man1/hostname.1'
+ /usr/bin/install -c -m 644 './id.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/man/man1/id.1'
+ /usr/bin/install -c -m 644 './install.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/man/man1/install.1'
+ /usr/bin/install -c -m 644 './join.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/man/man1/join.1'
+ /usr/bin/install -c -m 644 './link.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/man/man1/link.1'
+ /usr/bin/install -c -m 644 './ln.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/man/man1/ln.1'
+ /usr/bin/install -c -m 644 './logname.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/man/man1/logname.1'
+ /usr/bin/install -c -m 644 './ls.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/man/man1/ls.1'
+ /usr/bin/install -c -m 644 './md5sum.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/man/man1/md5sum.1'
+ /usr/bin/install -c -m 644 './mkdir.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/man/man1/mkdir.1'
+ /usr/bin/install -c -m 644 './mkfifo.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/man/man1/mkfifo.1'
+ /usr/bin/install -c -m 644 './mknod.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/man/man1/mknod.1'
+ /usr/bin/install -c -m 644 './mv.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/man/man1/mv.1'
+ /usr/bin/install -c -m 644 './nice.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/man/man1/nice.1'
+ /usr/bin/install -c -m 644 './nl.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/man/man1/nl.1'
+ /usr/bin/install -c -m 644 './nohup.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/man/man1/nohup.1'
+ /usr/bin/install -c -m 644 './od.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/man/man1/od.1'
+ /usr/bin/install -c -m 644 './paste.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/man/man1/paste.1'
+ /usr/bin/install -c -m 644 './pathchk.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/man/man1/pathchk.1'
+ /usr/bin/install -c -m 644 './pinky.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/man/man1/pinky.1'
+ /usr/bin/install -c -m 644 './pr.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/man/man1/pr.1'
+ /usr/bin/install -c -m 644 './printenv.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/man/man1/printenv.1'
+ /usr/bin/install -c -m 644 './printf.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/man/man1/printf.1'
+ /usr/bin/install -c -m 644 './ptx.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/man/man1/ptx.1'
+ /usr/bin/install -c -m 644 './pwd.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/man/man1/pwd.1'
+ /usr/bin/install -c -m 644 './readlink.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/man/man1/readlink.1'
+ /usr/bin/install -c -m 644 './rm.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/man/man1/rm.1'
+ /usr/bin/install -c -m 644 './rmdir.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/man/man1/rmdir.1'
+ /usr/bin/install -c -m 644 './seq.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/man/man1/seq.1'
+ /usr/bin/install -c -m 644 './sha1sum.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/man/man1/sha1sum.1'
+ /usr/bin/install -c -m 644 './shred.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/man/man1/shred.1'
+ /usr/bin/install -c -m 644 './sleep.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/man/man1/sleep.1'
+ /usr/bin/install -c -m 644 './sort.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/man/man1/sort.1'
+ /usr/bin/install -c -m 644 './split.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/man/man1/split.1'
+ /usr/bin/install -c -m 644 './stat.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/man/man1/stat.1'
+ /usr/bin/install -c -m 644 './stty.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/man/man1/stty.1'
+ /usr/bin/install -c -m 644 './sum.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/man/man1/sum.1'
+ /usr/bin/install -c -m 644 './sync.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/man/man1/sync.1'
+ /usr/bin/install -c -m 644 './tac.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/man/man1/tac.1'
+ /usr/bin/install -c -m 644 './tail.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/man/man1/tail.1'
+ /usr/bin/install -c -m 644 './tee.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/man/man1/tee.1'
+ /usr/bin/install -c -m 644 './test.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/man/man1/test.1'
+ /usr/bin/install -c -m 644 './touch.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/man/man1/touch.1'
+ /usr/bin/install -c -m 644 './tr.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/man/man1/tr.1'
+ /usr/bin/install -c -m 644 './true.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/man/man1/true.1'
+ /usr/bin/install -c -m 644 './tsort.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/man/man1/tsort.1'
+ /usr/bin/install -c -m 644 './tty.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/man/man1/tty.1'
+ /usr/bin/install -c -m 644 './uname.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/man/man1/uname.1'
+ /usr/bin/install -c -m 644 './unexpand.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/man/man1/unexpand.1'
+ /usr/bin/install -c -m 644 './uniq.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/man/man1/uniq.1'
+ /usr/bin/install -c -m 644 './unlink.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/man/man1/unlink.1'
+ /usr/bin/install -c -m 644 './users.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/man/man1/users.1'
+ /usr/bin/install -c -m 644 './vdir.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/man/man1/vdir.1'
+ /usr/bin/install -c -m 644 './wc.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/man/man1/wc.1'
+ /usr/bin/install -c -m 644 './who.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/man/man1/who.1'
+ /usr/bin/install -c -m 644 './whoami.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/man/man1/whoami.1'
+ /usr/bin/install -c -m 644 './yes.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/man/man1/yes.1'
+make[2]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/man'
+make[1]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/man'
+Making install in po
+make[1]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/po'
+/bin/sh ../build-aux/mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/af/LC_MESSAGES
+installing af.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/af/LC_MESSAGES/coreutils.mo
+installing af.gmo link as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/af/LC_TIME/coreutils.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/be/LC_MESSAGES
+installing be.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/be/LC_MESSAGES/coreutils.mo
+installing be.gmo link as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/be/LC_TIME/coreutils.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/bg/LC_MESSAGES
+installing bg.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/bg/LC_MESSAGES/coreutils.mo
+installing bg.gmo link as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/bg/LC_TIME/coreutils.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/ca/LC_MESSAGES
+installing ca.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/ca/LC_MESSAGES/coreutils.mo
+installing ca.gmo link as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/ca/LC_TIME/coreutils.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/cs/LC_MESSAGES
+installing cs.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/cs/LC_MESSAGES/coreutils.mo
+installing cs.gmo link as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/cs/LC_TIME/coreutils.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/da/LC_MESSAGES
+installing da.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/da/LC_MESSAGES/coreutils.mo
+installing da.gmo link as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/da/LC_TIME/coreutils.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/de/LC_MESSAGES
+installing de.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/de/LC_MESSAGES/coreutils.mo
+installing de.gmo link as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/de/LC_TIME/coreutils.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/el/LC_MESSAGES
+installing el.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/el/LC_MESSAGES/coreutils.mo
+installing el.gmo link as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/el/LC_TIME/coreutils.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/es/LC_MESSAGES
+installing es.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/es/LC_MESSAGES/coreutils.mo
+installing es.gmo link as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/es/LC_TIME/coreutils.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/et/LC_MESSAGES
+installing et.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/et/LC_MESSAGES/coreutils.mo
+installing et.gmo link as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/et/LC_TIME/coreutils.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/eu/LC_MESSAGES
+installing eu.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/eu/LC_MESSAGES/coreutils.mo
+installing eu.gmo link as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/eu/LC_TIME/coreutils.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/fi/LC_MESSAGES
+installing fi.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/fi/LC_MESSAGES/coreutils.mo
+installing fi.gmo link as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/fi/LC_TIME/coreutils.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/fr/LC_MESSAGES
+installing fr.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/fr/LC_MESSAGES/coreutils.mo
+installing fr.gmo link as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/fr/LC_TIME/coreutils.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/ga/LC_MESSAGES
+installing ga.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/ga/LC_MESSAGES/coreutils.mo
+installing ga.gmo link as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/ga/LC_TIME/coreutils.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/gl/LC_MESSAGES
+installing gl.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/gl/LC_MESSAGES/coreutils.mo
+installing gl.gmo link as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/gl/LC_TIME/coreutils.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/hr/LC_MESSAGES
+installing hr.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/hr/LC_MESSAGES/coreutils.mo
+installing hr.gmo link as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/hr/LC_TIME/coreutils.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/hu/LC_MESSAGES
+installing hu.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/hu/LC_MESSAGES/coreutils.mo
+installing hu.gmo link as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/hu/LC_TIME/coreutils.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/it/LC_MESSAGES
+installing it.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/it/LC_MESSAGES/coreutils.mo
+installing it.gmo link as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/it/LC_TIME/coreutils.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/ja/LC_MESSAGES
+installing ja.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/ja/LC_MESSAGES/coreutils.mo
+installing ja.gmo link as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/ja/LC_TIME/coreutils.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/ko/LC_MESSAGES
+installing ko.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/ko/LC_MESSAGES/coreutils.mo
+installing ko.gmo link as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/ko/LC_TIME/coreutils.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/lg/LC_MESSAGES
+installing lg.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/lg/LC_MESSAGES/coreutils.mo
+installing lg.gmo link as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/lg/LC_TIME/coreutils.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/ms/LC_MESSAGES
+installing ms.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/ms/LC_MESSAGES/coreutils.mo
+installing ms.gmo link as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/ms/LC_TIME/coreutils.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/nb/LC_MESSAGES
+installing nb.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/nb/LC_MESSAGES/coreutils.mo
+installing nb.gmo link as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/nb/LC_TIME/coreutils.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/nl/LC_MESSAGES
+installing nl.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/nl/LC_MESSAGES/coreutils.mo
+installing nl.gmo link as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/nl/LC_TIME/coreutils.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/no/LC_MESSAGES
+installing no.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/no/LC_MESSAGES/coreutils.mo
+installing no.gmo link as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/no/LC_TIME/coreutils.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/pl/LC_MESSAGES
+installing pl.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/pl/LC_MESSAGES/coreutils.mo
+installing pl.gmo link as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/pl/LC_TIME/coreutils.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/pt/LC_MESSAGES
+installing pt.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/pt/LC_MESSAGES/coreutils.mo
+installing pt.gmo link as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/pt/LC_TIME/coreutils.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/pt_BR/LC_MESSAGES
+installing pt_BR.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/pt_BR/LC_MESSAGES/coreutils.mo
+installing pt_BR.gmo link as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/pt_BR/LC_TIME/coreutils.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/ru/LC_MESSAGES
+installing ru.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/ru/LC_MESSAGES/coreutils.mo
+installing ru.gmo link as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/ru/LC_TIME/coreutils.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/rw/LC_MESSAGES
+installing rw.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/rw/LC_MESSAGES/coreutils.mo
+installing rw.gmo link as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/rw/LC_TIME/coreutils.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/sk/LC_MESSAGES
+installing sk.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/sk/LC_MESSAGES/coreutils.mo
+installing sk.gmo link as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/sk/LC_TIME/coreutils.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/sl/LC_MESSAGES
+installing sl.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/sl/LC_MESSAGES/coreutils.mo
+installing sl.gmo link as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/sl/LC_TIME/coreutils.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/sv/LC_MESSAGES
+installing sv.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/sv/LC_MESSAGES/coreutils.mo
+installing sv.gmo link as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/sv/LC_TIME/coreutils.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/tr/LC_MESSAGES
+installing tr.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/tr/LC_MESSAGES/coreutils.mo
+installing tr.gmo link as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/tr/LC_TIME/coreutils.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/vi/LC_MESSAGES
+installing vi.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/vi/LC_MESSAGES/coreutils.mo
+installing vi.gmo link as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/vi/LC_TIME/coreutils.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/zh_CN/LC_MESSAGES
+installing zh_CN.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/zh_CN/LC_MESSAGES/coreutils.mo
+installing zh_CN.gmo link as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/zh_CN/LC_TIME/coreutils.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/zh_TW/LC_MESSAGES
+installing zh_TW.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/zh_TW/LC_MESSAGES/coreutils.mo
+installing zh_TW.gmo link as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/locale/zh_TW/LC_TIME/coreutils.mo
+if test "coreutils" = "gettext-tools"; then \
+  /bin/sh ../build-aux/mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /usr/bin/install -c -m 644 ./$file \
+		    /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/../../pkg/debian/usr/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/po'
+Making install in tests
+make[1]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests'
+Making install in basename
+make[2]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/basename'
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/basename'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/basename'
+make[2]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/basename'
+Making install in chgrp
+make[2]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/chgrp'
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/chgrp'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/chgrp'
+make[2]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/chgrp'
+Making install in chmod
+make[2]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/chmod'
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/chmod'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/chmod'
+make[2]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/chmod'
+Making install in chown
+make[2]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/chown'
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/chown'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/chown'
+make[2]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/chown'
+Making install in cp
+make[2]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/cp'
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/cp'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/cp'
+make[2]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/cp'
+Making install in cut
+make[2]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/cut'
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/cut'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/cut'
+make[2]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/cut'
+Making install in dd
+make[2]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/dd'
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/dd'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/dd'
+make[2]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/dd'
+Making install in dircolors
+make[2]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/dircolors'
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/dircolors'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/dircolors'
+make[2]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/dircolors'
+Making install in du
+make[2]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/du'
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/du'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/du'
+make[2]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/du'
+Making install in expr
+make[2]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/expr'
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/expr'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/expr'
+make[2]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/expr'
+Making install in factor
+make[2]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/factor'
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/factor'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/factor'
+make[2]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/factor'
+Making install in fmt
+make[2]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/fmt'
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/fmt'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/fmt'
+make[2]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/fmt'
+Making install in head
+make[2]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/head'
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/head'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/head'
+make[2]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/head'
+Making install in install
+make[2]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/install'
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/install'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/install'
+make[2]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/install'
+Making install in join
+make[2]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/join'
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/join'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/join'
+make[2]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/join'
+Making install in ln
+make[2]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/ln'
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/ln'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/ln'
+make[2]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/ln'
+Making install in ls
+make[2]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/ls'
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/ls'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/ls'
+make[2]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/ls'
+Making install in ls-2
+make[2]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/ls-2'
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/ls-2'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/ls-2'
+make[2]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/ls-2'
+Making install in md5sum
+make[2]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/md5sum'
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/md5sum'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/md5sum'
+make[2]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/md5sum'
+Making install in misc
+make[2]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/misc'
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/misc'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/misc'
+make[2]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/misc'
+Making install in mkdir
+make[2]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/mkdir'
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/mkdir'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/mkdir'
+make[2]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/mkdir'
+Making install in mv
+make[2]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/mv'
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/mv'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/mv'
+make[2]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/mv'
+Making install in od
+make[2]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/od'
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/od'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/od'
+make[2]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/od'
+Making install in pr
+make[2]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/pr'
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/pr'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/pr'
+make[2]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/pr'
+Making install in readlink
+make[2]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/readlink'
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/readlink'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/readlink'
+make[2]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/readlink'
+Making install in rm
+make[2]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/rm'
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/rm'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/rm'
+make[2]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/rm'
+Making install in rmdir
+make[2]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/rmdir'
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/rmdir'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/rmdir'
+make[2]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/rmdir'
+Making install in seq
+make[2]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/seq'
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/seq'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/seq'
+make[2]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/seq'
+Making install in sha1sum
+make[2]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/sha1sum'
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/sha1sum'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/sha1sum'
+make[2]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/sha1sum'
+Making install in shred
+make[2]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/shred'
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/shred'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/shred'
+make[2]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/shred'
+Making install in sort
+make[2]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/sort'
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/sort'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/sort'
+make[2]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/sort'
+Making install in stty
+make[2]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/stty'
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/stty'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/stty'
+make[2]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/stty'
+Making install in sum
+make[2]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/sum'
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/sum'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/sum'
+make[2]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/sum'
+Making install in tac
+make[2]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/tac'
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/tac'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/tac'
+make[2]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/tac'
+Making install in tail
+make[2]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/tail'
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/tail'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/tail'
+make[2]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/tail'
+Making install in tail-2
+make[2]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/tail-2'
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/tail-2'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/tail-2'
+make[2]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/tail-2'
+Making install in tee
+make[2]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/tee'
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/tee'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/tee'
+make[2]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/tee'
+Making install in test
+make[2]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/test'
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/test'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/test'
+make[2]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/test'
+Making install in touch
+make[2]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/touch'
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/touch'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/touch'
+make[2]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/touch'
+Making install in tr
+make[2]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/tr'
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/tr'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/tr'
+make[2]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/tr'
+Making install in tsort
+make[2]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/tsort'
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/tsort'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/tsort'
+make[2]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/tsort'
+Making install in unexpand
+make[2]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/unexpand'
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/unexpand'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/unexpand'
+make[2]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/unexpand'
+Making install in uniq
+make[2]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/uniq'
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/uniq'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/uniq'
+make[2]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/uniq'
+Making install in wc
+make[2]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/wc'
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/wc'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/wc'
+make[2]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests/wc'
+make[2]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests'
+make[3]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests'
+make[2]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests'
+make[1]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96/tests'
+make[1]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96'
+make[2]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96'
+make[1]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/coreutils/coreutils-5.96-1/unpack/coreutils-5.96'

@@ -1,0 +1,23 @@
+#!/bin/bash
+
+source configure
+
+pushd ../pkg/debian
+
+{
+# Some packages expect the C preprocessor to be installed in the /lib directory. To support those packages, create this symlink
+#mkdir lib
+#ln -sv ../usr/bin/cpp lib
+
+# Many packages use the name cc to call the C compiler. To satisfy those packages, create a symlink:
+ln -v usr/bin/gcc usr/bin/cc
+
+# Remove info dir file
+rm -v usr/share/info/dir 
+
+# Remove locale dir
+rm -vrf usr/share/locale
+
+} | tee ../../logs/070-fix-files.log
+
+popd

@@ -1,0 +1,145 @@
+  GENHDR   udev_version.h
+  CC       udev_device.o
+  CC       udev_config.o
+  CC       udev_node.o
+  CC       udev_db.o
+  CC       udev_sysfs.o
+  CC       udev_rules.o
+  CC       udev_rules_parse.o
+  CC       udev_utils.o
+  CC       udev_utils_string.o
+  CC       udev_utils_file.o
+  CC       udev_utils_run.o
+  CC       udev_libc_wrapper.o
+  AR       libudev.a
+  RANLIB   libudev.a
+  CC       udev.o
+  LD       udev
+  CC       udevd.o
+  LD       udevd
+  CC       udevtrigger.o
+  LD       udevtrigger
+  CC       udevsettle.o
+  LD       udevsettle
+  CC       udevcontrol.o
+  LD       udevcontrol
+  CC       udevmonitor.o
+  LD       udevmonitor
+  CC       udevinfo.o
+  LD       udevinfo
+  CC       udevtest.o
+  LD       udevtest
+  CC       udevstart.o
+  LD       udevstart
+make[1]: Entering directory `/home/kris/autobuild/packages/udev/udev-0.96/unpack/udev-096/extras/ata_id'
+  CC       ata_id.o
+  LD       ata_id
+make[1]: Leaving directory `/home/kris/autobuild/packages/udev/udev-0.96/unpack/udev-096/extras/ata_id'
+make[1]: Entering directory `/home/kris/autobuild/packages/udev/udev-0.96/unpack/udev-096/extras/cdrom_id'
+  CC       cdrom_id.o
+  LD       cdrom_id
+make[1]: Leaving directory `/home/kris/autobuild/packages/udev/udev-0.96/unpack/udev-096/extras/cdrom_id'
+make[1]: Entering directory `/home/kris/autobuild/packages/udev/udev-0.96/unpack/udev-096/extras/edd_id'
+  CC       edd_id.o
+  LD       edd_id
+make[1]: Leaving directory `/home/kris/autobuild/packages/udev/udev-0.96/unpack/udev-096/extras/edd_id'
+make[1]: Entering directory `/home/kris/autobuild/packages/udev/udev-0.96/unpack/udev-096/extras/firmware'
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/home/kris/autobuild/packages/udev/udev-0.96/unpack/udev-096/extras/firmware'
+make[1]: Entering directory `/home/kris/autobuild/packages/udev/udev-0.96/unpack/udev-096/extras/floppy'
+  CC       create_floppy_devices.o
+  LD       create_floppy_devices
+make[1]: Leaving directory `/home/kris/autobuild/packages/udev/udev-0.96/unpack/udev-096/extras/floppy'
+make[1]: Entering directory `/home/kris/autobuild/packages/udev/udev-0.96/unpack/udev-096/extras/path_id'
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/home/kris/autobuild/packages/udev/udev-0.96/unpack/udev-096/extras/path_id'
+make[1]: Entering directory `/home/kris/autobuild/packages/udev/udev-0.96/unpack/udev-096/extras/scsi_id'
+  GENHDR   scsi_id_version.h
+  CC       scsi_id.o
+  CC       scsi_serial.o
+  LD       scsi_id
+make[1]: Leaving directory `/home/kris/autobuild/packages/udev/udev-0.96/unpack/udev-096/extras/scsi_id'
+make[1]: Entering directory `/home/kris/autobuild/packages/udev/udev-0.96/unpack/udev-096/extras/usb_id'
+  CC       usb_id.o
+  LD       usb_id
+make[1]: Leaving directory `/home/kris/autobuild/packages/udev/udev-0.96/unpack/udev-096/extras/usb_id'
+make[1]: Entering directory `/home/kris/autobuild/packages/udev/udev-0.96/unpack/udev-096/extras/volume_id'
+  CC       vol_id.o
+make[2]: Entering directory `/home/kris/autobuild/packages/udev/udev-0.96/unpack/udev-096/extras/volume_id/lib'
+  CC       ext.o
+  CC       fat.o
+  CC       hfs.o
+  CC       highpoint.o
+  CC       isw_raid.o
+  CC       lsi_raid.o
+  CC       via_raid.o
+  CC       silicon_raid.o
+  CC       nvidia_raid.o
+  CC       promise_raid.o
+  CC       adaptec_raid.o
+  CC       jmicron_raid.o
+  CC       iso9660.o
+  CC       jfs.o
+  CC       linux_raid.o
+  CC       linux_swap.o
+  CC       lvm.o
+  CC       ntfs.o
+  CC       reiserfs.o
+  CC       udf.o
+  CC       ufs.o
+  CC       xfs.o
+  CC       cramfs.o
+  CC       hpfs.o
+  CC       romfs.o
+  CC       sysv.o
+  CC       minix.o
+  CC       gfs.o
+  CC       luks.o
+  CC       ocfs.o
+  CC       vxfs.o
+  CC       squashfs.o
+  CC       netware.o
+  CC       volume_id.o
+  CC       util.o
+  AR       libvolume_id.a
+  RANLIB   libvolume_id.a
+  CC       .shlib/ext.o
+  CC       .shlib/fat.o
+  CC       .shlib/hfs.o
+  CC       .shlib/highpoint.o
+  CC       .shlib/isw_raid.o
+  CC       .shlib/lsi_raid.o
+  CC       .shlib/via_raid.o
+  CC       .shlib/silicon_raid.o
+  CC       .shlib/nvidia_raid.o
+  CC       .shlib/promise_raid.o
+  CC       .shlib/adaptec_raid.o
+  CC       .shlib/jmicron_raid.o
+  CC       .shlib/iso9660.o
+  CC       .shlib/jfs.o
+  CC       .shlib/linux_raid.o
+  CC       .shlib/linux_swap.o
+  CC       .shlib/lvm.o
+  CC       .shlib/ntfs.o
+  CC       .shlib/reiserfs.o
+  CC       .shlib/udf.o
+  CC       .shlib/ufs.o
+  CC       .shlib/xfs.o
+  CC       .shlib/cramfs.o
+  CC       .shlib/hpfs.o
+  CC       .shlib/romfs.o
+  CC       .shlib/sysv.o
+  CC       .shlib/minix.o
+  CC       .shlib/gfs.o
+  CC       .shlib/luks.o
+  CC       .shlib/ocfs.o
+  CC       .shlib/vxfs.o
+  CC       .shlib/squashfs.o
+  CC       .shlib/netware.o
+  CC       .shlib/volume_id.o
+  CC       .shlib/util.o
+  CC       libvolume_id.so.0.66.0
+  GENPC    libvolume_id.pc
+make[2]: Leaving directory `/home/kris/autobuild/packages/udev/udev-0.96/unpack/udev-096/extras/volume_id/lib'
+  LD       vol_id
+make[1]: Leaving directory `/home/kris/autobuild/packages/udev/udev-0.96/unpack/udev-096/extras/volume_id'

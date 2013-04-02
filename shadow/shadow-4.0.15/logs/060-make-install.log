@@ -1,0 +1,645 @@
+Making install in po
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/po'
+/bin/sh .././mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/locale/bs/LC_MESSAGES
+installing bs.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/locale/bs/LC_MESSAGES/shadow.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/locale/ca/LC_MESSAGES
+installing ca.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/locale/ca/LC_MESSAGES/shadow.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/locale/cs/LC_MESSAGES
+installing cs.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/locale/cs/LC_MESSAGES/shadow.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/locale/da/LC_MESSAGES
+installing da.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/locale/da/LC_MESSAGES/shadow.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/locale/de/LC_MESSAGES
+installing de.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/locale/de/LC_MESSAGES/shadow.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/locale/el/LC_MESSAGES
+installing el.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/locale/el/LC_MESSAGES/shadow.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/locale/es/LC_MESSAGES
+installing es.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/locale/es/LC_MESSAGES/shadow.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/locale/eu/LC_MESSAGES
+installing eu.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/locale/eu/LC_MESSAGES/shadow.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/locale/fi/LC_MESSAGES
+installing fi.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/locale/fi/LC_MESSAGES/shadow.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/locale/fr/LC_MESSAGES
+installing fr.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/locale/fr/LC_MESSAGES/shadow.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/locale/gl/LC_MESSAGES
+installing gl.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/locale/gl/LC_MESSAGES/shadow.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/locale/he/LC_MESSAGES
+installing he.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/locale/he/LC_MESSAGES/shadow.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/locale/id/LC_MESSAGES
+installing id.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/locale/id/LC_MESSAGES/shadow.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/locale/it/LC_MESSAGES
+installing it.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/locale/it/LC_MESSAGES/shadow.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/locale/ja/LC_MESSAGES
+installing ja.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/locale/ja/LC_MESSAGES/shadow.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/locale/ko/LC_MESSAGES
+installing ko.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/locale/ko/LC_MESSAGES/shadow.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/locale/nb/LC_MESSAGES
+installing nb.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/locale/nb/LC_MESSAGES/shadow.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/locale/nl/LC_MESSAGES
+installing nl.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/locale/nl/LC_MESSAGES/shadow.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/locale/nn/LC_MESSAGES
+installing nn.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/locale/nn/LC_MESSAGES/shadow.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/locale/pl/LC_MESSAGES
+installing pl.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/locale/pl/LC_MESSAGES/shadow.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/locale/pt/LC_MESSAGES
+installing pt.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/locale/pt/LC_MESSAGES/shadow.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/locale/pt_BR/LC_MESSAGES
+installing pt_BR.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/locale/pt_BR/LC_MESSAGES/shadow.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/locale/ro/LC_MESSAGES
+installing ro.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/locale/ro/LC_MESSAGES/shadow.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/locale/ru/LC_MESSAGES
+installing ru.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/locale/ru/LC_MESSAGES/shadow.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/locale/sk/LC_MESSAGES
+installing sk.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/locale/sk/LC_MESSAGES/shadow.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/locale/sq/LC_MESSAGES
+installing sq.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/locale/sq/LC_MESSAGES/shadow.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/locale/sv/LC_MESSAGES
+installing sv.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/locale/sv/LC_MESSAGES/shadow.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/locale/tl/LC_MESSAGES
+installing tl.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/locale/tl/LC_MESSAGES/shadow.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/locale/tr/LC_MESSAGES
+installing tr.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/locale/tr/LC_MESSAGES/shadow.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/locale/uk/LC_MESSAGES
+installing uk.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/locale/uk/LC_MESSAGES/shadow.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/locale/vi/LC_MESSAGES
+installing vi.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/locale/vi/LC_MESSAGES/shadow.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/locale/zh_CN/LC_MESSAGES
+installing zh_CN.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/locale/zh_CN/LC_MESSAGES/shadow.mo
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/locale/zh_TW/LC_MESSAGES
+installing zh_TW.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/locale/zh_TW/LC_MESSAGES/shadow.mo
+if test "shadow" = "gettext-tools"; then \
+  /bin/sh .././mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /usr/bin/install -c -m 644 ./$file \
+		    /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/po'
+Making install in man
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/man'
+Making install in cs
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/man/cs'
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/man/cs'
+make[3]: Nothing to be done for `install-exec-am'.
+test -z "/usr/share/man/cs/man1" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/cs/man1"
+ /usr/bin/install -c -m 644 './expiry.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/cs/man1/expiry.1'
+ /usr/bin/install -c -m 644 './gpasswd.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/cs/man1/gpasswd.1'
+ /usr/bin/install -c -m 644 './id.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/cs/man1/id.1'
+ /usr/bin/install -c -m 644 './su.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/cs/man1/su.1'
+test -z "/usr/share/man/cs/man5" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/cs/man5"
+ /usr/bin/install -c -m 644 './faillog.5' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/cs/man5/faillog.5'
+ /usr/bin/install -c -m 644 './passwd.5' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/cs/man5/passwd.5'
+ /usr/bin/install -c -m 644 './shadow.5' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/cs/man5/shadow.5'
+test -z "/usr/share/man/cs/man8" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/cs/man8"
+ /usr/bin/install -c -m 644 './faillog.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/cs/man8/faillog.8'
+ /usr/bin/install -c -m 644 './groupadd.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/cs/man8/groupadd.8'
+ /usr/bin/install -c -m 644 './groupdel.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/cs/man8/groupdel.8'
+ /usr/bin/install -c -m 644 './lastlog.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/cs/man8/lastlog.8'
+ /usr/bin/install -c -m 644 './nologin.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/cs/man8/nologin.8'
+ /usr/bin/install -c -m 644 './vipw.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/cs/man8/vipw.8'
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/man/cs'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/man/cs'
+Making install in de
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/man/de'
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/man/de'
+make[3]: Nothing to be done for `install-exec-am'.
+test -z "/usr/share/man/de/man1" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/de/man1"
+ /usr/bin/install -c -m 644 './chsh.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/de/man1/chsh.1'
+ /usr/bin/install -c -m 644 './chfn.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/de/man1/chfn.1'
+ /usr/bin/install -c -m 644 './login.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/de/man1/login.1'
+ /usr/bin/install -c -m 644 './newgrp.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/de/man1/newgrp.1'
+ /usr/bin/install -c -m 644 './passwd.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/de/man1/passwd.1'
+test -z "/usr/share/man/de/man5" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/de/man5"
+ /usr/bin/install -c -m 644 './passwd.5' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/de/man5/passwd.5'
+test -z "/usr/share/man/de/man8" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/de/man8"
+ /usr/bin/install -c -m 644 './vigr.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/de/man8/vigr.8'
+ /usr/bin/install -c -m 644 './vipw.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/de/man8/vipw.8'
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/man/de'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/man/de'
+Making install in es
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/man/es'
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/man/es'
+make[3]: Nothing to be done for `install-exec-am'.
+test -z "/usr/share/man/es/man1" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/es/man1"
+ /usr/bin/install -c -m 644 './login.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/es/man1/login.1'
+ /usr/bin/install -c -m 644 './newgrp.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/es/man1/newgrp.1'
+ /usr/bin/install -c -m 644 './passwd.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/es/man1/passwd.1'
+ /usr/bin/install -c -m 644 './su.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/es/man1/su.1'
+test -z "/usr/share/man/es/man5" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/es/man5"
+ /usr/bin/install -c -m 644 './passwd.5' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/es/man5/passwd.5'
+test -z "/usr/share/man/es/man8" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/es/man8"
+ /usr/bin/install -c -m 644 './vigr.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/es/man8/vigr.8'
+ /usr/bin/install -c -m 644 './vipw.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/es/man8/vipw.8'
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/man/es'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/man/es'
+Making install in fi
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/man/fi'
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/man/fi'
+make[3]: Nothing to be done for `install-exec-am'.
+test -z "/usr/share/man/fi/man1" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/fi/man1"
+ /usr/bin/install -c -m 644 './chfn.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/fi/man1/chfn.1'
+ /usr/bin/install -c -m 644 './chsh.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/fi/man1/chsh.1'
+ /usr/bin/install -c -m 644 './passwd.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/fi/man1/passwd.1'
+ /usr/bin/install -c -m 644 './su.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/fi/man1/su.1'
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/man/fi'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/man/fi'
+Making install in fr
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/man/fr'
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/man/fr'
+make[3]: Nothing to be done for `install-exec-am'.
+test -z "/usr/share/man/fr/man1" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/fr/man1"
+ /usr/bin/install -c -m 644 './chage.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/fr/man1/chage.1'
+ /usr/bin/install -c -m 644 './chfn.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/fr/man1/chfn.1'
+ /usr/bin/install -c -m 644 './chsh.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/fr/man1/chsh.1'
+ /usr/bin/install -c -m 644 './expiry.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/fr/man1/expiry.1'
+ /usr/bin/install -c -m 644 './gpasswd.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/fr/man1/gpasswd.1'
+ /usr/bin/install -c -m 644 './login.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/fr/man1/login.1'
+ /usr/bin/install -c -m 644 './newgrp.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/fr/man1/newgrp.1'
+ /usr/bin/install -c -m 644 './passwd.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/fr/man1/passwd.1'
+ /usr/bin/install -c -m 644 './sg.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/fr/man1/sg.1'
+ /usr/bin/install -c -m 644 './su.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/fr/man1/su.1'
+test -z "/usr/share/man/fr/man3" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/fr/man3"
+ /usr/bin/install -c -m 644 './getspnam.3' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/fr/man3/getspnam.3'
+ /usr/bin/install -c -m 644 './shadow.3' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/fr/man3/shadow.3'
+test -z "/usr/share/man/fr/man5" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/fr/man5"
+ /usr/bin/install -c -m 644 './faillog.5' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/fr/man5/faillog.5'
+ /usr/bin/install -c -m 644 './gshadow.5' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/fr/man5/gshadow.5'
+ /usr/bin/install -c -m 644 './limits.5' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/fr/man5/limits.5'
+ /usr/bin/install -c -m 644 './login.access.5' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/fr/man5/login.access.5'
+ /usr/bin/install -c -m 644 './login.defs.5' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/fr/man5/login.defs.5'
+ /usr/bin/install -c -m 644 './passwd.5' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/fr/man5/passwd.5'
+ /usr/bin/install -c -m 644 './porttime.5' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/fr/man5/porttime.5'
+ /usr/bin/install -c -m 644 './shadow.5' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/fr/man5/shadow.5'
+ /usr/bin/install -c -m 644 './suauth.5' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/fr/man5/suauth.5'
+test -z "/usr/share/man/fr/man8" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/fr/man8"
+ /usr/bin/install -c -m 644 './chpasswd.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/fr/man8/chpasswd.8'
+ /usr/bin/install -c -m 644 './faillog.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/fr/man8/faillog.8'
+ /usr/bin/install -c -m 644 './groupadd.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/fr/man8/groupadd.8'
+ /usr/bin/install -c -m 644 './groupdel.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/fr/man8/groupdel.8'
+ /usr/bin/install -c -m 644 './groupmod.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/fr/man8/groupmod.8'
+ /usr/bin/install -c -m 644 './grpck.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/fr/man8/grpck.8'
+ /usr/bin/install -c -m 644 './grpconv.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/fr/man8/grpconv.8'
+ /usr/bin/install -c -m 644 './grpunconv.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/fr/man8/grpunconv.8'
+ /usr/bin/install -c -m 644 './lastlog.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/fr/man8/lastlog.8'
+ /usr/bin/install -c -m 644 './logoutd.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/fr/man8/logoutd.8'
+ /usr/bin/install -c -m 644 './newusers.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/fr/man8/newusers.8'
+ /usr/bin/install -c -m 644 './pwck.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/fr/man8/pwck.8'
+ /usr/bin/install -c -m 644 './pwconv.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/fr/man8/pwconv.8'
+ /usr/bin/install -c -m 644 './pwunconv.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/fr/man8/pwunconv.8'
+ /usr/bin/install -c -m 644 './useradd.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/fr/man8/useradd.8'
+ /usr/bin/install -c -m 644 './userdel.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/fr/man8/userdel.8'
+ /usr/bin/install -c -m 644 './usermod.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/fr/man8/usermod.8'
+ /usr/bin/install -c -m 644 './vigr.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/fr/man8/vigr.8'
+ /usr/bin/install -c -m 644 './vipw.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/fr/man8/vipw.8'
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/man/fr'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/man/fr'
+Making install in hu
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/man/hu'
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/man/hu'
+make[3]: Nothing to be done for `install-exec-am'.
+test -z "/usr/share/man/hu/man1" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/hu/man1"
+ /usr/bin/install -c -m 644 './chsh.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/hu/man1/chsh.1'
+ /usr/bin/install -c -m 644 './gpasswd.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/hu/man1/gpasswd.1'
+ /usr/bin/install -c -m 644 './login.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/hu/man1/login.1'
+ /usr/bin/install -c -m 644 './newgrp.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/hu/man1/newgrp.1'
+ /usr/bin/install -c -m 644 './passwd.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/hu/man1/passwd.1'
+ /usr/bin/install -c -m 644 './sg.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/hu/man1/sg.1'
+ /usr/bin/install -c -m 644 './su.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/hu/man1/su.1'
+test -z "/usr/share/man/hu/man5" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/hu/man5"
+ /usr/bin/install -c -m 644 './passwd.5' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/hu/man5/passwd.5'
+test -z "/usr/share/man/hu/man8" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/hu/man8"
+ /usr/bin/install -c -m 644 './lastlog.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/hu/man8/lastlog.8'
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/man/hu'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/man/hu'
+Making install in id
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/man/id'
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/man/id'
+make[3]: Nothing to be done for `install-exec-am'.
+test -z "/usr/share/man/id/man1" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/id/man1"
+ /usr/bin/install -c -m 644 './chsh.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/id/man1/chsh.1'
+ /usr/bin/install -c -m 644 './login.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/id/man1/login.1'
+test -z "/usr/share/man/id/man8" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/id/man8"
+ /usr/bin/install -c -m 644 './useradd.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/id/man8/useradd.8'
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/man/id'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/man/id'
+Making install in it
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/man/it'
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/man/it'
+make[3]: Nothing to be done for `install-exec-am'.
+test -z "/usr/share/man/it/man1" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/it/man1"
+ /usr/bin/install -c -m 644 './chage.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/it/man1/chage.1'
+ /usr/bin/install -c -m 644 './chfn.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/it/man1/chfn.1'
+ /usr/bin/install -c -m 644 './chsh.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/it/man1/chsh.1'
+ /usr/bin/install -c -m 644 './expiry.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/it/man1/expiry.1'
+ /usr/bin/install -c -m 644 './gpasswd.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/it/man1/gpasswd.1'
+ /usr/bin/install -c -m 644 './id.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/it/man1/id.1'
+ /usr/bin/install -c -m 644 './login.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/it/man1/login.1'
+ /usr/bin/install -c -m 644 './newgrp.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/it/man1/newgrp.1'
+ /usr/bin/install -c -m 644 './passwd.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/it/man1/passwd.1'
+ /usr/bin/install -c -m 644 './sg.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/it/man1/sg.1'
+ /usr/bin/install -c -m 644 './su.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/it/man1/su.1'
+test -z "/usr/share/man/it/man3" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/it/man3"
+ /usr/bin/install -c -m 644 './getspnam.3' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/it/man3/getspnam.3'
+ /usr/bin/install -c -m 644 './shadow.3' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/it/man3/shadow.3'
+test -z "/usr/share/man/it/man5" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/it/man5"
+ /usr/bin/install -c -m 644 './faillog.5' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/it/man5/faillog.5'
+ /usr/bin/install -c -m 644 './passwd.5' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/it/man5/passwd.5'
+ /usr/bin/install -c -m 644 './porttime.5' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/it/man5/porttime.5'
+ /usr/bin/install -c -m 644 './shadow.5' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/it/man5/shadow.5'
+test -z "/usr/share/man/it/man8" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/it/man8"
+ /usr/bin/install -c -m 644 './chpasswd.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/it/man8/chpasswd.8'
+ /usr/bin/install -c -m 644 './faillog.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/it/man8/faillog.8'
+ /usr/bin/install -c -m 644 './groupadd.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/it/man8/groupadd.8'
+ /usr/bin/install -c -m 644 './groupdel.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/it/man8/groupdel.8'
+ /usr/bin/install -c -m 644 './groupmod.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/it/man8/groupmod.8'
+ /usr/bin/install -c -m 644 './grpck.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/it/man8/grpck.8'
+ /usr/bin/install -c -m 644 './grpconv.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/it/man8/grpconv.8'
+ /usr/bin/install -c -m 644 './grpunconv.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/it/man8/grpunconv.8'
+ /usr/bin/install -c -m 644 './lastlog.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/it/man8/lastlog.8'
+ /usr/bin/install -c -m 644 './newusers.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/it/man8/newusers.8'
+ /usr/bin/install -c -m 644 './pwck.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/it/man8/pwck.8'
+ /usr/bin/install -c -m 644 './pwconv.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/it/man8/pwconv.8'
+ /usr/bin/install -c -m 644 './pwunconv.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/it/man8/pwunconv.8'
+ /usr/bin/install -c -m 644 './useradd.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/it/man8/useradd.8'
+ /usr/bin/install -c -m 644 './userdel.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/it/man8/userdel.8'
+ /usr/bin/install -c -m 644 './usermod.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/it/man8/usermod.8'
+ /usr/bin/install -c -m 644 './vigr.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/it/man8/vigr.8'
+ /usr/bin/install -c -m 644 './vipw.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/it/man8/vipw.8'
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/man/it'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/man/it'
+Making install in ja
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/man/ja'
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/man/ja'
+make[3]: Nothing to be done for `install-exec-am'.
+test -z "/usr/share/man/ja/man1" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/ja/man1"
+ /usr/bin/install -c -m 644 './chage.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/ja/man1/chage.1'
+ /usr/bin/install -c -m 644 './chfn.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/ja/man1/chfn.1'
+ /usr/bin/install -c -m 644 './chsh.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/ja/man1/chsh.1'
+ /usr/bin/install -c -m 644 './expiry.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/ja/man1/expiry.1'
+ /usr/bin/install -c -m 644 './gpasswd.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/ja/man1/gpasswd.1'
+ /usr/bin/install -c -m 644 './login.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/ja/man1/login.1'
+ /usr/bin/install -c -m 644 './newgrp.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/ja/man1/newgrp.1'
+ /usr/bin/install -c -m 644 './passwd.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/ja/man1/passwd.1'
+ /usr/bin/install -c -m 644 './sg.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/ja/man1/sg.1'
+ /usr/bin/install -c -m 644 './su.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/ja/man1/su.1'
+test -z "/usr/share/man/ja/man5" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/ja/man5"
+ /usr/bin/install -c -m 644 './faillog.5' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/ja/man5/faillog.5'
+ /usr/bin/install -c -m 644 './limits.5' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/ja/man5/limits.5'
+ /usr/bin/install -c -m 644 './login.access.5' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/ja/man5/login.access.5'
+ /usr/bin/install -c -m 644 './login.defs.5' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/ja/man5/login.defs.5'
+ /usr/bin/install -c -m 644 './passwd.5' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/ja/man5/passwd.5'
+ /usr/bin/install -c -m 644 './porttime.5' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/ja/man5/porttime.5'
+ /usr/bin/install -c -m 644 './shadow.5' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/ja/man5/shadow.5'
+ /usr/bin/install -c -m 644 './suauth.5' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/ja/man5/suauth.5'
+test -z "/usr/share/man/ja/man8" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/ja/man8"
+ /usr/bin/install -c -m 644 './chpasswd.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/ja/man8/chpasswd.8'
+ /usr/bin/install -c -m 644 './faillog.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/ja/man8/faillog.8'
+ /usr/bin/install -c -m 644 './groupadd.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/ja/man8/groupadd.8'
+ /usr/bin/install -c -m 644 './groupdel.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/ja/man8/groupdel.8'
+ /usr/bin/install -c -m 644 './groupmod.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/ja/man8/groupmod.8'
+ /usr/bin/install -c -m 644 './grpck.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/ja/man8/grpck.8'
+ /usr/bin/install -c -m 644 './grpconv.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/ja/man8/grpconv.8'
+ /usr/bin/install -c -m 644 './grpunconv.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/ja/man8/grpunconv.8'
+ /usr/bin/install -c -m 644 './lastlog.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/ja/man8/lastlog.8'
+ /usr/bin/install -c -m 644 './logoutd.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/ja/man8/logoutd.8'
+ /usr/bin/install -c -m 644 './newusers.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/ja/man8/newusers.8'
+ /usr/bin/install -c -m 644 './pwck.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/ja/man8/pwck.8'
+ /usr/bin/install -c -m 644 './pwconv.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/ja/man8/pwconv.8'
+ /usr/bin/install -c -m 644 './pwunconv.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/ja/man8/pwunconv.8'
+ /usr/bin/install -c -m 644 './useradd.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/ja/man8/useradd.8'
+ /usr/bin/install -c -m 644 './userdel.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/ja/man8/userdel.8'
+ /usr/bin/install -c -m 644 './usermod.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/ja/man8/usermod.8'
+ /usr/bin/install -c -m 644 './vigr.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/ja/man8/vigr.8'
+ /usr/bin/install -c -m 644 './vipw.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/ja/man8/vipw.8'
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/man/ja'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/man/ja'
+Making install in pl
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/man/pl'
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/man/pl'
+make[3]: Nothing to be done for `install-exec-am'.
+test -z "/usr/share/man/pl/man1" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/pl/man1"
+ /usr/bin/install -c -m 644 './chage.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/pl/man1/chage.1'
+ /usr/bin/install -c -m 644 './chfn.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/pl/man1/chfn.1'
+ /usr/bin/install -c -m 644 './chsh.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/pl/man1/chsh.1'
+ /usr/bin/install -c -m 644 './expiry.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/pl/man1/expiry.1'
+ /usr/bin/install -c -m 644 './gpasswd.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/pl/man1/gpasswd.1'
+ /usr/bin/install -c -m 644 './login.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/pl/man1/login.1'
+ /usr/bin/install -c -m 644 './newgrp.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/pl/man1/newgrp.1'
+ /usr/bin/install -c -m 644 './passwd.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/pl/man1/passwd.1'
+ /usr/bin/install -c -m 644 './sg.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/pl/man1/sg.1'
+ /usr/bin/install -c -m 644 './su.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/pl/man1/su.1'
+test -z "/usr/share/man/pl/man5" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/pl/man5"
+ /usr/bin/install -c -m 644 './faillog.5' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/pl/man5/faillog.5'
+ /usr/bin/install -c -m 644 './limits.5' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/pl/man5/limits.5'
+ /usr/bin/install -c -m 644 './login.access.5' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/pl/man5/login.access.5'
+ /usr/bin/install -c -m 644 './login.defs.5' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/pl/man5/login.defs.5'
+ /usr/bin/install -c -m 644 './passwd.5' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/pl/man5/passwd.5'
+ /usr/bin/install -c -m 644 './porttime.5' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/pl/man5/porttime.5'
+ /usr/bin/install -c -m 644 './shadow.5' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/pl/man5/shadow.5'
+ /usr/bin/install -c -m 644 './suauth.5' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/pl/man5/suauth.5'
+test -z "/usr/share/man/pl/man8" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/pl/man8"
+ /usr/bin/install -c -m 644 './chpasswd.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/pl/man8/chpasswd.8'
+ /usr/bin/install -c -m 644 './faillog.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/pl/man8/faillog.8'
+ /usr/bin/install -c -m 644 './groupadd.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/pl/man8/groupadd.8'
+ /usr/bin/install -c -m 644 './groupdel.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/pl/man8/groupdel.8'
+ /usr/bin/install -c -m 644 './groupmod.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/pl/man8/groupmod.8'
+ /usr/bin/install -c -m 644 './grpck.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/pl/man8/grpck.8'
+ /usr/bin/install -c -m 644 './grpconv.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/pl/man8/grpconv.8'
+ /usr/bin/install -c -m 644 './grpunconv.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/pl/man8/grpunconv.8'
+ /usr/bin/install -c -m 644 './lastlog.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/pl/man8/lastlog.8'
+ /usr/bin/install -c -m 644 './logoutd.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/pl/man8/logoutd.8'
+ /usr/bin/install -c -m 644 './newusers.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/pl/man8/newusers.8'
+ /usr/bin/install -c -m 644 './pwck.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/pl/man8/pwck.8'
+ /usr/bin/install -c -m 644 './pwconv.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/pl/man8/pwconv.8'
+ /usr/bin/install -c -m 644 './pwunconv.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/pl/man8/pwunconv.8'
+ /usr/bin/install -c -m 644 './useradd.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/pl/man8/useradd.8'
+ /usr/bin/install -c -m 644 './userdel.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/pl/man8/userdel.8'
+ /usr/bin/install -c -m 644 './usermod.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/pl/man8/usermod.8'
+ /usr/bin/install -c -m 644 './vigr.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/pl/man8/vigr.8'
+ /usr/bin/install -c -m 644 './vipw.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/pl/man8/vipw.8'
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/man/pl'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/man/pl'
+Making install in pt_BR
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/man/pt_BR'
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/man/pt_BR'
+make[3]: Nothing to be done for `install-exec-am'.
+test -z "/usr/share/man/pt_BR/man1" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/pt_BR/man1"
+ /usr/bin/install -c -m 644 './gpasswd.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/pt_BR/man1/gpasswd.1'
+test -z "/usr/share/man/pt_BR/man5" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/pt_BR/man5"
+ /usr/bin/install -c -m 644 './passwd.5' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/pt_BR/man5/passwd.5'
+ /usr/bin/install -c -m 644 './shadow.5' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/pt_BR/man5/shadow.5'
+test -z "/usr/share/man/pt_BR/man8" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/pt_BR/man8"
+ /usr/bin/install -c -m 644 './groupadd.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/pt_BR/man8/groupadd.8'
+ /usr/bin/install -c -m 644 './groupdel.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/pt_BR/man8/groupdel.8'
+ /usr/bin/install -c -m 644 './groupmod.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/pt_BR/man8/groupmod.8'
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/man/pt_BR'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/man/pt_BR'
+Making install in ru
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/man/ru'
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/man/ru'
+make[3]: Nothing to be done for `install-exec-am'.
+test -z "/usr/share/man/ru/man1" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/ru/man1"
+ /usr/bin/install -c -m 644 './chage.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/ru/man1/chage.1'
+ /usr/bin/install -c -m 644 './chfn.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/ru/man1/chfn.1'
+ /usr/bin/install -c -m 644 './chsh.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/ru/man1/chsh.1'
+ /usr/bin/install -c -m 644 './expiry.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/ru/man1/expiry.1'
+ /usr/bin/install -c -m 644 './gpasswd.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/ru/man1/gpasswd.1'
+ /usr/bin/install -c -m 644 './id.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/ru/man1/id.1'
+ /usr/bin/install -c -m 644 './login.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/ru/man1/login.1'
+ /usr/bin/install -c -m 644 './newgrp.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/ru/man1/newgrp.1'
+ /usr/bin/install -c -m 644 './passwd.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/ru/man1/passwd.1'
+ /usr/bin/install -c -m 644 './sg.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/ru/man1/sg.1'
+ /usr/bin/install -c -m 644 './su.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/ru/man1/su.1'
+test -z "/usr/share/man/ru/man3" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/ru/man3"
+ /usr/bin/install -c -m 644 './getspnam.3' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/ru/man3/getspnam.3'
+ /usr/bin/install -c -m 644 './pw_auth.3' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/ru/man3/pw_auth.3'
+ /usr/bin/install -c -m 644 './shadow.3' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/ru/man3/shadow.3'
+test -z "/usr/share/man/ru/man5" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/ru/man5"
+ /usr/bin/install -c -m 644 './faillog.5' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/ru/man5/faillog.5'
+ /usr/bin/install -c -m 644 './gshadow.5' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/ru/man5/gshadow.5'
+ /usr/bin/install -c -m 644 './limits.5' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/ru/man5/limits.5'
+ /usr/bin/install -c -m 644 './login.access.5' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/ru/man5/login.access.5'
+ /usr/bin/install -c -m 644 './login.defs.5' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/ru/man5/login.defs.5'
+ /usr/bin/install -c -m 644 './passwd.5' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/ru/man5/passwd.5'
+ /usr/bin/install -c -m 644 './porttime.5' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/ru/man5/porttime.5'
+ /usr/bin/install -c -m 644 './shadow.5' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/ru/man5/shadow.5'
+ /usr/bin/install -c -m 644 './suauth.5' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/ru/man5/suauth.5'
+test -z "/usr/share/man/ru/man8" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/ru/man8"
+ /usr/bin/install -c -m 644 './chpasswd.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/ru/man8/chpasswd.8'
+ /usr/bin/install -c -m 644 './faillog.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/ru/man8/faillog.8'
+ /usr/bin/install -c -m 644 './groupadd.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/ru/man8/groupadd.8'
+ /usr/bin/install -c -m 644 './groupdel.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/ru/man8/groupdel.8'
+ /usr/bin/install -c -m 644 './groupmems.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/ru/man8/groupmems.8'
+ /usr/bin/install -c -m 644 './groupmod.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/ru/man8/groupmod.8'
+ /usr/bin/install -c -m 644 './grpck.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/ru/man8/grpck.8'
+ /usr/bin/install -c -m 644 './grpconv.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/ru/man8/grpconv.8'
+ /usr/bin/install -c -m 644 './grpunconv.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/ru/man8/grpunconv.8'
+ /usr/bin/install -c -m 644 './lastlog.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/ru/man8/lastlog.8'
+ /usr/bin/install -c -m 644 './logoutd.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/ru/man8/logoutd.8'
+ /usr/bin/install -c -m 644 './newusers.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/ru/man8/newusers.8'
+ /usr/bin/install -c -m 644 './nologin.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/ru/man8/nologin.8'
+ /usr/bin/install -c -m 644 './pwck.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/ru/man8/pwck.8'
+ /usr/bin/install -c -m 644 './pwconv.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/ru/man8/pwconv.8'
+ /usr/bin/install -c -m 644 './pwunconv.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/ru/man8/pwunconv.8'
+ /usr/bin/install -c -m 644 './sulogin.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/ru/man8/sulogin.8'
+ /usr/bin/install -c -m 644 './useradd.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/ru/man8/useradd.8'
+ /usr/bin/install -c -m 644 './userdel.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/ru/man8/userdel.8'
+ /usr/bin/install -c -m 644 './usermod.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/ru/man8/usermod.8'
+ /usr/bin/install -c -m 644 './vigr.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/ru/man8/vigr.8'
+ /usr/bin/install -c -m 644 './vipw.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/ru/man8/vipw.8'
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/man/ru'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/man/ru'
+Making install in tr
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/man/tr'
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/man/tr'
+make[3]: Nothing to be done for `install-exec-am'.
+test -z "/usr/share/man/tr/man1" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/tr/man1"
+ /usr/bin/install -c -m 644 './chage.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/tr/man1/chage.1'
+ /usr/bin/install -c -m 644 './chfn.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/tr/man1/chfn.1'
+ /usr/bin/install -c -m 644 './login.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/tr/man1/login.1'
+ /usr/bin/install -c -m 644 './passwd.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/tr/man1/passwd.1'
+ /usr/bin/install -c -m 644 './su.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/tr/man1/su.1'
+test -z "/usr/share/man/tr/man5" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/tr/man5"
+ /usr/bin/install -c -m 644 './passwd.5' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/tr/man5/passwd.5'
+ /usr/bin/install -c -m 644 './shadow.5' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/tr/man5/shadow.5'
+test -z "/usr/share/man/tr/man8" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/tr/man8"
+ /usr/bin/install -c -m 644 './groupadd.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/tr/man8/groupadd.8'
+ /usr/bin/install -c -m 644 './groupdel.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/tr/man8/groupdel.8'
+ /usr/bin/install -c -m 644 './groupmod.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/tr/man8/groupmod.8'
+ /usr/bin/install -c -m 644 './useradd.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/tr/man8/useradd.8'
+ /usr/bin/install -c -m 644 './userdel.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/tr/man8/userdel.8'
+ /usr/bin/install -c -m 644 './usermod.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/tr/man8/usermod.8'
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/man/tr'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/man/tr'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/man'
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/man'
+make[3]: Nothing to be done for `install-exec-am'.
+test -z "/usr/share/man/man1" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/man1"
+ /usr/bin/install -c -m 644 './chage.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/man1/chage.1'
+ /usr/bin/install -c -m 644 './chfn.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/man1/chfn.1'
+ /usr/bin/install -c -m 644 './chsh.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/man1/chsh.1'
+ /usr/bin/install -c -m 644 './expiry.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/man1/expiry.1'
+ /usr/bin/install -c -m 644 './gpasswd.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/man1/gpasswd.1'
+ /usr/bin/install -c -m 644 './login.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/man1/login.1'
+ /usr/bin/install -c -m 644 './newgrp.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/man1/newgrp.1'
+ /usr/bin/install -c -m 644 './passwd.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/man1/passwd.1'
+ /usr/bin/install -c -m 644 './sg.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/man1/sg.1'
+ /usr/bin/install -c -m 644 './su.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/man1/su.1'
+test -z "/usr/share/man/man3" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/man3"
+ /usr/bin/install -c -m 644 './getspnam.3' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/man3/getspnam.3'
+ /usr/bin/install -c -m 644 './shadow.3' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/man3/shadow.3'
+test -z "/usr/share/man/man5" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/man5"
+ /usr/bin/install -c -m 644 './faillog.5' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/man5/faillog.5'
+ /usr/bin/install -c -m 644 './gshadow.5' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/man5/gshadow.5'
+ /usr/bin/install -c -m 644 './limits.5' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/man5/limits.5'
+ /usr/bin/install -c -m 644 './login.access.5' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/man5/login.access.5'
+ /usr/bin/install -c -m 644 './login.defs.5' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/man5/login.defs.5'
+ /usr/bin/install -c -m 644 './passwd.5' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/man5/passwd.5'
+ /usr/bin/install -c -m 644 './porttime.5' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/man5/porttime.5'
+ /usr/bin/install -c -m 644 './shadow.5' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/man5/shadow.5'
+ /usr/bin/install -c -m 644 './suauth.5' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/man5/suauth.5'
+test -z "/usr/share/man/man8" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/man8"
+ /usr/bin/install -c -m 644 './chpasswd.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/man8/chpasswd.8'
+ /usr/bin/install -c -m 644 './faillog.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/man8/faillog.8'
+ /usr/bin/install -c -m 644 './groupadd.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/man8/groupadd.8'
+ /usr/bin/install -c -m 644 './groupdel.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/man8/groupdel.8'
+ /usr/bin/install -c -m 644 './groupmod.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/man8/groupmod.8'
+ /usr/bin/install -c -m 644 './grpck.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/man8/grpck.8'
+ /usr/bin/install -c -m 644 './grpconv.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/man8/grpconv.8'
+ /usr/bin/install -c -m 644 './grpunconv.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/man8/grpunconv.8'
+ /usr/bin/install -c -m 644 './lastlog.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/man8/lastlog.8'
+ /usr/bin/install -c -m 644 './logoutd.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/man8/logoutd.8'
+ /usr/bin/install -c -m 644 './newusers.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/man8/newusers.8'
+ /usr/bin/install -c -m 644 './nologin.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/man8/nologin.8'
+ /usr/bin/install -c -m 644 './pwck.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/man8/pwck.8'
+ /usr/bin/install -c -m 644 './pwconv.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/man8/pwconv.8'
+ /usr/bin/install -c -m 644 './pwunconv.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/man8/pwunconv.8'
+ /usr/bin/install -c -m 644 './useradd.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/man8/useradd.8'
+ /usr/bin/install -c -m 644 './userdel.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/man8/userdel.8'
+ /usr/bin/install -c -m 644 './usermod.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/man8/usermod.8'
+ /usr/bin/install -c -m 644 './vigr.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/man8/vigr.8'
+ /usr/bin/install -c -m 644 './vipw.8' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/share/man/man8/vipw.8'
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/man'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/man'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/man'
+Making install in libmisc
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/libmisc'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/libmisc'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/libmisc'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/libmisc'
+Making install in lib
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/lib'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/lib'
+test -z "/lib" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/lib"
+ /bin/sh ../libtool --mode=install /usr/bin/install -c  'libshadow.la' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/lib/libshadow.la'
+/usr/bin/install -c .libs/libshadow.so.0.0.0 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/lib/libshadow.so.0.0.0
+(cd /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/lib && { ln -s -f libshadow.so.0.0.0 libshadow.so.0 || { rm -f libshadow.so.0 && ln -s libshadow.so.0.0.0 libshadow.so.0; }; })
+(cd /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/lib && { ln -s -f libshadow.so.0.0.0 libshadow.so || { rm -f libshadow.so && ln -s libshadow.so.0.0.0 libshadow.so; }; })
+/usr/bin/install -c .libs/libshadow.lai /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/lib/libshadow.la
+/usr/bin/install -c .libs/libshadow.a /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/lib/libshadow.a
+chmod 644 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/lib/libshadow.a
+ranlib /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/lib/libshadow.a
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/lib'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/lib'
+Making install in src
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/src'
+make  install-exec-am install-data-am
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/src'
+test -z "/bin" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/bin"
+  /bin/sh ../libtool --mode=install /usr/bin/install -c 'login' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/bin/login'
+/usr/bin/install -c .libs/login /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/bin/login
+  /bin/sh ../libtool --mode=install /usr/bin/install -c 'su' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/bin/su'
+/usr/bin/install -c .libs/su /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/bin/su
+test -z "/usr/bin" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/bin"
+  /bin/sh ../libtool --mode=install /usr/bin/install -c 'faillog' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/bin/faillog'
+/usr/bin/install -c .libs/faillog /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/bin/faillog
+  /bin/sh ../libtool --mode=install /usr/bin/install -c 'lastlog' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/bin/lastlog'
+/usr/bin/install -c .libs/lastlog /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/bin/lastlog
+  /bin/sh ../libtool --mode=install /usr/bin/install -c 'chage' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/bin/chage'
+/usr/bin/install -c .libs/chage /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/bin/chage
+  /bin/sh ../libtool --mode=install /usr/bin/install -c 'chfn' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/bin/chfn'
+/usr/bin/install -c .libs/chfn /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/bin/chfn
+  /bin/sh ../libtool --mode=install /usr/bin/install -c 'chsh' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/bin/chsh'
+/usr/bin/install -c .libs/chsh /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/bin/chsh
+  /bin/sh ../libtool --mode=install /usr/bin/install -c 'expiry' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/bin/expiry'
+/usr/bin/install -c .libs/expiry /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/bin/expiry
+  /bin/sh ../libtool --mode=install /usr/bin/install -c 'gpasswd' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/bin/gpasswd'
+/usr/bin/install -c .libs/gpasswd /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/bin/gpasswd
+  /bin/sh ../libtool --mode=install /usr/bin/install -c 'newgrp' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/bin/newgrp'
+/usr/bin/install -c .libs/newgrp /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/bin/newgrp
+  /bin/sh ../libtool --mode=install /usr/bin/install -c 'passwd' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/bin/passwd'
+/usr/bin/install -c .libs/passwd /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/bin/passwd
+test -z "/usr/sbin" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/sbin"
+  /bin/sh ../libtool --mode=install /usr/bin/install -c 'chgpasswd' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/sbin/chgpasswd'
+/usr/bin/install -c .libs/chgpasswd /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/sbin/chgpasswd
+  /bin/sh ../libtool --mode=install /usr/bin/install -c 'chpasswd' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/sbin/chpasswd'
+/usr/bin/install -c .libs/chpasswd /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/sbin/chpasswd
+  /bin/sh ../libtool --mode=install /usr/bin/install -c 'groupadd' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/sbin/groupadd'
+/usr/bin/install -c .libs/groupadd /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/sbin/groupadd
+  /bin/sh ../libtool --mode=install /usr/bin/install -c 'groupdel' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/sbin/groupdel'
+/usr/bin/install -c .libs/groupdel /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/sbin/groupdel
+  /bin/sh ../libtool --mode=install /usr/bin/install -c 'groupmod' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/sbin/groupmod'
+/usr/bin/install -c .libs/groupmod /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/sbin/groupmod
+  /bin/sh ../libtool --mode=install /usr/bin/install -c 'grpck' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/sbin/grpck'
+/usr/bin/install -c .libs/grpck /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/sbin/grpck
+  /bin/sh ../libtool --mode=install /usr/bin/install -c 'grpconv' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/sbin/grpconv'
+/usr/bin/install -c .libs/grpconv /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/sbin/grpconv
+  /bin/sh ../libtool --mode=install /usr/bin/install -c 'grpunconv' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/sbin/grpunconv'
+/usr/bin/install -c .libs/grpunconv /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/sbin/grpunconv
+  /bin/sh ../libtool --mode=install /usr/bin/install -c 'logoutd' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/sbin/logoutd'
+/usr/bin/install -c .libs/logoutd /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/sbin/logoutd
+  /bin/sh ../libtool --mode=install /usr/bin/install -c 'newusers' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/sbin/newusers'
+/usr/bin/install -c .libs/newusers /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/sbin/newusers
+  /bin/sh ../libtool --mode=install /usr/bin/install -c 'nologin' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/sbin/nologin'
+/usr/bin/install -c nologin /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/sbin/nologin
+  /bin/sh ../libtool --mode=install /usr/bin/install -c 'pwck' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/sbin/pwck'
+/usr/bin/install -c .libs/pwck /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/sbin/pwck
+  /bin/sh ../libtool --mode=install /usr/bin/install -c 'pwconv' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/sbin/pwconv'
+/usr/bin/install -c .libs/pwconv /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/sbin/pwconv
+  /bin/sh ../libtool --mode=install /usr/bin/install -c 'pwunconv' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/sbin/pwunconv'
+/usr/bin/install -c .libs/pwunconv /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/sbin/pwunconv
+  /bin/sh ../libtool --mode=install /usr/bin/install -c 'useradd' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/sbin/useradd'
+/usr/bin/install -c .libs/useradd /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/sbin/useradd
+  /bin/sh ../libtool --mode=install /usr/bin/install -c 'userdel' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/sbin/userdel'
+/usr/bin/install -c .libs/userdel /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/sbin/userdel
+  /bin/sh ../libtool --mode=install /usr/bin/install -c 'usermod' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/sbin/usermod'
+/usr/bin/install -c .libs/usermod /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/sbin/usermod
+  /bin/sh ../libtool --mode=install /usr/bin/install -c 'vipw' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/sbin/vipw'
+/usr/bin/install -c .libs/vipw /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/sbin/vipw
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/src'
+ln -sf newgrp	/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/bin/sg
+ln -sf vipw	/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/sbin/vigr
+for i in su; do \
+	chmod -f 4755 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/bin/$i; \
+done
+for i in chage chfn chsh expiry gpasswd newgrp passwd; do \
+	chmod -f 4755 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/usr/bin/$i; \
+done
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/src'
+Making install in contrib
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/contrib'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/contrib'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/contrib'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/contrib'
+Making install in doc
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/doc'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/doc'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/doc'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/doc'
+Making install in etc
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/etc'
+Making install in pam.d
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/etc/pam.d'
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/etc/pam.d'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/etc/pam.d'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/etc/pam.d'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/etc'
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/etc'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/etc'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/etc'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15/etc'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/unpack/shadow-4.0.15'
+`etc/limits' -> `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/etc/limits'
+`etc/login.access' -> `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/shadow/shadow-4.0.15/pkg/debian/etc/login.access'

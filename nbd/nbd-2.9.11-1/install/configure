@@ -1,0 +1,50 @@
+#!/bin/bash
+
+################################################################################
+# BEGIN
+################################################################################
+
+source functions
+
+################################################################################
+# GLOBALS
+################################################################################
+
+ABSetDefault AB_SYSTEM_INSTALL_DIR                      /usr/local/pkg
+
+################################################################################
+# DEPENDENCIES
+################################################################################
+
+ABSetDefault AB_PACKAGE_GLIB_INSTALL_NAME               glib-2.15.5-1
+ABSetDefault AB_PACKAGE_GLIB_INSTALL_DIR                $AB_SYSTEM_INSTALL_DIR/$AB_PACKAGE_GLIB_INSTALL_NAME
+ABSetDefault AB_PACKAGE_GLIB_INCLUDE_DIR                $AB_PACKAGE_GLIB_INSTALL_DIR/include/glib-2.0
+ABSetDefault AB_PACKAGE_GLIB_LIB_DIR                    $AB_PACKAGE_GLIB_INSTALL_DIR/lib
+
+################################################################################
+# CONFIGURATION
+################################################################################
+
+ABSetDefault AB_PACKAGE_NBD_NAME                        nbd
+ABSetDefault AB_PACKAGE_NBD_VERSION                     2.9.11-1
+ABSetDefault AB_PACKAGE_NBD_DESC                        'NBD - Network Block Device tools'
+ABSetDefault AB_PACKAGE_NBD_SOURCES                     'nbd-2.9.11.tar.bz2'
+
+ABSetDefault AB_PACKAGE_NBD_INSTALL_NAME                ${AB_PACKAGE_NBD_NAME}-${AB_PACKAGE_NBD_VERSION}
+ABSetDefault AB_PACKAGE_NBD_INSTALL_DIR                 $AB_SYSTEM_INSTALL_DIR/$AB_PACKAGE_NBD_INSTALL_NAME
+ABSetDefault AB_PACKAGE_NBD_INCLUDE_DIR                 $AB_PACKAGE_NBD_INSTALL_DIR/include
+ABSetDefault AB_PACKAGE_NBD_LIB_DIR                     $AB_PACKAGE_NBD_INSTALL_DIR/lib
+
+AB_PACKAGE_NAME=$AB_PACKAGE_NBD_NAME
+AB_PACKAGE_VERSION=$AB_PACKAGE_NBD_VERSION
+AB_PACKAGE_DESC=$AB_PACKAGE_NBD_DESC
+AB_PACKAGE_SOURCES=$AB_PACKAGE_NBD_SOURCES
+
+AB_PACKAGE_INSTALL_NAME=$AB_PACKAGE_NBD_INSTALL_NAME
+AB_PACKAGE_INSTALL_DIR=$AB_PACKAGE_NBD_INSTALL_DIR
+AB_PACKAGE_INCLUDE_DIR=$AB_PACKAGE_NBD_INCLUDE_DIR
+AB_PACKAGE_LIB_DIR=$AB_PACKAGE_NBD_LIB_DIR
+
+################################################################################
+# END
+################################################################################

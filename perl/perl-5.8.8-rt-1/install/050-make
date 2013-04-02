@@ -1,0 +1,9 @@
+#!/bin/bash
+
+source configure
+
+pushd ../unpack/*
+
+make WITH_THREADS=yes | tee ../../logs/050-make.log
+
+popd

@@ -1,0 +1,246 @@
+Starting make in the src directory.
+If there are problems, cd to the src directory and run make there
+cd src && make install
+make[1]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/src'
+/bin/sh ./mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1
+chmod 755 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1
+/bin/sh ./mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/bin
+chmod 755 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/bin
+if test -f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/bin/vim; then \
+  mv -f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/bin/vim /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/bin/vim.rm; \
+  rm -f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/bin/vim.rm; \
+fi
+cp vim /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/bin
+strip /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/bin/vim
+chmod 755 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/bin/vim
+/bin/sh ./mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim
+chmod 755 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim
+cp vimtutor /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/bin/vimtutor
+chmod 755 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/bin/vimtutor
+/bin/sh ./mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70
+chmod 755 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70
+/bin/sh ./mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/doc
+chmod 755 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/doc
+/bin/sh ./mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/print
+chmod 755 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/print
+/bin/sh ./mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/colors
+chmod 755 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/colors
+/bin/sh ./mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/syntax
+chmod 755 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/syntax
+/bin/sh ./mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/indent
+chmod 755 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/indent
+/bin/sh ./mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/ftplugin
+chmod 755 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/ftplugin
+/bin/sh ./mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/autoload
+chmod 755 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/autoload
+/bin/sh ./mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/autoload/xml
+chmod 755 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/autoload/xml
+/bin/sh ./mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/plugin
+chmod 755 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/plugin
+/bin/sh ./mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/tutor
+chmod 755 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/tutor
+/bin/sh ./mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/spell
+chmod 755 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/spell
+/bin/sh ./mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/compiler
+chmod 755 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/compiler
+/bin/sh ./installman.sh install /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/share/man/man1 "" /usr/local/pkg/vim-7.0-1/share/vim /usr/local/pkg/vim-7.0-1/share/vim/vim70 /usr/local/pkg/vim-7.0-1/share/vim ../runtime/doc 644 vim vimdiff evim
+creating /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/share/man/man1
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/share/man/man1/vim.1
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/share/man/man1/vimtutor.1
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/share/man/man1/vimdiff.1
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/share/man/man1/evim.1
+generating help tags
+make[2]: Entering directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/runtime/doc'
+/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/bin/vim -u NONE -esX -c "helptags ." -c quit
+make[2]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/runtime/doc'
+cd ../runtime/doc; \
+	files=`ls *.txt tags`; \
+	files="$files `ls *.??x tags-?? 2>/dev/null || true`"; \
+	cp $files  /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/doc; \
+	cd /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/doc; \
+	chmod 644 $files
+cp  ../runtime/doc/*.pl /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/doc
+chmod 755 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/doc/*.pl
+cp ../runtime/menu.vim /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/menu.vim
+chmod 644 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/menu.vim
+cp ../runtime/synmenu.vim /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/synmenu.vim
+chmod 644 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/synmenu.vim
+cp ../runtime/delmenu.vim /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/delmenu.vim
+chmod 644 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/delmenu.vim
+cp ../runtime/mswin.vim /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/mswin.vim
+chmod 644 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/mswin.vim
+cp ../runtime/evim.vim /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/evim.vim
+chmod 644 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/evim.vim
+cp ../runtime/bugreport.vim /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/bugreport.vim
+chmod 644 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/bugreport.vim
+cp ../runtime/vimrc_example.vim /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70
+chmod 644 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/vimrc_example.vim
+cp ../runtime/gvimrc_example.vim /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70
+chmod 644 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/gvimrc_example.vim
+cp ../runtime/filetype.vim /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/filetype.vim
+chmod 644 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/filetype.vim
+cp ../runtime/ftoff.vim /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/ftoff.vim
+chmod 644 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/ftoff.vim
+cp ../runtime/scripts.vim /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/scripts.vim
+chmod 644 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/scripts.vim
+cp ../runtime/ftplugin.vim /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/ftplugin.vim
+chmod 644 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/ftplugin.vim
+cp ../runtime/ftplugof.vim /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/ftplugof.vim
+chmod 644 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/ftplugof.vim
+cp ../runtime/indent.vim /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/indent.vim
+chmod 644 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/indent.vim
+cp ../runtime/indoff.vim /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/indoff.vim
+chmod 644 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/indoff.vim
+cp ../runtime/optwin.vim /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/optwin.vim
+chmod 644 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/optwin.vim
+cd ../runtime/print; cp *.ps /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/print
+cd /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/print; chmod 644 *.ps
+cd ../runtime/colors; cp *.vim README.txt /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/colors
+cd /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/colors; chmod 644 *.vim README.txt
+cd ../runtime/syntax; cp *.vim README.txt /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/syntax
+cd /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/syntax; chmod 644 *.vim README.txt
+cd ../runtime/indent; cp *.vim README.txt /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/indent
+cd /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/indent; chmod 644 *.vim README.txt
+cd ../runtime/autoload; cp *.vim README.txt /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/autoload
+cd /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/autoload; chmod 644 *.vim README.txt
+cd ../runtime/autoload/xml; cp *.vim /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/autoload/xml
+cd /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/autoload/xml; chmod 644 *.vim
+cd ../runtime/plugin; cp *.vim README.txt /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/plugin
+cd /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/plugin; chmod 644 *.vim README.txt
+cd ../runtime/ftplugin; cp *.vim README.txt /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/ftplugin
+cd /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/ftplugin; chmod 644 *.vim README.txt
+cd ../runtime/compiler; cp *.vim README.txt /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/compiler
+cd /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/compiler; chmod 644 *.vim README.txt
+/bin/sh ./mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/macros
+chmod 755 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/macros
+cp -r ../runtime/macros/* /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/macros
+chmod 755 `find /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/macros -type d -print`
+chmod 644 `find /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/macros -type f -print`
+chmod 755 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/macros/less.sh
+cvs=`find /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/macros \( -name CVS -o -name AAPDIR \) -print`; \
+      if test -n "$cvs"; then \
+	 rm -rf $cvs; \
+      fi
+cp ../runtime/tutor/README* ../runtime/tutor/tutor* /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/tutor
+chmod 644 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/tutor/*
+if test -f ../runtime/spell/en.latin1.spl; then \
+  cp ../runtime/spell/*.spl ../runtime/spell/*.sug ../runtime/spell/*.vim /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/spell; \
+  chmod 644 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/spell/*.spl /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/spell/*.sug /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/spell/*.vim; \
+fi
+cd /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/bin; ln -s vim ex
+cd /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/bin; ln -s vim view
+cd /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/bin; ln -s vim rvim
+cd /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/bin; ln -s vim rview
+/bin/sh ./installml.sh install "" \
+	/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/share/man/man1 vim vimdiff evim ex view rvim rview gvim gview rgvim rgview gvimdiff eview
+creating link /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/share/man/man1/ex.1
+creating link /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/share/man/man1/view.1
+creating link /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/share/man/man1/rvim.1
+creating link /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/share/man/man1/rview.1
+/bin/sh ./mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/tools
+chmod 755 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/tools
+/bin/sh ./installman.sh xxd /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/share/man/fr/man1 "-fr" /usr/local/pkg/vim-7.0-1/share/vim /usr/local/pkg/vim-7.0-1/share/vim/vim70 /usr/local/pkg/vim-7.0-1/share/vim ../runtime/doc 644 vim vimdiff evim
+creating /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/share/man/fr/man1
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/share/man/fr/man1/xxd.1
+/bin/sh ./installman.sh xxd /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/share/man/it/man1 "-it" /usr/local/pkg/vim-7.0-1/share/vim /usr/local/pkg/vim-7.0-1/share/vim/vim70 /usr/local/pkg/vim-7.0-1/share/vim ../runtime/doc 644 vim vimdiff evim
+creating /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/share/man/it/man1
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/share/man/it/man1/xxd.1
+/bin/sh ./installman.sh xxd /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/share/man/pl/man1 "-pl" /usr/local/pkg/vim-7.0-1/share/vim /usr/local/pkg/vim-7.0-1/share/vim/vim70 /usr/local/pkg/vim-7.0-1/share/vim ../runtime/doc 644 vim vimdiff evim
+creating /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/share/man/pl/man1
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/share/man/pl/man1/xxd.1
+/bin/sh ./installman.sh xxd /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/share/man/ru/man1 "-ru" /usr/local/pkg/vim-7.0-1/share/vim /usr/local/pkg/vim-7.0-1/share/vim/vim70 /usr/local/pkg/vim-7.0-1/share/vim ../runtime/doc 644 vim vimdiff evim
+creating /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/share/man/ru/man1
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/share/man/ru/man1/xxd.1
+if test -f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/bin/xxd; then \
+  mv -f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/bin/xxd /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/bin/xxd.rm; \
+  rm -f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/bin/xxd.rm; \
+fi
+cp xxd/xxd /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/bin
+strip /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/bin/xxd
+chmod 755 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/bin/xxd
+/bin/sh ./installman.sh xxd /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/share/man/man1 "" /usr/local/pkg/vim-7.0-1/share/vim /usr/local/pkg/vim-7.0-1/share/vim/vim70 /usr/local/pkg/vim-7.0-1/share/vim ../runtime/doc 644 vim vimdiff evim
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/share/man/man1/xxd.1
+cp -r ../runtime/tools/* /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/tools
+cvs=`find /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/tools \( -name CVS -o -name AAPDIR \) -print`; \
+      if test -n "$cvs"; then \
+	 rm -rf $cvs; \
+      fi
+chmod 644 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/tools/*
+perlpath=`./which.sh perl` && sed -e "s+/usr/bin/perl+$perlpath+" ../runtime/tools/efm_perl.pl >/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/tools/efm_perl.pl
+awkpath=`./which.sh nawk` && sed -e "s+/usr/bin/nawk+$awkpath+" ../runtime/tools/mve.awk >/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/tools/mve.awk; if test -z "$awkpath"; then \
+	awkpath=`./which.sh gawk` && sed -e "s+/usr/bin/nawk+$awkpath+" ../runtime/tools/mve.awk >/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/tools/mve.awk; if test -z "$awkpath"; then \
+	awkpath=`./which.sh awk` && sed -e "s+/usr/bin/nawk+$awkpath+" ../runtime/tools/mve.awk >/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/tools/mve.awk; fi; fi
+chmod 755 `grep -l "^#!" /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/tools/*`
+/bin/sh ./mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/lang
+chmod 755 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/lang
+/bin/sh ./mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/keymap
+chmod 755 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/keymap
+/bin/sh ./installman.sh install /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/share/man/fr/man1 "-fr" /usr/local/pkg/vim-7.0-1/share/vim /usr/local/pkg/vim-7.0-1/share/vim/vim70 /usr/local/pkg/vim-7.0-1/share/vim ../runtime/doc 644 vim vimdiff evim
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/share/man/fr/man1/vim.1
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/share/man/fr/man1/vimtutor.1
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/share/man/fr/man1/vimdiff.1
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/share/man/fr/man1/evim.1
+/bin/sh ./installman.sh install /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/share/man/it/man1 "-it" /usr/local/pkg/vim-7.0-1/share/vim /usr/local/pkg/vim-7.0-1/share/vim/vim70 /usr/local/pkg/vim-7.0-1/share/vim ../runtime/doc 644 vim vimdiff evim
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/share/man/it/man1/vim.1
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/share/man/it/man1/vimtutor.1
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/share/man/it/man1/vimdiff.1
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/share/man/it/man1/evim.1
+/bin/sh ./installman.sh install /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/share/man/pl/man1 "-pl" /usr/local/pkg/vim-7.0-1/share/vim /usr/local/pkg/vim-7.0-1/share/vim/vim70 /usr/local/pkg/vim-7.0-1/share/vim ../runtime/doc 644 vim vimdiff evim
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/share/man/pl/man1/vim.1
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/share/man/pl/man1/vimtutor.1
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/share/man/pl/man1/vimdiff.1
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/share/man/pl/man1/evim.1
+/bin/sh ./installman.sh install /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/share/man/ru/man1 "-ru" /usr/local/pkg/vim-7.0-1/share/vim /usr/local/pkg/vim-7.0-1/share/vim/vim70 /usr/local/pkg/vim-7.0-1/share/vim ../runtime/doc 644 vim vimdiff evim
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/share/man/ru/man1/vim.1
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/share/man/ru/man1/vimtutor.1
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/share/man/ru/man1/vimdiff.1
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/share/man/ru/man1/evim.1
+/bin/sh ./installml.sh install "" \
+	/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/share/man/fr/man1 vim vimdiff evim ex view rvim rview gvim gview rgvim rgview gvimdiff eview
+creating link /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/share/man/fr/man1/ex.1
+creating link /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/share/man/fr/man1/view.1
+creating link /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/share/man/fr/man1/rvim.1
+creating link /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/share/man/fr/man1/rview.1
+/bin/sh ./installml.sh install "" \
+	/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/share/man/it/man1 vim vimdiff evim ex view rvim rview gvim gview rgvim rgview gvimdiff eview
+creating link /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/share/man/it/man1/ex.1
+creating link /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/share/man/it/man1/view.1
+creating link /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/share/man/it/man1/rvim.1
+creating link /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/share/man/it/man1/rview.1
+/bin/sh ./installml.sh install "" \
+	/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/share/man/pl/man1 vim vimdiff evim ex view rvim rview gvim gview rgvim rgview gvimdiff eview
+creating link /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/share/man/pl/man1/ex.1
+creating link /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/share/man/pl/man1/view.1
+creating link /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/share/man/pl/man1/rvim.1
+creating link /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/share/man/pl/man1/rview.1
+/bin/sh ./installml.sh install "" \
+	/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/share/man/ru/man1 vim vimdiff evim ex view rvim rview gvim gview rgvim rgview gvimdiff eview
+creating link /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/share/man/ru/man1/ex.1
+creating link /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/share/man/ru/man1/view.1
+creating link /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/share/man/ru/man1/rvim.1
+creating link /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/share/man/ru/man1/rview.1
+if test -n "" -a -f po/Makefile; then \
+   cd po; make prefix=/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1 LOCALEDIR=/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/lang \
+   INSTALL_DATA=cp FILEMOD=644 install; \
+fi
+if test -d ../runtime/lang; then \
+   cp ../runtime/lang/README.txt ../runtime/lang/*.vim /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/lang; \
+   chmod 644 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/lang/README.txt /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/lang/*.vim; \
+fi
+if test -d ../runtime/keymap; then \
+   cp ../runtime/keymap/README.txt ../runtime/keymap/*.vim /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/keymap; \
+   chmod 644 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/keymap/README.txt /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/vim/vim70/keymap/*.vim; \
+fi
+if test -d /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/icons/hicolor/48x48/apps -a -w /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/icons/hicolor/48x48/apps \
+	-a ! -f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/icons/hicolor/48x48/apps/gvim.png; then \
+   cp ../runtime/vim48x48.png /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/icons/hicolor/48x48/apps/gvim.png; \
+fi
+if test -d /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/icons/locolor/32x32/apps -a -w /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/icons/locolor/32x32/apps \
+	-a ! -f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/icons/locolor/32x32/apps/gvim.png; then \
+   cp ../runtime/vim32x32.png /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/icons/locolor/32x32/apps/gvim.png; \
+fi
+if test -d /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/icons/locolor/16x16/apps -a -w /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/icons/locolor/16x16/apps \
+	-a ! -f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/icons/locolor/16x16/apps/gvim.png; then \
+   cp ../runtime/vim16x16.png /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/../../pkg/debian/usr/local/pkg/vim-7.0-1/share/icons/locolor/16x16/apps/gvim.png; \
+fi
+make[1]: Leaving directory `/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/vim/vim-7.0-1/unpack/vim70/src'

@@ -1,0 +1,147 @@
+Making install in doc
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/tar/tar-1.15.1/unpack/tar-1.15.1/doc'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/tar/tar-1.15.1/unpack/tar-1.15.1/doc'
+make[2]: Nothing to be done for `install-exec-am'.
+test -z "/usr/share/info" || mkdir -p -- "../../../pkg/debian/usr/share/info"
+ /usr/bin/install -c -m 644 './tar.info' '../../../pkg/debian/usr/share/info/tar.info'
+ /usr/bin/install -c -m 644 './tar.info-1' '../../../pkg/debian/usr/share/info/tar.info-1'
+ /usr/bin/install -c -m 644 './tar.info-2' '../../../pkg/debian/usr/share/info/tar.info-2'
+ install-info --info-dir='../../../pkg/debian/usr/share/info' '../../../pkg/debian/usr/share/info/tar.info'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/tar/tar-1.15.1/unpack/tar-1.15.1/doc'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/tar/tar-1.15.1/unpack/tar-1.15.1/doc'
+Making install in lib
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/tar/tar-1.15.1/unpack/tar-1.15.1/lib'
+make  install-am
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/tar/tar-1.15.1/unpack/tar-1.15.1/lib'
+make[3]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/tar/tar-1.15.1/unpack/tar-1.15.1/lib'
+test yes != no || /bin/sh ../config/mkinstalldirs ../../../pkg/debian/usr/lib
+if test -f ../../../pkg/debian/usr/lib/charset.alias; then \
+  sed -f ref-add.sed ../../../pkg/debian/usr/lib/charset.alias > ../../../pkg/debian/usr/lib/charset.tmp ; \
+  /usr/bin/install -c -m 644 ../../../pkg/debian/usr/lib/charset.tmp ../../../pkg/debian/usr/lib/charset.alias ; \
+  rm -f ../../../pkg/debian/usr/lib/charset.tmp ; \
+else \
+  if test yes = no; then \
+    sed -f ref-add.sed charset.alias > ../../../pkg/debian/usr/lib/charset.tmp ; \
+    /usr/bin/install -c -m 644 ../../../pkg/debian/usr/lib/charset.tmp ../../../pkg/debian/usr/lib/charset.alias ; \
+    rm -f ../../../pkg/debian/usr/lib/charset.tmp ; \
+  fi ; \
+fi
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/tar/tar-1.15.1/unpack/tar-1.15.1/lib'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/tar/tar-1.15.1/unpack/tar-1.15.1/lib'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/tar/tar-1.15.1/unpack/tar-1.15.1/lib'
+Making install in rmt
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/tar/tar-1.15.1/unpack/tar-1.15.1/rmt'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/tar/tar-1.15.1/unpack/tar-1.15.1/rmt'
+make[2]: Nothing to be done for `install-exec-am'.
+test -z "/usr/sbin" || mkdir -p -- "../../../pkg/debian/usr/sbin"
+  /usr/bin/install -c 'rmt' '../../../pkg/debian/usr/sbin/rmt'
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/tar/tar-1.15.1/unpack/tar-1.15.1/rmt'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/tar/tar-1.15.1/unpack/tar-1.15.1/rmt'
+Making install in src
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/tar/tar-1.15.1/unpack/tar-1.15.1/src'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/tar/tar-1.15.1/unpack/tar-1.15.1/src'
+test -z "/bin" || mkdir -p -- "../../../pkg/debian/bin"
+  /usr/bin/install -c 'tar' '../../../pkg/debian/bin/tar'
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/tar/tar-1.15.1/unpack/tar-1.15.1/src'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/tar/tar-1.15.1/unpack/tar-1.15.1/src'
+Making install in scripts
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/tar/tar-1.15.1/unpack/tar-1.15.1/scripts'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/tar/tar-1.15.1/unpack/tar-1.15.1/scripts'
+test -z "/usr/sbin" || mkdir -p -- "../../../pkg/debian/usr/sbin"
+test -z "/usr/sbin" || mkdir -p -- "../../../pkg/debian/usr/sbin"
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/tar/tar-1.15.1/unpack/tar-1.15.1/scripts'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/tar/tar-1.15.1/unpack/tar-1.15.1/scripts'
+Making install in po
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/tar/tar-1.15.1/unpack/tar-1.15.1/po'
+/bin/sh ../config/mkinstalldirs ../../../pkg/debian/usr/share
+mkdir -p -- ../../../pkg/debian/usr/share/locale/cs/LC_MESSAGES
+installing cs.gmo as ../../../pkg/debian/usr/share/locale/cs/LC_MESSAGES/tar.mo
+mkdir -p -- ../../../pkg/debian/usr/share/locale/da/LC_MESSAGES
+installing da.gmo as ../../../pkg/debian/usr/share/locale/da/LC_MESSAGES/tar.mo
+mkdir -p -- ../../../pkg/debian/usr/share/locale/de/LC_MESSAGES
+installing de.gmo as ../../../pkg/debian/usr/share/locale/de/LC_MESSAGES/tar.mo
+mkdir -p -- ../../../pkg/debian/usr/share/locale/el/LC_MESSAGES
+installing el.gmo as ../../../pkg/debian/usr/share/locale/el/LC_MESSAGES/tar.mo
+mkdir -p -- ../../../pkg/debian/usr/share/locale/es/LC_MESSAGES
+installing es.gmo as ../../../pkg/debian/usr/share/locale/es/LC_MESSAGES/tar.mo
+mkdir -p -- ../../../pkg/debian/usr/share/locale/et/LC_MESSAGES
+installing et.gmo as ../../../pkg/debian/usr/share/locale/et/LC_MESSAGES/tar.mo
+mkdir -p -- ../../../pkg/debian/usr/share/locale/fi/LC_MESSAGES
+installing fi.gmo as ../../../pkg/debian/usr/share/locale/fi/LC_MESSAGES/tar.mo
+mkdir -p -- ../../../pkg/debian/usr/share/locale/fr/LC_MESSAGES
+installing fr.gmo as ../../../pkg/debian/usr/share/locale/fr/LC_MESSAGES/tar.mo
+mkdir -p -- ../../../pkg/debian/usr/share/locale/ga/LC_MESSAGES
+installing ga.gmo as ../../../pkg/debian/usr/share/locale/ga/LC_MESSAGES/tar.mo
+mkdir -p -- ../../../pkg/debian/usr/share/locale/gl/LC_MESSAGES
+installing gl.gmo as ../../../pkg/debian/usr/share/locale/gl/LC_MESSAGES/tar.mo
+mkdir -p -- ../../../pkg/debian/usr/share/locale/hr/LC_MESSAGES
+installing hr.gmo as ../../../pkg/debian/usr/share/locale/hr/LC_MESSAGES/tar.mo
+mkdir -p -- ../../../pkg/debian/usr/share/locale/hu/LC_MESSAGES
+installing hu.gmo as ../../../pkg/debian/usr/share/locale/hu/LC_MESSAGES/tar.mo
+mkdir -p -- ../../../pkg/debian/usr/share/locale/id/LC_MESSAGES
+installing id.gmo as ../../../pkg/debian/usr/share/locale/id/LC_MESSAGES/tar.mo
+mkdir -p -- ../../../pkg/debian/usr/share/locale/it/LC_MESSAGES
+installing it.gmo as ../../../pkg/debian/usr/share/locale/it/LC_MESSAGES/tar.mo
+mkdir -p -- ../../../pkg/debian/usr/share/locale/ja/LC_MESSAGES
+installing ja.gmo as ../../../pkg/debian/usr/share/locale/ja/LC_MESSAGES/tar.mo
+mkdir -p -- ../../../pkg/debian/usr/share/locale/ko/LC_MESSAGES
+installing ko.gmo as ../../../pkg/debian/usr/share/locale/ko/LC_MESSAGES/tar.mo
+mkdir -p -- ../../../pkg/debian/usr/share/locale/ms/LC_MESSAGES
+installing ms.gmo as ../../../pkg/debian/usr/share/locale/ms/LC_MESSAGES/tar.mo
+mkdir -p -- ../../../pkg/debian/usr/share/locale/nb/LC_MESSAGES
+installing nb.gmo as ../../../pkg/debian/usr/share/locale/nb/LC_MESSAGES/tar.mo
+mkdir -p -- ../../../pkg/debian/usr/share/locale/nl/LC_MESSAGES
+installing nl.gmo as ../../../pkg/debian/usr/share/locale/nl/LC_MESSAGES/tar.mo
+mkdir -p -- ../../../pkg/debian/usr/share/locale/no/LC_MESSAGES
+installing no.gmo as ../../../pkg/debian/usr/share/locale/no/LC_MESSAGES/tar.mo
+mkdir -p -- ../../../pkg/debian/usr/share/locale/pl/LC_MESSAGES
+installing pl.gmo as ../../../pkg/debian/usr/share/locale/pl/LC_MESSAGES/tar.mo
+mkdir -p -- ../../../pkg/debian/usr/share/locale/pt/LC_MESSAGES
+installing pt.gmo as ../../../pkg/debian/usr/share/locale/pt/LC_MESSAGES/tar.mo
+mkdir -p -- ../../../pkg/debian/usr/share/locale/pt_BR/LC_MESSAGES
+installing pt_BR.gmo as ../../../pkg/debian/usr/share/locale/pt_BR/LC_MESSAGES/tar.mo
+mkdir -p -- ../../../pkg/debian/usr/share/locale/ro/LC_MESSAGES
+installing ro.gmo as ../../../pkg/debian/usr/share/locale/ro/LC_MESSAGES/tar.mo
+mkdir -p -- ../../../pkg/debian/usr/share/locale/ru/LC_MESSAGES
+installing ru.gmo as ../../../pkg/debian/usr/share/locale/ru/LC_MESSAGES/tar.mo
+mkdir -p -- ../../../pkg/debian/usr/share/locale/sk/LC_MESSAGES
+installing sk.gmo as ../../../pkg/debian/usr/share/locale/sk/LC_MESSAGES/tar.mo
+mkdir -p -- ../../../pkg/debian/usr/share/locale/sl/LC_MESSAGES
+installing sl.gmo as ../../../pkg/debian/usr/share/locale/sl/LC_MESSAGES/tar.mo
+mkdir -p -- ../../../pkg/debian/usr/share/locale/sv/LC_MESSAGES
+installing sv.gmo as ../../../pkg/debian/usr/share/locale/sv/LC_MESSAGES/tar.mo
+mkdir -p -- ../../../pkg/debian/usr/share/locale/tr/LC_MESSAGES
+installing tr.gmo as ../../../pkg/debian/usr/share/locale/tr/LC_MESSAGES/tar.mo
+mkdir -p -- ../../../pkg/debian/usr/share/locale/zh_CN/LC_MESSAGES
+installing zh_CN.gmo as ../../../pkg/debian/usr/share/locale/zh_CN/LC_MESSAGES/tar.mo
+mkdir -p -- ../../../pkg/debian/usr/share/locale/zh_TW/LC_MESSAGES
+installing zh_TW.gmo as ../../../pkg/debian/usr/share/locale/zh_TW/LC_MESSAGES/tar.mo
+if test "tar" = "gettext-tools"; then \
+  /bin/sh ../config/mkinstalldirs ../../../pkg/debian/usr/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /usr/bin/install -c -m 644 ./$file \
+		    ../../../pkg/debian/usr/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f ../../../pkg/debian/usr/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/tar/tar-1.15.1/unpack/tar-1.15.1/po'
+Making install in tests
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/tar/tar-1.15.1/unpack/tar-1.15.1/tests'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/tar/tar-1.15.1/unpack/tar-1.15.1/tests'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/tar/tar-1.15.1/unpack/tar-1.15.1/tests'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/tar/tar-1.15.1/unpack/tar-1.15.1/tests'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/tar/tar-1.15.1/unpack/tar-1.15.1'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/tar/tar-1.15.1/unpack/tar-1.15.1'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/tar/tar-1.15.1/unpack/tar-1.15.1'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/tar/tar-1.15.1/unpack/tar-1.15.1'

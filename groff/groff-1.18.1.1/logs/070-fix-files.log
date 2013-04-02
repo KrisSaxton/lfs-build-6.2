@@ -1,0 +1,2 @@
+create hard link `usr/bin/geqn' to `usr/bin/eqn'
+create hard link `usr/bin/gtbl' to `usr/bin/tbl'

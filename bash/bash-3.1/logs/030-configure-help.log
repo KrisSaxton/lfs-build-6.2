@@ -1,0 +1,145 @@
+`configure' configures bash 3.1-release to adapt to many kinds of systems.
+
+Usage: ./configure [OPTION]... [VAR=VALUE]...
+
+To assign environment variables (e.g., CC, CFLAGS...), specify them as
+VAR=VALUE.  See below for descriptions of some of the useful variables.
+
+Defaults for the options are specified in brackets.
+
+Configuration:
+  -h, --help              display this help and exit
+      --help=short        display options specific to this package
+      --help=recursive    display the short help of all the included packages
+  -V, --version           display version information and exit
+  -q, --quiet, --silent   do not print `checking...' messages
+      --cache-file=FILE   cache test results in FILE [disabled]
+  -C, --config-cache      alias for `--cache-file=config.cache'
+  -n, --no-create         do not create output files
+      --srcdir=DIR        find the sources in DIR [configure dir or `..']
+
+Installation directories:
+  --prefix=PREFIX         install architecture-independent files in PREFIX
+                          [/usr/local]
+  --exec-prefix=EPREFIX   install architecture-dependent files in EPREFIX
+                          [PREFIX]
+
+By default, `make install' will install all the files in
+`/usr/local/bin', `/usr/local/lib' etc.  You can specify
+an installation prefix other than `/usr/local' using `--prefix',
+for instance `--prefix=$HOME'.
+
+For better control, use the options below.
+
+Fine tuning of the installation directories:
+  --bindir=DIR           user executables [EPREFIX/bin]
+  --sbindir=DIR          system admin executables [EPREFIX/sbin]
+  --libexecdir=DIR       program executables [EPREFIX/libexec]
+  --datadir=DIR          read-only architecture-independent data [PREFIX/share]
+  --sysconfdir=DIR       read-only single-machine data [PREFIX/etc]
+  --sharedstatedir=DIR   modifiable architecture-independent data [PREFIX/com]
+  --localstatedir=DIR    modifiable single-machine data [PREFIX/var]
+  --libdir=DIR           object code libraries [EPREFIX/lib]
+  --includedir=DIR       C header files [PREFIX/include]
+  --oldincludedir=DIR    C header files for non-gcc [/usr/include]
+  --infodir=DIR          info documentation [PREFIX/info]
+  --mandir=DIR           man documentation [PREFIX/man]
+
+System types:
+  --build=BUILD     configure for building on BUILD [guessed]
+  --host=HOST       cross-compile to build programs to run on HOST [BUILD]
+
+Optional Features:
+  --disable-FEATURE       do not include FEATURE (same as --enable-FEATURE=no)
+  --enable-FEATURE[=ARG]  include FEATURE [ARG=yes]
+  --enable-minimal-config a minimal sh-like configuration
+  --enable-alias          enable shell aliases
+  --enable-arith-for-command
+                          enable arithmetic for command
+  --enable-array-variables
+                          include shell array variables
+  --enable-bang-history   turn on csh-style history substitution
+  --enable-brace-expansion
+                          include brace expansion
+  --enable-command-timing enable the time reserved word and command timing
+  --enable-cond-command   enable the conditional command
+  --enable-cond-regexp    enable extgended regular expression matching in
+                          conditional commands
+  --enable-debugger       enable support for bash debugger
+  --enable-directory-stack
+                          enable builtins pushd/popd/dirs
+  --enable-disabled-builtins
+                          allow disabled builtins to still be invoked
+  --enable-dparen-arithmetic
+                          include ((...)) command
+  --enable-extended-glob  include ksh-style extended pattern matching
+  --enable-help-builtin   include the help builtin
+  --enable-history        turn on command history
+  --enable-job-control    enable job control features
+  --enable-multibyte      enable multibyte characters if OS supports them
+  --enable-net-redirections
+                          enable /dev/tcp/host/port redirection
+  --enable-process-substitution
+                          enable process substitution
+  --enable-progcomp       enable programmable completion and the complete
+                          builtin
+  --enable-prompt-string-decoding
+                          turn on escape character decoding in prompts
+  --enable-readline       turn on command line editing
+  --enable-restricted     enable a restricted shell
+  --enable-select         include select command
+  --enable-separate-helpfiles
+                          use external files for help builtin documentation
+  --enable-single-help-strings
+                          store help documentation as a single string to ease
+                          translation
+  --enable-strict-posix-default
+                          configure bash to be posix-conformant by default
+  --enable-usg-echo-default
+                          a synonym for --enable-xpg-echo-default
+  --enable-xpg-echo-default
+                          make the echo builtin expand escape sequences by
+                          default
+  --enable-mem-scramble   scramble memory on calls to malloc and free
+  --enable-profiling      allow profiling with gprof
+  --enable-static-link    link bash statically, for use as a root shell
+  --disable-largefile     omit support for large files
+  --disable-nls           do not use Native Language Support
+  --disable-rpath         do not hardcode runtime library paths
+
+Optional Packages:
+  --with-PACKAGE[=ARG]    use PACKAGE [ARG=yes]
+  --without-PACKAGE       do not use PACKAGE (same as --with-PACKAGE=no)
+  --with-lispdir          override the default lisp directory
+  --with-afs              if you are running AFS
+  --with-bash-malloc      use the Bash version of malloc
+  --with-curses           use the curses library instead of the termcap
+                          library
+  --with-gnu-malloc       synonym for --with-bash-malloc
+  --with-installed-readline
+                          use a version of the readline library that is
+                          already installed
+  --with-purecov          configure to postprocess with pure coverage
+  --with-purify           configure to postprocess with purify
+  --with-gnu-ld           assume the C compiler uses GNU ld default=no
+  --with-libiconv-prefix[=DIR]  search for libiconv in DIR/include and DIR/lib
+  --without-libiconv-prefix     don't search for libiconv in includedir and libdir
+  --with-included-gettext use the GNU gettext library included here
+  --with-libintl-prefix[=DIR]  search for libintl in DIR/include and DIR/lib
+  --without-libintl-prefix     don't search for libintl in includedir and libdir
+
+Some influential environment variables:
+  DEBUGGER_START_FILE
+              location of bash debugger initialization file
+  CC          C compiler command
+  CFLAGS      C compiler flags
+  LDFLAGS     linker flags, e.g. -L<lib dir> if you have libraries in a
+              nonstandard directory <lib dir>
+  CPPFLAGS    C/C++ preprocessor flags, e.g. -I<include dir> if you have
+              headers in a nonstandard directory <include dir>
+  CPP         C preprocessor
+
+Use these variables to override the choices made by `configure' or to help
+it to find libraries and programs with nonstandard names/locations.
+
+Report bugs to <bug-bash@gnu.org>.

@@ -1,0 +1,13 @@
+#!/bin/bash
+
+source configure
+
+pushd ../unpack/*
+
+./configure \
+    --prefix=$AB_PACKAGE_CONFIGURE_PREFIX \
+    --mandir=/usr/share/man \
+    --with-libc \
+    | tee ../../logs/040-configure.log
+
+popd

@@ -1,0 +1,597 @@
+make[1]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include'
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/arch/misc'
+/bin/sh ./shdeps.sh ":" ":" "/usr/bin" > shdeps.sed
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/arch/misc'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/libs/libgroff'
+/bin/sh ./config.charset 'i686-pc-linux-gnu' > t-charset.alias
+mv t-charset.alias charset.alias
+sed -e '/^#/d' \
+    -e 's/@''PACKAGE''@/groff/g' ./ref-add.sin > t-ref-add.sed
+mv t-ref-add.sed ref-add.sed
+sed -e '/^#/d' \
+    -e 's/@''PACKAGE''@/groff/g' ./ref-del.sin > t-ref-del.sed
+mv t-ref-del.sed ref-del.sed
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  assert.cpp
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  change_lf.cpp
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  cmap.cpp
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  color.cpp
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  cset.cpp
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  device.cpp
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  errarg.cpp
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  error.cpp
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  fatal.cpp
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  filename.cpp
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  font.cpp
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  fontfile.cpp
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  geometry.cpp
+gcc -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c -D__GETOPT_PREFIX=groff_ -DENABLE_RELOCATABLE=1 -DLIBDIR=\"/usr/lib\" getopt.c
+gcc -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c -D__GETOPT_PREFIX=groff_ -DENABLE_RELOCATABLE=1 -DLIBDIR=\"/usr/lib\" getopt1.c
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  glyphuni.cpp
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  htmlhint.cpp
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  hypot.cpp
+gcc -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c -D__GETOPT_PREFIX=groff_ -DENABLE_RELOCATABLE=1 -DLIBDIR=\"/usr/lib\" iftoa.c
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  invalid.cpp
+gcc -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c -D__GETOPT_PREFIX=groff_ -DENABLE_RELOCATABLE=1 -DLIBDIR=\"/usr/lib\" itoa.c
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  lf.cpp
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  lineno.cpp
+gcc -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c -D__GETOPT_PREFIX=groff_ -DENABLE_RELOCATABLE=1 -DLIBDIR=\"/usr/lib\" localcharset.c
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  macropath.cpp
+gcc -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c -D__GETOPT_PREFIX=groff_ -DENABLE_RELOCATABLE=1 -DLIBDIR=\"/usr/lib\" matherr.c
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  maxfilename.cpp
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  maxpathname.cpp
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  mksdir.cpp
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  nametoindex.cpp
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  new.cpp
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  paper.cpp
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  prime.cpp
+gcc -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c -D__GETOPT_PREFIX=groff_ -DENABLE_RELOCATABLE=1 -DLIBDIR=\"/usr/lib\" progname.c
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  ptable.cpp
+gcc -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c -D__GETOPT_PREFIX=groff_ -DENABLE_RELOCATABLE=1 -DLIBDIR=\"/usr/lib\" quotearg.c
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  relocate.cpp
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  searchpath.cpp
+gcc -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c -D__GETOPT_PREFIX=groff_ -DENABLE_RELOCATABLE=1 -DLIBDIR=\"/usr/lib\" spawnvp.c
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  string.cpp
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  strsave.cpp
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  symbol.cpp
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  tmpfile.cpp
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  tmpname.cpp
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  unicode.cpp
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  uniglyph.cpp
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  uniuni.cpp
+Making version.cpp
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  version.cpp
+ar r libgroff.a assert.o change_lf.o cmap.o color.o cset.o device.o errarg.o error.o fatal.o filename.o font.o fontfile.o geometry.o getopt.o getopt1.o glyphuni.o htmlhint.o hypot.o iftoa.o invalid.o itoa.o lf.o lineno.o localcharset.o macropath.o matherr.o maxfilename.o maxpathname.o mksdir.o nametoindex.o new.o paper.o prime.o progname.o ptable.o quotearg.o relocate.o searchpath.o spawnvp.o string.o strsave.o symbol.o tmpfile.o tmpname.o unicode.o uniglyph.o uniuni.o version.o
+ranlib libgroff.a
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/libs/libgroff'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/libs/libdriver'
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  input.cpp
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  printer.cpp
+ar r libdriver.a input.o printer.o
+ranlib libdriver.a
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/libs/libdriver'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/libs/libbib'
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  common.cpp
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  index.cpp
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  linear.cpp
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  search.cpp
+gcc -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  map.c
+ar r libbib.a common.o index.o linear.o search.o map.o
+ranlib libbib.a
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/libs/libbib'
+make[1]: Nothing to be done for `arch/misc'.
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/roff/groff'
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  groff.cpp
+gcc -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  pipeline.c
+g++ -g -O2  -o groff groff.o pipeline.o /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/libs/libgroff/libgroff.a   -lm
+Making groff.n from groff.man
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/roff/groff'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/roff/troff'
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  dictionary.cpp
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  div.cpp
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  env.cpp
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  input.cpp
+Making majorminor.cpp
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  majorminor.cpp
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  mtsm.cpp
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  node.cpp
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  number.cpp
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  reg.cpp
+g++ -g -O2  -o troff dictionary.o div.o env.o input.o majorminor.o mtsm.o node.o number.o reg.o /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/libs/libgroff/libgroff.a   -lm
+Making troff.n from troff.man
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/roff/troff'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/preconv'
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  preconv.cpp
+g++ -g -O2  -o preconv preconv.o /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/libs/libgroff/libgroff.a   -lm
+Making preconv.n from preconv.man
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/preconv'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/tbl'
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  main.cpp
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  table.cpp
+g++ -g -O2  -o tbl main.o table.o /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/libs/libgroff/libgroff.a   -lm
+Making tbl.n from tbl.man
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/tbl'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/pic'
+if test -n "pic_tab.h"; then \
+  bison -y -v -d pic.y; \
+else \
+  bison -y -v pic.y; \
+fi
+test -f y.tab.h && mv y.tab.h y_tab.h
+test -f y.tab.c && mv y.tab.c y_tab.c
+sed "s/^#line \(.*\) \"y.tab.c\"/#line \1 \"pic.cpp\"/" \
+  < y_tab.c > pic.cpp
+rm -f y_tab.c
+test -z "pic_tab.h" || mv y_tab.h pic_tab.h
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  pic.cpp
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  lex.cpp
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  main.cpp
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  object.cpp
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  common.cpp
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  troff.cpp
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  tex.cpp
+g++ -g -O2  -o pic pic.o lex.o main.o object.o common.o troff.o tex.o /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/libs/libgroff/libgroff.a   -lm
+Making pic.n from pic.man
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/pic'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/eqn'
+rm -f neqn
+sed -e 's/@g@//g' \
+-f /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/arch/misc/shdeps.sed \
+-e 1s/a/a/ ./neqn.sh >neqn
+chmod +x neqn
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  eqn.cpp
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  main.cpp
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  lex.cpp
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  box.cpp
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  limit.cpp
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  list.cpp
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  over.cpp
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  text.cpp
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  script.cpp
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  mark.cpp
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  other.cpp
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  delim.cpp
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  sqrt.cpp
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  pile.cpp
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  special.cpp
+g++ -g -O2  -o eqn eqn.o main.o lex.o box.o limit.o list.o over.o text.o script.o mark.o other.o delim.o sqrt.o pile.o special.o /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/libs/libgroff/libgroff.a   -lm
+Making eqn.n from eqn.man
+Making neqn.n from neqn.man
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/eqn'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/grn'
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  hdb.cpp
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  hpoint.cpp
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  hgraph.cpp
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  main.cpp
+g++ -g -O2  -o grn hdb.o hpoint.o hgraph.o main.o /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/libs/libgroff/libgroff.a   -lm
+Making grn.n from grn.man
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/grn'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/refer'
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  command.cpp
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  label.cpp
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  ref.cpp
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  refer.cpp
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  token.cpp
+g++ -g -O2  -o refer command.o label.o ref.o refer.o token.o /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/libs/libbib/libbib.a /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/libs/libgroff/libgroff.a   -lm
+Making refer.n from refer.man
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/refer'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/soelim'
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  soelim.cpp
+g++ -g -O2  -o soelim soelim.o /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/libs/libgroff/libgroff.a   -lm
+Making soelim.n from soelim.man
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/soelim'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/html'
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  pre-html.cpp
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  pushback.cpp
+g++ -g -O2  -o pre-grohtml pre-html.o pushback.o /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/libs/libgroff/libgroff.a   -lm
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/html'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/devices/grops'
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  ps.cpp
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  psrm.cpp
+g++ -g -O2  -o grops ps.o psrm.o /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/libs/libdriver/libdriver.a /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/libs/libgroff/libgroff.a   -lm
+Making grops.n from grops.man
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/devices/grops'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/devices/grotty'
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  tty.cpp
+g++ -g -O2  -o grotty tty.o /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/libs/libdriver/libdriver.a /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/libs/libgroff/libgroff.a   -lm
+Making grotty.n from grotty.man
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/devices/grotty'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/devices/grodvi'
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  dvi.cpp
+g++ -g -O2  -o grodvi dvi.o /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/libs/libdriver/libdriver.a /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/libs/libgroff/libgroff.a   -lm
+Making grodvi.n from grodvi.man
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/devices/grodvi'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/devices/grolj4'
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  lj4.cpp
+g++ -g -O2  -o grolj4 lj4.o /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/libs/libdriver/libdriver.a /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/libs/libgroff/libgroff.a   -lm
+Making grolj4.n from grolj4.man
+Making lj4_font.n from lj4_font.man
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/devices/grolj4'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/devices/grohtml'
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  post-html.cpp
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  html-table.cpp
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  html-text.cpp
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  output.cpp
+g++ -g -O2  -o post-grohtml post-html.o html-table.o html-text.o output.o /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/libs/libdriver/libdriver.a /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/libs/libgroff/libgroff.a   -lm
+Making grohtml.n from grohtml.man
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/devices/grohtml'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/devices/grolbp'
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  lbp.cpp
+g++ -g -O2  -o grolbp lbp.o /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/libs/libdriver/libdriver.a /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/libs/libgroff/libgroff.a   -lm
+Making grolbp.n from grolbp.man
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/devices/grolbp'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/utils/tfmtodit'
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  tfmtodit.cpp
+g++ -g -O2  -o tfmtodit tfmtodit.o /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/libs/libgroff/libgroff.a   -lm
+Making tfmtodit.n from tfmtodit.man
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/utils/tfmtodit'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/utils/hpftodit'
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  hpftodit.cpp
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  hpuni.cpp
+g++ -g -O2  -o hpftodit hpftodit.o hpuni.o /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/libs/libgroff/libgroff.a   -lm
+Making hpftodit.n from hpftodit.man
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/utils/hpftodit'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/utils/lookbib'
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  lookbib.cpp
+g++ -g -O2  -o lookbib lookbib.o /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/libs/libbib/libbib.a /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/libs/libgroff/libgroff.a   -lm
+Making lookbib.n from lookbib.man
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/utils/lookbib'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/utils/indxbib'
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  indxbib.cpp
+gcc -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  signal.c
+g++ -g -O2  -o indxbib indxbib.o signal.o /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/libs/libbib/libbib.a /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/libs/libgroff/libgroff.a   -lm
+Making indxbib.n from indxbib.man
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/utils/indxbib'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/utils/lkbib'
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  lkbib.cpp
+g++ -g -O2  -o lkbib lkbib.o /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/libs/libbib/libbib.a /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/libs/libgroff/libgroff.a   -lm
+Making lkbib.n from lkbib.man
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/utils/lkbib'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/utils/addftinfo'
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  addftinfo.cpp
+g++ -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  guess.cpp
+g++ -g -O2  -o addftinfo addftinfo.o guess.o /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/libs/libgroff/libgroff.a   
+Making addftinfo.n from addftinfo.man
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/utils/addftinfo'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/utils/pfbtops'
+gcc -I. -I. -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -I/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/include -DHAVE_CONFIG_H -g -O2  -c  pfbtops.c
+g++ -g -O2  -o pfbtops pfbtops.o /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/libs/libgroff/libgroff.a   -lm
+Making pfbtops.n from pfbtops.man
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/utils/pfbtops'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/font/devps'
+rm -f DESC
+cat ./DESC.in >DESC
+echo broken 0 >>DESC
+if test "A4" = A4; then \
+  echo "papersize a4" >>DESC; \
+else \
+  echo "papersize letter" >>DESC; \
+fi
+test -z '' ||	echo print '' >>DESC
+rm -f prologue
+sed -f ./psstrip.sed prologue.ps >prologue
+rm -f symbolsl.pfa
+sed -f ./psstrip.sed symbolsl.ps >symbolsl.pfa
+rm -f zapfdr.pfa
+sed -f ./psstrip.sed zapfdr.ps >zapfdr.pfa
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/font/devps'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/font/devdvi'
+cat ./DESC.in >DESC
+if test "A4" = A4; then \
+  echo "papersize a4" >>DESC; \
+else \
+  echo "papersize letter" >>DESC; \
+fi
+test -z '' || echo print '' >>DESC
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/font/devdvi'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/font/devhtml'
+Making R
+Making I
+Making B
+Making BI
+Making CR
+Making CI
+Making CB
+Making CBI
+Making S
+Making DESC
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/font/devhtml'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/font/devlj4'
+rm -f DESC
+echo "res 1200" >DESC
+echo "unitwidth `expr 7620000 / 1200`" >>DESC
+cat ./DESC.in >>DESC
+if test "A4" = A4; then \
+  echo "papersize a4" >>DESC; \
+else \
+  echo "papersize letter" >>DESC; \
+fi
+test -z '' || echo print '' >>DESC
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/font/devlj4'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/font/devlbp'
+rm -f DESC
+cat ./DESC.in >>DESC
+if test "A4" = A4; then \
+  echo "papersize a4" >>DESC; \
+else \
+  echo "papersize letter" >>DESC; \
+fi
+test -z '' || echo print '' >>DESC
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/font/devlbp'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/font/devascii'
+Making R
+Making I
+Making B
+Making BI
+Making DESC
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/font/devascii'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/font/devlatin1'
+Making R
+Making I
+Making B
+Making BI
+Making DESC
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/font/devlatin1'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/font/devutf8'
+Making R
+Making I
+Making B
+Making BI
+Making DESC
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/font/devutf8'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/man'
+Making groff_font.n from groff_font.man
+Making groff_out.n from groff_out.man
+Making groff_tmac.n from groff_tmac.man
+Making ditroff.n from ditroff.man
+Making groff_char.n from groff_char.man
+Making groff_diff.n from groff_diff.man
+Making groff.n from groff.man
+Making roff.n from roff.man
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/man'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/tmac'
+for f in e.tmac doc.tmac doc-old.tmac doc-common doc-ditroff doc-nroff doc-syms mdoc.local; do \
+  rm -f $f-s; \
+  sed -f ./strip.sed ./$f >$f-s; \
+done
+touch stamp-strip
+if test -n ""; then \
+  for m in ""; do \
+    rm -f $m-wrap; \
+    if test "$m" = an; then \
+      echo .do mso andoc.tmac >>$m-wrap; \
+    fi; \
+    echo .cp 1 >>$m-wrap; \
+    echo .so $m >>$m-wrap; \
+  done; \
+fi
+touch stamp-wrap
+rm -f www.tmac-sed; \
+sed -e "s;@PNMTOPS_NOSETPAGE@;pnmtops;g" \
+  ./www.tmac > www.tmac-sed;
+touch stamp-sed
+Making groff_ms.n from groff_ms.man
+Making groff_man.n from groff_man.man
+Making groff_me.n from groff_me.man
+Making groff_mdoc.n from groff_mdoc.man
+Making groff_trace.n from groff_trace.man
+Making groff_www.n from groff_www.man
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/tmac'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/utils/afmtodit'
+if test -n "/usr/bin/perl"; then \
+  sed -e "s|/usr/bin/perl|/usr/bin/perl|" \
+              -e "s|@VERSION@|1.19.3|" \
+              -e "s|@FONTDIR@|/usr/share/groff/1.19.3/font|" \
+              -e "/@afmtodit.tables@/ r ./afmtodit.tables" \
+              -e "/@afmtodit.tables@/ d" \
+              ./afmtodit.pl >afmtodit; \
+else \
+  sed -e "s|@VERSION@|1.19.3|" \
+              -e "s|@FONTDIR@|/usr/share/groff/1.19.3/font|" \
+              -e "/@afmtodit.tables@/ r ./afmtodit.tables" \
+              -e "/@afmtodit.tables@/ d" \
+              ./afmtodit.pl >afmtodit; \
+fi
+chmod +x afmtodit
+Making afmtodit.n from afmtodit.man
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/utils/afmtodit'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/roff/grog'
+if test -n "/usr/bin/perl" && test -f "/usr/bin/perl" && \
+  "/usr/bin/perl" -e 'require v5.6'; then \
+  echo 'Using the Perl version for grog.'; \
+  sed -f "/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/arch/misc/shdeps.sed" \
+      -e "s|@VERSION@|1.19.3|" \
+      -e "1s/a/a/" \
+              ./grog.pl >grog; \
+else \
+  echo 'Using the shell version for grog.'; \
+  sed -f "/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/arch/misc/shdeps.sed" \
+      -e "s|@g@||g" \
+      -e "s|@EGREP@|/bin/grep -E|g" \
+      -e "s|@VERSION@|1.19.3|" \
+      -e "1s/a/a/" \
+              ./grog.sh >grog; \
+fi
+Using the Perl version for grog.
+chmod +x grog
+Making grog.n from grog.man
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/roff/grog'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/roff/nroff'
+rm -f nroff
+sed -f /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/arch/misc/shdeps.sed \
+-e 1s/a/a/ \
+-e "s|@VERSION@|1.19.3|" ./nroff.sh >nroff
+chmod +x nroff
+Making nroff.n from nroff.man
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/roff/nroff'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/doc'
+makeinfo --enable-encoding -I. ./groff.texinfo
+GROFF_COMMAND_PREFIX=''; export GROFF_COMMAND_PREFIX; GROFF_BIN_PATH=`echo /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/roff/groff /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/roff/troff /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/pic /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/eqn /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/tbl /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/grn /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/refer /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/soelim /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/html /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/devices/grops /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/devices/grohtml | sed -e 's|  *|:|g'`; export GROFF_BIN_PATH; sed -e "s;@VERSION@;1.19.3;" meref.me | /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/roff/groff/groff -M/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/tmac -M/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/tmac -F/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/font -F/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/font -Upet -ww -Tps -ge -me >meref.ps
+GROFF_COMMAND_PREFIX=''; export GROFF_COMMAND_PREFIX; GROFF_BIN_PATH=`echo /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/roff/groff /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/roff/troff /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/pic /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/eqn /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/tbl /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/grn /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/refer /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/soelim /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/html /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/devices/grops /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/devices/grohtml | sed -e 's|  *|:|g'`; export GROFF_BIN_PATH; sed -e "s;@VERSION@;1.19.3;" meintro.me | /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/roff/groff/groff -M/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/tmac -M/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/tmac -F/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/font -F/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/font -Upet -ww -Tps -ge -me >meintro.ps
+GROFF_COMMAND_PREFIX=''; export GROFF_COMMAND_PREFIX; GROFF_BIN_PATH=`echo /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/roff/groff /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/roff/troff /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/pic /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/eqn /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/tbl /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/grn /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/refer /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/soelim /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/html /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/devices/grops /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/devices/grohtml | sed -e 's|  *|:|g'`; export GROFF_BIN_PATH; sed -e "s;@VERSION@;1.19.3;" pic.ms | /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/roff/groff/groff -M/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/tmac -M/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/tmac -F/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/font -F/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/font -Upet -ww -Tps -ms -mwww >pic.ps
+test -f grnexmpl.g || cp ./grnexmpl.g .
+test -f groff.css || cp ./groff.css .
+if test ! -f gnu.eps; then \
+  if test -f ./gnu.eps; then \
+    cp ./gnu.eps .; \
+  elif test -f /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/contrib/pdfmark/gnu.eps; then \
+    cp /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/contrib/pdfmark/gnu.eps .; \
+  fi; \
+fi
+echo timestamp > examples.stamp
+GROFF_COMMAND_PREFIX=''; export GROFF_COMMAND_PREFIX; GROFF_BIN_PATH=`echo /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/roff/groff /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/roff/troff /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/pic /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/eqn /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/tbl /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/grn /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/refer /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/soelim /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/html /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/devices/grops /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/devices/grohtml | sed -e 's|  *|:|g'`; export GROFF_BIN_PATH; sed -e "s;@VERSION@;1.19.3;" webpage.ms | /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/roff/groff/groff -M/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/tmac -M/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/tmac -F/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/font -F/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/font -Upet -ww -Tps -ms -mwww >webpage.ps
+GROFF_COMMAND_PREFIX=''; export GROFF_COMMAND_PREFIX; GROFF_BIN_PATH=`echo /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/roff/groff /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/roff/troff /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/pic /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/eqn /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/tbl /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/grn /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/refer /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/soelim /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/html /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/devices/grops /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/devices/grohtml | sed -e 's|  *|:|g'`; export GROFF_BIN_PATH; sed -e "s;@VERSION@;1.19.3;" grnexmpl.me | /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/roff/groff/groff -M/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/tmac -M/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/tmac -F/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/font -F/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/font -Upet -ww -Tps -ge -me >grnexmpl.ps
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/doc'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/contrib/mm'
+rm -f mmroff
+sed -e 's;/usr/bin/perl;/usr/bin/perl;' ./mmroff.pl >mmroff
+chmod +x mmroff
+Making mmroff.n from mmroff.man
+Making groff_mm.n from groff_mm.man
+Making groff_mmse.n from groff_mmse.man
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/contrib/mm'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/contrib/chem'
+sed -e "s|@g@||g" README.txt >README
+test -d examples || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs examples
+sed -e "s|@g@||g" examples/README.txt >examples/README
+sed -f "/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/arch/misc/shdeps.sed" \
+  -e "s|@g@||g" \
+  -e "s|@BINDIR@|/usr/bin|g" \
+  -e "s|@MACRODIR@|/usr/share/groff/1.19.3/tmac|g" \
+  -e "s|@PICDIR@|/usr/share/groff/1.19.3/pic|g" \
+  -e "s|@VERSION@|1.19.3|g" \
+  -e "1s/a/a/" \
+  ./chem.pl >chem
+chmod +x chem
+Making chem.n from chem.man
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/contrib/chem'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/contrib/pic2graph'
+rm -f pic2graph; \
+sed -e "s|@g@||g" \
+    -e "s|@VERSION@|1.19.3|" \
+    -e 1s/a/a/ ./pic2graph.sh >pic2graph; \
+chmod +x pic2graph
+Making pic2graph.n from pic2graph.man
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/contrib/pic2graph'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/contrib/eqn2graph'
+rm -f eqn2graph; \
+sed -e "s|@g@||g" \
+    -e "s|@VERSION@|1.19.3|" \
+    -e 1s/a/a/ ./eqn2graph.sh >eqn2graph; \
+chmod +x eqn2graph
+Making eqn2graph.n from eqn2graph.man
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/contrib/eqn2graph'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/contrib/grap2graph'
+rm -f grap2graph; \
+sed -e "s|@g@||g" \
+    -e "s|@VERSION@|1.19.3|" \
+    -e 1s/a/a/ ./grap2graph.sh >grap2graph; \
+chmod +x grap2graph
+Making grap2graph.n from grap2graph.man
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/contrib/grap2graph'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/contrib/groffer'
+if perl ./perl/perl_test.pl 2>&1 >/dev/null; then \
+  : >HAVE_PERL; \
+  echo "Using perl version of groffer."; \
+  sed -f "/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/arch/misc/shdeps.sed" \
+            -e "s|@g@||g" \
+    -e "s|@BINDIR@|/usr/bin|g" \
+    -e "s|@libdir@|/usr/lib|g" \
+    -e "s|@VERSION@|1.19.3|g" \
+    -e "1s/a/a/" \
+    ./perl/groffer.pl >groffer; \
+  /usr/bin/install -c -m 644 ./perl/groffer.man groffer.man; \
+  for f in `echo dvi html pdf ps text x | sed 's/[a-z][a-z]*/roff2&/g'`; do \
+    /usr/bin/install -c ./perl/roff2.pl $f; \
+  done; \
+else \
+  : >HAVE_SHELL; \
+  echo "Using shell version of groffer."; \
+  sed -f "/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/arch/misc/shdeps.sed" \
+            -e "s|@g@||g" \
+    -e "s|@BINDIR@|/usr/bin|g" \
+    -e "s|@libdir@|/usr/lib|g" \
+    -e "s|@VERSION@|1.19.3|g" \
+    -e "1s/a/a/" \
+            ./shell/groffer.sh >groffer; \
+  /usr/bin/install -c -m 644 ./shell/groffer.man groffer.man; \
+  for f in `echo dvi html pdf ps text x | sed 's/[a-z][a-z]*/roff2&/g'`; do \
+    /usr/bin/install -c ./shell/roff2.sh $f; \
+  done; \
+fi
+Using perl version of groffer.
+chmod +x groffer
+for m in dvi html pdf ps text x; do \
+  cat ./roff2.man \
+  | sed 's/@ROFF2MODE@/'"$m"'/g' > roff2${m}.man; \
+done
+Making groffer.n from groffer.man
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/contrib/groffer'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/contrib/mom'
+for f in om.tmac; do \
+  rm -f $f-s; \
+  sed -f /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/tmac/strip.sed ./$f >$f-s; \
+done
+touch stamp-strip
+cp ./examples/penguin.ps .
+test -d examples || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs examples
+touch examples/stamp
+GROFF_COMMAND_PREFIX=''; export GROFF_COMMAND_PREFIX; GROFF_BIN_PATH=`echo /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/roff/groff /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/roff/troff /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/devices/grops | sed -e 's|  *|:|g'`; export GROFF_BIN_PATH; /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/roff/groff/groff -F/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/font -F/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/font -M/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/tmac -M/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/tmac -M. -Tps -mom examples/letter.mom >examples/letter.ps
+GROFF_COMMAND_PREFIX=''; export GROFF_COMMAND_PREFIX; GROFF_BIN_PATH=`echo /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/roff/groff /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/roff/troff /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/devices/grops | sed -e 's|  *|:|g'`; export GROFF_BIN_PATH; /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/roff/groff/groff -F/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/font -F/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/font -M/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/tmac -M/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/tmac -M. -Tps -mom examples/sample_docs.mom >examples/sample_docs.ps
+GROFF_COMMAND_PREFIX=''; export GROFF_COMMAND_PREFIX; GROFF_BIN_PATH=`echo /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/roff/groff /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/roff/troff /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/devices/grops | sed -e 's|  *|:|g'`; export GROFF_BIN_PATH; /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/roff/groff/groff -F/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/font -F/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/font -M/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/tmac -M/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/tmac -M. -Tps -mom examples/typesetting.mom >examples/typesetting.ps
+Making groff_mom.n from groff_mom.man
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/contrib/mom'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/contrib/hdtbl'
+if test -f /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/doc/gnu.eps; then \
+  cp /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/doc/gnu.eps . ; \
+elif test -f /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/doc/gnu.eps; then \
+  cp /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/doc/gnu.eps . ; \
+else \
+  xpmtoppm /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/doc/gnu.xpm | pnmdepth 15 | \
+    pnmtops -noturn -rle >gnu.eps ; \
+fi
+test -d examples || /bin/sh /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/mkinstalldirs examples
+touch examples/stamp
+GROFF_COMMAND_PREFIX=''; export GROFF_COMMAND_PREFIX; GROFF_BIN_PATH=`echo /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/roff/groff /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/roff/troff /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/eqn /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/pic /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/tbl /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/devices/grops | sed -e 's|  *|:|g'`; export GROFF_BIN_PATH; /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/roff/groff/groff -F/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/font -F/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/font -M/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/tmac -M/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/tmac -M. -t -p -e -U -Tps -dfontpath=/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/font -mhdtbl examples/chess_board.roff >examples/chess_board.ps
+GROFF_COMMAND_PREFIX=''; export GROFF_COMMAND_PREFIX; GROFF_BIN_PATH=`echo /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/roff/groff /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/roff/troff /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/eqn /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/pic /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/tbl /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/devices/grops | sed -e 's|  *|:|g'`; export GROFF_BIN_PATH; /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/roff/groff/groff -F/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/font -F/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/font -M/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/tmac -M/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/tmac -M. -t -p -e -U -Tps -dfontpath=/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/font -mhdtbl examples/color_boxes.roff >examples/color_boxes.ps
+GROFF_COMMAND_PREFIX=''; export GROFF_COMMAND_PREFIX; GROFF_BIN_PATH=`echo /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/roff/groff /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/roff/troff /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/eqn /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/pic /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/tbl /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/devices/grops | sed -e 's|  *|:|g'`; export GROFF_BIN_PATH; /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/roff/groff/groff -F/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/font -F/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/font -M/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/tmac -M/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/tmac -M. -t -p -e -U -Tps -dfontpath=/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/font -mhdtbl examples/color_nested_tables.roff >examples/color_nested_tables.ps
+GROFF_COMMAND_PREFIX=''; export GROFF_COMMAND_PREFIX; GROFF_BIN_PATH=`echo /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/roff/groff /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/roff/troff /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/eqn /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/pic /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/tbl /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/devices/grops | sed -e 's|  *|:|g'`; export GROFF_BIN_PATH; /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/roff/groff/groff -F/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/font -F/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/font -M/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/tmac -M/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/tmac -M. -t -p -e -U -Tps -dfontpath=/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/font -mhdtbl examples/color_table_cells.roff >examples/color_table_cells.ps
+GROFF_COMMAND_PREFIX=''; export GROFF_COMMAND_PREFIX; GROFF_BIN_PATH=`echo /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/roff/groff /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/roff/troff /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/eqn /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/pic /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/tbl /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/devices/grops | sed -e 's|  *|:|g'`; export GROFF_BIN_PATH; /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/roff/groff/groff -F/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/font -F/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/font -M/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/tmac -M/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/tmac -M. -t -p -e -U -Tps -dfontpath=/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/font -mhdtbl examples/color_transitions.roff >examples/color_transitions.ps
+GROFF_COMMAND_PREFIX=''; export GROFF_COMMAND_PREFIX; GROFF_BIN_PATH=`echo /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/roff/groff /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/roff/troff /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/eqn /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/pic /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/tbl /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/devices/grops | sed -e 's|  *|:|g'`; export GROFF_BIN_PATH; /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/roff/groff/groff -F/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/font -F/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/font -M/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/tmac -M/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/tmac -M. -t -p -e -U -Tps -dfontpath=/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/font -mhdtbl examples/col_rowspan_colors.roff >examples/col_rowspan_colors.ps
+sed -e "s|@fontdir@|/usr/share/groff/1.19.3/font|" examples/fonts_n.in >examples/fonts_n.roff
+GROFF_COMMAND_PREFIX=''; export GROFF_COMMAND_PREFIX; GROFF_BIN_PATH=`echo /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/roff/groff /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/roff/troff /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/eqn /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/pic /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/tbl /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/devices/grops | sed -e 's|  *|:|g'`; export GROFF_BIN_PATH; /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/roff/groff/groff -F/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/font -F/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/font -M/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/tmac -M/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/tmac -M. -t -p -e -U -Tps -dfontpath=/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/font -mhdtbl examples/fonts_n.roff >examples/fonts_n.ps
+sed -e "s|@fontdir@|/usr/share/groff/1.19.3/font|" examples/fonts_x.in >examples/fonts_x.roff
+GROFF_COMMAND_PREFIX=''; export GROFF_COMMAND_PREFIX; GROFF_BIN_PATH=`echo /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/roff/groff /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/roff/troff /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/eqn /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/pic /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/tbl /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/devices/grops | sed -e 's|  *|:|g'`; export GROFF_BIN_PATH; /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/roff/groff/groff -F/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/font -F/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/font -M/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/tmac -M/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/tmac -M. -t -p -e -U -Tps -dfontpath=/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/font -mhdtbl examples/fonts_x.roff >examples/fonts_x.ps
+GROFF_COMMAND_PREFIX=''; export GROFF_COMMAND_PREFIX; GROFF_BIN_PATH=`echo /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/roff/groff /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/roff/troff /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/eqn /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/pic /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/tbl /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/devices/grops | sed -e 's|  *|:|g'`; export GROFF_BIN_PATH; /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/roff/groff/groff -F/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/font -F/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/font -M/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/tmac -M/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/tmac -M. -t -p -e -U -Tps -dfontpath=/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/font -mhdtbl examples/mixed_pickles.roff >examples/mixed_pickles.ps
+GROFF_COMMAND_PREFIX=''; export GROFF_COMMAND_PREFIX; GROFF_BIN_PATH=`echo /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/roff/groff /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/roff/troff /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/eqn /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/pic /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/tbl /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/devices/grops | sed -e 's|  *|:|g'`; export GROFF_BIN_PATH; /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/roff/groff/groff -F/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/font -F/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/font -M/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/tmac -M/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/tmac -M. -t -p -e -U -Tps -dfontpath=/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/font -mhdtbl examples/rainbow.roff >examples/rainbow.ps
+GROFF_COMMAND_PREFIX=''; export GROFF_COMMAND_PREFIX; GROFF_BIN_PATH=`echo /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/roff/groff /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/roff/troff /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/eqn /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/pic /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/preproc/tbl /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/devices/grops | sed -e 's|  *|:|g'`; export GROFF_BIN_PATH; /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/src/roff/groff/groff -F/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/font -F/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/font -M/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/tmac -M/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/tmac -M. -t -p -e -U -Tps -dfontpath=/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/font -mhdtbl examples/short_reference.roff >examples/short_reference.ps
+for f in hdtbl.tmac hdmisc.tmac; do \
+  rm -f $f-s; \
+  sed -f /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/tmac/strip.sed ./$f >$f-s; \
+done
+touch stamp-strip
+Making groff_hdtbl.n from groff_hdtbl.man
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/contrib/hdtbl'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/contrib/pdfmark'
+rm -f pdfroff
+sed -f /home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/arch/misc/shdeps.sed \
+    -e "s|@VERSION@|1.19.3|" \
+    -e "s|@GROFF_AWK_INTERPRETERS@|gawk mawk nawk awk|" \
+    -e "s|@GROFF_GHOSTSCRIPT_INTERPRETERS@|gs gswin32c gsos2|" \
+    -e "s|@GROFF_BIN_DIR@|/usr/bin|" ./pdfroff.sh >pdfroff
+chmod +x pdfroff
+Making pdfroff.n from pdfroff.man
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/contrib/pdfmark'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/contrib/gdiffmk'
+rm -f gdiffmk;						\
+sed -e "s|@BINDIR@|/usr/bin|g"				\
+    -e "s|@VERSION@|1.19.3|g"		\
+    -e 1s/a/a/  ./gdiffmk.sh  >gdiffmk;	\
+chmod +x gdiffmk
+Making gdiffmk.n from gdiffmk.man
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2/contrib/gdiffmk'
+make[2]: Entering directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2'
+make[1]: Leaving directory `/home/kris/svn/packages/groff/groff-1.19.2/unpack/groff-1.19.2'

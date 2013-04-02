@@ -1,0 +1,5 @@
+#!/bin/bash
+
+source configure
+
+# Add any post install stuff here

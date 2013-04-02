@@ -1,0 +1,8 @@
+/bin/sh ./mkinstalldirs ../../pkg/debian/usr/bin ../../pkg/debian/usr/share/man/man1
+mkdir ../../pkg/debian/usr
+mkdir ../../pkg/debian/usr/bin
+mkdir ../../pkg/debian/usr/share
+mkdir ../../pkg/debian/usr/share/man
+mkdir ../../pkg/debian/usr/share/man/man1
+/usr/bin/install -c patch ../../pkg/debian/usr/bin/`echo patch | sed 's,x,x,'`
+/usr/bin/install -c -m 644 ./patch.man ../../pkg/debian/usr/share/man/man1/`echo patch | sed 's,x,x,'`.1

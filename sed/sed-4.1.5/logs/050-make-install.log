@@ -1,0 +1,150 @@
+Making install in intl
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/intl'
+if test "sed" = "gettext" \
+   && test '' = 'intl-compat.o'; then \
+  mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/../../pkg/debian/usr/lib /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/../../pkg/debian/usr/include; \
+  /usr/bin/install -c -m 644 libintl.h /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/../../pkg/debian/usr/include/libintl.h; \
+  @LIBTOOL@ --mode=install \
+    /usr/bin/install -c -m 644 libintl.a /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/../../pkg/debian/usr/lib/libintl.a; \
+else \
+  : ; \
+fi
+if test 'no' = yes; then \
+  test yes != no || mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/../../pkg/debian/usr/lib; \
+  temp=/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/../../pkg/debian/usr/lib/t-charset.alias; \
+  dest=/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/../../pkg/debian/usr/lib/charset.alias; \
+  if test -f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/../../pkg/debian/usr/lib/charset.alias; then \
+    orig=/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/../../pkg/debian/usr/lib/charset.alias; \
+    sed -f ref-add.sed $orig > $temp; \
+    /usr/bin/install -c -m 644 $temp $dest; \
+    rm -f $temp; \
+  else \
+    if test yes = no; then \
+      orig=charset.alias; \
+      sed -f ref-add.sed $orig > $temp; \
+      /usr/bin/install -c -m 644 $temp $dest; \
+      rm -f $temp; \
+    fi; \
+  fi; \
+  mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/../../pkg/debian/usr/share/locale; \
+  test -f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/../../pkg/debian/usr/share/locale/locale.alias \
+    && orig=/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/../../pkg/debian/usr/share/locale/locale.alias \
+    || orig=./locale.alias; \
+  temp=/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/../../pkg/debian/usr/share/locale/t-locale.alias; \
+  dest=/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/../../pkg/debian/usr/share/locale/locale.alias; \
+  sed -f ref-add.sed $orig > $temp; \
+  /usr/bin/install -c -m 644 $temp $dest; \
+  rm -f $temp; \
+else \
+  : ; \
+fi
+if test "sed" = "gettext"; then \
+  mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/../../pkg/debian/usr/share/gettext/intl; \
+  /usr/bin/install -c -m 644 VERSION /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/../../pkg/debian/usr/share/gettext/intl/VERSION; \
+  /usr/bin/install -c -m 644 ChangeLog.inst /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/../../pkg/debian/usr/share/gettext/intl/ChangeLog; \
+  dists="COPYING.LIB-2.0 COPYING.LIB-2.1 Makefile.in config.charset locale.alias ref-add.sin ref-del.sin gmo.h gettextP.h hash-string.h plural-exp.h eval-plural.h os2compat.h libgnuintl.h loadinfo.h bindtextdom.c dcgettext.c dgettext.c gettext.c finddomain.c loadmsgcat.c localealias.c textdomain.c l10nflist.c explodename.c dcigettext.c dcngettext.c dngettext.c ngettext.c plural.y plural-exp.c localcharset.c localename.c osdep.c os2compat.c intl-compat.c"; \
+  for file in $dists; do \
+    /usr/bin/install -c -m 644 ./$file \
+		    /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/../../pkg/debian/usr/share/gettext/intl/$file; \
+  done; \
+  chmod a+x /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/../../pkg/debian/usr/share/gettext/intl/config.charset; \
+  dists="plural.c"; \
+  for file in $dists; do \
+    if test -f $file; then dir=.; else dir=.; fi; \
+    /usr/bin/install -c -m 644 $dir/$file \
+		    /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/../../pkg/debian/usr/share/gettext/intl/$file; \
+  done; \
+  dists="xopen-msg.sed linux-msg.sed po2tbl.sed.in cat-compat.c COPYING.LIB-2 gettext.h libgettext.h plural-eval.c"; \
+  for file in $dists; do \
+    rm -f /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/../../pkg/debian/usr/share/gettext/intl/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/intl'
+Making install in lib
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/lib'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/lib'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/lib'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/lib'
+Making install in po
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/po'
+mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/../../pkg/debian/usr/share
+installing af.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/../../pkg/debian/usr/share/locale/af/LC_MESSAGES/sed.mo
+installing ca.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/../../pkg/debian/usr/share/locale/ca/LC_MESSAGES/sed.mo
+installing cs.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/../../pkg/debian/usr/share/locale/cs/LC_MESSAGES/sed.mo
+installing da.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/../../pkg/debian/usr/share/locale/da/LC_MESSAGES/sed.mo
+installing de.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/../../pkg/debian/usr/share/locale/de/LC_MESSAGES/sed.mo
+installing el.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/../../pkg/debian/usr/share/locale/el/LC_MESSAGES/sed.mo
+installing eo.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/../../pkg/debian/usr/share/locale/eo/LC_MESSAGES/sed.mo
+installing es.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/../../pkg/debian/usr/share/locale/es/LC_MESSAGES/sed.mo
+installing et.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/../../pkg/debian/usr/share/locale/et/LC_MESSAGES/sed.mo
+installing fi.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/../../pkg/debian/usr/share/locale/fi/LC_MESSAGES/sed.mo
+installing fr.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/../../pkg/debian/usr/share/locale/fr/LC_MESSAGES/sed.mo
+installing ga.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/../../pkg/debian/usr/share/locale/ga/LC_MESSAGES/sed.mo
+installing gl.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/../../pkg/debian/usr/share/locale/gl/LC_MESSAGES/sed.mo
+installing he.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/../../pkg/debian/usr/share/locale/he/LC_MESSAGES/sed.mo
+installing hr.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/../../pkg/debian/usr/share/locale/hr/LC_MESSAGES/sed.mo
+installing hu.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/../../pkg/debian/usr/share/locale/hu/LC_MESSAGES/sed.mo
+installing id.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/../../pkg/debian/usr/share/locale/id/LC_MESSAGES/sed.mo
+installing it.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/../../pkg/debian/usr/share/locale/it/LC_MESSAGES/sed.mo
+installing ja.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/../../pkg/debian/usr/share/locale/ja/LC_MESSAGES/sed.mo
+installing ko.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/../../pkg/debian/usr/share/locale/ko/LC_MESSAGES/sed.mo
+installing nl.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/../../pkg/debian/usr/share/locale/nl/LC_MESSAGES/sed.mo
+installing pl.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/../../pkg/debian/usr/share/locale/pl/LC_MESSAGES/sed.mo
+installing pt_BR.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/../../pkg/debian/usr/share/locale/pt_BR/LC_MESSAGES/sed.mo
+installing ro.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/../../pkg/debian/usr/share/locale/ro/LC_MESSAGES/sed.mo
+installing ru.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/../../pkg/debian/usr/share/locale/ru/LC_MESSAGES/sed.mo
+installing sk.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/../../pkg/debian/usr/share/locale/sk/LC_MESSAGES/sed.mo
+installing sl.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/../../pkg/debian/usr/share/locale/sl/LC_MESSAGES/sed.mo
+installing sr.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/../../pkg/debian/usr/share/locale/sr/LC_MESSAGES/sed.mo
+installing sv.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/../../pkg/debian/usr/share/locale/sv/LC_MESSAGES/sed.mo
+installing tr.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/../../pkg/debian/usr/share/locale/tr/LC_MESSAGES/sed.mo
+installing zh_CN.gmo as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/../../pkg/debian/usr/share/locale/zh_CN/LC_MESSAGES/sed.mo
+if test "sed" = "gettext"; then \
+  mkdir -p -- /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/../../pkg/debian/usr/share/gettext/po; \
+  for file in Makefile.in.in Makevars quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot  ; do \
+    /usr/bin/install -c -m 644 ./$file \
+		    /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/../../pkg/debian/usr/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/po'
+Making install in sed
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/sed'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/sed'
+test -z "/bin" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/../../pkg/debian/bin"
+  /usr/bin/install -c 'sed' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/../../pkg/debian/bin/sed'
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/sed'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/sed'
+Making install in doc
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/doc'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/doc'
+make[2]: Nothing to be done for `install-exec-am'.
+test -z "/usr/share/info" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/../../pkg/debian/usr/share/info"
+ /usr/bin/install -c -m 644 './sed.info' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/../../pkg/debian/usr/share/info/sed.info'
+ /usr/bin/install -c -m 644 './sed.info-1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/../../pkg/debian/usr/share/info/sed.info-1'
+ /usr/bin/install -c -m 644 './sed.info-2' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/../../pkg/debian/usr/share/info/sed.info-2'
+ install-info --info-dir='/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/../../pkg/debian/usr/share/info' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/../../pkg/debian/usr/share/info/sed.info'
+test -z "/usr/share/man/man1" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/../../pkg/debian/usr/share/man/man1"
+ /usr/bin/install -c -m 644 './sed.1' '/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/../../pkg/debian/usr/share/man/man1/sed.1'
+test -z "" || mkdir -p -- "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/../../pkg/debian"
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/doc'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/doc'
+Making install in testsuite
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/testsuite'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/testsuite'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/testsuite'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5/testsuite'
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5'
+make[2]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5'
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/sed/sed-4.1.5/unpack/sed-4.1.5'

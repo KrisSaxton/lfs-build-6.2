@@ -1,0 +1,10 @@
+#!/bin/bash
+
+source configure
+
+pushd ../build
+
+../unpack/*/configure --help | ABLog
+
+popd
+

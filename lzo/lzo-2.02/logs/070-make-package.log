@@ -1,0 +1,20 @@
+dpkg-deb: building package `lzo-2.02' in `debian.deb'.
+ new debian package, version 2.0.
+ size 306474 bytes: control archive= 1396 bytes.
+     240 bytes,    10 lines      control              
+     789 bytes,    18 lines      copyright            
+       6 bytes,     1 lines      debian-binary        
+     894 bytes,    38 lines   *  postinst             #!/bin/bash
+     108 bytes,     3 lines   *  postrm               #!/bin/bash
+     111 bytes,     3 lines   *  preinst              #!/bin/bash
+     482 bytes,    17 lines   *  prerm                #!/bin/bash
+ Package: lzo-2.02
+ Version: 2.02
+ Section: unknown
+ Priority: optional
+ Architecture: all
+ Essential: no
+ Depends: aaa-base
+ Maintainer: Aethernet support team [support@aethernet.co.uk]
+ Provides: lzo
+ Description: LZO is a data compression library

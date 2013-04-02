@@ -1,0 +1,13 @@
+#!/bin/bash
+
+source configure
+
+pushd ../unpack/*
+
+make \
+    SBINDIR=/sbin \
+    DESTDIR=$PWD/../../pkg/debian \
+    install \
+    | tee ../../logs/040-make-install.log
+
+popd

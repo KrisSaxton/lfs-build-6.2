@@ -1,0 +1,800 @@
+cd man && make DESTDIR="/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian" install
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/man'
+sh ./../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man
+sh ../edit_man.sh normal installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man . terminfo.5 ./*.[0-9]*
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man5/terminfo.5
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man1/captoinfo.1m
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man1/clear.1
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/curs_add_wch.3x
+.. installing alias add_wch.3x
+.. installing alias echo_wchar.3x
+.. installing alias mvadd_wch.3x
+.. installing alias mvwadd_wch.3x
+.. installing alias wadd_wch.3x
+.. installing alias wecho_wchar.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/curs_add_wchstr.3x
+.. installing alias add_wchnstr.3x
+.. installing alias add_wchstr.3x
+.. installing alias mvadd_wchnstr.3x
+.. installing alias mvadd_wchstr.3x
+.. installing alias mvwadd_wchnstr.3x
+.. installing alias mvwadd_wchstr.3x
+.. installing alias wadd_wchnstr.3x
+.. installing alias wadd_wchstr.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/curs_addch.3x
+.. installing alias addch.3x
+.. installing alias echochar.3x
+.. installing alias mvaddch.3x
+.. installing alias mvwaddch.3x
+.. installing alias waddch.3x
+.. installing alias wechochar.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/curs_addchstr.3x
+.. installing alias addchnstr.3x
+.. installing alias addchstr.3x
+.. installing alias mvaddchnstr.3x
+.. installing alias mvaddchstr.3x
+.. installing alias mvwaddchnstr.3x
+.. installing alias mvwaddchstr.3x
+.. installing alias waddchnstr.3x
+.. installing alias waddchstr.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/curs_addstr.3x
+.. installing alias addnstr.3x
+.. installing alias addstr.3x
+.. installing alias mvaddnstr.3x
+.. installing alias mvaddstr.3x
+.. installing alias mvwaddnstr.3x
+.. installing alias mvwaddstr.3x
+.. installing alias waddnstr.3x
+.. installing alias waddstr.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/curs_addwstr.3x
+.. installing alias addnwstr.3x
+.. installing alias addwstr.3x
+.. installing alias mvaddnwstr.3x
+.. installing alias mvaddwstr.3x
+.. installing alias mvwaddnwstr.3x
+.. installing alias mvwaddwstr.3x
+.. installing alias waddnwstr.3x
+.. installing alias waddwstr.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/curs_attr.3x
+.. installing alias PAIR_NUMBER.3x
+.. installing alias attr_get.3x
+.. installing alias attr_off.3x
+.. installing alias attr_on.3x
+.. installing alias attr_set.3x
+.. installing alias attroff.3x
+.. installing alias attron.3x
+.. installing alias attrset.3x
+.. installing alias chgat.3x
+.. installing alias color_set.3x
+.. installing alias mvchgat.3x
+.. installing alias mvwchgat.3x
+.. installing alias standend.3x
+.. installing alias standout.3x
+.. installing alias wattr_get.3x
+.. installing alias wattr_off.3x
+.. installing alias wattr_on.3x
+.. installing alias wattr_set.3x
+.. installing alias wattroff.3x
+.. installing alias wattron.3x
+.. installing alias wattrset.3x
+.. installing alias wchgat.3x
+.. installing alias wcolor_set.3x
+.. installing alias wstandend.3x
+.. installing alias wstandout.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/curs_beep.3x
+.. installing alias beep.3x
+.. installing alias flash.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/curs_bkgd.3x
+.. installing alias bkgd.3x
+.. installing alias bkgdset.3x
+.. installing alias getbkgd.3x
+.. installing alias wbkgd.3x
+.. installing alias wbkgdset.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/curs_bkgrnd.3x
+.. installing alias bkgrnd.3x
+.. installing alias bkgrndset.3x
+.. installing alias getbkgrnd.3x
+.. installing alias wbkgrnd.3x
+.. installing alias wbkgrndset.3x
+.. installing alias wgetbkgrnd.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/curs_border.3x
+.. installing alias border.3x
+.. installing alias box.3x
+.. installing alias hline.3x
+.. installing alias mvhline.3x
+.. installing alias mvvline.3x
+.. installing alias mvwhline.3x
+.. installing alias mvwvline.3x
+.. installing alias vline.3x
+.. installing alias wborder.3x
+.. installing alias whline.3x
+.. installing alias wvline.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/curs_border_set.3x
+.. installing alias border_set.3x
+.. installing alias box_set.3x
+.. installing alias hline_set.3x
+.. installing alias mvhline_set.3x
+.. installing alias mvvline_set.3x
+.. installing alias mvwhline_set.3x
+.. installing alias mvwvline_set.3x
+.. installing alias vline_set.3x
+.. installing alias wborder_set.3x
+.. installing alias whline_set.3x
+.. installing alias wvline_set.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/curs_clear.3x
+.. installing alias clear.3x
+.. installing alias clrtobot.3x
+.. installing alias clrtoeol.3x
+.. installing alias erase.3x
+.. installing alias wclear.3x
+.. installing alias wclrtobot.3x
+.. installing alias wclrtoeol.3x
+.. installing alias werase.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/curs_color.3x
+.. installing alias COLOR_PAIR.3x
+.. installing alias can_change_color.3x
+.. installing alias color_content.3x
+.. installing alias has_colors.3x
+.. installing alias init_color.3x
+.. installing alias init_pair.3x
+.. installing alias pair_content.3x
+.. installing alias start_color.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/curs_delch.3x
+.. installing alias delch.3x
+.. installing alias mvdelch.3x
+.. installing alias mvwdelch.3x
+.. installing alias wdelch.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/curs_deleteln.3x
+.. installing alias deleteln.3x
+.. installing alias insdelln.3x
+.. installing alias insertln.3x
+.. installing alias wdeleteln.3x
+.. installing alias winsdelln.3x
+.. installing alias winsertln.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/curs_extend.3x
+.. installing alias curses_version.3x
+.. installing alias use_extended_names.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/curs_get_wch.3x
+.. installing alias get_wch.3x
+.. installing alias mvget_wch.3x
+.. installing alias mvwget_wch.3x
+.. installing alias unget_wch.3x
+.. installing alias wget_wch.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/curs_get_wstr.3x
+.. installing alias get_wstr.3x
+.. installing alias getn_wstr.3x
+.. installing alias mvget_wstr.3x
+.. installing alias mvgetn_wstr.3x
+.. installing alias mvwget_wstr.3x
+.. installing alias mvwgetn_wstr.3x
+.. installing alias wget_wstr.3x
+.. installing alias wgetn_wstr.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/curs_getcchar.3x
+.. installing alias getcchar.3x
+.. installing alias setcchar.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/curs_getch.3x
+.. installing alias getch.3x
+.. installing alias has_key.3x
+.. installing alias mvgetch.3x
+.. installing alias mvwgetch.3x
+.. installing alias ungetch.3x
+.. installing alias wgetch.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/curs_getstr.3x
+.. installing alias getnstr.3x
+.. installing alias getstr.3x
+.. installing alias mvgetnstr.3x
+.. installing alias mvgetstr.3x
+.. installing alias mvwgetnstr.3x
+.. installing alias mvwgetstr.3x
+.. installing alias wgetnstr.3x
+.. installing alias wgetstr.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/curs_getyx.3x
+.. installing alias getbegyx.3x
+.. installing alias getmaxyx.3x
+.. installing alias getparyx.3x
+.. installing alias getyx.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/curs_in_wch.3x
+.. installing alias in_wch.3x
+.. installing alias mvin_wch.3x
+.. installing alias mvwin_wch.3x
+.. installing alias win_wch.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/curs_in_wchstr.3x
+.. installing alias in_wchnstr.3x
+.. installing alias in_wchstr.3x
+.. installing alias mvin_wchnstr.3x
+.. installing alias mvin_wchstr.3x
+.. installing alias mvwin_wchnstr.3x
+.. installing alias mvwin_wchstr.3x
+.. installing alias win_wchnstr.3x
+.. installing alias win_wchstr.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/curs_inch.3x
+.. installing alias inch.3x
+.. installing alias mvinch.3x
+.. installing alias mvwinch.3x
+.. installing alias winch.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/curs_inchstr.3x
+.. installing alias inchnstr.3x
+.. installing alias inchstr.3x
+.. installing alias mvinchnstr.3x
+.. installing alias mvinchstr.3x
+.. installing alias mvwinchnstr.3x
+.. installing alias mvwinchstr.3x
+.. installing alias winchnstr.3x
+.. installing alias winchstr.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/curs_initscr.3x
+.. installing alias delscreen.3x
+.. installing alias endwin.3x
+.. installing alias initscr.3x
+.. installing alias isendwin.3x
+.. installing alias newterm.3x
+.. installing alias set_term.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/curs_inopts.3x
+.. installing alias cbreak.3x
+.. installing alias echo.3x
+.. installing alias halfdelay.3x
+.. installing alias intrflush.3x
+.. installing alias keypad.3x
+.. installing alias meta.3x
+.. installing alias nocbreak.3x
+.. installing alias nodelay.3x
+.. installing alias noecho.3x
+.. installing alias noqiflush.3x
+.. installing alias noraw.3x
+.. installing alias notimeout.3x
+.. installing alias qiflush.3x
+.. installing alias raw.3x
+.. installing alias timeout.3x
+.. installing alias typeahead.3x
+.. installing alias wtimeout.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/curs_ins_wch.3x
+.. installing alias ins_wch.3x
+.. installing alias mvins_wch.3x
+.. installing alias mvwins_wch.3x
+.. installing alias wins_wch.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/curs_ins_wstr.3x
+.. installing alias ins_nwstr.3x
+.. installing alias ins_wstr.3x
+.. installing alias mvins_nwstr.3x
+.. installing alias mvins_wstr.3x
+.. installing alias mvwins_nwstr.3x
+.. installing alias mvwins_wstr.3x
+.. installing alias wins_nwstr.3x
+.. installing alias wins_wstr.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/curs_insch.3x
+.. installing alias insch.3x
+.. installing alias mvinsch.3x
+.. installing alias mvwinsch.3x
+.. installing alias winsch.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/curs_insstr.3x
+.. installing alias insnstr.3x
+.. installing alias insstr.3x
+.. installing alias mvinsnstr.3x
+.. installing alias mvinsstr.3x
+.. installing alias mvwinsnstr.3x
+.. installing alias mvwinsstr.3x
+.. installing alias winsnstr.3x
+.. installing alias winsstr.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/curs_instr.3x
+.. installing alias innstr.3x
+.. installing alias instr.3x
+.. installing alias mvinnstr.3x
+.. installing alias mvinstr.3x
+.. installing alias mvwinnstr.3x
+.. installing alias mvwinstr.3x
+.. installing alias winnstr.3x
+.. installing alias winstr.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/curs_inwstr.3x
+.. installing alias innwstr.3x
+.. installing alias inwstr.3x
+.. installing alias mvinnwstr.3x
+.. installing alias mvinwstr.3x
+.. installing alias mvwinnwstr.3x
+.. installing alias mvwinwstr.3x
+.. installing alias winnwstr.3x
+.. installing alias winwstr.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/curs_kernel.3x
+.. installing alias curs_set.3x
+.. installing alias def_prog_mode.3x
+.. installing alias def_shell_mode.3x
+.. installing alias getsyx.3x
+.. installing alias napms.3x
+.. installing alias reset_prog_mode.3x
+.. installing alias reset_shell_mode.3x
+.. installing alias resetty.3x
+.. installing alias ripoffline.3x
+.. installing alias savetty.3x
+.. installing alias setsyx.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/curs_mouse.3x
+.. installing alias getmouse.3x
+.. installing alias mouse_trafo.3x
+.. installing alias mouseinterval.3x
+.. installing alias mousemask.3x
+.. installing alias ungetmouse.3x
+.. installing alias wenclose.3x
+.. installing alias wmouse_trafo.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/curs_move.3x
+.. installing alias move.3x
+.. installing alias wmove.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/curs_outopts.3x
+.. installing alias clearok.3x
+.. installing alias idcok.3x
+.. installing alias idlok.3x
+.. installing alias immedok.3x
+.. installing alias leaveok.3x
+.. installing alias nl.3x
+.. installing alias nonl.3x
+.. installing alias scrollok.3x
+.. installing alias setscrreg.3x
+.. installing alias wsetscrreg.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/curs_overlay.3x
+.. installing alias copywin.3x
+.. installing alias overlay.3x
+.. installing alias overwrite.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/curs_pad.3x
+.. installing alias newpad.3x
+.. installing alias pecho_wchar.3x
+.. installing alias pechochar.3x
+.. installing alias pnoutrefresh.3x
+.. installing alias prefresh.3x
+.. installing alias subpad.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/curs_print.3x
+.. installing alias mcprint.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/curs_printw.3x
+.. installing alias mvprintw.3x
+.. installing alias mvwprintw.3x
+.. installing alias printw.3x
+.. installing alias vw_printw.3x
+.. installing alias vwprintw.3x
+.. installing alias wprintw.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/curs_refresh.3x
+.. installing alias doupdate.3x
+.. installing alias redrawwin.3x
+.. installing alias refresh.3x
+.. installing alias wnoutrefresh.3x
+.. installing alias wredrawln.3x
+.. installing alias wrefresh.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/curs_scanw.3x
+.. installing alias mvscanw.3x
+.. installing alias mvwscanw.3x
+.. installing alias scanw.3x
+.. installing alias vw_scanw.3x
+.. installing alias vwscanw.3x
+.. installing alias wscanw.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/curs_scr_dump.3x
+.. installing alias scr_dump.3x
+.. installing alias scr_init.3x
+.. installing alias scr_restore.3x
+.. installing alias scr_set.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/curs_scroll.3x
+.. installing alias scrl.3x
+.. installing alias scroll.3x
+.. installing alias wscrl.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/curs_slk.3x
+.. installing alias slk_attr.3x
+.. installing alias slk_attr_off.3x
+.. installing alias slk_attr_on.3x
+.. installing alias slk_attr_set.3x
+.. installing alias slk_attroff.3x
+.. installing alias slk_attron.3x
+.. installing alias slk_attrset.3x
+.. installing alias slk_clear.3x
+.. installing alias slk_color.3x
+.. installing alias slk_init.3x
+.. installing alias slk_label.3x
+.. installing alias slk_noutrefresh.3x
+.. installing alias slk_refresh.3x
+.. installing alias slk_restore.3x
+.. installing alias slk_set.3x
+.. installing alias slk_touch.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/curs_termattrs.3x
+.. installing alias baudrate.3x
+.. installing alias erasechar.3x
+.. installing alias erasewchar.3x
+.. installing alias has_ic.3x
+.. installing alias has_il.3x
+.. installing alias killchar.3x
+.. installing alias killwchar.3x
+.. installing alias longname.3x
+.. installing alias term_attrs.3x
+.. installing alias termattrs.3x
+.. installing alias termname.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/curs_termcap.3x
+.. installing alias tgetent.3x
+.. installing alias tgetflag.3x
+.. installing alias tgetnum.3x
+.. installing alias tgetstr.3x
+.. installing alias tgoto.3x
+.. installing alias tputs.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/curs_terminfo.3x
+.. installing alias del_curterm.3x
+.. installing alias mvcur.3x
+.. installing alias putp.3x
+.. installing alias restartterm.3x
+.. installing alias set_curterm.3x
+.. installing alias setterm.3x
+.. installing alias setupterm.3x
+.. installing alias tigetflag.3x
+.. installing alias tigetnum.3x
+.. installing alias tigetstr.3x
+.. installing alias tparm.3x
+.. installing alias tputs.3x
+.. installing alias vid_attr.3x
+.. installing alias vid_puts.3x
+.. installing alias vidattr.3x
+.. installing alias vidputs.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/curs_touch.3x
+.. installing alias is_linetouched.3x
+.. installing alias is_wintouched.3x
+.. installing alias touchline.3x
+.. installing alias touchwin.3x
+.. installing alias untouchwin.3x
+.. installing alias wtouchln.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/curs_trace.3x
+.. installing alias _nc_tracebits.3x
+.. installing alias _traceattr.3x
+.. installing alias _traceattr2.3x
+.. installing alias _tracechar.3x
+.. installing alias _tracechtype.3x
+.. installing alias _tracechtype2.3x
+.. installing alias _tracedump.3x
+.. installing alias _tracef.3x
+.. installing alias _tracemouse.3x
+.. installing alias trace.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/curs_util.3x
+.. installing alias delay_output.3x
+.. installing alias filter.3x
+.. installing alias flushinp.3x
+.. installing alias getwin.3x
+.. installing alias key_name.3x
+.. installing alias keyname.3x
+.. installing alias putwin.3x
+.. installing alias unctrl.3x
+.. installing alias use_env.3x
+.. installing alias wunctrl.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/curs_window.3x
+.. installing alias delwin.3x
+.. installing alias derwin.3x
+.. installing alias dupwin.3x
+.. installing alias mvderwin.3x
+.. installing alias mvwin.3x
+.. installing alias newwin.3x
+.. installing alias subwin.3x
+.. installing alias syncok.3x
+.. installing alias wcursyncup.3x
+.. installing alias wsyncdown.3x
+.. installing alias wsyncup.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/default_colors.3x
+.. installing alias assume_default_colors.3x
+.. installing alias use_default_colors.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/define_key.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/form.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/form_cursor.3x
+.. installing alias pos_form_cursor.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/form_data.3x
+.. installing alias data_ahead.3x
+.. installing alias data_behind.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/form_driver.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/form_field.3x
+.. installing alias field_count.3x
+.. installing alias form_fields.3x
+.. installing alias move_field.3x
+.. installing alias set_form_fields.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/form_field_attributes.3x
+.. installing alias field_back.3x
+.. installing alias field_fore.3x
+.. installing alias field_pad.3x
+.. installing alias set_field_back.3x
+.. installing alias set_field_fore.3x
+.. installing alias set_field_pad.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/form_field_buffer.3x
+.. installing alias field_buffer.3x
+.. installing alias field_status.3x
+.. installing alias set_field_buffer.3x
+.. installing alias set_field_status.3x
+.. installing alias set_max_field.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/form_field_info.3x
+.. installing alias dynamic_field_info.3x
+.. installing alias field_info.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/form_field_just.3x
+.. installing alias field_just.3x
+.. installing alias set_field_just.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/form_field_new.3x
+.. installing alias dup_field.3x
+.. installing alias free_field.3x
+.. installing alias link_field.3x
+.. installing alias new_field.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/form_field_opts.3x
+.. installing alias field_opts.3x
+.. installing alias field_opts_off.3x
+.. installing alias field_opts_on.3x
+.. installing alias set_field_opts.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/form_field_userptr.3x
+.. installing alias field_userptr.3x
+.. installing alias set_field_userptr.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/form_field_validation.3x
+.. installing alias field_arg.3x
+.. installing alias field_type.3x
+.. installing alias set_field_type.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/form_fieldtype.3x
+.. installing alias free_fieldtype.3x
+.. installing alias link_fieldtype.3x
+.. installing alias new_fieldtype.3x
+.. installing alias set_fieldtype_arg.3x
+.. installing alias set_fieldtype_choice.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/form_hook.3x
+.. installing alias field_init.3x
+.. installing alias field_term.3x
+.. installing alias form_init.3x
+.. installing alias form_term.3x
+.. installing alias set_field_init.3x
+.. installing alias set_field_term.3x
+.. installing alias set_form_init.3x
+.. installing alias set_form_term.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/form_new.3x
+.. installing alias free_form.3x
+.. installing alias new_form.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/form_new_page.3x
+.. installing alias new_page.3x
+.. installing alias set_new_page.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/form_opts.3x
+.. installing alias form_opts_off.3x
+.. installing alias form_opts_on.3x
+.. installing alias set_form_opts.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/form_page.3x
+.. installing alias current_field.3x
+.. installing alias field_index.3x
+.. installing alias set_current_field.3x
+.. installing alias set_form_page.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/form_post.3x
+.. installing alias post_form.3x
+.. installing alias unpost_form.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/form_requestname.3x
+.. installing alias form_request_by_name.3x
+.. installing alias form_request_name.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/form_userptr.3x
+.. installing alias set_form_userptr.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/form_win.3x
+.. installing alias form_sub.3x
+.. installing alias scale_form.3x
+.. installing alias set_form_sub.3x
+.. installing alias set_form_win.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man1/infocmp.1m
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man1/infotocap.1m
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/key_defined.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/keybound.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/keyok.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/menu.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/menu_attributes.3x
+.. installing alias menu_back.3x
+.. installing alias menu_fore.3x
+.. installing alias menu_grey.3x
+.. installing alias menu_pad.3x
+.. installing alias set_menu_back.3x
+.. installing alias set_menu_fore.3x
+.. installing alias set_menu_grey.3x
+.. installing alias set_menu_pad.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/menu_cursor.3x
+.. installing alias pos_menu_cursor.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/menu_driver.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/menu_format.3x
+.. installing alias set_menu_format.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/menu_hook.3x
+.. installing alias item_init.3x
+.. installing alias item_term.3x
+.. installing alias menu_init.3x
+.. installing alias menu_term.3x
+.. installing alias set_item_init.3x
+.. installing alias set_item_term.3x
+.. installing alias set_menu_init.3x
+.. installing alias set_menu_term.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/menu_items.3x
+.. installing alias item_count.3x
+.. installing alias set_menu_items.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/menu_mark.3x
+.. installing alias set_menu_mark.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/menu_new.3x
+.. installing alias free_menu.3x
+.. installing alias new_menu.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/menu_opts.3x
+.. installing alias menu_opts_off.3x
+.. installing alias menu_opts_on.3x
+.. installing alias set_menu_opts.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/menu_pattern.3x
+.. installing alias set_menu_pattern.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/menu_post.3x
+.. installing alias post_menu.3x
+.. installing alias unpost_menu.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/menu_requestname.3x
+.. installing alias menu_request_by_name.3x
+.. installing alias menu_request_name.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/menu_spacing.3x
+.. installing alias set_menu_spacing.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/menu_userptr.3x
+.. installing alias set_menu_userptr.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/menu_win.3x
+.. installing alias menu_sub.3x
+.. installing alias scale_menu.3x
+.. installing alias set_menu_sub.3x
+.. installing alias set_menu_win.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/mitem_current.3x
+.. installing alias current_item.3x
+.. installing alias item_index.3x
+.. installing alias set_current_item.3x
+.. installing alias set_top_row.3x
+.. installing alias top_row.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/mitem_name.3x
+.. installing alias item_description.3x
+.. installing alias item_name.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/mitem_new.3x
+.. installing alias free_item.3x
+.. installing alias new_item.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/mitem_opts.3x
+.. installing alias item_opts.3x
+.. installing alias item_opts_off.3x
+.. installing alias item_opts_on.3x
+.. installing alias set_item_opts.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/mitem_userptr.3x
+.. installing alias item_userptr.3x
+.. installing alias set_item_userptr.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/mitem_value.3x
+.. installing alias item_value.3x
+.. installing alias set_item_value.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/mitem_visible.3x
+.. installing alias item_visible.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/ncurses.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/panel.3x
+.. installing alias bottom_panel.3x
+.. installing alias del_panel.3x
+.. installing alias hide_panel.3x
+.. installing alias move_panel.3x
+.. installing alias new_panel.3x
+.. installing alias panel_above.3x
+.. installing alias panel_below.3x
+.. installing alias panel_hidden.3x
+.. installing alias panel_userptr.3x
+.. installing alias panel_window.3x
+.. installing alias replace_panel.3x
+.. installing alias set_panel_userptr.3x
+.. installing alias show_panel.3x
+.. installing alias top_panel.3x
+.. installing alias update_panels.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/resizeterm.3x
+.. installing alias is_term_resized.3x
+.. installing alias resize_term.3x
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man5/term.5
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man7/term.7
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man5/terminfo.5
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man1/tic.1m
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man1/toe.1m
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man1/tput.1
+.. installing alias reset.1
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man1/tset.1
+.. installing alias reset.1
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man3/wresize.3x
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/man'
+cd include && make DESTDIR="/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian" install
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/include'
+sh ./../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/include
+installing term.h in /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/include
+installing curses.h in /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/include
+installing unctrl.h in /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/include
+installing termcap.h in /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/include
+installing ./ncurses_dll.h in /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/include
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/include'
+cd ncurses && make DESTDIR="/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian" install
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/ncurses'
+sh ./../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/lib
+installing ../lib/libncursesw.so.5.5 as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/lib/libncursesw.so.5.5
+/usr/bin/install -c -m 644 ../lib/libncursesw.so.5.5 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/lib/libncursesw.so.5.5
+cd /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/lib && (rm -f libncursesw.so.5; ln -s libncursesw.so.5.5 libncursesw.so.5; rm -f libncursesw.so; ln -s libncursesw.so.5 libncursesw.so; )
+linking libncursesw.so.5.5 to libcursesw.so
+cd /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/lib && (rm -f libcursesw.so; ln -s libncursesw.so.5.5 libcursesw.so; )
+test -z "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian" && /sbin/ldconfig
+installing ../lib/libncursesw.a as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/lib/libncursesw.a
+/usr/bin/install -c -m 644 ../lib/libncursesw.a /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/lib/libncursesw.a
+ranlib /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/lib/libncursesw.a
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/ncurses'
+cd progs && make DESTDIR="/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian" install
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/progs'
+sh ./../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/bin
+/usr/bin/install -c tic     /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/bin/`echo tic|       sed 's/$//'|sed 's,x,x,'|sed 's/$//'`
+/usr/bin/install -c toe     /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/bin/`echo toe|       sed 's/$//'|sed 's,x,x,'|sed 's/$//'`
+linking infotocap to tic
+(cd /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/bin && ln -s `echo tic|       sed 's/$//'|sed 's,x,x,'|sed 's/$//'` `echo infotocap| sed 's/$//'|sed 's,x,x,'|sed 's/$//'`)
+linking captoinfo to tic
+(cd /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/bin && ln -s `echo tic|       sed 's/$//'|sed 's,x,x,'|sed 's/$//'` `echo captoinfo| sed 's/$//'|sed 's,x,x,'|sed 's/$//'`)
+/usr/bin/install -c infocmp /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/bin/`echo infocmp|   sed 's/$//'|sed 's,x,x,'|sed 's/$//'`
+/usr/bin/install -c clear   /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/bin/`echo clear|     sed 's/$//'|sed 's,x,x,'|sed 's/$//'`
+/usr/bin/install -c tput    /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/bin/`echo tput|      sed 's/$//'|sed 's,x,x,'|sed 's/$//'`
+/usr/bin/install -c tset    /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/bin/`echo tset|      sed 's/$//'|sed 's,x,x,'|sed 's/$//'`
+linking reset to tset
+(cd /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/bin && ln -s `echo tset|      sed 's/$//'|sed 's,x,x,'|sed 's/$//'` `echo reset|     sed 's/$//'|sed 's,x,x,'|sed 's/$//'`)
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/progs'
+cd tack && make DESTDIR="/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian" install
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/tack'
+/usr/bin/install -c tack /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/bin/tack
+sh ../edit_man.sh normal installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man . ./*.[0-9]*
+installing /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/man/man1/tack.1
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/tack'
+cd panel && make DESTDIR="/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian" install
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/panel'
+installing ../lib/libpanelw.so.5.5 as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/lib/libpanelw.so.5.5
+/usr/bin/install -c -m 644 ../lib/libpanelw.so.5.5 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/lib/libpanelw.so.5.5
+cd /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/lib && (rm -f libpanelw.so.5; ln -s libpanelw.so.5.5 libpanelw.so.5; rm -f libpanelw.so; ln -s libpanelw.so.5 libpanelw.so; )
+test -z "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian" && /sbin/ldconfig
+installing ../lib/libpanelw.a as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/lib/libpanelw.a
+/usr/bin/install -c -m 644 ../lib/libpanelw.a /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/lib/libpanelw.a
+ranlib /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/lib/libpanelw.a
+installing ./panel.h in /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/include
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/panel'
+cd menu && make DESTDIR="/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian" install
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/menu'
+installing ../lib/libmenuw.so.5.5 as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/lib/libmenuw.so.5.5
+/usr/bin/install -c -m 644 ../lib/libmenuw.so.5.5 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/lib/libmenuw.so.5.5
+cd /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/lib && (rm -f libmenuw.so.5; ln -s libmenuw.so.5.5 libmenuw.so.5; rm -f libmenuw.so; ln -s libmenuw.so.5 libmenuw.so; )
+test -z "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian" && /sbin/ldconfig
+installing ../lib/libmenuw.a as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/lib/libmenuw.a
+/usr/bin/install -c -m 644 ../lib/libmenuw.a /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/lib/libmenuw.a
+ranlib /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/lib/libmenuw.a
+installing ./eti.h in /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/include
+installing ./menu.h in /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/include
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/menu'
+cd form && make DESTDIR="/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian" install
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/form'
+installing ../lib/libformw.so.5.5 as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/lib/libformw.so.5.5
+/usr/bin/install -c -m 644 ../lib/libformw.so.5.5 /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/lib/libformw.so.5.5
+cd /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/lib && (rm -f libformw.so.5; ln -s libformw.so.5.5 libformw.so.5; rm -f libformw.so; ln -s libformw.so.5 libformw.so; )
+test -z "/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian" && /sbin/ldconfig
+installing ../lib/libformw.a as /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/lib/libformw.a
+/usr/bin/install -c -m 644 ../lib/libformw.a /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/lib/libformw.a
+ranlib /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/lib/libformw.a
+installing ./form.h in /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/include
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/form'
+cd test && make DESTDIR="/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian" install
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/test'
+make[1]: Nothing to be done for `install'.
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/test'
+cd misc && make DESTDIR="/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian" install
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/misc'
+sh ../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/terminfo
+sh ../mkinstalldirs /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/tabset
+DESTDIR=/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian \
+prefix=/usr \
+exec_prefix=/usr \
+bindir=/usr/bin \
+top_srcdir=.. \
+srcdir=. \
+datadir=/usr/share \
+ticdir=/usr/share/terminfo \
+source=terminfo.tmp \
+THIS_CC="gcc" \
+THAT_CC="gcc" \
+sh ./run_tic.sh
+** Building terminfo database, please wait...
+Running tic to install /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/terminfo ...
+
+	You may see messages regarding extended capabilities, e.g., AX.
+	These are extended terminal capabilities which are compiled
+	using
+		tic -x
+	If you have ncurses 4.2 applications, you should read the INSTALL
+	document, and install the terminfo without the -x option.
+
+** built new /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/share/terminfo
+** sym-linked /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/lib/terminfo for compatibility
+installing std
+installing stdcrt
+installing vt100
+installing vt300
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/misc'
+cd c++ && make DESTDIR="/usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian" install
+make[1]: Entering directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/c++'
+/usr/bin/install -c ../lib/libncurses++w.a /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/lib/libncurses++w.a
+installing ./cursesapp.h in /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/include
+installing ./cursesf.h in /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/include
+installing ./cursesm.h in /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/include
+installing ./cursesp.h in /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/include
+installing ./cursesw.h in /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/include
+installing ./cursslk.h in /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/include
+installing etip.h in /usr/local/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/../../pkg/debian/usr/include
+make[1]: Leaving directory `/mnt/sda1/aethernet/subversion/checkout/main/trunk/autobuild/packages/ncurses/ncurses-5.5/unpack/ncurses-5.5/c++'

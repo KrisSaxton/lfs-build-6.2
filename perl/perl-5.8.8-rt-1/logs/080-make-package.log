@@ -1,0 +1,20 @@
+dpkg-deb: building package `perl-5.8.8-rt-1' in `debian.deb'.
+ new debian package, version 2.0.
+ size 11628258 bytes: control archive= 984 bytes.
+     263 bytes,    10 lines      control              
+     789 bytes,    18 lines      copyright            
+       6 bytes,     1 lines      debian-binary        
+     110 bytes,     3 lines   *  postinst             #!/bin/bash
+     108 bytes,     3 lines   *  postrm               #!/bin/bash
+     111 bytes,     3 lines   *  preinst              #!/bin/bash
+     109 bytes,     3 lines   *  prerm                #!/bin/bash
+ Package: perl-5.8.8-rt-1
+ Version: 5.8.8-rt-1
+ Section: unknown
+ Priority: required
+ Architecture: all
+ Essential: no
+ Depends: aaa-base
+ Maintainer: Aethernet support team [support@aethernet.co.uk]
+ Provides: perl
+ Description: The Pathalogically Eclectic Rubbish Lister
